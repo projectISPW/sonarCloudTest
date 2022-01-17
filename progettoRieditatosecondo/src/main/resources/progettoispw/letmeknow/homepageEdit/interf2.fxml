@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css">
+            <children>
+                <TextField layoutX="632.0" layoutY="104.0" prefHeight="32.0" prefWidth="553.0" styleClass="search" />
+                <TextField layoutX="126.0" layoutY="534.0" prefHeight="143.0" prefWidth="372.0" promptText="i want to be a better person" styleClass="textField">
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </TextField>
+                <TextField layoutX="135.0" layoutY="413.0" prefHeight="25.0" prefWidth="329.0" promptText="#Calm#honest#creative" />
+                <FontAwesomeIcon fill="#387effb2" glyphName="SEARCH" layoutX="1151.0" layoutY="127.0" size="20" text="" />
+                <TextField layoutX="135.0" layoutY="496.0" prefHeight="31.0" prefWidth="220.0" promptText="#character" styleClass="textHomePage" />
+                <Button layoutX="655.0" layoutY="166.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="512.0" text="FORM 1">
+                    <styleClass>
+                        <String fx:value="Button" />
+                        <String fx:value="textSubFormTitle" />
+                    </styleClass>
+                </Button>
+                <FontAwesomeIcon fill="WHITE" glyphName="SAVE" size="30" />
+                <Button layoutX="655.0" layoutY="247.0" mnemonicParsing="false" opacity="0.75" prefHeight="52.0" prefWidth="512.0" text="FORM 2">
+                    <styleClass>
+                        <String fx:value="Button" />
+                        <String fx:value="textSubFormTitle" />
+                    </styleClass>
+                </Button>
+                <Button layoutX="655.0" layoutY="344.0" mnemonicParsing="false" opacity="0.5" prefHeight="52.0" prefWidth="512.0" text="FORM 3">
+                    <styleClass>
+                        <String fx:value="Button" />
+                        <String fx:value="textSubFormTitle" />
+                    </styleClass>
+                </Button>
+                <ImageView fitHeight="229.0" fitWidth="382.0" layoutX="1029.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+
+                </ImageView>
+                <Hyperlink layoutX="845.0" layoutY="428.0" style="-fx-font-size: 25;" styleClass="hiperlink_signup" text="take a form ">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Hyperlink>
+                <ImageView fx:id="Sl12" fitHeight="81.0" fitWidth="211.0" layoutX="320.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val2.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="Sl21" fitHeight="70.0" fitWidth="214.0" layoutX="321.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val3.png" />
+                    </image>
+                </ImageView>
+                <Circle fill="#8290f1" layoutX="53.0" layoutY="70.0" radius="30.0" stroke="WHITE" strokeType="INSIDE" />
+                <FontAwesomeIcon fill="#fffefe" glyphName="USERS" layoutX="32.0" layoutY="84.0" size="40" text="" wrappingWidth="28.38747485632939" />
+                <Button layoutX="19.0" layoutY="142.0" mnemonicParsing="false" styleClass="Label" textFill="WHITE">
+                    <graphic>
+                        <FontAwesomeIcon fill="#0059ff" glyphName="PAPER_PLANE" opacity="0.5" size="30" text="" />
+                    </graphic>
+                </Button>
+                <Button layoutX="17.0" layoutY="214.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+                    <graphic>
+                        <FontAwesomeIcon fill="#0059ff" glyphName="HOME" opacity="0.5" size="40" text="" />
+                    </graphic>
+                </Button>
+                <Button layoutX="19.0" layoutY="280.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+                    <graphic>
+                        <FontAwesomeIcon fill="#0059ff" glyphName="SLIDERS" opacity="0.5" size="40" text="" />
+                    </graphic>
+                </Button>
+                <Button layoutX="20.0" layoutY="358.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="53.0" styleClass="Label" textFill="WHITE">
+                    <graphic>
+                        <FontAwesomeIcon fill="#0059ff91" glyphName="COG" size="40" text="" />
+                    </graphic>
+                </Button>
+                <Button layoutX="20.0" layoutY="442.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="27.0" styleClass="Label" textFill="WHITE">
+                    <graphic>
+                        <FontAwesomeIcon fill="#0059ff9f" glyphName="SEARCH" size="40" text="" wrappingWidth="40.0">
+                            <effect>
+                                <Lighting>
+                                    <bumpInput>
+                                        <Shadow />
+                                    </bumpInput>
+                                    <light>
+                                        <Light.Distant />
+                                    </light>
+                                </Lighting>
+                            </effect>
+                        </FontAwesomeIcon>
+                    </graphic>
+                </Button>
+                <Line endX="350.0" endY="-154.0" layoutX="-248.0" layoutY="153.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
+                <Text layoutX="133.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFILE">
+                    <font>
+                        <Font size="40.0" />
+                    </font>
+                </Text>
+                <Circle fill="#8290f1" layoutX="1354.0" layoutY="63.0" radius="30.0" stroke="WHITE" strokeType="INSIDE" />
+                <FontAwesomeIcon fill="#fff6f6" glyphName="USER" layoutX="1338.0" layoutY="77.0" size="40" text="" wrappingWidth="35.19999999999993" />
+                <Text layoutX="1139.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER #7689876">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text fill="#0059ff" layoutX="135.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empathy">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Text>
+                <Text fill="#0059ff" layoutX="138.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Humor">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Text>
+                <Text fill="#0059ff" layoutX="136.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Positivity">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Text>
+                <ImageView fx:id="Sl11" fitHeight="81.0" fitWidth="211.0" layoutX="322.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@photo/val2.png" />
+                    </image>
+                </ImageView>
+                <Text layoutX="133.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personality Traits:">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Text>
+                <Text layoutX="135.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Work On :" wrappingWidth="211.39027404785156" />
+                <Line endX="350.0" endY="-154.0" layoutX="234.0" layoutY="151.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
+                <TextField layoutX="391.0" layoutY="680.0" prefHeight="25.0" prefWidth="82.0" promptText="21/10/2021" />
+                <Button layoutX="229.0" layoutY="696.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="135.0" style="-fx-font-size: 18px;" styleClass="Button" text="Save Profile" textFill="#f2f2f2">
+                    <padding>
+                        <Insets right="30.0" />
+                    </padding>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

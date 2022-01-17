@@ -1,0 +1,10 @@
+
+B
+java:S1125"'Remove the unnecessary boolean literal.(˜ÈÊ±ÿÿÿÿÿ
+\
+java:S1128"?Remove this unused import 'javafx.scene.control.PasswordField'.(êú´Ë8î¤ì–æ/
+R
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8î¤ì–æ/
+E
+java:S5411"*Use the primitive boolean expression here.(˜ÈÊ±ÿÿÿÿÿ

@@ -1,0 +1,24 @@
+
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¤½τ΄ÿÿÿÿÿ8µ§υνε/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ψ¦…§ÿÿÿÿÿ8Ή§υνε/
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¤½τ΄ÿÿÿÿÿ8Ί§υνε/
+S
+java:S1117,"6Rename "sql" which hides the field declared at line 8.(ς·ΪΎ8Α§υνε/
+X
+java:S11174"6Rename "sql" which hides the field declared at line 8.(Α¦Πωÿÿÿÿ8Δ§υνε/
+S
+java:S1117<"6Rename "sql" which hides the field declared at line 8.(ªΟϊγ8Η§υνε/
+U	java:S106="9Replace this use of System.out or System.err by a logger.(Β–‘φ8Ι§υνε/
+X
+java:S1117E"6Rename "sql" which hides the field declared at line 8.(Ι‹όλÿÿÿÿÿ8Λ§υνε/
+s
+java:S3457E"Q%n should be used in place of \n to produce the platform-specific line separator.(Ι‹όλÿÿÿÿÿ8Μ§υνε/
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ρΞ¶“ϋÿÿÿÿ8Ρ§υνε/
+S
+java:S1117O"6Rename "sql" which hides the field declared at line 8.(ί±θΨ8Ò§υνε/
+n
+java:S3457O"Q%n should be used in place of \n to produce the platform-specific line separator.(ί±θΨ8Σ§υνε/
+S
+java:S1117Y"6Rename "sql" which hides the field declared at line 8.(½½ό—8Υ§υνε/

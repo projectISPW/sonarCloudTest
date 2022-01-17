@@ -1,0 +1,38 @@
+
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ôÏëù
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Ë¼»üÿÿÿÿ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(íã¦“øÿÿÿÿ
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÂâëÀ
+€
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¯Æã©øÿÿÿÿ
+{
+java:S1149 "eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ëÒÕù
+€
+java:S1149/"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Œ£şÿÿÿÿÿ
+z
+java:S11493"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÈS
+€
+java:S11496"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Õˆ¡¿üÿÿÿÿ
+{
+java:S1149L"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(šß“
+{
+java:S1149o"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¦Ÿ
+z
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Õ¶Ç_
+|
+java:S1149‚"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¾¶áö
+<
+java:S1125:"'Remove the unnecessary boolean literal.(ñ€Ü@
+Q	java:S125<"<This block of commented-out lines of code should be removed.(â¤„Ù
+V	java:S125V"<This block of commented-out lines of code should be removed.(ù¥ÛÅùÿÿÿÿ
+A
+java:S1168\"+Return an empty collection instead of null.(¥¹ï
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(ÄÇ¤¹ÿÿÿÿÿ
+o
+java:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í©±
+2
+java:S1700"Rename field "messages"(Ë¼»üÿÿÿÿ
