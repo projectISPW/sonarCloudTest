@@ -1,0 +1,272 @@
+
+]progettoispw.letmeknow.controller.utentiPsy.Form#getSum(Ljava/util/Vector;)Ljava/util/Vector;Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java8 8("16*⁄
+2Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaC C(–
+Õ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaC C(8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form"__id*
+""Û
+
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaC C(8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form"
+__arrayGet*
+
+inputjava.util.Vector*
+""*
+14
+1*°
+14Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaD D(õò
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaD D("	
+%5int"=progettoispw.letmeknow.controller.utentiPsy.Form#getFormid()I*:
+8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form2getFormid()π∂
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaE E(
+%6java.lang.String"Nprogettoispw.letmeknow.controller.utentiPsy.Form#getUserid()Ljava/lang/String;*:
+8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form2getUserid()¿
+Ω
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaE E(
+idjava.lang.String"__id*
+
+%6java.lang.String†ù
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaF F('
+%7int[]"?progettoispw.letmeknow.controller.utentiPsy.Form#getAnswers()[I*:
+8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form2getAnswers()±
+Æ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaG G(
+%8java.io.PrintStream"__id*
+""Ê„
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaG G(#
+
+%9void"java.io.PrintStream#println(I)V*
+
+%8java.io.PrintStream*
+""2
+println(I)Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaH H(
+injava.lang.Boolean"__id*
+""*
+9
+11*¿
+3Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaW W(≤
+Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaW W(
+%24java.io.PrintStream"__id*
+""Œ
+À
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaW# W(>
+%25java.lang.String"__concat*
+i am insert with val *
+""ùö
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaW W(?
+%26void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%24java.io.PrintStream*
+
+%25java.lang.String2println(Ljava/lang/String;)√¿
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaX X(6
+%27java.util.Vector"rprogettoispw.letmeknow.controller.utentiPsy.Form#attach(I[ILjava/lang/String;Ljava/util/Vector;)Ljava/util/Vector;*42
+0progettoispw.letmeknow.controller.utentiPsy.Form*
+""*
+""*
+
+idjava.lang.String*
+
+innerjava.util.Vector2/attach(I[ILjava/lang/String;Ljava/util/Vector;)ƒ
+¡
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaX X(6
+innerjava.util.Vector"__id*
+
+%27java.util.Vector*
+2*ª
+4Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaU U(´®
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaU U((
+%23void"@progettoispw.letmeknow.controller.utentiPsy.Form#setAnswers([I)V*:
+8
+form0progettoispw.letmeknow.controller.utentiPsy.Form*
+""2setAnswers([I)*
+2*ß
+16Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java9 9(±
+Æ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java9 9(
+%0java.io.PrintStream"__id*
+""êç
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java9 9((
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+i am here 2println(Ljava/lang/String;)≤Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java=! =()
+%2java.util.Vector"java.util.Vectorƒ
+¡
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java= =(+
+%3"java.util.Vector#<init>()V*
+
+%2java.util.Vector√
+¿
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java= =(,
+innerjava.util.Vector"__id*
+
+%2java.util.Vector–
+Õ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java> >(8
+form0progettoispw.letmeknow.controller.utentiPsy.Form"__id*
+""Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java? ?(
+injava.lang.Boolean"__id*
+""Æ
+´
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaA A(
+idjava.lang.String"__id*
+""◊‘
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaB B(
+
+%4void"Oprogettoispw.letmeknow.controller.utentiPsy.Form#getStatus(Ljava/util/Vector;)V*42
+0progettoispw.letmeknow.controller.utentiPsy.Form*
+
+inputjava.util.Vector2getStatus(Ljava/util/Vector;)*
+2*é
+8Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaL L(≤
+Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaL L(
+%13java.io.PrintStream"__id*
+""œ
+Ã
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaL# L(?
+%14java.lang.String"__concat*
+i am discard with val *
+""ùö
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaL L(@
+%15void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%13java.io.PrintStream*
+
+%14java.lang.String2println(Ljava/lang/String;)ª∏
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaM M()7
+%160progettoispw.letmeknow.controller.utentiPsy.Form"progettoispw.letmeknow.controller.utentiPsy.Form#getElem(Ljava/util/Vector;I)Lprogettoispw/letmeknow/controller/utentiPsy/Form;*42
+0progettoispw.letmeknow.controller.utentiPsy.Form*
+
+innerjava.util.Vector*
+""2getElem(Ljava/util/Vector;I)É
+Ä
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaM M()8
+form0progettoispw.letmeknow.controller.utentiPsy.Form"__id*9
+7
+%160progettoispw.letmeknow.controller.utentiPsy.Form≤
+Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaN N(
+%17java.io.PrintStream"__id*
+""±Æ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaN N(O
+%18void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%17java.io.PrintStream*-+
+)*****************************************2println(Ljava/lang/String;)ùö
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaO O( 
+%19void"=progettoispw.letmeknow.controller.utentiPsy.Form#getStatus()V*:
+8
+form0progettoispw.letmeknow.controller.utentiPsy.Form2getStatus()≤
+Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaP P(
+%20java.io.PrintStream"__id*
+""±Æ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaP P(O
+%21void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%20java.io.PrintStream*-+
+)*****************************************2println(Ljava/lang/String;)°û
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaQ! Q(2
+%22int[]"?progettoispw.letmeknow.controller.utentiPsy.Form#getAnswers()[I*:
+8
+form0progettoispw.letmeknow.controller.utentiPsy.Form2getAnswers()*
+4*¢
+9Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaJ J(≤
+Ø
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaJ J(
+%10java.io.PrintStream"__id*
+""∫∑
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaJ J(/
+%11java.lang.String"Nprogettoispw.letmeknow.controller.utentiPsy.Form#getUserid()Ljava/lang/String;*:
+8
+elem0progettoispw.letmeknow.controller.utentiPsy.Form2getUserid()ùö
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaJ J(0
+%12void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%10java.io.PrintStream*
+
+%11java.lang.String2println(Ljava/lang/String;)*
+3
+8*ƒ
+11Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaI1 I(5Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.javaI, I(5
+injava.lang.Boolean"__id*
+""*
+9
+11*à
+1Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java\ \(ÿ’
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java\ \(
+%28void"Oprogettoispw.letmeknow.controller.utentiPsy.Form#getStatus(Ljava/util/Vector;)V*42
+0progettoispw.letmeknow.controller.utentiPsy.Form*
+
+innerjava.util.Vector2getStatus(Ljava/util/Vector;)"¢
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java] ](
+
+innerjava.util.Vector:
+inputjava.util.VectorB42
+0progettoispw.letmeknow.controller.utentiPsy.Form

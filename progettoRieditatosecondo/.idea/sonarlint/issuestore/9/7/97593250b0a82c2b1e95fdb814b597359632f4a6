@@ -1,0 +1,30 @@
+
+[
+java:S1659"@Declare "sl2" and all following declarations on a separate line.(õëÆ÷ùÿÿÿÿ
+[
+java:S1659"@Declare "lb2" and all following declarations on a separate line.(•”œïþÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ÌËœ¶ùÿÿÿÿ
+B
+java:S1125D"'Remove the unnecessary boolean literal.(Ï‡Þžÿÿÿÿÿ
+<
+java:S1125I"'Remove the unnecessary boolean literal.(‡ÔÆ&
+=
+java:S1125T"'Remove the unnecessary boolean literal.(„ÂÃˆ
+P	java:S125U"<This block of commented-out lines of code should be removed.(”À‹
+‡
+java:S1130b"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜Ç€Öþÿÿÿÿ
+‡
+java:S1130f"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ôÝ™Öýÿÿÿÿ
+R
+java:S1128"6Remove this unused import 'javafx.animation.KeyFrame'.(æ™†v8««·Óæ/
+X
+java:S1128"6Remove this unused import 'javafx.animation.Timeline'.(˜‰ë÷øÿÿÿÿ8««·Óæ/
+N
+java:S1128"1Remove this unused import 'javafx.util.Duration'.(ç½®§8¬«·Óæ/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬«·Óæ/
+O
+java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8¬«·Óæ/
+C
+java:S1604A"(Make this anonymous inner class a lambda(×àÅÎÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öÁí«øÿÿÿÿ

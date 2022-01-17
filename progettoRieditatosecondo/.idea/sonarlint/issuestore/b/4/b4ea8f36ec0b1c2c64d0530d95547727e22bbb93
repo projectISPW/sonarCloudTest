@@ -1,0 +1,28 @@
+
+V	java:S125 "<This block of commented-out lines of code should be removed.(ÛàÕàıÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ï¤Œ¯
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(µ™¡Òÿÿÿÿÿ
+›
+java:S1130<"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(ıÚ«œıÿÿÿÿ8éİ—Òæ/
+
+java:S1130<"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ıÚ«œıÿÿÿÿ8êİ—Òæ/
+™
+java:S1130<"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ıÚ«œıÿÿÿÿ8êİ—Òæ/
+r
+java:S1128"PRemove this unused import 'progettoispw.letmeknow.bean.HomepagePsicologistBean'.(Œ¥©Ğùÿÿÿÿ8ğ†ÁÑæ/
+m
+java:S1128"KRemove this unused import 'progettoispw.letmeknow.controller.form.FormSQL'.(½²Ñşÿÿÿÿ8ñ†ÁÑæ/
+i
+java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.search.Search'.(»ÌŞë8×²—Òæ/
+l
+java:S1128"ORemove this unused import 'progettoispw.letmeknow.controller.utenti.UtenteUsr'.(ÛÜò”8™ÃÑæ/
+t
+java:S1128"RRemove this unused import 'progettoispw.letmeknow.controller.utentiPsy.UtentePsy'.(§Ì°—şÿÿÿÿ8ñ†ÁÑæ/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8™ÃÑæ/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8™ÃÑæ/
+C
+java:S1604%"(Make this anonymous inner class a lambda(ùë²¥şÿÿÿÿ
+k
+java:S3655,"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ

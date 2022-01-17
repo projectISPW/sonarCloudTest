@@ -1,0 +1,59 @@
+
+žprogettoispw.letmeknow.controller.search.Query#searchDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java' '('"6*¨
+4€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java- -(*"Ÿ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java- -(*
+
+%3java.sql.ResultSet*”
+5€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java) +(a¿
+¼
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java) +(a
+sqljava.lang.String"__id*
+
+%2java.lang.StringÄÁ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java- -()
+%3java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+4*Ö
+6€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java) )(Ï
+Ì
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java)' *("
+%0java.lang.String"__concat*
+ SELECT userid *
+FROM utenti ü
+ù
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java)' +(J
+%1java.lang.String"__concat*
+
+%0java.lang.String*86
+4where %s = '%s' and userid!='%s' and type= 'usr' ;\n÷
+ô
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java) +(`
+%2java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%1java.lang.String*
+
+whatjava.lang.String*
+
+inputjava.lang.String*
+
+iduserjava.lang.String*
+5:
+stmtjava.sql.Statement:
+iduserjava.lang.String:
+whatjava.lang.String:
+inputjava.lang.StringB20
+.progettoispw.letmeknow.controller.search.Query

@@ -1,0 +1,124 @@
+
+Oprogettoispw.letmeknow.controller.ConnectionDB#connection()Ljava/sql/Statement;‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java ( "8*¥
+4‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (fð
+í
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (f:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+stmt"__id*
+
+%11java.sql.Statementð
+í
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%12java.sql.Statement"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+stmt"«
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+
+%12java.sql.Statement*
+
+5‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (Bð
+í
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (B:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+conn"__id*
+
+%7java.sql.Connectionð
+í
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%8java.sql.Connection"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+connª
+§
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java( (I	
+%9int"__id*
+""«
+¨
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.javaK (e
+
+%10int"__id*
+""¶³
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (f
+%11java.sql.Statement";java.sql.Connection#createStatement(II)Ljava/sql/Statement;*
+
+%8java.sql.Connection*
+	
+%9int*
+
+
+%10int2createStatement(II)*
+4*ô	
+6‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java ( ï
+ì
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java/ (5
+%4java.lang.String"__id*>*<0
+.progettoispw.letmeknow.controller.ConnectionDB"
+DB_URLí
+ê
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java7 (;
+%5java.lang.String"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+Userí
+ê
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java= (A
+%6java.lang.String"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+Pass‰
+†
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (B
+%7java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%4java.lang.String*
+
+%5java.lang.String*
+
+%6java.lang.String*
+5*«
+7‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (ú
+÷
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (+
+%2java.lang.String"__id*I*G0
+.progettoispw.letmeknow.controller.ConnectionDB"
+DRIVER_CLASS_NAME•
+’
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (,
+%3java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+
+%2java.lang.String*
+6*÷
+8‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (º
+·
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%0java.io.PrintStream"__id*
+""¡ž
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (4
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+creata connessione2println(Ljava/lang/String;)*
+7B20
+.progettoispw.letmeknow.controller.ConnectionDB

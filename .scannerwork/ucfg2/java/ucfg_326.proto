@@ -1,0 +1,51 @@
+
+âprogettoispw.letmeknow.controller.chat.Query#selectMessages(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (&"1*ú
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (´
+®
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (Ä
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*LJ
+HSELECT * FROM messages  WHERE text='%s' and (sender=%s or reciver =%s ) *
+
+inputjava.lang.String*
+
+useridjava.lang.String*
+
+useridjava.lang.StringΩ
+∫
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (Å
+sqljava.lang.String"__id*
+
+%0java.lang.String¨
+©
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (
+%1java.io.PrintStream"__id*
+""ñì
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)¡æ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (%
+%3java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"ú
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (&
+
+%3java.sql.ResultSet:
+stmtjava.sql.Statement:
+inputjava.lang.String:
+useridjava.lang.StringB0.
+,progettoispw.letmeknow.controller.chat.Query

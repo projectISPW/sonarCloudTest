@@ -1,0 +1,29 @@
+
+·
+java:S1845
+" Rename field "userid" to prevent any misunderstanding/clash with field "USERID" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(ïÓ§…
+À
+java:S1845"¤Rename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(œãë­úÿÿÿÿ
+¸
+java:S1845"œRename field "type" to prevent any misunderstanding/clash with field "TYPE" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(–î†ûÿÿÿÿ
+º
+java:S1845"Rename field "email" to prevent any misunderstanding/clash with field "EMAIL" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(ª«Õìùÿÿÿÿ
+€
+java:S1149g"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(°’ÈŞÿÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÀÊ’Š
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(±‚ò¬ûÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ã¶–×úÿÿÿÿ
+T
+java:S1117U"9Rename "email" which hides the field declared at line 13.(É¢Çûûÿÿÿÿ
+W
+java:S1126X"AReplace this if-then-else statement by a single return statement.(Ë£³™
+=
+java:S1125X"'Remove the unnecessary boolean literal.(Ë£³™
+=
+java:S1125i"'Remove the unnecessary boolean literal.(¸ôç
+D
+java:S2140j")Use "java.util.Random.nextInt()" instead.(œ´Öªüÿÿÿÿ
+k	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡±…éÿÿÿÿÿ
+@
+java:S5411X"*Use the primitive boolean expression here.(Ë£³™

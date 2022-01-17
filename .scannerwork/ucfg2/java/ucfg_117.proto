@@ -1,0 +1,23 @@
+
+\progettoispw.letmeknow.controller.form.FormSQL#close(Ljava/lang/String;I)Ljava/lang/Boolean;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaC C("1*Ô
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaD D(ÖÓ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaD D('
+%0int[]"Oprogettoispw.letmeknow.controller.form.FormSQL#queryParam(Ljava/lang/String;)[I*20
+.progettoispw.letmeknow.controller.form.FormSQL*
+
+useridjava.lang.String2queryParam(Ljava/lang/String;)ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaE E(
+%1java.sql.Statement"__id*<*:0
+.progettoispw.letmeknow.controller.form.FormSQL"
+stmt"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaE E(/
+"":
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormSQL

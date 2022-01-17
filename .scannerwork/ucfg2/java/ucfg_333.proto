@@ -1,0 +1,41 @@
+
+Nprogettoispw.letmeknow.controller.LoginController#tornaLog()Ljava/lang/String;Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("3*³
+2Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (†
+ƒ
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java# ()
+%2java.lang.String"__id*A*?3
+1progettoispw.letmeknow.controller.LoginController"
+userid*
+1*¶
+3Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (ˆ
+…
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java& (.
+%0java.lang.String"__id*C*A3
+1progettoispw.letmeknow.controller.LoginController"
+
+passwordÌ
+É
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (0
+strjava.lang.String"__id*
+""¬©
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ('
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+strjava.lang.String*
+uncorrect log2equals(Ljava/lang/Object;)*
+2
+1*å
+1Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("½
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
+
+strjava.lang.StringB53
+1progettoispw.letmeknow.controller.LoginController

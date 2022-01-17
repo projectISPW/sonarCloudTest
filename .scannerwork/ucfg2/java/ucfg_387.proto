@@ -1,0 +1,48 @@
+
+Rprogettoispw.letmeknow.controller.utenti.SalvaUtente#setEmail(Ljava/lang/String;)Z†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaG G("4* 
+2†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaK K("‘
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaK K(
+""*ß
+3†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaI I(ò
+ï
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaI I(A6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+email"__id*
+
+inputjava.lang.Stringï
+ì
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaJ J(
+%1java.lang.String"__id*C*A6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+emailáÞ
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaJ J(
+%2boolean"Rprogettoispw.letmeknow.controller.utenti.SalvaUtente#sendMail(Ljava/lang/String;)Z*86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente*
+
+%1java.lang.String2sendMail(Ljava/lang/String;)*
+2
+1*‡
+4†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaH H(ð
+í
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaH H(#
+%0java.lang.String"__id*D*B6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+userid*
+3
+1* 
+1†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaN N("‘
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaN N(
+"":
+inputjava.lang.StringB86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente

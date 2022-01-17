@@ -1,0 +1,91 @@
+
+fprogettoispw.letmeknow.controller.utenti.SalvaUtente#abscessType(Ljava/lang/String;)Ljava/lang/String;Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java' '("7*Ä
+2Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java0 0(µ
+≤
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java0 0(
+%5java.io.PrintStream"__id*
+""ôñ
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java0 0(5
+
+%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%5java.io.PrintStream*
+password errata2println(Ljava/lang/String;)"ù
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java1 1()
+uncorrect log *°
+3Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java- -("í
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java- -(
+psy*ê
+4Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java, ,(Ó
+Î
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java, ,(
+%3java.lang.String"__id*B*@6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+typeàÖ
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java, ,('
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%3java.lang.String*
+psy2equals(Ljava/lang/Object;)*
+2
+3*°
+5Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java* *("í
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java* *(
+usr*ê
+6Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java) )(Ó
+Î
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java) )(
+%1java.lang.String"__id*B*@6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+typeàÖ
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java) )(!
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+usr2equals(Ljava/lang/Object;)*
+4
+5*Ö
+7Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java( ((ÓÎ
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java( (("
+%0boolean"Uprogettoispw.letmeknow.controller.utenti.SalvaUtente#checkUtente(Ljava/lang/String;)Z*86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente*
+
+	pswdInputjava.lang.String2checkUtente(Ljava/lang/String;)*
+6
+1*â
+1Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java4 4(µ
+≤
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java4 4(
+%7java.io.PrintStream"__id*
+""¢ü
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java4 4(6
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%7java.io.PrintStream*
+errore nel tipo di dato 2println(Ljava/lang/String;)"ù
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java5 5( 
+uncorrect log :
+	pswdInputjava.lang.StringB86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente

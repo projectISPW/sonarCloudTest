@@ -1,0 +1,15 @@
+
+€
+java:S1149+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(§õàŠùÿÿÿÿ
+€
+java:S11490"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(†£º¢ûÿÿÿÿ
+m
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(†£º¢ûÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(®âßŠüÿÿÿÿ
+Q	java:S125I"<This block of commented-out lines of code should be removed.(¼ó‡â
+Q	java:S125U"<This block of commented-out lines of code should be removed.(¼ó‡â
+N	java:S106["9Replace this use of System.out or System.err by a logger.(ªìââ
+O
+java:S1854a"9Remove this useless assignment to local variable "count".(È•¿í
+D
+java:S1121a".Extract the assignment out of this expression.(È•¿í

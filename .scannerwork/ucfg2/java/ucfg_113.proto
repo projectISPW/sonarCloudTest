@@ -1,0 +1,65 @@
+
+Qprogettoispw.letmeknow.controller.form.FormSQL#queryResult(Ljava/lang/String;I)[I€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java ("14*¦
+14€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java ("ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java# ('
+%0java.sql.Statement"__id*<*:0
+.progettoispw.letmeknow.controller.form.FormSQL"
+stmt¯
+¬
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (9
+rstjava.sql.ResultSet"__id*
+""*
+12*”
+3€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java ("‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (
+""*ã
+4€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (ÕÒ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (
+
+%4void"java.sql.ResultSet#close()V*
+
+rstjava.sql.ResultSet2close()*
+3*…
+7€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (Aó
+ð
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (A	
+%3int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%2java.lang.String*
+8
+12*’
+8€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java („
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java. (@
+%2java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
+
+rstjava.sql.ResultSet*
+""2getString(I)*
+7*ì
+12€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (ÖÓ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.java (
+%1boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+
+4
+8
+12:
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormSQL

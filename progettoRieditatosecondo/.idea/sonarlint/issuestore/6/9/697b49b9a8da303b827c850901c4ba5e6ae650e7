@@ -1,0 +1,29 @@
+
+V
+java:S1659"ADeclare "lst2" and all following declarations on a separate line.(§¼¡<
+W
+java:S1659"ADeclare "uid2" and all following declarations on a separate line.(‰öÖ
+W
+java:S1659"BDeclare "home2" and all following declarations on a separate line.(û×Á
+]
+java:S1659"BDeclare "chat2" and all following declarations on a separate line.(Ñ¤‚øûÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(üË¹úÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+B
+java:S1125b"'Remove the unnecessary boolean literal.(Ù‚°†úÿÿÿÿ
+P
+java:S1854s":Remove this useless assignment to local variable "actual".(”¸®ï
+6
+java:S2129s" Remove this "String" constructor(”¸®ï
+ˆ
+java:S1130Œ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜Ç€Öþÿÿÿÿ
+ˆ
+java:S1130‘"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‡°‚Ãþÿÿÿÿ
+‚
+java:S1130•"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¶¤¤/
+ˆ
+java:S1130™"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ôÝ™Öýÿÿÿÿ
+ƒ
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÛÐ¦Ÿ
+W
+java:S49731"<Strings and Boxed types should be compared using "equals()".(˜´Ñÿÿÿÿÿ

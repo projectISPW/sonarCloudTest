@@ -1,0 +1,46 @@
+
+Qprogettoispw.letmeknow.controller.ConnectionDB#getStatement()Ljava/sql/Statement;‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (!"3*É
+2‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (°
+­
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%3java.sql.Statement"Oprogettoispw.letmeknow.controller.ConnectionDB#connection()Ljava/sql/Statement;*20
+.progettoispw.letmeknow.controller.ConnectionDB*
+1*ì
+3‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (º
+·
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%0java.io.PrintStream"__id*
+""¡ž
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (0
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+cerco connessione 2println(Ljava/lang/String;)ï
+ì
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
+%2java.sql.Statement"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+stmt*
+2
+1*°
+1‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java! !(ï
+ì
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java! !(
+%4java.sql.Statement"__id*<*:0
+.progettoispw.letmeknow.controller.ConnectionDB"
+stmt"ª
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java! !(
+
+%4java.sql.StatementB20
+.progettoispw.letmeknow.controller.ConnectionDB

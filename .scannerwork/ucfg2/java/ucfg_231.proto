@@ -1,0 +1,12 @@
+
+rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("1*Ö
+1¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¬
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (8
+"":
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB64
+2progettoispw.letmeknow.controller.SignupController

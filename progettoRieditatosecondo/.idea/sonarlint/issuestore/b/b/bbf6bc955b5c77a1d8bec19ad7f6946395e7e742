@@ -1,0 +1,40 @@
+
+c
+java:S1659"HDeclare "description" and all following declarations on a separate line.(ì²äâûÿÿÿÿ
+?
+java:S1659")Declare "confirmpswd" on a separate line.(©áô‰
+V
+java:S1659"@Declare "sl2" and all following declarations on a separate line.(Ù”õ“
+\
+java:S1659"ADeclare "lab2" and all following declarations on a separate line.(Ãû¤ÿÿÿÿÿ
+a
+java:S1659"FDeclare "pswdCheck" and all following declarations on a separate line.(¦–åáúÿÿÿÿ
+k
+java:S1450"URemove the "indice" field and declare it as a local variable in the relevant methods.(êëø
+{
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ì
+<
+java:S11255"'Remove the unnecessary boolean literal.(¼Â¸O
+‡
+java:S1130:"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(£ÓÊÀıÿÿÿÿ
+B
+java:S1125C"'Remove the unnecessary boolean literal.(§Æ™ÿÿÿÿÿ
+B
+java:S1125E"'Remove the unnecessary boolean literal.(õæÉŒúÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(ˆËâá
+=
+java:S1125I"'Remove the unnecessary boolean literal.(ÎÜ•ú
+B
+java:S1125O"'Remove the unnecessary boolean literal.(Ã¿ÑÚùÿÿÿÿ
+T
+java:S1128">Remove this unused import 'javafx.beans.value.ChangeListener'.(¸÷Í
+U
+java:S1128"?Remove this unused import 'javafx.beans.value.ObservableValue'.(´œ«Å
+P
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ
+[
+java:S1128"ERemove this unused import 'progettoispw.letmeknow.bean.GoToFormBean'.(îµÿÒ
+?
+java:S54115"*Use the primitive boolean expression here.(¼Â¸O
+E
+java:S5411Q"*Use the primitive boolean expression here.(ÏŒÆ¸ùÿÿÿÿ

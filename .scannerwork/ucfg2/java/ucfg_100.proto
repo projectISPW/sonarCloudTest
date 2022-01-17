@@ -1,0 +1,17 @@
+
+wprogettoispw.letmeknow.controller.search.SearchSQL#searchGoal(Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchSQL.java ("1*ã
+1Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchSQL.java (Ï
+È
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchSQL.java (#
+%0java.sql.Statement"__id*@*>4
+2progettoispw.letmeknow.controller.search.SearchSQL"
+stmt"è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchSQL.java (7
+"":
+useridjava.lang.String:
+goaljava.lang.StringB64
+2progettoispw.letmeknow.controller.search.SearchSQL
