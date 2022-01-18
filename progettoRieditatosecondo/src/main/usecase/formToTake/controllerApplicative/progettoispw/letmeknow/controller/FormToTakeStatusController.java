@@ -1,7 +1,6 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.form.ResultForm;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
 public class FormToTakeStatusController {
     String userid;
@@ -9,8 +8,7 @@ public class FormToTakeStatusController {
     ResultForm form;
     int [] values;
     public FormToTakeStatusController(int inputform){
-        ControllerClass factory=new ControllerClass();
-        userid= factory.getUserUSR().getUserid();
+        userid= ControllerClass.getUserUSR().getUserid();
         formid=inputform;
         form= new ResultForm(userid,formid);
     }

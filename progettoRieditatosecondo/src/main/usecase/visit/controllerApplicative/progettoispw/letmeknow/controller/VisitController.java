@@ -3,11 +3,9 @@ package progettoispw.letmeknow.controller;
 import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
 public class VisitController {
-    ControllerClass factory=new ControllerClass();
     UtenteUsr user;
     public VisitController(){
-        user= factory.getSearch().getTouched();
-        System.out.println(user.getUserid());
+        user= ControllerClass.getSearch().getTouched();
     }
     public String getUserid() {
         return user.getUserid();

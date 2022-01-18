@@ -7,8 +7,7 @@ public class searchController {
     private ControllerClass factory;
     private Search find;
     public searchController(){
-        factory=new ControllerClass();
-        if(factory.getSearch()==null)factory.controllerUsers();
+        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
         find= factory.getSearch();
     }
     public void enterAffinity(Integer input){

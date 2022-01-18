@@ -4,18 +4,17 @@ import progettoispw.letmeknow.controller.chat.Message;
 import progettoispw.letmeknow.controller.chat.Messages;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class ChatController {
-    private ControllerClass factory;
     private Messages actChat;
     private ArrayList<Message> chat;
     private ArrayList<Message>lastChat;
     private ArrayList<Message> newChat;
     private String with;
     public ChatController(){
-        factory =new ControllerClass();
-        actChat= factory.getChat();
+        actChat= ControllerClass.getChat();
         with=actChat.getTouched();
     }
     public void  newMSG(String text){
@@ -24,7 +23,7 @@ public class ChatController {
     public String getUID(){
         return actChat.getUserid();
     }
-    public ArrayList<Message> getChat() {
+    public List<Message> getChat() {
         chat=actChat.chat(with);
         if(lastChat!=null){
             newChat=new ArrayList<>();
@@ -37,10 +36,8 @@ public class ChatController {
             lastChat=chat;
             newChat=chat;
         }
-        //for(Message msg :newChat)msg.getStatus();
         return newChat;
     }
-
     public String getWith() {
         return with;
     }

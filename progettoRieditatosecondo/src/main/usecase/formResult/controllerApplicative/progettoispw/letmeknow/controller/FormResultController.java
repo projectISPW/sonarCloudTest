@@ -10,8 +10,7 @@ public class FormResultController {
     UtenteUsr user;
     int [] values;
     public FormResultController(int inputform){
-        ControllerClass factory=new ControllerClass();
-        userid= factory.getUserUSR().getUserid();
+        userid= ControllerClass.getUserUSR().getUserid();
         formid=inputform;
         form= new ResultForm(userid,formid);
     }

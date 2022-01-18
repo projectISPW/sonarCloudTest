@@ -1,10 +1,11 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.utenti.UtenteUsr;
-
 public class HomepageController {
-    ControllerClass factory=new ControllerClass();
-    UtenteUsr user= factory.getUserUSR();
+    UtenteUsr user;
+    public HomepageController(){
+        user= ControllerClass.getUserUSR();
+    }
     public String getUserID(){
         return user.getUserid();
     }

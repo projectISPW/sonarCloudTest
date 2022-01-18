@@ -1,1 +1,1 @@
-á 2javaX6hräprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/controller/ResultSearchController.java
+á 2javaX6hräprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/controller/ResultSearchController.java

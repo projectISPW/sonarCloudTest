@@ -55,8 +55,7 @@ public class ResultForm implements FormMeta {
         return formid;
     }
     private void queryComplete(){
-        ControllerClass factory=new ControllerClass();
-        UtenteUsr user= factory.getUserUSR();
+        UtenteUsr user= ControllerClass.getUserUSR();
         date=formData.queryData(userid,formid);
         if(date ==null){
             formData.setCalculated(userid,formid);

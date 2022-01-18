@@ -13,8 +13,7 @@ public class HomepagePsicologistController implements FormMeta {
     private float [][] innerList;
     private int index;
     public HomepagePsicologistController(){
-        factory=new ControllerClass();
-        user= factory.getUserPsy();
+        user= ControllerClass.getUserPsy();
         innerList=null;
     }
     public float[] getList(){

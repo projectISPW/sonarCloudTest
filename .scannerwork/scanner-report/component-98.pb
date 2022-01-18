@@ -1,1 +1,1 @@
-b 2javaX6hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+b 2javaX6hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java

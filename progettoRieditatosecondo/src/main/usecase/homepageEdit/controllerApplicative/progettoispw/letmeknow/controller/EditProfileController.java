@@ -8,8 +8,7 @@ public class EditProfileController {
     String newStr;
     public EditProfileController(){
         newStr=null;
-        factory=new ControllerClass();
-        user = factory.getUserUSR();
+        user = ControllerClass.getUserUSR();
     }
     public String getUserID(){
         return user.getUserid();

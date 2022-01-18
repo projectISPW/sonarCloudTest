@@ -2,6 +2,7 @@ package progettoispw.letmeknow.bean;
 
 import progettoispw.letmeknow.controller.ISCController;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class ISCBean {
@@ -16,12 +17,12 @@ public class ISCBean {
         controller=new ISCController();
     }
     int indice;
-    private Vector<lastMessage> actual;
+    private ArrayList<lastMessage> actual;
     public String getUserid(){
         return controller.getUid();
     }
     public String[] exitUid(){
-        actual=controller.queryUsers();
+        actual= (ArrayList<lastMessage>) controller.queryUsers();
         System.out.println("grandezza della lista .:"+actual.size());
         String [] arrStr;
         if(nval!=0) arrStr=new String[nval];

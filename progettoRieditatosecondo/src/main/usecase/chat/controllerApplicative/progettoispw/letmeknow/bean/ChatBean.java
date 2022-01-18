@@ -24,7 +24,7 @@ public class ChatBean{
         return with;
     }
     public void getChat(){
-        chat=controller.getChat();
+        chat= (ArrayList<Message>) controller.getChat();
     }
     public String[]getMSG(){
         String [] returnStr =new String[chat.size()*2];

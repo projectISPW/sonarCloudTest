@@ -1,6 +1,6 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.Factory;
+
 import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
@@ -10,9 +10,8 @@ public class SettingsController {
     UtentePsy userP;
     ConnectionDB connection;
     public SettingsController(){
-        ControllerClass factory=new ControllerClass();
-        userU= factory.getUserUSR();
-        userP=factory.getUserPsy();
+        userU= ControllerClass.getUserUSR();
+        userP=ControllerClass.getUserPsy();
     }
     public void closeConnection(){
         connection.close();

@@ -4,11 +4,9 @@ import progettoispw.letmeknow.bean.lastMessage;
 import progettoispw.letmeknow.controller.chat.Message;
 import progettoispw.letmeknow.controller.chat.Messages;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Vector;
+import java.util.List;
 public class ISCController {
-        ControllerClass factory;
         private ArrayList<String> founded;
         private Integer count;
         private Integer nVal;
@@ -16,23 +14,21 @@ public class ISCController {
         private ArrayList<Message>msgs;
         private Messages chat;
         public ISCController(Integer n){
-            factory=new ControllerClass();
-            factory.controllerChat();
-            if(factory.getSearch()==null)factory.controllerUsers();
-            chat= factory.getChat();
-            lmsgs=chat.getLast();
-            founded=chat.getUsers();
+            ControllerClass.controllerChat();
+            if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+            chat= ControllerClass.getChat();
+            lmsgs= (ArrayList<Message>) chat.getLast();
+            founded= (ArrayList<String>) chat.getUsers();
             msgs=null;
             nVal=n;
             count=0;
         }
     public ISCController(){
-        factory=new ControllerClass();
-        factory.controllerChat();
-        if(factory.getSearch()==null)factory.controllerUsers();
-        chat= factory.getChat();
-        lmsgs=chat.getLast();
-        founded=chat.getUsers();
+        ControllerClass.controllerChat();
+        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+        chat= ControllerClass.getChat();
+        lmsgs= (ArrayList<Message>) chat.getLast();
+        founded= (ArrayList<String>) chat.getUsers();
         msgs=null;
         nVal=0;
         count=0;
@@ -40,61 +36,74 @@ public class ISCController {
         public String getUid(){
             return chat.getUserid();
         }
-         Vector<lastMessage>formatted;
-        public void attach(lastMessage elem){
-            formatted.add(elem);
-        }
         lastMessage actual;
-        public Vector<lastMessage> queryUsers(){
-            int indice;
-            actual = null;
-            formatted = new Vector<>();
-            if(nVal==0 && msgs==null){
-                indice=0;
-                for (String usr : founded) {//search activated in list users iterf1
-                    System.out.println("i am here "+indice);
-                    actual = new lastMessage(usr, lmsgs.get(indice++));
-                    actual.getStatus();
-                    attach(actual);
+        private List<lastMessage> getListV1(){
+            //lista utenti con ultimo messaggio per la interfaccia 2
+            int indice=0;
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            for (String usr : founded) {
+                actual = new lastMessage(usr, lmsgs.get(indice++));
+                actual.getStatus();
+                formatted.add(actual);
+            }
+            return formatted;
+        }
+        private List<lastMessage> getListV2(){
+        //ricerca messaggi sulla lista utenti 2
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            for (Message msg : msgs) {
+                actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+             formatted.add(actual);
+            }
+            return formatted;
+        }
+        private List<lastMessage>getListV3(){
+            //lista utenti con ultimo messaggio per la interfaccia 1
+            count = check(count, lmsgs);
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            int indice=0;
+            for (String usr : founded) {
+                indice = founded.indexOf(usr);
+                if (indice >= count && indice < count + nVal) {
+                    actual = new lastMessage(usr, lmsgs.get(indice));
+                    formatted.add(actual);
                 }
+            }
+            count+=nVal;
+            return formatted;
+        }
+        private List<lastMessage>getListV4(){
+            count = check(count, msgs);
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            int indice=0;
+            for (Message msg : msgs) {
+                indice = msgs.indexOf(msg);
+                if (indice >= count && indice < count + nVal) {
+                    actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+                    formatted.add(actual);
+                }
+            }
+            count+=nVal;
+            return formatted;
+        }
+        public List<lastMessage> queryUsers(){
+            if(nVal==0 && msgs==null){
+               return getListV1();
             }
             else if(nVal==0){
-                for (Message msg : msgs) {
-                    actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
-                    attach(actual);
-                }
+                return getListV2();
             }
             else if(msgs==null) {//list users in interf1
-                count = check(count, lmsgs);
-                for (String usr : founded) {
-                    indice = founded.indexOf(usr);
-                    if (indice >= count && indice < count + nVal) {
-                        actual = new lastMessage(usr, lmsgs.get(indice));
-                        // actual.getStatus();
-                        attach(actual);
-                    }
-                }
+                return getListV3();
             }
-
             else {//search activated in list users iterf1
-                count = check(count, msgs);
-                for (Message msg : msgs) {
-                    indice = msgs.indexOf(msg);
-                    if (indice >= count && indice < count + nVal) {
-                        actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
-                        //actual.getStatus();
-                        attach(actual);
-                    }
-                }
+                return getListV4();
             }
-                count+=nVal;
-                System.out.println("_____________________________________-");
-                return formatted;
         }
 
         private Integer check(Integer count,ArrayList<Message> list) {
             if(count>=list.size()){
-                return count=0;
+                count=0;
             }
             return count;
         }
@@ -102,9 +111,8 @@ public class ISCController {
             chat.setTouched(usr);
         }
         public void search(String find){
-            factory.getChat().search(find);
+            ControllerClass.getChat().search(find);
             msgs=chat.getLocalSearch();
-            for(Message msg:msgs)msg.getStatus();
             count=0;
             queryUsers();
         }

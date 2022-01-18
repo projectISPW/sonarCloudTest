@@ -7,8 +7,6 @@ import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.ISCBean;
 import progettoispw.letmeknow.bean.BeanResultSearch;
 
-import java.io.IOException;
-
 public class ResultSearchControllerInterf1 {
     PageMenu controller=new PageMenu();
     @FXML
@@ -57,15 +55,15 @@ public class ResultSearchControllerInterf1 {
         }
     }
     @FXML
-    protected void goBack(ActionEvent event) throws IOException {
+    protected void goBack(ActionEvent event)  {
         controller.switchTo("search/interf1.fxml",event,"Search");
     }
     @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
+    protected void goToPersonalForm(ActionEvent event) {
         controller.switchToPersonalForm(event);
     }
     @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
+    protected void goToHome(ActionEvent event) {
         controller.switchToHome(event);
     }
     protected void visit(ActionEvent event,int i){

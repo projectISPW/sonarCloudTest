@@ -4,7 +4,6 @@ import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 public class LoginController {
     private String userid;
     private SalvaUtente utente ;
-    private ControllerClass factory=new ControllerClass();
     private String password;
     public LoginController(String user,String password){
         this.userid=user;
@@ -14,7 +13,7 @@ public class LoginController {
     public String tornaLog(){
         String str=utente.abscessType(password);
         if(!str.equals("uncorrect log")){
-            factory.controllerUser(userid);
+            ControllerClass.controllerUser(userid);
         }
         return str;
     }

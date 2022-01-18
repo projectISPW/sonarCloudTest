@@ -12,8 +12,7 @@ public class ResultSearchController {
     private Integer count;
     private final Integer nVal;
     public ResultSearchController(Integer n){
-        factory=new ControllerClass();
-        founded=factory.getSearch().getArrayList() ;
+        founded=ControllerClass.getSearch().getArrayList() ;
         nVal=n;
         count=0;
     }
