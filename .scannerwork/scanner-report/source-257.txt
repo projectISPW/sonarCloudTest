@@ -1,87 +1,88 @@
 package progettoispw.letmeknow;
 
-
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.LoginBean;
-
+import progettoispw.letmeknow.bean.GoToFormBean;
+import progettoispw.letmeknow.bean.SignupBean;
 
 import java.io.IOException;
+import java.util.Vector;
 
-public class LoginControllerInterf1 {
+public class SignupControllerInterf1 {
     private Page controller= new Page();
     @FXML
-    private PasswordField labPassword;
+    TextField email,description,goal;
     @FXML
-    private Label show;
+    PasswordField pswd,confirmpswd;
     @FXML
-    private TextField labUser;
+    Slider sl1,sl2,sl3;
+    Vector<Slider>sl;
     @FXML
-    private ScrollPane scroll;
-    private String userID;
-    private boolean clicked;
-    public LoginControllerInterf1(){
-        clicked=false;
+    Label lab1,lab2,lab3;
+    Label[]labels;
+    @FXML
+    Label emailCheck,pswdCheck,desCheck,slCheck;
+    private int indice;
+    SignupBean bean;
+    public SignupControllerInterf1(){
+        bean=new SignupBean();
+        sl=new Vector<>();
     }
-    @FXML
-    protected void switchToSignup(ActionEvent event) {
-        //controller.switchTo("signup.fxml",event,"Signup");
-        controller.switchTo("signup/interf1.fxml",event,"Signup");
-        //controller.goTo("signup",event);
-    }
-    @FXML
-    protected void switchToRecoverPswd(ActionEvent event) {
-        controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
-        //controller.switchTo("recover password",event);
-    }
-    @FXML
-    protected void switchToSignUpPsych(ActionEvent event) {
-        controller.switchTo("signupPsicologist/interf1.fxml",event,"Signup");
-    }
-    @FXML
-    protected void showPSWD(){
-        if(clicked==false){
-            scroll.setOpacity(0.8);
-            show.setOpacity(0.8);
-            show.setText(labPassword.getText());
-            clicked=true;
+    public void initialize() {
+        sl.add(sl1);
+        sl.add(sl2);
+        sl.add(sl3);
+        labels = new Label[]{lab1, lab2, lab3};
+        indice = 0;
+        for (Slider slider : sl) {
+            slider.valueProperty().addListener((observableValue, number, t1) -> {
+                indice = sl.indexOf(slider);
+                labels[indice].setText("" + (int) slider.getValue());
+                labels[indice].setOpacity(1);
+            });
         }
-        else{
-            show.setOpacity(0);
-            scroll.setOpacity(0);
-            clicked=false;
-        }
+    }
+    @FXML
+    protected void backToLogin() {
+        controller.backTo();
+    }
+    private boolean check(Boolean bool,Label lab){
+        if(bool==false)lab.setOpacity(1);
+        return bool;
     }
 
     @FXML
-    protected void switchToHome(ActionEvent event) throws IOException {
-        if(labUser.getText().equals("") || labPassword.getText().equals(""))
-        {
-            //Alert Dialog Message per campi email e password vuoti
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("Empty Fields!");
-            alert.setHeaderText("Empty Email / Password Field");
-            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-            if(alert.showAndWait().get()==ButtonType.OK) {
-                System.out.println("Prompt: Empty Fields Alert");
-                event.consume();
-            }
-        }else {
-            LoginBean bean=new LoginBean(labUser.getText(),labPassword.getText());
-            String log = bean.exitValue();
-            System.out.println(log);
-            userID=labUser.getText();
-            switch(log){
-                case "usr":{
-                    //HomepagecontrollerInterf1.userid=labUser.getText();
-                    controller.switchTo("homepage/interf1.fxml",event,"Home");
-                    return;
-                }
-                case "psy":{
-                    controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
-                    System.out.println("fatto accesso da psicologo");
-                }
-            }
+    protected void save() throws IOException {
+        Boolean bool;
+        String[] arr;
+        int [] val;
+        emailCheck.setOpacity(0);
+        pswdCheck.setOpacity(0);
+        desCheck.setOpacity(0);
+        slCheck.setOpacity(0);
+        bool=bean.checkEmail(email.getText(),true);
+        if(check(bool,emailCheck)==false)return;
+        bool=bean.checkPswd(pswd.getText(),confirmpswd.getText());
+        if(check(bool,pswdCheck)==false)return;
+
+        bool=bean.checkDescription(description.getText());
+        System.out.println(bool);
+        if(check(bool,desCheck)==false)return;
+
+        arr= new String[]{lab1.getText(), lab2.getText(), lab3.getText()};
+        val=bean.checkVal(arr);
+        bool=true;
+        if(val==null)bool=false;
+        if(check(bool,slCheck)==false)return;
+        bool=bean.signupUSR(pswd.getText(),email.getText(),val, description.getText(), goal.getText());
+        if(bool)backToLogin();
+        else{
+
+            ///allert
+
         }
-    }}
+    }
+}

@@ -856,19 +856,13 @@ $progettoispw.letmeknow.bean.ChatBeanjava.lang.Object<
 setStrData(Ljava/lang/String;)Mprogettoispw.letmeknow.controller.utenti.Goal#setStrData(Ljava/lang/String;)VG
 3progettoispw.letmeknow.controller.chat.MessagesMetajava.lang.Object 
 MessagesMetajava.lang.Object
-Queryjava.lang.Object˙
-
+Queryjava.lang.ObjectÉ
 2progettoispw.letmeknow.controller.chat.MessagesSQLQueryMessagesMetaº
 BnewMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)vprogettoispw.letmeknow.controller.chat.MessagesSQL#newMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V©
 /getSRchat(Ljava/lang/String;Ljava/lang/String;)vprogettoispw.letmeknow.controller.chat.MessagesSQL#getSRchat(Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;H
-<init>()<progettoispw.letmeknow.controller.chat.MessagesSQL#<init>()Vî
-.research(Ljava/lang/String;Ljava/lang/String;)bprogettoispw.letmeknow.controller.chat.MessagesSQL#research(Ljava/lang/String;Ljava/lang/String;)V}
-getSR(Ljava/lang/String;)`progettoispw.letmeknow.controller.chat.MessagesSQL#getSR(Ljava/lang/String;)Ljava/sql/ResultSet;c
-getMessages()Rprogettoispw.letmeknow.controller.chat.MessagesSQL#getMessages()Ljava/util/Vector;ò
-0userScan(Ljava/sql/ResultSet;Ljava/lang/String;)dprogettoispw.letmeknow.controller.chat.MessagesSQL#userScan(Ljava/sql/ResultSet;Ljava/lang/String;)Vr
-scanner(Ljava/sql/ResultSet;)Qprogettoispw.letmeknow.controller.chat.MessagesSQL#scanner(Ljava/sql/ResultSet;)VÅ
-getSRmsg(Ljava/lang/String;)aprogettoispw.letmeknow.controller.chat.MessagesSQL#getSRmsg(Ljava/lang/String;)Ljava/util/Vector;l
-attach(Ljava/lang/String;)Nprogettoispw.letmeknow.controller.chat.MessagesSQL#attach(Ljava/lang/String;)Vº
+<init>()<progettoispw.letmeknow.controller.chat.MessagesSQL#<init>()V}
+getSR(Ljava/lang/String;)`progettoispw.letmeknow.controller.chat.MessagesSQL#getSR(Ljava/lang/String;)Ljava/sql/ResultSet;É
+getSRmsg(Ljava/lang/String;)cprogettoispw.letmeknow.controller.chat.MessagesSQL#getSRmsg(Ljava/lang/String;)Ljava/sql/ResultSet;º
 .progettoispw.letmeknow.controller.search.Queryjava.lang.Object˛
 [searchDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ûprogettoispw.letmeknow.controller.search.Query#searchDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;D
 <init>()8progettoispw.letmeknow.controller.search.Query#<init>()V´
@@ -882,11 +876,7 @@ DsearchVal(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;I)áprogetto
 researchByParameter()Eprogettoispw.letmeknow.SearchControllerInterf1#researchByParameter()VL
 initialize()<progettoispw.letmeknow.SearchControllerInterf1#initialize()VV
 incremProgress(I)Aprogettoispw.letmeknow.SearchControllerInterf1#incremProgress(I)VG
-5Lprogettoispw/letmeknow/SearchControllerInterf1$1654;ChangeListener˙
-progettoispw.letmeknow.Factoryjava.lang.Object4
-<init>()(progettoispw.letmeknow.Factory#<init>()VA
-createPage()1progettoispw.letmeknow.Factory#createPage()LPage;M
-createPageMenu()9progettoispw.letmeknow.Factory#createPageMenu()LPageMenu;Å
+5Lprogettoispw/letmeknow/SearchControllerInterf1$1654;ChangeListenerÅ
 2progettoispw.letmeknow.controller.search.SearchSQLQuery´
 0searchGoal(Ljava/lang/String;Ljava/lang/String;)wprogettoispw.letmeknow.controller.search.SearchSQL#searchGoal(Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;H
 <init>()<progettoispw.letmeknow.controller.search.SearchSQL#<init>()Vç
@@ -1282,20 +1272,19 @@ dsignup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/Strin
 <init>()0progettoispw.letmeknow.bean.SliderBean#<init>()VÕ
 &progettoispw.letmeknow.bean.UseridBeanjava.lang.Object<
 <init>()0progettoispw.letmeknow.bean.UseridBean#<init>()VS
-getUserId()Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;Î
-/progettoispw.letmeknow.controller.chat.MessagesMessagesMetajava.lang.Object[
-	getLast()Nprogettoispw.letmeknow.controller.chat.Messages#getLast()Ljava/util/ArrayList;y
+getUserId()Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;Ä
+/progettoispw.letmeknow.controller.chat.MessagesMessagesMetajava.lang.ObjectV
+	getLast()Iprogettoispw.letmeknow.controller.chat.Messages#getLast()Ljava/util/List;y
 chat(Ljava/lang/String;)]progettoispw.letmeknow.controller.chat.Messages#chat(Ljava/lang/String;)Ljava/util/ArrayList;E
 getUSR()9progettoispw.letmeknow.controller.chat.Messages#getUSR()V^
 getTouched()Nprogettoispw.letmeknow.controller.chat.Messages#getTouched()Ljava/lang/String;ï
-0newMessage(Ljava/lang/String;Ljava/lang/String;)aprogettoispw.letmeknow.controller.chat.Messages#newMessage(Ljava/lang/String;Ljava/lang/String;)Vs
-getLast(Ljava/lang/String;)Tprogettoispw.letmeknow.controller.chat.Messages#getLast(Ljava/lang/String;)LMessage;q
-setTouched(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.chat.Messages#setTouched(Ljava/lang/String;)VE
-getALL()9progettoispw.letmeknow.controller.chat.Messages#getALL()Vi
+0newMessage(Ljava/lang/String;Ljava/lang/String;)aprogettoispw.letmeknow.controller.chat.Messages#newMessage(Ljava/lang/String;Ljava/lang/String;)Vq
+setTouched(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.chat.Messages#setTouched(Ljava/lang/String;)VY
+getALL()Mprogettoispw.letmeknow.controller.chat.Messages#getALL()Ljava/util/ArrayList;i
 <init>(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.chat.Messages#<init>(Ljava/lang/String;)Vi
-getSearchUsers()Uprogettoispw.letmeknow.controller.chat.Messages#getSearchUsers()Ljava/util/ArrayList;]
+getSearchUsers()Uprogettoispw.letmeknow.controller.chat.Messages#getSearchUsers()Ljava/util/ArrayList;X
 
-getUsers()Oprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util/ArrayList;\
+getUsers()Jprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util/List;\
 getUserid()Mprogettoispw.letmeknow.controller.chat.Messages#getUserid()Ljava/lang/String;i
 getLocalSearch()Uprogettoispw.letmeknow.controller.chat.Messages#getLocalSearch()Ljava/util/ArrayList;i
 attach(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;)Vi
@@ -1337,175 +1326,15 @@ getUsers()Oprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util
 selectResult(II)Zprogettoispw.letmeknow.controller.utentiPsy.UtenteSQL#selectResult(II)Ljava/sql/ResultSet;¬
 (progettoispw.letmeknow.bean.GoToFormBeanjava.lang.Object>
 <init>()2progettoispw.letmeknow.bean.GoToFormBean#<init>()VD
-getFormid()5progettoispw.letmeknow.bean.GoToFormBean#getFormid()Iï
+getFormid()5progettoispw.letmeknow.bean.GoToFormBean#getFormid()IÎ
 .progettoispw.letmeknow.controller.chat.Messagejava.lang.Object[
 getSender()Lprogettoispw.letmeknow.controller.chat.Message#getSender()Ljava/lang/String;p
 setReciver(Ljava/lang/String;)Nprogettoispw.letmeknow.controller.chat.Message#setReciver(Ljava/lang/String;)VW
 	getText()Jprogettoispw.letmeknow.controller.chat.Message#getText()Ljava/lang/String;]
 getReciver()Mprogettoispw.letmeknow.controller.chat.Message#getReciver()Ljava/lang/String;D
-<init>()8progettoispw.letmeknow.controller.chat.Message#<init>()Vp
-setDateSTR(Ljava/lang/String;)Nprogettoispw.letmeknow.controller.chat.Message#setDateSTR(Ljava/lang/String;)VJ
-getStatus();progettoispw.letmeknow.controller.chat.Message#getStatus()Vj
-setDate(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.chat.Message#setDate(Ljava/lang/String;)Vj
+<init>()8progettoispw.letmeknow.controller.chat.Message#<init>()Vj
 setText(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.chat.Message#setText(Ljava/lang/String;)Vn
-setSender(Ljava/lang/String;)Mprogettoispw.letmeknow.controller.chat.Message#setSender(Ljava/lang/String;)Võ/
-"java.time.format.DateTimeFormatterjava.lang.Objectä
-parse(Ljava/lang/CharSequence;)gjava.time.format.DateTimeFormatter#parse(Ljava/lang/CharSequence;)Ljava/time/temporal/TemporalAccessor;É
-withZone(Ljava/time/ZoneId;)cjava.time.format.DateTimeFormatter#withZone(Ljava/time/ZoneId;)Ljava/time/format/DateTimeFormatter;á
-withLocale(Ljava/util/Locale;)ejava.time.format.DateTimeFormatter#withLocale(Ljava/util/Locale;)Ljava/time/format/DateTimeFormatter;±
-3ofLocalizedDateTime(Ljava/time/format/FormatStyle;)zjava.time.format.DateTimeFormatter#ofLocalizedDateTime(Ljava/time/format/FormatStyle;)Ljava/time/format/DateTimeFormatter;h
-getDecimalStyle()Sjava.time.format.DateTimeFormatter#getDecimalStyle()Ljava/time/format/DecimalStyle;©
-/ofPattern(Ljava/lang/String;Ljava/util/Locale;)vjava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;Ljava/util/Locale;)Ljava/time/format/DateTimeFormatter;ë
-#withResolverFields(Ljava/util/Set;)jjava.time.format.DateTimeFormatter#withResolverFields(Ljava/util/Set;)Ljava/time/format/DateTimeFormatter;\
-getResolverFields()Ejava.time.format.DateTimeFormatter#getResolverFields()Ljava/util/Set;ì
--format(Ljava/time/temporal/TemporalAccessor;)bjava.time.format.DateTimeFormatter#format(Ljava/time/temporal/TemporalAccessor;)Ljava/lang/String;≠
-1withDecimalStyle(Ljava/time/format/DecimalStyle;)xjava.time.format.DateTimeFormatter#withDecimalStyle(Ljava/time/format/DecimalStyle;)Ljava/time/format/DateTimeFormatter;œ
-AparseResolved0(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)âjava.time.format.DateTimeFormatter#parseResolved0(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)Ljava/time/temporal/TemporalAccessor;m
-parsedExcessDays()Wjava.time.format.DateTimeFormatter#parsedExcessDays()Ljava/time/temporal/TemporalQuery;’
-CparseUnresolved0(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)çjava.time.format.DateTimeFormatter#parseUnresolved0(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)Ljava/time/format/DateTimeParseContext;b
-getChronology()Ojava.time.format.DateTimeFormatter#getChronology()Ljava/time/chrono/Chronology;©
-/ofLocalizedDate(Ljava/time/format/FormatStyle;)vjava.time.format.DateTimeFormatter#ofLocalizedDate(Ljava/time/format/FormatStyle;)Ljava/time/format/DateTimeFormatter;m
-parsedLeapSecond()Wjava.time.format.DateTimeFormatter#parsedLeapSecond()Ljava/time/temporal/TemporalQuery;M
-
-toFormat()?java.time.format.DateTimeFormatter#toFormat()Ljava/text/Format;©
-/ofLocalizedTime(Ljava/time/format/FormatStyle;)vjava.time.format.DateTimeFormatter#ofLocalizedTime(Ljava/time/format/FormatStyle;)Ljava/time/format/DateTimeFormatter;k
-getResolverStyle()Ujava.time.format.DateTimeFormatter#getResolverStyle()Ljava/time/format/ResolverStyle;π
-7withResolverFields([Ljava/time/temporal/TemporalField;)~java.time.format.DateTimeFormatter#withResolverFields([Ljava/time/temporal/TemporalField;)Ljava/time/format/DateTimeFormatter;ç
-toPrinterParser(Z)wjava.time.format.DateTimeFormatter#toPrinterParser(Z)Ljava/time/format/DateTimeFormatterBuilder$CompositePrinterParser;Ö
-ofPattern(Ljava/lang/String;)djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;M
-
-toString()?java.time.format.DateTimeFormatter#toString()Ljava/lang/String;—
-BparseUnresolved(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)äjava.time.format.DateTimeFormatter#parseUnresolved(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)Ljava/time/temporal/TemporalAccessor;Ÿ
-FparseBest(Ljava/lang/CharSequence;[Ljava/time/temporal/TemporalQuery;)éjava.time.format.DateTimeFormatter#parseBest(Ljava/lang/CharSequence;[Ljava/time/temporal/TemporalQuery;)Ljava/time/temporal/TemporalAccessor;ª
-Aparse(Ljava/lang/CharSequence;Ljava/time/temporal/TemporalQuery;)vjava.time.format.DateTimeFormatter#parse(Ljava/lang/CharSequence;Ljava/time/temporal/TemporalQuery;)Ljava/lang/Object;ë
-,toFormat(Ljava/time/temporal/TemporalQuery;)ajava.time.format.DateTimeFormatter#toFormat(Ljava/time/temporal/TemporalQuery;)Ljava/text/Format;Ó
-QofLocalizedDateTime(Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;)òjava.time.format.DateTimeFormatter#ofLocalizedDateTime(Ljava/time/format/FormatStyle;Ljava/time/format/FormatStyle;)Ljava/time/format/DateTimeFormatter;•
--withChronology(Ljava/time/chrono/Chronology;)tjava.time.format.DateTimeFormatter#withChronology(Ljava/time/chrono/Chronology;)Ljava/time/format/DateTimeFormatter;Ω
-8parse(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)Äjava.time.format.DateTimeFormatter#parse(Ljava/lang/CharSequence;Ljava/text/ParsePosition;)Ljava/time/temporal/TemporalAccessor;K
-	getZone()>java.time.format.DateTimeFormatter#getZone()Ljava/time/ZoneId;O
-getLocale()@java.time.format.DateTimeFormatter#getLocale()Ljava/util/Locale;±
-3withResolverStyle(Ljava/time/format/ResolverStyle;)zjava.time.format.DateTimeFormatter#withResolverStyle(Ljava/time/format/ResolverStyle;)Ljava/time/format/DateTimeFormatter;â
-localizedBy(Ljava/util/Locale;)fjava.time.format.DateTimeFormatter#localizedBy(Ljava/util/Locale;)Ljava/time/format/DateTimeFormatter;”
-AcreateError(Ljava/lang/CharSequence;Ljava/lang/RuntimeException;)çjava.time.format.DateTimeFormatter#createError(Ljava/lang/CharSequence;Ljava/lang/RuntimeException;)Ljava/time/format/DateTimeParseException;≤
-EformatTo(Ljava/time/temporal/TemporalAccessor;Ljava/lang/Appendable;)ijava.time.format.DateTimeFormatter#formatTo(Ljava/time/temporal/TemporalAccessor;Ljava/lang/Appendable;)V‹
-Ÿ<init>(Ljava/time/format/DateTimeFormatterBuilder$CompositePrinterParser;Ljava/util/Locale;Ljava/time/format/DecimalStyle;Ljava/time/format/ResolverStyle;Ljava/util/Set;Ljava/time/chrono/Chronology;Ljava/time/ZoneId;)˝java.time.format.DateTimeFormatter#<init>(Ljava/time/format/DateTimeFormatterBuilder$CompositePrinterParser;Ljava/util/Locale;Ljava/time/format/DecimalStyle;Ljava/time/format/ResolverStyle;Ljava/util/Set;Ljava/time/chrono/Chronology;Ljava/time/ZoneId;)V€
-#java.time.temporal.TemporalAccessorjava.lang.Objectå
-)query(Ljava/time/temporal/TemporalQuery;)_java.time.temporal.TemporalAccessor#query(Ljava/time/temporal/TemporalQuery;)Ljava/lang/Object;w
-'get(Ljava/time/temporal/TemporalField;)Ljava.time.temporal.TemporalAccessor#get(Ljava/time/temporal/TemporalField;)Iô
-)range(Ljava/time/temporal/TemporalField;)ljava.time.temporal.TemporalAccessor#range(Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;¢
-java.time.temporal.Temporaljava.lang.Object#java.time.temporal.TemporalAccessorè
-)plus(Ljava/time/temporal/TemporalAmount;)bjava.time.temporal.Temporal#plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;è
-)minus(JLjava/time/temporal/TemporalUnit;)bjava.time.temporal.Temporal#minus(JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;ë
-*minus(Ljava/time/temporal/TemporalAmount;)cjava.time.temporal.Temporal#minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;ì
-+with(Ljava/time/temporal/TemporalAdjuster;)djava.time.temporal.Temporal#with(Ljava/time/temporal/TemporalAdjuster;)Ljava/time/temporal/Temporal;7
-#java.time.temporal.TemporalAdjusterjava.lang.ObjectÖ
-$java.time.chrono.ChronoLocalDateTimejava.lang.Comparablejava.lang.Objectjava.time.temporal.Temporal#java.time.temporal.TemporalAdjusterò
-)adjustInto(Ljava/time/temporal/Temporal;)kjava.time.chrono.ChronoLocalDateTime#adjustInto(Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;]
-timeLineOrder()Jjava.time.chrono.ChronoLocalDateTime#timeLineOrder()Ljava/util/Comparator;ç
-)query(Ljava/time/temporal/TemporalQuery;)`java.time.chrono.ChronoLocalDateTime#query(Ljava/time/temporal/TemporalQuery;)Ljava/lang/Object;å
-1compareTo(Ljava/time/chrono/ChronoLocalDateTime;)Wjava.time.chrono.ChronoLocalDateTime#compareTo(Ljava/time/chrono/ChronoLocalDateTime;)I•
-+from(Ljava/time/temporal/TemporalAccessor;)vjava.time.chrono.ChronoLocalDateTime#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/chrono/ChronoLocalDateTime;£
-*minus(Ljava/time/temporal/TemporalAmount;)ujava.time.chrono.ChronoLocalDateTime#minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoLocalDateTime;t
-%toEpochSecond(Ljava/time/ZoneOffset;)Kjava.time.chrono.ChronoLocalDateTime#toEpochSecond(Ljava/time/ZoneOffset;)Jì
-,format(Ljava/time/format/DateTimeFormatter;)cjava.time.chrono.ChronoLocalDateTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;•
-+with(Ljava/time/temporal/TemporalAdjuster;)vjava.time.chrono.ChronoLocalDateTime#with(Ljava/time/temporal/TemporalAdjuster;)Ljava/time/chrono/ChronoLocalDateTime;°
-)plus(Ljava/time/temporal/TemporalAmount;)tjava.time.chrono.ChronoLocalDateTime#plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/chrono/ChronoLocalDateTime;°
-)minus(JLjava/time/temporal/TemporalUnit;)tjava.time.chrono.ChronoLocalDateTime#minus(JLjava/time/temporal/TemporalUnit;)Ljava/time/chrono/ChronoLocalDateTime;Ü
-.isSupported(Ljava/time/temporal/TemporalUnit;)Tjava.time.chrono.ChronoLocalDateTime#isSupported(Ljava/time/temporal/TemporalUnit;)Zd
-getChronology()Qjava.time.chrono.ChronoLocalDateTime#getChronology()Ljava/time/chrono/Chronology;à
-/isEqual(Ljava/time/chrono/ChronoLocalDateTime;)Ujava.time.chrono.ChronoLocalDateTime#isEqual(Ljava/time/chrono/ChronoLocalDateTime;)Zà
-/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Ujava.time.chrono.ChronoLocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Zä
-0isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Vjava.time.chrono.ChronoLocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z~
-!toInstant(Ljava/time/ZoneOffset;)Yjava.time.chrono.ChronoLocalDateTime#toInstant(Ljava/time/ZoneOffset;)Ljava/time/Instant;íC
-java.time.LocalDateTime$java.time.chrono.ChronoLocalDateTimejava.lang.Objectjava.time.temporal.Temporal#java.time.temporal.TemporalAdjusterjava.io.SerializableK
-toLocalTime():java.time.LocalDateTime#toLocalTime()Ljava/time/LocalTime;Q
-equals(Ljava/lang/Object;)3java.time.LocalDateTime#equals(Ljava/lang/Object;)ZM
-plusNanos(J)=java.time.LocalDateTime#plusNanos(J)Ljava/time/LocalDateTime;s
-parse(Ljava/lang/CharSequence;)Pjava.time.LocalDateTime#parse(Ljava/lang/CharSequence;)Ljava/time/LocalDateTime;a
-now(Ljava/time/Clock;)Gjava.time.LocalDateTime#now(Ljava/time/Clock;)Ljava/time/LocalDateTime;ï
-0ofInstant(Ljava/time/Instant;Ljava/time/ZoneId;)ajava.time.LocalDateTime#ofInstant(Ljava/time/Instant;Ljava/time/ZoneId;)Ljava/time/LocalDateTime;3
-getMinute()$java.time.LocalDateTime#getMinute()Iá
-)plus(Ljava/time/temporal/TemporalAmount;)Zjava.time.LocalDateTime#plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalDateTime;K
-plusDays(J)<java.time.LocalDateTime#plusDays(J)Ljava/time/LocalDateTime;?
-now()6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;K
-withNano(I)<java.time.LocalDateTime#withNano(I)Ljava/time/LocalDateTime;9
-getDayOfYear()'java.time.LocalDateTime#getDayOfYear()Ik
-'readObject(Ljava/io/ObjectInputStream;)@java.time.LocalDateTime#readObject(Ljava/io/ObjectInputStream;)VO
-minusYears(J)>java.time.LocalDateTime#minusYears(J)Ljava/time/LocalDateTime;}
-0isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Zv
- atOffset(Ljava/time/ZoneOffset;)Rjava.time.LocalDateTime#atOffset(Ljava/time/ZoneOffset;)Ljava/time/OffsetDateTime;;
-getDayOfMonth()(java.time.LocalDateTime#getDayOfMonth()Iç
-)range(Ljava/time/temporal/TemporalField;)`java.time.LocalDateTime#range(Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;i
-of(ILjava/time/Month;IIII)Kjava.time.LocalDateTime#of(ILjava/time/Month;IIII)Ljava/time/LocalDateTime;J
-writeReplace()8java.time.LocalDateTime#writeReplace()Ljava/lang/Object;c
-#writeExternal(Ljava/io/DataOutput;)<java.time.LocalDateTime#writeExternal(Ljava/io/DataOutput;)VO
-minusNanos(J)>java.time.LocalDateTime#minusNanos(J)Ljava/time/LocalDateTime;ã
-)adjustInto(Ljava/time/temporal/Temporal;)^java.time.LocalDateTime#adjustInto(Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;K
-of(IIIIIII)<java.time.LocalDateTime#of(IIIIIII)Ljava/time/LocalDateTime;K
-withHour(I)<java.time.LocalDateTime#withHour(I)Ljava/time/LocalDateTime;B
-
-toString()4java.time.LocalDateTime#toString()Ljava/lang/String;ß
-Euntil(Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)^java.time.LocalDateTime#until(Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)JG
-	of(IIIII):java.time.LocalDateTime#of(IIIII)Ljava/time/LocalDateTime;k
-of(ILjava/time/Month;IIIII)Ljava.time.LocalDateTime#of(ILjava/time/Month;IIIII)Ljava/time/LocalDateTime;â
-*minus(Ljava/time/temporal/TemporalAmount;)[java.time.LocalDateTime#minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/LocalDateTime;ï
-0with(Ljava/time/LocalDate;Ljava/time/LocalTime;)ajava.time.LocalDateTime#with(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;ë
-.truncatedTo(Ljava/time/temporal/TemporalUnit;)_java.time.LocalDateTime#truncatedTo(Ljava/time/temporal/TemporalUnit;)Ljava/time/LocalDateTime;O
-plusMonths(J)>java.time.LocalDateTime#plusMonths(J)Ljava/time/LocalDateTime;s
-+getLong(Ljava/time/temporal/TemporalField;)Djava.time.LocalDateTime#getLong(Ljava/time/temporal/TemporalField;)J{
-/isEqual(Ljava/time/chrono/ChronoLocalDateTime;)Hjava.time.LocalDateTime#isEqual(Ljava/time/chrono/ChronoLocalDateTime;)ZS
-minusSeconds(J)@java.time.LocalDateTime#minusSeconds(J)Ljava/time/LocalDateTime;/
-	getHour()"java.time.LocalDateTime#getHour()I/
-	getYear()"java.time.LocalDateTime#getYear()IO
-withMinute(I)>java.time.LocalDateTime#withMinute(I)Ljava/time/LocalDateTime;g
-%compareTo0(Ljava/time/LocalDateTime;)>java.time.LocalDateTime#compareTo0(Ljava/time/LocalDateTime;)IU
-withDayOfYear(I)Ajava.time.LocalDateTime#withDayOfYear(I)Ljava/time/LocalDateTime;M
-withMonth(I)=java.time.LocalDateTime#withMonth(I)Ljava/time/LocalDateTime;w
-!readExternal(Ljava/io/DataInput;)Rjava.time.LocalDateTime#readExternal(Ljava/io/DataInput;)Ljava/time/LocalDateTime;A
-
-getMonth()3java.time.LocalDateTime#getMonth()Ljava/time/Month;M
-plusYears(J)=java.time.LocalDateTime#plusYears(J)Ljava/time/LocalDateTime;Ü
-,format(Ljava/time/format/DateTimeFormatter;)Vjava.time.LocalDateTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;ã
-+with(Ljava/time/temporal/TemporalAdjuster;)\java.time.LocalDateTime#with(Ljava/time/temporal/TemporalAdjuster;)Ljava/time/LocalDateTime;c
-now(Ljava/time/ZoneId;)Hjava.time.LocalDateTime#now(Ljava/time/ZoneId;)Ljava/time/LocalDateTime;1
-
-hashCode()#java.time.LocalDateTime#hashCode()Ii
-atZone(Ljava/time/ZoneId;)Kjava.time.LocalDateTime#atZone(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;I
-
-of(IIIIII);java.time.LocalDateTime#of(IIIIII)Ljava/time/LocalDateTime;á
-)minus(JLjava/time/temporal/TemporalUnit;)Zjava.time.LocalDateTime#minus(JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalDateTime;Å
-2<init>(Ljava/time/LocalDate;Ljava/time/LocalTime;)Kjava.time.LocalDateTime#<init>(Ljava/time/LocalDate;Ljava/time/LocalTime;)Vá
-)with(Ljava/time/temporal/TemporalField;J)Zjava.time.LocalDateTime#with(Ljava/time/temporal/TemporalField;J)Ljava/time/LocalDateTime;Q
-plusMinutes(J)?java.time.LocalDateTime#plusMinutes(J)Ljava/time/LocalDateTime;{
-/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z;
-getMonthValue()(java.time.LocalDateTime#getMonthValue()IK
-toLocalDate():java.time.LocalDateTime#toLocalDate()Ljava/time/LocalDate;ë
-.of(Ljava/time/LocalDate;Ljava/time/LocalTime;)_java.time.LocalDateTime#of(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;M
-plusHours(J)=java.time.LocalDateTime#plusHours(J)Ljava/time/LocalDateTime;Ä
-)query(Ljava/time/temporal/TemporalQuery;)Sjava.time.LocalDateTime#query(Ljava/time/temporal/TemporalQuery;)Ljava/lang/Object;
-1compareTo(Ljava/time/chrono/ChronoLocalDateTime;)Jjava.time.LocalDateTime#compareTo(Ljava/time/chrono/ChronoLocalDateTime;)IÖ
-(plus(JLjava/time/temporal/TemporalUnit;)Yjava.time.LocalDateTime#plus(JLjava/time/temporal/TemporalUnit;)Ljava/time/LocalDateTime;g
-of(ILjava/time/Month;III)Jjava.time.LocalDateTime#of(ILjava/time/Month;III)Ljava/time/LocalDateTime;k
-'get(Ljava/time/temporal/TemporalField;)@java.time.LocalDateTime#get(Ljava/time/temporal/TemporalField;)Iã
-+from(Ljava/time/temporal/TemporalAccessor;)\java.time.LocalDateTime#from(Ljava/time/temporal/TemporalAccessor;)Ljava/time/LocalDateTime;ç
-,plusWithOverflow(Ljava/time/LocalDate;JJJJI)]java.time.LocalDateTime#plusWithOverflow(Ljava/time/LocalDate;JJJJI)Ljava/time/LocalDateTime;O
-minusHours(J)>java.time.LocalDateTime#minusHours(J)Ljava/time/LocalDateTime;Q
-minusMonths(J)?java.time.LocalDateTime#minusMonths(J)Ljava/time/LocalDateTime;S
-minusMinutes(J)@java.time.LocalDateTime#minusMinutes(J)Ljava/time/LocalDateTime;ª
-Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)tjava.time.LocalDateTime#parse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)Ljava/time/LocalDateTime;M
-plusWeeks(J)=java.time.LocalDateTime#plusWeeks(J)Ljava/time/LocalDateTime;É
-'ofEpochSecond(JILjava/time/ZoneOffset;)Xjava.time.LocalDateTime#ofEpochSecond(JILjava/time/ZoneOffset;)Ljava/time/LocalDateTime;y
-.isSupported(Ljava/time/temporal/TemporalUnit;)Gjava.time.LocalDateTime#isSupported(Ljava/time/temporal/TemporalUnit;)ZM
-getDayOfWeek();java.time.LocalDateTime#getDayOfWeek()Ljava/time/DayOfWeek;M
-minusDays(J)=java.time.LocalDateTime#minusDays(J)Ljava/time/LocalDateTime;Q
-plusSeconds(J)?java.time.LocalDateTime#plusSeconds(J)Ljava/time/LocalDateTime;3
-getSecond()$java.time.LocalDateTime#getSecond()I/
-	getNano()"java.time.LocalDateTime#getNano()I{
-/isSupported(Ljava/time/temporal/TemporalField;)Hjava.time.LocalDateTime#isSupported(Ljava/time/temporal/TemporalField;)ZK
-withYear(I)<java.time.LocalDateTime#withYear(I)Ljava/time/LocalDateTime;O
-withSecond(I)>java.time.LocalDateTime#withSecond(I)Ljava/time/LocalDateTime;W
-withDayOfMonth(I)Bjava.time.LocalDateTime#withDayOfMonth(I)Ljava/time/LocalDateTime;O
-minusWeeks(J)>java.time.LocalDateTime#minusWeeks(J)Ljava/time/LocalDateTime;∆
+setSender(Ljava/lang/String;)Mprogettoispw.letmeknow.controller.chat.Message#setSender(Ljava/lang/String;)V∆
 <progettoispw.letmeknow.InitialSearchAndChatControllerInterf1java.lang.ObjectR
 <init>()Fprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#<init>()VX
 outputVal()Iprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#outputVal()V`
@@ -1893,14 +1722,12 @@ DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.
 endRequest()!java.sql.Connection#endRequest()Vƒ
 (progettoispw.letmeknow.formResultInterf1java.lang.Object>
 <init>()2progettoispw.letmeknow.formResultInterf1#<init>()VF
-initialize()6progettoispw.letmeknow.formResultInterf1#initialize()Vì	
+initialize()6progettoispw.letmeknow.formResultInterf1#initialize()VÈ
 ,progettoispw.letmeknow.controller.chat.Queryjava.lang.Object“
-FselectUserRS(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)áprogettoispw.letmeknow.controller.chat.Query#selectUserRS(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;÷
-HselectMessages(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)âprogettoispw.letmeknow.controller.chat.Query#selectMessages(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;B
+FselectUserRS(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)áprogettoispw.letmeknow.controller.chat.Query#selectUserRS(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;B
 <init>()6progettoispw.letmeknow.controller.chat.Query#<init>()V≥
-7selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)xprogettoispw.letmeknow.controller.chat.Query#selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;Œ
-DselectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Öprogettoispw.letmeknow.controller.chat.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;◊
-RnewMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Äprogettoispw.letmeknow.controller.chat.Query#newMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VÌ
+7selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)xprogettoispw.letmeknow.controller.chat.Query#selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;◊
+RnewMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Äprogettoispw.letmeknow.controller.chat.Query#newMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZÌ
 +progettoispw.letmeknow.bean.RecoverPswdBeanjava.lang.ObjectA
 <init>()5progettoispw.letmeknow.bean.RecoverPswdBean#<init>()Vi
 sendMail(Ljava/lang/String;)Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)Zµ
@@ -1921,7 +1748,17 @@ showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()Vº
 getForms()@progettoispw.letmeknow.bean.HomepagePsicologistBean#getForms()[F^
 
 getMonth()Pprogettoispw.letmeknow.bean.HomepagePsicologistBean#getMonth()Ljava/lang/String;w
-suggestForm(Ljava/lang/String;)Tprogettoispw.letmeknow.bean.HomepagePsicologistBean#suggestForm(Ljava/lang/String;)Zå
+suggestForm(Ljava/lang/String;)Tprogettoispw.letmeknow.bean.HomepagePsicologistBean#suggestForm(Ljava/lang/String;)Z€
+#java.time.temporal.TemporalAccessorjava.lang.Objectå
+)query(Ljava/time/temporal/TemporalQuery;)_java.time.temporal.TemporalAccessor#query(Ljava/time/temporal/TemporalQuery;)Ljava/lang/Object;w
+'get(Ljava/time/temporal/TemporalField;)Ljava.time.temporal.TemporalAccessor#get(Ljava/time/temporal/TemporalField;)Iô
+)range(Ljava/time/temporal/TemporalField;)ljava.time.temporal.TemporalAccessor#range(Ljava/time/temporal/TemporalField;)Ljava/time/temporal/ValueRange;¢
+java.time.temporal.Temporaljava.lang.Object#java.time.temporal.TemporalAccessorè
+)plus(Ljava/time/temporal/TemporalAmount;)bjava.time.temporal.Temporal#plus(Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;è
+)minus(JLjava/time/temporal/TemporalUnit;)bjava.time.temporal.Temporal#minus(JLjava/time/temporal/TemporalUnit;)Ljava/time/temporal/Temporal;ë
+*minus(Ljava/time/temporal/TemporalAmount;)cjava.time.temporal.Temporal#minus(Ljava/time/temporal/TemporalAmount;)Ljava/time/temporal/Temporal;ì
++with(Ljava/time/temporal/TemporalAdjuster;)djava.time.temporal.Temporal#with(Ljava/time/temporal/TemporalAdjuster;)Ljava/time/temporal/Temporal;7
+#java.time.temporal.TemporalAdjusterjava.lang.Objectå
  java.time.chrono.ChronoLocalDatejava.lang.Comparablejava.lang.Objectjava.time.temporal.Temporal#java.time.temporal.TemporalAdjusterî
 )adjustInto(Ljava/time/temporal/Temporal;)gjava.time.chrono.ChronoLocalDate#adjustInto(Ljava/time/temporal/Temporal;)Ljava/time/temporal/Temporal;Y
 timeLineOrder()Fjava.time.chrono.ChronoLocalDate#timeLineOrder()Ljava/util/Comparator;â
@@ -2041,15 +1878,19 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)ljava.time.
 getFormid()Aprogettoispw.letmeknow.controller.GoToFormController#getFormid()IÓ
 5progettoispw.letmeknow.bean.FormPsicologistResultBeanjava.lang.ObjectK
 <init>()?progettoispw.letmeknow.bean.FormPsicologistResultBean#<init>()VV
-getSelected()Eprogettoispw.letmeknow.bean.FormPsicologistResultBean#getSelected()[Fƒ
+getSelected()Eprogettoispw.letmeknow.bean.FormPsicologistResultBean#getSelected()[F≤
 /progettoispw.letmeknow.controller.ISCControllerjava.lang.ObjectC
 reset()8progettoispw.letmeknow.controller.ISCController#reset()VV
 getUid()Jprogettoispw.letmeknow.controller.ISCController#getUid()Ljava/lang/String;E
-<init>()9progettoispw.letmeknow.controller.ISCController#<init>()V^
-queryUsers()Nprogettoispw.letmeknow.controller.ISCController#queryUsers()Ljava/util/Vector;k
+<init>()9progettoispw.letmeknow.controller.ISCController#<init>()V\
+queryUsers()Lprogettoispw.letmeknow.controller.ISCController#queryUsers()Ljava/util/List;k
 <init>(Ljava/lang/Integer;)Lprogettoispw.letmeknow.controller.ISCController#<init>(Ljava/lang/Integer;)Vc
-who(Ljava/lang/String;)Hprogettoispw.letmeknow.controller.ISCController#who(Ljava/lang/String;)Vi
-search(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.ISCController#search(Ljava/lang/String;)V°	
+who(Ljava/lang/String;)Hprogettoispw.letmeknow.controller.ISCController#who(Ljava/lang/String;)VZ
+getListV4()Kprogettoispw.letmeknow.controller.ISCController#getListV4()Ljava/util/List;Z
+getListV3()Kprogettoispw.letmeknow.controller.ISCController#getListV3()Ljava/util/List;i
+search(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.ISCController#search(Ljava/lang/String;)VZ
+getListV2()Kprogettoispw.letmeknow.controller.ISCController#getListV2()Ljava/util/List;Z
+getListV1()Kprogettoispw.letmeknow.controller.ISCController#getListV1()Ljava/util/List;°	
 /progettoispw.letmeknow.controller.search.Searchjava.lang.ObjectSalvaUtenteMetaq
 setTouched(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.search.Search#setTouched(Ljava/lang/String;)Vá
 )parametricSetSearch([Ljava/lang/Integer;)Zprogettoispw.letmeknow.controller.search.Search#parametricSetSearch([Ljava/lang/Integer;)Vu
@@ -2060,9 +1901,9 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)ljava.time.
 getTouched()Gprogettoispw.letmeknow.controller.search.Search#getTouched()LUtenteUsr;i
 attach(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.search.Search#attach(Ljava/lang/String;)VY
 parametricSearch()Cprogettoispw.letmeknow.controller.search.Search#parametricSearch()Ze
-getArrayList()Sprogettoispw.letmeknow.controller.search.Search#getArrayList()Ljava/util/ArrayList;ä
-0progettoispw.letmeknow.controller.ChatControllerjava.lang.Object\
-	getChat()Oprogettoispw.letmeknow.controller.ChatController#getChat()Ljava/util/ArrayList;F
+getArrayList()Sprogettoispw.letmeknow.controller.search.Search#getArrayList()Ljava/util/ArrayList;Ö
+0progettoispw.letmeknow.controller.ChatControllerjava.lang.ObjectW
+	getChat()Jprogettoispw.letmeknow.controller.ChatController#getChat()Ljava/util/List;F
 <init>():progettoispw.letmeknow.controller.ChatController#<init>()VY
 	getWith()Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;W
 getUID()Kprogettoispw.letmeknow.controller.ChatController#getUID()Ljava/lang/String;j

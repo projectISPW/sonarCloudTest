@@ -1,30 +1,19 @@
 
-,progettoispw.letmeknow.WordCheck#highText()Iv
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaG G("3*þ
-2v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaJ J("€
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaJ J(
-""*š
-3v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H(É
-Æ
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H("
-%0java.lang.String"__id*.*,"
- progettoispw.letmeknow.WordCheck"
-textÈÅ
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H(#
-%1java.lang.Integer"Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;*$"
- progettoispw.letmeknow.WordCheck*
-
-%0java.lang.String2contaInvio(Ljava/lang/String;)*
-2
-1*þ
-1v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaL L("€
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaL L(
-""B$"
- progettoispw.letmeknow.WordCheck
+Gprogettoispw.letmeknow.bean.VisitBean#exitObiettivo()Ljava/lang/String;“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*Ì
+1“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java+ (,Æ
+Ã
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (7
+	obiettivojava.lang.String"__id*
+""Æ
+Ã
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (2
+	obiettivojava.lang.String"__id*
+"""ž
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (3
+""B)'
+%progettoispw.letmeknow.bean.VisitBean

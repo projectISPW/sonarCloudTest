@@ -1,39 +1,9 @@
 
-pprogettoispw.letmeknow.controller.form.Query#newForm(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaW W("4*¢
-2~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaZ Z(*"œ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaZ Z(*
-
-%1java.sql.ResultSet*‹
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaY Y(i¼
-¹
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaY Y(i
-sqljava.lang.String"__id*
-
-%0java.lang.StringÁ¾
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaZ Z()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*ë
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaY Y(à
-Ý
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaY Y(h
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*=;
-9SELECT `formid`,`completed` FROM forms where userid='%s';*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.StringB0.
-,progettoispw.letmeknow.controller.form.Query
+<progettoispw.letmeknow.controller.utenti.UtenteUsr#getEmp()I„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteUsr.java+ +("1*œ
+1„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteUsr.java, ,("
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteUsr.java, ,(
+""B64
+2progettoispw.letmeknow.controller.utenti.UtenteUsr

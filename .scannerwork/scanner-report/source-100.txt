@@ -1,22 +1,63 @@
-package progettoispw.letmeknow.controller.search;
+package progettoispw.letmeknow;
+
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
+import progettoispw.letmeknow.bean.HomepagePsicologistBean;
 import progettoispw.letmeknow.controller.ConnectionDB;
+import progettoispw.letmeknow.controller.form.FormSQL;
+import progettoispw.letmeknow.controller.search.Search;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
 
-import java.sql.*;
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
-public class SearchSQL extends Query {
-    private ConnectionDB conn=new ConnectionDB() ;
-    private Statement stmt=conn.getStatement();
-    public ResultSet getUserData1(String userid) throws SQLException {
-        return selectUser(stmt,userid);
+public class MainApplication extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        Parent root=FXMLLoader.load(getClass().getResource("login/interf1.fxml"));
+        stage.setScene(new Scene(root));
+        stage.setTitle("Login");
+        //stage.setResizable(false);
+        //stage.setFullScreen(true);
+        Image icon= new Image(getClass().getResourceAsStream("photo/brain.jpg"));
+        stage.getIcons().add(icon);
+        //Alert in fase di uscita dall'applicazione
+        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent windowEvent) {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Exit Confirmation");
+                alert.setHeaderText("Are you sure to exit program?");
+                alert.setContentText("If you want to exit you'll be logged out from application.");
+                if(alert.showAndWait().get() == ButtonType.OK){
+                    //Log Out Account and Exit Program
+                    // ...
+                    ConnectionDB connection =new ConnectionDB();
+                    connection.close();
+                    System.out.println("Prompt: On Log Out phase");
+                    Platform.exit();
+                    System.exit(0);
+                }else{
+                    System.out.println("Prompt: On Cancel Confirmation Alert. Consume Event");
+                    windowEvent.consume();
+                }
+            }
+        });
+        stage.show();
     }
-    public ResultSet search4All(String userid,int emp, int hum,int pos){
-        return searchAll(stmt,emp, hum,pos,userid);
-    }
-    public ResultSet searchGoal(String userid, String goal) {
-        return searchDataQuery(stmt,userid,"tag",goal);
-    }
-
-    public ResultSet searchDescr(String userid, String descr) {
-        return searchDataQuery(stmt,userid,"description",descr);
+    public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException {
+         launch();
     }
 }

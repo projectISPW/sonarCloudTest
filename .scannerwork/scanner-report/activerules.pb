@@ -3595,7 +3595,9 @@ ExclusionsTRUNCATE(ΈΩ±ρ(0­φ*:AX2EoJ1qoTeAkeA2h1h64
 	terraformS6252(ΈÒ©®/0ΈÒ©®/:AX2EoJ1roTeAkeA2h1iR8
 	terraformS6255(ΈÒ©®/0ΈÒ©®/:AX2EoJ1roTeAkeA2h1iR8
 	terraformS6265(ΈÒ©®/0ΈÒ©®/:AX2EoJ1roTeAkeA2h1iR8
-	terraformS6281(ΈÒ©®/0ΈÒ©®/:AX2EoJ1roTeAkeA2h1iR3
+	terraformS6281(ΈÒ©®/0ΈÒ©®/:AX2EoJ1roTeAkeA2h1iRX
+abapS1545"#
+format[A-Z0-9_-]++|[a-z0-9_-]++(ψƒνηρ*0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iL3
 abapS4721(Θι„ΰ²-0ΰχΗάΫ.:AX2EoJ1roTeAkeA2h1iL[
 abapS2068"&
 credentialWordspassword,passwd,pwd(Θι„ΰ²-0Θι„ΰ²-:AX2EoJ1roTeAkeA2h1iL3
@@ -3661,9 +3663,7 @@ ExclusionsTRUNCATE(ΈΩ±ρ(0­φ*:AX2EoJ1qoTeAkeA2h1h64
 abapS1507(θαάο(0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iL3
 abapS1540(θαάο(0ΰπαάο(:AX2EoJ1roTeAkeA2h1iLX
 abapS1544"#
-format^([A-Z0-9_]*|[a-z0-9_]*)$(θαάο(0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iLX
-abapS1545"#
-format[A-Z0-9_-]++|[a-z0-9_-]++(ψƒνηρ*0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iLA
+format^([A-Z0-9_]*|[a-z0-9_]*)$(θαάο(0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iLA
 abapS1597"
 Maximum3(γΑ‡Λ)0γΑ‡Λ):AX2EoJ1roTeAkeA2h1iL3
 abapS1669(θϊΖ•”)0ψƒνηρ*:AX2EoJ1roTeAkeA2h1iL3

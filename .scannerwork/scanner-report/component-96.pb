@@ -1,1 +1,1 @@
-` 2javaXahr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
+` 2javaX5hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtentePsy.java

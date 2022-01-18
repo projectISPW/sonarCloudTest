@@ -1,1 +1,1 @@
-h 2javaX^hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java
+h 2javaX/hrhprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java

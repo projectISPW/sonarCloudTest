@@ -1,16 +1,42 @@
 
-Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java, ,("1*ä
-1
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java- -(
-þ
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java- -(
-%0java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ChatController"
-with"º
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java- -(
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.ChatController
+Jprogettoispw.letmeknow.bean.BeanResultSearch#exitGoal()[Ljava/lang/String;¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java ("5*›
+3¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java   (é
+æ
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java! !(*
+%2"
+__arraySet*
+
+arrStrjava.lang.String[]*
+""*
+""*
+3
+1*ö
+5¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java$ ((‚
+ÿ
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java$ ((
+%0java.lang.Integer"__id*:*8.
+,progettoispw.letmeknow.bean.BeanResultSearch"
+nvalÕÒ
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java ()
+%1java.lang.String[]"java.lang.String[]ç
+ä
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java (*
+arrStrjava.lang.String[]"__id*
+
+%1java.lang.String[]*
+3
+1*î
+1¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java# #("Ä
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java# #(
+
+arrStrjava.lang.String[]B0.
+,progettoispw.letmeknow.bean.BeanResultSearch

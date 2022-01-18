@@ -1,15 +1,21 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.ControllerClass;
-import progettoispw.letmeknow.controller.FormPsicologistResultController;
-import progettoispw.letmeknow.controller.HomepagePsicologistController;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
-public class FormPsicologistResultBean {
-    FormPsicologistResultController controller;
-    public FormPsicologistResultBean(){
-        controller=new FormPsicologistResultController();
-    }
-    public float [] getSelected(){
-        return controller.getSelected();
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.Slider;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Vector;
+public class takeform1ControllerInterf1 extends takeformControllerInterf1 {
+
+    public takeform1ControllerInterf1(){
+        super.startStatus=new FormToTakeStatusBean(1);
     }
 }

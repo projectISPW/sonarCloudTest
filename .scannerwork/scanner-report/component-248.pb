@@ -1,1 +1,1 @@
-ø 2javaXhrprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java
+ø 2javaXphrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java

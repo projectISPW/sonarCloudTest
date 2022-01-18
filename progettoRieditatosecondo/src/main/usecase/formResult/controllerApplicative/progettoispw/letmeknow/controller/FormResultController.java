@@ -1,7 +1,7 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.form.ResultForm;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 public class FormResultController {
     String userid;

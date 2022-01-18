@@ -1,13 +1,11 @@
 package progettoispw.letmeknow.controller.search;
 
 import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
 
 public class Search implements SalvaUtenteMeta {
     private String userid;

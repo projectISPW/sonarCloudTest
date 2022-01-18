@@ -1,34 +1,15 @@
 
-Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java] ]("6"7*·
-4v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c(€ÿ
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c('
-%1char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
-1*·
-6v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(€ÿ
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(,
-%0char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
-1*˛
-7v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_" _(&"Ä
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_ _('
-""*ó
-1v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f("ô
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f(
-
-	inputTextjava.lang.String:
-	inputTextjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+Aprogettoispw.letmeknow.bean.VisitBean#exitTag()Ljava/lang/String;ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java$ $("1*ê
+1ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java%- %(.¿
+Ω
+ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java& &(-
+tagjava.lang.String"__id*
+"""±
+ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java' '(
+
+tagjava.lang.StringB)'
+%progettoispw.letmeknow.bean.VisitBean

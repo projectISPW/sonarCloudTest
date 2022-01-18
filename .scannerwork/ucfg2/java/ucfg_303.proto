@@ -1,124 +1,131 @@
 
-Pprogettoispw.letmeknow.bean.InnerUsers#get(Ljava/lang/String;)Ljava/lang/String;õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("2"6"10"11* 
-2õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (!"¶
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (!
-""*√
-3õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (ˆ
-Û
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java( (,
-%10java.lang.String"__id*4*2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goal"¶
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (.
-""*Ñ
-4õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java< (Aı
-Ú
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.javaK (O
-%9java.lang.String"__id*4*2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goal„
-‡
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java6 (W2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goal"__id*
-""*
-3*ê
-5õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java! (%ı
-Ú
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java! (%
-%7java.lang.String"__id*4*2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goalÏÈ
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java! (.	
-%8int"java.lang.String#length()I*
-
-%7java.lang.String2length()*
-3
-4*°
-6õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (ı
-Ú
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-%6java.lang.String"__id*4*2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goal*
-3
-5*…
-7õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (¸
-˘
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java( (3
-%5java.lang.String"__id*;*9(
-&progettoispw.letmeknow.bean.InnerUsers"
-description"¶
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (5
-""*í
-8õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.javaQ (V¸
-˘
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java` (k
-%4java.lang.String"__id*;*9(
-&progettoispw.letmeknow.bean.InnerUsers"
-descriptionÍ
-Á
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.javaD (s9(
-&progettoispw.letmeknow.bean.InnerUsers"
-description"__id*
-""*
-7*ó
-9õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java( (3¸
-˘
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java( (3
-%2java.lang.String"__id*;*9(
-&progettoispw.letmeknow.bean.InnerUsers"
-descriptionÏÈ
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java( (<	
-%3int"java.lang.String#length()I*
-
-%2java.lang.String2length()*
-7
-8*©
-10õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (¸
-˘
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-%1java.lang.String"__id*;*9(
-&progettoispw.letmeknow.bean.InnerUsers"
-description*
-7
-9*◊
-11õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (˜
-Ù
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-%0java.lang.String"__id*6*4(
-&progettoispw.letmeknow.bean.InnerUsers"
-userid"∏
-õ
-êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-
-%0java.lang.String:
-whatjava.lang.StringB*(
-&progettoispw.letmeknow.bean.InnerUsers
+eprogettoispw.letmeknow.controller.utenti.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java	 	("13*Í
+13á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (∂
+≥
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (
+%0java.io.PrintStream"__id*
+""öó
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (-
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+Sending message2println(Ljava/lang/String;)*
+12*¢
+2á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ("í
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (
+""*Ú
+3á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (∂
+≥
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (
+%9java.io.PrintStream"__id*
+""§°
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+%10void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%9java.io.PrintStream*
+MESSAGE CORRECTLY SENDED2println(Ljava/lang/String;)*
+2*Í
+5á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (’“
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (E
+%8"|progettoispw.letmeknow.controller.utenti.JavaMailUtil#prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)LMessage;*97
+5progettoispw.letmeknow.controller.utenti.JavaMailUtil*
+""*
+
+	myAccountjava.lang.String*
+
+	recipientjava.lang.String2=prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)*
+3*≠
+7á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (5“
+œ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+	myAccountjava.lang.String"__id*
+progettoispw2021@gmail.com√
+¿
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ('
+passwordjava.lang.String"__id*
+Password2021*
+5*à
+8á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (Û
+
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (0
+%7java.lang.Object"__mapSet*$
+"
+
+propertiesjava.util.Properties*
+mail.smtp.auth*
+true*
+7*é
+9á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (˘
+ˆ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+%6java.lang.Object"__mapSet*$
+"
+
+propertiesjava.util.Properties*
+mail.smtp.ssl.enable*
+true*
+8*à
+10á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (Ú
+Ô
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/
+%5java.lang.Object"__mapSet*$
+"
+
+propertiesjava.util.Properties*
+mail.smtp.port*
+465*
+9*Ï
+11á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/’
+“
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/"
+
+propertiesjava.util.Properties"__id*
+
+%2java.util.Properties˝
+˙
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (9
+%4java.lang.Object"__mapSet*$
+"
+
+propertiesjava.util.Properties*
+mail.smtp.host*
+smtp.gmail.com*
+10*™
+12á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.øº
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java" (,
+%2java.util.Properties"java.util.Properties—
+Œ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.
+%3"java.util.Properties#<init>()V*
+
+%2java.util.Properties*
+11:
+	recipientjava.lang.StringB97
+5progettoispw.letmeknow.controller.utenti.JavaMailUtil

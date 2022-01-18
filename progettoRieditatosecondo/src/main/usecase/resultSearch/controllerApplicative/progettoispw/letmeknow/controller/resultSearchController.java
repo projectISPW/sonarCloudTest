@@ -1,10 +1,9 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.bean.InnerUsers;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 import java.util.ArrayList;
-import java.util.Vector;
 
 public class ResultSearchController {
     ControllerClass factory;

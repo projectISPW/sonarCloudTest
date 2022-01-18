@@ -1,7 +1,7 @@
 package progettoispw.letmeknow.bean;
 
 import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 public class InnerUsers {
     private final String userid;

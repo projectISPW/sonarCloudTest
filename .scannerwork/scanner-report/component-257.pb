@@ -1,1 +1,1 @@
-Å 2javaXXhrqprogettoRieditatosecondo/src/main/usecase/login/controllerView/progettoispw/letmeknow/LoginControllerInterf1.java
+Å 2javaXYhrsprogettoRieditatosecondo/src/main/usecase/signup/controllerView/progettoispw/letmeknow/SignupControllerInterf1.java

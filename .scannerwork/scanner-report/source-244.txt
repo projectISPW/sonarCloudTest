@@ -1,56 +1,40 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.HomepagePsicologistController;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import progettoispw.letmeknow.bean.RecoverPswdBean;
 
-import java.util.Calendar;
-import java.time.LocalDate;
-import java.time.Month;
-public class HomepagePsicologistBean {
-    HomepagePsicologistController controller;
-    int month;
-    int year;
-    String [] monthNames;
-    public HomepagePsicologistBean(){
-        LocalDate currentdate = LocalDate.now();
-        month=currentdate.getMonthValue();
-        year=currentdate.getYear();
-        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-        controller=new HomepagePsicologistController();
-        controller.getLists(month,year);
+import java.io.IOException;
+
+public class RecoverPswdControllerInterf1
+{
+    private Page controller;
+    @FXML
+    TextField email;
+    @FXML
+    Label show;
+    private  RecoverPswdBean bean;
+    public void initialize(){
+        controller= new PageMenu();
+        bean=new RecoverPswdBean();
+        show.setOpacity(0);
     }
-    public String getMonth(){
-        return monthNames[month-1];
-    }
-    public void decremMonth(){
-        if(month==1){
-            month=12;
-            year--;
+    @FXML
+    public void sendMail( ){
+        show.setOpacity(0);
+        String address=email.getText();
+        Boolean bool=bean.sendMail(address);
+        if(bool==false){
+            show.setOpacity(1);
         }
-        else{
-            month-=1;
-        }
-        controller.getLists(month,year);
+        else controller.backTo();
     }
-    public void incremMonth(){
-        if(month==12){
-            month=1;
-            year++;
-        }else{
-            month+=1;
-        }
-        controller.getLists(month,year);
+    @FXML
+    protected void backToLogin(ActionEvent event)  {
+        controller.backTo();
     }
-    public float [] getForms(){
-        System.out.println("mese corrente "+month+"anno corrente"+year);
-        float[] ret=controller.getList();
-        if(ret==null)return new float[1];
-        return ret;
-    }
-    public void setSelected(int selected) {
-       controller.setSelected(selected);
-    }
-    public boolean suggestForm(String input){
-        if(!input.equals(""))return controller.setFeed(input);
-        return false;
-    }
+
 }

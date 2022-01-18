@@ -1,23 +1,13 @@
-l
-javaS3457Q%n should be used in place of \n to produce the platform-specific line separator. 2		 ]V
-javaS125<This block of commented-out lines of code should be removed. 2
+i
+javaS116ORename this field "User" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2		 i
+javaS116ORename this field "Pass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2
 
-
- "l
-javaS3457Q%n should be used in place of \n to produce the platform-specific line separator. 2 ]S
-javaS1069Replace this use of System.out or System.err by a logger. 2 l
-javaS3457Q%n should be used in place of \n to produce the platform-specific line separator. 2 pV
-javaS125<This block of commented-out lines of code should be removed. 2 &p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 6
-javaS3626Remove this redundant jump. 2"" V
-javaS125<This block of commented-out lines of code should be removed. 2  
- "@
-javaS3457%String contains no format specifiers. 2%% ?6
-javaS3626Remove this redundant jump. 2// S
-javaS1069Replace this use of System.out or System.err by a logger. 2-- 6
-javaS3626Remove this redundant jump. 277 S
-javaS1069Replace this use of System.out or System.err by a logger. 255 p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2?? p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2MM p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2VV V
-javaS107<Method has 8 parameters, which is greater than 7 authorized. 2)) 
+ k
+javaS116QRename this field "DB_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2 v
+javaS116\Rename this field "DRIVER_CLASS_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2 $S
+javaS1069Replace this use of System.out or System.err by a logger. 2 ;
+javaS2068 Remove this hard-coded password. 2= AQ
+javaS26966Make the enclosing method "static" or remove this set. 2 p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 &S
+javaS1069Replace this use of System.out or System.err by a logger. 2 p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2(( &

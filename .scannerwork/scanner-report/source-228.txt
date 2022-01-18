@@ -1,33 +1,56 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.HomepagePsicologistController;
 
-public class HomepageController {
-    ControllerClass factory=new ControllerClass();
-    UtenteUsr user= factory.getUserUSR();
-    public String getUserID(){
-        return user.getUserid();
+import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.Month;
+public class HomepagePsicologistBean {
+    HomepagePsicologistController controller;
+    int month;
+    int year;
+    String [] monthNames;
+    public HomepagePsicologistBean(){
+        LocalDate currentdate = LocalDate.now();
+        month=currentdate.getMonthValue();
+        year=currentdate.getYear();
+        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        controller=new HomepagePsicologistController();
+        controller.getLists(month,year);
     }
-    public int tornaValoriEmpatia(){
-        System.out.println("nella bean "+user.getEmp());
-        return user.getEmp();
+    public String getMonth(){
+        return monthNames[month-1];
     }
-    public int tornaValoriUmorismo(){
-        return user.getHum();
+    public void decremMonth(){
+        if(month==1){
+            month=12;
+            year--;
+        }
+        else{
+            month-=1;
+        }
+        controller.getLists(month,year);
     }
-    public int tornaValoriPositivita(){
-        return user.getPos();
+    public void incremMonth(){
+        if(month==12){
+            month=1;
+            year++;
+        }else{
+            month+=1;
+        }
+        controller.getLists(month,year);
     }
-    public String tornaObiettivo(){
-        return user.getObiettivo();
+    public float [] getForms(){
+        System.out.println("mese corrente "+month+"anno corrente"+year);
+        float[] ret=controller.getList();
+        if(ret==null)return new float[1];
+        return ret;
     }
-    public Integer[] tornaData(){
-        return user.getData();
+    public void setSelected(int selected) {
+       controller.setSelected(selected);
     }
-    public String tornaTag(){
-        return user.getTag();
-    }
-    public String tornaDescrizione(){
-        return user.getDescrizione();
+    public boolean suggestForm(String input){
+        if(!input.equals(""))return controller.setFeed(input);
+        return false;
     }
 }

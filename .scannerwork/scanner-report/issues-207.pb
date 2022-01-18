@@ -1,6 +1,2 @@
-Ÿ
-javaS1659@Declare "sl2" and all following declarations on a separate line. 2 :
-Ï :
-Ï :
-Ï :
-Ï "
+g
+javaS101MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'. 2 '

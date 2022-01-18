@@ -1,6 +1,6 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 public class HomepageController {
     UtenteUsr user;
     public HomepageController(){

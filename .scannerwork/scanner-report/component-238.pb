@@ -1,1 +1,1 @@
-î 2javaX_hr€progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerView/progettoispw/letmeknow/homepagecEditcontrollerInterf1.java
+î 2javaXihrTprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java

@@ -1,6 +1,6 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
 public class FormPsicologistResultController {
     UtentePsy user;

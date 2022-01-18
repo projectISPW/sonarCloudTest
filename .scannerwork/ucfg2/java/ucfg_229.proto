@@ -1,23 +1,12 @@
 
-Qprogettoispw.letmeknow.controller.SignupController#checkMail(Ljava/lang/String;)Z°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java
- 
-("1*≠
+rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z°
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("1*÷
 1°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (–
-Õ
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¨
 °
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (
-%0java.io.PrintStream"__id*
-""Å˛
-°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (Q
-%1" java.io.PrintStream#println([C)V*
-
-%0java.io.PrintStream*
-""2println([C)"¨
-°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (&
-"":
-inputjava.lang.StringB64
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (8
+"":
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB64
 2progettoispw.letmeknow.controller.SignupController

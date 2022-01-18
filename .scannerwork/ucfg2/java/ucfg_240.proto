@@ -1,11 +1,16 @@
 
-Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;|
-rC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java
- 
-("1*ä
-1|
-rC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java ("Ü
-|
-rC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java (&
-""B*(
-&progettoispw.letmeknow.bean.UseridBean
+Mprogettoispw.letmeknow.controller.chat.Messages#getUserid()Ljava/lang/String;Å
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java ("1*ë
+1Å
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (Ê
+„
+Å
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (
+%0java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.chat.Messages"
+userid"û
+Å
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (
+
+%0java.lang.StringB31
+/progettoispw.letmeknow.controller.chat.Messages

@@ -3,8 +3,8 @@ package progettoispw.letmeknow.controller;
 import progettoispw.letmeknow.controller.chat.Messages;
 import progettoispw.letmeknow.controller.search.Search;
 import progettoispw.letmeknow.controller.utenti.SalvaUtente;
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 public class ControllerClass {
     static   UtenteUsr userU;

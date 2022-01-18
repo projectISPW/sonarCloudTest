@@ -1,1 +1,1 @@
-V 2xmlXhr&progettoRieditatosecondo/.idea/vcs.xml
+V 2javaX&hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java

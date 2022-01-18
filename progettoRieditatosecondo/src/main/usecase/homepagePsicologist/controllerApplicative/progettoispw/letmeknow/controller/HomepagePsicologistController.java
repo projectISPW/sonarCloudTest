@@ -1,15 +1,14 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.form.FormMeta;
-import progettoispw.letmeknow.controller.utentiPsy.Form;
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.controller.utentipsy.Form;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class HomepagePsicologistController implements FormMeta {
-    private ControllerClass factory;
     private UtentePsy user;
-    private Vector<Form>list;
+    private ArrayList<Form> list;
     private float [][] innerList;
     private int index;
     public HomepagePsicologistController(){
@@ -27,7 +26,7 @@ public class HomepagePsicologistController implements FormMeta {
     public void getLists(int month , int year){
         index=0;
         user.collectForms(month,year);
-        list=user.getSum();
+        list=(ArrayList<Form>) user.getSum();
         int [] answers;
         int formid,counter;
         innerList= new float[FORMSID.length][7];

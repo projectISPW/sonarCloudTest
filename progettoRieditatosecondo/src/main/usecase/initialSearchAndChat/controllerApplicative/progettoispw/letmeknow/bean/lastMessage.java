@@ -2,7 +2,6 @@ package progettoispw.letmeknow.bean;
 
 import progettoispw.letmeknow.WordCheck;
 import progettoispw.letmeknow.controller.chat.Message;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
 public class lastMessage {
     private String userid;

@@ -1,55 +1,52 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.ISCController;
+import progettoispw.letmeknow.bean.InnerUsers;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
-public class ISCBean {
-    private int nval;
-    private ISCController controller;
-    public ISCBean (int val){
-        nval=val;
-        controller=new ISCController(nval);
+public class ResultSearchController {
+    ControllerClass factory;
+    private final ArrayList<String> founded;
+    private Integer count;
+    private final Integer nVal;
+    public ResultSearchController(Integer n){
+        founded=ControllerClass.getSearch().getArrayList() ;
+        nVal=n;
+        count=0;
     }
-    public ISCBean (){
-        nval=0;
-        controller=new ISCController();
+    ArrayList<InnerUsers>formatted;
+    public void attach(InnerUsers elem){
+        formatted.add(elem);
     }
-    int indice;
-    private Vector<lastMessage> actual;
-    public String getUserid(){
-        return controller.getUid();
-    }
-    public String[] exitUid(){
-        actual=controller.queryUsers();
-        System.out.println("grandezza della lista .:"+actual.size());
-        String [] arrStr;
-        if(nval!=0) arrStr=new String[nval];
-        else arrStr=new String [actual.size()];
-        for(lastMessage usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.getUserid();
-            System.out.println(arrStr[indice]+actual.indexOf(usr));
+    InnerUsers actual;
+    public ArrayList<InnerUsers> queryUsers(){
+        int indice;
+        actual=null;
+        formatted=new ArrayList<>();
+        count = check(count);
+        UtenteUsr user;
+        for (String userid : founded) {
+            user=new UtenteUsr(userid);
+            indice = founded.indexOf(userid);
+            if (indice >= count && indice < count + nVal) {
+               actual = new InnerUsers(user);
+               actual.getStatus();
+               attach(actual);
+            }
         }
-        return arrStr;
+        count+=nVal;
+        return formatted;
     }
-    public String[] exitMsg(){
-        String [] arrStr;
-        if(nval!=0) arrStr=new String[nval];
-        else arrStr=new String [actual.size()];
-        for(lastMessage usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.getLastmsg();
+
+    private Integer check(Integer count) {
+        if(count>=founded.size()){
+            return count=0;
         }
-        return arrStr;
+        return count;
     }
-    public void touched(String user){
-        controller.who(user);
-    }
-    public void search(String find){
-        if(!find.equals("")) {controller.search(find);}
-    }
-    public void reset(){
-        controller.reset();
+    public void who(String usr){
+        factory.getSearch().setTouched(usr);
     }
 }

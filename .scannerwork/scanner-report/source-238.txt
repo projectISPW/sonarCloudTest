@@ -1,94 +1,105 @@
 package progettoispw.letmeknow;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.*;
-import progettoispw.letmeknow.controller.HomepageController;
+public class WordCheck {
+    private  int goAhead;
+    private int contAhead;
+    private int delta;
+    private String text;
+    public WordCheck(int deltaInput, int goAheadInput){
+        delta=deltaInput;
+        goAhead=goAheadInput;
+    }
+    public WordCheck(){
+        delta=goAhead=-1;
+    }
+    public  String check(String inputText) {
+        if(inputText==null)return null;
+        String add;
+        String before;
+        for (int k = goAhead-delta,count =goAhead-delta; k < inputText.length(); k = k+1) {
+            if(inputText.toCharArray()[k]=='\n'){
+                count=0;
+                //System.out.println("gia andato a capo");
+            }
+            if (count==goAhead){
+                add = inputText.substring(k);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count =0;
+            } else if(((count%goAhead)>(goAhead-delta)) && inputText.toCharArray()[k]== 32){
+                add = inputText.substring(k+1);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count=0;
+            }else{
+                count++;
+            }
+        }
+        //System.out.println(inputText);
+        text=inputText;
+        return  inputText;
+    }
+    public String check1(String inputText,String immetti){
+        if(inputText==null)return null;
+        String add;
+        String before;
+        int count=-1;
+        int start=inputText.indexOf('#');
+        int k=0;
+        for(char c : inputText.toCharArray()){
+            if(c=='#' && k!=start)
+            {
+                    add = inputText.substring(k);
+                    before = inputText.substring(0, k);
+                    //System.out.println(add+","+before);
+                    inputText = before + immetti + add;
+                    ++k;
 
-
-import java.io.IOException;
-import java.text.ParseException;
-import java.util.Date;
-
-import static java.lang.Thread.sleep;
-
-public class homepagecEditcontrollerInterf1 {
-    private PageMenu controller=new PageMenu();
-    @FXML
-    private ImageView empathySlider;
-    @FXML
-    private ImageView humorSlider;
-    @FXML
-    private ImageView positivitySlider;
-    @FXML
-    private TextField personalDescription;
-    @FXML
-    private TextField tag;
-    @FXML
-    private TextField goal;
-    @FXML
-    private TextField date;
-    @FXML
-    private Text userName;
-    private String userid;
-    private HomepagecontrollerInterf1 home;
-    private UpdateObiettivoPersonaleBean obiettivo;
-    private UpdateDescrizionePersonaleBean descrizione;
-    public homepagecEditcontrollerInterf1(){
-        obiettivo=new UpdateObiettivoPersonaleBean();
-        descrizione = new UpdateDescrizionePersonaleBean();
-        home =new HomepagecontrollerInterf1();
+            }++k;
+        }
+        return inputText;
     }
-    public void initialize() {
-        userid= obiettivo.getUserid();
-        userName.setText("User : "+userid);
-        SliderBean sliderVal=new SliderBean();
-        Integer [] listaValori=sliderVal.exitValue();
-        home.setSlider(empathySlider,listaValori[0]);
-        home.setSlider(humorSlider,listaValori[1]);
-        home.setSlider(positivitySlider,listaValori[2]);
-        DescrizionePersonaleBean descrizione=new DescrizionePersonaleBean();//della Homepage
-        String text=descrizione.exitValue();
-        personalDescription.setPromptText(text);
-        ObiettivoPersonaleBean obb=new ObiettivoPersonaleBean();//della homepage
-        goal.setPromptText(obb.exitObiettivo());
-        tag.setPromptText(obb.exitTag());
-        listaValori=obb.exitData();
-        date.setPromptText(" "+listaValori[0]+"-"+listaValori[1]+"-"+listaValori[2]);
+    public Integer contaInvio(String inputText){
+        contAhead=1;
+        for(char c : inputText.toCharArray()){
+            if(c=='\n'){
+                contAhead++;
+            }
+        }
+        return contAhead;
     }
-
-    @FXML
-    public void saveChanges()  {
-        obiettivo.entryValue(goal.getText(), tag.getText(),date.getText());
-        descrizione.entryValue(personalDescription.getText());
-        personalDescription.setText("");
-        goal.setText("");
-        tag.setText("");
-        date.setText("");
-        initialize();
+    public int highText() {
+        int linee= contaInvio(text);
+        if(linee>4){
+            return linee* 21;
+        }
+        return 60;
     }
-    @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
-        controller.switchToHome(event);
+    public  boolean checkString(String inputText){
+        if(inputText.length()>goAhead*3){
+            return false ;
+        }return true;
     }
-    @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
-        controller.switchToChat(event);
+    public  String checkLen(String inputText,int lenMax){
+        if(inputText==null)return " ";
+        inputText=inputText.replaceAll("\\n","");
+        inputText=inputText.replaceAll("\\r","");
+        inputText=inputText.replaceAll("\n","");
+        if(inputText.length()<lenMax)return inputText;
+        else {
+            return inputText.substring(0,lenMax)+"...";
+        }
     }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
-        controller.switchToPersonalForm(event);
-    }
-    @FXML
-    protected void takeForm(ActionEvent event){
-        GoToFormBean takeFormBean=new GoToFormBean();
-        int val=takeFormBean.getFormid();
-        String name="formToTake/form"+val+"interf1.fxml";
-        controller.switchTo(name,event,"fill the form");
+    public  String checkAhead(String inputText){
+        int k=0;
+        if(inputText==null)return null;
+        for(char c : inputText.toCharArray()){
+            if(c=='\n')
+            {
+                inputText.toCharArray()[k]=' ';
+            }++k;
+        }
+        return inputText;
     }
 }
+//abcdefghilmnopqrstuvz123456789

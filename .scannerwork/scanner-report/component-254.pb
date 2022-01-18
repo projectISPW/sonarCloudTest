@@ -1,1 +1,1 @@
-þ 2javaXihrTprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java
+þ 2javaXfhrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf1.java

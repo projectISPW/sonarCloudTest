@@ -1,15 +1,13 @@
 package progettoispw.letmeknow.controller.form;
 
 import progettoispw.letmeknow.controller.ControllerClass;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-import java.sql.Array;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Vector;
 
 public class ResultForm implements FormMeta {
     private String userid;

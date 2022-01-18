@@ -1,1 +1,1 @@
-€ 2javaXhr|progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java
+€ 2javaXhr~progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java

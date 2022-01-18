@@ -1,40 +1,35 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.controller;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.RecoverPswdBean;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
-import java.io.IOException;
-
-public class RecoverPswdControllerInterf1
-{
-    private Page controller;
-    @FXML
-    TextField email;
-    @FXML
-    Label show;
-    private  RecoverPswdBean bean;
-    public void initialize(){
-        controller= new PageMenu();
-        bean=new RecoverPswdBean();
-        show.setOpacity(0);
+public class VisitController {
+    UtenteUsr user;
+    public VisitController(){
+        user= ControllerClass.getSearch().getTouched();
     }
-    @FXML
-    public void sendMail( ){
-        show.setOpacity(0);
-        String address=email.getText();
-        Boolean bool=bean.sendMail(address);
-        if(bool==false){
-            show.setOpacity(1);
-        }
-        else controller.backTo();
+    public String getUserid() {
+        return user.getUserid();
     }
-    @FXML
-    protected void backToLogin(ActionEvent event)  {
-        controller.backTo();
+   public int tornaValoriEmpatia(){
+        return user.getEmp();
+    }
+    public int tornaValoriUmorismo(){
+        return user.getHum();
+    }
+    public int tornaValoriPositivita(){
+        return user.getPos();
+    }
+    public String tornaObiettivo(){
+        return user.getObiettivo();
+    }
+    public Integer[] tornaData(){
+        return user.getData();
+    }
+    public String tornaTag(){
+        return user.getTag();
+    }
+    public String tornaDescrizione(){
+        return user.getDescrizione();
     }
 
 }

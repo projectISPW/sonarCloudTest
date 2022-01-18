@@ -1,4 +1,4 @@
-package progettoispw.letmeknow.controller.utentiPsy;
+package progettoispw.letmeknow.controller.utentipsy;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,7 +10,7 @@ public class Query {
         System.out.println(sql);
         return stmt.executeQuery(sql);
     }
-    protected boolean suggestForm(Statement stmt,String from,String what){
+    protected boolean suggestForm(Statement stmt,String from,String what)  {
         try {
             String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');",from,what);
             System.out.println(sql);

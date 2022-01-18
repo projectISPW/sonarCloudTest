@@ -1,2 +1,3 @@
-S
-javaS1069Replace this use of System.out or System.err by a logger. 2,, 
+B
+javaS1125'Remove the unnecessary boolean literal. 2 E
+javaS5411*Use the primitive boolean expression here. 2 

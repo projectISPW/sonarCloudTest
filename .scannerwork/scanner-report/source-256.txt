@@ -1,21 +1,20 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.utenti.SalvaUtente;
-public class LoginController {
-    private String userid;
-    private SalvaUtente utente ;
-    private ControllerClass factory=new ControllerClass();
-    private String password;
-    public LoginController(String user,String password){
-        this.userid=user;
-        this.password=password;
-        utente=new SalvaUtente(userid);
-    }
-    public String tornaLog(){
-        String str=utente.abscessType(password);
-        if(!str.equals("uncorrect log")){
-            factory.controllerUser(userid);
-        }
-        return str;
-    }
+
+public class SignupController {
+   private SalvaUtente user;
+   public SignupController(){
+       user=new SalvaUtente();
+   }
+   public boolean checkMail(String input){
+       System.out.println("controllo mail nel controller"+user.checkEmail(input));
+       return !user.checkEmail(input);
+   }
+   public boolean signup(String password,String type,String email,int [] val,String description,String goal){
+       return user.registrationUSR(password,email,type,val,description,goal);
+   }
+   public boolean signup(String password,String type,String email){
+       return user.registrationPSY(password,email,type);
+   }
 }

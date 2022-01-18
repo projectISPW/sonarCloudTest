@@ -1,1 +1,0 @@
-x 2javaXhrXprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Factory.java

@@ -1,27 +1,23 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.FormToTakeStatusController;
+import progettoispw.letmeknow.controller.EditProfileController;
 
-public class FormToTakeStatusBean {
-    int formid;
-    FormToTakeStatusController controller;
-    public FormToTakeStatusBean(int inputformid){
-        System.out.println("id form nel bean"+inputformid);
-        formid=inputformid;
-        controller=new FormToTakeStatusController(formid);
-    }
+import static java.lang.Thread.sleep;
 
-    public int[] exitValStatus(){
-        return controller.getValResponse();
+public class UpdateDescrizionePersonaleBean {
+    private EditProfileController controller;
+    public UpdateDescrizionePersonaleBean (){
+        controller=new EditProfileController();
     }
-    public void inputValStatus(int [] inputint){
+    public void entryValue(String Value){
+        if(!Value.equals("")){
+            if(Value.toCharArray()[0]=='#'){
+            try {
+                controller.setNewStr(Value);
 
-        controller.setValResponse(inputint);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
-    public int getComplete(){
-        return controller.getValComplete();
-    }
-    public boolean[] exitStatus() {
-        return controller.getStatus();
-    }
-}
+}}

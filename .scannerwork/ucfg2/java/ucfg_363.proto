@@ -1,16 +1,15 @@
 
-Sprogettoispw.letmeknow.controller.search.Search#getArrayList()Ljava/util/ArrayList;Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java^ ^()"1*ö
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java_ _(Ï
-È
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java_ _(
-%0java.util.ArrayList"__id*B*@1
-/progettoispw.letmeknow.controller.search.Search"
-	foundList"°
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java_ _(
-
-%0java.util.ArrayListB31
-/progettoispw.letmeknow.controller.search.Search
+Cprogettoispw.letmeknow.bean.LoginBean#exitValue()Ljava/lang/String;ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java ("1*ñ
+1ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (!√
+¿
+ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (-
+outputjava.lang.String"__id*
+"""¥
+ì
+àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (
+
+outputjava.lang.StringB)'
+%progettoispw.letmeknow.bean.LoginBean

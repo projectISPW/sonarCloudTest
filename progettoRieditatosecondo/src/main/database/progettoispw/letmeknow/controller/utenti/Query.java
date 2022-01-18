@@ -15,7 +15,6 @@ public class Query {
         System.out.println(sql);
         return stmt.executeQuery(sql);
     }
-
     protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
         try {
             String sql=String.format(" UPDATE  utenti\n set %s='%s'\n WHERE userid = '%s' ;\n",what,edit,iduser);
@@ -27,12 +26,7 @@ public class Query {
             return false;
         }
     }
-    protected void setDataQuery(Statement stmt, String iduser ,String edit)throws SQLException {
-        String sql=String.format(" UPDATE `utenti` SET `by` = '%s' WHERE (`userid` = '%s');",edit,iduser);
-        //System.out.println(sql);
-        stmt.executeUpdate(sql);
-        return ;
-    }
+
     protected ResultSet queryUid(Statement stmt) throws SQLException {
         String sql=String.format(" SELECT userid FROM utenti ");
         return stmt.executeQuery(sql);
@@ -54,29 +48,7 @@ public class Query {
         stmt.executeUpdate(sql);
         return ;
     }
-    protected Boolean setParams(Statement stmt,String uid,int [] param){
-        try {
-            String sql=String.format("UPDATE `utenti` SET `empathy` = '%d', `humor` = '%d', `positivity` = '%d' WHERE (`userid` = '%s'); ",param[0],param[1],param[2],uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
-    }
 
-    protected ResultSet queryResult(Statement stmt, String uid) throws SQLException {
-        String sql=String.format(" SELECT * FROM forms where `userid`=%s ;",uid);
-        return stmt.executeQuery(sql);
-    }
-    protected boolean setCalculated(Statement stmt,String uid,int formid){
-        try {
-            String sql=String.format(" UPDATE `forms` SET `calculated` = '0' WHERE (`formid` = '%d') and (`userid` = '%s');",formid,uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
-    }
     protected boolean feed(Statement stmt,String from,String what){
         try {
             String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);
@@ -87,7 +59,4 @@ public class Query {
             return false;
         }
     }
-    
-
-
 }

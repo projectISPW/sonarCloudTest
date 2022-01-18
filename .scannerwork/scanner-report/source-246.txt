@@ -1,63 +1,39 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
-import progettoispw.letmeknow.bean.HomepagePsicologistBean;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
-import java.util.Calendar;
-
-public class HomepagePsicologistInterf1 {
-    HomepagePsicologistBean bean;
-    Page controller=new Page();
-    @FXML
-    Label count1,count2,count3;
-    @FXML
-    Label month;
-    @FXML
-    TextArea feedback;
-    public HomepagePsicologistInterf1(){
-        bean=new HomepagePsicologistBean();
+public class InnerUsers {
+    private final String userid;
+    private String description;
+    private String goal;
+    private int lenMax;
+    private WordCheck check=new WordCheck();
+    public InnerUsers(UtenteUsr elem){
+        lenMax=15;
+        userid=elem.getUserid();
+        description= elem.getDescrizione();
+        goal=elem.getTag();
     }
-    public void initialize(){
-        count1.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
-        count2.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
-        count3.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
-        month.setText(bean.getMonth());
-    }
-    public void increm() {
-        bean.incremMonth();
-        initialize();
-    }
-    public void decrem() {
-        bean.decremMonth();
-        initialize();
-    }
-    public void goToResult1(ActionEvent event) {
-        bean.setSelected(1);
-        controller.switchTo("formResultPsicologist/form1interf1.fxml",event,"users results");
-    }
-
-    public void goToResult2(ActionEvent event) {
-        bean.setSelected(2);
-        controller.switchTo("formResultPsicologist/form2interf1.fxml",event,"users results");
-    }
-    public void goToResult3(ActionEvent event) {
-        bean.setSelected(3);
-        controller.switchTo("formResultPsicologist/form3interf1.fxml",event,"users results");
-    }
-    public void suggestForm(){
-        feedback.setStyle("-fx-border-color: white;");
-        boolean bool =bean.suggestForm(feedback.getText());
-        if(bool){
-            feedback.setText("");
-        }
-        else{
-            feedback.setStyle("-fx-border-color: red;");
+    public  String get(String what){
+        switch(what){
+            case "userid" :{
+                return userid;
+            }
+            case "description" :{
+                if(description!=null && description.length()>lenMax)description= check.checkLen(description,lenMax);
+                return check.checkAhead(description);
+            }
+            case "goal" :{
+                if(goal!=null && goal.length()>lenMax)goal= check.checkLen(goal,lenMax);
+                return check.checkAhead(goal);
+            }
+            default: return null;
         }
     }
-    public void goToSettings(ActionEvent event ){
-        controller.switchTo("settingsPsicologist/interf1.fxml",event,"Settings");
+
+    public void getStatus(){
+        System.out.println("userid"+userid +"descrizione"+description+"tag"+goal);
     }
+
 }

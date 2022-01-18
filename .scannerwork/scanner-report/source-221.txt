@@ -1,21 +1,25 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.controller;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.Slider;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-public class takeform1ControllerInterf1 extends takeformControllerInterf1 {
-
-    public takeform1ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(1);
+public class EditProfileController {
+    ControllerClass factory;
+    UtenteUsr user;
+    String newStr;
+    public EditProfileController(){
+        newStr=null;
+        user = ControllerClass.getUserUSR();
+    }
+    public String getUserID(){
+        return user.getUserid();
+    }
+    public void setNewStr(String input) {
+        this.newStr = input;
+        user.setPersonalDes(newStr);
+    }
+    public void setGoal(String obbInput , String tagInput, Integer [] scadenzaInput){
+        user.setPersonalGoal(obbInput);
+        user.setPersonalTag(tagInput);
+        user.setPersonalData(scadenzaInput);
     }
 }

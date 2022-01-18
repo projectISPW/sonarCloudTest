@@ -1,72 +1,124 @@
-package progettoispw.letmeknow.controller.chat;
-
+package progettoispw.letmeknow.controller.utenti;
 import progettoispw.letmeknow.controller.ConnectionDB;
 
 import java.sql.*;
 import java.util.Vector;
 
-public class MessagesSQL extends Query implements MessagesMeta {
+public class UtenteSQL extends Query implements SalvaUtenteMeta {
     private ConnectionDB conn=new ConnectionDB() ;
     private Statement stmt=conn.getStatement();
     private ResultSet rst;
-    private Vector<Message> messages;
-    private Vector<String>users;
-    public ResultSet getSR(String userid) throws SQLException {
-        return selectUserRSALL(stmt,userid);
-    }
-
-    public ResultSet getSRchat(String user1,String user2) throws SQLException {
-        return selectUserRS(stmt,user1,user2);
-    }
-    public void newMessage(String from,String to,String text ) throws SQLException {
-        newMSG(stmt,from,to,text);
-    }
-    public void attach(Message msg){
-        messages.add(msg);
-    }
-    public void attach(String usr){
-        if (users.contains(usr)==false) {
-            users.add(usr);
+    public ResultSet getUserData(String userid)  {
+        try {
+            return selectUser(stmt, userid);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
         }
     }
-    public void scanner(ResultSet rst ) throws SQLException {
-        while (rst.next()) {
-            Message message=new Message();
-            message.setDateSTR(rst.getString(DATETIME));
-            message.setText(rst.getString(TEXT));
-            message.setSender(rst.getString(FROM));
-            message.setReciver(rst.getString(TO));
-            attach(message);
+    public void setDescription( String userid, String descr){
+        setDB(stmt,userid,"description",descr);
+        return;
+    }
+    public void setGoal( String userid, String goal) {
+        setDB(stmt,userid,"goal",goal);
+        return;
+    }
+    public void setTag( String userid, String tag){
+        setDB(stmt,userid,"tag",tag);
+        return;
+    }
+    public void setData( String userid, String data) {
+        try {
+            setDataQuery(stmt,userid,data);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return;
+    }
+    public boolean setPswd( String userid, String input)  {
+        return setDB(stmt,userid,"password",input);
+    }
+    public boolean setEmail( String userid, String input){
+        return setDB(stmt,userid,"email",input);
+    }
+    public String[] recover (String email){
+        String [] returnStr=new String[2];
+        try{
+            rst=selectUser(stmt,"email",email);
+            while(rst.next()){
+                returnStr [0]=rst.getString(USERID);
+                returnStr[1]=rst.getString(PASSWORD);
+            }
+
+            return returnStr;
+        } catch (Exception throwables) {
+            throwables.printStackTrace();
+            return null;
         }
     }
-    public void userScan(ResultSet rst,String userid ) throws SQLException {
-        while (rst.next()) {
-            attach(rst.getString(TO));
-            attach(rst.getString(FROM));
+    public Vector<String> getUID() {
+        try {
+            Vector<String> uid = new Vector<>();
+            rst = queryUid(stmt);
+            while (rst.next()) {
+                uid.add(rst.getString(USERID));
+            }
+            return uid;
+        } catch (SQLException e) {
+            System.err.println("errore nella richiesta degli userid");
+            return null;
         }
-        users.remove(userid);
     }
-    public void  research(String word,String userid) throws SQLException {
-        messages=new Vector<>();
-        users=new Vector<>();
-        rst=selectMessages(stmt,word,userid);
-        scanner(rst);
-        userScan(rst,userid);
+    public boolean checkEmail(String input){
+        try {
+            rst= selectUser(stmt,"email",input);
+            while (rst.next()) {
+                System.out.println(rst.getString(1));
+               return true;
+            }
+            return false;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
     }
-/*
-    public String getUser() {
+    public boolean registration(String uid,String password, String type, String email) {
+        try {
+            newLine(stmt,uid,password,type,email);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
+    public boolean registration(String uid,String password, String type ,int[] val,String description,String email,String goal ){
+        try {
+            newLine(stmt,uid,password,type,val,description,email,goal);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
+    public ResultSet getResult(String userid){
+        try {
+            return rst=queryResult(stmt,userid);
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+    public void setCalculated(String userid,int formid){
+        setCalculated(stmt,userid,formid);
+    }
+    public void setParams(String userid,int [] params ){
+        setParams(stmt,userid,params);
+    }
+    public boolean feed(String userid,String input){
+        return feed(stmt,userid,input);
+    }
 
-        return User;
-    }
-*/
-    public Vector<Message> getMessages() {
-        return messages;
-    }
 
-    public Vector<Message> getSRmsg(String userid) throws SQLException {
-        messages=new Vector<>();
-        rst=selectUserRSALL(stmt,userid);
-        scanner(rst);
-        return messages;
-    }
 }

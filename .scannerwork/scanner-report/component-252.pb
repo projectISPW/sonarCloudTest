@@ -1,1 +1,1 @@
-ü 2javaXhrZprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java
+ü 2javaXhrvprogettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java

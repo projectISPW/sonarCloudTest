@@ -1,1 +1,1 @@
-Î 2javaXhråprogettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/UpdateDescrizionePersonaleBean.java
+Î 2javaXhr\progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java

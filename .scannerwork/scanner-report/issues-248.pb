@@ -1,3 +1,13 @@
-S
-javaS1069Replace this use of System.out or System.err by a logger. 2 g
-javaS101MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'. 2 
+|
+javaS1659?Declare "g2" and all following declarations on a separate line. 2 :
+ø :
+ø ~
+javaS1659ADeclare "uid2" and all following declarations on a separate line. 2 :
+ø :
+ø ~
+javaS1659ADeclare "des2" and all following declarations on a separate line. 2 :
+ø :
+ø 
+javaS1659BDeclare "goal2" and all following declarations on a separate line. 2 :
+ø :
+ø  

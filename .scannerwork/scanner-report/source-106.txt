@@ -1,18 +1,20 @@
-package progettoispw.letmeknow.controller.utenti;
+package progettoispw.letmeknow;
+import javafx.event.ActionEvent;
 
-public interface SalvaUtenteMeta {
-    int USERID=1;
-    int PASSWORD=2;
-    int TYPE=3;
-    int START=3;
-    int EMAIL=4;
-    int EMP=5;
-    int HUM=6;
-    int POS=7;
-    int DES=8;
-    int GOAL=9;
-    int END=10;
-    int TAG=11;
-    int ABOUT=14;
-    int CALCULATED=15;
+import java.io.IOException;
+public  class PageMenu extends Page {
+
+    public void switchToSettings(ActionEvent event)  {
+        this.switchTo("settings/interf1.fxml",event,"Settings");
+    }
+    public void switchToChat(ActionEvent event)  {
+        this.switchTo("initialSearchAndChat/interf1.fxml",event,"your result");
+    }
+    public void switchToPersonalForm(ActionEvent event)  {
+        this.switchTo("formCollectionResults/interf1.fxml",event,"your result");
+    }
+    public void switchToHome(ActionEvent event){
+        this.switchTo("homepage/interf1.fxml",event,"Homepage");
+    }
+
 }

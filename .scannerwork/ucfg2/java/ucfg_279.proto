@@ -1,20 +1,11 @@
 
-Zprogettoispw.letmeknow.controller.utentiPsy.UtenteSQL#selectResult(II)Ljava/sql/ResultSet;‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtenteSQL.java (!"5*¢
-4‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtenteSQL.java (1"’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtenteSQL.java (1
-""*‡
-5‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtenteSQL.java (ò
-ï
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/UtenteSQL.java  ($
-%0java.sql.Statement"__id*C*A7
-5progettoispw.letmeknow.controller.utentiPsy.UtenteSQL"
-stmt*
-4:
-"":
-""B97
-5progettoispw.letmeknow.controller.utentiPsy.UtenteSQL
+5progettoispw.letmeknow.bean.GoToFormBean#getFormid()I~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java
+ 
+("1*Ž
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java ("ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java (&
+""B,*
+(progettoispw.letmeknow.bean.GoToFormBean

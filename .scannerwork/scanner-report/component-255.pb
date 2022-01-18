@@ -1,1 +1,1 @@
-ÿ 2javaXhrpprogettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java
+ÿ 2javaX3hrrprogettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java

@@ -1,1 +1,1 @@
-÷ 2javaX8hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java
+÷ 2javaX5hrŠprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/controller/ResultSearchController.java

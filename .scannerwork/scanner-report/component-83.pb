@@ -1,1 +1,1 @@
-S 2xmlXhr2progettoRieditatosecondo/.idea/sonarlint-state.xml
+S 2javaX6hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java

@@ -1,51 +1,43 @@
-package progettoispw.letmeknow.controller.utenti;
-import java.util.Properties;
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+package progettoispw.letmeknow.controller;
 
-public class JavaMailUtil {
-    private String text;
-    public Boolean sendMail(String recipient){
-        try {
-        System.out.println("Sending message");
-        Properties properties=new Properties();
-        //configurazione server
-        properties.put("mail.smtp.host","smtp.gmail.com");
-        properties.put("mail.smtp.port", "465");
-        properties.put("mail.smtp.ssl.enable", "true");
-        properties.put("mail.smtp.auth", "true");
-        //configurazione log
-        String myAccount="progettoispw2021@gmail.com";
-        String password="Password2021";
-        Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
-               protected PasswordAuthentication getPasswordAuthentication() {
-                   return new PasswordAuthentication(myAccount, password);
-                }
-            });
-        Message message = prepareMessage(session,myAccount,recipient);
-        Transport .send(message);
-        System.out.println("MESSAGE CORRECTLY SENDED");
-        return true;
-        } catch (Exception e ){
-            return false;
-        }
+import progettoispw.letmeknow.controller.chat.Messages;
+import progettoispw.letmeknow.controller.search.Search;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
+import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+
+public class ControllerClass {
+    static   UtenteUsr userU;
+    static  UtentePsy userP;
+    static Search userRes;
+    static Messages  chat;
+    private ControllerClass(){
+
     }
-
-    public void setText(String input){
-        text=input;
-    }
-    public Message prepareMessage (Session session,String myAccountEmail, String reciver){
-        try {
-            Message message =new MimeMessage(session);
-            message.setFrom(new InternetAddress(myAccountEmail));
-            message.addRecipient(Message.RecipientType.TO,new InternetAddress(reciver));
-            message.setSubject("recover password and userid");
-            message.setText(text);
-            return message;
-        } catch (Exception e) {
-           return null;
+    static void  controllerUser(String userid){//la istanzia il controller della login
+        userU=null;
+        userP=null;
+        SalvaUtente actual =new SalvaUtente(userid);
+        if(actual.getType().equals("usr")){
+            userU=new UtenteUsr(userid);
+        }else {
+            userP= new UtentePsy(userid);
+            }
         }
-
+    public static UtenteUsr getUserUSR(){
+        return  userU;
+    }
+    public static UtentePsy getUserPsy(){return userP;}
+    public static void  controllerUsers(){//la istanzia il controller della login
+        userRes =new Search(userU.getUserid());
+    }
+    public static Search getSearch(){
+        return  userRes;
+    }
+    public static void controllerChat(){
+        chat=new Messages(userU.getUserid());
+    }
+    public static Messages getChat(){
+        return chat;
     }
 }

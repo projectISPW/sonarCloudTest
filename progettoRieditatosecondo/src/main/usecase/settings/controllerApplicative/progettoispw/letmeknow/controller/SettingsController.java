@@ -1,9 +1,8 @@
 package progettoispw.letmeknow.controller;
 
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
 public class SettingsController {
     UtenteUsr userU;
@@ -14,7 +13,7 @@ public class SettingsController {
         userP=ControllerClass.getUserPsy();
     }
     public void closeConnection(){
-        connection.close();
+        connection.closeConnection();
     }
     public boolean setPassword(String input){
         if(userU!=null)return userU.setPassword(input);

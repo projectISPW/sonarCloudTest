@@ -1,1 +1,1 @@
-ƒ 2javaXhrˆprogettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java
+ƒ 2javaX/hrpprogettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java

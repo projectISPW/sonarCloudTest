@@ -1,52 +1,48 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
-import progettoispw.letmeknow.controller.utentiPsy.Form;
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.controller.ResultSearchController;
 
-import java.util.Vector;
+import java.util.ArrayList;
 
-public class HomepagePsicologistController implements FormMeta {
-    private ControllerClass factory;
-    private UtentePsy user;
-    private Vector<Form>list;
-    private float [][] innerList;
-    private int index;
-    public HomepagePsicologistController(){
-        factory=new ControllerClass();
-        user= factory.getUserPsy();
-        innerList=null;
+public class BeanResultSearch {
+    Integer nval;
+    ResultSearchController controller;
+    public BeanResultSearch(int val){
+        nval=val;
+        controller=new ResultSearchController(nval);
     }
-    public float[] getList(){
-        if(index<FORMSID.length){
-          return innerList[index++];
-        }else {
-            index=0;
-            return null;
+    public BeanResultSearch(){
+        controller=new ResultSearchController(nval);
+    }
+
+    int indice;
+    private ArrayList<InnerUsers> actual;
+    public String[] exitDes(){
+        String [] arrStr=new String[nval];
+        actual=controller.queryUsers();
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("description");
         }
+        return arrStr;
     }
-    public void getLists(int month , int year){
-        index=0;
-        user.collectForms(month,year);
-        list=user.getSum();
-        int [] answers;
-        int formid,counter;
-        innerList= new float[FORMSID.length][7];
-        for(Form elem:list){
-            formid=elem.getFormid();
-            counter=user.getCounter(formid);
-            innerList[formid-1][0]=counter;
-            answers= elem.getAnswers();
-            for(int i=1;i<7;i++){
-                innerList[formid-1][i]=(float)answers[i-1]/counter;
-                System.out.println(innerList[formid-1][i]);
-            }
+    public String[] exitGoal(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("goal");
         }
+        return arrStr;
     }
-    public void setSelected(int selectedInp){
-        user.setSelected(innerList[selectedInp-1]);
+    public String[] exitUID(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("userid");
+        }
+        return arrStr;
     }
-    public boolean setFeed(String input){
-        return user.suggestQuestion(input);
+    public void touched(String user){
+        controller.who(user);
     }
 }

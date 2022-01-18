@@ -1,1 +1,1 @@
-Ó 2javaXhrrprogettoRieditatosecondo/src/main/usecase/formResult/controllerView/progettoispw/letmeknow/form2ResultInterf1.java
+Ó 2javaXhrtprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/SliderBean.java
