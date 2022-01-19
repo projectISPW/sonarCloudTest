@@ -1,37 +1,9 @@
 
-Uprogettoispw.letmeknow.controller.utenti.SalvaUtente#setPassword(Ljava/lang/String;)ZÜ
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java= =("3*ˆ
-2Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java? ?(Ô
-Ï
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java? ?(!
-%1java.lang.String"__id*C*A6
-4progettoispw.letmeknow.controller.utenti.SalvaUtente"
-email·ﬁ
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java? ?("
-%2boolean"Rprogettoispw.letmeknow.controller.utenti.SalvaUtente#sendMail(Ljava/lang/String;)Z*86
-4progettoispw.letmeknow.controller.utenti.SalvaUtente*
-
-%1java.lang.String2sendMail(Ljava/lang/String;)"ë
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java? ?(#
-""*á
-3Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java> >(
-Ì
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java> >("
-%0java.lang.String"__id*D*B6
-4progettoispw.letmeknow.controller.utenti.SalvaUtente"
-userid*
-2
-1*†
-1Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaA A("ë
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaA A(
-"":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.utenti.SalvaUtente
+Kprogettoispw.letmeknow.controller.ChatController#getUID()Ljava/lang/String;ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java ("1*Œ
+1ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java ("®
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java (#
+""B42
+0progettoispw.letmeknow.controller.ChatController

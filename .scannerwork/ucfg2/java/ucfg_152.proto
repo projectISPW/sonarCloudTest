@@ -1,17 +1,16 @@
 
-hprogettoispw.letmeknow.controller.utenti.UtenteSQL#setDescription(Ljava/lang/String;Ljava/lang/String;)VÑ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java ("1*ã
-1Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (Ï
-È
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (
-%0java.sql.Statement"__id*@*>4
-2progettoispw.letmeknow.controller.utenti.UtenteSQL"
-stmt"è
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (
-"":
-useridjava.lang.String:
-descrjava.lang.StringB64
-2progettoispw.letmeknow.controller.utenti.UtenteSQL
+Eprogettoispw.letmeknow.bean.lastMessage#getUserid()Ljava/lang/String;§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java ("1*Ú
+1§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (Å
+˛
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
+%0java.lang.String"__id*7*5)
+'progettoispw.letmeknow.bean.lastMessage"
+userid"¡
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
+
+%0java.lang.StringB+)
+'progettoispw.letmeknow.bean.lastMessage

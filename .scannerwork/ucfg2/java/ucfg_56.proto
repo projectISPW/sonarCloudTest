@@ -1,35 +1,30 @@
 
-vprogettoispw.letmeknow.controller.utenti.Query#setDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)V€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java ("1*ÿ
+aprogettoispw.letmeknow.controller.utenti.Query#queryUid(Ljava/sql/Statement;)Ljava/sql/ResultSet;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java ( "1*Û
 1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (ÿ
-ü
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (§
+¤
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (i
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (?
 %0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*=;
-9 UPDATE `utenti` SET `by` = '%s' WHERE (`userid` = '%s');*
-
-editjava.lang.String*
-
-iduserjava.lang.String¿
+java.lang.String*
+ SELECT userid FROM utenti ¿
 ¼
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (j
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (@
 sqljava.lang.String"__id*
 
-%0java.lang.String¤¡
+%0java.lang.StringÄÁ
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java! !(	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java   (%
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"‹
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"Ÿ
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java" "(
-"":
-stmtjava.sql.Statement:
-iduserjava.lang.String:
-editjava.lang.StringB20
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java   (&
+
+%1java.sql.ResultSet:
+stmtjava.sql.StatementB20
 .progettoispw.letmeknow.controller.utenti.Query

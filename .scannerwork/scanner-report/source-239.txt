@@ -1,18 +1,48 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.*;
+import progettoispw.letmeknow.controller.ResultSearchController;
 
-public class LoginBean {
-    private String userid;
-    private String password;
-    private LoginController controller;
-    public LoginBean (String user,String inputpassword){
-        this.userid=user;
-        this.password=inputpassword;
-        controller=new LoginController(userid,password);
+import java.util.ArrayList;
+
+public class BeanResultSearch {
+    Integer nval;
+    ResultSearchController controller;
+    public BeanResultSearch(int val){
+        nval=val;
+        controller=new ResultSearchController(nval);
     }
-    public String exitValue(){
-        String output= controller.tornaLog();
-        return output;
+    public BeanResultSearch(){
+        controller=new ResultSearchController(nval);
+    }
+
+    int indice;
+    private ArrayList<InnerUsers> actual;
+    public String[] exitDes(){
+        String [] arrStr=new String[nval];
+        actual=controller.queryUsers();
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("description");
+        }
+        return arrStr;
+    }
+    public String[] exitGoal(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("goal");
+        }
+        return arrStr;
+    }
+    public String[] exitUID(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("userid");
+        }
+        return arrStr;
+    }
+    public void touched(String user){
+        controller.who(user);
     }
 }

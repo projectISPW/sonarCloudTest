@@ -1,95 +1,147 @@
-package progettoispw.letmeknow.controller.form;
+package progettoispw.letmeknow.controller.utenti;
+
+import progettoispw.letmeknow.controller.ConnectionDBMS;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
-public class Query implements FormMeta {
-    private String sql;
-    public ResultSet queryResults(Statement stmt, String userid ,int formid) {
+public class UserDAO implements SalvaUtenteMeta {
+    ConnectionDBMS connDB;
+    Query query;
+    public UserDAO() {
+        connDB= new ConnectionDBMS();
+        query=new Query();
+    }
+    public String [] selectUser(String uid){
+        Statement stmt=null;
         ResultSet rst=null;
-        try{
-            sql=String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d'",userid,formid);
-            rst=stmt.executeQuery(sql);
-            if(!stmt.executeQuery(sql).next()){
-                System.out.println("first time");
-                rst.close();
-                sql=String.format("INSERT INTO `forms` (`formid`, `userid`, `q1`, `q2`, `q3`, `q4`, `q5`, `q6`,`about`) VALUES ('%d', '%s', '-1', '-1', '-1', '-1', '-1', '-1','%s');",formid,userid,FORM[formid-1]);
-                stmt.executeUpdate(sql);
-                sql=String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d' ",userid,formid);
-                return stmt.executeQuery(sql);
+        String [] ret=new String [4];
+        try {
+            stmt=connDB.Connection(stmt);
+            rst=query.selectUser(stmt,uid);
+            while(rst.next()) {
+                ret[0]=rst.getString(USERID);
+                ret[1]=rst.getString(PASSWORD);
+                ret[2]=rst.getString(TYPE);
+                ret[3]=rst.getString(EMAIL);
             }
-            else {
-                return stmt.executeQuery(sql);
+            return ret;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return new String[4];
+        }finally{
+            connDB.closeConnection(rst,stmt);
+        }
+    }
+    public boolean setPswd(String userid,String input){
+        Statement stmt=null;
+        try {
+            stmt=connDB.Connection(stmt);
+            return query.setDB(stmt,userid,"password",input);
+        }finally{
+            connDB.closeConnection(stmt);
+        }
+
+    }
+    public boolean setEmail(String userid,String input){
+        Statement stmt=null;
+        try {
+            stmt=connDB.Connection(stmt);
+            return query.setDB(stmt,userid,"email",input);
+        }finally{
+            connDB.closeConnection(stmt);
+        }
+    }
+    public boolean checkMail(String input){
+        Statement stmt=null;
+        ResultSet rst=null;
+        try {
+            stmt=connDB.Connection(stmt);
+            rst= query.selectUser(stmt,"email",input);
+            while (rst.next()) {
+                System.out.println(rst.getString(1));
+                return true;
             }
+            return false;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            return null;
+            return false;
+        } finally{
+            connDB.closeConnection(stmt);
         }
+    }
+    public boolean registration(String uid,String password, String type, String email) {
+        Statement stmt=null;
+        try {
+            stmt=connDB.Connection(stmt);
+            query.newLine(stmt,uid,password,type,email);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }finally{
+            connDB.closeConnection(stmt);
+        }
+    }
+    public boolean registration(String uid,String password, String type ,int[] val,String description,String email,String goal ){
+        Statement stmt=null;
+        try {
+            stmt=connDB.Connection(stmt);
+            query.newLine(stmt,uid,password,type,val,description,email,goal);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        } finally{
+            connDB.closeConnection(stmt);
+        }
+    }
+    public boolean feed(String userid,String input){
+            Statement stmt=null;
+            try {
+                stmt=connDB.Connection(stmt);
+                return query.feed(stmt,userid,input);
+            } finally{
+                connDB.closeConnection(stmt);
+            }
 
-    }
-    public Boolean setResults(Statement stmt, String userid, int formid, int[] answer, int complete){
-        try {
-            sql = String.format(" UPDATE `forms` " +
-                            "SET `q1` = '%d', `q2` = '%d', `q3` = '%d', `q4` = '%d', `q5` = '%d', `q6` = '%d',`completed`='%d' WHERE (`formid` = '%d') and (`userid` = '%s');",
-                    answer[0], answer[1], answer[2], answer[3], answer[4], answer[5],complete, formid, userid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
         }
-    }
-    public ResultSet takeParam(Statement stmt,String userid){
+    public ArrayList<String> getUID() {
+        Statement stmt=null;
+        ResultSet rst=null;
         try {
-            String sql=String.format("SELECT empathy,humor,positivity FROM utenti where userid='%s';",userid);
-            return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
+            stmt=connDB.Connection(stmt);
+            ArrayList<String> uid = new ArrayList<>();
+            rst = query.queryUid(stmt);
+            while (rst.next()) {
+                uid.add(rst.getString(USERID));
+            }
+            return uid;
+        } catch (SQLException e) {
+            System.err.println("errore nella richiesta degli userid");
             return null;
+        }finally{
+            connDB.closeConnection(rst,stmt);
         }
     }
-    public ResultSet takeParamForm(Statement stmt,String userid,int formid){
-        try {
-            String sql=String.format("SELECT emp,hum,pos FROM forms where userid='%s' AND formid='%d';",userid,formid);
-            return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
-            return null;
-        }
-    }
-    public ResultSet takeDate(Statement stmt,String userid,int formid){
-        try {
-            String sql=String.format("SELECT `by` FROM forms where userid='%s'AND formid=%d;",userid,formid);
-            System.out.println(sql);
-            return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
-            return null;
-        }
-    }
-    public Boolean setCalculated(Statement stmt,String userid,int formid){
-        try {
-            String sql=String.format(" UPDATE  forms \n set `calculated`=1 \n WHERE (`formid` = %d) and (`userid` = '%s');\n", formid,userid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
-        }
-    }
-    public Boolean close(Statement stmt,String userid,int formid,int[] param){
-        try {
-            for(int i=0;i<param.length;i++)System.out.println(param[i]);
-            String sql=String.format(" UPDATE  forms \n set `emp` = %d, `hum` = %d, `pos` = %d,`by`=CURRENT_TIMESTAMP \n WHERE (`formid` = %d) and (`userid` = '%s');\n",
-                    param[0],param[1],param[2],formid,userid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
-        }
-    }
-    public ResultSet newForm(Statement stmt,String userid){
-        try {
-            String sql=String.format("SELECT `formid`,`completed` FROM forms where userid='%s';",userid);
-            return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
-            return null;
+    public String[] recover (String email){
+        Statement stmt=null;
+        ResultSet rst=null;
+        String [] ret=new String[2];
+        try{
+            rst=query.selectUser(stmt,"email",email);
+            while(rst.next()){
+                ret [0]=rst.getString(USERID);
+                ret [1]=rst.getString(PASSWORD);
+            }
+            return ret;
+        } catch (Exception throwables) {
+            throwables.printStackTrace();
+            return new String[2];
+        }finally{
+            connDB.closeConnection(stmt);
         }
     }
 

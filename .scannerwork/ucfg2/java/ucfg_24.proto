@@ -1,9 +1,14 @@
 
-?progettoispw.letmeknow.controller.utentiPsy.Form#getAnswers()[IÇ
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java ("1*ò
-1Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java ("ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java (
-""B42
-0progettoispw.letmeknow.controller.utentiPsy.Form
+}progettoispw.letmeknow.bean.SignupBean#signupUSR(Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Zï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java, ,("1*æ
+1ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java- -("†
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java- -(L
+"":
+passwordjava.lang.String:
+emailjava.lang.String:
+"":
+descriptionjava.lang.String:
+goaljava.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

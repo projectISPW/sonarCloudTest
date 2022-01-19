@@ -15,7 +15,7 @@ public class SalvaUtente implements SalvaUtenteMeta {
     private String password;
     private String type;
     private String email;
-    protected UserDAO userData;
+    private UserDAO userData;
     protected ResultSet rst;
     private Random randomno ;
     private static final  Lock mutex = new ReentrantLock(true);
@@ -131,5 +131,4 @@ public class SalvaUtente implements SalvaUtenteMeta {
     public boolean setFeed(String feed){
         return userData.feed(userid,feed);
     }
-
 }

@@ -1,15 +1,9 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.utentiPsy.UtentePsy;
+import progettoispw.letmeknow.bean.FormResultBean;
 
-public class FormPsicologistResultController {
-    UtentePsy user;
-    public FormPsicologistResultController(){
-        user=ControllerClass.getUserPsy();
-    }
-    public float [] getSelected(){
-        float [] inner=user.getSelected();
-        for(int i=0 ; i <7 ;i++)System.out.println(inner[i]);
-        return user.getSelected();
+public class form3ResultInterf1 extends formResultInterf1{
+    public form3ResultInterf1(){
+        bean=new FormResultBean(3);
     }
 }

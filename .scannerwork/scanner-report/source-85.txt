@@ -1,22 +1,37 @@
-package progettoispw.letmeknow.controller.search;
-import progettoispw.letmeknow.controller.ConnectionDB;
+package progettoispw.letmeknow.controller.utentipsy;
 
-import java.sql.*;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
-public class SearchSQL extends Query {
-    private ConnectionDB conn=new ConnectionDB() ;
-    private Statement stmt=conn.getStatement();
-    public ResultSet getUserData1(String userid) throws SQLException {
-        return selectUser(stmt,userid);
-    }
-    public ResultSet search4All(String userid,int emp, int hum,int pos){
-        return searchAll(stmt,emp, hum,pos,userid);
-    }
-    public ResultSet searchGoal(String userid, String goal) {
-        return searchDataQuery(stmt,userid,"tag",goal);
-    }
+import java.util.ArrayList;
+import java.util.List;
 
-    public ResultSet searchDescr(String userid, String descr) {
-        return searchDataQuery(stmt,userid,"description",descr);
+public class UtentePsy extends SalvaUtente implements FormMeta {
+    UserDAO userDataPsy;
+    Form form;
+    ArrayList<Form> listForms;
+    float [] selected;
+    public UtentePsy(String who) {
+        super(who);
+        form=new Form();
+        userDataPsy=new UserDAO();
+    }
+    public boolean suggestQuestion(String textInput) {
+        return userDataPsy.suggestForm(userid,textInput);
+    }
+    public List<Form> getSum(){
+        return form.getSum(listForms);
+    }
+    public int getCounter(int formid){
+        return form.getCounter(listForms,formid);
+    }
+    public void  collectForms(int month,int year) {
+        listForms=userDataPsy.collectForms(month,year);
+    }
+    public void setSelected(float [] input){
+        selected=input;
+    }
+    public float[] getSelected() {
+        return selected;
     }
 }

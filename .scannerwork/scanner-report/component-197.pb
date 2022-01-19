@@ -1,1 +1,1 @@
-Å 2javaX?hrqprogettoRieditatosecondo/src/main/usecase/formResult/controllerView/progettoispw/letmeknow/formResultInterf1.java
+Å 2javaXhr€progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java

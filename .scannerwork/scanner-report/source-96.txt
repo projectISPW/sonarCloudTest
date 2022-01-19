@@ -1,52 +1,43 @@
-package progettoispw.letmeknow.controller.utentiPsy;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.chat.Messages;
+import progettoispw.letmeknow.controller.search.Search;
 import progettoispw.letmeknow.controller.utenti.SalvaUtente;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-import java.sql.SQLException;
-import java.util.Vector;
+public class ControllerClass {
+    static   UtenteUsr userU;
+    static  UtentePsy userP;
+    static Search userRes;
+    static Messages  chat;
+    private ControllerClass(){
 
-public class UtentePsy extends SalvaUtente implements FormMeta {
-    UtenteSQL userDataPsy;
-    Form form;
-    Vector<Form>listForms;
-    float [] selected;
-    public UtentePsy(String who) {
-        super(who);
-        userDataPsy=new UtenteSQL();
-        form=new Form();
     }
-    public boolean suggestQuestion(String textInput) {
-        return userDataPsy.suggestForm(userid,textInput);
-    }
-    public Vector<Form> getSum(){
-        return form.getSum(listForms);
-    }
-    public int getCounter(int formid){
-        return form.getCounter(listForms,formid);
-    }
-    public void  collectForms(int month,int year) {
-        try {
-            listForms = new Vector<>();
-            int[] answers;
-            rst = userDataPsy.selectResult(month, year);
-            while (rst.next()) {
-                answers = new int[6];
-                for (int i = 0; i < 6; i++) {
-                    answers[i] = Integer.parseInt(rst.getString(START + i));
-                }
-                listForms = form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(2), listForms);
+    static void  controllerUser(String userid){//la istanzia il controller della login
+        userU=null;
+        userP=null;
+        SalvaUtente actual =new SalvaUtente(userid);
+        if(actual.getType().equals("usr")){
+            userU=new UtenteUsr(userid);
+        }else {
+            userP= new UtentePsy(userid);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return;
         }
+    public static UtenteUsr getUserUSR(){
+        return  userU;
     }
-    public void setSelected(float input[]){
-        System.out.println("nel controller");
-        selected=input;}
-
-    public float[] getSelected() {
-        return selected;
+    public static UtentePsy getUserPsy(){return userP;}
+    public static void  controllerUsers(){//la istanzia il controller della login
+        userRes =new Search(userU.getUserid());
+    }
+    public static Search getSearch(){
+        return  userRes;
+    }
+    public static void controllerChat(){
+        chat=new Messages(userU.getUserid());
+    }
+    public static Messages getChat(){
+        return chat;
     }
 }

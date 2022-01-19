@@ -1,52 +1,30 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.bean.InnerUsers;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
 
-import java.util.ArrayList;
-import java.util.Vector;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
-public class ResultSearchController {
-    ControllerClass factory;
-    private final ArrayList<String> founded;
-    private Integer count;
-    private final Integer nVal;
-    public ResultSearchController(Integer n){
-        founded=ControllerClass.getSearch().getArrayList() ;
-        nVal=n;
-        count=0;
+public class SettingsController {
+    UtenteUsr userU;
+    UtentePsy userP;
+    ConnectionDB connection;
+    public SettingsController(){
+        userU= ControllerClass.getUserUSR();
+        userP=ControllerClass.getUserPsy();
     }
-    ArrayList<InnerUsers>formatted;
-    public void attach(InnerUsers elem){
-        formatted.add(elem);
+    public void closeConnection(){
+        connection.closeConnection();
     }
-    InnerUsers actual;
-    public ArrayList<InnerUsers> queryUsers(){
-        int indice;
-        actual=null;
-        formatted=new ArrayList<>();
-        count = check(count);
-        UtenteUsr user;
-        for (String userid : founded) {
-            user=new UtenteUsr(userid);
-            indice = founded.indexOf(userid);
-            if (indice >= count && indice < count + nVal) {
-               actual = new InnerUsers(user);
-               actual.getStatus();
-               attach(actual);
-            }
-        }
-        count+=nVal;
-        return formatted;
+    public boolean setPassword(String input){
+        if(userU!=null)return userU.setPassword(input);
+        else return userP.setPassword(input);
     }
-
-    private Integer check(Integer count) {
-        if(count>=founded.size()){
-            return count=0;
-        }
-        return count;
+    public boolean setEmail(String input){
+        if(userU!=null)return userU.setEmail(input);
+        else return userP.setEmail(input);
     }
-    public void who(String usr){
-        factory.getSearch().setTouched(usr);
+    public boolean feed(String input){
+        if(userU!=null)return userU.setFeed(input);
+        else return userP.setFeed(input);
     }
 }

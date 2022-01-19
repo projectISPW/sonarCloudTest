@@ -1,26 +1,44 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.SettingsController;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import progettoispw.letmeknow.bean.SignupBean;
 
-public class SettingsBean {
-    SettingsController controller;
-    SignupBean checkBean;
-    public SettingsBean(){
-        controller=new SettingsController();
-        checkBean=new SignupBean();
+public class SignupPsicologistControllerInterf1 {
+    SignupBean bean;
+    Page controller=new Page();
+    @FXML
+    TextField email;
+    @FXML
+    PasswordField pswd,confirmpswd;
+    @FXML
+    Label emailCheck,pswdCheck;
+    public SignupPsicologistControllerInterf1() {
+        bean=new SignupBean();
     }
-    public void closeConnection(){
-        controller.closeConnection();
+    public void initialize(){
+
     }
-    public boolean setPassword(String pswd,String confirmpswd){
-        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
-        else return false;
+    private boolean check(Boolean bool,Label lab){
+        if(bool==false)lab.setOpacity(1);
+        return bool;
     }
-    public boolean setEmail(String input){
-        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
-        else return false;
+    @FXML
+    protected void backToLogin() {
+        controller.backTo();
     }
-    public boolean setFeed(String input){
-        return controller.feed(input);
+    public void save (){
+        Boolean bool;
+        emailCheck.setOpacity(0);
+        pswdCheck.setOpacity(0);
+        bool=bean.checkEmail(email.getText(),true);
+        if(check(bool,emailCheck)==false)return;
+        bool=bean.checkPswd(pswd.getText(),confirmpswd.getText());
+        if(check(bool,pswdCheck)==false)return;
+        bool=bean.signupPSY(pswd.getText(),email.getText());
+        if(bool)backToLogin();
     }
+
 }

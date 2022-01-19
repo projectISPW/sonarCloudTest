@@ -1,1 +1,1 @@
-J 2javaXhr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java
+J 2javaXjhr_progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java

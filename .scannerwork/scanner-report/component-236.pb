@@ -1,1 +1,1 @@
-ì 2javaXhrZprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java
+ì 2javaXhr|progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java

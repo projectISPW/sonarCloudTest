@@ -1,1 +1,1 @@
-W 2javaX.hr]progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Goal.java
+W 2javaX^hraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java

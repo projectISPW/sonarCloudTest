@@ -1,15 +1,10 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.ControllerClass;
-import progettoispw.letmeknow.controller.FormPsicologistResultController;
-import progettoispw.letmeknow.controller.HomepagePsicologistController;
+import progettoispw.letmeknow.bean.FormResultBean;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 
-public class FormPsicologistResultBean {
-    FormPsicologistResultController controller;
-    public FormPsicologistResultBean(){
-        controller=new FormPsicologistResultController();
-    }
-    public float [] getSelected(){
-        return controller.getSelected();
+public class form2ResultInterf1 extends formResultInterf1{
+    public form2ResultInterf1(){
+        bean=new FormResultBean(2);
     }
 }

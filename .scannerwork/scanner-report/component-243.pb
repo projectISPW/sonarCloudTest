@@ -1,1 +1,1 @@
-ó 2javaXhrˆprogettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java
+ó 2javaXhrrprogettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/searchBean.java

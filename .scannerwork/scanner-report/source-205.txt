@@ -1,21 +1,21 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
+import progettoispw.letmeknow.controller.*;
+public class SliderBean {
+    private String userid;
+    private HomepageController controller;
+    public Integer [] exitValue(){
+        Integer valori []={0,0,0};
+        controller=new HomepageController();
+        //valori[0]=1;  valori[1]=1; valori[2]=1;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.Slider;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-public class takeform1ControllerInterf1 extends takeformControllerInterf1 {
-
-    public takeform1ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(1);
+        valori[0]=controller.tornaValoriEmpatia();
+        valori[1]=controller.tornaValoriUmorismo();
+        valori[2]=controller.tornaValoriPositivita();
+        for(int i =0;i<2;i++){
+            if(valori[i]>5 || valori[i]<1){
+            System.err.println("error occurred");
+            }
+        }
+        return valori;
     }
 }

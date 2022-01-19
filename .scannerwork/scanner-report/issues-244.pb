@@ -1,3 +1,2 @@
-B
-javaS1125'Remove the unnecessary boolean literal. 2 E
-javaS5411*Use the primitive boolean expression here. 2 
+g
+javaS101MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'. 2 

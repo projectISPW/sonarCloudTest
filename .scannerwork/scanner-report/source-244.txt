@@ -1,40 +1,31 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.controller;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.RecoverPswdBean;
+import progettoispw.letmeknow.controller.search.Search;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-import java.io.IOException;
-
-public class RecoverPswdControllerInterf1
-{
-    private Page controller;
-    @FXML
-    TextField email;
-    @FXML
-    Label show;
-    private  RecoverPswdBean bean;
-    public void initialize(){
-        controller= new PageMenu();
-        bean=new RecoverPswdBean();
-        show.setOpacity(0);
+public class searchController {
+    private ControllerClass factory;
+    private Search find;
+    public searchController(){
+        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+        find= factory.getSearch();
     }
-    @FXML
-    public void sendMail( ){
-        show.setOpacity(0);
-        String address=email.getText();
-        Boolean bool=bean.sendMail(address);
-        if(bool==false){
-            show.setOpacity(1);
-        }
-        else controller.backTo();
+    public void enterAffinity(Integer input){
+        find.setAffinity(input);
     }
-    @FXML
-    protected void backToLogin(ActionEvent event)  {
-        controller.backTo();
+    public void enterGoal(String input){
+        find.goalSearch(input);
     }
-
+    public void enterDes(String input){
+        find.descrSearch(input);
+    }
+    public void enterParamSearch(Integer [] input ){
+        find.parametricSetSearch(input);
+    }
+    public void toMe(){
+        UtenteUsr me =factory.getUserUSR();
+        enterAffinity(0);
+        enterGoal(me.getTag());
+        enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getPos()} );
+    }
 }

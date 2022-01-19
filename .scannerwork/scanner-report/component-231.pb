@@ -1,1 +1,1 @@
-ç 2javaX9hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java
+ç 2javaXhrhprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/controller/GoToFormController.java

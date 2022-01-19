@@ -1,1 +1,1 @@
-‰ 2javaX9hråprogettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java
+‰ 2javaXßhrèprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.java

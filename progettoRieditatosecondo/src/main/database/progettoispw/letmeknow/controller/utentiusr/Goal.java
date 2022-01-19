@@ -15,6 +15,7 @@ public class Goal {
         data=arr;
     }
     public void setStrData(String input){
+        System.out.println(input);
         int end=input.indexOf("-");
         data[2]=(Integer.parseInt(input.substring(0,end)));
         int beg=end;

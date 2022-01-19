@@ -1,1 +1,1 @@
-E 2xmlXhr,progettoRieditatosecondo/.idea/sonarlint.xml
+E 2javaXhr_progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormMeta.java

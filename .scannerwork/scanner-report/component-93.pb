@@ -1,1 +1,1 @@
-] 2javaXŒhrbprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteUsr.java
+] 2javaX8hrRprogettoRieditatosecondo/src/main/java/progettoispw/letmeknow/MainApplication.java

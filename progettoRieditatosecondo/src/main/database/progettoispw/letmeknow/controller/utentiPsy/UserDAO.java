@@ -20,7 +20,7 @@ public class UserDAO implements SalvaUtenteMeta,FormMeta {
         ResultSet rst=null;
         Form form=new Form();
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             rst=query.selectResult(stmt,month,year);
             int [] answers;
             ArrayList<Form>list=new ArrayList<>();
@@ -42,7 +42,7 @@ public class UserDAO implements SalvaUtenteMeta,FormMeta {
     public boolean suggestForm(String from,String what){
         Statement stmt=null;
         try{
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             return query.suggestForm(stmt,from,what);
         } finally {
             ConnectionDB.closeConnection();

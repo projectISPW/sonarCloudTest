@@ -1,9 +1,9 @@
 
-Rprogettoispw.letmeknow.controller.FormResultController#getDate()Ljava/lang/String;©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java" "("1*Ê
-1©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java# #("¥
-©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java# #(
-""B:8
-6progettoispw.letmeknow.controller.FormResultController
+7progettoispw.letmeknow.bean.FormResultBean#getParam()[Iù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1*Œ
+1ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("®
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ()
+""B.,
+*progettoispw.letmeknow.bean.FormResultBean

@@ -1,1 +1,0 @@
-_ 2javaXhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Query.java

@@ -1,3 +1,2 @@
-S
-javaS1069Replace this use of System.out or System.err by a logger. 2 S
-javaS1069Replace this use of System.out or System.err by a logger. 2 
+]
+javaS2094BRemove this empty class, write its code or make it an "interface". 2 

@@ -1,10 +1,16 @@
 
-Tprogettoispw.letmeknow.controller.utenti.SalvaUtente#checkEmail(Ljava/lang/String;)Z†
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaC C("1* 
-1†
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaD D( "‘
-†
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaE E(*
-"":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.utenti.SalvaUtente
+Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;
+’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )("1*ä
+1
+’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
+þ
+
+’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
+%0java.lang.String"__id*>*<2
+0progettoispw.letmeknow.controller.ChatController"
+with"º
+
+’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
+
+%0java.lang.StringB42
+0progettoispw.letmeknow.controller.ChatController

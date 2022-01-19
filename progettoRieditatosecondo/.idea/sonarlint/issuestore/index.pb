@@ -39,7 +39,5 @@ u
 Esrc/main/database/progettoispw/letmeknow/controller/search/Query.java,a\a\aa15d7f0217d4bce81fee4798b1a61ac2abadf17
 y
 Isrc/main/database/progettoispw/letmeknow/controller/search/SearchSQL.java,1\a\1a54dff66c3de885899e6fde9c956a88911dacdd
-z
-Jsrc/main/database/progettoispw/letmeknow/controller/chat/MessagesMeta.java,9\0\90876523602c627e41abf4aac520a5d6b3098e3b
 ˆ
 Xsrc/main/usecase/formResult/controllerView/progettoispw/letmeknow/formResultInterf1.java,4\f\4f4bd84ac49219cc5822816cb656718c77c9542e

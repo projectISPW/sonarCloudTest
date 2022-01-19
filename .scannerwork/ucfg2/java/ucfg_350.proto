@@ -1,10 +1,33 @@
 
-Qprogettoispw.letmeknow.controller.search.Search#setAffinity(Ljava/lang/Integer;)VÅ
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java ("1*ñ
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java   ( "å
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java! !(
-"":
-valjava.lang.IntegerB31
-/progettoispw.letmeknow.controller.search.Search
+xprogettoispw.letmeknow.controller.utentiusr.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (""1*ü	
+1É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(ﬂ
+‹
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(]
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*64
+2 SELECT *\n FROM utenti \n where userid = '%s' ;\n*
+
+iduserjava.lang.String¬
+ø
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(^
+sqljava.lang.String"__id*
+
+%0java.lang.String«ƒ
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (%
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"¢
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (&
+
+%1java.sql.ResultSet:
+stmtjava.sql.Statement:
+iduserjava.lang.StringB53
+1progettoispw.letmeknow.controller.utentiusr.Query

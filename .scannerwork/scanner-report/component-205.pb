@@ -1,1 +1,1 @@
-Í 2javaXhrzprogettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/takeform1ControllerInterf1.java
+Í 2javaXhrtprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/SliderBean.java

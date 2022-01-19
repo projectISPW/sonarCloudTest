@@ -1,1 +1,1 @@
-c 2javaXhr7progettoRieditatosecondo/src/main/java/module-info.java
+c 2javaX:hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java

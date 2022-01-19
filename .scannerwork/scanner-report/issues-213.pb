@@ -1,4 +1,6 @@
-V
-javaS125<This block of commented-out lines of code should be removed. 299
- (S
-javaS1069Replace this use of System.out or System.err by a logger. 2AA 
+p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 ![
+javaS1066/Merge this if statement with the enclosing one. 2 :
+Õ 
+k
+javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2" '

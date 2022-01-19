@@ -1,17 +1,28 @@
 
-aprogettoispw.letmeknow.controller.utenti.UtenteSQL#setGoal(Ljava/lang/String;Ljava/lang/String;)VÑ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java ("1*ã
-1Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (Ï
-È
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (
-%0java.sql.Statement"__id*@*>4
-2progettoispw.letmeknow.controller.utenti.UtenteSQL"
-stmt"è
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UtenteSQL.java (
-"":
-useridjava.lang.String:
-goaljava.lang.StringB64
-2progettoispw.letmeknow.controller.utenti.UtenteSQL
+Fprogettoispw.letmeknow.bean.lastMessage#getLastmsg()Ljava/lang/String;§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java ("1*Î
+1§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (Ç
+ˇ
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (&
+%0java.lang.String"__id*8*6)
+'progettoispw.letmeknow.bean.lastMessage"	
+lastmsg
+Ì
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (.6)
+'progettoispw.letmeknow.bean.lastMessage"	
+lastmsg"__id*
+""Ç
+ˇ
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
+%1java.lang.String"__id*8*6)
+'progettoispw.letmeknow.bean.lastMessage"	
+lastmsg"¡
+§
+ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
+
+%1java.lang.StringB+)
+'progettoispw.letmeknow.bean.lastMessage

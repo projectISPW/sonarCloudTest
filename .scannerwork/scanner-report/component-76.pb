@@ -1,1 +1,1 @@
-L 2javaX	hrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/MessagesMeta.java
+L 2javaX&hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java

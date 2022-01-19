@@ -27,7 +27,7 @@ public class ControllerClass {
     public static UtenteUsr getUserUSR(){
         return  userU;
     }
-    public static UtentePsy getUserPsy(){return userP;}
+    public static UtentePsy getUserPsy(){return userP=new UtentePsy("psicologo");}
     public static void  controllerUsers(){//la istanzia il controller della login
         userRes =new Search(userU.getUserid());
     }

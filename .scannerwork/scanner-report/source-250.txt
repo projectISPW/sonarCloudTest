@@ -1,31 +1,20 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
-public class searchController {
-    private ControllerClass factory;
-    private Search find;
-    public searchController(){
-        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
-        find= factory.getSearch();
-    }
-    public void enterAffinity(Integer input){
-        find.setAffinity(input);
-    }
-    public void enterGoal(String input){
-        find.goalSearch(input);
-    }
-    public void enterDes(String input){
-        find.descrSearch(input);
-    }
-    public void enterParamSearch(Integer [] input ){
-        find.parametricSetSearch(input);
-    }
-    public void toMe(){
-        UtenteUsr me =factory.getUserUSR();
-        enterAffinity(0);
-        enterGoal(me.getTag());
-        enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getPos()} );
-    }
+public class SignupController {
+   private SalvaUtente user;
+   public SignupController(){
+       user=new SalvaUtente();
+   }
+   public boolean checkMail(String input){
+       System.out.println("controllo mail nel controller"+user.checkEmail(input));
+       return !user.checkEmail(input);
+   }
+   public boolean signup(String password,String type,String email,int [] val,String description,String goal){
+       return user.registrationUSR(password,email,type,val,description,goal);
+   }
+   public boolean signup(String password,String type,String email){
+       return user.registrationPSY(password,email,type);
+   }
 }

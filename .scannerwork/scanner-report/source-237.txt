@@ -1,13 +1,13 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.form.ResultForm;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
-public class GoToFormController {
-    ResultForm form;
-    public GoToFormController(){
-        form=new ResultForm(ControllerClass.getUserUSR().getUserid());
-    }
-    public int getFormid(){
-        return form.getFormid();
-    }
+public class RecoverPswdController {
+        SalvaUtente user;
+        public RecoverPswdController(){
+            user=new SalvaUtente();
+        }
+        public boolean sendMail(String input){
+            return user.sendMail(input);
+        }
 }

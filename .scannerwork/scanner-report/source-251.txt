@@ -5,135 +5,84 @@ import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.searchBean;
+import progettoispw.letmeknow.bean.GoToFormBean;
+import progettoispw.letmeknow.bean.SignupBean;
 
+import java.io.IOException;
 import java.util.Vector;
 
-public class SearchControllerInterf1 {
-    //private AnchorPane pane;
-   PageMenu controller= new PageMenu();
-    //private String userid=getUserID();
+public class SignupControllerInterf1 {
+    private Page controller= new Page();
     @FXML
-    Slider posSL,empSL,humSL,accurency;
+    TextField email,description,goal;
     @FXML
-    Label lb1,lb2,lb3,lb4;
+    PasswordField pswd,confirmpswd;
     @FXML
-    TextField inputTraits,inputGoal;
-    boolean [] clicked;
+    Slider sl1,sl2,sl3;
+    Vector<Slider>sl;
     @FXML
-    ProgressBar progressBar;
+    Label lab1,lab2,lab3;
+    Label[]labels;
     @FXML
-    Button   buttonSearch;
-
-    Vector<Slider> sl ;
-    private void attach(Slider slider){
-        this.sl.add(slider);
-    }
-    private void incremProgress(int index){
-        //System.out.println(progress);
-        if(clicked[index]==false){
-            progress=progress+0.17;
-            clicked[index]=true;
-            progressBar.setProgress(progress);
-            buttonSearch.setOpacity(progress);
-        }
-    }
-
+    Label emailCheck,pswdCheck,desCheck,slCheck;
     private int indice;
-    private double progress;
-
-    public SearchControllerInterf1(){
-        indice=0;
-        progress=0;
-        clicked= new boolean[]{false, false, false, false, false, false, false};
+    SignupBean bean;
+    public SignupControllerInterf1(){
+        bean=new SignupBean();
+        sl=new Vector<>();
     }
-    Label[] labels;
-    public void initialize(){
-        labels= new Label[]{lb1, lb2, lb3,lb4};
-        sl=new Vector<Slider>();
-        attach(empSL);
-        attach(humSL);
-        attach(posSL);
-        attach(accurency);
-        for(Slider slider :sl){
-                slider.valueProperty().addListener(new ChangeListener<Number>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    indice=sl.indexOf(slider);
-                    incremProgress(indice);
-                    progressBar.setProgress(progress);
-                    if(indice< 4)labels[indice].setText(""+(int)slider.getValue());
-                    }
-                });
-            }
-        inputTraits.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(4);
-        });
-        inputGoal.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(5);
-        });
-    }
-    searchBean bean= new searchBean();
-    private void researchByParameter(){
-        Integer [] paramS=new Integer[labels.length-1];
-        for(Slider slider :sl){
-            indice=sl.indexOf(slider);
-            switch(indice) {
-                case 3: {
-                    if (clicked[3]) {
-                        bean.enterAffinity(2-(int)slider.getValue());
-                        break;
-                    }
-                    else{
-                        bean.enterAffinity(0);
-                        break;
-                    }
-                }
-                default:{
-                    if(clicked[indice])paramS[indice]=((int)slider.getValue());
-                    else paramS[indice]=0;
-                }
-            }
+    public void initialize() {
+        sl.add(sl1);
+        sl.add(sl2);
+        sl.add(sl3);
+        labels = new Label[]{lab1, lab2, lab3};
+        indice = 0;
+        for (Slider slider : sl) {
+            slider.valueProperty().addListener((observableValue, number, t1) -> {
+                indice = sl.indexOf(slider);
+                labels[indice].setText("" + (int) slider.getValue());
+                labels[indice].setOpacity(1);
+            });
         }
+    }
+    @FXML
+    protected void backToLogin() {
+        controller.backTo();
+    }
+    private boolean check(Boolean bool,Label lab){
+        if(bool==false)lab.setOpacity(1);
+        return bool;
+    }
 
-        bean.enterParamSearch(paramS);
-    }
-    private void researchByGoal(){
-        if (clicked[5]){
-        String input=inputGoal.getText();
-        bean.enterGoalSearch(input);
-    }};
-    private void researchByDescripription(){
-        if (clicked[4]){
-        String input=inputTraits.getText();
-        bean.enterDescrSearch(input);
-    }}
     @FXML
-    private void affinity(ActionEvent event ){
-        bean.toMe();
-        goResult(event);
-    }
-    @FXML
-    private void search(ActionEvent event ){
-        researchByParameter();
-        researchByDescripription();
-        researchByGoal();
-        goResult(event);
-    }
-    @FXML
-    protected void goToHome(ActionEvent event) {
-        controller.switchToHome(event);
-    }
-    @FXML
-    protected void goBack(ActionEvent event) {
-        controller.switchToChat(event);
-    }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event)  {
-        controller.switchToPersonalForm(event);
-    }
-    @FXML
-    protected void goResult(ActionEvent event) {
-        controller.switchTo("resultSearch/interf1.fxml",event,"your research result");
+    protected void save() throws IOException {
+        Boolean bool;
+        String[] arr;
+        int [] val;
+        emailCheck.setOpacity(0);
+        pswdCheck.setOpacity(0);
+        desCheck.setOpacity(0);
+        slCheck.setOpacity(0);
+        bool=bean.checkEmail(email.getText(),true);
+        if(check(bool,emailCheck)==false)return;
+        bool=bean.checkPswd(pswd.getText(),confirmpswd.getText());
+        if(check(bool,pswdCheck)==false)return;
+
+        bool=bean.checkDescription(description.getText());
+        System.out.println(bool);
+        if(check(bool,desCheck)==false)return;
+
+        arr= new String[]{lab1.getText(), lab2.getText(), lab3.getText()};
+        val=bean.checkVal(arr);
+        bool=true;
+        if(val==null)bool=false;
+        if(check(bool,slCheck)==false)return;
+        bool=bean.signupUSR(pswd.getText(),email.getText(),val, description.getText(), goal.getText());
+        if(bool)backToLogin();
+        else{
+
+            ///allert
+
+        }
     }
 }

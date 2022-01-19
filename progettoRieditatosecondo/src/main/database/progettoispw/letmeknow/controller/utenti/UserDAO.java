@@ -19,7 +19,7 @@ public class UserDAO implements SalvaUtenteMeta {
         ResultSet rst=null;
         String [] ret=new String [4];
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             rst=query.selectUser(stmt,uid);
             while(rst.next()) {
                 ret[0]=rst.getString(USERID);
@@ -38,7 +38,7 @@ public class UserDAO implements SalvaUtenteMeta {
     public boolean setPswd(String userid,String input){
         Statement stmt=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             return query.setDB(stmt,userid,"password",input);
         }finally{
             connDB.closeConnection(stmt);
@@ -48,7 +48,7 @@ public class UserDAO implements SalvaUtenteMeta {
     public boolean setEmail(String userid,String input){
         Statement stmt=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             return query.setDB(stmt,userid,"email",input);
         }finally{
             connDB.closeConnection(stmt);
@@ -58,7 +58,7 @@ public class UserDAO implements SalvaUtenteMeta {
         Statement stmt=null;
         ResultSet rst=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             rst= query.selectUser(stmt,"email",input);
             while (rst.next()) {
                 System.out.println(rst.getString(1));
@@ -75,7 +75,7 @@ public class UserDAO implements SalvaUtenteMeta {
     public boolean registration(String uid,String password, String type, String email) {
         Statement stmt=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             query.newLine(stmt,uid,password,type,email);
             return true;
         } catch (SQLException throwables) {
@@ -88,7 +88,7 @@ public class UserDAO implements SalvaUtenteMeta {
     public boolean registration(String uid,String password, String type ,int[] val,String description,String email,String goal ){
         Statement stmt=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             query.newLine(stmt,uid,password,type,val,description,email,goal);
             return true;
         } catch (SQLException throwables) {
@@ -101,7 +101,7 @@ public class UserDAO implements SalvaUtenteMeta {
     public boolean feed(String userid,String input){
             Statement stmt=null;
             try {
-                stmt=connDB.Connection(stmt);
+                stmt=connDB.connection(stmt);
                 return query.feed(stmt,userid,input);
             } finally{
                 connDB.closeConnection(stmt);
@@ -112,7 +112,7 @@ public class UserDAO implements SalvaUtenteMeta {
         Statement stmt=null;
         ResultSet rst=null;
         try {
-            stmt=connDB.Connection(stmt);
+            stmt=connDB.connection(stmt);
             ArrayList<String> uid = new ArrayList<>();
             rst = query.queryUid(stmt);
             while (rst.next()) {

@@ -1,70 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+package progettoispw.letmeknow.controller.search;
 
-    <groupId>progettoispw</groupId>
-    <artifactId>letmeknow</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>letmeknow</name>
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.7.1</junit.version>
-    </properties>
+public class Query {
+    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
+        String sql=String.format(" SELECT *\n FROM utenti \n where userid = '%s' ;\n",iduser);
+       // System.out.println(sql);
+        return stmt.executeQuery(sql);
+    }
+    protected ResultSet searchVal(Statement stmt, String what , String iduser,int value) {
+       try {
+           String sql = String.format("SELECT userid,'%s' " +
+                   "FROM utenti " +
+                   "WHERE type='usr' and '%s'>=%d and userid != '%s'", what, what, value, iduser);
+           //System.out.println(sql);
+           return stmt.executeQuery(sql);
+       }catch (SQLException throwables) {
+           System.err.println("errore durante la searchVal");
+           throwables.printStackTrace();
+           return null;
+       }
+    }
+    protected ResultSet searchAll(Statement stmt,int emp, int hum,int pos,String iduser)  {
+        try{String sql=String.format("SELECT userid " +
+                        "FROM utenti WHERE type='usr' and " +
+                        "empathy>=%d and humor>=%d and positivity >=%d and userid != '%s' ",
+                        emp,hum,pos,iduser);
+            System.out.println(sql);
+            return stmt.executeQuery(sql);
+        }catch (SQLException throwables) {
+            System.err.println("errore durante la ricerca parametrica ");
+            throwables.printStackTrace();
+            return null;
+        }
+    }
+    protected ResultSet searchDataQuery(Statement stmt, String iduser ,String what,String input){
+        try {
+            String sql = String.format(" SELECT userid " +
+                    "FROM utenti " +
+                    "where %s = '%s' and userid!='%s' and type= 'usr' ;\n", what, input, iduser);
+            //System.out.println(sql);
+            return stmt.executeQuery(sql);
+        } catch (SQLException throwables) {
+            System.err.println("errore durante la ricerca"+what);
+            throwables.printStackTrace();
+            return null;
+        }
+    }
 
-    <dependencies>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>17.0.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>17.0.0.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>16</source>
-                    <target>16</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.openjfx</groupId>
-                <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.7</version>
-                <executions>
-                    <execution>
-                        <!-- Default configuration for running with: mvn clean javafx:run -->
-                        <id>default-cli</id>
-                        <configuration>
-                            <mainClass>progettoispw.letmeknow/progettoispw.letmeknow.MainApplication</mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+}

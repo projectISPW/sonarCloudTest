@@ -1,16 +1,16 @@
 
-Nprogettoispw.letmeknow.controller.utentiPsy.Form#getUserid()Ljava/lang/String;‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java ("1*•
-1‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java (è
-å
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java (
-%0java.lang.String"__id*@*>2
-0progettoispw.letmeknow.controller.utentiPsy.Form"
-userid"Ÿ
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiPsy/Form.java (
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.utentiPsy.Form
+Gprogettoispw.letmeknow.bean.SignupBean#checkEmail(Ljava/lang/String;Z)Z•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ("2"4*¾
+2•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (3" 
+•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (3
+""*¾
+4•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java) (-" 
+•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" (.
+"":
+emailjava.lang.String:
+""B*(
+&progettoispw.letmeknow.bean.SignupBean

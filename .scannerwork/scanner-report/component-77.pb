@@ -1,1 +1,1 @@
-M 2javaXhrbprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/MessagesSQL.java
+M 2javaX4hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java

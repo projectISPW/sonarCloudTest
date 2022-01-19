@@ -1,39 +1,26 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.utenti.UtenteUsr;
+import progettoispw.letmeknow.controller.SettingsController;
 
-public class InnerUsers {
-    private final String userid;
-    private String description;
-    private String goal;
-    private int lenMax;
-    private WordCheck check=new WordCheck();
-    public InnerUsers(UtenteUsr elem){
-        lenMax=15;
-        userid=elem.getUserid();
-        description= elem.getDescrizione();
-        goal=elem.getTag();
+public class SettingsBean {
+    SettingsController controller;
+    SignupBean checkBean;
+    public SettingsBean(){
+        controller=new SettingsController();
+        checkBean=new SignupBean();
     }
-    public  String get(String what){
-        switch(what){
-            case "userid" :{
-                return userid;
-            }
-            case "description" :{
-                if(description!=null && description.length()>lenMax)description= check.checkLen(description,lenMax);
-                return check.checkAhead(description);
-            }
-            case "goal" :{
-                if(goal!=null && goal.length()>lenMax)goal= check.checkLen(goal,lenMax);
-                return check.checkAhead(goal);
-            }
-            default: return null;
-        }
+    public void closeConnection(){
+        controller.closeConnection();
     }
-
-    public void getStatus(){
-        System.out.println("userid"+userid +"descrizione"+description+"tag"+goal);
+    public boolean setPassword(String pswd,String confirmpswd){
+        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
+        else return false;
     }
-
+    public boolean setEmail(String input){
+        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
+        else return false;
+    }
+    public boolean setFeed(String input){
+        return controller.feed(input);
+    }
 }
