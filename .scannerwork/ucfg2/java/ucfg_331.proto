@@ -1,15 +1,11 @@
 
-Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)ZŸ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("2"1*Ò
-2Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("ª
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (.
-""*Ò
-1Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("ª
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (
-"":
-inputjava.lang.StringB/-
-+progettoispw.letmeknow.bean.RecoverPswdBean
+Aprogettoispw.letmeknow.controller.GoToFormController#getFormid()I‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/controller/GoToFormController.java
+ 
+("1*ª
+1‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/controller/GoToFormController.java ("–
+‹
+€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/controller/GoToFormController.java ( 
+""B86
+4progettoispw.letmeknow.controller.GoToFormController

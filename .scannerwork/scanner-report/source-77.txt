@@ -1,51 +1,62 @@
 package progettoispw.letmeknow.controller.utenti;
-import java.util.Properties;
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
 
-public class JavaMailUtil {
-    private String text;
-    public Boolean sendMail(String recipient){
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Query {
+    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
+        String sql=String.format(" SELECT *\n FROM utenti \n where userid = '%s' ;\n",iduser);
+        //System.out.println(sql);
+        return stmt.executeQuery(sql);
+    }
+    protected ResultSet selectUser(Statement stmt,String what, String input )throws SQLException {
+        String sql=String.format(" SELECT *\n FROM utenti \n WHERE %s = '%s' ;\n",what,input);
+        System.out.println(sql);
+        return stmt.executeQuery(sql);
+    }
+    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
         try {
-        System.out.println("Sending message");
-        Properties properties=new Properties();
-        //configurazione server
-        properties.put("mail.smtp.host","smtp.gmail.com");
-        properties.put("mail.smtp.port", "465");
-        properties.put("mail.smtp.ssl.enable", "true");
-        properties.put("mail.smtp.auth", "true");
-        //configurazione log
-        String myAccount="progettoispw2021@gmail.com";
-        String password="Password2021";
-        Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
-               protected PasswordAuthentication getPasswordAuthentication() {
-                   return new PasswordAuthentication(myAccount, password);
-                }
-            });
-        Message message = prepareMessage(session,myAccount,recipient);
-        Transport .send(message);
-        System.out.println("MESSAGE CORRECTLY SENDED");
-        return true;
-        } catch (Exception e ){
+            String sql=String.format(" UPDATE  utenti\n set %s='%s'\n WHERE userid = '%s' ;\n",what,edit,iduser);
+            //System.out.println(sql);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
             return false;
         }
     }
 
-    public void setText(String input){
-        text=input;
+    protected ResultSet queryUid(Statement stmt) throws SQLException {
+        String sql=String.format(" SELECT userid FROM utenti ");
+        return stmt.executeQuery(sql);
     }
-    public Message prepareMessage (Session session,String myAccountEmail, String reciver){
-        try {
-            Message message =new MimeMessage(session);
-            message.setFrom(new InternetAddress(myAccountEmail));
-            message.addRecipient(Message.RecipientType.TO,new InternetAddress(reciver));
-            message.setSubject("recover password and userid");
-            message.setText(text);
-            return message;
-        } catch (Exception e) {
-           return null;
-        }
 
+    protected void newLine(Statement stmt,String uid,String password, String type ,int [] val,String description,String email,String goal) throws SQLException{
+        String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)" +
+                                                        " VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )\n",
+                                                                    uid,password,type,email,val[0],val[1],val[2],description,goal);
+        System.out.println(sql);
+        stmt.executeUpdate(sql);
+        return ;
+    }
+    protected void newLine(Statement stmt, String uid,String password, String type, String email) throws SQLException {
+        String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)" +
+                                " VALUES ('%s',         '%s',      '%s',       '%s')\n",
+                                            uid,password,type,email);
+        System.out.println(sql);
+        stmt.executeUpdate(sql);
+        return ;
+    }
+
+    protected boolean feed(Statement stmt,String from,String what){
+        try {
+            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }

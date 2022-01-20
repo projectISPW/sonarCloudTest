@@ -1,1 +1,1 @@
-L 2javaX&hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java
+L 2javaX4hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java

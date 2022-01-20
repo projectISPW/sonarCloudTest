@@ -1,1 +1,1 @@
-’ 2javaXhråprogettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/UpdateDescrizionePersonaleBean.java
+’ 2javaX[hräprogettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/UpdateObiettivoPersonaleBean.java

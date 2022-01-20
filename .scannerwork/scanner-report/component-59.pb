@@ -1,1 +1,1 @@
-; 2xmlXhr,progettoRieditatosecondo/.idea/sonarlint.xml
+; 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml

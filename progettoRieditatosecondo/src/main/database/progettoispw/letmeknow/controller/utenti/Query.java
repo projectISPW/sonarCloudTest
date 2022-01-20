@@ -7,7 +7,6 @@ import java.sql.Statement;
 public class Query {
     protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
         String sql=String.format(" SELECT *\n FROM utenti \n where userid = '%s' ;\n",iduser);
-        //System.out.println(sql);
         return stmt.executeQuery(sql);
     }
     protected ResultSet selectUser(Statement stmt,String what, String input )throws SQLException {
@@ -48,7 +47,6 @@ public class Query {
         stmt.executeUpdate(sql);
         return ;
     }
-
     protected boolean feed(Statement stmt,String from,String what){
         try {
             String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);

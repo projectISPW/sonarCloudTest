@@ -1,1 +1,1 @@
-ﬁ 2javaX9hråprogettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java
+ﬁ 2javaX3hròprogettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsicologistController.java

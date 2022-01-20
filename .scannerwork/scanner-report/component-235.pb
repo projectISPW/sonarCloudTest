@@ -1,1 +1,1 @@
-ë 2javaXXhrqprogettoRieditatosecondo/src/main/usecase/login/controllerView/progettoispw/letmeknow/LoginControllerInterf1.java
+ë 2javaXhr|progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java

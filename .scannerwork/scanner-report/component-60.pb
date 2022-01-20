@@ -1,1 +1,1 @@
-< 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml
+< 2xmlXhr&progettoRieditatosecondo/.idea/vcs.xml

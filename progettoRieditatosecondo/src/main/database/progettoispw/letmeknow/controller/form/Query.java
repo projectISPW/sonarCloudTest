@@ -7,27 +7,23 @@ import java.sql.Statement;
 public class Query implements FormMeta {
     private String sql;
     public ResultSet queryResults(Statement stmt, String userid ,int formid) {
-        ResultSet rst=null;
-        try{
-            sql=String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d'",userid,formid);
-            rst=stmt.executeQuery(sql);
-            if(!stmt.executeQuery(sql).next()){
-                System.out.println("first time");
-                rst.close();
-                sql=String.format("INSERT INTO `forms` (`formid`, `userid`, `q1`, `q2`, `q3`, `q4`, `q5`, `q6`,`about`) VALUES ('%d', '%s', '-1', '-1', '-1', '-1', '-1', '-1','%s');",formid,userid,FORM[formid-1]);
-                stmt.executeUpdate(sql);
-                sql=String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d' ",userid,formid);
-                return stmt.executeQuery(sql);
-            }
-            else {
-                return stmt.executeQuery(sql);
-            }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+        try {
+            sql = String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d'", userid, formid);
+            return stmt.executeQuery(sql);
+        } catch (SQLException e) {
             return null;
         }
-
     }
+    public boolean insertForm(Statement stmt,String userid,int formid,String about){
+        try {
+            sql=String.format("INSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');",formid,userid,about);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            return false;
+        }
+    }
+
     public Boolean setResults(Statement stmt, String userid, int formid, int[] answer, int complete){
         try {
             sql = String.format(" UPDATE `forms` " +

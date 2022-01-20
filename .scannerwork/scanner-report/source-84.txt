@@ -1,51 +1,37 @@
 package progettoispw.letmeknow.controller.utentipsy;
 
-import progettoispw.letmeknow.controller.ConnectionDB;
-import progettoispw.letmeknow.controller.ConnectionDBMS;
 import progettoispw.letmeknow.controller.form.FormMeta;
-import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
-import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
-public class UserDAO implements SalvaUtenteMeta,FormMeta {
-    ConnectionDBMS connDB;
-    Query query;
-    public UserDAO() {
-        connDB= new ConnectionDBMS();
-        query=new Query();
+public class UtentePsy extends SalvaUtente implements FormMeta {
+    UserDAO userDataPsy;
+    Form form;
+    ArrayList<Form> listForms;
+    float [] selected;
+    public UtentePsy(String who) {
+        super(who);
+        form=new Form();
+        userDataPsy=new UserDAO();
     }
-    public ArrayList<Form> collectForms(int month, int year) {
-        Statement stmt=null;
-        ResultSet rst=null;
-        Form form=new Form();
-        try {
-            stmt=connDB.Connection(stmt);
-            rst=query.selectResult(stmt,month,year);
-            int [] answers;
-            ArrayList<Form>list=new ArrayList<>();
-            while(rst.next()) {
-                answers = new int[6];
-                for (int i = 0; i < 6; i++) {
-                    answers[i] = Integer.parseInt(rst.getString(START + i));
-                }
-                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(2), list);
-            }
-            return list;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return new ArrayList<>();
-        }finally{
-            connDB.closeConnection(rst,stmt);
-        }
+    public boolean suggestQuestion(String textInput) {
+        return userDataPsy.suggestForm(userid,textInput);
     }
-    public boolean suggestForm(String from,String what){
-        Statement stmt=null;
-        try{
-            stmt=connDB.Connection(stmt);
-            return query.suggestForm(stmt,from,what);
-        } finally {
-            ConnectionDB.closeConnection();
-        }
+    public List<Form> getSum(){
+        return form.getSum(listForms);
+    }
+    public int getCounter(int formid){
+        return form.getCounter(listForms,formid);
+    }
+    public void  collectForms(int month,int year) {
+        listForms=userDataPsy.collectForms(month,year);
+    }
+    public void setSelected(float [] input){
+        selected=input;
+    }
+    public float[] getSelected() {
+        return selected;
     }
 }

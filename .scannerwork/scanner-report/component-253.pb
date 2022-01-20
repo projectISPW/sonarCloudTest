@@ -1,1 +1,1 @@
-ý 2javaX/hrpprogettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java
+ý 2javaX$hr|progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java

@@ -1,1 +1,1 @@
-å 2javaXhr\progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java
+å 2javaXhrZprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/UseridBean.java

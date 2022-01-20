@@ -1,1 +1,1 @@
-à 2javaX@hrƒprogettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerView/progettoispw/letmeknow/HomepagePsicologistInterf1.java
+à 2javaX9hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

@@ -1,1 +1,1 @@
-ï 2javaX1hr~progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java
+ï 2javaX(hrxprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java

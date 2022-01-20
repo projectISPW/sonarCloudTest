@@ -1,56 +1,50 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.HomepagePsicologistController;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utentipsy.Form;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
-import java.util.Calendar;
-import java.time.LocalDate;
-import java.time.Month;
-public class HomepagePsicologistBean {
-    HomepagePsicologistController controller;
-    int month;
-    int year;
-    String [] monthNames;
-    public HomepagePsicologistBean(){
-        LocalDate currentdate = LocalDate.now();
-        month=currentdate.getMonthValue();
-        year=currentdate.getYear();
-        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-        controller=new HomepagePsicologistController();
-        controller.getLists(month,year);
+import java.util.ArrayList;
+
+public class HomepagePsicologistController implements FormMeta {
+    private UtentePsy user;
+    private ArrayList<Form> list;
+    private float [][] innerList;
+    private int index;
+    public HomepagePsicologistController(){
+        user= ControllerClass.getUserPsy();
+        innerList=null;
     }
-    public String getMonth(){
-        return monthNames[month-1];
-    }
-    public void decremMonth(){
-        if(month==1){
-            month=12;
-            year--;
+    public float[] getList(){
+        if(index<FORMSID.length){
+          return innerList[index++];
+        }else {
+            index=0;
+            return null;
         }
-        else{
-            month-=1;
+    }
+    public void getLists(int month , int year){
+        index=0;
+        user.collectForms(month,year);
+        list=(ArrayList<Form>) user.getSum();
+        int [] answers;
+        int formid,counter;
+        innerList= new float[FORMSID.length][7];
+        for(Form elem:list){
+            formid=elem.getFormid();
+            counter=user.getCounter(formid);
+            innerList[formid-1][0]=counter;
+            answers= elem.getAnswers();
+            for(int i=1;i<7;i++){
+                innerList[formid-1][i]=(float)answers[i-1]/counter;
+                System.out.println(innerList[formid-1][i]);
+            }
         }
-        controller.getLists(month,year);
     }
-    public void incremMonth(){
-        if(month==12){
-            month=1;
-            year++;
-        }else{
-            month+=1;
-        }
-        controller.getLists(month,year);
+    public void setSelected(int selectedInp){
+        user.setSelected(innerList[selectedInp-1]);
     }
-    public float [] getForms(){
-        System.out.println("mese corrente "+month+"anno corrente"+year);
-        float[] ret=controller.getList();
-        if(ret==null)return new float[1];
-        return ret;
-    }
-    public void setSelected(int selected) {
-       controller.setSelected(selected);
-    }
-    public boolean suggestForm(String input){
-        if(!input.equals(""))return controller.setFeed(input);
-        return false;
+    public boolean setFeed(String input){
+        return user.suggestQuestion(input);
     }
 }

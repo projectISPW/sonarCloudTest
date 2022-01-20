@@ -1,28 +1,14 @@
 
-¼
-java:S1845" Rename field "userid" to prevent any misunderstanding/clash with field "USERID" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(òÈÜÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(§ÁŞƒ
-1
-java:S3626!"Remove this redundant jump.(ûÁİ…
-S	java:S106."9Replace this use of System.out or System.err by a logger.(¬ÄŞÆÿÿÿÿÿ
-S	java:S106;"9Replace this use of System.out or System.err by a logger.(‘‘ëüşÿÿÿÿ
-P	java:S125:"<This block of commented-out lines of code should be removed.(·©œh
-V	java:S125B"<This block of commented-out lines of code should be removed.(ÍÉŸÎúÿÿÿÿ
-N	java:S106E"9Replace this use of System.out or System.err by a logger.(¼Ú‡à
-S	java:S106K"9Replace this use of System.out or System.err by a logger.(‘‘ëüşÿÿÿÿ
-P	java:S125J"<This block of commented-out lines of code should be removed.(·©œh
-N	java:S106R"9Replace this use of System.out or System.err by a logger.(èÂ¶Ò
-N	java:S106U"9Replace this use of System.out or System.err by a logger.(¼Ú‡à
-S	java:S106Z"9Replace this use of System.out or System.err by a logger.(‘‘ëüşÿÿÿÿ
-U	java:S106c"9Replace this use of System.out or System.err by a logger.(‰¬è8Äœ”Òæ/
-M
-java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Çœ”Òæ/
-O
-java:S1128
-"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8Èœ”Òæ/
+E
+java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
+E
+java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(³è‡Ä
+D
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
+H
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
 t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìÿ«½øÿÿÿÿ
-œ
-java:S1192;"€Define a constant instead of duplicating this literal "ho trovato solo questi utenti forse avrei dovuto trovarne altri" 3 times.(‘‘ëüşÿÿÿÿ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìÿ«½øÿÿÿÿ
 ‹
-java:S1319^"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÅÂÅùÿÿÿÿ
+java:S13195"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÅÂÅùÿÿÿÿ

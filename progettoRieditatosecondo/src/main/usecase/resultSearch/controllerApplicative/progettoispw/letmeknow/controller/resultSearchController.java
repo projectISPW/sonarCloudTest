@@ -8,14 +8,16 @@ import java.util.ArrayList;
 public class ResultSearchController {
     ControllerClass factory;
     private final ArrayList<String> founded;
+    ArrayList<InnerUsers>formatted;
     private Integer count;
     private final Integer nVal;
     public ResultSearchController(Integer n){
         founded=ControllerClass.getSearch().getArrayList() ;
+        for(String usr:founded)System.out.println(founded);
         nVal=n;
         count=0;
     }
-    ArrayList<InnerUsers>formatted;
+
     public void attach(InnerUsers elem){
         formatted.add(elem);
     }

@@ -1,4 +1,7 @@
-B
-javaS1125'Remove the unnecessary boolean literal. 2//! &p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2== p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2JJ !
+ž
+javaS1214CMove constants defined in this interfaces to another class or enum. 2 :
+A :
+A :
+A 
+:
+A 

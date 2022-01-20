@@ -55,7 +55,7 @@ public class SignupControllerInterf1 {
     }
 
     @FXML
-    protected void save() throws IOException {
+    protected void save(ActionEvent event) {
         Boolean bool;
         String[] arr;
         int [] val;
@@ -80,9 +80,15 @@ public class SignupControllerInterf1 {
         bool=bean.signupUSR(pswd.getText(),email.getText(),val, description.getText(), goal.getText());
         if(bool)backToLogin();
         else{
-
-            ///allert
-
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("keep attention ");
+            alert.setHeaderText("Non siamo riusciti a prendere i tuoi dati per favore ritenta !");
+            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
+            if(alert.showAndWait().get()==ButtonType.OK) {
+                System.out.println("Prompt: Empty Fields Alert");
+                event.consume();
+                return;
+            }
         }
     }
 }

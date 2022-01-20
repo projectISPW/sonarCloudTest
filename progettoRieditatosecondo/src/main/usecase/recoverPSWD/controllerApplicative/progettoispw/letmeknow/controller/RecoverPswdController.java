@@ -8,6 +8,6 @@ public class RecoverPswdController {
             user=new SalvaUtente();
         }
         public boolean sendMail(String input){
-            return user.sendMail(input);
+            return user.composeMail(input);
         }
 }

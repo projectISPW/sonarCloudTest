@@ -1,40 +1,16 @@
 
-vprogettoispw.letmeknow.controller.form.Query#setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/lang/Boolean;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaC C( "4*Ž
-2~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaG G("ˆ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaG G(
-""*í
-3
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaE E(Ž½
-º
-
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaE E(Ž
-sqljava.lang.String"__id*
+Jprogettoispw.letmeknow.controller.chat.Message#getText()Ljava/lang/String;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java ("1*‹
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (â
+ß
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (
+%0java.lang.String"__id*<*:0
+.progettoispw.letmeknow.controller.chat.Message"
+text"
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (
 
-%0java.lang.String¡ž
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaF F(#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*‘
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaE E(†
-ƒ
-
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.javaE E(
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ZX
-V UPDATE  forms \n set `calculated`=1 \n WHERE (`formid` = %d) and (`userid` = '%s');\n*
-""*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-""B0.
-,progettoispw.letmeknow.controller.form.Query
+%0java.lang.StringB20
+.progettoispw.letmeknow.controller.chat.Message

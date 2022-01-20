@@ -1,101 +1,50 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.SettingsBean;
-import progettoispw.letmeknow.controller.SettingsController;
+import progettoispw.letmeknow.controller.SignupController;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
 
-public class SettingsControllerInterf1 implements Initializable {
-    private PageMenu controller;
-    private SettingsBean bean;
-    @FXML
-    PasswordField pswd,confirmpswd;
-    @FXML
-    TextField email;
-    @FXML
-    TextArea feedback;
-    @FXML
-    private ComboBox<String> comb;
-    private boolean bool;
-    public SettingsControllerInterf1(){
-        bean=new SettingsBean();
-        controller=new PageMenu();
-        bool=false;
+public class SignupBean {
+    SignupController controller;
+    public SignupBean(){
+        controller=new SignupController();
     }
-    @Override
-    public void initialize(URL url, ResourceBundle rb){
-        comb.setItems(FXCollections.observableArrayList("Italiano", "Inglese"));
+    public boolean checkEmail(String email , boolean checkpresence){
+            try {
+                InternetAddress emailAddr = new InternetAddress(email);
+                emailAddr.validate();
+                if(!checkpresence)return true;
+                return controller.checkMail(email);
+            } catch (AddressException e) {
+               // e.printStackTrace();
+                return false;
+            }
+    }
 
+
+    public boolean checkPswd(String str1,String str2){
+        if(str1.equals("")||str1.equals(" "))return false;
+        else if(str1.length()>20)return false;
+        return str1.equals(str2);
     }
-    @FXML
-    protected void goBack() throws IOException {
-        controller.backTo();
+    public boolean checkDescription(String description){
+        return description.contains("#");
     }
-    @FXML
-    protected void goEditProf(ActionEvent event){
-        controller.switchTo("homepageEdit/interf1.fxml", event,"Edit");
-    }
-    @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
-        controller.switchToHome(event);
-    }
-    @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
-        controller.switchToChat(event);
-    }
-    @FXML
-    protected void setPswd()  {
-        pswd.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
-        confirmpswd.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
-        bool=bean.setPassword(pswd.getText(),pswd.getText());
-        if(!bool){
-            pswd.setStyle("-fx-border-color: red");
-            confirmpswd.setStyle("-fx-border-color: red");
-        }else{
-            pswd.setText("");
-            confirmpswd.setText("");
+    public int[] checkVal(String [] val) {
+        System.out.println(val[0]+val[1]+val[2]);
+        int[] returnArr = new int[3];
+        int i;
+        for (i = 0; i < val.length; i++){
+            returnArr[i] = Integer.parseInt(val[i]);
+            if (returnArr[i] < 1 || returnArr[i] >5 ) return null;
         }
+        return returnArr;
     }
-    @FXML
-    protected void signOut(ActionEvent event){
-        bean.closeConnection();
-        controller.switchTo("login/interf1.fxml",event,"login");
+    public boolean signupUSR(String password,String email,int [] val,String description,String goal){
+        return controller.signup(password,"usr",email,val,description,goal);
     }
-    @FXML
-    protected void setMail (){
-        email.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
-        bool=bean.setEmail(email.getText());
-        if(!bool){
-            email.setStyle("-fx-border-color: red");
-        }else{
-            email.setText("");
-        }
+    public boolean signupPSY(String password,String email){
+        return controller.signup(password,"psy",email);
     }
-    @FXML
-    protected void setFeed(){
-        feedback.setStyle("-fx-border-color: white");
-        bool=bean.setFeed(feedback.getText());
-        System.out.println("ritorno dal feed.:"+bool);
-        if(!bool){
-            feedback.setStyle("-fx-border-color: red");
-        }else{
-            feedback.setText("");
-        }
-    }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
-        controller.switchToPersonalForm(event);
-    }
-
 }
-

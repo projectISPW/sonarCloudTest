@@ -12,13 +12,13 @@ import java.util.List;
 public class ResultForm implements FormMeta {
     private String userid;
     private int formid;
-    private FormSQL formData;
+    private FormDAO formData;
     private int[] answers;
     private int complete;
     private int [] param;
     private String date;
     public ResultForm(String useridinp,int formidinp){
-        formData=new FormSQL();
+        formData=new FormDAO();
         userid=useridinp;
         formid=formidinp;
         answers= formData.queryResult(userid,formid);
@@ -34,9 +34,9 @@ public class ResultForm implements FormMeta {
         }
     }
     public ResultForm(String useridinp){
-        formData=new FormSQL();
+        formData=new FormDAO();
         userid=useridinp;
-        formid=takeAForm();
+        formid=formData.takeAForm(userid);
         answers= formData.queryResult(userid,formid);
         System.out.println("utente.:"+useridinp+"form.:"+formid);
         for(int i:answers){
@@ -54,12 +54,12 @@ public class ResultForm implements FormMeta {
     }
     private void queryComplete(){
         UtenteUsr user= ControllerClass.getUserUSR();
-        date=formData.queryData(userid,formid);
+        date= formData.queryData(userid,formid);
         if(date ==null){
             formData.setCalculated(userid,formid);
             user.setParams();
             formData.close(userid,formid);
-            date=formData.queryData(userid,formid);
+            date= formData.queryData(userid,formid);
         }
         param= formData.queryParamForm(userid,formid);
         System.out.println("DATA DEL FORM RESULT"+date);
@@ -82,23 +82,5 @@ public class ResultForm implements FormMeta {
     }
     public String getDate() {
         return date;
-    }
-    public int takeAForm(){
-        try{
-            List<Integer>formid =new ArrayList<>(Arrays.asList(FORMSID));
-            ResultSet rst = formData.newForm(userid);
-            Integer val;
-            while(rst.next()){
-                val=Integer.parseInt(rst.getString(1));
-                if(rst.getString(2).equals("6")==false)return val;
-                formid.remove(val);
-            }
-            if(formid.isEmpty()==false)return formid.get(0);
-            System.out.println("i am here");
-            return 1;
-        }catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return 1;
     }
 }

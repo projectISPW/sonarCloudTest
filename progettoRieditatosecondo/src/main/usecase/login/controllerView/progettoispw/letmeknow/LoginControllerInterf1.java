@@ -26,14 +26,11 @@ public class LoginControllerInterf1 {
     }
     @FXML
     protected void switchToSignup(ActionEvent event) {
-        //controller.switchTo("signup.fxml",event,"Signup");
         controller.switchTo("signup/interf1.fxml",event,"Signup");
-        //controller.goTo("signup",event);
     }
     @FXML
     protected void switchToRecoverPswd(ActionEvent event) {
         controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
-        //controller.switchTo("recover password",event);
     }
     @FXML
     protected void switchToSignUpPsych(ActionEvent event) {
@@ -53,12 +50,22 @@ public class LoginControllerInterf1 {
             clicked=false;
         }
     }
+    private void color(boolean bool){
+        if(bool==false){
+            labUser.setStyle("-fx-border-color: red");
+            labPassword.setStyle("-fx-border-color: red");
+        }
+        else{
+            labUser.setStyle("-fx-background-color: #F2F2F2");
+            labPassword.setStyle("-fx-background-color: #F2F2F2");
+        }
+    }
 
     @FXML
     protected void switchToHome(ActionEvent event) throws IOException {
         if(labUser.getText().equals("") || labPassword.getText().equals(""))
         {
-            //Alert Dialog Message per campi email e password vuoti
+            color(false);
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Empty Fields!");
             alert.setHeaderText("Empty Email / Password Field");
@@ -70,11 +77,12 @@ public class LoginControllerInterf1 {
         }else {
             LoginBean bean=new LoginBean(labUser.getText(),labPassword.getText());
             String log = bean.exitValue();
-            System.out.println(log);
-            userID=labUser.getText();
+            if(log==null){
+                color(false);
+                return ;
+            }
             switch(log){
                 case "usr":{
-                    //HomepagecontrollerInterf1.userid=labUser.getText();
                     controller.switchTo("homepage/interf1.fxml",event,"Home");
                     return;
                 }
@@ -82,6 +90,10 @@ public class LoginControllerInterf1 {
                     controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
                     System.out.println("fatto accesso da psicologo");
                 }
+                default:{
+                    color(false);
+                }
+
             }
         }
     }}

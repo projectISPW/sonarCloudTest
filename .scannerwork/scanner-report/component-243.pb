@@ -1,1 +1,1 @@
-ó 2javaXhrrprogettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/searchBean.java
+ó 2javaX hr~progettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/controller/searchController.java

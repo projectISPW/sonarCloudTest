@@ -1,0 +1,9 @@
+
+m
+java:S3776S"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(»Éºøùÿÿÿÿ
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(Ì´¤«8ôğÔ½ç/
+>	java:S131g""Add a default case to this switch.(›¾¦•8ôğÔ½ç/
+Z	java:S106j"9Replace this use of System.out or System.err by a logger.(Ùš šşÿÿÿÿ8ôğÔ½ç/
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(·Í»µ8ôğÔ½ç/
+d
+java:S1126ƒ"AReplace this if-then-else statement by a single return statement.(À§ÃËşÿÿÿÿ8ôğÔ½ç/

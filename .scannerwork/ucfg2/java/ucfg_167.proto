@@ -1,25 +1,9 @@
 
-gprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#getResult(Ljava/lang/String;)Ljava/sql/ResultSet;‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javas s("4*‚
-3‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javau u(/Ý
-Ú
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javau u(/@7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-rst"__id*
-"""’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javau u(0
-""*‡
-4‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javau u("ò
-ï
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javau# u('
-%0java.sql.Statement"__id*C*A7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-stmt*
-3:
-useridjava.lang.StringB97
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL
+Aprogettoispw.letmeknow.bean.ISCBean#getUserid()Ljava/lang/String; 
+•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("1*Ô
+1 
+•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("«
+ 
+•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java (#
+""B'%
+#progettoispw.letmeknow.bean.ISCBean

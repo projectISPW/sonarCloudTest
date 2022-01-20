@@ -1,27 +1,40 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.FormToTakeStatusController;
+import progettoispw.letmeknow.controller.form.ResultForm;
 
-public class FormToTakeStatusBean {
+public class FormToTakeStatusController {
+    String userid;
     int formid;
-    FormToTakeStatusController controller;
-    public FormToTakeStatusBean(int inputformid){
-        System.out.println("id form nel bean"+inputformid);
-        formid=inputformid;
-        controller=new FormToTakeStatusController(formid);
+    ResultForm form;
+    int [] values;
+    public FormToTakeStatusController(int inputform){
+        userid= ControllerClass.getUserUSR().getUserid();
+        formid=inputform;
+        form= new ResultForm(userid,formid);
+    }
+    public void setValResponse(int [] passaggio){
+        form.setRisposte(passaggio);
+    }
+    public int[] getValResponse(){
+        values=form.getRisposte();
+        return form.getRisposte();
+    }
+    public String getUserid(){
+        return userid;
+    }
+    public int getValComplete() {
+        return form.getComplete();
     }
 
-    public int[] exitValStatus(){
-        return controller.getValResponse();
+    public boolean[] getStatus() {
+        boolean [] bool=new boolean[values.length];
+        for(int i=0;i<values.length;i++){
+            if(values[i]>=1)bool[i]=true;
+            else{
+                bool[i]=false;
+            }
+        }
+        return bool;
     }
-    public void inputValStatus(int [] inputint){
 
-        controller.setValResponse(inputint);
-    }
-    public int getComplete(){
-        return controller.getValComplete();
-    }
-    public boolean[] exitStatus() {
-        return controller.getStatus();
-    }
 }

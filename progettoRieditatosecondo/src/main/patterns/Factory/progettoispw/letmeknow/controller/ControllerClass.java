@@ -25,7 +25,7 @@ public class ControllerClass {
             }
         }
     public static UtenteUsr getUserUSR(){
-        return  userU;
+        return  userU=new UtenteUsr("0000000");
     }
     public static UtentePsy getUserPsy(){return userP=new UtentePsy("psicologo");}
     public static void  controllerUsers(){//la istanzia il controller della login

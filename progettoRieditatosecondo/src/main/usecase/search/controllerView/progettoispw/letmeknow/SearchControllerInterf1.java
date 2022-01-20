@@ -95,7 +95,6 @@ public class SearchControllerInterf1 {
                 }
             }
         }
-
         bean.enterParamSearch(paramS);
     }
     private void researchByGoal(){

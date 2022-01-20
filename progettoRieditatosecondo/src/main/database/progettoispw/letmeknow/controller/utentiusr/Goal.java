@@ -1,16 +1,11 @@
 package progettoispw.letmeknow.controller.utentiusr;
-
-import java.util.Date;
-
 public class Goal {
     private  String obiettivo;
     private   String tag;
-    //static Date data;
     private  Integer[] data=new Integer[3];
     public void setObiettivo(String string){
         obiettivo=string;
     }
-    //public void setData(Date dataInp){       data=dataInp;    }
     public void setData(Integer [] arr){
         data=arr;
     }
@@ -25,8 +20,9 @@ public class Goal {
         end=input.length();
         data[0]=(Integer.parseInt(input.substring(beg+1,end)));
     }
-    public String getDataStr_American(){
-        String convert=""+data[2]+"-"+data[1]+"-"+data[0];
+    public String getDataStr(){
+        //STANDARD PATTERN DD-MM-YYYY
+        String convert=String.format("%d-%d-%d",data[2],data[1],data[0]);
         return convert;
     }
     public void setTag(String string){
@@ -35,7 +31,6 @@ public class Goal {
     public String getObiettivo(){
         return obiettivo;
     }
-    //public Date getData(){        return data;    }
     public Integer[] getData(){return data;}
     public String getTag(){
         return tag;

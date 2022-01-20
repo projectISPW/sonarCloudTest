@@ -5,11 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Query {
-    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT *\n FROM utenti \n where userid = '%s' ;\n",iduser);
-       // System.out.println(sql);
-        return stmt.executeQuery(sql);
-    }
     protected ResultSet searchVal(Statement stmt, String what , String iduser,int value) {
        try {
            String sql = String.format("SELECT userid,'%s' " +
@@ -23,7 +18,7 @@ public class Query {
            return null;
        }
     }
-    protected ResultSet searchAll(Statement stmt,int emp, int hum,int pos,String iduser)  {
+    protected ResultSet searchAll(Statement stmt,String iduser,int emp, int hum,int pos)  {
         try{String sql=String.format("SELECT userid " +
                         "FROM utenti WHERE type='usr' and " +
                         "empathy>=%d and humor>=%d and positivity >=%d and userid != '%s' ",
@@ -42,6 +37,7 @@ public class Query {
                     "FROM utenti " +
                     "where %s = '%s' and userid!='%s' and type= 'usr' ;\n", what, input, iduser);
             //System.out.println(sql);
+            System.out.println(sql);
             return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
             System.err.println("errore durante la ricerca"+what);

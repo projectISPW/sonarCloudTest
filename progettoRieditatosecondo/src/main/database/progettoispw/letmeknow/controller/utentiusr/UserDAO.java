@@ -1,7 +1,7 @@
 package progettoispw.letmeknow.controller.utentiusr;
 
-import progettoispw.letmeknow.controller.ConnectionDB;
 import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
 import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
 import java.sql.ResultSet;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class UserDAO implements SalvaUtenteMeta {
+public class UserDAO implements SalvaUtenteMeta, FormMeta {
     ConnectionDBMS connDB;
     Query query;
     public UserDAO() {
@@ -29,18 +29,18 @@ public class UserDAO implements SalvaUtenteMeta {
             return ret;
         } catch (SQLException e) {
             e.printStackTrace();
-            return new String[10];
+            return new String[]{"1","1","1",null,null,null,null};
         }finally{
-            connDB.closeConnection(rst,stmt);
+            connDB.closeRSTSTMT(rst,stmt);
         }
     }
     public boolean setDescription(String userid,String input){
         Statement stmt=null;
         try {
             stmt=connDB.connection(stmt);
-            return query.setDB(stmt,userid,"descriprion",input);
+            return query.setDB(stmt,userid,DESCRIPTION,input);
         }finally{
-            connDB.closeConnection(stmt);
+            connDB.closeSTMT(stmt);
         }
 
     }
@@ -48,9 +48,9 @@ public class UserDAO implements SalvaUtenteMeta {
         Statement stmt=null;
         try {
             stmt=connDB.connection(stmt);
-            return query.setDB(stmt,userid,"goal",input);
+            return query.setDB(stmt,userid,GOAL,input);
         }finally{
-            connDB.closeConnection(stmt);
+            connDB.closeSTMT(stmt);
         }
 
     }
@@ -58,9 +58,9 @@ public class UserDAO implements SalvaUtenteMeta {
         Statement stmt=null;
         try {
             stmt=connDB.connection(stmt);
-            return query.setDB(stmt,userid,"tag",input);
+            return query.setDB(stmt,userid,TAG,input);
         }finally{
-            connDB.closeConnection(stmt);
+            connDB.closeSTMT(stmt);
         }
 
     }
@@ -68,9 +68,9 @@ public class UserDAO implements SalvaUtenteMeta {
         Statement stmt=null;
         try {
             stmt=connDB.connection(stmt);
-            return query.setDataQuery(stmt,userid,input);
+            return query.setDB(stmt,userid,BY,input);
         } finally{
-            connDB.closeConnection(stmt);
+            connDB.closeSTMT(stmt);
         }
 
     }
@@ -95,23 +95,23 @@ public class UserDAO implements SalvaUtenteMeta {
             stmt=connDB.connection(stmt);
             rst=query.queryResult(stmt,userid);
             while (rst.next()) {
-                edited = true;
                 if (rst.getString(CALCULATED).equals("1")) {
+                    edited = true;
                     about = rst.getString(ABOUT).toCharArray();
                     for (int i = 0; i < about.length; i++) {
-                        System.out.println("valori in entrata valore .:" + rst.getString(START + i));
+                        System.out.println("valori in entrata valore .:" + rst.getString(3 + i));//colonna inizio risposte form
                         switch (about[i]) {
                             case '1': {
-                                empMed += Integer.parseInt(rst.getString(START + i));
+                                empMed += Integer.parseInt(rst.getString(3 + i));
                                 System.err.println("param i entrata" + empMed);
                                 break;
                             }
                             case '2': {
-                                humMed += Integer.parseInt(rst.getString(START + i));
+                                humMed += Integer.parseInt(rst.getString(3 + i));
                                 break;
                             }
                             case '3': {
-                                posMed += Integer.parseInt(rst.getString(START + i));
+                                posMed += Integer.parseInt(rst.getString(3 + i));
                                 break;
                             }
                         }
@@ -134,7 +134,7 @@ public class UserDAO implements SalvaUtenteMeta {
                 e.printStackTrace();
                 return false;
         }finally{
-                connDB.closeConnection(rst,stmt);
+                connDB.closeRSTSTMT(rst,stmt);
         }
 
     }

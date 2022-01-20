@@ -7,13 +7,13 @@ import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 public class SettingsController {
     UtenteUsr userU;
     UtentePsy userP;
-    ConnectionDB connection;
+    ConnectionDBMS connection;
     public SettingsController(){
         userU= ControllerClass.getUserUSR();
         userP=ControllerClass.getUserPsy();
     }
     public void closeConnection(){
-        connection.closeConnection();
+        connection.closeCONN();
     }
     public boolean setPassword(String input){
         if(userU!=null)return userU.setPassword(input);

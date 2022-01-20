@@ -1,21 +1,31 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.*;
+import progettoispw.letmeknow.controller.search.Search;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-public class searchBean {
-    private searchController controller;
-    public searchBean(){
-        controller=new searchController();
+public class searchController {
+    private ControllerClass factory;
+    private Search find;
+    public searchController(){
+        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+        find= factory.getSearch();
     }
-    public void enterParamSearch(Integer [] input){
-        controller.enterParamSearch(input);
+    public void enterAffinity(Integer input){
+        find.setAffinity(input);
     }
-    public void enterGoalSearch(String input){
-        controller.enterGoal(input);
+    public void enterGoal(String input){
+        find.goalSearch(input);
     }
-    public void enterDescrSearch(String input){controller.enterDes(input);}
-    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
+    public void enterDes(String input){
+        find.descrSearch(input);
+    }
+    public void enterParamSearch(Integer [] input ){
+        find.parametricSetSearch(input);
+    }
     public void toMe(){
-        controller.toMe();
+        UtenteUsr me =factory.getUserUSR();
+        enterAffinity(0);
+        enterGoal(me.getTag());
+        enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getPos()} );
     }
 }

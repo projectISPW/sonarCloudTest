@@ -1,6 +1,2 @@
-Ÿ
-javaS1659@Declare "sl2" and all following declarations on a separate line. 2 :
-¹ :
-¹ :
-¹ :
-¹ "
+S
+javaS1069Replace this use of System.out or System.err by a logger. 2		 

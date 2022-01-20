@@ -9,17 +9,21 @@ public class Sliders {
     public Sliders (Integer val ){
         affinity=val;
     }
+    public int check(Integer val ){
+        if(val<=0)return 1;
+        return val;
+    }
     public void setHum(Integer val){
         hum=val-affinity;
-        coll[1]=hum;
+        coll[1]=check(hum);
     }
     public void setPos(Integer val){
         pos=val-affinity;
-        coll[2]=pos;
+        coll[2]=check(pos);
     }
     public void setEmp(Integer val){
         emp=val-affinity;
-        coll[0]=emp;
+        coll[0]=check(emp);
     }
     public Integer getEmp(){
         return emp;

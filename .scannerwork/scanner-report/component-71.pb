@@ -1,1 +1,1 @@
-G 2javaXahr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
+G 2javaXihraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java

@@ -1,1 +1,1 @@
-ü 2javaX-hr‰progettoRieditatosecondo/src/main/usecase/signupPsicologist/controllerView/progettoispw/letmeknow/SignupPsicologistControllerInterf1.java
+ü 2javaX/hrpprogettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java

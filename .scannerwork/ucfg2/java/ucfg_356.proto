@@ -1,61 +1,103 @@
 
-˜progettoispw.letmeknow.controller.utentiusr.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java1 1("1*¢
-1ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 2(¨
-¥
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2! 3(W
-%0java.lang.String"__concat*@>
-<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*97
-5 VALUES ('%s',         '%s',      '%s',       '%s')\n—
-”
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 4(D
-%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-
-%0java.lang.String*
-
-uidjava.lang.String*
-
-passwordjava.lang.String*
-
-typejava.lang.String*
-
-emailjava.lang.StringÂ
-¿
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 4(E
-sqljava.lang.String"__id*
-
-%1java.lang.String²
-¯
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java5 5(
-%2java.io.PrintStream"__id*
-""œ™
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java5 5(
+Pprogettoispw.letmeknow.controller.search.Search#descrSearch(Ljava/lang/String;)Z
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaM M("10*–
+3
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaV V("Œ
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaV V(
+""*¿
+4
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaT T(°
+­
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaT T(
 
-%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+%9void"Kprogettoispw.letmeknow.controller.search.Search#attach(Ljava/lang/String;)V*31
+/progettoispw.letmeknow.controller.search.Search*
+
+usrjava.lang.String*
+8*
+5
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaR R(3®
+«
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaR R(3
+usrjava.lang.String"__id*
+
+%6°
+­
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaS S(
+%7java.io.PrintStream"__id*
+""š—
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaS S('
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
-%2java.io.PrintStream*
+%7java.io.PrintStream*
 
-sqljava.lang.String2println(Ljava/lang/String;)§¤
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java6 6(	
-%4int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"Ž
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java7 7(
-"":
-stmtjava.sql.Statement:
-uidjava.lang.String:
-passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentiusr.Query
+usrjava.lang.String2println(Ljava/lang/String;)*
+4*‹
+6
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaR R( å
+â
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaR R( 
+%5java.sql.ResultSet"__id*<*:1
+/progettoispw.letmeknow.controller.search.Search"
+rst”‘
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaR R(2
+%6"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
+
+%5java.sql.ResultSet*
+""2getString(Ljava/lang/String;)*
+5*Ð
+8
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaQ Q(å
+â
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaQ Q(
+%3java.sql.ResultSet"__id*<*:1
+/progettoispw.letmeknow.controller.search.Search"
+rstÖÓ
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaQ Q(
+%4boolean"java.sql.ResultSet#next()Z*
+
+%3java.sql.ResultSet2next()*
+3
+6*­
+9
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaO O(6Ñ
+Î
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaO O(6:1
+/progettoispw.letmeknow.controller.search.Search"
+rst"__id*
+""°
+­
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaP P(
+%1java.io.PrintStream"__id*
+""—”
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaP P(4
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%1java.io.PrintStream*
+description search2println(Ljava/lang/String;)*
+8*ö
+10
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaO O(æ
+ã
+
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaO) O(/
+%0java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.search.Search"
+userid*
+9:
+descrjava.lang.StringB31
+/progettoispw.letmeknow.controller.search.Search

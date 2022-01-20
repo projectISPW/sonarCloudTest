@@ -1,46 +1,35 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.VisitController;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-public class VisitBean {
-    VisitController controller;
-    public String getUserId() {
-        controller=new VisitController();
-        return controller.getUserid();
+public class VisitController {
+    UtenteUsr user;
+    public VisitController(){
+        user= ControllerClass.getSearch().getTouched();
+    }
+    public String getUserid() {
+        return user.getUserid();
+    }
+   public int tornaValoriEmpatia(){
+        return user.getEmp();
+    }
+    public int tornaValoriUmorismo(){
+        return user.getHum();
+    }
+    public int tornaValoriPositivita(){
+        return user.getPos();
+    }
+    public String tornaObiettivo(){
+        return user.getObiettivo();
+    }
+    public Integer[] tornaData(){
+        return user.getData();
+    }
+    public String tornaTag(){
+        return user.getTag();
+    }
+    public String tornaDescrizione(){
+        return user.getDescrizione();
     }
 
-    public String exitObiettivo() {
-        WordCheck checkStr = new WordCheck(3, 20);
-        String obiettivo = controller.tornaObiettivo();
-        return obiettivo=checkStr.check(obiettivo);
-    }
-    public Integer[] exitData(){
-            Integer [] data=controller.tornaData();
-            return data;
-    }
-
-    public Integer [] exitValue(){
-        Integer valori []={0,0,0};
-        //valori[0]=1;  valori[1]=1; valori[2]=1;
-        valori[0]=controller.tornaValoriEmpatia();
-        valori[1]=controller.tornaValoriUmorismo();
-        valori[2]=controller.tornaValoriPositivita();
-        for(int i =0;i<2;i++){
-            if(valori[i]>5 || valori[i]<1){
-            System.err.println("error occurred");
-            }
-        }
-        return valori;
-    }
-    public String exitTag(){
-            WordCheck checkStr=new WordCheck(3,20);
-            String tag=controller.tornaTag();
-            return tag;
-        }
-
-    public String exitDes(){
-        String output= controller.tornaDescrizione();
-        return output;
-    }
 }

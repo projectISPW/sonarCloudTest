@@ -1,1 +1,1 @@
-S 2javaXhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java
+S 2javaX4hrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UserDAO.java

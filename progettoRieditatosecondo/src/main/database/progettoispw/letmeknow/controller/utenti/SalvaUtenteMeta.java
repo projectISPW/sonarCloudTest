@@ -1,18 +1,13 @@
 package progettoispw.letmeknow.controller.utenti;
 
 public interface SalvaUtenteMeta {
-    int USERID=1;
-    int PASSWORD=2;
-    int TYPE=3;
-    int START=3;
-    int EMAIL=4;
-    int EMP=5;
-    int HUM=6;
-    int POS=7;
-    int DES=8;
-    int GOAL=9;
-    int END=10;
-    int TAG=11;
-    int ABOUT=14;
-    int CALCULATED=15;
+    public static final String UID ="userid";
+    public static final String TYPE="type";
+    public static final String PASSWORD="password";
+    public static final String EMAIL="email";
+    public static final int EMP=5;
+    public static final String DESCRIPTION="description";
+    public static final String GOAL="goal";
+    public static final String TAG="tag";
+    public static final String BY="by";
 }

@@ -1,24 +1,51 @@
 package progettoispw.letmeknow.controller.utentipsy;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import progettoispw.letmeknow.controller.ConnectionDB;
+import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
-public class Query {
-    protected ResultSet selectResult(Statement stmt,int month,int year )throws SQLException {
-        String sql=String.format(" SELECT * FROM forms WHERE YEAR(`by`)=%d AND MONTH(`by`)=%d ",year,month);
-        System.out.println(sql);
-        return stmt.executeQuery(sql);
+import java.sql.*;
+import java.util.ArrayList;
+
+public class UserDAO implements SalvaUtenteMeta,FormMeta {
+    ConnectionDBMS connDB;
+    Query query;
+    public UserDAO() {
+        connDB= new ConnectionDBMS();
+        query=new Query();
     }
-    protected boolean suggestForm(Statement stmt,String from,String what)  {
+    public ArrayList<Form> collectForms(int month, int year) {
+        Statement stmt=null;
+        ResultSet rst=null;
+        Form form=new Form();
         try {
-            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');",from,what);
-            System.out.println(sql);
-            stmt.executeUpdate(sql);
-            return true;
+            stmt=connDB.connection(stmt);
+            rst=query.selectResult(stmt,month,year);
+            int [] answers;
+            ArrayList<Form>list=new ArrayList<>();
+            while(rst.next()) {
+                answers = new int[6];
+                for (int i = 0; i < 6; i++) {
+                    answers[i] = Integer.parseInt(rst.getString(START + i));
+                }
+                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(2), list);
+            }
+            return list;
         } catch (SQLException e) {
             e.printStackTrace();
-            return false;
+            return new ArrayList<>();
+        }finally{
+            connDB.closeConnection(rst,stmt);
+        }
+    }
+    public boolean suggestForm(String from,String what){
+        Statement stmt=null;
+        try{
+            stmt=connDB.connection(stmt);
+            return query.suggestForm(stmt,from,what);
+        } finally {
+            ConnectionDB.closeConnection();
         }
     }
 }

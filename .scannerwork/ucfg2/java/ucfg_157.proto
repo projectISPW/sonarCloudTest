@@ -1,23 +1,28 @@
 
-dprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setGoal(Ljava/lang/String;Ljava/lang/String;)V‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java ("1*ø
-1‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java (Þ
-Û
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java ((A7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-stmt"__id*
-""ò
-ï
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java (
-%0java.sql.Statement"__id*C*A7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-stmt"’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java   (
-"":
-useridjava.lang.String:
-goaljava.lang.StringB97
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL
+Qprogettoispw.letmeknow.controller.FormPsicologistResultController#getSelected()[F¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java
+ 
+("3"1*ä
+3¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java  (&î
+ë
+¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java  (*
+%0java.io.PrintStream"__id*
+""£ 
+¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java  (<
+
+%1void"java.io.PrintStream#println(F)V*
+
+%0java.io.PrintStream*
+""2
+println(F)*
+3
+1*’
+1¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java ("Ê
+¿
+´C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java ("
+""BEC
+Aprogettoispw.letmeknow.controller.FormPsicologistResultController

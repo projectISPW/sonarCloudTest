@@ -1,78 +1,15 @@
 
-Uprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#checkEmail(Ljava/lang/String;)Z‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaT T("10*¢
-3‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java[ [("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.java[ [(
-""*¢
-4‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaY Y("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaY Y(
-""*´
-5‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX X(4Ÿœ
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX X(4
-
-%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%3java.io.PrintStream*
-
-%5java.lang.String2println(Ljava/lang/String;)*
-4*Ê
-6‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX X(¶
-³
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX X(
-%3java.io.PrintStream"__id*
-""ñ
-î
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX# X(&
-%4java.sql.ResultSet"__id*B*@7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-rstˆ…
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaX# X(3
-%5java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-%4java.sql.ResultSet*22getString(I)*
-5*è
-8‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaW W(ñ
-î
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaW W(
-%1java.sql.ResultSet"__id*B*@7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-rstÜÙ
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaW W(
-%2boolean"java.sql.ResultSet#next()Z*
-
-%1java.sql.ResultSet2next()*
-3
-6*ò
-9‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaV V(/Ý
-Ú
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaV V(/@7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-rst"__id*
-""*
-8*ˆ
-10‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaV V(ò
-ï
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteSQL.javaV V( 
-%0java.sql.Statement"__id*C*A7
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL"
-stmt*
-9:
-inputjava.lang.StringB97
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQL
+Nprogettoispw.letmeknow.controller.SettingsController#feed(Ljava/lang/String;)Z¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("2"1*Þ
+2¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (#"°
+¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (3
+""*Þ
+1¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("°
+¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ()
+"":
+inputjava.lang.StringB86
+4progettoispw.letmeknow.controller.SettingsController

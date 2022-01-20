@@ -1,0 +1,6 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ùó÷
+A
+java:S1481/"+Remove this unused "indice" local variable.(¡ÛòÕ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ñÕò
+M	java:S106K"9Replace this use of System.out or System.err by a logger.(ª¶Ók

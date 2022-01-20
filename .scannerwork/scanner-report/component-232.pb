@@ -1,1 +1,1 @@
-è 2javaXihrTprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java
+è 2javaXhrpprogettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java

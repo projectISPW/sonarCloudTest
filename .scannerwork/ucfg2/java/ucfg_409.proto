@@ -1,9 +1,18 @@
 
-Eprogettoispw.letmeknow.controller.utentipsy.UtentePsy#getSelected()[F‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java" "("1*¢
-1‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java# #("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java# #(
-""B97
-5progettoispw.letmeknow.controller.utentipsy.UtentePsy
+Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java> >("5*Þ
+5v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java@ @(ÛØ
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java@ @(,
+%0char[]" java.lang.String#toCharArray()[C*
+
+	inputTextjava.lang.String2toCharArray()*
+1*þ
+1v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaE E("€
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaE E(
+"":
+	inputTextjava.lang.StringB$"
+ progettoispw.letmeknow.WordCheck

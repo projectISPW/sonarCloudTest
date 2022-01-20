@@ -1,12 +1,9 @@
 package progettoispw.letmeknow.controller.utenti;
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteSQL;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
-import java.util.Vector;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -16,57 +13,66 @@ public class SalvaUtente implements SalvaUtenteMeta {
     private String type;
     private String email;
     private UserDAO userData;
-    protected ResultSet rst;
     private Random randomno ;
     private static final  Lock mutex = new ReentrantLock(true);
     public SalvaUtente(String who)  {
         userData=new UserDAO();
         String [] log=userData.selectUser(who);
-        userid=log[0];
-        password=log[1];
-        type=log[2];
-        email=log[3];
+        if(log[0]!=null && log[1]!=null){
+            userid=log[0];
+            password=log[1];
+            type=log[2];
+            email=log[3];
+        }
+        else{
+            userid=null;
+        }
     }
     public SalvaUtente(){
         userid=password=type=null;
         randomno = new Random();
     }
     public boolean  checkEmail(String input){
-        UserDAO user=new UserDAO();
-        return user.checkMail(input);
+        UserDAO userDataInner=new UserDAO();
+        return userDataInner.checkMail(input);
     }
-    public boolean sendMail(String to) {
-        try{
-            UserDAO user=new UserDAO();
-            String []data = user.recover(to);
-            if(data!=null){
-                JavaMailUtil email=new JavaMailUtil();
-                String text="Your userid is .:     "+data[0]+"\nYour password is .:        "+data[1];
-                email.setText(text);
-               return sendMail(to);
-            }
-            return false  ;
-        } catch (Exception e) {
-            return false;
+    public boolean composeMail(String to) {
+        UserDAO userDataInner=new UserDAO();
+        String []data = userDataInner.recover(to);
+        if(data[0]!=null && data[1]!=null){
+            System.out.println("user"+data[0]+"password"+data [1]);
+            JavaMailUtil email=new JavaMailUtil();
+            String text="Your userid is .:     "+data[0]+"\nYour password is .:        "+data[1];
+            email.setText(text);
+            return email.sendMail(to);
         }
+        return false;
+    }
+    public boolean composeMail(String uid, String password, String mail) {
+        System.out.println("user"+uid+"password"+password);
+        JavaMailUtil email=new JavaMailUtil();
+        String text="Your userid is .:     "+uid+"\nYour password is .:        "+password;
+        email.setText(text);
+        return email.sendMail(mail);
     }
     private String getUid(){
         int random;
         int min=1000000;
         int max=9999999;
         String check=null;
-        boolean different=true;
-        UserDAO usr=new UserDAO();
+        boolean equal=true;
+        UserDAO userDataInner=new UserDAO();
         mutex.lock();
-        ArrayList<String> uidList= usr.getUID();
+        List<String> uidList=(ArrayList<String> )userDataInner.getUID();
         if(uidList==null)return "0000000";
-        while(different){
-            random= (randomno.nextInt()*(max-min)) + min;
-            different=false;
+        while(equal){
+            random= (randomno.nextInt(max));
+            equal=false;
+            if(random<min-1)equal=true;
             check=""+random;
-            for(String uid : uidList){
+            if(!equal)for(String uid : uidList){
                 if(check.equals(uid)){
-                    different=true;
+                    equal=true;
                 }
             }
         }
@@ -74,8 +80,10 @@ public class SalvaUtente implements SalvaUtenteMeta {
         return check;
     }
     public boolean checkUtente (String pswdInput){
-
-        return password.equals(pswdInput);
+        if(password!=null){
+            return password.equals(pswdInput);
+        }
+        return false;
     }
     public String abscessType (String pswdInput) {
         if (checkUtente(pswdInput)) {
@@ -87,11 +95,11 @@ public class SalvaUtente implements SalvaUtenteMeta {
             }
             else {
                 System.err.println("password errata");
-                return "uncorrect log " ;
+                return null ;
             }
         }
-        System.err.println("errore nel tipo di dato ");
-        return "uncorrect log ";
+        System.err.println("unexist user");
+        return null;
     }
     public String getType() {
         return type;
@@ -101,31 +109,33 @@ public class SalvaUtente implements SalvaUtenteMeta {
     }
     public boolean setPassword(String input){
         if(userData.setPswd(userid,input)){
-            return sendMail(email);
+            return composeMail(email);
         }
         return false;
     }
     public boolean setEmail(String input){
         if(userData.setEmail(userid,input)){
             email=input;
-            if(sendMail(email)){
+            if(composeMail(email)){
                 return true;
             }
         }
         return false;
     }
     public boolean registrationUSR(String password,String email,String type,int [] val,String description,String goal)  {
+        UserDAO userDataInner=new UserDAO();
         boolean bool;
         String uid=getUid();
-        bool= userData.registration(uid,password,type,val,description,email,goal);
-        sendMail(email);
+        bool= userDataInner.registration(uid,password,type,val,description,email,goal);
+        if(bool)return composeMail(uid,password,email);
         return bool;
     }
     public boolean registrationPSY(String password, String email, String type) {
+        UserDAO userDataInner=new UserDAO();
         boolean bool;
         String uid=getUid();
-        bool= userData.registration(uid,password,type,email);
-        if(bool)return sendMail(email);
+        bool= userDataInner.registration(uid,password,type,email);
+        if(bool)return composeMail(uid,password,email);
         return false;
     }
     public boolean setFeed(String feed){

@@ -1,1 +1,1 @@
-C 2javaXhrbprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/MessagesSQL.java
+C 2javaX)hr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java

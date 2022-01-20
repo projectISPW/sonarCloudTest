@@ -1,48 +1,39 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.ResultSearchController;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-import java.util.ArrayList;
+public class InnerUsers {
+    private final String userid;
+    private String description;
+    private String goal;
+    private int lenMax;
+    private WordCheck check=new WordCheck();
+    public InnerUsers(UtenteUsr elem){
+        lenMax=15;
+        userid=elem.getUserid();
+        description= elem.getDescrizione();
+        goal=elem.getTag();
+    }
+    public  String get(String what){
+        switch(what){
+            case "userid" :{
+                return userid;
+            }
+            case "description" :{
+                if(description!=null && description.length()>lenMax)description= check.checkLen(description,lenMax);
+                return check.checkAhead(description);
+            }
+            case "goal" :{
+                if(goal!=null && goal.length()>lenMax)goal= check.checkLen(goal,lenMax);
+                return check.checkAhead(goal);
+            }
+            default: return null;
+        }
+    }
 
-public class BeanResultSearch {
-    Integer nval;
-    ResultSearchController controller;
-    public BeanResultSearch(int val){
-        nval=val;
-        controller=new ResultSearchController(nval);
-    }
-    public BeanResultSearch(){
-        controller=new ResultSearchController(nval);
+    public void getStatus(){
+        System.out.println("userid"+userid +"descrizione"+description+"tag"+goal);
     }
 
-    int indice;
-    private ArrayList<InnerUsers> actual;
-    public String[] exitDes(){
-        String [] arrStr=new String[nval];
-        actual=controller.queryUsers();
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("description");
-        }
-        return arrStr;
-    }
-    public String[] exitGoal(){
-        String [] arrStr=new String[nval];
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("goal");
-        }
-        return arrStr;
-    }
-    public String[] exitUID(){
-        String [] arrStr=new String[nval];
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("userid");
-        }
-        return arrStr;
-    }
-    public void touched(String user){
-        controller.who(user);
-    }
 }

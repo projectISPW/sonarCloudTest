@@ -1152,25 +1152,10 @@ tornaTag()Qprogettoispw.letmeknow.controller.HomepageController#tornaTag()Ljava
 getLastmsg()Fprogettoispw.letmeknow.bean.lastMessage#getLastmsg()Ljava/lang/String;C
 getStatus()4progettoispw.letmeknow.bean.lastMessage#getStatus()VT
 getUserid()Eprogettoispw.letmeknow.bean.lastMessage#getUserid()Ljava/lang/String;#
-SalvaUtenteMetajava.lang.Object‰
-5progettoispw.letmeknow.controller.utentiusr.UtenteSQLQuerySalvaUtenteMetaó
-.setEmail(Ljava/lang/String;Ljava/lang/String;)eprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setEmail(Ljava/lang/String;Ljava/lang/String;)ZÉ
-recover(Ljava/lang/String;)dprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#recover(Ljava/lang/String;)[Ljava/lang/String;w
-checkEmail(Ljava/lang/String;)Uprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#checkEmail(Ljava/lang/String;)Zy
-setParams(Ljava/lang/String;[I)Vprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setParams(Ljava/lang/String;[I)V¥
-|registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)≥progettoispw.letmeknow.controller.utentiusr.UtenteSQL#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z_
-getUID()Sprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#getUID()Ljava/util/ArrayList;à
-getResult(Ljava/lang/String;)gprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#getResult(Ljava/lang/String;)Ljava/sql/ResultSet;ï
--setGoal(Ljava/lang/String;Ljava/lang/String;)dprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setGoal(Ljava/lang/String;Ljava/lang/String;)V
-"setCalculated(Ljava/lang/String;I)Yprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setCalculated(Ljava/lang/String;I)Vì
-,setTag(Ljava/lang/String;Ljava/lang/String;)cprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setTag(Ljava/lang/String;Ljava/lang/String;)VË
-Vregistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)çprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Zï
--setPswd(Ljava/lang/String;Ljava/lang/String;)dprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setPswd(Ljava/lang/String;Ljava/lang/String;)Z£
-4setDescription(Ljava/lang/String;Ljava/lang/String;)kprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setDescription(Ljava/lang/String;Ljava/lang/String;)Vè
+SalvaUtenteMetajava.lang.ObjectÆ
+5progettoispw.letmeknow.controller.utentiusr.UtenteSQLQuerySalvaUtenteMetaè
 *feed(Ljava/lang/String;Ljava/lang/String;)aprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#feed(Ljava/lang/String;Ljava/lang/String;)ZK
-<init>()?progettoispw.letmeknow.controller.utentiusr.UtenteSQL#<init>()Vï
--setData(Ljava/lang/String;Ljava/lang/String;)dprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#setData(Ljava/lang/String;Ljava/lang/String;)Vå
-getUserData(Ljava/lang/String;)iprogettoispw.letmeknow.controller.utentiusr.UtenteSQL#getUserData(Ljava/lang/String;)Ljava/sql/ResultSet;í
+<init>()?progettoispw.letmeknow.controller.utentiusr.UtenteSQL#<init>()Ví
 Aprogettoispw.letmeknow.controller.FormPsicologistResultControllerjava.lang.ObjectW
 <init>()Kprogettoispw.letmeknow.controller.FormPsicologistResultController#<init>()Vb
 getSelected()Qprogettoispw.letmeknow.controller.FormPsicologistResultController#getSelected()[F¥
@@ -1230,10 +1215,10 @@ dsignup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/Strin
 getUserid()Zprogettoispw.letmeknow.controller.FormToTakeStatusController#getUserid()Ljava/lang/String;÷
 0progettoispw.letmeknow.controller.ConnectionDBMSjava.lang.ObjectF
 increm():progettoispw.letmeknow.controller.ConnectionDBMS#increm()VF
-<init>():progettoispw.letmeknow.controller.ConnectionDBMS#<init>()Vâ
- Connection(Ljava/sql/Statement;)eprogettoispw.letmeknow.controller.ConnectionDBMS#Connection(Ljava/sql/Statement;)Ljava/sql/Statement;F
+<init>():progettoispw.letmeknow.controller.ConnectionDBMS#<init>()VF
 decrem():progettoispw.letmeknow.controller.ConnectionDBMS#decrem()V®
-9closeConnection(Ljava/sql/ResultSet;Ljava/sql/Statement;)kprogettoispw.letmeknow.controller.ConnectionDBMS#closeConnection(Ljava/sql/ResultSet;Ljava/sql/Statement;)VÄ
+9closeConnection(Ljava/sql/ResultSet;Ljava/sql/Statement;)kprogettoispw.letmeknow.controller.ConnectionDBMS#closeConnection(Ljava/sql/ResultSet;Ljava/sql/Statement;)Vâ
+ connection(Ljava/sql/Statement;)eprogettoispw.letmeknow.controller.ConnectionDBMS#connection(Ljava/sql/Statement;)Ljava/sql/Statement;Ä
 %closeConnection(Ljava/sql/Statement;)Wprogettoispw.letmeknow.controller.ConnectionDBMS#closeConnection(Ljava/sql/Statement;)Vã
 "java.lang.reflect.AnnotatedElementjava.lang.Objectß
 /getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;t
@@ -1485,12 +1470,11 @@ Vregistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/S
 takeformControllerInterf1java.lang.Objectó
 1progettoispw.letmeknow.takeform3ControllerInterf1takeformControllerInterf1G
 <init>();progettoispw.letmeknow.takeform3ControllerInterf1#<init>()V
-SalvaUtentejava.lang.Objectí
+SalvaUtentejava.lang.Object√
 5progettoispw.letmeknow.controller.utentiusr.UtenteUsrSalvaUtente
 "setPersonalDes(Ljava/lang/String;)Yprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#setPersonalDes(Ljava/lang/String;)VU
-queryResult()Dprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#queryResult()VK
-getPos()?progettoispw.letmeknow.controller.utentiusr.UtenteUsr#getPos()IM
-	media(II)@progettoispw.letmeknow.controller.utentiusr.UtenteUsr#media(II)IK
+queryResult()Dprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#queryResult()ZK
+getPos()?progettoispw.letmeknow.controller.utentiusr.UtenteUsr#getPos()IK
 getHum()?progettoispw.letmeknow.controller.utentiusr.UtenteUsr#getHum()I\
 getTag()Pprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#getTag()Ljava/lang/String;`
 	getData()Sprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#getData()[Ljava/lang/Integer;l
@@ -1870,9 +1854,8 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)ljava.time.
 getFormid()Aprogettoispw.letmeknow.controller.GoToFormController#getFormid()IÓ
 5progettoispw.letmeknow.bean.FormPsicologistResultBeanjava.lang.ObjectK
 <init>()?progettoispw.letmeknow.bean.FormPsicologistResultBean#<init>()VV
-getSelected()Eprogettoispw.letmeknow.bean.FormPsicologistResultBean#getSelected()[FŸ
-1progettoispw.letmeknow.controller.utentiusr.Queryjava.lang.ObjectÜ
-queryUid(Ljava/sql/Statement;)dprogettoispw.letmeknow.controller.utentiusr.Query#queryUid(Ljava/sql/Statement;)Ljava/sql/ResultSet;œ
+getSelected()Eprogettoispw.letmeknow.bean.FormPsicologistResultBean#getSelected()[F–
+1progettoispw.letmeknow.controller.utentiusr.Queryjava.lang.Objectœ
 ãnewLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)æprogettoispw.letmeknow.controller.utentiusr.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V≥
 >feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)qprogettoispw.letmeknow.controller.utentiusr.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZG
 <init>();progettoispw.letmeknow.controller.utentiusr.Query#<init>()V⁄
@@ -1881,7 +1864,7 @@ QsetDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String
 6setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)iprogettoispw.letmeknow.controller.utentiusr.Query#setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)Z”
 DselectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)äprogettoispw.letmeknow.controller.utentiusr.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;Ç
 enewLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)òprogettoispw.letmeknow.controller.utentiusr.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V√
-FsetDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)yprogettoispw.letmeknow.controller.utentiusr.Query#setDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)VÆ
+FsetDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)yprogettoispw.letmeknow.controller.utentiusr.Query#setDataQuery(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZÆ
 2selectUser(Ljava/sql/Statement;Ljava/lang/String;)xprogettoispw.letmeknow.controller.utentiusr.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;∞
 3queryResult(Ljava/sql/Statement;Ljava/lang/String;)yprogettoispw.letmeknow.controller.utentiusr.Query#queryResult(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;≤
 /progettoispw.letmeknow.controller.ISCControllerjava.lang.ObjectC
@@ -2044,6 +2027,13 @@ exitData()Dprogettoispw.letmeknow.bean.VisitBean#exitData()[Ljava/lang/Integer;
 4initialize(Ljava/net/URL;Ljava/util/ResourceBundle;)fprogettoispw.letmeknow.SettingsControllerInterf1#initialize(Ljava/net/URL;Ljava/util/ResourceBundle;)VH
 	setMail();progettoispw.letmeknow.SettingsControllerInterf1#setMail()V
 )progettoispw.letmeknow.form2ResultInterf1formResultInterf1?
-<init>()3progettoispw.letmeknow.form2ResultInterf1#<init>()Ví
-3progettoispw.letmeknow.controller.utentiusr.UserDAOjava.lang.ObjectI
-<init>()=progettoispw.letmeknow.controller.utentiusr.UserDAO#<init>()V
+<init>()3progettoispw.letmeknow.form2ResultInterf1#<init>()V›
+3progettoispw.letmeknow.controller.utentiusr.UserDAOjava.lang.ObjectSalvaUtenteMetaì
+-setGoal(Ljava/lang/String;Ljava/lang/String;)bprogettoispw.letmeknow.controller.utentiusr.UserDAO#setGoal(Ljava/lang/String;Ljava/lang/String;)Zë
+,setTag(Ljava/lang/String;Ljava/lang/String;)aprogettoispw.letmeknow.controller.utentiusr.UserDAO#setTag(Ljava/lang/String;Ljava/lang/String;)Z°
+4setDescription(Ljava/lang/String;Ljava/lang/String;)iprogettoispw.letmeknow.controller.utentiusr.UserDAO#setDescription(Ljava/lang/String;Ljava/lang/String;)Zy
+ getResult(Ljava/lang/String;III)Uprogettoispw.letmeknow.controller.utentiusr.UserDAO#getResult(Ljava/lang/String;III)ZI
+<init>()=progettoispw.letmeknow.controller.utentiusr.UserDAO#<init>()Vì
+-setData(Ljava/lang/String;Ljava/lang/String;)bprogettoispw.letmeknow.controller.utentiusr.UserDAO#setData(Ljava/lang/String;Ljava/lang/String;)ZO
+average(II)@progettoispw.letmeknow.controller.utentiusr.UserDAO#average(II)Iá
+selectUser(Ljava/lang/String;)eprogettoispw.letmeknow.controller.utentiusr.UserDAO#selectUser(Ljava/lang/String;)[Ljava/lang/String;

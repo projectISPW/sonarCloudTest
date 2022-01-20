@@ -27,16 +27,16 @@ public class UserDAO implements SalvaUtenteMeta,FormMeta {
             while(rst.next()) {
                 answers = new int[6];
                 for (int i = 0; i < 6; i++) {
-                    answers[i] = Integer.parseInt(rst.getString(START + i));
+                    answers[i] = Integer.parseInt(rst.getString(START + i));//3=inizio dei valori delle risposte
                 }
-                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(2), list);
+                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(UID), list);
             }
             return list;
         } catch (SQLException e) {
             e.printStackTrace();
             return new ArrayList<>();
         }finally{
-            connDB.closeConnection(rst,stmt);
+            connDB.closeRSTSTMT(rst,stmt);
         }
     }
     public boolean suggestForm(String from,String what){

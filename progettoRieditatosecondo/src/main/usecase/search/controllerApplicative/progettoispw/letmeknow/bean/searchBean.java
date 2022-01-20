@@ -8,7 +8,9 @@ public class searchBean {
         controller=new searchController();
     }
     public void enterParamSearch(Integer [] input){
-        controller.enterParamSearch(input);
+        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
+            controller.enterParamSearch(input);
+        }
     }
     public void enterGoalSearch(String input){
         controller.enterGoal(input);

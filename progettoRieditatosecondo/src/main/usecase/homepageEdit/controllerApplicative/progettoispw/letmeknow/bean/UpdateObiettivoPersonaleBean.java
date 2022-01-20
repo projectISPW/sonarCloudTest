@@ -42,10 +42,10 @@ public class UpdateObiettivoPersonaleBean {
         if(!ValueData.equals("")){
             newScadenza=ValueData;
             //data=dateParser.parse(ValueData);
-            int end=newScadenza.indexOf("/");
+            int end=newScadenza.indexOf("-");
             data[0]=(Integer.parseInt(newScadenza.substring(0,end)));
             int beg=end;
-            end=newScadenza.indexOf("/",end+1);
+            end=newScadenza.indexOf("-",end+1);
             data[1]=(Integer.parseInt(newScadenza.substring(beg+1,end)));
             beg=end;
             end=newScadenza.length();

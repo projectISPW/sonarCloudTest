@@ -5,7 +5,6 @@ import progettoispw.letmeknow.controller.chat.Messages;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class ChatController {
     private Messages actChat;
@@ -24,7 +23,7 @@ public class ChatController {
         return actChat.getUserid();
     }
     public List<Message> getChat() {
-        chat=actChat.chat(with);
+        chat= (ArrayList<Message>) actChat.chat(with,false);
         if(lastChat!=null){
             newChat=new ArrayList<>();
             for(int i= lastChat.size();i< chat.size();i++){

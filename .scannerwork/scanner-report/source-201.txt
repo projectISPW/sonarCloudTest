@@ -1,13 +1,105 @@
 package progettoispw.letmeknow;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.Slider;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+import javafx.util.Duration;
 import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 
-
-public class takeform3ControllerInterf1 extends takeformControllerInterf1{
-    public takeform3ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(3);
+import java.io.IOException;
+import java.util.List;
+import java.util.Vector;
+public class takeformControllerInterf1 {
+    @FXML
+    protected AnchorPane form;
+    @FXML
+    protected Text idForm;
+    @FXML
+    protected Slider sl1,sl2,sl3,sl4,sl5,sl6;
+    @FXML
+    protected Label lb1,lb2,lb3,lb4,lb5,lb6;
+    @FXML
+    protected ProgressBar progressBar;
+    protected PageMenu controller= new PageMenu();
+    protected Slider[] sl;
+    protected boolean [] values;
+    protected  boolean [] locked;
+    protected int [] response;
+    protected double progress=0;
+    int indice=-1;
+    protected FormToTakeStatusBean startStatus;
+    protected boolean[] not(boolean []bool){
+        boolean [] currbool=new boolean[6];
+        for(int i=0;i< bool.length;i++){
+            if(bool[i]) currbool[i]=false;
+            else currbool[i]=true;
+        }
+        return currbool;
+    }
+    public void initialize(){
+        if(startStatus.getComplete()==6){
+            System.out.println("i am here");
+            goBack();
+        }
+        response=startStatus.exitValStatus();
+        locked=startStatus.exitStatus();
+        values=not(locked);
+        progress= startStatus.getComplete()*0.17;
+        sl=new Slider[] {sl1,sl2,sl3,sl4,sl5,sl6};
+        Label[] labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
+        progressBar.setProgress(progress);
+        for(int i=0;i<6;i++){
+                 if(response[i]!=-1){
+                       sl[i].setValue(response[i]);
+                 }
+                int finalI = i;
+                sl[i].valueProperty().addListener(new ChangeListener<Number>() {
+                @Override
+                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                    if(values[finalI]==true){
+                        progress+=0.17;
+                        progressBar.setProgress(progress);
+                        values[finalI]=false;
+                    }
+                    if(locked[finalI]==true){
+                        sl[finalI].setValue(response[finalI]);
+                    }
+                    labels[finalI].setText(""+(int)sl[finalI].getValue());
+                }
+            });
+        }
+    }
+    @FXML
+    protected void save(ActionEvent event) {
+        for (int i=0;i<6;i++) {
+            if (values[i] == false) {
+                //System.out.printf("*il valore dell elemento sl[%d] è pari a %d \n", indice, (int) slider.getValue());
+                locked[i]=true;
+                response[i]=(int)sl[i].getValue();
+            }
+        }
+        startStatus.inputValStatus(response);
+        initialize();
+    }
+    @FXML
+    protected void goBack() {
+        controller.backTo();
+    }
+    @FXML
+    protected void goToHome(ActionEvent event) throws IOException {
+        controller.switchToHome(event);
+    }
+    @FXML
+    protected void goToChat(ActionEvent event) throws IOException {
+        controller.switchToChat(event);
     }
 }
-
-

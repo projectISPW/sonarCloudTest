@@ -1,0 +1,9 @@
+
+®
+java:S1845"—Rename field "formid" to prevent any misunderstanding/clash with field "FORMID" defined in interface "progettoispw.letmeknow.controller.form.FormMeta".(Û¿†ß
+N	java:S106"9Replace this use of System.out or System.err by a logger.( Ô‘õ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–æëÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(µÇ÷Üÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(–æëÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ú¾ÇÅøÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(‰ÞÒ¾ûÿÿÿÿ

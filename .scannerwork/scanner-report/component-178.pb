@@ -1,1 +1,1 @@
-² 2javaX-hrzprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java
+² 2javaXihroprogettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/ChatControllerInterf1.java

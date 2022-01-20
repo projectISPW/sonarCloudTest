@@ -1,1 +1,1 @@
-a 2javaX:hrhprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java
+a 2javaXDhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java

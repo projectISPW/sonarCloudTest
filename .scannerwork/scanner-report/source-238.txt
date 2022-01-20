@@ -1,40 +1,48 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.RecoverPswdBean;
+import progettoispw.letmeknow.controller.ResultSearchController;
 
-import java.io.IOException;
+import java.util.ArrayList;
 
-public class RecoverPswdControllerInterf1
-{
-    private Page controller;
-    @FXML
-    TextField email;
-    @FXML
-    Label show;
-    private  RecoverPswdBean bean;
-    public void initialize(){
-        controller= new PageMenu();
-        bean=new RecoverPswdBean();
-        show.setOpacity(0);
+public class BeanResultSearch {
+    Integer nval;
+    ResultSearchController controller;
+    public BeanResultSearch(int val){
+        nval=val;
+        controller=new ResultSearchController(nval);
     }
-    @FXML
-    public void sendMail( ){
-        show.setOpacity(0);
-        String address=email.getText();
-        Boolean bool=bean.sendMail(address);
-        if(bool==false){
-            show.setOpacity(1);
+    public BeanResultSearch(){
+        controller=new ResultSearchController(nval);
+    }
+
+    int indice;
+    private ArrayList<InnerUsers> actual;
+    public String[] exitDes(){
+        String [] arrStr=new String[nval];
+        actual=controller.queryUsers();
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("description");
         }
-        else controller.backTo();
+        return arrStr;
     }
-    @FXML
-    protected void backToLogin(ActionEvent event)  {
-        controller.backTo();
+    public String[] exitGoal(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("goal");
+        }
+        return arrStr;
     }
-
+    public String[] exitUID(){
+        String [] arrStr=new String[nval];
+        for(InnerUsers usr : actual){
+            indice=actual.indexOf(usr);
+            arrStr[indice]=usr.get("userid");
+        }
+        return arrStr;
+    }
+    public void touched(String user){
+        controller.who(user);
+    }
 }

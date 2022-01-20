@@ -1,8 +1,10 @@
-l
-javaS3457Q%n should be used in place of \n to produce the platform-specific line separator. 2
-
- wp
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 V
-javaS125<This block of commented-out lines of code should be removed. 2 'p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2## 
+¾
+javaS1214CMove constants defined in this interfaces to another class or enum. 2 :
+D :
+D :
+D :
+D :
+D :
+D		 J
+javaS2386/Move "FORM" to a class and lower its visibility 2 M
+javaS23862Move "FORMSID" to a class and lower its visibility 2		 

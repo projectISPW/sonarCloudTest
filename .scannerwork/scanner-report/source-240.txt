@@ -1,39 +1,51 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.bean.InnerUsers;
 import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-public class InnerUsers {
-    private final String userid;
-    private String description;
-    private String goal;
-    private int lenMax;
-    private WordCheck check=new WordCheck();
-    public InnerUsers(UtenteUsr elem){
-        lenMax=15;
-        userid=elem.getUserid();
-        description= elem.getDescrizione();
-        goal=elem.getTag();
+import java.util.ArrayList;
+
+public class ResultSearchController {
+    ControllerClass factory;
+    private final ArrayList<String> founded;
+    private Integer count;
+    private final Integer nVal;
+    public ResultSearchController(Integer n){
+        founded=ControllerClass.getSearch().getArrayList() ;
+        nVal=n;
+        count=0;
     }
-    public  String get(String what){
-        switch(what){
-            case "userid" :{
-                return userid;
+    ArrayList<InnerUsers>formatted;
+    public void attach(InnerUsers elem){
+        formatted.add(elem);
+    }
+    InnerUsers actual;
+    public ArrayList<InnerUsers> queryUsers(){
+        int indice;
+        actual=null;
+        formatted=new ArrayList<>();
+        count = check(count);
+        UtenteUsr user;
+        for (String userid : founded) {
+            user=new UtenteUsr(userid);
+            indice = founded.indexOf(userid);
+            if (indice >= count && indice < count + nVal) {
+               actual = new InnerUsers(user);
+               actual.getStatus();
+               attach(actual);
             }
-            case "description" :{
-                if(description!=null && description.length()>lenMax)description= check.checkLen(description,lenMax);
-                return check.checkAhead(description);
-            }
-            case "goal" :{
-                if(goal!=null && goal.length()>lenMax)goal= check.checkLen(goal,lenMax);
-                return check.checkAhead(goal);
-            }
-            default: return null;
         }
+        count+=nVal;
+        return formatted;
     }
 
-    public void getStatus(){
-        System.out.println("userid"+userid +"descrizione"+description+"tag"+goal);
+    private Integer check(Integer count) {
+        if(count>=founded.size()){
+            return count=0;
+        }
+        return count;
     }
-
+    public void who(String usr){
+        factory.getSearch().setTouched(usr);
+    }
 }

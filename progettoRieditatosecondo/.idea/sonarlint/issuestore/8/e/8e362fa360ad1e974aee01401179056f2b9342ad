@@ -1,0 +1,17 @@
+
+Ç
+java:S1845"¤Rename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(œãë­úÿÿÿÿ8ßñÂ½ç/
+¿
+java:S1845"œRename field "type" to prevent any misunderstanding/clash with field "TYPE" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(–î†ûÿÿÿÿ8àñÂ½ç/
+Á
+java:S1845"Rename field "email" to prevent any misunderstanding/clash with field "EMAIL" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(ª«Õìùÿÿÿÿ8àñÂ½ç/
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(¾°½¶øÿÿÿÿ
+T
+java:S1117,"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(›È¾Í
+T
+java:S11175"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
+I
+java:S1905B",Remove this unnecessary cast to "ArrayList".(¹ä£Ÿ8šÓØ¹ç/
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(±‚ò¬ûÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(»›©¶şÿÿÿÿ

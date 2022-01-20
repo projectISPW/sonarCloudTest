@@ -57,6 +57,9 @@ public class HomepagePsicologistInterf1 {
             feedback.setStyle("-fx-border-color: red;");
         }
     }
+    public void backTo(){
+        controller.backTo();
+    }
     public void goToSettings(ActionEvent event ){
         controller.switchTo("settingsPsicologist/interf1.fxml",event,"Settings");
     }

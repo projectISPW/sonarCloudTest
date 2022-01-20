@@ -1,15 +1,16 @@
 
-Rprogettoispw.letmeknow.controller.SettingsController#setEmail(Ljava/lang/String;)Z¥
-šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("2"1*Þ
-2¥
-šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (#"°
-¥
-šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (4
-""*Þ
-1¥
-šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("°
-¥
-šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (*
-"":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.SettingsController
+Lprogettoispw.letmeknow.controller.search.Sliders#getHum()Ljava/lang/Integer;‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("1*”
+1‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (æ
+ã
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
+%0java.lang.Integer"__id*=*;2
+0progettoispw.letmeknow.controller.search.Sliders"
+hum" 
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
+
+%0java.lang.IntegerB42
+0progettoispw.letmeknow.controller.search.Sliders

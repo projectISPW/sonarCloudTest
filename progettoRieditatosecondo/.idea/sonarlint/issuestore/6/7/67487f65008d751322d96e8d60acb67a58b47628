@@ -1,0 +1,21 @@
+
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¤½ô´ÿÿÿÿÿ
+L
+java:S1117("6Rename "sql" which hides the field declared at line 8.(ò·Ú¾
+Q
+java:S11170"6Rename "sql" which hides the field declared at line 8.(Á˜¦Ðùÿÿÿÿ
+L
+java:S11178"6Rename "sql" which hides the field declared at line 8.(ªÏúã
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Â–‘ö
+Q
+java:S1117A"6Rename "sql" which hides the field declared at line 8.(É‹üëÿÿÿÿÿ
+l
+java:S3457A"Q%n should be used in place of \n to produce the platform-specific line separator.(É‹üëÿÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ñÎ¶“ûÿÿÿÿ
+L
+java:S1117K"6Rename "sql" which hides the field declared at line 8.(ß±èØ
+g
+java:S3457K"Q%n should be used in place of \n to produce the platform-specific line separator.(ß±èØ
+L
+java:S1117U"6Rename "sql" which hides the field declared at line 8.(½½ü—

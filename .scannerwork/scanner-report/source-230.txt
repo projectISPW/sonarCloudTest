@@ -1,13 +1,13 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.HomepageController;
+import progettoispw.letmeknow.controller.form.ResultForm;
 
-public class UseridBean {
-    HomepageController controller;
-    public UseridBean(){
-        controller=new HomepageController();
+public class GoToFormController {
+    ResultForm form;
+    public GoToFormController(){
+        form=new ResultForm(ControllerClass.getUserUSR().getUserid());
     }
-    public String getUserId(){
-        return controller.getUserID();
+    public int getFormid(){
+        return form.getFormid();
     }
 }

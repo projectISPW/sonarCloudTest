@@ -1,1 +1,1 @@
-∑ 2javaXhrêprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsicologistResultBean.java
+∑ 2javaXhrúprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsicologistResultController.java

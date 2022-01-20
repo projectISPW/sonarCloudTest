@@ -12,6 +12,11 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import progettoispw.letmeknow.controller.ConnectionDB;
+import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
+import progettoispw.letmeknow.controller.form.ResultForm;
+import progettoispw.letmeknow.controller.search.Search;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -37,8 +42,8 @@ public class MainApplication extends Application {
                 if(alert.showAndWait().get() == ButtonType.OK){
                     //Log Out Account and Exit Program
                     // ...
-                    ConnectionDB connection =new ConnectionDB();
-                    connection.closeConnection();
+                    ConnectionDBMS conn=new ConnectionDBMS();
+                    conn.closeCONN();
                     System.out.println("Prompt: On Log Out phase");
                     Platform.exit();
                     System.exit(0);

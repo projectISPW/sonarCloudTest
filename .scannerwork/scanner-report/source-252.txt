@@ -1,44 +1,46 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.SignupBean;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.VisitController;
 
-public class SignupPsicologistControllerInterf1 {
-    SignupBean bean;
-    Page controller=new Page();
-    @FXML
-    TextField email;
-    @FXML
-    PasswordField pswd,confirmpswd;
-    @FXML
-    Label emailCheck,pswdCheck;
-    public SignupPsicologistControllerInterf1() {
-        bean=new SignupBean();
-    }
-    public void initialize(){
-
-    }
-    private boolean check(Boolean bool,Label lab){
-        if(bool==false)lab.setOpacity(1);
-        return bool;
-    }
-    @FXML
-    protected void backToLogin() {
-        controller.backTo();
-    }
-    public void save (){
-        Boolean bool;
-        emailCheck.setOpacity(0);
-        pswdCheck.setOpacity(0);
-        bool=bean.checkEmail(email.getText(),true);
-        if(check(bool,emailCheck)==false)return;
-        bool=bean.checkPswd(pswd.getText(),confirmpswd.getText());
-        if(check(bool,pswdCheck)==false)return;
-        bool=bean.signupPSY(pswd.getText(),email.getText());
-        if(bool)backToLogin();
+public class VisitBean {
+    VisitController controller;
+    public String getUserId() {
+        controller=new VisitController();
+        return controller.getUserid();
     }
 
+    public String exitObiettivo() {
+        WordCheck checkStr = new WordCheck(3, 20);
+        String obiettivo = controller.tornaObiettivo();
+        return obiettivo=checkStr.check(obiettivo);
+    }
+    public Integer[] exitData(){
+            Integer [] data=controller.tornaData();
+            return data;
+    }
+
+    public Integer [] exitValue(){
+        Integer valori []={0,0,0};
+        //valori[0]=1;  valori[1]=1; valori[2]=1;
+        valori[0]=controller.tornaValoriEmpatia();
+        valori[1]=controller.tornaValoriUmorismo();
+        valori[2]=controller.tornaValoriPositivita();
+        for(int i =0;i<2;i++){
+            if(valori[i]>5 || valori[i]<1){
+            System.err.println("error occurred");
+            }
+        }
+        return valori;
+    }
+    public String exitTag(){
+            WordCheck checkStr=new WordCheck(3,20);
+            String tag=controller.tornaTag();
+            return tag;
+        }
+
+    public String exitDes(){
+        String output= controller.tornaDescrizione();
+        return output;
+    }
 }
