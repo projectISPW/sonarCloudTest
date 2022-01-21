@@ -1,22 +1,37 @@
+//var on same line
 package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Slider;
+
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.FormResultBean;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
+
 
 public class formResultInterf1 {
     @FXML
     Text idForm;
     @FXML
-    ImageView empathySlider,humorSlider,positivitySlider;
+    ImageView empathySlider;
+    @FXML
+    ImageView humorSlider;
+    @FXML
+    ImageView optimismSlider;
     ImageView [] param;
     @FXML
-    ImageView ans1,ans2,ans3,ans4,ans5,ans6;
+    ImageView ans1;
+    @FXML
+    ImageView ans2;
+    @FXML
+    ImageView ans3;
+    @FXML
+    ImageView ans4;
+    @FXML
+    ImageView ans5;
+    @FXML
+    ImageView ans6;
     ImageView [] images;
     @FXML
     Text by;
@@ -26,7 +41,7 @@ public class formResultInterf1 {
     public void initialize(){
         values=bean.exitValStatus();
         images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
-        param=new ImageView[]{empathySlider,humorSlider,positivitySlider};
+        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
         int indice=0;
         for(ImageView image:images ){
             setSlider(image,values[indice++]);
@@ -39,7 +54,7 @@ public class formResultInterf1 {
         by.setText(bean.getData());
     }
     public void  setSlider(ImageView image,int val){
-        //ho fatto il controllo sintattico nel bean
+        //syntax check in bean
         String url="photo/val";
         url=url+val+".png";
         System.out.println(url);
