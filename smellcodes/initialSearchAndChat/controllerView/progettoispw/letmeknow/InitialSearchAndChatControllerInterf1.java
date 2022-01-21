@@ -1,4 +1,3 @@
-//used to be variables on same line
 package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
@@ -16,28 +15,40 @@ public class InitialSearchAndChatControllerInterf1 {
     private String userid;
     @FXML
     Text lst1;
+    @FXML
     Text lst2;
+    @FXML
     Text lst3;
+    @FXML
     Text lst4;
     Text[] lst;
     String [] strLst=new String[4];
     @FXML
     Text uid1;
+    @FXML
     Text uid2;
+    @FXML
     Text uid3;
+    @FXML
     Text uid4;
     String [] strUid=new String[4];
     Text[] uid;
     @FXML
     Button home1;
+    @FXML
     Button home2;
+    @FXML
     Button home3;
+    @FXML
     Button home4;
     Button[] home;
     @FXML
     Button chat1;
+    @FXML
     Button chat2;
+    @FXML
     Button chat3;
+    @FXML
     Button chat4;
     Button[] chat;
     @FXML
@@ -74,16 +85,16 @@ public class InitialSearchAndChatControllerInterf1 {
         }
         strUid= bean.exitUid();
         strLst=bean.exitMsg();
-       for(int i=0;i<nval;i++){
-           if(strUid[i]==null || strLst[i]==null){
-               System.out.println(i);
-               chat[i].setOpacity(0);
-               home[i].setOpacity(0);
-           }
-           else{
-            uid[i].setText("Id :  #"+strUid[i]);
-            lst[i].setText(strLst[i]);
-        }}
+        for(int i=0;i<nval;i++){
+            if(strUid[i]==null || strLst[i]==null){
+                System.out.println(i);
+                chat[i].setOpacity(0);
+                home[i].setOpacity(0);
+            }
+            else{
+                uid[i].setText("Id :  #"+strUid[i]);
+                lst[i].setText(strLst[i]);
+            }}
     }
     @FXML
     protected void homeTouch1(ActionEvent event ){
@@ -112,8 +123,8 @@ public class InitialSearchAndChatControllerInterf1 {
                 return sub;
             }
             return string.substring(indice+2);
-            }
         }
+    }
 
     protected void visit(ActionEvent event,int i){
         String actual;
