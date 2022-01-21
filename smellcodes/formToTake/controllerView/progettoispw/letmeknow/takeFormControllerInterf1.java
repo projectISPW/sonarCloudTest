@@ -26,13 +26,28 @@ public class takeFormControllerInterf1 {
     protected Text idForm;
     @FXML
     protected Slider sl1;
+    @FXML
     protected Slider sl2;
+    @FXML
     protected Slider sl3;
+    @FXML
     protected Slider sl4;
+    @FXML
     protected Slider sl5;
+    @FXML
     protected Slider sl6;
     @FXML
-    protected Label lb1,lb2,lb3,lb4,lb5,lb6;
+    protected Label lb1;
+    @FXML
+    protected Label lb2;
+    @FXML
+    protected Label lb3;
+    @FXML
+    protected Label lb4;
+    @FXML
+    protected Label lb5;
+    @FXML
+    protected Label lb6;
     @FXML
     protected ProgressBar progressBar;
     protected PageMenu controller= new PageMenu();
