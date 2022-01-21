@@ -1,4 +1,4 @@
-//spelling check
+//spelling check + same line variables
 package progettoispw.letmeknow;
 
 import javafx.beans.value.ChangeListener;
@@ -12,7 +12,17 @@ public class FormPsychologistResultInterf1 {
     @FXML
     Text by;
     @FXML
-    Slider sl1,sl2,sl3,sl4,sl5,sl6;
+    Slider sl1;
+    @FXML
+    Slider sl2;
+    @FXML
+    Slider sl3;
+    @FXML
+    Slider sl4;
+    @FXML
+    Slider sl5;
+    @FXML
+    Slider sl6;
     Slider [] sliders;
     FormPsychologistResultBean bean;
     Page controller;
