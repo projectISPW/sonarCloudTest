@@ -6,7 +6,6 @@ public class FormToTakeStatusBean {
     int formid;
     FormToTakeStatusController controller;
     public FormToTakeStatusBean(int inputformid){
-        System.out.println("id form nel bean"+inputformid);
         formid=inputformid;
         controller=new FormToTakeStatusController(formid);
     }

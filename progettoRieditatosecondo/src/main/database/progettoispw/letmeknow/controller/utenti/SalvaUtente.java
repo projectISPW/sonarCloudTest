@@ -40,18 +40,16 @@ public class SalvaUtente implements SalvaUtenteMeta {
         UserDAO userDataInner=new UserDAO();
         String []data = userDataInner.recover(to);
         if(data[0]!=null && data[1]!=null){
-            System.out.println("user"+data[0]+"password"+data [1]);
             JavaMailUtil email=new JavaMailUtil();
-            String text="Your userid is .:     "+data[0]+"\nYour password is .:        "+data[1];
+            String text="Your userid is .:     "+data[0]+"Your password is .:        "+data[1];
             email.setText(text);
             return email.sendMail(to);
         }
         return false;
     }
     public boolean composeMail(String uid, String password, String mail) {
-        System.out.println("user"+uid+"password"+password);
         JavaMailUtil email=new JavaMailUtil();
-        String text="Your userid is .:     "+uid+"\nYour password is .:        "+password;
+        String text="Your userid is .:     "+uid+"Your password is .:        "+password;
         email.setText(text);
         return email.sendMail(mail);
     }
@@ -94,11 +92,9 @@ public class SalvaUtente implements SalvaUtenteMeta {
                 return "psy";
             }
             else {
-                System.err.println("password errata");
                 return null ;
             }
         }
-        System.err.println("unexist user");
         return null;
     }
     public String getType() {

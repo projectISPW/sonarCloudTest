@@ -1,1 +1,1 @@
-r 2xmlXhr&progettoRieditatosecondo/.idea/vcs.xml
+r 2javaX;hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java

@@ -21,7 +21,6 @@ public class UtenteUsr extends SalvaUtente {
     }
     public void  dataHomeUsr () {
         String [] inner= userDataUSR.selectUser(userid);
-        System.out.println(userid);
         if(inner[0]!=null && inner[1]!=null && inner[2]!=null){
             emp= Integer.parseInt(inner[0]);
             hum = Integer.parseInt(inner[1]);

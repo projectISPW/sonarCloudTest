@@ -13,10 +13,6 @@ public class PersonalGoalBean {
     public String exitGoal(){
         WordCheck checkStr=new WordCheck(3,20);
         String goal= controller.returnGoal();
-        //System.out.println("nel bean dell homepage:"+goal);
-        if(checkStr.checkString(goal)==false){
-            System.err.println("label could go out ");
-        }
         return goal=checkStr.check(goal);
     }public Integer[] exitData(){
         //possibile controllo con la data giornaliera

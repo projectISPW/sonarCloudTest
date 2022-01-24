@@ -1,41 +1,61 @@
 
-nprogettoispw.letmeknow.controller.utenti.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Z€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java2 2("5*”
-3€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java6 6("‹
+•progettoispw.letmeknow.controller.utenti.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java* *("1*Š
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ +(¥
+¢
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java6 6(
-""*ö
-4
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java4 4(‰À
-½
-
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java4 4(‰
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+! ,(W
+%0java.lang.String"__concat*@>
+<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*97
+5 VALUES ('%s',         '%s',      '%s',       '%s')\n”
+‘
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ -(D
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%0java.lang.String*
+
+uidjava.lang.String*
+
+passwordjava.lang.String*
+
+typejava.lang.String*
+
+emailjava.lang.String¿
+¼
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ -(E
 sqljava.lang.String"__id*
 
-%0java.lang.String¤¡
+%1java.lang.String¯
+¬
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java5 5(#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java. .(
+%2java.io.PrintStream"__id*
+""™–
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java. .(
+
+%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%2java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)¤¡
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java/ /(	
+%4int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*©
-5€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java4 4(›
-˜
-
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java4 4(ˆ
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ZX
-V INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);*
-
-fromjava.lang.String*
-
-whatjava.lang.String*
-4:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whatjava.lang.StringB20
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java0 0(
+"":
+stmtjava.sql.Statement:
+uidjava.lang.String:
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB20
 .progettoispw.letmeknow.controller.utenti.Query

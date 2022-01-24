@@ -1,12 +1,19 @@
-package progettoispw.letmeknow.bean;
-import progettoispw.letmeknow.controller.HomepageController;
+package progettoispw.letmeknow;
 
-public class PersonalDescriptionBean {
-    private HomepageController controller=new HomepageController();
-    public String exitValue(){
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
-        String output= controller.returnDescription();
-
-        return output;
+public interface Interf1ButtonBar {
+    PageMenu controller=new PageMenu();
+    @FXML
+    static void goToISC(ActionEvent event){
+        controller.switchToISC(event);
     }
+    @FXML
+    static void goToPesonalForm(ActionEvent event){
+        controller.switchToHome(event);
+    }
+    @FXML
+    static void goToHome(ActionEvent event){controller.switchToHome(event);}
+
 }

@@ -1,1 +1,1 @@
-ƒ 2javaXhrtprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/SliderBean.java
+ƒ 2javaXhrpprogettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java

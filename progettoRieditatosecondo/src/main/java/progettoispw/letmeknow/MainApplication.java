@@ -31,7 +31,7 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         Parent root;
         if(size==ScreenSize.LAPTOP){
-            //stage.setFullScreen(true);
+            stage.setFullScreen(true);
             root=FXMLLoader.load(getClass().getResource("login/interf2.fxml"));
         }
         else{
@@ -67,7 +67,7 @@ public class MainApplication extends Application {
         stage.show();
     }
     public static void main(String[] args) {
-        size=ScreenSize.LAPTOP;
+        size=ScreenSize.SMARTPHONE;
         launch();
     }
 }

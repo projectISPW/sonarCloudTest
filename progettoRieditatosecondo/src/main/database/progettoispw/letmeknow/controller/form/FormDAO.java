@@ -31,7 +31,6 @@ public class FormDAO implements  FormMeta{
             if(bool){
                 while (rst.next()) {
                     for(int i=0;i<6;i++){
-                        System.out.println(i);
                         array[i]=Integer.parseInt(rst.getString(i+START));
                     }
                 }

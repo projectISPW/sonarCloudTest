@@ -1,90 +1,131 @@
-package progettoispw.letmeknow.bean;
-import progettoispw.letmeknow.controller.EditProfileController;
+package progettoispw.letmeknow;
 
-import java.util.Calendar;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.Group;
+import javafx.scene.Node;
+import javafx.scene.control.Button;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.ISCBean;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-public class UpdatePersonalGoalBean {
-    private String userid;
-    private String newObb;
-    private String newTag;
-    private String newDueDate;
-    private Integer [] data;
-    private Calendar cal;
-    private PersonalGoalBean padre;
-    private EditProfileController controller;
-    public String getUserid() {
-        return userid;
+public class ResultSearchControllerInterf1 {
+    @FXML
+    protected Group group1;
+    @FXML
+    protected Group group2;
+    @FXML
+    protected Group group3;
+    @FXML
+    protected Group group4;
+    Group [] visitGroup;
+    String [] uids;
+    static final String UID_CONTENT ="Userid  : #";
+    static final String MSG_WORKON ="Working On :";
+    static final String DESCRIPTION ="About me :";
+    private PageMenu controller;
+    BeanResultSearch beanVisit;
+    ISCBean chatBean;
+    int nval;
+    public ResultSearchControllerInterf1(){
+        nval=4;
+        beanVisit=new BeanResultSearch(nval);
+        chatBean=new ISCBean();
+        controller=new PageMenu();
+        uids=new String[nval];
+    }
+    public void initialize(){
+        visitGroup=new Group[]{group1,group2,group3,group4};
+        outputVal();
     }
 
-    public UpdatePersonalGoalBean() {
-        controller=new EditProfileController();
-        userid= controller.getUserID();
-        data=new Integer[]{0,0,0};
-        cal=Calendar.getInstance();
-        padre=new PersonalGoalBean();
-        controller=new EditProfileController();
+    public String[] ouputVal_prev(Group [] input, int inputnval, String[] output){
+        visitGroup=input;
+        nval=inputnval;
+        beanVisit=new BeanResultSearch(nval);
+        uids=new String[nval];
+
+        return outputVal();
     }
-    public void check(String ValueObb,String ValueTag, String ValueData) {
-        if(!ValueObb.equals(""))newObb=ValueObb;
-        else {
-            newObb =padre.exitGoal();
+    @FXML
+    public String [] outputVal(){
+        for(int i=0;i<nval;i++){
+            System.out.println(i);
+            visitGroup[i].setOpacity(1);
         }
-        if(!ValueTag.equals("")){
-            if(ValueTag.toCharArray()[0]!='#'){
-                System.err.println("error occurred on the tag");
-                newTag=padre.exitTag();
-            }else{
-                newTag=ValueTag;
+        String [] [] users= beanVisit.exitDes();
+        String[] strDes= users[2];
+        String[] strGoal=users[1];
+        String[] strUid=users[0];
+        for(int i=0;i<nval;i++){
+            ObservableList<Node> externList= visitGroup[i].getChildren();
+            Group group =(Group)externList.get(2);
+            ObservableList<Node>inner=group.getChildren();
+            if(strUid[i]!=null){
+                for(Node elem:inner){
+                    Text text=(Text)elem;
+                    if(text.getText().contains(UID_CONTENT)){
+                        text.setText(UID_CONTENT +strUid[i]);
+                        uids[i]=strUid[i];
+                    }
+                    else if(text.getText().contains(MSG_WORKON)){
+                        text.setText(MSG_WORKON+strGoal[i]);
+                        System.err.println("obiettivo in ingresso" + strGoal[i]);
+                    }
+                    else if(text.getText().contains(DESCRIPTION))text.setText(DESCRIPTION+strDes[i]);
+                }
             }
-        }else{
-            newTag=padre.exitTag();
-        }
-        if(!ValueData.equals("") && ValueData.contains("-")){
-            newDueDate =ValueData;
-            //data=dateParser.parse(ValueData);
-            int end= newDueDate.indexOf("-");
-            data[0]=(Integer.parseInt(newDueDate.substring(0,end)));
-            int beg=end;
-            end= newDueDate.indexOf("-",end+1);
-            data[1]=(Integer.parseInt(newDueDate.substring(beg+1,end)));
-            beg=end;
-            end= newDueDate.length();
-            data[2]=(Integer.parseInt(newDueDate.substring(beg+1,end)));
-            //System.out.println("prima inizializzazione data "+giorno+"-"+mese+"-"+anno);
-            data=checkData(data);
-
-        }
-        else{
-            data=padre.exitData();
-        }
+            else {
+                visitGroup[i].setOpacity(0);
+            }}
+        return uids;
     }
-
-    public Integer[] checkData(Integer [] date){
-        if(cal.get(Calendar.YEAR)== date[2]  || data[2]==(cal.get(Calendar.YEAR)+1)){
-            if(data[1]>((cal.get(Calendar.MONTH)+6)%12)) {
-                System.err.println("monthly error");
-                return createData();
+    @FXML
+    public void touchChat(ActionEvent event){
+        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1();
+        iscController.setUIDS(uids);
+        iscController.touchChat(event);
+    }
+    public void setUids(String [] input){
+        uids=input;
+    }
+    @FXML
+    public void visit(ActionEvent event) {
+        Button button = (Button) event.getTarget();
+        if (button.getOpacity() < 1) return;
+        System.out.println(button.getId());
+        switch (button.getId()) {
+            case "home1":
+                System.err.println("andato su home 1");
+                beanVisit.touched(uids[0]);
+                break;
+            case "home2":
+                beanVisit.touched(uids[1]);
+                break;
+            case "home3":
+                beanVisit.touched(uids[2]);
+                break;
+            case "home4":
+                beanVisit.touched(uids[3]);
+                break;
+            default: {
+                event.consume();
             }
-            return date;
         }
-        else{
-            System.err.println("yearly error");
-            return createData();
-        }
-
-
+        controller.switchTo("homepageOthers/interf1.fxml",event,"visit");
     }
-    public Integer[] createData(){
-        if(cal.get(Calendar.MONTH)<6){
-            return (new Integer[] {cal.get(Calendar.DAY_OF_MONTH),cal.get(Calendar.MONTH)+6,cal.get(Calendar.YEAR)});
-        }
-        else{
-            return (new Integer[] {cal.get(Calendar.DAY_OF_MONTH),(cal.get(Calendar.MONTH)+6)%12,cal.get(Calendar.YEAR)+1});
-        }
+    @FXML
+    protected void goBack()  {
+        controller.backTo();
     }
-    public void entryValue(String ValueObb,String ValueTag, String ValueData) {
-        check(ValueObb,ValueTag,ValueData);
-        controller.setGoal(newObb,newTag,data);
+    @FXML
+    protected void goToHome(ActionEvent event) {
+        controller.switchToHome(event);
+    }
+    @FXML
+    protected void goToPersonalForm(ActionEvent event){
+        controller.switchToPersonalForm(event);
     }
 
 }

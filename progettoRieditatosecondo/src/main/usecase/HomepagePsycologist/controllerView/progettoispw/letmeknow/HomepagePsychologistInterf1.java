@@ -19,9 +19,9 @@ public class HomepagePsychologistInterf1 {
         bean=new HomepagePsychologistBean();
     }
     public void initialize(){
-        count1.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
-        count2.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
-        count3.setText("completed by  :\n"+(int)bean.getForms()[0]+"users");
+        count1.setText("completed by  :"+(int)bean.getForms()[0]+"users");
+        count2.setText("completed by  :"+(int)bean.getForms()[0]+"users");
+        count3.setText("completed by  :"+(int)bean.getForms()[0]+"users");
         month.setText(bean.getMonth());
     }
     public void increm() {

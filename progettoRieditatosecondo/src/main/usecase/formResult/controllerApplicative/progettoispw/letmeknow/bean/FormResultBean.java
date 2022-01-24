@@ -6,7 +6,6 @@ public class FormResultBean {
     int formid;
     FormResultController controller;
     public FormResultBean(int inputformid){
-        System.out.println("id form in bean"+inputformid);
         formid=inputformid;
         controller=new FormResultController(formid);
     }

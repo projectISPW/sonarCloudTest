@@ -68,7 +68,6 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
     }
     public void initialize(){
         if(startStatus.getComplete()==6){
-            System.out.println("i am here");
             goBack();
         }
         response=startStatus.exitValStatus();
@@ -103,7 +102,6 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
     protected void save(ActionEvent event) {
         for (int i=0;i<6;i++) {
             if (values[i] == false) {
-                //System.out.printf("*the value of the element sl[%d] is %d \n", index, (int) slider.getValue());
                 locked[i]=true;
                 response[i]=(int)sl[i].getValue();
             }

@@ -1,17 +1,17 @@
 
-•progettoispw.letmeknow.controller.utenti.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java* *("1*Š
+»progettoispw.letmeknow.controller.utenti.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java" "("1*í
 1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ +(¥
-¢
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+! ,(W
-%0java.lang.String"__concat*@>
-<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*97
-5 VALUES ('%s',         '%s',      '%s',       '%s')\n”
-‘
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ -(D
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java# #(¯
+¬
+
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java#! $(¸
+%0java.lang.String"__concat*~|
+zINSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)*ƒ€
+~ VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )\nì
+é
+
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java# %(‚
 %1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
 java.lang.String*
 
@@ -23,20 +23,27 @@ vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 
 typejava.lang.String*
 
-emailjava.lang.String¿
-¼
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java+ -(E
+emailjava.lang.String*
+""*
+""*
+""*!
+
+descriptionjava.lang.String*
+
+goaljava.lang.StringÀ
+½
+
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java# %(ƒ
 sqljava.lang.String"__id*
 
 %1java.lang.String¯
 ¬
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java. .(
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java& &(
 %2java.io.PrintStream"__id*
 ""™–
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java. .(
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java& &(
 
 %3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
@@ -44,18 +51,21 @@ vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 
 sqljava.lang.String2println(Ljava/lang/String;)¤¡
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java/ /(	
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java' '(	
 %4int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
 stmtjava.sql.Statement*
 
 sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"‹
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java0 0(
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java( ((
 "":
 stmtjava.sql.Statement:
 uidjava.lang.String:
 passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.StringB20
+typejava.lang.String:
+"":
+descriptionjava.lang.String:
+emailjava.lang.String:
+goaljava.lang.StringB20
 .progettoispw.letmeknow.controller.utenti.Query

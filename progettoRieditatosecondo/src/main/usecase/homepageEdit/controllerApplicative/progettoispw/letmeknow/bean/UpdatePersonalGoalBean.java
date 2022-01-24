@@ -31,7 +31,6 @@ public class UpdatePersonalGoalBean {
         }
         if(!ValueTag.equals("")){
             if(ValueTag.toCharArray()[0]!='#'){
-                System.err.println("error occurred on the tag");
                 newTag=padre.exitTag();
             }else{
                 newTag=ValueTag;
@@ -50,7 +49,6 @@ public class UpdatePersonalGoalBean {
             beg=end;
             end= newDueDate.length();
             data[2]=(Integer.parseInt(newDueDate.substring(beg+1,end)));
-            //System.out.println("prima inizializzazione data "+giorno+"-"+mese+"-"+anno);
             data=checkData(data);
 
         }
@@ -62,13 +60,11 @@ public class UpdatePersonalGoalBean {
     public Integer[] checkData(Integer [] date){
         if(cal.get(Calendar.YEAR)== date[2]  || data[2]==(cal.get(Calendar.YEAR)+1)){
             if(data[1]>((cal.get(Calendar.MONTH)+6)%12)) {
-                System.err.println("monthly error");
                 return createData();
             }
             return date;
         }
         else{
-            System.err.println("yearly error");
             return createData();
         }
 

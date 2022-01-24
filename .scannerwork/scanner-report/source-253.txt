@@ -1,21 +1,13 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
+import progettoispw.letmeknow.controller.HomepageController;
 
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.Slider;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-public class TakeForm1ControllerInterf1 extends TakeFormControllerInterf1 {
-
-    public TakeForm1ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(1);
+public class UseridBean {
+    HomepageController controller;
+    public UseridBean(){
+        controller=new HomepageController();
+    }
+    public String getUserId(){
+        return controller.getUserID();
     }
 }

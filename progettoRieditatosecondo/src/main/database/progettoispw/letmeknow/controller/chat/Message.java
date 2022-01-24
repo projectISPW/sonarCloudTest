@@ -36,6 +36,6 @@ public class Message {
         return date;
     }
     public void getStatus(){
-        System.out.printf("this message was sended at .: %s from .: %s to .: %s  this was the text .: %s \n\n",date.toString(),sender,reciver,text);
+        System.out.printf("this message was sended at .: %s from .: %s to .: %s  this was the text .: %s ",date.toString(),sender,reciver,text);
     }
 }

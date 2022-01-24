@@ -6,15 +6,13 @@ import java.sql.Statement;
 
 public class Query {
     protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT *\n FROM utenti \n where userid = '%s' ;\n",iduser);
-        //System.out.println(sql);
+        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
         return stmt.executeQuery(sql);
     }
 
     protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
         try {
-            String sql=String.format(" UPDATE  `utenti`\n set `%s`='%s'\n WHERE (`userid` = '%s') ;\n",what,edit,iduser);
-            //System.out.println(sql);
+            String sql=String.format(" UPDATE  `utenti` set `%s`='%s' WHERE (`userid` = '%s') ;",what,edit,iduser);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException e) {
@@ -26,7 +24,6 @@ public class Query {
     protected Boolean setParams(Statement stmt,String uid,int [] param){
         try {
             String sql=String.format("UPDATE `utenti` SET `empathy` = '%d', `humor` = '%d', `positivity` = '%d' WHERE (`userid` = '%s'); ",param[0],param[1],param[2],uid);
-            System.out.println(sql);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException e) {

@@ -99,11 +99,9 @@ public class UserDAO implements SalvaUtenteMeta, FormMeta {
                     edited = true;
                     about = rst.getString(ABOUT).toCharArray();
                     for (int i = 0; i < about.length; i++) {
-                        System.out.println("valori in entrata valore .:" + rst.getString(3 + i));//colonna inizio risposte form
                         switch (about[i]) {
                             case '1': {
                                 empMed += Integer.parseInt(rst.getString(3 + i));
-                                System.err.println("param i entrata" + empMed);
                                 break;
                             }
                             case '2': {

@@ -1,49 +1,11 @@
 
-xprogettoispw.letmeknow.controller.chat.Query#selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ('"5*¢
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*"œ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*
-
-%1java.sql.ResultSet*‹
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(x¼
-¹
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(x
-sqljava.lang.String"__id*
-
-%0java.lang.StringÁ¾
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*‘
-5~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(†
-ƒ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(w
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*EC
-A SELECT * \n FROM messages where reciver = '%s' or sender = '%s' *
-
-iduserjava.lang.String*
-
-iduserjava.lang.String*
-4:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB0.
-,progettoispw.letmeknow.controller.chat.Query
+Oprogettoispw.letmeknow.controller.VisitController#getUserid()Ljava/lang/String;Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java
+ 
+("1*Ò
+1Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java ("ª
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java ( 
+""B53
+1progettoispw.letmeknow.controller.VisitController

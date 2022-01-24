@@ -37,7 +37,6 @@ public class SearchControllerInterf1 {
     protected Slider [] sl ;
     protected Label[] labels;
     protected void incremProgress(int index){
-        //System.out.println(progress);
         if(clicked[index]==false){
             progress=progress+0.17;
             clicked[index]=true;

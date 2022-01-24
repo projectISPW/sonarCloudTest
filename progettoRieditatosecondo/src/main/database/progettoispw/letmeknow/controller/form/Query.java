@@ -8,7 +8,7 @@ public class Query {
     private String sql;
     public ResultSet queryResults(Statement stmt, String userid ,int formid) {
         try {
-            sql = String.format(" SELECT * \n FROM forms where userid = '%s' and formid='%d'", userid, formid);
+            sql = String.format(" SELECT *  FROM forms where userid = '%s' and formid='%d'", userid, formid);
             return stmt.executeQuery(sql);
         } catch (SQLException e) {
             return null;
@@ -54,7 +54,6 @@ public class Query {
     public ResultSet takeDate(Statement stmt,String userid,int formid){
         try {
             String sql=String.format("SELECT `by` FROM forms where userid='%s'AND formid=%d;",userid,formid);
-            System.out.println(sql);
             return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
             return null;
@@ -62,7 +61,7 @@ public class Query {
     }
     public Boolean setCalculated(Statement stmt,String userid,int formid){
         try {
-            String sql=String.format(" UPDATE  forms \n set `calculated`=1 \n WHERE (`formid` = %d) and (`userid` = '%s');\n", formid,userid);
+            String sql=String.format(" UPDATE  forms  set `calculated`=1  WHERE (`formid` = %d) and (`userid` = '%s');", formid,userid);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException throwables) {
@@ -71,8 +70,7 @@ public class Query {
     }
     public Boolean close(Statement stmt,String userid,int formid,int[] param){
         try {
-            for(int i=0;i<param.length;i++)System.out.println(param[i]);
-            String sql=String.format(" UPDATE  forms \n set `emp` = %d, `hum` = %d, `pos` = %d,`by`=CURRENT_TIMESTAMP \n WHERE (`formid` = %d) and (`userid` = '%s');\n",
+            String sql=String.format(" UPDATE  forms  set `emp` = %d, `hum` = %d, `pos` = %d,`by`=CURRENT_TIMESTAMP  WHERE (`formid` = %d) and (`userid` = '%s');",
                     param[0],param[1],param[2],formid,userid);
             stmt.executeUpdate(sql);
             return true;

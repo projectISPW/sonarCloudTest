@@ -10,7 +10,6 @@ public class Goal {
         data=arr;
     }
     public void setStrData(String input){
-        System.out.println(input);
         int end=input.indexOf("-");
         data[2]=(Integer.parseInt(input.substring(0,end)));
         int beg=end;
@@ -36,6 +35,6 @@ public class Goal {
         return tag;
     }
     public void getStatus(){
-        System.out.println("il tuo obiettivo personale:"+obiettivo+"\ni tuoi tag:"+tag+"\nla tua scadenza:"+data[0]+"/"+data[1]+"/"+data[2]);
+        System.out.println("il tuo obiettivo personale:"+obiettivo+"i tuoi tag:"+tag+"la tua scadenza:"+data[0]+"/"+data[1]+"/"+data[2]);
     }
 }

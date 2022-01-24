@@ -8,7 +8,6 @@ public class JavaMailUtil {
     private String text;
     public Boolean sendMail(String recipient){
         try {
-        System.out.println("Sending message");
         Properties properties=new Properties();
         //configurazione server
         properties.put("mail.smtp.host","smtp.gmail.com");

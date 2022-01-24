@@ -1,0 +1,10 @@
+
+[
+java:S3252-"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Ê›Ö≥
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(˚®—∆¯ˇˇˇˇ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(–¯≥Ò
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ìÖú›¸ˇˇˇˇ
+Ç
+java:S1130W"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˚È¯â
+á
+java:S1130\"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(á∞Ç√˛ˇˇˇˇ

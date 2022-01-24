@@ -1,50 +1,20 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
-import progettoispw.letmeknow.controller.utentipsy.Form;
-import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
+import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
-import java.util.ArrayList;
-
-public class HomepagePsychologistController implements FormMeta {
-    private UtentePsy user;
-    private ArrayList<Form> list;
-    private float [][] innerList;
-    private int index;
-    public HomepagePsychologistController(){
-        user= ControllerClass.getUserPsy();
-        innerList=null;
+public class SignupController {
+    private SalvaUtente user;
+    public SignupController(){
+        user=new SalvaUtente();
     }
-    public float[] getList(){
-        if(index<FORMSID.length){
-            return innerList[index++];
-        }else {
-            index=0;
-            return null;
-        }
+    public boolean checkMail(String input){
+        System.out.println("mail check in controller"+user.checkEmail(input));
+        return !user.checkEmail(input);
     }
-    public void getLists(int month , int year){
-        index=0;
-        user.collectForms(month,year);
-        list=(ArrayList<Form>) user.getSum();
-        int [] answers;
-        int formid,counter;
-        innerList= new float[FORMSID.length][7];
-        for(Form elem:list){
-            formid=elem.getFormid();
-            counter=user.getCounter(formid);
-            innerList[formid-1][0]=counter;
-            answers= elem.getAnswers();
-            for(int i=1;i<7;i++){
-                innerList[formid-1][i]=(float)answers[i-1]/counter;
-                System.out.println(innerList[formid-1][i]);
-            }
-        }
+    public boolean signup(String password,String type,String email,int [] val,String description,String goal){
+        return user.registrationUSR(password,email,type,val,description,goal);
     }
-    public void setSelected(int selectedInp){
-        user.setSelected(innerList[selectedInp-1]);
-    }
-    public boolean setFeed(String input){
-        return user.suggestQuestion(input);
+    public boolean signup(String password,String type,String email){
+        return user.registrationPSY(password,email,type);
     }
 }

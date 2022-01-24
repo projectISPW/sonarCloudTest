@@ -1,1 +1,1 @@
-ç 2javaX[hrÑprogettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/UpdatePersonalGoalBean.java
+ç 2javaXÑhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java

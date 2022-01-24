@@ -1,6 +1,7 @@
-p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 %[
-javaS1066/Merge this if statement with the enclosing one. 2 :
-Œ 
-k
-javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2" '
+T
+javaS18549Remove this useless assignment to local variable "count". 200 S
+javaS1069Replace this use of System.out or System.err by a logger. 2// S
+javaS1069Replace this use of System.out or System.err by a logger. 255 I
+javaS1121.Extract the assignment out of this expression. 200 „
+javaS1319iThe type of "formatted" should be an interface such as "List" rather than the implementation "ArrayList". 2' 0‹
+javaS1319pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList". 2 

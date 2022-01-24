@@ -1,12 +1,13 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.controller;
 
+import progettoispw.letmeknow.controller.form.ResultForm;
 
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-
-public class TakeForm2ControllerInterf1 extends TakeFormControllerInterf1 {
-    public TakeForm2ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(2);
+public class GoToFormController {
+    ResultForm form;
+    public GoToFormController(){
+        form=new ResultForm(ControllerClass.getUserUSR().getUserid());
     }
-
+    public int getFormid(){
+        return form.getFormid();
+    }
 }

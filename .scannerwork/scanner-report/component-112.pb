@@ -1,1 +1,1 @@
-p 2xmlXhr,progettoRieditatosecondo/.idea/sonarlint.xml
+p 2javaX,hriprogettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java

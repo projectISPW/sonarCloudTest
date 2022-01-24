@@ -1,2 +1,2 @@
 
- 2xmlXhr,progettoRieditatosecondo/.idea/encodings.xml
+ 2xmlXhr+progettoRieditatosecondo/.idea/compiler.xml

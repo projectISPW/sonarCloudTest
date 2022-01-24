@@ -87,7 +87,6 @@ public class SettingsControllerInterf1 implements Initializable {
     protected void setFeed(){
         feedback.setStyle("-fx-border-color: white");
         bool=bean.setFeed(feedback.getText());
-        System.out.println("go back from feed.:"+bool);
         if(!bool){
             feedback.setStyle("-fx-border-color: red");
         }else{

@@ -1,1 +1,1 @@
-q 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml
+q 2javaXShrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java

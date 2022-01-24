@@ -51,7 +51,6 @@ public class ResultSearchControllerInterf1 {
     @FXML
     public String [] outputVal(){
         for(int i=0;i<nval;i++){
-            System.out.println(i);
             visitGroup[i].setOpacity(1);
         }
         String [] [] users= beanVisit.exitDes();
@@ -71,7 +70,6 @@ public class ResultSearchControllerInterf1 {
                     }
                     else if(text.getText().contains(MSG_WORKON)){
                         text.setText(MSG_WORKON+strGoal[i]);
-                        System.err.println("obiettivo in ingresso" + strGoal[i]);
                     }
                     else if(text.getText().contains(DESCRIPTION))text.setText(DESCRIPTION+strDes[i]);
                 }
@@ -94,10 +92,8 @@ public class ResultSearchControllerInterf1 {
     public void visit(ActionEvent event) {
         Button button = (Button) event.getTarget();
         if (button.getOpacity() < 1) return;
-        System.out.println(button.getId());
         switch (button.getId()) {
             case "home1":
-                System.err.println("andato su home 1");
                 beanVisit.touched(uids[0]);
                 break;
             case "home2":

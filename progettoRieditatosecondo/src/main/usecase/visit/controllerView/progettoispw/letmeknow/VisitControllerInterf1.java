@@ -47,7 +47,6 @@ public class VisitControllerInterf1{
         homepage.setSlider(humorSlider,listaValori[1]);
         homepage.setSlider(positivitySlider,listaValori[2]);
         String text=bean.exitDes();
-        //System.out.println(text);
         personalDescription.setText(text);
         goal.setText(bean.exitGoal());
         tag.setText(bean.exitTag());

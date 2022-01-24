@@ -11,10 +11,8 @@ public class Query {
                         "FROM utenti WHERE type='usr' and " +
                         "empathy>=%d and humor>=%d and positivity >=%d and userid != '%s' ",
                         emp,hum,pos,iduser);
-            System.out.println(sql);
             return stmt.executeQuery(sql);
         }catch (SQLException throwables) {
-            System.err.println("errore durante la ricerca parametrica ");
             throwables.printStackTrace();
             return null;
         }
@@ -22,7 +20,6 @@ public class Query {
     public boolean newLine(Statement stmt,String userid){
         try{
             String sql=String.format("INSERT INTO `recently_visited` SET userid ='%s' ",userid);
-            System.out.println(sql);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException throwables) {
@@ -32,7 +29,6 @@ public class Query {
     public ResultSet getnVisit(Statement stmt,String userid){
         try{
         String sql=String.format("SELECT `num_visit` FROM `recently_visited` WHERE `userid`=%s",userid);
-        System.err.println(sql);
         return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
         return null;
@@ -41,7 +37,6 @@ public class Query {
     public boolean incremVisit(Statement stmt,String userid){
         try{
             String sql=String.format("UPDATE `recently_visited` SET num_visit = num_visit+1 WHERE (`userid`='%s')",userid);
-            System.out.println(sql);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException throwables) {
@@ -69,7 +64,6 @@ public class Query {
     public ResultSet getnRows(Statement stmt) {
         try{
             String sql=String.format("SELECT COUNT(*) FROM recently_visited");
-            System.err.println(sql);
             return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
             return null;

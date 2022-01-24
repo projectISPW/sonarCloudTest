@@ -1,0 +1,16 @@
+
+E
+java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
+E
+java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¥ÃÂ²
+k
+java:S1128"URemove this unused import 'progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta'.(¾ª”
+D
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
+H
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ìÿ«½øÿÿÿÿ
+‹
+java:S13195"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÅÂÅùÿÿÿÿ

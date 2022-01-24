@@ -27,7 +27,6 @@ public class Page {
             stage.setFullScreen(true);
         }
         else if(stage.getWidth()<500 && name.indexOf("interf2")>-1){
-            System.out.println(stage.getWidth()+"i am decresed");
             index= name.indexOf("interf2");
             name=name.substring(0,index);
             name+="interf1.fxml";

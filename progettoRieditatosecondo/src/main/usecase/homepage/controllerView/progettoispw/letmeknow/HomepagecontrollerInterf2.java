@@ -64,7 +64,6 @@ public class HomepagecontrollerInterf2 extends HomepagecontrollerInterf1 {
     public void touchChat(ActionEvent event){
         Button button=(Button) event.getTarget();
         if(button.getOpacity()<1)return ;
-        for(String ud:uids)System.err.println("utente cliccato "+ud);
         switch(button.getId()){
             case "chat1" :iscBean.touched(uids[0]);break;
             case "chat2" :iscBean.touched(uids[1]);break;
@@ -81,7 +80,6 @@ public class HomepagecontrollerInterf2 extends HomepagecontrollerInterf1 {
     @FXML
     public void visit(ActionEvent event){
         Button button=(Button) event.getTarget();
-        for(String ud:uids)System.err.println("utente cliccato "+ud);
         if(button.getOpacity()<1)return ;
         switch(button.getId()){
             case "home1" :{

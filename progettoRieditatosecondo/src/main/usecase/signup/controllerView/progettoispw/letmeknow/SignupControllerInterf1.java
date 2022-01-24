@@ -88,7 +88,6 @@ public class SignupControllerInterf1 {
         if(check(bool,pswdCheck)==false)return;
 
         bool=bean.checkDescription(description.getText());
-        System.out.println(bool);
         if(check(bool,desCheck)==false)return;
 
         arr= new String[]{lab1.getText(), lab2.getText(), lab3.getText()};

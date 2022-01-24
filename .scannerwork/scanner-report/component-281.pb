@@ -1,1 +1,1 @@
-ô 2javaX.hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java
+ô 2javaX;hräprogettoRieditatosecondo/src/main/usecase/signupPsycologist/controllerView/progettoispw/letmeknow/SignupPsychologistControllerInterf1.java

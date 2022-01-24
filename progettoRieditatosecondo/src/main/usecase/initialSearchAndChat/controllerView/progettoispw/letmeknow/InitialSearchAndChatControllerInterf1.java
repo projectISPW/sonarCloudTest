@@ -56,7 +56,6 @@ public class InitialSearchAndChatControllerInterf1 {
         outputValChat();
         searchBar.textProperty().addListener((observableValue, s, t1) -> {
             if(searchBar.getText().equals("")){
-                System.out.println("on reset");
                 bean.reset();
             }
         });
@@ -95,7 +94,6 @@ public class InitialSearchAndChatControllerInterf1 {
     private String getUid(String string){
         int indice=-1;
         String sub;
-        for(int i=0;i<3;i++)System.err.println("utente in chat , dopo uso .:"+uids[i]);
         if(string==null ||string.length()<8 )return string ;
         else{
             indice=string.indexOf("||");
@@ -119,11 +117,9 @@ public class InitialSearchAndChatControllerInterf1 {
         Button button=(Button) event.getTarget();
         if(button.getOpacity()<1)return ;
         uids=getUids(uids);
-        System.out.println("utente cliccato " +button.getId());
         switch(button.getId()){
             case "chat1" :{
                 bean.touched(uids[0]);
-                System.out.println("toccata chat 1");
                 break;
             }
             case "chat2" :bean.touched(uids[1]);break;

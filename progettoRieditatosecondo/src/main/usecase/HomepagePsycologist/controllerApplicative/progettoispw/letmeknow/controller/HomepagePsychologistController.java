@@ -37,7 +37,6 @@ public class HomepagePsychologistController implements  FormMeta {
             answers= elem.getAnswers();
             for(int i=1;i<7;i++){
                 innerList[formid-1][i]=(float)answers[i-1]/counter;
-                System.out.println(innerList[formid-1][i]);
             }
         }
     }

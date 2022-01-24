@@ -1,1 +1,1 @@
-‚ 2javaX(hrzprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java
+‚ 2javaXhrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/Interf2ButtonBar.java

@@ -22,9 +22,7 @@ public class ResultForm {
         userid=useridinp;
         formid=formidinp;
         answers= formData.queryResult(userid,formid);
-        System.out.println("utente.:"+useridinp+"form.:"+formidinp);
         for(int i:answers){
-            System.out.println("valore nell array" + i);
             if (i>=1){
                 ++complete;
             }
@@ -38,9 +36,7 @@ public class ResultForm {
         userid=useridinp;
         formid=formData.takeAForm(userid);
         answers= formData.queryResult(userid,formid);
-        System.out.println("utente.:"+useridinp+"form.:"+formid);
         for(int i:answers){
-            System.out.println("valore nell array" + i);
             if (i>=1){
                 ++complete;
             }
@@ -62,11 +58,9 @@ public class ResultForm {
             date= formData.queryData(userid,formid);
         }
         param= formData.queryParamForm(userid,formid);
-        System.out.println("DATA DEL FORM RESULT"+date);
     }
     public void setRisposte(int[] input){
         complete=0;
-        for(int i=0;i<input.length;i++)System.out.println(input[i]);
         for(int i:input)if(i!=-1)++complete;
         formData.setAnswer(userid,formid,input,complete);
         if(complete==6)queryComplete();

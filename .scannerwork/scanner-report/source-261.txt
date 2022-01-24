@@ -1,88 +1,99 @@
 package progettoispw.letmeknow;
+
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.SliderBean;
-import progettoispw.letmeknow.bean.*;
+import javafx.scene.control.*;
+import progettoispw.letmeknow.bean.LoginBean;
+
 
 import java.io.IOException;
-/*
--cambiare foto clessidra se obiettivo scaduto
--possibilita di mettere slider che bloccano il proprio valore invece che lasciare l'image view
- */
 
-public class HomepagecontrollerInterf1 {
-    protected String userid;
-    protected PageMenu controller= new PageMenu();
+public class LoginControllerInterf1 {
+    private Page controller= new Page();
     @FXML
-    protected ImageView empathySlider;
+    private PasswordField labPassword;
     @FXML
-    protected ImageView humorSlider;
+    private Label show;
     @FXML
-    protected ImageView positivitySlider;
+    private TextField labUser;
     @FXML
-    protected Label personalDescription;
-    @FXML
-    protected Label tag;
-    @FXML
-    protected Label goal;
-    @FXML
-    protected Label date;
-    @FXML
-    protected Text userName;
-    protected UseridBean id;
-    public HomepagecontrollerInterf1(){
-        id=new UseridBean();
-        userid= id.getUserId();
+    private ScrollPane scroll;
+    private String userID;
+    private boolean clicked;
+    public LoginControllerInterf1(){
+        clicked=false;
     }
-    public void initialize(){
-        userName.setText("User : "+userid);
-        SliderBean sliderVal=new SliderBean();
-        Integer [] listaValori=sliderVal.exitValue();
-
-        setSlider(empathySlider,listaValori[0]);
-        setSlider(humorSlider,listaValori[1]);
-        setSlider(positivitySlider,listaValori[2]);
-
-        PersonalDescriptionBean descrizione=new PersonalDescriptionBean();
-        String text=descrizione.exitValue();
-        personalDescription.setText(text);
-        PersonalGoalBean obb=new PersonalGoalBean();
-        goal.setText(obb.exitGoal());
-        tag.setText(obb.exitTag());
-        listaValori=obb.exitData();
-        //date.setText(data.toString());
-        date.setText(" "+listaValori[0]+"-"+listaValori[1]+"-"+listaValori[2]);
+    @FXML
+    protected void switchToSignup(ActionEvent event) {
+        controller.switchTo("signup/interf1.fxml",event,"Signup");
     }
-
-    public void  setSlider(ImageView image,int val){
-        //ho fatto il controllo sintattico nel bean
-        String url="photo/val";
-        url=url+val+".png";
-        System.out.println(url);
-        Image immagine=new Image(getClass().getResourceAsStream(url));
-        image.setImage(immagine);
+    @FXML
+    protected void switchToRecoverPswd(ActionEvent event) {
+        controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
+    }
+    @FXML
+    protected void switchToSignUpPsych(ActionEvent event) {
+        controller.switchTo("signupPsicologist/interf1.fxml",event,"Signup");
+    }
+    @FXML
+    protected void showPSWD(){
+        if(clicked==false){
+            scroll.setOpacity(0.8);
+            show.setOpacity(0.8);
+            show.setText(labPassword.getText());
+            clicked=true;
+        }
+        else{
+            show.setOpacity(0);
+            scroll.setOpacity(0);
+            clicked=false;
+        }
+    }
+    private void color(boolean bool){
+        if(bool==false){
+            labUser.setStyle("-fx-border-color: red");
+            labPassword.setStyle("-fx-border-color: red");
+        }
+        else{
+            labUser.setStyle("-fx-background-color: #F2F2F2");
+            labPassword.setStyle("-fx-background-color: #F2F2F2");
+        }
     }
 
     @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
-        controller.switchToChat(event);
-    }
+    protected void switchToHome(ActionEvent event) throws IOException {
+        if(labUser.getText().equals("") || labPassword.getText().equals(""))
+        {
+            color(false);
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Empty Fields!");
+            alert.setHeaderText("Empty Email / Password Field");
+            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
+            if(alert.showAndWait().get()==ButtonType.OK) {
+                System.out.println("Prompt: Empty Fields Alert");
+                event.consume();
+            }
+        }else {
+            LoginBean bean=new LoginBean(labUser.getText(),labPassword.getText());
+            String log = bean.exitValue();
+            if(log==null){
+                color(false);
+                return ;
+            }
+            switch(log){
+                case "usr":{
+                    controller.switchTo("homepage/interf1.fxml",event,"Home");
+                    return;
+                }
+                case "psy":{
+                    controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
+                    System.out.println("fatto accesso da psicologo");
+                }
+                default:{
+                    color(false);
+                }
 
-    @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
-        controller.switchToPersonalForm(event);
-    }
-
-    @FXML
-    protected void editProfile(ActionEvent event) throws IOException {
-        controller.switchTo("homepageEdit/interf1.fxml",event,"Edit Profile");
-    }
-    @FXML
-    protected void goToSettings(ActionEvent event) throws IOException {
-        controller.switchToSettings(event);
-    }
-}
+            }
+        }
+    }}

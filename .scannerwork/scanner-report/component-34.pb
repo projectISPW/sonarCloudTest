@@ -1,2 +1,1 @@
-" 2xmlX
-hr4progettoRieditatosecondo/.idea/runConfigurations.xml
+" 2xmlX	hrIprogettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_251.xml

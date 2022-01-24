@@ -1,17 +1,18 @@
 
-Qprogettoispw.letmeknow.bean.PersonalDescriptionBean#exitValue()Ljava/lang/String;§
-ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalDescriptionBean.java ("1*…
-1§
-ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalDescriptionBean.java (!‘
-—
-§
-ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalDescriptionBean.java (6
-outputjava.lang.String"__id*
-"""≈
-§
-ôC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalDescriptionBean.java
- 
-(
-
-outputjava.lang.StringB75
-3progettoispw.letmeknow.bean.PersonalDescriptionBean
+Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java> >("5*é
+5ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java@ @(Û
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java@ @(,
+%0char[]" java.lang.String#toCharArray()[C*
+
+	inputTextjava.lang.String2toCharArray()*
+1*Æ
+1ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaE E("ò
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaE E(
+"":
+	inputTextjava.lang.StringB$"
+ progettoispw.letmeknow.WordCheck

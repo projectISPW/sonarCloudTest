@@ -1,1 +1,1 @@
-Å 2javaXhrÅprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalDescriptionBean.java
+Å 2javaXhrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/Interf1ButtonBar.java

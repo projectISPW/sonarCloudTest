@@ -44,7 +44,6 @@ public class ResultSearchController {
 
     private Integer check(Integer count,ArrayList<String> founded) {
         if(count>=founded.size()){
-            System.err.println("ricomincio da 0");
             return count=0;
         }
         return count;

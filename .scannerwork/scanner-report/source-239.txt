@@ -1,52 +1,57 @@
-//spelling check + same line variables
 package progettoispw.letmeknow;
-
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Slider;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormPsychologistResultBean;
+import javafx.scene.Group;
 
-public class FormPsychologistResultInterf1 {
+
+public class HomepageEditControllerInterf2 extends HomepageEditControllerInterf1 {
     @FXML
-    Text by;
+    Group group1;
     @FXML
-    Slider sl1;
+    Group group2;
     @FXML
-    Slider sl2;
+    Group group3;
     @FXML
-    Slider sl3;
+    Group extGroup1;
     @FXML
-    Slider sl4;
+    Group extGroup2;
     @FXML
-    Slider sl5;
+    Group extGroup3;
     @FXML
-    Slider sl6;
-    Slider [] sliders;
-    FormPsychologistResultBean bean;
-    Page controller;
-    public FormPsychologistResultInterf1(){
-        bean=new FormPsychologistResultBean();
-        controller=new Page();
+    Group group4;
+    @FXML
+    Group group5;
+    @FXML
+    Group group6;
+    String [] uids;
+    public HomepageEditControllerInterf2(){
+        uids=new String[6];
     }
     public void initialize(){
-        sliders=new Slider[]{sl1,sl2,sl3,sl4,sl5,sl6};
-        float [] values= bean.getSelected();
-        for(int i=0;i<6;i++){
-            int index = i;
-            sliders[i].setValue(values[index+1]);
-            sliders[i].valueProperty().addListener(new ChangeListener<>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    sliders[index].setValue(values[index+1]);
-                }
-            });
-        }
-        by.setText((int)values[0]+"users");
+        outputValChat();
+        outputValVisited();
+        super.initialize();
+    }
+    public  void outputValChat(){
+        InitialSearchAndChatControllerInterf1 iscInterf1=new InitialSearchAndChatControllerInterf1();
+        String [] inner=iscInterf1.prev_outputValChat(new Group[]{extGroup1,extGroup2,extGroup3},new Group[]{group1,group2,group3},3);
+        for(int i=0;i<3;i++)uids[3]=inner[i];
+    }
+    public void outputValVisited(){
+        ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
+        String [] inner=new String[3];
+        rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3,inner);
+        for(int i=0;i<3;i++)uids[i+3]=inner[i];
     }
     @FXML
-    public void goBack(){
-        controller.backTo();
+    private void touchChat(ActionEvent event){
+        HomepagecontrollerInterf2 homepage =new HomepagecontrollerInterf2(uids);
+        homepage.touchChat(event);
     }
+    @FXML
+    private void visit(ActionEvent event){
+        HomepagecontrollerInterf2 homepage =new HomepagecontrollerInterf2(uids);
+        homepage.visit(event);
+    }
+
 }

@@ -1,16 +1,12 @@
 
-Mprogettoispw.letmeknow.controller.chat.Messages#getUserid()Ljava/lang/String;Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java ("1*ë
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (Ê
-„
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (
-%0java.lang.String"__id*?*=1
-/progettoispw.letmeknow.controller.chat.Messages"
-userid"û
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java (
-
-%0java.lang.StringB31
-/progettoispw.letmeknow.controller.chat.Messages
+rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z°
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("1*÷
+1°
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¨
+°
+ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (9
+"":
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB64
+2progettoispw.letmeknow.controller.SignupController

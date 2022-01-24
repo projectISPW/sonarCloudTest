@@ -1,11 +1,39 @@
 
-5progettoispw.letmeknow.bean.GoToFormBean#getFormid()I~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java
- 
-("1*Ž
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java ("ˆ
+rprogettoispw.letmeknow.controller.form.Query#takeParam(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java& &("4*¢
+2~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java) )(*"œ
 ~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java (&
-""B,*
-(progettoispw.letmeknow.bean.GoToFormBean
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java) )(*
+
+%1java.sql.ResultSet*‹
+3~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((n¼
+¹
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((n
+sqljava.lang.String"__id*
+
+%0java.lang.StringÁ¾
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java) )()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2*ð
+4~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((å
+â
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((m
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*B@
+>SELECT empathy,humor,positivity FROM utenti where userid='%s';*
+
+useridjava.lang.String*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.StringB0.
+,progettoispw.letmeknow.controller.form.Query

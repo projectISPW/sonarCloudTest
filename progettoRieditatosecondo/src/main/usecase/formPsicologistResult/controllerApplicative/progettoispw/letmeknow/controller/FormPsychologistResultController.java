@@ -9,7 +9,6 @@ public class FormPsychologistResultController {
     }
     public float [] getSelected(){
         float [] inner=user.getSelected();
-        for(int i=0 ; i <7 ;i++)System.out.println(inner[i]);
         return user.getSelected();
     }
 }

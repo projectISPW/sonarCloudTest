@@ -32,7 +32,6 @@ public class SignupBean {
         return description.contains("#");
     }
     public int[] checkVal(String [] val) {
-        System.out.println(val[0]+val[1]+val[2]);
         int[] returnArr = new int[3];
         int i;
         for (i = 0; i < val.length; i++){

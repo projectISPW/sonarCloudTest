@@ -69,7 +69,6 @@ public class Search {
     public int[] getnVisit(){
         int [] inner;
         inner=searchData.getnVisit(userid);
-        System.err.println("numero di visite ricevute"+inner[0]+"numero di utenze nel sistema"+inner[1]);
         return inner;
     }
     public UtenteUsr getTouched() {

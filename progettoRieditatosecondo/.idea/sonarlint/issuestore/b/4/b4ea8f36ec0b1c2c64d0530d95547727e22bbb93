@@ -1,0 +1,22 @@
+
+V	java:S125""<This block of commented-out lines of code should be removed.(åäˆïûÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ï¤Œ¯
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(µ™¡Òÿÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'progettoispw.letmeknow.controller.chat.Message'.(´Ûƒüÿÿÿÿ
+b
+java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.chat.Messages'.(×Ô§¯
+d
+java:S1128"NRemove this unused import 'progettoispw.letmeknow.controller.form.ResultForm'.(çıŞß
+b
+java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.search.Search'.(»ÌŞë
+H
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+C
+java:S16040"(Make this anonymous inner class a lambda(ùë²¥şÿÿÿÿ
+k
+java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ

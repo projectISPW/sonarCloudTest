@@ -59,11 +59,9 @@ public class Messages {
         ArrayList<String>users= (ArrayList<String>) getUsers();
         lastmessages =new ArrayList<>();
         for(String user:users){
-            System.err.println(user);
             lastmessages.add(lstMsgWith(user));
        }
         lastmessages= orderByTime(lastmessages);
-        System.err.println("_____________________________________________");
         return lastmessages;
     }
     public Message lstMsgWith(String user) {

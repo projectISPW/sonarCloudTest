@@ -81,17 +81,15 @@ public class SearchDAO {
         try {
             stmt = connDB.connection(stmt);
             query.newLine(stmt,userid);
-            System.out.println(" i am survived");
+            
             rst = query.getnVisit(stmt, userid);
             if(!rst.next()){
                 query.newLine(stmt,userid);
                 rst=query.getnVisit(stmt,userid);
             }
             if (rst.next()) ret[0]=Integer.parseInt(rst.getString(1));
-            System.err.println(ret[0]);
             rst = query.getnRows(stmt);
             if (rst.next()) ret [1]=Integer.parseInt(rst.getString(1));
-            System.err.println(ret[1]);
             return ret;
         } catch (Exception throwables) {
             return new int [2];

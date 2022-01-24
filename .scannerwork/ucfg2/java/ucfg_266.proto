@@ -1,9 +1,40 @@
 
-Pprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#getTag()Ljava/lang/String;‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java0 0("1*¢
-1‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java1 1("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java1 1($
-""B97
-5progettoispw.letmeknow.controller.utentiusr.UtenteUsr
+lprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUids([Ljava/lang/String;)[Ljava/lang/String;²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javam m("3"1*ì
+3²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javao o(‚
+ÿ
+²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javao o("
+%0java.lang.String"
+__arrayGet*
+
+uidsjava.lang.String[]*
+""—
+”
+²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javao o(#
+%1java.lang.String"iprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUid(Ljava/lang/String;)Ljava/lang/String;*@>
+<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1*
+
+%0java.lang.StringŠ
+‡
+²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javao o(#
+%2"
+__arraySet*
+
+uidsjava.lang.String[]*
+""*
+
+%1java.lang.String*
+3
+1*Ž
+1²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javaq q("Ó
+²
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javaq q(
+
+uidsjava.lang.String[]:
+uidsjava.lang.String[]B@>
+<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1

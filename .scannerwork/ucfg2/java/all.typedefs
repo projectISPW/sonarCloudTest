@@ -18,9 +18,8 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 
 hashCode()java.lang.Object#hashCode()IÜ
 -progettoispw.letmeknow.LoginControllerInterf2java.lang.ObjectC
-<init>()7progettoispw.letmeknow.LoginControllerInterf2#<init>()V
-FormMetajava.lang.Object˘
-1progettoispw.letmeknow.controller.form.ResultFormjava.lang.ObjectFormMetaU
+<init>()7progettoispw.letmeknow.LoginControllerInterf2#<init>()VÔ
+1progettoispw.letmeknow.controller.form.ResultFormjava.lang.ObjectU
 setRisposte([I)Bprogettoispw.letmeknow.controller.form.ResultForm#setRisposte([I)Vk
 <init>(Ljava/lang/String;)Mprogettoispw.letmeknow.controller.form.ResultForm#<init>(Ljava/lang/String;)Vm
 <init>(Ljava/lang/String;I)Nprogettoispw.letmeknow.controller.form.ResultForm#<init>(Ljava/lang/String;I)VL
@@ -107,8 +106,7 @@ println(C)java.io.PrintStream#println(C)VK
 1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
 <init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
 println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)VG
-3progettoispw.letmeknow.controller.search.SearchMetajava.lang.Object∂
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V∂
 &progettoispw.letmeknow.bean.SignupBeanjava.lang.Objectt
 $checkDescription(Ljava/lang/String;)Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Zg
 checkVal([Ljava/lang/String;)Fprogettoispw.letmeknow.bean.SignupBean#checkVal([Ljava/lang/String;)[Ij
@@ -394,16 +392,19 @@ iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;u
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vs
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)VU
 getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;U
-<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)Vƒ
-(progettoispw.letmeknow.FormResultInterf1java.lang.Object>
+<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V$
+Interf1ButtonBarjava.lang.Object÷
+(progettoispw.letmeknow.FormResultInterf1Interf1ButtonBarjava.lang.Object>
 <init>()2progettoispw.letmeknow.FormResultInterf1#<init>()VF
 initialize()6progettoispw.letmeknow.FormResultInterf1#initialize()V-
-HomepagecontrollerInterf1java.lang.Objectó
+HomepagecontrollerInterf1java.lang.ObjectÖ
 0progettoispw.letmeknow.HomepagecontrollerInterf2HomepagecontrollerInterf1Z
 outputValVisited()Dprogettoispw.letmeknow.HomepagecontrollerInterf2#outputValVisited()VF
 <init>():progettoispw.letmeknow.HomepagecontrollerInterf2#<init>()VN
 initialize()>progettoispw.letmeknow.HomepagecontrollerInterf2#initialize()VT
-outputValChat()Aprogettoispw.letmeknow.HomepagecontrollerInterf2#outputValChat()VÕ
+outputValChat()Aprogettoispw.letmeknow.HomepagecontrollerInterf2#outputValChat()Vl
+<init>([Ljava/lang/String;)Mprogettoispw.letmeknow.HomepagecontrollerInterf2#<init>([Ljava/lang/String;)V
+FormMetajava.lang.ObjectÕ
 0progettoispw.letmeknow.controller.utentipsy.Formjava.lang.ObjectFormMeta¶
 getElem(Ljava/util/ArrayList;I)Çprogettoispw.letmeknow.controller.utentipsy.Form#getElem(Ljava/util/ArrayList;I)Lprogettoispw/letmeknow/controller/utentipsy/Form;N
 setFormid(I)>progettoispw.letmeknow.controller.utentipsy.Form#setFormid(I)VF
@@ -641,8 +642,8 @@ set(IIIII)java.util.Calendar#set(IIIII)V4
 )writeObject(Ljava/io/ObjectOutputStream;)=java.util.Calendar#writeObject(Ljava/io/ObjectOutputStream;)V@
 toStandaloneStyle(I)(java.util.Calendar#toStandaloneStyle(I)I&
 set(II)java.util.Calendar#set(II)Vó
-6createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)]java.util.Calendar#createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;Â
-3progettoispw.letmeknow.formCollectionResultsInterf1java.lang.ObjectI
+6createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)]java.util.Calendar#createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;˜
+3progettoispw.letmeknow.formCollectionResultsInterf1Interf1ButtonBarjava.lang.ObjectI
 <init>()=progettoispw.letmeknow.formCollectionResultsInterf1#<init>()VQ
 initialize()Aprogettoispw.letmeknow.formCollectionResultsInterf1#initialize()VÌ
 .progettoispw.letmeknow.controller.utenti.Queryjava.lang.ObjectÉ
@@ -667,7 +668,11 @@ $progettoispw.letmeknow.bean.ChatBeanjava.lang.Object<
 <init>().progettoispw.letmeknow.bean.ChatBean#<init>()V^
 newMsg(Ljava/lang/String;)@progettoispw.letmeknow.bean.ChatBean#newMsg(Ljava/lang/String;)VM
 	getWith()@progettoispw.letmeknow.bean.ChatBean#getWith()Ljava/lang/String;L
-getMSG()@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;ç
+getMSG()@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;∫
+4progettoispw.letmeknow.ResultSearchControllerInterf2java.lang.ObjectJ
+<init>()>progettoispw.letmeknow.ResultSearchControllerInterf2#<init>()VP
+outputVal()Aprogettoispw.letmeknow.ResultSearchControllerInterf2#outputVal()VR
+initialize()Bprogettoispw.letmeknow.ResultSearchControllerInterf2#initialize()Vë
 
 .progettoispw.letmeknow.controller.search.Queryjava.lang.Objectö
 3incremVisit(Ljava/sql/Statement;Ljava/lang/String;)cprogettoispw.letmeknow.controller.search.Query#incremVisit(Ljava/sql/Statement;Ljava/lang/String;)ZØ
@@ -675,80 +680,19 @@ $progettoispw.letmeknow.bean.ChatBeanjava.lang.Object<
 2getVisited(Ljava/sql/Statement;Ljava/lang/String;)uprogettoispw.letmeknow.controller.search.Query#getVisited(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;D
 <init>()8progettoispw.letmeknow.controller.search.Query#<init>()Ví
 /newLine(Ljava/sql/Statement;Ljava/lang/String;)_progettoispw.letmeknow.controller.search.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;)ZÉ
-getnRows(Ljava/sql/Statement;)aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;©
-1getnVisit(Ljava/sql/Statement;Ljava/lang/String;)tprogettoispw.letmeknow.controller.search.Query#getnVisit(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;æ
-EsetVisited(Ljava/sql/Statement;Ljava/lang/String;[Ljava/lang/String;)uprogettoispw.letmeknow.controller.search.Query#setVisited(Ljava/sql/Statement;Ljava/lang/String;[Ljava/lang/String;)ZŒ
+getnRows(Ljava/sql/Statement;)aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;¬
+GsetVisited(Ljava/sql/Statement;Ljava/lang/String;Ljava/util/ArrayList;)wprogettoispw.letmeknow.controller.search.Query#setVisited(Ljava/sql/Statement;Ljava/lang/String;Ljava/util/ArrayList;)Z©
+1getnVisit(Ljava/sql/Statement;Ljava/lang/String;)tprogettoispw.letmeknow.controller.search.Query#getnVisit(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;î
 .progettoispw.letmeknow.SearchControllerInterf1java.lang.Objecth
-researchByDescripription()Jprogettoispw.letmeknow.SearchControllerInterf1#researchByDescripription()VT
+researchByDescripription()Jprogettoispw.letmeknow.SearchControllerInterf1#researchByDescripription()VD
+goBack()8progettoispw.letmeknow.SearchControllerInterf1#goBack()VT
 researchByGoal()@progettoispw.letmeknow.SearchControllerInterf1#researchByGoal()VD
 <init>()8progettoispw.letmeknow.SearchControllerInterf1#<init>()V^
 researchByParameter()Eprogettoispw.letmeknow.SearchControllerInterf1#researchByParameter()VL
 initialize()<progettoispw.letmeknow.SearchControllerInterf1#initialize()VV
 incremProgress(I)Aprogettoispw.letmeknow.SearchControllerInterf1#incremProgress(I)V"
 ChangeListenerjava.lang.ObjectG
-5Lprogettoispw/letmeknow/SearchControllerInterf1$1654;ChangeListener„
-java.util.Vectorjava.util.RandomAccessjava.util.Listjava.lang.Cloneablejava.util.AbstractListjava.io.SerializableJ
-equals(Ljava/lang/Object;),java.util.Vector#equals(Ljava/lang/Object;)Z\
-#containsAll(Ljava/util/Collection;)5java.util.Vector#containsAll(Ljava/util/Collection;)Z4
-removeRange(II)!java.util.Vector#removeRange(II)V:
-removeElementAt(I)$java.util.Vector#removeElementAt(I)VX
-!removeAll(Ljava/util/Collection;)3java.util.Vector#removeAll(Ljava/util/Collection;)ZJ
-remove(Ljava/lang/Object;),java.util.Vector#remove(Ljava/lang/Object;)ZI
-listIterator()7java.util.Vector#listIterator()Ljava/util/ListIterator;:
-	toArray()-java.util.Vector#toArray()[Ljava/lang/Object;(
-	<init>(I)java.util.Vector#<init>(I)VV
- lastIndexOf(Ljava/lang/Object;I)2java.util.Vector#lastIndexOf(Ljava/lang/Object;I)I4
-hugeCapacity(I)!java.util.Vector#hugeCapacity(I)IP
-copyInto([Ljava/lang/Object;)/java.util.Vector#copyInto([Ljava/lang/Object;)V&
-<init>()java.util.Vector#<init>()V3
-get(I))java.util.Vector#get(I)Ljava/lang/Object;d
-'readObject(Ljava/io/ObjectInputStream;)9java.util.Vector#readObject(Ljava/io/ObjectInputStream;)V$
-clear()java.util.Vector#clear()V(
-	isEmpty()java.util.Vector#isEmpty()ZA
-lastElement()0java.util.Vector#lastElement()Ljava/lang/Object;;
-subList(II),java.util.Vector#subList(II)Ljava/util/List;;
-
-toString()-java.util.Vector#toString()Ljava/lang/String;T
-lastIndexOf(Ljava/lang/Object;)1java.util.Vector#lastIndexOf(Ljava/lang/Object;)IL
-indexOf(Ljava/lang/Object;)-java.util.Vector#indexOf(Ljava/lang/Object;)I.
-trimToSize()java.util.Vector#trimToSize()VN
-indexOf(Ljava/lang/Object;I).java.util.Vector#indexOf(Ljava/lang/Object;I)I*
-
-<init>(II)java.util.Vector#<init>(II)V*
-
-capacity()java.util.Vector#capacity()I2
-newCapacity(I) java.util.Vector#newCapacity(I)I5
-clone()*java.util.Vector#clone()Ljava/lang/Object;d
-'shiftTailOverGap([Ljava/lang/Object;II)9java.util.Vector#shiftTailOverGap([Ljava/lang/Object;II)V8
-ensureCapacity(I)#java.util.Vector#ensureCapacity(I)VC
-elementData(I)1java.util.Vector#elementData(I)Ljava/lang/Object;,
-setBit([JI)java.util.Vector#setBit([JI)V6
-grow(I)+java.util.Vector#grow(I)[Ljava/lang/Object;`
-toArray([Ljava/lang/Object;)@java.util.Vector#toArray([Ljava/lang/Object;)[Ljava/lang/Object;9
-	remove(I),java.util.Vector#remove(I)Ljava/lang/Object;N
-contains(Ljava/lang/Object;).java.util.Vector#contains(Ljava/lang/Object;)Z*
-
-hashCode()java.util.Vector#hashCode()IX
-!removeElement(Ljava/lang/Object;)3java.util.Vector#removeElement(Ljava/lang/Object;)Z?
-elementAt(I)/java.util.Vector#elementAt(I)Ljava/lang/Object;K
-listIterator(I)8java.util.Vector#listIterator(I)Ljava/util/ListIterator;e
-elementAt([Ljava/lang/Object;I)Bjava.util.Vector#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;8
-checkInvariants()#java.util.Vector#checkInvariants()V<
-removeAllElements()%java.util.Vector#removeAllElements()V4
-grow()*java.util.Vector#grow()[Ljava/lang/Object;C
-firstElement()1java.util.Vector#firstElement()Ljava/lang/Object;@
-
-elements()2java.util.Vector#elements()Ljava/util/Enumeration;X
-!retainAll(Ljava/util/Collection;)3java.util.Vector#retainAll(Ljava/util/Collection;)Z'
-nBits(I)java.util.Vector#nBits(I)[J=
-
-iterator()/java.util.Vector#iterator()Ljava/util/Iterator;F
-spliterator()5java.util.Vector#spliterator()Ljava/util/Spliterator;*
-
-setSize(I)java.util.Vector#setSize(I)V.
-isClear([JI)java.util.Vector#isClear([JI)Zh
-)writeObject(Ljava/io/ObjectOutputStream;);java.util.Vector#writeObject(Ljava/io/ObjectOutputStream;)V"
-size()java.util.Vector#size()I¡
+5Lprogettoispw/letmeknow/SearchControllerInterf1$1727;ChangeListener¡
 2progettoispw.letmeknow.controller.SearchControllerjava.lang.Objectr
 enterGoal(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.SearchController#enterGoal(Ljava/lang/String;)VH
 <init>()<progettoispw.letmeknow.controller.SearchController#<init>()VD
@@ -765,18 +709,30 @@ setSize(I)java.util.Vector#setSize(I)V.
 #enterGoalSearch(Ljava/lang/String;)Kprogettoispw.letmeknow.bean.SearchBean#enterGoalSearch(Ljava/lang/String;)Vt
 $enterDescrSearch(Ljava/lang/String;)Lprogettoispw.letmeknow.bean.SearchBean#enterDescrSearch(Ljava/lang/String;)Vp
 "enterAffinity(Ljava/lang/Integer;)Jprogettoispw.letmeknow.bean.SearchBean#enterAffinity(Ljava/lang/Integer;)Vx
-&enterParamSearch([Ljava/lang/Integer;)Nprogettoispw.letmeknow.bean.SearchBean#enterParamSearch([Ljava/lang/Integer;)VÎ
-0progettoispw.letmeknow.TakeFormControllerInterf1java.lang.ObjectF
+&enterParamSearch([Ljava/lang/Integer;)Nprogettoispw.letmeknow.bean.SearchBean#enterParamSearch([Ljava/lang/Integer;)V˝
+0progettoispw.letmeknow.TakeFormControllerInterf1Interf1ButtonBarjava.lang.ObjectF
 goBack():progettoispw.letmeknow.TakeFormControllerInterf1#goBack()VF
 <init>():progettoispw.letmeknow.TakeFormControllerInterf1#<init>()VN
 initialize()>progettoispw.letmeknow.TakeFormControllerInterf1#initialize()VE
 not([Z):progettoispw.letmeknow.TakeFormControllerInterf1#not([Z)[ZI
-7Lprogettoispw/letmeknow/TakeFormControllerInterf1$2364;ChangeListenerõ
+7Lprogettoispw/letmeknow/TakeFormControllerInterf1$2391;ChangeListenerõ
 9progettoispw.letmeknow.bean.UpdatePersonalDescriptionBeanjava.lang.ObjectO
 <init>()Cprogettoispw.letmeknow.bean.UpdatePersonalDescriptionBean#<init>()V{
 entryValue(Ljava/lang/String;)Yprogettoispw.letmeknow.bean.UpdatePersonalDescriptionBean#entryValue(Ljava/lang/String;)V
 )progettoispw.letmeknow.Form2ResultInterf1FormResultInterf1?
-<init>()3progettoispw.letmeknow.Form2ResultInterf1#<init>()VÊ
+<init>()3progettoispw.letmeknow.Form2ResultInterf1#<init>()V•
+ progettoispw.letmeknow.WordCheckjava.lang.Object6
+<init>()*progettoispw.letmeknow.WordCheck#<init>()V:
+
+<init>(II),progettoispw.letmeknow.WordCheck#<init>(II)Vd
+checkString(Ljava/lang/String;)Aprogettoispw.letmeknow.WordCheck#checkString(Ljava/lang/String;)Z:
+
+highText(),progettoispw.letmeknow.WordCheck#highText()It
+contaInvio(Ljava/lang/String;)Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;è
+,check1(Ljava/lang/String;Ljava/lang/String;)_progettoispw.letmeknow.WordCheck#check1(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;q
+checkLen(Ljava/lang/String;I)Pprogettoispw.letmeknow.WordCheck#checkLen(Ljava/lang/String;I)Ljava/lang/String;i
+check(Ljava/lang/String;)Lprogettoispw.letmeknow.WordCheck#check(Ljava/lang/String;)Ljava/lang/String;s
+checkAhead(Ljava/lang/String;)Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;Ê
 ,progettoispw.letmeknow.ChatControllerInterf1java.lang.ObjectN
 recivemsgArr()<progettoispw.letmeknow.ChatControllerInterf1#recivemsgArr()VD
 	sendMsg()7progettoispw.letmeknow.ChatControllerInterf1#sendMsg()VB
@@ -862,7 +818,84 @@ getParam()Cprogettoispw.letmeknow.controller.FormResultController#getParam()[I
 .progettoispw.letmeknow.SignupControllerInterf1java.lang.ObjectD
 <init>()8progettoispw.letmeknow.SignupControllerInterf1#<init>()VL
 initialize()<progettoispw.letmeknow.SignupControllerInterf1#initialize()VN
-backToLogin()=progettoispw.letmeknow.SignupControllerInterf1#backToLogin()V
+backToLogin()=progettoispw.letmeknow.SignupControllerInterf1#backToLogin()V¿'
+java.util.Vectorjava.util.RandomAccessjava.util.Listjava.lang.Cloneablejava.util.AbstractListjava.io.SerializableJ
+equals(Ljava/lang/Object;),java.util.Vector#equals(Ljava/lang/Object;)Z\
+#containsAll(Ljava/util/Collection;)5java.util.Vector#containsAll(Ljava/util/Collection;)Z4
+removeRange(II)!java.util.Vector#removeRange(II)V:
+removeElementAt(I)$java.util.Vector#removeElementAt(I)VX
+!removeAll(Ljava/util/Collection;)3java.util.Vector#removeAll(Ljava/util/Collection;)ZJ
+remove(Ljava/lang/Object;),java.util.Vector#remove(Ljava/lang/Object;)ZI
+listIterator()7java.util.Vector#listIterator()Ljava/util/ListIterator;:
+	toArray()-java.util.Vector#toArray()[Ljava/lang/Object;X
+!setElementAt(Ljava/lang/Object;I)3java.util.Vector#setElementAt(Ljava/lang/Object;I)V(
+	<init>(I)java.util.Vector#<init>(I)VV
+ lastIndexOf(Ljava/lang/Object;I)2java.util.Vector#lastIndexOf(Ljava/lang/Object;I)I4
+hugeCapacity(I)!java.util.Vector#hugeCapacity(I)Ib
+&forEach(Ljava/util/function/Consumer;)8java.util.Vector#forEach(Ljava/util/function/Consumer;)VP
+copyInto([Ljava/lang/Object;)/java.util.Vector#copyInto([Ljava/lang/Object;)V&
+<init>()java.util.Vector#<init>()V3
+get(I))java.util.Vector#get(I)Ljava/lang/Object;d
+'readObject(Ljava/io/ObjectInputStream;)9java.util.Vector#readObject(Ljava/io/ObjectInputStream;)V$
+clear()java.util.Vector#clear()VF
+add(ILjava/lang/Object;)*java.util.Vector#add(ILjava/lang/Object;)V(
+	isEmpty()java.util.Vector#isEmpty()ZA
+lastElement()0java.util.Vector#lastElement()Ljava/lang/Object;;
+subList(II),java.util.Vector#subList(II)Ljava/util/List;;
+
+toString()-java.util.Vector#toString()Ljava/lang/String;T
+lastIndexOf(Ljava/lang/Object;)1java.util.Vector#lastIndexOf(Ljava/lang/Object;)Il
++add(Ljava/lang/Object;[Ljava/lang/Object;I)=java.util.Vector#add(Ljava/lang/Object;[Ljava/lang/Object;I)VL
+indexOf(Ljava/lang/Object;)-java.util.Vector#indexOf(Ljava/lang/Object;)I.
+trimToSize()java.util.Vector#trimToSize()VN
+indexOf(Ljava/lang/Object;I).java.util.Vector#indexOf(Ljava/lang/Object;I)I^
+$insertElementAt(Ljava/lang/Object;I)6java.util.Vector#insertElementAt(Ljava/lang/Object;I)V*
+
+<init>(II)java.util.Vector#<init>(II)VW
+set(ILjava/lang/Object;);java.util.Vector#set(ILjava/lang/Object;)Ljava/lang/Object;*
+
+capacity()java.util.Vector#capacity()ID
+add(Ljava/lang/Object;))java.util.Vector#add(Ljava/lang/Object;)Z2
+newCapacity(I) java.util.Vector#newCapacity(I)I5
+clone()*java.util.Vector#clone()Ljava/lang/Object;R
+<init>(Ljava/util/Collection;)0java.util.Vector#<init>(Ljava/util/Collection;)Vd
+'shiftTailOverGap([Ljava/lang/Object;II)9java.util.Vector#shiftTailOverGap([Ljava/lang/Object;II)V8
+ensureCapacity(I)#java.util.Vector#ensureCapacity(I)VC
+elementData(I)1java.util.Vector#elementData(I)Ljava/lang/Object;,
+setBit([JI)java.util.Vector#setBit([JI)V6
+grow(I)+java.util.Vector#grow(I)[Ljava/lang/Object;`
+toArray([Ljava/lang/Object;)@java.util.Vector#toArray([Ljava/lang/Object;)[Ljava/lang/Object;9
+	remove(I),java.util.Vector#remove(I)Ljava/lang/Object;N
+contains(Ljava/lang/Object;).java.util.Vector#contains(Ljava/lang/Object;)Zj
+*bulkRemove(Ljava/util/function/Predicate;)<java.util.Vector#bulkRemove(Ljava/util/function/Predicate;)Z*
+
+hashCode()java.util.Vector#hashCode()IR
+addElement(Ljava/lang/Object;)0java.util.Vector#addElement(Ljava/lang/Object;)Vf
+(removeIf(Ljava/util/function/Predicate;):java.util.Vector#removeIf(Ljava/util/function/Predicate;)ZX
+!removeElement(Ljava/lang/Object;)3java.util.Vector#removeElement(Ljava/lang/Object;)Z?
+elementAt(I)/java.util.Vector#elementAt(I)Ljava/lang/Object;N
+sort(Ljava/util/Comparator;).java.util.Vector#sort(Ljava/util/Comparator;)VK
+listIterator(I)8java.util.Vector#listIterator(I)Ljava/util/ListIterator;e
+elementAt([Ljava/lang/Object;I)Bjava.util.Vector#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;8
+checkInvariants()#java.util.Vector#checkInvariants()VT
+addAll(ILjava/util/Collection;)1java.util.Vector#addAll(ILjava/util/Collection;)ZR
+addAll(Ljava/util/Collection;)0java.util.Vector#addAll(Ljava/util/Collection;)Z<
+removeAllElements()%java.util.Vector#removeAllElements()V4
+grow()*java.util.Vector#grow()[Ljava/lang/Object;C
+firstElement()1java.util.Vector#firstElement()Ljava/lang/Object;r
+.replaceAll(Ljava/util/function/UnaryOperator;)@java.util.Vector#replaceAll(Ljava/util/function/UnaryOperator;)V@
+
+elements()2java.util.Vector#elements()Ljava/util/Enumeration;X
+!retainAll(Ljava/util/Collection;)3java.util.Vector#retainAll(Ljava/util/Collection;)Z'
+nBits(I)java.util.Vector#nBits(I)[J=
+
+iterator()/java.util.Vector#iterator()Ljava/util/Iterator;F
+spliterator()5java.util.Vector#spliterator()Ljava/util/Spliterator;*
+
+setSize(I)java.util.Vector#setSize(I)V.
+isClear([JI)java.util.Vector#isClear([JI)Zh
+)writeObject(Ljava/io/ObjectOutputStream;);java.util.Vector#writeObject(Ljava/io/ObjectOutputStream;)V"
+size()java.util.Vector#size()I
 )progettoispw.letmeknow.Form1ResultInterf1FormResultInterf1?
 <init>()3progettoispw.letmeknow.Form1ResultInterf1#<init>()VÔ
 *progettoispw.letmeknow.bean.FormResultBeanjava.lang.ObjectO
@@ -873,8 +906,9 @@ getParam()7progettoispw.letmeknow.bean.FormResultBean#getParam()[IS
 	<init>(I)5progettoispw.letmeknow.bean.FormResultBean#<init>(I)Vï
 progettoispw.letmeknow.Pagejava.lang.Object1
 <init>()%progettoispw.letmeknow.Page#<init>()V1
-backTo()%progettoispw.letmeknow.Page#backTo()V‹
-0progettoispw.letmeknow.HomepagecontrollerInterf1java.lang.ObjectF
+backTo()%progettoispw.letmeknow.Page#backTo()V∂
+0progettoispw.letmeknow.HomepagecontrollerInterf1Interf1ButtonBarjava.lang.ObjectF
+goBack():progettoispw.letmeknow.HomepagecontrollerInterf1#goBack()VF
 <init>():progettoispw.letmeknow.HomepagecontrollerInterf1#<init>()VN
 initialize()>progettoispw.letmeknow.HomepagecontrollerInterf1#initialize()VÓ
 8progettoispw.letmeknow.controller.ResultSearchControllerjava.lang.ObjectO
@@ -898,10 +932,12 @@ getParam()7progettoispw.letmeknow.bean.FormResultBean#getParam()[IS
 getLastmsg()Fprogettoispw.letmeknow.bean.lastMessage#getLastmsg()Ljava/lang/String;C
 getStatus()4progettoispw.letmeknow.bean.lastMessage#getStatus()VT
 getUserid()Eprogettoispw.letmeknow.bean.lastMessage#getUserid()Ljava/lang/String;1
-HomepageEditControllerInterf1java.lang.Objectı
-4progettoispw.letmeknow.HomepageEditControllerInterf2HomepageEditControllerInterf1J
+HomepageEditControllerInterf1java.lang.ObjectØ
+4progettoispw.letmeknow.HomepageEditControllerInterf2HomepageEditControllerInterf1^
+outputValVisited()Hprogettoispw.letmeknow.HomepageEditControllerInterf2#outputValVisited()VJ
 <init>()>progettoispw.letmeknow.HomepageEditControllerInterf2#<init>()VR
-initialize()Bprogettoispw.letmeknow.HomepageEditControllerInterf2#initialize()V¥
+initialize()Bprogettoispw.letmeknow.HomepageEditControllerInterf2#initialize()VX
+outputValChat()Eprogettoispw.letmeknow.HomepageEditControllerInterf2#outputValChat()V¥
 3progettoispw.letmeknow.RecoverPswdControllerInterf1java.lang.ObjectI
 <init>()=progettoispw.letmeknow.RecoverPswdControllerInterf1#<init>()VQ
 initialize()Aprogettoispw.letmeknow.RecoverPswdControllerInterf1#initialize()VM
@@ -912,7 +948,8 @@ sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 setEmail(Ljava/lang/String;)Rprogettoispw.letmeknow.controller.SettingsController#setEmail(Ljava/lang/String;)ZJ
 <init>()>progettoispw.letmeknow.controller.SettingsController#<init>()Vj
 feed(Ljava/lang/String;)Nprogettoispw.letmeknow.controller.SettingsController#feed(Ljava/lang/String;)Z\
-closeConnection()Gprogettoispw.letmeknow.controller.SettingsController#closeConnection()V 
+closeConnection()Gprogettoispw.letmeknow.controller.SettingsController#closeConnection()V;
+'progettoispw.letmeknow.Interf1ButtonBarjava.lang.Object 
 #progettoispw.letmeknow.bean.ISCBeanjava.lang.Object_
 touched(Ljava/lang/String;)@progettoispw.letmeknow.bean.ISCBean#touched(Ljava/lang/String;)V7
 reset(),progettoispw.letmeknow.bean.ISCBean#reset()V9
@@ -920,7 +957,10 @@ sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 	<init>(I).progettoispw.letmeknow.bean.ISCBean#<init>(I)VP
 getUserid()Aprogettoispw.letmeknow.bean.ISCBean#getUserid()Ljava/lang/String;]
 search(Ljava/lang/String;)?progettoispw.letmeknow.bean.ISCBean#search(Ljava/lang/String;)VN
-	exitUid()Aprogettoispw.letmeknow.bean.ISCBean#exitUid()[[Ljava/lang/String;F
+	exitUid()Aprogettoispw.letmeknow.bean.ISCBean#exitUid()[[Ljava/lang/String;¬
+(progettoispw.letmeknow.bean.GoToFormBeanjava.lang.Object>
+<init>()2progettoispw.letmeknow.bean.GoToFormBean#<init>()VD
+getFormid()5progettoispw.letmeknow.bean.GoToFormBean#getFormid()IF
 2progettoispw.letmeknow.controller.chat.MessageMetajava.lang.Object—
 0progettoispw.letmeknow.controller.search.Slidersjava.lang.Objectl
 setPos(Ljava/lang/Integer;)Mprogettoispw.letmeknow.controller.search.Sliders#setPos(Ljava/lang/Integer;)Vl
@@ -931,11 +971,11 @@ sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 <init>(Ljava/lang/Integer;)Mprogettoispw.letmeknow.controller.search.Sliders#<init>(Ljava/lang/Integer;)Vl
 setHum(Ljava/lang/Integer;)Mprogettoispw.letmeknow.controller.search.Sliders#setHum(Ljava/lang/Integer;)VY
 getAll()Mprogettoispw.letmeknow.controller.search.Sliders#getAll()[Ljava/lang/Integer;j
-check(Ljava/lang/Integer;)Lprogettoispw.letmeknow.controller.search.Sliders#check(Ljava/lang/Integer;)I˙
+check(Ljava/lang/Integer;)Lprogettoispw.letmeknow.controller.search.Sliders#check(Ljava/lang/Integer;)Iå
 4progettoispw.letmeknow.ResultSearchControllerInterf1java.lang.ObjectJ
 goBack()>progettoispw.letmeknow.ResultSearchControllerInterf1#goBack()VJ
-<init>()>progettoispw.letmeknow.ResultSearchControllerInterf1#<init>()VP
-outputVal()Aprogettoispw.letmeknow.ResultSearchControllerInterf1#outputVal()VR
+<init>()>progettoispw.letmeknow.ResultSearchControllerInterf1#<init>()Vb
+outputVal()Sprogettoispw.letmeknow.ResultSearchControllerInterf1#outputVal()[Ljava/lang/String;R
 initialize()Bprogettoispw.letmeknow.ResultSearchControllerInterf1#initialize()Vr
 setUids([Ljava/lang/String;)Rprogettoispw.letmeknow.ResultSearchControllerInterf1#setUids([Ljava/lang/String;)V)
 ChatControllerInterf1java.lang.Object¥
@@ -1159,10 +1199,7 @@ EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql
 3updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)Gjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)Vœ
 &progettoispw.letmeknow.bean.SliderBeanjava.lang.ObjectU
 exitValue()Fprogettoispw.letmeknow.bean.SliderBean#exitValue()[Ljava/lang/Integer;<
-<init>()0progettoispw.letmeknow.bean.SliderBean#<init>()VÕ
-&progettoispw.letmeknow.bean.UseridBeanjava.lang.Object<
-<init>()0progettoispw.letmeknow.bean.UseridBean#<init>()VS
-getUserId()Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;†
+<init>()0progettoispw.letmeknow.bean.SliderBean#<init>()V†
 /progettoispw.letmeknow.controller.chat.Messagesjava.lang.Objectq
 setTouched(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.chat.Messages#setTouched(Ljava/lang/String;)VV
 	getLast()Iprogettoispw.letmeknow.controller.chat.Messages#getLast()Ljava/util/List;\
@@ -1176,8 +1213,9 @@ getUsers()Jprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util
 getUserid()Mprogettoispw.letmeknow.controller.chat.Messages#getUserid()Ljava/lang/String;ì
 /attach(Ljava/lang/String;Ljava/util/ArrayList;)`progettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;Ljava/util/ArrayList;)Vï
 0newMessage(Ljava/lang/String;Ljava/lang/String;)aprogettoispw.letmeknow.controller.chat.Messages#newMessage(Ljava/lang/String;Ljava/lang/String;)Vv
-chat(Ljava/lang/String;Z)Yprogettoispw.letmeknow.controller.chat.Messages#chat(Ljava/lang/String;Z)Ljava/util/List;∫
-,progettoispw.letmeknow.controller.form.Queryjava.lang.ObjectFormMeta∞
+chat(Ljava/lang/String;Z)Yprogettoispw.letmeknow.controller.chat.Messages#chat(Ljava/lang/String;Z)Ljava/util/List;;
+'progettoispw.letmeknow.Interf2ButtonBarjava.lang.Object∞
+,progettoispw.letmeknow.controller.form.Queryjava.lang.Object∞
 6setResults(Ljava/sql/Statement;Ljava/lang/String;I[II)vprogettoispw.letmeknow.controller.form.Query#setResults(Ljava/sql/Statement;Ljava/lang/String;I[II)Ljava/lang/Boolean;º
 EinsertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)sprogettoispw.letmeknow.controller.form.Query#insertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)ZØ
 5queryResults(Ljava/sql/Statement;Ljava/lang/String;I)vprogettoispw.letmeknow.controller.form.Query#queryResults(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/sql/ResultSet;B
@@ -1199,10 +1237,7 @@ Vregistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/S
 <init>():progettoispw.letmeknow.controller.utenti.UserDAO#<init>()VÑ
 selectUser(Ljava/lang/String;)bprogettoispw.letmeknow.controller.utenti.UserDAO#selectUser(Ljava/lang/String;)[Ljava/lang/String;Ø
 |registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Æprogettoispw.letmeknow.controller.utenti.UserDAO#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZU
-getUID()Iprogettoispw.letmeknow.controller.utenti.UserDAO#getUID()Ljava/util/List;¬
-(progettoispw.letmeknow.bean.GoToFormBeanjava.lang.Object>
-<init>()2progettoispw.letmeknow.bean.GoToFormBean#<init>()VD
-getFormid()5progettoispw.letmeknow.bean.GoToFormBean#getFormid()IÉ
+getUID()Iprogettoispw.letmeknow.controller.utenti.UserDAO#getUID()Ljava/util/List;É
 .progettoispw.letmeknow.controller.chat.Messagejava.lang.Object[
 getSender()Lprogettoispw.letmeknow.controller.chat.Message#getSender()Ljava/lang/String;p
 setReciver(Ljava/lang/String;)Nprogettoispw.letmeknow.controller.chat.Message#setReciver(Ljava/lang/String;)VW
@@ -1370,13 +1405,13 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)tjava.time.
 withYear(I)<java.time.LocalDateTime#withYear(I)Ljava/time/LocalDateTime;O
 withSecond(I)>java.time.LocalDateTime#withSecond(I)Ljava/time/LocalDateTime;W
 withDayOfMonth(I)Bjava.time.LocalDateTime#withDayOfMonth(I)Ljava/time/LocalDateTime;O
-minusWeeks(J)>java.time.LocalDateTime#minusWeeks(J)Ljava/time/LocalDateTime;Ÿ
+minusWeeks(J)>java.time.LocalDateTime#minusWeeks(J)Ljava/time/LocalDateTime;Î
 <progettoispw.letmeknow.InitialSearchAndChatControllerInterf1java.lang.ObjectR
 <init>()Fprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#<init>()V`
 searchMessage()Mprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#searchMessage()VZ
 initialize()Jprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#initialize()Vz
-setUIDS([Ljava/lang/String;)Zprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#setUIDS([Ljava/lang/String;)V`
-outputValChat()Mprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#outputValChat()Vå
+setUIDS([Ljava/lang/String;)Zprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#setUIDS([Ljava/lang/String;)Vr
+outputValChat()_progettoispw.letmeknow.InitialSearchAndChatControllerInterf1#outputValChat()[Ljava/lang/String;å
 getUids([Ljava/lang/String;)lprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUids([Ljava/lang/String;)[Ljava/lang/String;á
 getUid(Ljava/lang/String;)iprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUid(Ljava/lang/String;)Ljava/lang/String;î
 2progettoispw.letmeknow.HomepagePsychologistInterf1java.lang.ObjectR
@@ -1385,7 +1420,17 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)tjava.time.
 <init>()<progettoispw.letmeknow.HomepagePsychologistInterf1#<init>()VP
 initialize()@progettoispw.letmeknow.HomepagePsychologistInterf1#initialize()VH
 backTo()<progettoispw.letmeknow.HomepagePsychologistInterf1#backTo()VH
-decrem()<progettoispw.letmeknow.HomepagePsychologistInterf1#decrem()V
+decrem()<progettoispw.letmeknow.HomepagePsychologistInterf1#decrem()V+
+SearchControllerInterf1java.lang.Object°
+.progettoispw.letmeknow.SearchControllerInterf2SearchControllerInterf1D
+<init>()8progettoispw.letmeknow.SearchControllerInterf2#<init>()VL
+initialize()<progettoispw.letmeknow.SearchControllerInterf2#initialize()VB
+visit()7progettoispw.letmeknow.SearchControllerInterf2#visit()VÚ
+java.io.IOExceptionjava.lang.Exception)
+<init>()java.io.IOException#<init>()VM
+<init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.io.IOException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VS
+<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)V
 SalvaUtentejava.lang.Object≥
 5progettoispw.letmeknow.controller.utentiusr.UtenteUsrSalvaUtente
 "setPersonalDes(Ljava/lang/String;)Yprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#setPersonalDes(Ljava/lang/String;)VU
@@ -1593,7 +1638,10 @@ FstoreToXML(Ljava/io/OutputStream;Ljava/lang/String;Ljava/lang/String;)\java.ut
 setStrData(Ljava/lang/String;)Pprogettoispw.letmeknow.controller.utentiusr.Goal#setStrData(Ljava/lang/String;)V
 Pagejava.lang.Object^
 progettoispw.letmeknow.PageMenuPage5
-<init>())progettoispw.letmeknow.PageMenu#<init>()V
+<init>())progettoispw.letmeknow.PageMenu#<init>()V0
+formCollectionResultsInterf1java.lang.Objectû
+3progettoispw.letmeknow.formCollectionResultsInterf2formCollectionResultsInterf1I
+<init>()=progettoispw.letmeknow.formCollectionResultsInterf2#<init>()V
 Applicationjava.lang.Object”
 &progettoispw.letmeknow.MainApplicationApplication<
 <init>()0progettoispw.letmeknow.MainApplication#<init>()V^
@@ -1620,7 +1668,7 @@ hashCode()java.lang.Enum#hashCode()I—
 values()nprogettoispw.letmeknow.MainApplication$ScreenSize#values()[Lprogettoispw/letmeknow/MainApplication$ScreenSize;m
 <init>(Ljava/lang/String;I)Nprogettoispw.letmeknow.MainApplication$ScreenSize#<init>(Ljava/lang/String;I)V 
 EventHandlerjava.lang.Object=
--Lprogettoispw/letmeknow/MainApplication$1682;EventHandler´
+-Lprogettoispw/letmeknow/MainApplication$1735;EventHandler´
 1progettoispw.letmeknow.controller.VisitControllerjava.lang.Objectb
 returnDate()Rprogettoispw.letmeknow.controller.VisitController#returnDate()[Ljava/lang/Integer;c
 returnOptimismValues()Iprogettoispw.letmeknow.controller.VisitController#returnOptimismValues()Ia
@@ -1778,10 +1826,7 @@ tornaLog()Nprogettoispw.letmeknow.controller.LoginController#tornaLog()Ljava/la
 showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()V”
 -progettoispw.letmeknow.VisitControllerInterf1java.lang.ObjectC
 <init>()7progettoispw.letmeknow.VisitControllerInterf1#<init>()VK
-initialize();progettoispw.letmeknow.VisitControllerInterf1#initialize()VÊ
-4progettoispw.letmeknow.controller.GoToFormControllerjava.lang.ObjectJ
-<init>()>progettoispw.letmeknow.controller.GoToFormController#<init>()VP
-getFormid()Aprogettoispw.letmeknow.controller.GoToFormController#getFormid()I”
+initialize();progettoispw.letmeknow.VisitControllerInterf1#initialize()V”
 @progettoispw.letmeknow.controller.HomepagePsychologistControllerjava.lang.ObjectFormMeta|
 setFeed(Ljava/lang/String;)]progettoispw.letmeknow.controller.HomepagePsychologistController#setFeed(Ljava/lang/String;)Zb
 setSelected(I)Pprogettoispw.letmeknow.controller.HomepagePsychologistController#setSelected(I)VV
@@ -1807,8 +1852,8 @@ QsetDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String
 getListV4(Ljava/lang/String;)]progettoispw.letmeknow.controller.ISCController#getListV4(Ljava/lang/String;)Ljava/util/List;Z
 getListV3()Kprogettoispw.letmeknow.controller.ISCController#getListV3()Ljava/util/List;i
 search(Ljava/lang/String;)Kprogettoispw.letmeknow.controller.ISCController#search(Ljava/lang/String;)VZ
-getListV1()Kprogettoispw.letmeknow.controller.ISCController#getListV1()Ljava/util/List;Ñ	
-/progettoispw.letmeknow.controller.search.Searchjava.lang.ObjectSalvaUtenteMetaq
+getListV1()Kprogettoispw.letmeknow.controller.ISCController#getListV1()Ljava/util/List;Û
+/progettoispw.letmeknow.controller.search.Searchjava.lang.Objectq
 setTouched(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.search.Search#setTouched(Ljava/lang/String;)Zá
 )parametricSetSearch([Ljava/lang/Integer;)Zprogettoispw.letmeknow.controller.search.Search#parametricSetSearch([Ljava/lang/Integer;)Vu
  setAffinity(Ljava/lang/Integer;)Qprogettoispw.letmeknow.controller.search.Search#setAffinity(Ljava/lang/Integer;)Vs
@@ -1818,11 +1863,9 @@ QsetDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String
 getTouched()Gprogettoispw.letmeknow.controller.search.Search#getTouched()LUtenteUsr;Y
 parametricSearch()Cprogettoispw.letmeknow.controller.search.Search#parametricSearch()VL
 getnVisit()=progettoispw.letmeknow.controller.search.Search#getnVisit()[Ie
-getArrayList()Sprogettoispw.letmeknow.controller.search.Search#getArrayList()Ljava/util/ArrayList;
-
-SearchMetajava.lang.Object–
-2progettoispw.letmeknow.controller.search.SearchDAO
-SearchMetajava.lang.ObjectÑ
+getArrayList()Sprogettoispw.letmeknow.controller.search.Search#getArrayList()Ljava/util/ArrayList;Å
+2progettoispw.letmeknow.controller.search.SearchDAOjava.lang.Object∫
+Aattach(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;)uprogettoispw.letmeknow.controller.search.SearchDAO#attach(Ljava/lang/String;Ljava/lang/String;Ljava/util/ArrayList;)VÑ
 getVisit(Ljava/lang/String;)dprogettoispw.letmeknow.controller.search.SearchDAO#getVisit(Ljava/lang/String;)Ljava/util/ArrayList;H
 <init>()<progettoispw.letmeknow.controller.search.SearchDAO#<init>()Vò
 0addVisited(Ljava/lang/String;Ljava/lang/String;)dprogettoispw.letmeknow.controller.search.SearchDAO#addVisited(Ljava/lang/String;Ljava/lang/String;)Zå
@@ -1904,7 +1947,9 @@ doubles(J):java.util.Random#doubles(J)Ljava/util/stream/DoubleStream;*
 nextLong()java.util.Random#nextLong()Jh
 )writeObject(Ljava/io/ObjectOutputStream;);java.util.Random#writeObject(Ljava/io/ObjectOutputStream;)V.
 resetSeed(J)java.util.Random#resetSeed(J)V3
-java.util.concurrent.locks.Lockjava.lang.Objectó
+java.util.concurrent.locks.Lockjava.lang.Object|
+(progettoispw.letmeknow.FormToTakeInterf1java.lang.Object>
+<init>()2progettoispw.letmeknow.FormToTakeInterf1#<init>()Vó
 1progettoispw.letmeknow.TakeForm3ControllerInterf1TakeFormControllerInterf1G
 <init>();progettoispw.letmeknow.TakeForm3ControllerInterf1#<init>()VÜ
 5progettoispw.letmeknow.controller.utentipsy.UtentePsyFormMetaSalvaUtenteU
@@ -1914,26 +1959,17 @@ nextLong()java.util.Random#nextLong()Jh
 setSelected([F)Fprogettoispw.letmeknow.controller.utentipsy.UtentePsy#setSelected([F)Vo
 <init>(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.utentipsy.UtentePsy#<init>(Ljava/lang/String;)VZ
 getSum()Nprogettoispw.letmeknow.controller.utentipsy.UtentePsy#getSum()Ljava/util/List;[
-collectForms(II)Gprogettoispw.letmeknow.controller.utentipsy.UtentePsy#collectForms(II)VØ
+collectForms(II)Gprogettoispw.letmeknow.controller.utentipsy.UtentePsy#collectForms(II)VÊ
+4progettoispw.letmeknow.controller.GoToFormControllerjava.lang.ObjectJ
+<init>()>progettoispw.letmeknow.controller.GoToFormController#<init>()VP
+getFormid()Aprogettoispw.letmeknow.controller.GoToFormController#getFormid()IØ
 (progettoispw.letmeknow.bean.SettingsBeanjava.lang.Objectd
 setFeed(Ljava/lang/String;)Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Zf
 setEmail(Ljava/lang/String;)Fprogettoispw.letmeknow.bean.SettingsBean#setEmail(Ljava/lang/String;)Zê
 1setPassword(Ljava/lang/String;Ljava/lang/String;)[progettoispw.letmeknow.bean.SettingsBean#setPassword(Ljava/lang/String;Ljava/lang/String;)Z>
 <init>()2progettoispw.letmeknow.bean.SettingsBean#<init>()VP
 closeConnection();progettoispw.letmeknow.bean.SettingsBean#closeConnection()VL
-8progettoispw.letmeknow.controller.utenti.SalvaUtenteMetajava.lang.Object•
- progettoispw.letmeknow.WordCheckjava.lang.Object6
-<init>()*progettoispw.letmeknow.WordCheck#<init>()V:
-
-<init>(II),progettoispw.letmeknow.WordCheck#<init>(II)Vd
-checkString(Ljava/lang/String;)Aprogettoispw.letmeknow.WordCheck#checkString(Ljava/lang/String;)Z:
-
-highText(),progettoispw.letmeknow.WordCheck#highText()It
-contaInvio(Ljava/lang/String;)Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;è
-,check1(Ljava/lang/String;Ljava/lang/String;)_progettoispw.letmeknow.WordCheck#check1(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;q
-checkLen(Ljava/lang/String;I)Pprogettoispw.letmeknow.WordCheck#checkLen(Ljava/lang/String;I)Ljava/lang/String;i
-check(Ljava/lang/String;)Lprogettoispw.letmeknow.WordCheck#check(Ljava/lang/String;)Ljava/lang/String;s
-checkAhead(Ljava/lang/String;)Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;Å	
+8progettoispw.letmeknow.controller.utenti.SalvaUtenteMetajava.lang.ObjectÅ	
 .progettoispw.letmeknow.controller.form.FormDAOjava.lang.ObjectFormMetaä
 "setCalculated(Ljava/lang/String;I)dprogettoispw.letmeknow.controller.form.FormDAO#setCalculated(Ljava/lang/String;I)Ljava/lang/Boolean;n
 takeAForm(Ljava/lang/String;)Mprogettoispw.letmeknow.controller.form.FormDAO#takeAForm(Ljava/lang/String;)ID
@@ -2189,7 +2225,10 @@ LbinarySearch0([Ljava/lang/Object;IILjava/lang/Object;Ljava/util/Comparator;)^j
 +fill([Ljava/lang/Object;Ljava/lang/Object;)=java.util.Arrays#fill([Ljava/lang/Object;Ljava/lang/Object;)V?
 toString([D)/java.util.Arrays#toString([D)Ljava/lang/String;*
 
-sort([JII)java.util.Arrays#sort([JII)Vë
+sort([JII)java.util.Arrays#sort([JII)VÕ
+&progettoispw.letmeknow.bean.UseridBeanjava.lang.Object<
+<init>()0progettoispw.letmeknow.bean.UseridBean#<init>()VS
+getUserId()Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;ë
 7progettoispw.letmeknow.controller.RecoverPswdControllerjava.lang.ObjectM
 <init>()Aprogettoispw.letmeknow.controller.RecoverPswdController#<init>()Vu
 sendMail(Ljava/lang/String;)Uprogettoispw.letmeknow.controller.RecoverPswdController#sendMail(Ljava/lang/String;)ZÊ

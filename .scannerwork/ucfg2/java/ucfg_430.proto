@@ -1,15 +1,29 @@
 
-Dprogettoispw.letmeknow.bean.VisitBean#exitData()[Ljava/lang/Integer;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*˜
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("Ä
-Á
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (0
-datajava.lang.Integer[]"__id*
-"""µ
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (
-
-datajava.lang.Integer[]B)'
-%progettoispw.letmeknow.bean.VisitBean
+cprogettoispw.letmeknow.controller.form.FormDAO#setAnswer(Ljava/lang/String;I[II)Ljava/lang/Boolean;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java1 1("5*”
+2€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java5 5(H"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java5 5(H
+""*¾
+3€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java4 4((°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java4 4((
+stmtjava.sql.Statement"__id*
+""*
+2*¾
+5€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java2 2(°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java2 2(
+stmtjava.sql.Statement"__id*
+""*
+3:
+useridjava.lang.String:
+"":
+"":
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO

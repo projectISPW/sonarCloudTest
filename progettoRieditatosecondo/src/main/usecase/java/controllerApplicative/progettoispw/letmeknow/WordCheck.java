@@ -19,7 +19,6 @@ public class WordCheck {
         for (int k = goAhead-delta,count =goAhead-delta; k < inputText.length(); k = k+1) {
             if(inputText.toCharArray()[k]=='\n'){
                 count=0;
-                //System.out.println("gia andato a capo");
             }
             if (count==goAhead){
                 add = inputText.substring(k);
@@ -35,7 +34,6 @@ public class WordCheck {
                 count++;
             }
         }
-        //System.out.println(inputText);
         text=inputText;
         return  inputText;
     }
@@ -51,7 +49,6 @@ public class WordCheck {
             {
                     add = inputText.substring(k);
                     before = inputText.substring(0, k);
-                    //System.out.println(add+","+before);
                     inputText = before + immetti + add;
                     ++k;
 

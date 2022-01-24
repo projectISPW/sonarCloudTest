@@ -1,39 +1,15 @@
 
-yprogettoispw.letmeknow.controller.utentiusr.Query#queryResult(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java$ $(#"5*Æ
-3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '(*"¢
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '(*
-
-%1java.sql.ResultSet*ù
-4É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(U¬
-ø
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(U
-sqljava.lang.String"__id*
-
-%0java.lang.String«ƒ
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*„
-5É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(“
-œ
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(T
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*,*
-( SELECT * FROM forms where `userid`=%s ;*
-
-uidjava.lang.String*
-4:
-stmtjava.sql.Statement:
-uidjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentiusr.Query
+Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)Zü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("2"1*“
+2ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("™
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (.
+""*“
+1ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("™
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (
+"":
+inputjava.lang.StringB/-
++progettoispw.letmeknow.bean.RecoverPswdBean

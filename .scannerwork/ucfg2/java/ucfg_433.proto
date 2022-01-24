@@ -1,15 +1,28 @@
 
-Aprogettoispw.letmeknow.bean.VisitBean#exitDes()Ljava/lang/String;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java* *("1*–
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java+ +(!Ã
-À
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java+ +(6
-outputjava.lang.String"__id*
-"""´
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java, ,(
+\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javae e("1*³
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaf f(°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaf f(
+stmtjava.sql.Statement"__id*
+""¶
+³
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javah h('
+%0int[]"Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I*20
+.progettoispw.letmeknow.controller.form.FormDAO*
 
-outputjava.lang.StringB)'
-%progettoispw.letmeknow.bean.VisitBean
+useridjava.lang.String°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javai i($
+stmtjava.sql.Statement"__id*
+"""‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javal l(
+"":
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO

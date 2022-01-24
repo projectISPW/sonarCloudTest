@@ -1,12 +1,10 @@
 
-Uprogettoispw.letmeknow.controller.RecoverPswdController#sendMail(Ljava/lang/String;)Z«
- C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java
- 
-("1*ê
-1«
- C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java ("¶
-«
- C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java (+
+Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Z™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("1*Æ
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (&
 "":
-inputjava.lang.StringB;9
-7progettoispw.letmeknow.controller.RecoverPswdController
+inputjava.lang.StringB,*
+(progettoispw.letmeknow.bean.SettingsBean

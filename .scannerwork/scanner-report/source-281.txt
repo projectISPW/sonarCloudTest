@@ -1,45 +1,58 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.ISCController;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.*;
+import progettoispw.letmeknow.bean.SignupBean;
 
-import java.util.ArrayList;
+public class SignupPsychologistControllerInterf1 {
+    SignupBean bean;
+    Page controller=new Page();
+    @FXML
+    TextField email;
+    @FXML
+    PasswordField pswd;
+    @FXML
+    PasswordField confirmpswd;
+    @FXML
+    Label emailCheck;
+    @FXML
+    Label pswdCheck;
+    public SignupPsychologistControllerInterf1() {
+        bean=new SignupBean();
+    }
+    public void initialize(){
 
-public class ISCBean {
-    private int nval;
-    private ISCController controller;
-    public ISCBean (int val){
-        nval=val;
-        controller=new ISCController(nval);
     }
-    public ISCBean (){
-        nval=0;
-        controller=new ISCController();
+    private boolean check(Boolean bool,Label lab){
+        if(bool==false)lab.setOpacity(1);
+        return bool;
     }
-    public String getUserid(){
-        return controller.getUid();
-    }
-    public String[][] exitUid(){
-        int index;
-        ArrayList<lastMessage>  actual= (ArrayList<lastMessage>) controller.queryUsers();;
-        String [][] arrStr;
-        if(nval!=0) arrStr=new String[2][nval];
-        else arrStr=new String[2][actual.size()];
-        for(lastMessage usr : actual){
-            index =actual.indexOf(usr);
-            arrStr[0][index]=usr.getUserid();
-            arrStr[1][index]= usr.getLastmsg();
+    @FXML
+    protected void backToLogin() {
+            Page controller=new Page();
+            controller.backTo();
         }
-        return arrStr;
-    }
-    public void touched(String user){
-        controller.who(user);
-    }
-    public void search(String find){
-        if(!find.equals("")) {
-            controller.search(find);
+    public void save (ActionEvent event) {
+        Boolean bool;
+        emailCheck.setOpacity(0);
+        pswdCheck.setOpacity(0);
+        bool = bean.checkEmail(email.getText(), true);
+        if (check(bool, emailCheck) == false) return;
+        bool = bean.checkPswd(pswd.getText(), confirmpswd.getText());
+        if (check(bool, pswdCheck) == false) return;
+        bool = bean.signupPSY(pswd.getText(), email.getText());
+        if (bool) backToLogin();
+        else {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Attention ");
+            alert.setHeaderText("We could'nt retrieve your data, please try again!");
+            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
+            if (alert.showAndWait().get() == ButtonType.OK) {
+                System.out.println("Prompt: Empty Fields Alert");
+                event.consume();
+                return;
+            }
         }
-    }
-    public void reset(){
-        controller.reset();
     }
 }

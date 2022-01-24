@@ -75,7 +75,6 @@ public class ChatControllerInterf1 {
     }
     public void  initialize(){
         withName.setText("User #"+bean.getWith());
-        System.out.println("stage inizializzato");
         recivemsgArr();
         this.timeline.play();
     }
