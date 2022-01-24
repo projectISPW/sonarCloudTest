@@ -1,53 +1,9 @@
 
-Qprogettoispw.letmeknow.controller.ConnectionDB#getStatement()Ljava/sql/Statement;‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (("3*”	
-2‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (º
-·
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
-%1java.io.PrintStream"__id*
-""˜•
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (+
-
-%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*
-	i am here2println(Ljava/lang/String;)°
-­
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java   ( 
-%3java.sql.Statement"Oprogettoispw.letmeknow.controller.ConnectionDB#connection()Ljava/sql/Statement;*2"0
-.progettoispw.letmeknow.controller.ConnectionDBð
-í
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java   ( ;0
-.progettoispw.letmeknow.controller.ConnectionDB"
-stmt1"__id*
-
-%3java.sql.Statement*
-1*Œ
-3‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (ð
-í
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java (
-%0java.sql.Statement"__id*=*;0
-.progettoispw.letmeknow.controller.ConnectionDB"
-stmt1*
-2
-1*±
-1‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java" "(ð
-í
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java" "(
-%4java.sql.Statement"__id*=*;0
-.progettoispw.letmeknow.controller.ConnectionDB"
-stmt1"ª
-‹
-€C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDB.java" "(
-
-%4java.sql.StatementB2"0
-.progettoispw.letmeknow.controller.ConnectionDB
+Oprogettoispw.letmeknow.controller.VisitController#returnTag()Ljava/lang/String;Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java ("1*Ò
+1Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java ("ª
+Ÿ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java (
+""B53
+1progettoispw.letmeknow.controller.VisitController

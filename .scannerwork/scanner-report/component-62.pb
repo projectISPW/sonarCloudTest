@@ -1,1 +1,0 @@
-> 2xmlXFhr progettoRieditatosecondo/pom.xml

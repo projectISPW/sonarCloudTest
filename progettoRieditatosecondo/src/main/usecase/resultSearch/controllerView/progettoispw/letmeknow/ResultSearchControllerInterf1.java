@@ -1,111 +1,131 @@
 package progettoispw.letmeknow;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Group;
+import javafx.scene.Node;
+import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.ISCBean;
 import progettoispw.letmeknow.bean.BeanResultSearch;
 
 public class ResultSearchControllerInterf1 {
-    PageMenu controller=new PageMenu();
     @FXML
-    Group g1,g2,g3,g4;
-    Group[]group;
+    protected Group group1;
     @FXML
-    Text uid1, uid2,uid3,uid4;
-    Text[] vUid;
-    String [] strUid=new String[4];
+    protected Group group2;
     @FXML
-    Text des1,des2,des3,des4;
-    Text [] vDes;
-    String [] strDes=new String[4];
+    protected Group group3;
     @FXML
-    Text goal1,goal2,goal3,goal4;
-    Text [] vGoal;
-    String [] strGoal=new String[4];
+    protected Group group4;
+    Group [] visitGroup;
+    String [] uids;
+    static final String UID_CONTENT ="Userid  : #";
+    static final String MSG_WORKON ="Working On :";
+    static final String DESCRIPTION ="About me :";
+    private PageMenu controller;
+    BeanResultSearch beanVisit;
     ISCBean chatBean;
     int nval;
-    BeanResultSearch bean;
     public ResultSearchControllerInterf1(){
         nval=4;
-        bean=new BeanResultSearch(nval);
+        beanVisit=new BeanResultSearch(nval);
         chatBean=new ISCBean();
+        controller=new PageMenu();
+        uids=new String[nval];
     }
     public void initialize(){
-        vUid=new  Text[]{uid1,uid2,uid3,uid4};
-        vDes=new Text[]{des1,des2,des3,des4};
-        vGoal=new Text[]{goal1,goal2,goal3,goal4};
-        group=new Group[]{g1,g2,g3,g4};
+        visitGroup=new Group[]{group1,group2,group3,group4};
         outputVal();
     }
+
+    public String[] ouputVal_prev(Group [] input, int inputnval, String[] output){
+        visitGroup=input;
+        nval=inputnval;
+        beanVisit=new BeanResultSearch(nval);
+        uids=new String[nval];
+
+        return outputVal();
+    }
     @FXML
-    public void outputVal(){
-        for(int i=0;i<group.length;i++){
-            if (group[i].getOpacity()==0)group[i].setOpacity(1);
-        }
-        strDes= bean.exitDes();
-        strGoal=bean.exitGoal();
-        strUid= bean.exitUID();
+    public String [] outputVal(){
         for(int i=0;i<nval;i++){
-            if(strUid[i]==null || strDes[i]==null || strGoal[i]==null) group[i].setOpacity(0);
-            vUid[i].setText("Id:"+strUid[i]);
-            vDes[i].setText("About me: " +strDes[i]);
-            vGoal[i].setText("Working on: "+strGoal[i]);
+            System.out.println(i);
+            visitGroup[i].setOpacity(1);
         }
+        String [] [] users= beanVisit.exitDes();
+        String[] strDes= users[2];
+        String[] strGoal=users[1];
+        String[] strUid=users[0];
+        for(int i=0;i<nval;i++){
+            ObservableList<Node> externList= visitGroup[i].getChildren();
+            Group group =(Group)externList.get(2);
+            ObservableList<Node>inner=group.getChildren();
+            if(strUid[i]!=null){
+                for(Node elem:inner){
+                    Text text=(Text)elem;
+                    if(text.getText().contains(UID_CONTENT)){
+                        text.setText(UID_CONTENT +strUid[i]);
+                        uids[i]=strUid[i];
+                    }
+                    else if(text.getText().contains(MSG_WORKON)){
+                        text.setText(MSG_WORKON+strGoal[i]);
+                        System.err.println("obiettivo in ingresso" + strGoal[i]);
+                    }
+                    else if(text.getText().contains(DESCRIPTION))text.setText(DESCRIPTION+strDes[i]);
+                }
+            }
+            else {
+                visitGroup[i].setOpacity(0);
+            }}
+        return uids;
     }
     @FXML
-    protected void goBack(ActionEvent event)  {
-        controller.switchTo("search/interf1.fxml",event,"Search");
+    public void touchChat(ActionEvent event){
+        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1();
+        iscController.setUIDS(uids);
+        iscController.touchChat(event);
+    }
+    public void setUids(String [] input){
+        uids=input;
     }
     @FXML
-    protected void goToPersonalForm(ActionEvent event) {
-        controller.switchToPersonalForm(event);
+    public void visit(ActionEvent event) {
+        Button button = (Button) event.getTarget();
+        if (button.getOpacity() < 1) return;
+        System.out.println(button.getId());
+        switch (button.getId()) {
+            case "home1":
+                System.err.println("andato su home 1");
+                beanVisit.touched(uids[0]);
+                break;
+            case "home2":
+                beanVisit.touched(uids[1]);
+                break;
+            case "home3":
+                beanVisit.touched(uids[2]);
+                break;
+            case "home4":
+                beanVisit.touched(uids[3]);
+                break;
+            default: {
+                event.consume();
+            }
+        }
+        controller.switchTo("homepageOthers/interf1.fxml",event,"visit");
+    }
+    @FXML
+    protected void goBack()  {
+        controller.backTo();
     }
     @FXML
     protected void goToHome(ActionEvent event) {
         controller.switchToHome(event);
     }
-    protected void visit(ActionEvent event,int i){
-        if(group[i].getOpacity()==1){
-            bean.touched(strUid[i]);
-            controller.switchTo("homepageOthers/interf1.fxml",event,"Visit");
-        }
-    }
     @FXML
-    protected void visit1(ActionEvent event){
-        visit(event,0);
-    }
-    @FXML
-    protected void visit2(ActionEvent event){
-        visit(event,1);
-    }
-    @FXML
-    protected void visit3(ActionEvent event){
-        visit(event,2);
-    }
-    @FXML
-    protected void visit4(ActionEvent event){
-        visit(event,3);
-    }
-    private void visit1(ActionEvent event,int i ){
-        chatBean.touched(strUid[i]);
-        controller.switchTo("chat/interf1.fxml",event,"Visit");
+    protected void goToPersonalForm(ActionEvent event){
+        controller.switchToPersonalForm(event);
     }
 
-    public void touchChat1(ActionEvent event) {
-        visit1(event,0);
-    }
-
-    public void touchChat4(ActionEvent event) {
-        visit1(event,3);
-    }
-
-    public void touchChat3(ActionEvent event) {
-        visit1(event,2);
-    }
-
-    public void touchChat2(ActionEvent event) {
-        visit1(event,1);
-    }
 }

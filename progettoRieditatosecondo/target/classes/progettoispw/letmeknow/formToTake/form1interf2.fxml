@@ -1,127 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import javafx.scene.Group?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ProgressBar?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.Slider?>
-<?import javafx.scene.effect.Blend?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="0.0" maxWidth="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="0.0" maxWidth="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.TakeForm1ControllerInterf1">
     <children>
 
         <ScrollPane blendMode="MULTIPLY" hbarPolicy="NEVER" layoutX="492.0" layoutY="1.0" prefHeight="780.0" prefWidth="920.0" style="-fx-background: white; -fx-: ;" styleClass="startChat" vbarPolicy="NEVER">
-            <content>
-                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1267.0" prefWidth="900.0" style="-fx-background-color: white;" stylesheets="@../css.css">
-                    <children>
-                        <Slider blockIncrement="1.0" layoutX="324.0" layoutY="82.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text fill="#3884ff" layoutX="-39.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It is difficult for me to understand what makes my friends happy." textAlignment="CENTER" wrappingWidth="1034.8586730957031">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="233.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="643.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text fill="#3884ff" layoutX="162.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When someone else is feeling excited, I tend to get excited too">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="228.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Slider blockIncrement="1.0" layoutX="324.0" layoutY="262.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text layoutX="635.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text fill="#3884ff" layoutX="176.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I usually don’t laugh or joke around much with other people.">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Slider blockIncrement="1.0" layoutX="324.0" layoutY="411.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text layoutX="228.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="635.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Slider blockIncrement="1.0" layoutX="324.0" layoutY="591.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text fill="#3884ff" layoutX="128.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I rarely make other people laugh by telling funny stories about myself.">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="635.0" layoutY="628.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="228.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text fill="#3884ff" layoutX="17.0" layoutY="757.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When I experience real difficulty at work/home, I also feel negative about other parts of my life.">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Slider blockIncrement="1.0" layoutX="333.0" layoutY="784.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text layoutX="644.0" layoutY="829.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="237.0" layoutY="832.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text fill="#3884ff" layoutX="99.0" layoutY="925.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As the leader, when my team completes a project, I tend to attribute the success to the hard work and dedication of the team members, as opposed to my skilled leadership.As the leader, when my team completes a project, I tend to attribute the success to the hard work and dedication of the team members, as opposed to my skilled leadership." textAlignment="CENTER" wrappingWidth="757.4320983886719">
-                            <font>
-                                <Font size="24.0" />
-                            </font>
-                        </Text>
-                        <Slider blockIncrement="1.0" layoutX="333.0" layoutY="1084.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
-                        <Text layoutX="648.0" layoutY="1129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="241.0" layoutY="1132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
-                            <font>
-                                <Font size="18.0" />
-                            </font>
-                        </Text>
-                    </children>
-                </AnchorPane>
-            </content>
             <effect>
                 <Blend />
             </effect>
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1267.0" prefWidth="900.0" style="-fx-background-color: white;" stylesheets="@../css.css">
+               <children>
+                  <Slider blockIncrement="1.0" layoutX="324.0" layoutY="82.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text fill="#3884ff" layoutX="-39.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It is difficult for me to understand what makes my friends happy." textAlignment="CENTER" wrappingWidth="1034.8586730957031">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="233.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="643.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#3884ff" layoutX="162.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When someone else is feeling excited, I tend to get excited too">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="228.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Slider blockIncrement="1.0" layoutX="324.0" layoutY="262.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text layoutX="635.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#3884ff" layoutX="176.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I usually don’t laugh or joke around much with other people.">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Slider blockIncrement="1.0" layoutX="324.0" layoutY="411.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text layoutX="228.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="635.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Slider blockIncrement="1.0" layoutX="324.0" layoutY="591.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text fill="#3884ff" layoutX="128.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I rarely make other people laugh by telling funny stories about myself.">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="635.0" layoutY="628.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Agree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="228.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Strongly&#10;Disagree">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#3884ff" layoutX="210.0" layoutY="746.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When I experience real difficulty at work/home,&#10; I also feel negative about other parts of my life.">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Slider blockIncrement="1.0" layoutX="333.0" layoutY="784.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text layoutX="644.0" layoutY="829.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="237.0" layoutY="832.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#3884ff" layoutX="99.0" layoutY="925.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As the leader, when my team completes a project, I tend to attribute the success to the hard work and dedication of the team members, as opposed to my skilled leadership.As the leader, when my team completes a project, I tend to attribute the success to the hard work and dedication of the team members, as opposed to my skilled leadership." textAlignment="CENTER" wrappingWidth="757.4320983886719">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Slider blockIncrement="1.0" layoutX="336.0" layoutY="1103.0" majorTickUnit="1.0" max="5.0" maxWidth="-Infinity" min="1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="278.0" showTickLabels="true" snapToTicks="true" value="5.0" />
+                  <Text layoutX="651.0" layoutY="1148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Very often">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="244.0" layoutY="1151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not at all">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="lb5" layoutX="471.0" layoutY="76.0" styleClass="textLab" />
+                  <Label fx:id="lb1" alignment="CENTER" layoutX="396.0" layoutY="87.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb2" alignment="CENTER" layoutX="395.0" layoutY="269.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb3" alignment="CENTER" layoutX="400.0" layoutY="417.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb4" alignment="CENTER" layoutX="396.0" layoutY="597.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb5" alignment="CENTER" layoutX="406.0" layoutY="791.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lb6" alignment="CENTER" layoutX="408.0" layoutY="1110.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
         </ScrollPane>
         <Text layoutX="176.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Fill the form">
             <font>
@@ -166,7 +192,7 @@
                 <FontAwesomeIcon fill="#0059ff91" glyphName="COG" size="40" text="" />
             </graphic>
         </Button>
-        <Button layoutX="224.0" layoutY="500.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="131.0" styleClass="Button">
+        <Button layoutX="224.0" layoutY="500.0" mnemonicParsing="false" onAction="#save" prefHeight="58.0" prefWidth="131.0" styleClass="Button">
             <font>
                 <Font size="24.0" />
             </font>

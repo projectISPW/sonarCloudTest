@@ -1,46 +1,40 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.VisitController;
+import progettoispw.letmeknow.controller.form.ResultForm;
 
-public class VisitBean {
-    VisitController controller;
-    public String getUserId() {
-        controller=new VisitController();
-        return controller.getUserid();
+public class FormToTakeStatusController {
+    String userid;
+    int formid;
+    ResultForm form;
+    int [] values;
+    public FormToTakeStatusController(int inputform){
+        userid= ControllerClass.getUserUSR().getUserid();
+        formid=inputform;
+        form= new ResultForm(userid,formid);
+    }
+    public void setValResponse(int [] passaggio){
+        form.setRisposte(passaggio);
+    }
+    public int[] getValResponse(){
+        values=form.getRisposte();
+        return form.getRisposte();
+    }
+    public String getUserid(){
+        return userid;
+    }
+    public int getValComplete() {
+        return form.getComplete();
     }
 
-    public String exitObiettivo() {
-        WordCheck checkStr = new WordCheck(3, 20);
-        String obiettivo = controller.tornaObiettivo();
-        return obiettivo=checkStr.check(obiettivo);
-    }
-    public Integer[] exitData(){
-            Integer [] data=controller.tornaData();
-            return data;
-    }
-
-    public Integer [] exitValue(){
-        Integer valori []={0,0,0};
-        //valori[0]=1;  valori[1]=1; valori[2]=1;
-        valori[0]=controller.tornaValoriEmpatia();
-        valori[1]=controller.tornaValoriUmorismo();
-        valori[2]=controller.tornaValoriPositivita();
-        for(int i =0;i<2;i++){
-            if(valori[i]>5 || valori[i]<1){
-            System.err.println("error occurred");
+    public boolean[] getStatus() {
+        boolean [] bool=new boolean[values.length];
+        for(int i=0;i<values.length;i++){
+            if(values[i]>=1)bool[i]=true;
+            else{
+                bool[i]=false;
             }
         }
-        return valori;
+        return bool;
     }
-    public String exitTag(){
-            WordCheck checkStr=new WordCheck(3,20);
-            String tag=controller.tornaTag();
-            return tag;
-        }
 
-    public String exitDes(){
-        String output= controller.tornaDescrizione();
-        return output;
-    }
 }

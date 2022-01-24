@@ -1,21 +1,12 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.*;
+import progettoispw.letmeknow.bean.FormResultBean;
 
-public class searchBean {
-    private searchController controller;
-    public searchBean(){
-        controller=new searchController();
+public class Form1ResultInterf1 extends FormResultInterf1 {
+    public Form1ResultInterf1(){
+        bean=new FormResultBean(1);
     }
-    public void enterParamSearch(Integer [] input){
-        controller.enterParamSearch(input);
-    }
-    public void enterGoalSearch(String input){
-        controller.enterGoal(input);
-    }
-    public void enterDescrSearch(String input){controller.enterDes(input);}
-    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
-    public void toMe(){
-        controller.toMe();
-    }
+
+
+
 }

@@ -1,30 +1,49 @@
 package progettoispw.letmeknow;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.GoToFormBean;
+
 import progettoispw.letmeknow.bean.SignupBean;
 
-import java.io.IOException;
+
 import java.util.Vector;
 
 public class SignupControllerInterf1 {
     private Page controller= new Page();
     @FXML
-    TextField email,description,goal;
+    TextField email;
     @FXML
-    PasswordField pswd,confirmpswd;
+    TextField description;
     @FXML
-    Slider sl1,sl2,sl3;
+    TextField goal;
+    @FXML
+    PasswordField pswd;
+    @FXML
+    PasswordField confirmpswd;
+    @FXML
+    Slider sl1;
+    @FXML
+    Slider sl2;
+    @FXML
+    Slider sl3;
     Vector<Slider>sl;
     @FXML
-    Label lab1,lab2,lab3;
+    Label lab1;
+    @FXML
+    Label lab2;
+    @FXML
+    Label lab3;
     Label[]labels;
     @FXML
-    Label emailCheck,pswdCheck,desCheck,slCheck;
+    Label emailCheck;
+    @FXML
+    Label pswdCheck;
+    @FXML
+    Label desCheck;
+    @FXML
+    Label slCheck;
     private int indice;
     SignupBean bean;
     public SignupControllerInterf1(){
@@ -82,7 +101,7 @@ public class SignupControllerInterf1 {
         else{
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("keep attention ");
-            alert.setHeaderText("Non siamo riusciti a prendere i tuoi dati per favore ritenta !");
+            alert.setHeaderText("We weren't be able to retrieve your data, please try  again!");
             alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
             if(alert.showAndWait().get()==ButtonType.OK) {
                 System.out.println("Prompt: Empty Fields Alert");

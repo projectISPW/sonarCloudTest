@@ -1,68 +1,82 @@
 
-@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("7*Œ
-3‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java# #(ê
-ç
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java# #(7
-%4"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-i am the reciver*
-5
-1*‹
-4‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java"- "(6é
-æ
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java"- "(R
-%3"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-i am the sender*
-5
-1*ê
-5‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java! !(Ü
-Ù
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java! !(-
-%1"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-""é
-æ
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java"' "(+
-%2java.lang.String"__id*2*0&
-$progettoispw.letmeknow.bean.ChatBean"
-with*
-3
-4*Ä
-7‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java( (,ÅÂ
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (6
-%0java.lang.String[]"java.lang.String[]Ú
-×
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
-	returnStrjava.lang.String[]"__id*
+wprogettoispw.letmeknow.controller.search.Query#searchAll(Ljava/sql/Statement;Ljava/lang/String;III)Ljava/sql/ResultSet;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java	 	(!"7*¨
+4€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*"Ÿ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*
 
-%0java.lang.String[]*
-5
-1*Ñ
-1‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java% %("·
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java% %(!
-
-	returnStrjava.lang.String[]B(&
-$progettoispw.letmeknow.bean.ChatBean
+%5java.sql.ResultSet*Ò
+5€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (ÄÁ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ()
+%5java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+4*›
+6€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+ (,¿
+¼
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+ (,
+sqljava.lang.String"__id*
+
+%2java.lang.String¯
+¬
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (
+%3java.io.PrintStream"__id*
+""™–
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (#
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%3java.io.PrintStream*
+
+sqljava.lang.String2println(Ljava/lang/String;)*
+5*Ö
+7€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+ 
+(ã
+à
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+% (;
+%0java.lang.String"__concat*
+SELECT userid *%#
+!FROM utenti WHERE type='usr' and ‰
+†
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+% ([
+%1java.lang.String"__concat*
+
+%0java.lang.String*EC
+Aempathy>=%d and humor>=%d and positivity >=%d and userid != '%s' Ö
+Ó
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+ (+
+%2java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%1java.lang.String*
+""*
+""*
+""*
+
+iduserjava.lang.String*
+6:
+stmtjava.sql.Statement:
+iduserjava.lang.String:
+"":
+"":
+""B20
+.progettoispw.letmeknow.controller.search.Query

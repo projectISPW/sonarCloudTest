@@ -1,39 +1,44 @@
 
-yprogettoispw.letmeknow.controller.utentiusr.Query#queryResult(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaB B(#"5*Æ
+Ñprogettoispw.letmeknow.controller.utentiusr.Query#setDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZÉ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("5*ö
 3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaE E(*"¢
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("é
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaE E(*
-
-%1java.sql.ResultSet*ù
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (
+""*˝
 4É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaD D(U¬
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (y¬
 ø
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaD D(U
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (y
 sqljava.lang.String"__id*
 
-%0java.lang.String«ƒ
+%0java.lang.Stringß§
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaE E()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*„
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*µ
 5É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaD D(“
-œ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (§
+°
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaD D(T
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (x
 %0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*,*
-( SELECT * FROM forms where `userid`=%s ;*
-
-uidjava.lang.String*
+java.lang.String*CA
+? UPDATE  `utenti`\n set `%s`='%s'\n WHERE (`userid` = '%s') ;\n*
+
+whatjava.lang.String*
+
+editjava.lang.String*
+
+iduserjava.lang.String*
 4:
-stmtjava.sql.Statement:
-uidjava.lang.StringB53
+stmtjava.sql.Statement:
+iduserjava.lang.String:
+whatjava.lang.String:
+editjava.lang.StringB53
 1progettoispw.letmeknow.controller.utentiusr.Query

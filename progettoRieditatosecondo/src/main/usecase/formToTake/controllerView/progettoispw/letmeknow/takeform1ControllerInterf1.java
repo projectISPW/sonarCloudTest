@@ -13,9 +13,9 @@ import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 import java.io.IOException;
 import java.util.List;
 import java.util.Vector;
-public class takeform1ControllerInterf1 extends takeformControllerInterf1 {
+public class TakeForm1ControllerInterf1 extends TakeFormControllerInterf1 {
 
-    public takeform1ControllerInterf1(){
+    public TakeForm1ControllerInterf1(){
         super.startStatus=new FormToTakeStatusBean(1);
     }
 }

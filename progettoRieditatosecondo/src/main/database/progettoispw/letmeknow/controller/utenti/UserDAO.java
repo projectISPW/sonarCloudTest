@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO implements SalvaUtenteMeta, FormMeta {
+public class UserDAO implements SalvaUtenteMeta,FormMeta {
     ConnectionDBMS connDB;
     Query query;
     public UserDAO() {

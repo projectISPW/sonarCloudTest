@@ -1,0 +1,7 @@
+
+v
+java:S1450"YRemove the "controller" field and declare it as a local variable in the relevant methods.(ÂĞˆ©8 Á¬òç/
+G
+java:S1197"*Move the array designators [] to the type.(Äâª8£Á¬òç/
+]	java:S125	"<This block of commented-out lines of code should be removed.(Ò¸Ïıÿÿÿÿ8¦Á¬òç/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ìÂµ½úÿÿÿÿ8¨Á¬òç/

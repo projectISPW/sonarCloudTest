@@ -1,34 +1,30 @@
 
-Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java] ]("6"7*á
-4v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c(ÛØ
+,progettoispw.letmeknow.WordCheck#highText()Iv
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaG G("3*þ
+2v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaJ J("€
 v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c('
-%1char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
-1*á
-6v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(ÛØ
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaJ J(
+""*š
+3v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H(É
+Æ
 v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(,
-%0char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H("
+%0java.lang.String"__id*.*,"
+ progettoispw.letmeknow.WordCheck"
+textÈÅ
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaH H(#
+%1java.lang.Integer"Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;*$"
+ progettoispw.letmeknow.WordCheck*
+
+%0java.lang.String2contaInvio(Ljava/lang/String;)*
+2
 1*þ
-7v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_" _(&"€
-v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_ _('
-""*—
 1v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f("™
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaL L("€
 v
-lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f(
-
-	inputTextjava.lang.String:
-	inputTextjava.lang.StringB$"
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaL L(
+""B$"
  progettoispw.letmeknow.WordCheck

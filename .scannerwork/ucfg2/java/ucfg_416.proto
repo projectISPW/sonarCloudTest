@@ -1,11 +1,34 @@
 
-Cprogettoispw.letmeknow.bean.VisitBean#getUserId()Ljava/lang/String;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*º
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java	 	(("ž
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java
- 
-(&
-""B)'
-%progettoispw.letmeknow.bean.VisitBean
+Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java] ]("6"7*á
+4v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c(ÛØ
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javac c('
+%1char[]" java.lang.String#toCharArray()[C*
+
+	inputTextjava.lang.String2toCharArray()*
+4
+1*á
+6v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(ÛØ
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java` `(,
+%0char[]" java.lang.String#toCharArray()[C*
+
+	inputTextjava.lang.String2toCharArray()*
+4
+1*þ
+7v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_" _(&"€
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java_ _('
+""*—
+1v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f("™
+v
+lC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.javaf f(
+
+	inputTextjava.lang.String:
+	inputTextjava.lang.StringB$"
+ progettoispw.letmeknow.WordCheck

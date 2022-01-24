@@ -1,29 +1,16 @@
 
-àprogettoispw.letmeknow.controller.utenti.UserDAO#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZÇ
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaK K("7*ò
-4Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaP P("ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaP P(
-""*¬
-5Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaN N((≤
-Ø
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaN N((
-stmtjava.sql.Statement"__id*
-""*
-4*¬
-7Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaL L(≤
-Ø
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaL L(
-stmtjava.sql.Statement"__id*
-""*
-5:
-uidjava.lang.String:
-passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.StringB42
-0progettoispw.letmeknow.controller.utenti.UserDAO
+Jprogettoispw.letmeknow.controller.chat.Message#getText()Ljava/lang/String;Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java ("1*ã
+1Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (‚
+ﬂ
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (
+%0java.lang.String"__id*<*:0
+.progettoispw.letmeknow.controller.chat.Message"
+text"ù
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java (
+
+%0java.lang.StringB20
+.progettoispw.letmeknow.controller.chat.Message

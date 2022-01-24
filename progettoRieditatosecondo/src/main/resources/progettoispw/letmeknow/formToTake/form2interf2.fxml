@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import javafx.scene.Group?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ProgressBar?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.Slider?>
-<?import javafx.scene.effect.Blend?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.formToTake.Form2interf2">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.TakeForm2ControllerInterf1">
    <children>
       <AnchorPane layoutX="6.0" layoutY="4.0" maxHeight="0.0" maxWidth="0.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css">
          <children>
@@ -117,6 +112,37 @@
                               <Font size="18.0" />
                            </font>
                         </Text>
+                        <Label fx:id="lb5" layoutX="471.0" layoutY="76.0" styleClass="textLab" />
+                        <Label fx:id="lb1" alignment="CENTER" layoutX="396.0" layoutY="87.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lb2" alignment="CENTER" layoutX="395.0" layoutY="269.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lb3" alignment="CENTER" layoutX="400.0" layoutY="417.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lb4" alignment="CENTER" layoutX="396.0" layoutY="597.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lb5" alignment="CENTER" layoutX="406.0" layoutY="791.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lb6" alignment="CENTER" layoutX="408.0" layoutY="1110.0" prefHeight="26.0" prefWidth="135.0" styleClass="textLab" textAlignment="CENTER" textFill="#b108d4">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
                      </children>
                   </AnchorPane>
                </content>
@@ -167,7 +193,7 @@
                   <FontAwesomeIcon fill="#0059ff91" glyphName="COG" size="40" text="" />
                </graphic>
             </Button>
-            <Button layoutX="224.0" layoutY="500.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="131.0" styleClass="Button">
+            <Button layoutX="224.0" layoutY="500.0" mnemonicParsing="false" onAction="#save" prefHeight="58.0" prefWidth="131.0" styleClass="Button">
                <font>
                   <Font size="24.0" />
                </font>

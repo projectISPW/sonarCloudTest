@@ -1,48 +1,15 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.ResultSearchController;
+import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
-import java.util.ArrayList;
-
-public class BeanResultSearch {
-    Integer nval;
-    ResultSearchController controller;
-    public BeanResultSearch(int val){
-        nval=val;
-        controller=new ResultSearchController(nval);
+public class FormPsychologistResultController {
+    UtentePsy user;
+    public FormPsychologistResultController(){
+        user=ControllerClass.getUserPsy();
     }
-    public BeanResultSearch(){
-        controller=new ResultSearchController(nval);
-    }
-
-    int indice;
-    private ArrayList<InnerUsers> actual;
-    public String[] exitDes(){
-        String [] arrStr=new String[nval];
-        actual=controller.queryUsers();
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("description");
-        }
-        return arrStr;
-    }
-    public String[] exitGoal(){
-        String [] arrStr=new String[nval];
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("goal");
-        }
-        return arrStr;
-    }
-    public String[] exitUID(){
-        String [] arrStr=new String[nval];
-        for(InnerUsers usr : actual){
-            indice=actual.indexOf(usr);
-            arrStr[indice]=usr.get("userid");
-        }
-        return arrStr;
-    }
-    public void touched(String user){
-        controller.who(user);
+    public float [] getSelected(){
+        float [] inner=user.getSelected();
+        for(int i=0 ; i <7 ;i++)System.out.println(inner[i]);
+        return user.getSelected();
     }
 }

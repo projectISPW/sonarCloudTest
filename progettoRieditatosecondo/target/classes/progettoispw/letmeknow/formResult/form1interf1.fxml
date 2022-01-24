@@ -11,11 +11,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.form1ResultInterf1">
+<AnchorPane prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.Form1ResultInterf1">
    <children>
       <Group layoutX="-16.0" layoutY="681.0">
          <children>
-            <Button layoutX="281.0" layoutY="0.5" mnemonicParsing="false" onAction="#goChat" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+            <Button layoutX="281.0" layoutY="0.5" mnemonicParsing="false" onAction="#goToISC" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
                <graphic>
                   <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" opacity="0.5" size="20" text="" />
                </graphic>
@@ -25,7 +25,7 @@
                   <FontAwesomeIcon fill="#377dff" glyphName="TASKS" size="50" />
                </graphic>
             </Button>
-            <Button layoutX="147.0" layoutY="0.5" mnemonicParsing="false" onAction="#goHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
+            <Button layoutX="147.0" layoutY="0.5" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
                <graphic>
                   <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="20" />
                </graphic>
@@ -43,8 +43,8 @@
       <Text fx:id="by" fill="#7836ea" layoutX="199.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #7836ea;" styleClass="param" text=" 22/11/2021" />
       <Text layoutX="61.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" styleClass="param" text="Empathy:" />
       <Text layoutX="61.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Humor:" />
-      <Text layoutX="61.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Potitivity:" />
-      <ImageView fx:id="positivitySlider" fitHeight="50.0" fitWidth="155.0" layoutX="181.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+      <Text layoutX="61.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Optimism:" />
+      <ImageView fx:id="optimismSlider" fitHeight="50.0" fitWidth="155.0" layoutX="181.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../homepage/photo/val3.png" />
          </image>

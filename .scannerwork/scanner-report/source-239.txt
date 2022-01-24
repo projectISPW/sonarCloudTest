@@ -1,39 +1,52 @@
-package progettoispw.letmeknow.bean;
+//spelling check + same line variables
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.fxml.FXML;
+import javafx.scene.control.Slider;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormPsychologistResultBean;
 
-public class InnerUsers {
-    private final String userid;
-    private String description;
-    private String goal;
-    private int lenMax;
-    private WordCheck check=new WordCheck();
-    public InnerUsers(UtenteUsr elem){
-        lenMax=15;
-        userid=elem.getUserid();
-        description= elem.getDescrizione();
-        goal=elem.getTag();
+public class FormPsychologistResultInterf1 {
+    @FXML
+    Text by;
+    @FXML
+    Slider sl1;
+    @FXML
+    Slider sl2;
+    @FXML
+    Slider sl3;
+    @FXML
+    Slider sl4;
+    @FXML
+    Slider sl5;
+    @FXML
+    Slider sl6;
+    Slider [] sliders;
+    FormPsychologistResultBean bean;
+    Page controller;
+    public FormPsychologistResultInterf1(){
+        bean=new FormPsychologistResultBean();
+        controller=new Page();
     }
-    public  String get(String what){
-        switch(what){
-            case "userid" :{
-                return userid;
-            }
-            case "description" :{
-                if(description!=null && description.length()>lenMax)description= check.checkLen(description,lenMax);
-                return check.checkAhead(description);
-            }
-            case "goal" :{
-                if(goal!=null && goal.length()>lenMax)goal= check.checkLen(goal,lenMax);
-                return check.checkAhead(goal);
-            }
-            default: return null;
+    public void initialize(){
+        sliders=new Slider[]{sl1,sl2,sl3,sl4,sl5,sl6};
+        float [] values= bean.getSelected();
+        for(int i=0;i<6;i++){
+            int index = i;
+            sliders[i].setValue(values[index+1]);
+            sliders[i].valueProperty().addListener(new ChangeListener<>() {
+                @Override
+                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                    sliders[index].setValue(values[index+1]);
+                }
+            });
         }
+        by.setText((int)values[0]+"users");
     }
-
-    public void getStatus(){
-        System.out.println("userid"+userid +"descrizione"+description+"tag"+goal);
+    @FXML
+    public void goBack(){
+        controller.backTo();
     }
-
 }

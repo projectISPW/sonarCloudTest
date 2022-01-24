@@ -1,1 +1,1 @@
-è 2javaXhrpprogettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java
+è 2javaX,hrzprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java

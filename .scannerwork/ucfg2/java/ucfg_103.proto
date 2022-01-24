@@ -1,17 +1,9 @@
 
-dprogettoispw.letmeknow.controller.form.FormSQL#setCalculated(Ljava/lang/String;I)Ljava/lang/Boolean;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaS S( "1*û
-1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaT T(ä
-á
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaT T(!
-%0java.sql.Statement"__id*<*:0
-.progettoispw.letmeknow.controller.form.FormSQL"
-stmt"‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormSQL.javaT T(1
-"":
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormSQL
+Bprogettoispw.letmeknow.bean.FormToTakeStatusBean#exitValStatus()[I£
+˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("1*Ú
+1£
+˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("®
+£
+˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (+
+""B42
+0progettoispw.letmeknow.bean.FormToTakeStatusBean

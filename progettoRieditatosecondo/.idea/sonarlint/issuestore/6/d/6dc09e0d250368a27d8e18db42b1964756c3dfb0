@@ -1,29 +1,0 @@
-
-X
-java:S1659"BDeclare "empSL" and all following declarations on a separate line.(ÙÆúé
-[
-java:S1659"@Declare "lb2" and all following declarations on a separate line.(Ãé¿£ıÿÿÿÿ
-B
-java:S1659"'Declare "inputGoal" on a separate line.(š¤àüúÿÿÿÿ
-{
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ì
-V	java:S125"<This block of commented-out lines of code should be removed.(—™Ù¹øÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(¡Ü¦˜ıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(¡Ü¦˜ıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(¡Ü¦˜ıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(¡Ü¦˜ıÿÿÿÿ
-Q	java:S125!"<This block of commented-out lines of code should be removed.(¥ß™Â
-=
-java:S1125""'Remove the unnecessary boolean literal.(«•æ•
-G
-java:S1602E",Remove useless curly braces around statement(ó®°Ïüÿÿÿÿ
-B
-java:S1602H",Remove useless curly braces around statement(ƒ²ü
-7
-java:S1116h"Remove this empty statement.(ò™à¯şÿÿÿÿ
-o
-java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(ë§ÿ¶
-C
-java:S1604;"(Make this anonymous inner class a lambda(ùÁÚèşÿÿÿÿ
-a
-java:S1301Q"KReplace this "switch" statement by "if" statements to increase readability.(ÊÕÕÈ

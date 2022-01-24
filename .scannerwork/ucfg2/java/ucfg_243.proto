@@ -1,11 +1,16 @@
 
-5progettoispw.letmeknow.bean.GoToFormBean#getFormid()I~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java
- 
-("1*Ž
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java ("ˆ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java (&
-""B,*
-(progettoispw.letmeknow.bean.GoToFormBean
+Lprogettoispw.letmeknow.controller.chat.Message#getSender()Ljava/lang/String;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java   ("1*
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(
+%0java.lang.String"__id*>*<0
+.progettoispw.letmeknow.controller.chat.Message"
+sender"
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(
+
+%0java.lang.StringB20
+.progettoispw.letmeknow.controller.chat.Message

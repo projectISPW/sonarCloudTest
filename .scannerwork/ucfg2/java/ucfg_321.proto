@@ -1,25 +1,44 @@
 
-Pprogettoispw.letmeknow.bean.HomepagePsicologistBean#getMonth()Ljava/lang/String;¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java ("1*¥
-1¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java (ž
-›
-¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java (
-%0java.lang.String[]"__id*G*E5
-3progettoispw.letmeknow.bean.HomepagePsicologistBean"
-
-monthNamesý
-ú
-¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java ("
-%1java.lang.String"
-__arrayGet*
-
-%0java.lang.String[]*
-"""Ì
-¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsicologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsicologistBean.java (#
+€progettoispw.letmeknow.controller.chat.Query#newMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ("5*Ž
+3~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java! !("ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java! !(
+""*í
+4
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (¤½
+º
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (¤
+sqljava.lang.String"__id*
 
-%1java.lang.StringB75
-3progettoispw.letmeknow.bean.HomepagePsicologistBean
+%0java.lang.String¡ž
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java   (#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*Õ
+5~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (Ê
+Ç
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (£
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*qo
+mINSERT INTO `messages` (`datetime`, `sender`, `reciver`, `text`) VALUES (CURRENT_TIMESTAMP, '%s', '%s', '%s')*
+
+fromjava.lang.String*
+
+whojava.lang.String*
+
+textjava.lang.String*
+4:
+stmtjava.sql.Statement:
+fromjava.lang.String:
+whojava.lang.String:
+textjava.lang.StringB0.
+,progettoispw.letmeknow.controller.chat.Query

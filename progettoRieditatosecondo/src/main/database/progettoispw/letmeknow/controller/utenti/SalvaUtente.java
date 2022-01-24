@@ -16,6 +16,7 @@ public class SalvaUtente implements SalvaUtenteMeta {
     private Random randomno ;
     private static final  Lock mutex = new ReentrantLock(true);
     public SalvaUtente(String who)  {
+        if(who !=null && who.length()==7 ){
         userData=new UserDAO();
         String [] log=userData.selectUser(who);
         if(log[0]!=null && log[1]!=null){
@@ -24,9 +25,8 @@ public class SalvaUtente implements SalvaUtenteMeta {
             type=log[2];
             email=log[3];
         }
-        else{
-            userid=null;
         }
+
     }
     public SalvaUtente(){
         userid=password=type=null;

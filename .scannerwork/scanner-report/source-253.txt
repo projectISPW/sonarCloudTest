@@ -1,35 +1,21 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
-public class VisitController {
-    UtenteUsr user;
-    public VisitController(){
-        user= ControllerClass.getSearch().getTouched();
-    }
-    public String getUserid() {
-        return user.getUserid();
-    }
-   public int tornaValoriEmpatia(){
-        return user.getEmp();
-    }
-    public int tornaValoriUmorismo(){
-        return user.getHum();
-    }
-    public int tornaValoriPositivita(){
-        return user.getPos();
-    }
-    public String tornaObiettivo(){
-        return user.getObiettivo();
-    }
-    public Integer[] tornaData(){
-        return user.getData();
-    }
-    public String tornaTag(){
-        return user.getTag();
-    }
-    public String tornaDescrizione(){
-        return user.getDescrizione();
-    }
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.Slider;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Vector;
+public class TakeForm1ControllerInterf1 extends TakeFormControllerInterf1 {
+
+    public TakeForm1ControllerInterf1(){
+        super.startStatus=new FormToTakeStatusBean(1);
+    }
 }

@@ -1,51 +1,23 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.bean.InnerUsers;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.controller.FormResultController;
 
-import java.util.ArrayList;
-
-public class ResultSearchController {
-    ControllerClass factory;
-    private final ArrayList<String> founded;
-    private Integer count;
-    private final Integer nVal;
-    public ResultSearchController(Integer n){
-        founded=ControllerClass.getSearch().getArrayList() ;
-        nVal=n;
-        count=0;
+public class FormResultBean {
+    int formid;
+    FormResultController controller;
+    public FormResultBean(int inputformid){
+        System.out.println("id form in bean"+inputformid);
+        formid=inputformid;
+        controller=new FormResultController(formid);
     }
-    ArrayList<InnerUsers>formatted;
-    public void attach(InnerUsers elem){
-        formatted.add(elem);
+    public int[] exitValStatus(){
+        return controller.getValResponse();
     }
-    InnerUsers actual;
-    public ArrayList<InnerUsers> queryUsers(){
-        int indice;
-        actual=null;
-        formatted=new ArrayList<>();
-        count = check(count);
-        UtenteUsr user;
-        for (String userid : founded) {
-            user=new UtenteUsr(userid);
-            indice = founded.indexOf(userid);
-            if (indice >= count && indice < count + nVal) {
-               actual = new InnerUsers(user);
-               actual.getStatus();
-               attach(actual);
-            }
-        }
-        count+=nVal;
-        return formatted;
+    public int [] getParam(){
+        return controller.getParam();
     }
-
-    private Integer check(Integer count) {
-        if(count>=founded.size()){
-            return count=0;
-        }
-        return count;
-    }
-    public void who(String usr){
-        factory.getSearch().setTouched(usr);
+    public String getData(){
+        return controller.getDate();
     }
 }
+

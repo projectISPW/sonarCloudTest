@@ -1,0 +1,15 @@
+
+o
+java:S1450
+"YRemove the "newDueDate" field and declare it as a local variable in the relevant methods.(¥ÑÍí
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÿ∏ŸÅ
+V	java:S125,"<This block of commented-out lines of code should be removed.(îÍ’¯˙ˇˇˇˇ
+V	java:S1255"<This block of commented-out lines of code should be removed.(˜◊Œﬁ¸ˇˇˇˇ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¢ôÁØ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(†Œ◊Í¸ˇˇˇˇ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•†œÊˇˇˇˇˇ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•†œÊˇˇˇˇˇ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•†œÊˇˇˇˇˇ
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìàç’
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìàç’
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìàç’

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ResultForm implements FormMeta {
+public class ResultForm {
     private String userid;
     private int formid;
     private FormDAO formData;

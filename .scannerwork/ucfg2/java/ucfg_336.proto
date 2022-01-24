@@ -1,44 +1,14 @@
 
-„progettoispw.letmeknow.controller.utentiusr.Query#setDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Zƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("5*š
-3ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("Ž
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (
-""*ý
-4ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (qÂ
-¿
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (q
-sqljava.lang.String"__id*
-
-%0java.lang.String§¤
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*­
-5ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (œ
-™
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (p
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*;9
-7 UPDATE  utenti\n set %s='%s'\n WHERE userid = '%s' ;\n*
-
-whatjava.lang.String*
-
-editjava.lang.String*
-
-iduserjava.lang.String*
-4:
-stmtjava.sql.Statement:
-iduserjava.lang.String:
-whatjava.lang.String:
-editjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentiusr.Query
+Lprogettoispw.letmeknow.controller.HomepagePsychologistController#getList()[F¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("2"1*Œ
+2¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("Ç
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java (&
+""*Œ
+1¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("Ç
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java (
+""BDB
+@progettoispw.letmeknow.controller.HomepagePsychologistController

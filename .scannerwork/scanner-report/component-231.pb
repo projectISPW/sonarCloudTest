@@ -1,1 +1,1 @@
-ç 2javaXihrTprogettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/WordCheck.java
+ç 2javaX)hrnprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java

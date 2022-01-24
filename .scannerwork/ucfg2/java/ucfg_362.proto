@@ -1,16 +1,87 @@
 
-Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )("1*ä
-1
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
-þ
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
-%0java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ChatController"
-with"º
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java* *(
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.ChatController
+eprogettoispw.letmeknow.controller.search.SearchDAO#paramSearch(Ljava/lang/String;III)Ljava/util/List;„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (#"13*Ñ
+13„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (´
+±
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (
+stmtjava.sql.Statement"__id*
+""³
+°
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (
+rstjava.sql.ResultSet"__id*
+""º·
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*
+%0java.util.ArrayList"java.util.ArrayListÌ
+É
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (,
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayListÄ
+Á
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (-
+retjava.util.List"__id*
+
+%0java.util.ArrayList*
+11*­
+5„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java#' #(*" 
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java# #(+
+
+retjava.util.List*‡
+6„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java!+ !(.õò
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java! !(/
+%4"^progettoispw.letmeknow.controller.search.SearchDAO#attach(Ljava/lang/String;Ljava/util/List;)V*64
+2progettoispw.letmeknow.controller.search.SearchDAO*
+
+%3*
+
+retjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)*
+9*ª
+7„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java! !(˜•
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java! !()
+%3"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
+
+rstjava.sql.ResultSet*
+""2getString(Ljava/lang/String;)*
+6*ï
+9„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java   (Ú×
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java   (
+%2boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+5
+7*Æ
+10„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (;³
+°
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (;
+rstjava.sql.ResultSet"__id*
+""*
+9*È
+11„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*´
+±
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*
+stmtjava.sql.Statement"__id*
+""*
+10:
+uidjava.lang.String:
+"":
+"":
+""B64
+2progettoispw.letmeknow.controller.search.SearchDAO

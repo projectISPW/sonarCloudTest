@@ -1,41 +1,39 @@
 
-qprogettoispw.letmeknow.controller.utentiusr.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZÉ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaT T("5*ö
+yprogettoispw.letmeknow.controller.utentiusr.Query#queryResult(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java$ $(#"5*Æ
 3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaX X("é
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '(*"¢
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaX X(
-""*ˇ
-4Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaV V(â√
-¿
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaV V(â
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '(*
+
+%1java.sql.ResultSet*ù
+4É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(U¬
+ø
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(U
 sqljava.lang.String"__id*
 
-%0java.lang.Stringß§
+%0java.lang.String«ƒ
 É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaW W(#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java' '()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*Ø
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+3*„
 5É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaV V(û
-õ
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.javaV V(à
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(“
+œ
+É
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java& &(T
 %0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ZX
-V INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);*
-
-fromjava.lang.String*
-
-whatjava.lang.String*
+java.lang.String*,*
+( SELECT * FROM forms where `userid`=%s ;*
+
+uidjava.lang.String*
 4:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whatjava.lang.StringB53
+stmtjava.sql.Statement:
+uidjava.lang.StringB53
 1progettoispw.letmeknow.controller.utentiusr.Query

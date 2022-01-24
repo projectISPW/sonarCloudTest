@@ -1,1 +1,1 @@
-õ 2javaXhrvprogettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java
+õ 2javaXNhrqprogettoRieditatosecondo/src/main/usecase/formResult/controllerView/progettoispw/letmeknow/FormResultInterf1.java

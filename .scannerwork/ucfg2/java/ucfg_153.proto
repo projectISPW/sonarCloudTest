@@ -1,28 +1,15 @@
 
-Fprogettoispw.letmeknow.bean.lastMessage#getLastmsg()Ljava/lang/String;¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java ("1*ë
-1¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (‚
-ÿ
-¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (&
-%0java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.lastMessage"	
-lastmsgð
-í
-¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (.6)
-'progettoispw.letmeknow.bean.lastMessage"	
-lastmsg"__id*
-""‚
-ÿ
-¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
-%1java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.lastMessage"	
-lastmsg"Á
-¤
-™C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java (
-
-%1java.lang.StringB+)
-'progettoispw.letmeknow.bean.lastMessage
+Rprogettoispw.letmeknow.controller.SettingsController#setEmail(Ljava/lang/String;)Z¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("2"1*Þ
+2¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (#"°
+¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (4
+""*Þ
+1¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("°
+¥
+šC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (*
+"":
+inputjava.lang.StringB86
+4progettoispw.letmeknow.controller.SettingsController

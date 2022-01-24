@@ -1,1 +1,1 @@
-é 2javaXhr|progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java
+é 2javaXhhroprogettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/ChatControllerInterf1.java

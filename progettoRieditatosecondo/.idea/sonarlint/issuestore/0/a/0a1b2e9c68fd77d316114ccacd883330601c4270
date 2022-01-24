@@ -1,14 +1,0 @@
-
-j
-java:S3008	"ORename this field "User" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ά»Ϊϊÿÿÿÿ
-j
-java:S3008
-"ORename this field "Pass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¬“πόÿÿÿÿ
-g
-java:S3008"QRename this field "DB_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ν
-w
-java:S3008"\Rename this field "DRIVER_CLASS_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―³Ώνώÿÿÿÿ
-O
-java:S1118":Add a private constructor to hide the implicit public one.(Τ\
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¤«£ν
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ΜΛ¶ωÿÿÿÿ

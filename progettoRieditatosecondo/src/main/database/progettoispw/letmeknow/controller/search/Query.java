@@ -3,21 +3,9 @@ package progettoispw.letmeknow.controller.search;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 public class Query {
-    protected ResultSet searchVal(Statement stmt, String what , String iduser,int value) {
-       try {
-           String sql = String.format("SELECT userid,'%s' " +
-                   "FROM utenti " +
-                   "WHERE type='usr' and '%s'>=%d and userid != '%s'", what, what, value, iduser);
-           //System.out.println(sql);
-           return stmt.executeQuery(sql);
-       }catch (SQLException throwables) {
-           System.err.println("errore durante la searchVal");
-           throwables.printStackTrace();
-           return null;
-       }
-    }
     protected ResultSet searchAll(Statement stmt,String iduser,int emp, int hum,int pos)  {
         try{String sql=String.format("SELECT userid " +
                         "FROM utenti WHERE type='usr' and " +
@@ -31,19 +19,60 @@ public class Query {
             return null;
         }
     }
-    protected ResultSet searchDataQuery(Statement stmt, String iduser ,String what,String input){
-        try {
-            String sql = String.format(" SELECT userid " +
-                    "FROM utenti " +
-                    "where %s = '%s' and userid!='%s' and type= 'usr' ;\n", what, input, iduser);
-            //System.out.println(sql);
+    public boolean newLine(Statement stmt,String userid){
+        try{
+            String sql=String.format("INSERT INTO `recently_visited` SET userid ='%s' ",userid);
             System.out.println(sql);
-            return stmt.executeQuery(sql);
+            stmt.executeUpdate(sql);
+            return true;
         } catch (SQLException throwables) {
-            System.err.println("errore durante la ricerca"+what);
-            throwables.printStackTrace();
+            return false;
+        }
+    }
+    public ResultSet getnVisit(Statement stmt,String userid){
+        try{
+        String sql=String.format("SELECT `num_visit` FROM `recently_visited` WHERE `userid`=%s",userid);
+        System.err.println(sql);
+        return stmt.executeQuery(sql);
+        } catch (SQLException throwables) {
+        return null;
+        }
+    }
+    public boolean incremVisit(Statement stmt,String userid){
+        try{
+            String sql=String.format("UPDATE `recently_visited` SET num_visit = num_visit+1 WHERE (`userid`='%s')",userid);
+            System.out.println(sql);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
+        }
+    }
+    public ResultSet getVisited(Statement stmt,String userid) {
+        try{
+            String sql=String.format("SELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'",userid);
+            return stmt.executeQuery(sql);
+            } catch (SQLException throwables) {
             return null;
         }
     }
-
+    public boolean setVisited(Statement stmt, String userid, ArrayList<String> input) {
+        try{
+            String sql=String.format("UPDATE `recently_visited` SET `visit1` = '%s',`visit2` = '%s',`visit3` = '%s' WHERE `userid` = '%s' ",input.get(0),input.get(1),input.get(2),userid);
+            System.err.println(sql);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
+        }
+    }
+    public ResultSet getnRows(Statement stmt) {
+        try{
+            String sql=String.format("SELECT COUNT(*) FROM recently_visited");
+            System.err.println(sql);
+            return stmt.executeQuery(sql);
+        } catch (SQLException throwables) {
+            return null;
+        }
+    }
 }

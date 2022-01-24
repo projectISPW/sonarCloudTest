@@ -1,77 +1,11 @@
 
-Oprogettoispw.letmeknow.controller.utenti.UserDAO#checkMail(Ljava/lang/String;)Z‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java9 9("13*ø
-13‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java: :(²
-¯
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java: :(
-stmtjava.sql.Statement"__id*
-""±
-®
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java; ;(
-rstjava.sql.ResultSet"__id*
-""*
-11*˜
-4‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaC C("
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaC C(
-""*˜
-5‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaA A("
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.javaA A(
-""*ª
-6‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java@ @(4š—
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java@ @(4
-
-%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*
-
-%2java.lang.String2println(Ljava/lang/String;)*
-5*È
-7‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java@ @(±
-®
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java@ @(
-%1java.io.PrintStream"__id*
-""„
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java@# @(3
-%2java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*22getString(I)*
-6*ë
-9‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java? ?(ØÕ
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java? ?(
-%0boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-4
-7*Â
-10‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java> >(5±
-®
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java> >(5
-rstjava.sql.ResultSet"__id*
-""*
-9*Ä
-11‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java= =((²
-¯
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java= =((
-stmtjava.sql.Statement"__id*
-""*
-10:
-inputjava.lang.StringB42
-0progettoispw.letmeknow.controller.utenti.UserDAO
+5progettoispw.letmeknow.bean.GoToFormBean#getFormid()I~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java
+ 
+("1*Ž
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java ("ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/progettoispw/letmeknow/bean/GoToFormBean.java (&
+""B,*
+(progettoispw.letmeknow.bean.GoToFormBean

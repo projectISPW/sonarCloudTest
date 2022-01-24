@@ -1,57 +1,9 @@
 
-xprogettoispw.letmeknow.controller.utentipsy.Query#suggestForm(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZÉ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (!"6*ö
-3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java ("é
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (
-""*∏
-4É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ß§
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (#	
-%3int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*©
-5Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ñ√
-¿
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ñ
-sqljava.lang.String"__id*
-
-%0java.lang.String≤
-Ø
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (
-%1java.io.PrintStream"__id*
-""úô
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (#
-
-%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*
-
-sqljava.lang.String2println(Ljava/lang/String;)*
-4*º
-6É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (´
-®
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ï
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ge
-c INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');*
-
-fromjava.lang.String*
-
-whatjava.lang.String*
-5:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whatjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentipsy.Query
+=progettoispw.letmeknow.controller.utentipsy.Form#getFormid()IÇ
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java ("1*ò
+1Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java ("ç
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java (
+""B42
+0progettoispw.letmeknow.controller.utentipsy.Form

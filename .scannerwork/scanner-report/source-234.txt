@@ -1,87 +1,93 @@
 package progettoispw.letmeknow;
 
-
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.LoginBean;
-
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+import javafx.util.Duration;
+import progettoispw.letmeknow.bean.ChatBean;
+import progettoispw.letmeknow.bean.ISCBean;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
 import java.io.IOException;
+import java.util.Date;
 
-public class LoginControllerInterf1 {
-    private Page controller= new Page();
+public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
-    private PasswordField labPassword;
+    AnchorPane listUtenti;
     @FXML
-    private Label show;
-    @FXML
-    private TextField labUser;
-    @FXML
-    private ScrollPane scroll;
-    private String userID;
-    private boolean clicked;
-    public LoginControllerInterf1(){
-        clicked=false;
-    }
-    @FXML
-    protected void switchToSignup(ActionEvent event) {
-        //controller.switchTo("signup.fxml",event,"Signup");
-        controller.switchTo("signup/interf1.fxml",event,"Signup");
-        //controller.goTo("signup",event);
-    }
-    @FXML
-    protected void switchToRecoverPswd(ActionEvent event) {
-        controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
-        //controller.switchTo("recover password",event);
-    }
-    @FXML
-    protected void switchToSignUpPsych(ActionEvent event) {
-        controller.switchTo("signupPsicologist/interf1.fxml",event,"Signup");
-    }
-    @FXML
-    protected void showPSWD(){
-        if(clicked==false){
-            scroll.setOpacity(0.8);
-            show.setOpacity(0.8);
-            show.setText(labPassword.getText());
-            clicked=true;
-        }
-        else{
-            show.setOpacity(0);
-            scroll.setOpacity(0);
-            clicked=false;
-        }
+    TextField searchBar;
+    ISCBean iscBean;
+    private String userid;
+    public ChatControllerInterf2(){
+        super();
+        iscBean=new ISCBean();
+        graphic=new CSS(false);
+        userid=bean.getUid();
+        timeline=new Timeline(new KeyFrame(Duration.millis(1000),this::recivemsgArr));
     }
 
-    @FXML
-    protected void switchToHome(ActionEvent event) throws IOException {
-        if(labUser.getText().equals("") || labPassword.getText().equals(""))
-        {
-            //Alert Dialog Message per campi email e password vuoti
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("Empty Fields!");
-            alert.setHeaderText("Empty Email / Password Field");
-            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-            if(alert.showAndWait().get()==ButtonType.OK) {
-                System.out.println("Prompt: Empty Fields Alert");
-                event.consume();
-            }
-        }else {
-            LoginBean bean=new LoginBean(labUser.getText(),labPassword.getText());
-            String log = bean.exitValue();
-            System.out.println(log);
-            userID=labUser.getText();
-            switch(log){
-                case "usr":{
-                    //HomepagecontrollerInterf1.userid=labUser.getText();
-                    controller.switchTo("homepage/interf1.fxml",event,"Home");
-                    return;
-                }
-                case "psy":{
-                    controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
-                    System.out.println("fatto accesso da psicologo");
-                }
-            }
+    public void recivemsgArr(ActionEvent event){
+        if(initializated) {
+            recivemsgArr();
+            addUser();
         }
-    }}
+    }
+    @FXML
+    protected void sendMsg() {
+        super.sendMsg();
+        addUser();
+    }
+    public void  initialize(){
+        addUser();
+        super.initialize();
+    }
+    public String checkUsrId(String input){
+        if(input.length()<=8){
+            return input;
+        }
+        int indice=-1;
+        indice=input.indexOf("||");
+        String sub=input.substring(0,indice);
+        if(sub.equals(userid)==false) {
+            return sub;
+        }
+        return input.substring(indice+2);
+    }
+    private void goChat(ActionEvent event){
+        Button button=(Button)event.getTarget();
+        String who=button.getText();
+        who=checkUsrId(who);
+        iscBean.touched(who);
+        controller.switchTo("chat/interf2.fxml",event,"chat");
+    }
+    public  void addUser(){
+        listUtenti.getChildren().removeAll(listUtenti.getChildren());
+        graphic.setHList();
+        Button userButton;
+        Label msgLabel;
+        String [][] innerusers =iscBean.exitUid();
+        String [] uid=innerusers[0];
+        String [] msg=innerusers[1];
+        for(int i=0;i< uid.length;i++){
+            userButton=graphic.getButton(uid[i]);
+            msgLabel=graphic.getLabel(msg[i]);
+            userButton.setOnAction(this::goChat);
+
+            listUtenti.getChildren().addAll(userButton,msgLabel);
+            listUtenti.setPrefHeight(graphic.getHlist());
+        }
+    }
+    @FXML
+    public void searchMessage(){
+        iscBean.search(searchBar.getText());
+        addUser();
+    }
+
+}

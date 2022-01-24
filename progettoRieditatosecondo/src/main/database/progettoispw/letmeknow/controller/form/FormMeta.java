@@ -8,7 +8,7 @@ public interface FormMeta {
     public static final int START=3;//dove iniziano le risposte
     public static final int ABOUT=14;
     public static final int CALCULATED=15;
-    public static final String [] FORM={FORM1,FORM2,FORM3};
-    public static final Integer [] FORMSID={1,2,3};
+    static final String [] FORM={FORM1,FORM2,FORM3};
+    static final Integer [] FORMSID={1,2,3};
 
 }

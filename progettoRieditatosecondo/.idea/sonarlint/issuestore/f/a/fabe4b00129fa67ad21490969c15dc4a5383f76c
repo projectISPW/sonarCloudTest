@@ -1,13 +1,0 @@
-
-B
-java:S1125"'Remove the unnecessary boolean literal.(¸¨Àúÿÿÿÿ
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(‘µ«ïüÿÿÿÿ8÷«×ºç/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(°û¿”şÿÿÿÿ8…˜Øºç/
-D
-java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw
-o
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø Òø
-z
-java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¦ëçè
-’
-java:S1319U"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İŸäúøÿÿÿÿ8”˜Øºç/

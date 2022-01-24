@@ -1,15 +1,141 @@
 
-Cprogettoispw.letmeknow.bean.LoginBean#exitValue()Ljava/lang/String;ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java ("1*ñ
-1ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (!√
-¿
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (-
-outputjava.lang.String"__id*
-"""¥
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (
+Rprogettoispw.letmeknow.controller.search.SearchDAO#getnVisit(Ljava/lang/String;)[IÑ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaJ J("21*ã
+13Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS# S(E˜
+Ù
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS# S(E	
+%4int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%3java.lang.String*
+11*ö
+14Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS S(ÜÉ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS4 S(D
+%3java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
+
+rstjava.sql.ResultSet*22getString(I)*
+13*ú
+3Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaX X("è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaX X(
+""*≥
+4Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaW W(¥
+±
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaW W(
+%10java.io.PrintStream"__id*
+""ÍÁ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaW W(&
+%11void"java.io.PrintStream#println(I)V*
 
-outputjava.lang.StringB)'
-%progettoispw.letmeknow.bean.LoginBean
+%10java.io.PrintStream*
+""2
+println(I)*
+3*®
+16Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaR R(/≥
+∞
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaR R(/
+rstjava.sql.ResultSet"__id*
+""⁄◊
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS S(
+%2boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+14
+11*â
+6Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaV$ V(F˜
+Ù
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaV$ V(F	
+%9int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%8java.lang.String*
+4*‡
+18Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaQ Q(≥
+∞
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaQ Q(
+%0java.io.PrintStream"__id*
+""ñì
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaQ Q(0
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+ i am survived2println(Ljava/lang/String;)*
+16*ò
+7Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaV V(ÜÉ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaV5 V(E
+%8java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
+
+rstjava.sql.ResultSet*22getString(I)*
+6*»
+19Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaO O(*¥
+±
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaO O(*
+stmtjava.sql.Statement"__id*
+""*
+18*•
+9Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaU U(&≥
+∞
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaU U(&
+rstjava.sql.ResultSet"__id*
+""⁄◊
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaV V(
+%7boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+4
+7*˛
+21Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaK K(¥
+±
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaK K(
+stmtjava.sql.Statement"__id*
+""≥
+∞
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaL L(
+rstjava.sql.ResultSet"__id*
+""*
+19*±
+11Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaT T(≥
+∞
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaT T(
+%5java.io.PrintStream"__id*
+""ËÂ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaT T(&
+
+%6void"java.io.PrintStream#println(I)V*
+
+%5java.io.PrintStream*
+""2
+println(I)*
+9:
+useridjava.lang.StringB64
+2progettoispw.letmeknow.controller.search.SearchDAO

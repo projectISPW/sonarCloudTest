@@ -1,53 +1,59 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.bean.InnerUsers;
+import progettoispw.letmeknow.controller.search.Search;
 import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
 import java.util.ArrayList;
 
 public class ResultSearchController {
-    ControllerClass factory;
-    private final ArrayList<String> founded;
-    ArrayList<InnerUsers>formatted;
-    private Integer count;
-    private final Integer nVal;
+    private int count;
+    private int nVal;
+    private Search search;
     public ResultSearchController(Integer n){
-        founded=ControllerClass.getSearch().getArrayList() ;
-        for(String usr:founded)System.out.println(founded);
         nVal=n;
         count=0;
+        search=ControllerClass.getSearch();
     }
-
-    public void attach(InnerUsers elem){
+    public ResultSearchController(){
+        search=ControllerClass.getSearch();
+    }
+    public void attach(InnerUsers elem,ArrayList<InnerUsers>formatted ){
         formatted.add(elem);
     }
     InnerUsers actual;
     public ArrayList<InnerUsers> queryUsers(){
         int indice;
         actual=null;
-        formatted=new ArrayList<>();
-        count = check(count);
+        ArrayList<String> founded= search.getArrayList();
+        ArrayList<InnerUsers>formatted=new ArrayList<>();
+        count = check(count,founded);
         UtenteUsr user;
         for (String userid : founded) {
+            if(userid==null)return formatted;
             user=new UtenteUsr(userid);
             indice = founded.indexOf(userid);
             if (indice >= count && indice < count + nVal) {
                actual = new InnerUsers(user);
-               actual.getStatus();
-               attach(actual);
+               attach(actual,formatted);
             }
         }
         count+=nVal;
         return formatted;
     }
 
-    private Integer check(Integer count) {
+    private Integer check(Integer count,ArrayList<String> founded) {
         if(count>=founded.size()){
+            System.err.println("ricomincio da 0");
             return count=0;
         }
         return count;
     }
     public void who(String usr){
-        factory.getSearch().setTouched(usr);
+        System.out.println("UTENTE CLICCATO "+usr);
+        search.setTouched(usr);
+    }
+    public int[] nVisit(){
+        return search.getnVisit();
     }
 }

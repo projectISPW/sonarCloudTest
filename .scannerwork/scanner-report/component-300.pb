@@ -1,0 +1,1 @@
+¬ 2javaXhrrprogettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/SearchBean.java

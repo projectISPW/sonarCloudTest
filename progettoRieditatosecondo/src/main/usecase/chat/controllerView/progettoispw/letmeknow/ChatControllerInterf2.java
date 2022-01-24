@@ -2,8 +2,11 @@ package progettoispw.letmeknow;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
@@ -15,75 +18,35 @@ import progettoispw.letmeknow.bean.BeanResultSearch;
 import java.io.IOException;
 import java.util.Date;
 
-public class ChatControllerInterf2 {
-    @FXML
-    AnchorPane messaggi;
-    @FXML
-    TextArea inputmsg;
-    @FXML
-    ScrollPane scrollpane;
-    @FXML
-    Text withName;
+public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
     AnchorPane listUtenti;
-
     @FXML
     TextField searchBar;
-    boolean initializated;
-    private PageMenu controller= new PageMenu();
-    ChatBean bean;
     ISCBean iscBean;
-    BeanResultSearch visitBean;
-    private String [] message;
-    private CSS graphic;
     private String userid;
-    Label textmsg;
-    Timeline timeline;
     public ChatControllerInterf2(){
-        bean=new ChatBean();
+        super();
         iscBean=new ISCBean();
-        visitBean=new BeanResultSearch();
         graphic=new CSS(false);
-        initializated=false;
         userid=bean.getUid();
-        timeline=new Timeline(new KeyFrame(Duration.millis(15000),this::recivemsgArr));
-        timeline.setCycleCount(Timeline.INDEFINITE);//never stop
+        timeline=new Timeline(new KeyFrame(Duration.millis(1000),this::recivemsgArr));
     }
 
+    public void recivemsgArr(ActionEvent event){
+        if(initializated) {
+            recivemsgArr();
+            addUser();
+        }
+    }
     @FXML
     protected void sendMsg() {
-        bean.newMsg(inputmsg.getText());
-        recivemsgArr();
-        inputmsg.setText("");
-    }
-    public void recivemsgArr(ActionEvent event){
-        if(initializated) recivemsgArr();
-    }
-    public void  recivemsgArr() {
-        bean.getChat();
-        message = bean.getMSG();
-        System.out.println("*******inizioscansione + *********"+new Date().toString());
-        for (int i = 0; i < message.length; i += 2) {
-            graphic.setText(message[i]);
-            System.out.println(message[i]);
-            if (message[i + 1].equals("i am the sender")) {
-                textmsg = graphic.getMessageSended();
-            } else {
-                textmsg = graphic.getMessageRecived();
-            }
-            messaggi.getChildren().add(textmsg);
-            messaggi.setPrefHeight(graphic.getAumenta());
-            scrollpane.setVvalue(1.0);
-        }
-        System.out.println("*********finescansione********"+new Date().toString());
-        initializated=true;
-    }
-    public void  initialize() throws InterruptedException {
-        withName.setText("User #"+bean.getWith());
-        System.out.println("stage inizializzato");
-        recivemsgArr();
+        super.sendMsg();
         addUser();
-        this.timeline.play();
+    }
+    public void  initialize(){
+        addUser();
+        super.initialize();
     }
     public String checkUsrId(String input){
         if(input.length()<=8){
@@ -97,27 +60,21 @@ public class ChatControllerInterf2 {
         }
         return input.substring(indice+2);
     }
-    private void visit(String input){
-        if(input.length()>=8){
-            input=checkUsrId(input);
-        }
-        iscBean.touched(input);
-        visitBean.touched(input);
-    }
     private void goChat(ActionEvent event){
         Button button=(Button)event.getTarget();
         String who=button.getText();
         who=checkUsrId(who);
-        System.out.println("visit home"+who);
         iscBean.touched(who);
-        controller.switchTo("homepageOthers/interf1.fxml",event,"Visit");
+        controller.switchToChat(event);
     }
-
     public  void addUser(){
+        listUtenti.getChildren().removeAll(listUtenti.getChildren());
+        graphic.setHList();
         Button userButton;
         Label msgLabel;
-        String [] uid= iscBean.exitUid();
-        String [] msg=iscBean.exitMsg();
+        String [][] innerusers =iscBean.exitUid();
+        String [] uid=innerusers[0];
+        String [] msg=innerusers[1];
         for(int i=0;i< uid.length;i++){
             userButton=graphic.getButton(uid[i]);
             msgLabel=graphic.getLabel(msg[i]);
@@ -132,25 +89,4 @@ public class ChatControllerInterf2 {
         addUser();
     }
 
-    @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
-        timeline.stop();
-        controller.switchToHome(event);
-    }
-    @FXML
-    protected void goBack(ActionEvent event) throws IOException {
-        timeline.stop();
-        controller.switchTo("initialSearchAndChat/interf1.fxml",event,"Your chat");
-    }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
-        timeline.stop();
-        controller.switchToPersonalForm(event);
-    }
-    @FXML
-    private void touchedHome(ActionEvent event){
-        visitBean.touched(bean.getWith());
-        timeline.stop();
-        controller.switchTo("homepageOthers/interf1.fxml",event,"Visit");
-    }
 }

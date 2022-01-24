@@ -1,9 +1,16 @@
 
-Dprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#queryResult()Zá
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaM M("1*¢
-1á
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaN N("í
-á
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaN N(5
-""B97
-5progettoispw.letmeknow.controller.utentiusr.UtenteUsr
+Dprogettoispw.letmeknow.bean.InnerUsers#getUserid()Ljava/lang/String;õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("1*÷
+1õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (˜
+Ù
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
+%0java.lang.String"__id*6*4(
+&progettoispw.letmeknow.bean.InnerUsers"
+userid"∏
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
+
+%0java.lang.StringB*(
+&progettoispw.letmeknow.bean.InnerUsers

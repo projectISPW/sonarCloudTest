@@ -1,26 +1,77 @@
-package progettoispw.letmeknow.bean;
+//var on same line
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.SettingsController;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
-public class SettingsBean {
-    SettingsController controller;
-    SignupBean checkBean;
-    public SettingsBean(){
-        controller=new SettingsController();
-        checkBean=new SignupBean();
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormResultBean;
+
+
+public class FormResultInterf1 {
+    @FXML
+    Text idForm;
+    @FXML
+    ImageView empathySlider;
+    @FXML
+    ImageView humorSlider;
+    @FXML
+    ImageView optimismSlider;
+    ImageView [] param;
+    @FXML
+    ImageView ans1;
+    @FXML
+    ImageView ans2;
+    @FXML
+    ImageView ans3;
+    @FXML
+    ImageView ans4;
+    @FXML
+    ImageView ans5;
+    @FXML
+    ImageView ans6;
+    ImageView [] images;
+    @FXML
+    Text by;
+    FormResultBean bean ;
+    PageMenu controller =new PageMenu();
+    int [] values;
+    public void initialize(){
+        values=bean.exitValStatus();
+        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
+        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
+        int indice=0;
+        for(ImageView image:images ){
+            setSlider(image,values[indice++]);
+        }
+        values= bean.getParam();
+        indice=0;
+        for(ImageView image:param){
+            setSlider(image,values[indice++]);
+        }
+        by.setText(bean.getData());
     }
-    public void closeConnection(){
-        controller.closeConnection();
+    public void  setSlider(ImageView image,int val){
+        //syntax check in bean
+        String url="photo/val";
+        url=url+val+".png";
+        System.out.println(url);
+        Image immagine=new Image(getClass().getResourceAsStream(url));
+        image.setImage(immagine);
     }
-    public boolean setPassword(String pswd,String confirmpswd){
-        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
-        else return false;
+    @FXML
+    public void goBack(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
-    public boolean setEmail(String input){
-        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
-        else return false;
+    @FXML
+    public void goChat(ActionEvent actionEvent) {
+        controller.switchToChat(actionEvent);
     }
-    public boolean setFeed(String input){
-        return controller.feed(input);
+    @FXML
+    public void goHome(ActionEvent event){
+        controller.switchToHome(event);
     }
+
 }

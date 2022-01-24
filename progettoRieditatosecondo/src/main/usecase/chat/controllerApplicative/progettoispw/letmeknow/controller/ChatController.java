@@ -8,9 +8,7 @@ import java.util.List;
 
 public class ChatController {
     private Messages actChat;
-    private ArrayList<Message> chat;
     private ArrayList<Message>lastChat;
-    private ArrayList<Message> newChat;
     private String with;
     public ChatController(){
         actChat= ControllerClass.getChat();
@@ -23,6 +21,8 @@ public class ChatController {
         return actChat.getUserid();
     }
     public List<Message> getChat() {
+        ArrayList<Message> chat;
+        ArrayList<Message> newChat;
         chat= (ArrayList<Message>) actChat.chat(with,false);
         if(lastChat!=null){
             newChat=new ArrayList<>();

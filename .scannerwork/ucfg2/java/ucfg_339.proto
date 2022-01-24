@@ -1,61 +1,10 @@
 
-˜progettoispw.letmeknow.controller.utentiusr.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java1 1("1*¢
-1ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 2(¨
-¥
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2! 3(W
-%0java.lang.String"__concat*@>
-<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*97
-5 VALUES ('%s',         '%s',      '%s',       '%s')\n—
-”
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 4(D
-%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-
-%0java.lang.String*
-
-uidjava.lang.String*
-
-passwordjava.lang.String*
-
-typejava.lang.String*
-
-emailjava.lang.StringÂ
-¿
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java2 4(E
-sqljava.lang.String"__id*
-
-%1java.lang.String²
-¯
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java5 5(
-%2java.io.PrintStream"__id*
-""œ™
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java5 5(
-
-%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%2java.io.PrintStream*
-
-sqljava.lang.String2println(Ljava/lang/String;)§¤
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java6 6(	
-%4int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"Ž
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java7 7(
-"":
-stmtjava.sql.Statement:
-uidjava.lang.String:
-passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentiusr.Query
+]progettoispw.letmeknow.controller.HomepagePsychologistController#setFeed(Ljava/lang/String;)Z¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java/ /("1*Œ
+1¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java0 0("Ç
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java0 0(+
+"":
+inputjava.lang.StringBDB
+@progettoispw.letmeknow.controller.HomepagePsychologistController

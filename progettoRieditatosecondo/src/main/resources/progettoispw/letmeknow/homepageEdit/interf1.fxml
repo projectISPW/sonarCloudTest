@@ -9,9 +9,9 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.homepagecEditcontrollerInterf1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepageEditControllerInterf1">
     <children>
-        <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToChat" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+        <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToISC" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
             <graphic>
                 <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" opacity="0.5" size="20" />
             </graphic>
@@ -21,7 +21,7 @@
                 <FontAwesomeIcon fill="#377dff" glyphName="SLIDERS" opacity="0.5" size="25" />
             </graphic>
         </Button>
-        <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
+        <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
             <graphic>
                 <FontAwesomeIcon fill="#377dff" glyphName="HOME" size="60" />
             </graphic>
@@ -59,7 +59,7 @@
         <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
         <ImageView fitHeight="181.0" fitWidth="146.0" layoutX="18.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@photo/img.png" />
+                <Image url="@photo/clessidra.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
@@ -78,23 +78,12 @@
             </cursor></TextField>
         <TextField fx:id="tag" layoutX="184.0" layoutY="354.0" prefHeight="31.0" prefWidth="220.0" promptText="#character" styleClass="textHomePage" />
         <TextField fx:id="date" layoutX="205.0" layoutY="458.0" prefHeight="26.0" prefWidth="201.0" promptText="21/10/2021" />
-        <TextField fx:id="personalDescription" layoutX="30.0" layoutY="280.0" prefHeight="25.0" prefWidth="329.0" promptText="#Calm#honest#creative" />
+        <TextField fx:id="personalDes" layoutX="30.0" layoutY="280.0" prefHeight="25.0" prefWidth="329.0" promptText="#Calm#honest#creative" />
         <FontAwesomeIcon fill="WHITE" glyphName="SAVE" layoutX="350.0" layoutY="563.0" size="30" text="" />
-        <ImageView fx:id="positivitySlider" fitHeight="50.0" fitWidth="155.0" layoutX="213.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
-         <image>
+        <ImageView fx:id="positivitySlider" fitHeight="50.0" fitWidth="155.0" layoutX="213.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="humorSlider" fitHeight="50.0" fitWidth="155.0" layoutX="211.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="empathySlider" fitHeight="50.0" fitWidth="155.0" layoutX="209.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
 
-         </image>
-        </ImageView>
-        <ImageView fx:id="humorSlider" fitHeight="50.0" fitWidth="155.0" layoutX="211.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-
-         </image>
-        </ImageView>
-        <ImageView fx:id="empathySlider" fitHeight="50.0" fitWidth="155.0" layoutX="209.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-
-         </image>
-        </ImageView>
         <Hyperlink layoutX="226.0" layoutY="228.0" onAction="#takeForm" styleClass="hiperlink_signup" text="Take a new Form" />
     </children>
 </AnchorPane>

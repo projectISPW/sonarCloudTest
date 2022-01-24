@@ -21,21 +21,21 @@ import static java.lang.Thread.sleep;
 
 public class ChatControllerInterf1 {
     @FXML
-    AnchorPane messaggi;
+    protected AnchorPane messaggi;
     @FXML
-    TextArea inputmsg;
+    protected TextArea inputmsg;
     @FXML
-    ScrollPane scrollpane;
+    protected ScrollPane scrollpane;
     @FXML
-    Text withName;
-    boolean initializated;
-    private PageMenu controller= new PageMenu();
-    ChatBean bean;
-    BeanResultSearch visitBean;
-    private String [] message;
-    private CSS graphic;
-    Label textmsg;
-    Timeline timeline;
+    protected Text withName;
+    protected boolean initializated;
+    protected  PageMenu controller= new PageMenu();
+    protected ChatBean bean;
+    protected BeanResultSearch visitBean;
+    protected  String [] message;
+    protected  CSS graphic;
+    protected Label textmsg;
+    protected Timeline timeline;
     public ChatControllerInterf1() {
         bean=new ChatBean();
         visitBean=new BeanResultSearch();
@@ -55,40 +55,39 @@ public class ChatControllerInterf1 {
         if(initializated) recivemsgArr();
     }
     public void  recivemsgArr() {
-            bean.getChat();
-            message = bean.getMSG();
-            System.out.println("*******inizioscansione + *********"+new Date().toString());
-            for (int i = 0; i < message.length; i += 2) {
-                graphic.setText(message[i]);
-                System.out.println(message[i]);
-                if (message[i + 1].equals("i am the sender")) {
-                    textmsg = graphic.getMessageSended();
-                } else {
-                    textmsg = graphic.getMessageRecived();
-                }
-                messaggi.getChildren().add(textmsg);
-                messaggi.setPrefHeight(graphic.getAumenta());
-                scrollpane.setVvalue(1.0);
+        bean.getChat();
+        message = bean.getMSG();
+        System.out.println("*******inizioscansione + *********"+new Date().toString());
+        for (int i = 0; i < message.length; i += 2) {
+            graphic.setText(message[i]);
+            System.out.println(message[i]);
+            if (message[i + 1].equals("i am the sender")) {
+                textmsg = graphic.getMessageSended();
+            } else {
+                textmsg = graphic.getMessageRecived();
             }
-            System.out.println("*********finescansione********"+new Date().toString());
-            initializated=true;
+            messaggi.getChildren().add(textmsg);
+            messaggi.setPrefHeight(graphic.getAumenta());
+            scrollpane.setVvalue(1.0);
+        }
+        System.out.println("*********finescansione********"+new Date().toString());
+        initializated=true;
     }
-    public void  initialize() throws InterruptedException {
-           withName.setText("User #"+bean.getWith());
-           System.out.println("stage inizializzato");
-           recivemsgArr();
-           this.timeline.play();
+    public void  initialize(){
+        withName.setText("User #"+bean.getWith());
+        System.out.println("stage inizializzato");
+        recivemsgArr();
+        this.timeline.play();
     }
-
     @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
+    protected void goToHome(ActionEvent event){
         timeline.stop();
         controller.switchToHome(event);
     }
     @FXML
     protected void goBack(ActionEvent event) throws IOException {
         timeline.stop();
-       controller.switchTo("initialSearchAndChat/interf1.fxml",event,"Your chat");
+        controller.switchToISC(event);
     }
     @FXML
     protected void goToPersonalForm(ActionEvent event) throws IOException {

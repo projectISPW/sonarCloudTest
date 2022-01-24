@@ -1,7 +1,8 @@
+//same line variables, I put them on different lines
+
 package progettoispw.letmeknow;
 
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
@@ -12,21 +13,41 @@ import javafx.scene.control.ProgressBar;
 import javafx.scene.control.Slider;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
-import javafx.util.Duration;
+
 import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-public class takeformControllerInterf1 {
+
+
+public class TakeFormControllerInterf1 implements Interf1ButtonBar{
     @FXML
     protected AnchorPane form;
     @FXML
     protected Text idForm;
     @FXML
-    protected Slider sl1,sl2,sl3,sl4,sl5,sl6;
+    protected Slider sl1;
     @FXML
-    protected Label lb1,lb2,lb3,lb4,lb5,lb6;
+    protected Slider sl2;
+    @FXML
+    protected Slider sl3;
+    @FXML
+    protected Slider sl4;
+    @FXML
+    protected Slider sl5;
+    @FXML
+    protected Slider sl6;
+    @FXML
+    protected Label lb1;
+    @FXML
+    protected Label lb2;
+    @FXML
+    protected Label lb3;
+    @FXML
+    protected Label lb4;
+    @FXML
+    protected Label lb5;
+    @FXML
+    protected Label lb6;
     @FXML
     protected ProgressBar progressBar;
     protected PageMenu controller= new PageMenu();
@@ -35,7 +56,7 @@ public class takeformControllerInterf1 {
     protected  boolean [] locked;
     protected int [] response;
     protected double progress=0;
-    int indice=-1;
+
     protected FormToTakeStatusBean startStatus;
     protected boolean[] not(boolean []bool){
         boolean [] currbool=new boolean[6];
@@ -58,11 +79,11 @@ public class takeformControllerInterf1 {
         Label[] labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
         progressBar.setProgress(progress);
         for(int i=0;i<6;i++){
-                 if(response[i]!=-1){
-                       sl[i].setValue(response[i]);
-                 }
-                int finalI = i;
-                sl[i].valueProperty().addListener(new ChangeListener<Number>() {
+            if(response[i]!=-1){
+                sl[i].setValue(response[i]);
+            }
+            int finalI = i;
+            sl[i].valueProperty().addListener(new ChangeListener<Number>() {
                 @Override
                 public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
                     if(values[finalI]==true){
@@ -82,7 +103,7 @@ public class takeformControllerInterf1 {
     protected void save(ActionEvent event) {
         for (int i=0;i<6;i++) {
             if (values[i] == false) {
-                //System.out.printf("*il valore dell elemento sl[%d] è pari a %d \n", indice, (int) slider.getValue());
+                //System.out.printf("*the value of the element sl[%d] is %d \n", index, (int) slider.getValue());
                 locked[i]=true;
                 response[i]=(int)sl[i].getValue();
             }
@@ -95,11 +116,9 @@ public class takeformControllerInterf1 {
         controller.backTo();
     }
     @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
-        controller.switchToHome(event);
+    protected  void goToISC(ActionEvent event){
+        controller.switchToISC(event);
     }
     @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
-        controller.switchToChat(event);
-    }
+    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
 }

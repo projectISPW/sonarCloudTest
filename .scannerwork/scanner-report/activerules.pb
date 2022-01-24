@@ -275,7 +275,12 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 apexS101"
 format^[A-Z][a-zA-Z0-9_]*$(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
 apexS2757(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
-apexS1481(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-[
+apexS1481(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-H
+javaS5843"
+maxComplexity20(øœ÷ã¶.0øœ÷ã¶.:AX2EoJ1roTeAkeA2h1iZ3
+javaS4544(À‚ñÙÎ,0À‚ñÙÎ,:AX2EoJ1roTeAkeA2h1iZ3
+javaS2122(ø•à©Ä)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
+javaS6217(˜’µµç/0˜’µµç/:AX2EoJ1roTeAkeA2h1iZ[
 javaS115"'
 format^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$(¸˜Ù±ñ(0àå‰ºì*:AX2EoJ1roTeAkeA2h1iZQ
 javaS107"
@@ -322,7 +327,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS1181(¸˜Ù±ñ(0°õ‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS5876(È„¥™Ð.0È„¥™Ð.:AX2EoJ1roTeAkeA2h1iZ3
 javaS4423(ˆ¤Þ¹¯,0ðÃù–’/:AX2EoJ1roTeAkeA2h1iZ3
-javaS4544(À‚ñÙÎ,0À‚ñÙÎ,:AX2EoJ1roTeAkeA2h1iZ3
 javaS2245(À•ŠñÚ,0À•ŠñÚ,:AX2EoJ1roTeAkeA2h1iZ3
 javaS4426(°½Î½,0èœù–’/:AX2EoJ1roTeAkeA2h1iZ3
 javaS4425(°½Î½,0°½Î½,:AX2EoJ1roTeAkeA2h1iZ3
@@ -619,9 +623,7 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS6213( ã›ÊŽ/0 ã›ÊŽ/:AX2EoJ1roTeAkeA2h1iZ3
 javaS3551(¸—ïŸ‰-0¸—ïŸ‰-:AX2EoJ1roTeAkeA2h1iZ3
 javaS2165(ø•à©Ä)0€…Šºì*:AX2EoJ1roTeAkeA2h1iZ3
-javaS6103(ÐòØ«ð.0ÐòØ«ð.:AX2EoJ1roTeAkeA2h1iZH
-javaS5843"
-maxComplexity20(øœ÷ã¶.0øœ÷ã¶.:AX2EoJ1roTeAkeA2h1iZ3
+javaS6103(ÐòØ«ð.0ÐòØ«ð.:AX2EoJ1roTeAkeA2h1iZ3
 javaS5411(È²–£Ë-0È²–£Ë-:AX2EoJ1roTeAkeA2h1iZ3
 javaS4454(ÀÍš¿¦,0ÀÍš¿¦,:AX2EoJ1roTeAkeA2h1iZ3
 javaS2129(øØóÅæ*0 òÌäµ+:AX2EoJ1roTeAkeA2h1iZ3
@@ -701,7 +703,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS2390(€Ö»Ÿ²+0˜£ŸÆØ+:AX2EoJ1roTeAkeA2h1iZ3
 javaS1158(¸˜Ù±ñ(0°õ‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS1157(¸˜Ù±ñ(0°õ‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
-javaS2122(ø•à©Ä)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS1155(¸˜Ù±ñ(0°õ‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2123(àà©Ä)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS1153(¸˜Ù±ñ(0¸¢ü Ì*:AX2EoJ1roTeAkeA2h1iZ3
@@ -729,7 +730,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS1201(¸˜Ù±ñ(0™öÙ—*:AX2EoJ1roTeAkeA2h1iZ3
 javaS3626(¸”Þ¹¯,0¸”Þ¹¯,:AX2EoJ1roTeAkeA2h1iZ3
 javaS1940( ¿×¿Å*0¸¢ü Ì*:AX2EoJ1roTeAkeA2h1iZ3
-javaS2912(èÄÙŠÝ)0èŒŠºì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS1905(€µƒž)0Èóû Ì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS4065( Ç ÆØ+0 Ç ÆØ+:AX2EoJ1roTeAkeA2h1iZ3
 javaS5164(¸ä•£Ë-0¸ä•£Ë-:AX2EoJ1roTeAkeA2h1iZ3
@@ -837,6 +837,7 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 flexS1481(¸˜Ù±ñ(0À»Ê¢«,:AX2EoJ1roTeAkeA2h1h93
 flexS1952(è™¡®˜)0è™¡®˜):AX2EoJ1roTeAkeA2h1h9;
 flexWithStatement(èšáÜï(0¨ÙáÜï(:AX2EoJ1roTeAkeA2h1h9:
+csharpsquidS3925(˜‹¯Á½+0ø±òÌ+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS3442(€³í©+0€³í©+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS5753(Ðó¢©ò.0Ðó¢©ò.:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4457(èÆåÄ¶,0èÆåÄ¶,:AX2EoJ1roTeAkeA2h1ia:
@@ -923,8 +924,7 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 csharpsquidS3011(èÄÚ÷õ,0˜÷¬ò .:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS1075(Øí›ÆØ+0Øí›ÆØ+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS2178(ˆÙî–‡+0À³›à¶+:AX2EoJ1roTeAkeA2h1ia:
-csharpsquidS3260(ØãÏÅ/0ØãÏÅ/:AX2EoJ1roTeAkeA2h1ia:
-csharpsquidS3925(˜‹¯Á½+0ø±òÌ+:AX2EoJ1roTeAkeA2h1ia9
+csharpsquidS3260(ØãÏÅ/0ØãÏÅ/:AX2EoJ1roTeAkeA2h1ia9
 csharpsquidS101(€»Ì“Æ*0€»Ì“Æ*:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS2699( ˆÂ–©-0 ˆÂ–©-:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS3877(À³›à¶+0À³›à¶+:AX2EoJ1roTeAkeA2h1ia:
@@ -1649,7 +1649,9 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 phpsecurityS5883(ØØþ¹Ô/0ØØþ¹Ô/:AX2EoJ1roTeAkeA2h1iT:
 phpsecurityS2076( ¦¬Ä›-0 ¦¬Ä›-:AX2EoJ1roTeAkeA2h1iT:
 phpsecurityS5334( ·Áéº-0 ·Áéº-:AX2EoJ1roTeAkeA2h1iT:
-phpsecurityS6350(à‚þ¹Ô/0à‚þ¹Ô/:AX2EoJ1roTeAkeA2h1iT4
+phpsecurityS6350(à‚þ¹Ô/0à‚þ¹Ô/:AX2EoJ1roTeAkeA2h1iTR
+swiftS114"
+format^[A-Z][a-zA-Z0-9]*$(°Ž²ç)0°Ž²ç):AX2EoJ1roTeAkeA2h1iG4
 swiftS1301(Àü€ÁÂ)0Àü€ÁÂ):AX2EoJ1roTeAkeA2h1iG4
 swiftS2094(Àü€ÁÂ)0„ïÇá+:AX2EoJ1roTeAkeA2h1iGR
 swiftS116"
@@ -1699,9 +1701,7 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 swiftS1125(€¶èÄ¶,0€¶èÄ¶,:AX2EoJ1roTeAkeA2h1iG4
 swiftS1133(Àü€ÁÂ)0Àü€ÁÂ):AX2EoJ1roTeAkeA2h1iG4
 swiftS1134(Àü€ÁÂ)0Àü€ÁÂ):AX2EoJ1roTeAkeA2h1iG4
-swiftS1135(È‡Ž²ç)0È‡Ž²ç):AX2EoJ1roTeAkeA2h1iGR
-swiftS114"
-format^[A-Z][a-zA-Z0-9]*$(°Ž²ç)0°Ž²ç):AX2EoJ1roTeAkeA2h1iG4
+swiftS1135(È‡Ž²ç)0È‡Ž²ç):AX2EoJ1roTeAkeA2h1iG4
 swiftS1144(˜Ç–’ì*0˜Ç–’ì*:AX2EoJ1roTeAkeA2h1iGR
 swiftS117"
 format^[a-z][a-zA-Z0-9]*$(¨üîÇá+0¨üîÇá+:AX2EoJ1roTeAkeA2h1iG4
@@ -1725,7 +1725,8 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 swiftS3923(€¶èÄ¶,0€¶èÄ¶,:AX2EoJ1roTeAkeA2h1iG4
 swiftS3981(ó÷ç+0ó÷ç+:AX2EoJ1roTeAkeA2h1iG4
 swiftS4144(€¶èÄ¶,0€¶èÄ¶,:AX2EoJ1roTeAkeA2h1iG4
-swiftS4186(ó÷ç+0ó÷ç+:AX2EoJ1roTeAkeA2h1iG=
+swiftS4186(ó÷ç+0ó÷ç+:AX2EoJ1roTeAkeA2h1iG2
+cppS6069(ðõ½Ý.0ðõ½Ý.:AX2EoJ1roTeAkeA2h1iU=
 cppPPBadIncludeForm(¸˜Ù±ñ(0  Ù±ñ(:AX2EoJ1roTeAkeA2h1iU2
 cppS3805(Ð˜­œ—+0Ð˜­œ—+:AX2EoJ1roTeAkeA2h1iU2
 cppS1016(•¾Ý.0•¾Ý.:AX2EoJ1roTeAkeA2h1iU2
@@ -2035,8 +2036,7 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 cppS6012(Ð€­¨ú.0Ð€­¨ú.:AX2EoJ1roTeAkeA2h1iU2
 cppS5281(¨õ˜¾§-0¨õ˜¾§-:AX2EoJ1roTeAkeA2h1iU2
 cppS5280(Àí˜¾§-0Àí˜¾§-:AX2EoJ1roTeAkeA2h1iU2
-cppS5283(Àí˜¾§-0Àí˜¾§-:AX2EoJ1roTeAkeA2h1iU2
-cppS6069(ðõ½Ý.0ðõ½Ý.:AX2EoJ1roTeAkeA2h1iUH
+cppS5283(Àí˜¾§-0Àí˜¾§-:AX2EoJ1roTeAkeA2h1iUH
 cppPPBackslashNotLastCharacter(¸˜Ù±ñ(0˜ý±ƒì*:AX2EoJ1roTeAkeA2h1iU2
 cppS1854(Ð’ÇÏ°*0Ð’ÇÏ°*:AX2EoJ1roTeAkeA2h1iU2
 cppS6181(à­¦/0à­¦/:AX2EoJ1roTeAkeA2h1iU2
@@ -2698,6 +2698,7 @@ tssecurityS6096(¸Éì¬æ.0¸Éì¬æ.:AX2EoJ1roTeAkeA2h1iW5
  roslyn.sonaranalyzer.security.csS5334(˜ã®¨ú.0˜ã®¨ú.:AX2EoJ1roTeAkeA2h1iaO
  roslyn.sonaranalyzer.security.csS6350(ØÞü¹Ô/0ØÞü¹Ô/:AX2EoJ1roTeAkeA2h1iaO
  roslyn.sonaranalyzer.security.csS6096(àÈ¯¨ú.0àÈ¯¨ú.:AX2EoJ1roTeAkeA2h1ia3
+tsqlS2737(øç™¿¦,0øç™¿¦,:AX2EoJ1roTeAkeA2h1iF3
 tsqlS1135(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF3
 tsqlS1134(øç™¿¦,0øç™¿¦,:AX2EoJ1roTeAkeA2h1iF[
 tsqlS2068"&
@@ -2725,7 +2726,6 @@ tssecurityS6096(¸Éì¬æ.0¸Éì¬æ.:AX2EoJ1roTeAkeA2h1iW5
 tsqlS1116(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF3
 tsqlS1764(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF3
 tsqlS1763(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF3
-tsqlS2737(øç™¿¦,0øç™¿¦,:AX2EoJ1roTeAkeA2h1iF3
 tsqlS1523(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF3
 tsqlS4790(È…ÆÜÛ.0È…ÆÜÛ.:AX2EoJ1roTeAkeA2h1iF3
 tsqlS4075(ˆûäÇá+0ˆûäÇá+:AX2EoJ1roTeAkeA2h1iF2

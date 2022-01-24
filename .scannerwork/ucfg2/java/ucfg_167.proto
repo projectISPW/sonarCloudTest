@@ -1,9 +1,16 @@
 
-Aprogettoispw.letmeknow.bean.ISCBean#getUserid()Ljava/lang/String; 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("1*Ô
-1 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("«
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java (#
-""B'%
-#progettoispw.letmeknow.bean.ISCBean
+Lprogettoispw.letmeknow.controller.search.Sliders#getEmp()Ljava/lang/Integer;‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("1*”
+1‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (æ
+ã
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
+%0java.lang.Integer"__id*=*;2
+0progettoispw.letmeknow.controller.search.Sliders"
+emp" 
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
+
+%0java.lang.IntegerB42
+0progettoispw.letmeknow.controller.search.Sliders

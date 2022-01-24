@@ -1,1 +1,1 @@
-Ó 2javaX1hr~progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java
+Ó 2javaXhrùprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsychologistResultController.java

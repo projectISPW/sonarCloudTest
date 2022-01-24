@@ -14,16 +14,13 @@ public class CSS {
     private  String text;
     private Label label;
     private WordCheck check;
-    private Integer htext;
     private Integer hlist;//high of the vertical layout starts
-    private Integer hAnchor;//high of the list of the user
     private Label lastmessage;
     private boolean bool;
     private double hmsg;
     private double ystart;
     private double hspacing;
     private double aumenta;
-    private String userid;
     public CSS(boolean inputbool){
         if(bool){
             check=new WordCheck(5,30);
@@ -34,22 +31,18 @@ public class CSS {
         hspacing=30;
         lastmessage=null;
         ystart=0;
-        htext=0;
         bool=inputbool;
         hlist=0;
-        hAnchor=100;
-        userid=null;
     }
     public void setText(String input){
         text=input;
     }
-    public void setUserid(String input){
-        userid=input;
-    }
     public double getAumenta() {
         return aumenta;
     }
-
+    public void setHList(){
+        hlist=0;
+    }
     public void general(){
         label =new Label(check.check(text));// prende il testo con gli invio
         label.setFont(Font.font("Gill Sans MT", FontWeight.BOLD,18));
@@ -104,15 +97,14 @@ public class CSS {
         lmsg.setStyle("-fx-opacity:  0.7; ");
         lmsg.setStyle(
                 "-fx-border-width: 1px;"+
-                "-fx-font-family: \"Work Sans\"; "+
-                "-fx-border-color: rgba(177, 177, 187,1);"+
-                "-fx-font-size:16px;"+
-                "-fx-text-fill:rgb(109,109,109);"+
-                "-fx-font-style:normal;"+
-                "-fx-font-weight: 200;"+
-                "-fx-font-size:18px;");
+                        "-fx-font-family: \"Work Sans\"; "+
+                        "-fx-border-color: rgba(177, 177, 187,1);"+
+                        "-fx-font-size:16px;"+
+                        "-fx-text-fill:rgb(109,109,109);"+
+                        "-fx-font-style:normal;"+
+                        "-fx-font-weight: 200;"+
+                        "-fx-font-size:18px;");
         hlist+=100;
-        hAnchor=200+hlist;
         return lmsg;
     }
 

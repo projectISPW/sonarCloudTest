@@ -21,9 +21,14 @@ public class UtenteUsr extends SalvaUtente {
     }
     public void  dataHomeUsr () {
         String [] inner= userDataUSR.selectUser(userid);
-        emp= Integer.parseInt(inner[0]);
-        hum = Integer.parseInt(inner[1]);
-        pos = Integer.parseInt(inner[2]);
+        System.out.println(userid);
+        if(inner[0]!=null && inner[1]!=null && inner[2]!=null){
+            emp= Integer.parseInt(inner[0]);
+            hum = Integer.parseInt(inner[1]);
+            pos = Integer.parseInt(inner[2]);
+        }else{
+            emp=hum=pos=1;
+        }
         des =inner[3];
         goal =inner[4];
         data=inner[5];
@@ -38,19 +43,19 @@ public class UtenteUsr extends SalvaUtente {
     public int getHum(){
         return hum;
     }
-    public int getPos(){
+    public int getOpt(){
         return pos;
     }
-    public String getDescrizione(){
+    public String getDescript(){
         return des;
     }
     public String getTag(){
         return personalObb.getTag();
     }
-    public String getObiettivo(){
+    public String getGoal(){
         return personalObb.getObiettivo();
     }
-    public Integer[] getData(){
+    public Integer[] getDate(){
         return personalObb.getData();
     }
     public void setPersonalDes(String newS)  {

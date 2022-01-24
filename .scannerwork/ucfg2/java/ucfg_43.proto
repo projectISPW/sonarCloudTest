@@ -1,36 +1,132 @@
 
-Tprogettoispw.letmeknow.controller.utentipsy.Form#getCounter(Ljava/util/ArrayList;I)IÇ
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java. .("2*‹
-2Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java0 0(–
-Õ
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java0 0(8
-elem0progettoispw.letmeknow.controller.utentipsy.Form"__id*
-""ˆ
-Û
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java0 0(8
-elem0progettoispw.letmeknow.controller.utentipsy.Form"
-__arrayGet*
-
-inputjava.util.ArrayList*
-""*
+Kprogettoispw.letmeknow.bean.PersonalGoalBean#exitData()[Ljava/lang/Integer;ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ("6*“
+2ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (Õ
+ 
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (
+%14java.io.PrintStream"__id*
+""◊‘
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (V
+%15void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%14java.io.PrintStream*86
+4Goal expired for more than a month, update your goal2println(Ljava/lang/String;)*
+1*Ï
+3ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.javaA (EÓ
+Î
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.javaA (H
+%10java.lang.Integer"
+__arrayGet*
+
+datajava.lang.Integer[]*2å
+â
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.javaJ (`
+%11java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*"
+java.util.CalendarΩ
+∫
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.javae (r
+
+%12int"__id*
+""˛˚
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.javaJ (s
+
+%13int"java.util.Calendar#get(I)I*
+
+%11java.util.Calendar*
+
+
+%12int2get(I)*
+2
+1*Ê
+4ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (Ì
+Í
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (
+%6java.lang.Integer"
+__arrayGet*
+
+datajava.lang.Integer[]*2ã
+à
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ()
+%7java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*"
+java.util.Calendarº
+π
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java. (<	
+%8int"__id*
+""˚¯
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (=	
+%9int"java.util.Calendar#get(I)I*
+
+%7java.util.Calendar*
+	
+%8int2get(I)*
+3
+1*Œ
+5ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (Ã
+…
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (
+%4java.io.PrintStream"__id*
+""‘—
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (U
+
+%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%4java.io.PrintStream*75
+3Goal expired for more than a year, update your goal2println(Ljava/lang/String;)*
+4*∑
+
+6ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ("Œ
+À
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (0
+datajava.lang.Integer[]"__id*
+""Ì
+Í
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (
+%0java.lang.Integer"
+__arrayGet*
+
+datajava.lang.Integer[]*2ã
+à
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ()
+%1java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*"
+java.util.Calendarº
+π
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java. (;	
+%2int"__id*
+""˚¯
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (<	
+%3int"java.util.Calendar#get(I)I*
+
+%1java.util.Calendar*
+	
+%2int2get(I)*
 4
-1*´
-4Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java0! 0(%õò
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java0! 0(1	
-%0int"=progettoispw.letmeknow.controller.utentipsy.Form#getFormid()I*:
-8
-elem0progettoispw.letmeknow.controller.utentipsy.Form2getFormid()*
-2*ò
-1Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java1 1("ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java1 1(
-"":
-inputjava.util.ArrayList:
-""B42
-0progettoispw.letmeknow.controller.utentipsy.Form
+5*Â
+1ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ("ø
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (
+
+datajava.lang.Integer[]B0.
+,progettoispw.letmeknow.bean.PersonalGoalBean

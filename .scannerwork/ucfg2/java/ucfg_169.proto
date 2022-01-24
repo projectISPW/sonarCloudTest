@@ -1,58 +1,16 @@
 
-@progettoispw.letmeknow.bean.ISCBean#exitMsg()[Ljava/lang/String; 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java% %("7*™
-3 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java* *(è
-å
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java+ +(+
-%2"
-__arraySet*
-
-arrStrjava.lang.String[]*
-""*
-""*
-3
-1*î
-5 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java(  ((&ÔÑ
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java( ((.
-%1java.lang.String[]"java.lang.String[]æ
+Lprogettoispw.letmeknow.controller.search.Sliders#getPos()Ljava/lang/Integer;‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java" "("1*”
+1‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(æ
 ã
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java( ((.
-arrStrjava.lang.String[]"__id*
-
-%1java.lang.String[]*
-3
-1*î
-6 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java'& '(*ÔÑ
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java' '(+
-%0java.lang.String[]"java.lang.String[]æ
-ã
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java' '(+
-arrStrjava.lang.String[]"__id*
-
-%0java.lang.String[]*
-3
-1*ƒ
-7 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java& &(Ò
-Ï
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java& &(
-arrStrjava.lang.String[]"__id*
-""*
-5
-6*ì
-1 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java- -("Ã
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java- -(
-
-arrStrjava.lang.String[]B'%
-#progettoispw.letmeknow.bean.ISCBean
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(
+%0java.lang.Integer"__id*=*;2
+0progettoispw.letmeknow.controller.search.Sliders"
+pos" 
+‚
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(
+
+%0java.lang.IntegerB42
+0progettoispw.letmeknow.controller.search.Sliders

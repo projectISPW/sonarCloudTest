@@ -1,0 +1,19 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "goal".(¥ˆçÃøÿÿÿÿ8½›•òç/
+G
+java:S1197"*Move the array designators [] to the type.(Äâª8Á›•òç/
+]	java:S125"<This block of commented-out lines of code should be removed.(Ò¸Ïıÿÿÿÿ8Â›•òç/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ìÂµ½úÿÿÿÿ8Ä›•òç/
+Y
+java:S1854%"<Remove this useless assignment to local variable "checkStr".(ÊÖ³Õ8Å›•òç/
+J
+java:S1481%"-Remove this unused "checkStr" local variable.(ÊÖ³Õ8Æ›•òç/
+P
+java:S1121".Extract the assignment out of this expression.(¥ˆçÃøÿÿÿÿ8É›•òç/
+~
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "data".(´öƒ¤úÿÿÿÿ8Ë›•òç/
+}
+java:S1488&"[Immediately return this expression instead of assigning it to the temporary variable "tag".(È÷¤œûÿÿÿÿ8Ì›•òç/
+€
+java:S1488+"^Immediately return this expression instead of assigning it to the temporary variable "output".(‡ßªÑüÿÿÿÿ8Î›•òç/

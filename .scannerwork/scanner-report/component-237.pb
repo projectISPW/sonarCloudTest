@@ -1,1 +1,1 @@
-í 2javaX)hr}progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerView/progettoispw/letmeknow/RecoverPswdControllerInterf1.java
+í 2javaXhr‘progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsychologistResultBean.java

@@ -14,8 +14,8 @@ import java.io.IOException;
 -possibilita di mettere slider che bloccano il proprio valore invece che lasciare l'image view
  */
 
-public class HomepagecontrollerInterf1 {
-    private String userid;
+public class HomepagecontrollerInterf1 implements Interf1ButtonBar{
+    protected String userid;
     protected PageMenu controller= new PageMenu();
     @FXML
     protected ImageView empathySlider;
@@ -33,12 +33,12 @@ public class HomepagecontrollerInterf1 {
     protected Label date;
     @FXML
     protected Text userName;
-    private UseridBean id=new UseridBean();
+    protected UseridBean id;
     public HomepagecontrollerInterf1(){
         id=new UseridBean();
         userid= id.getUserId();
     }
-    public void initialize() throws InterruptedException {
+    public void initialize(){
         userName.setText("User : "+userid);
         SliderBean sliderVal=new SliderBean();
         Integer [] listaValori=sliderVal.exitValue();
@@ -47,11 +47,11 @@ public class HomepagecontrollerInterf1 {
         setSlider(humorSlider,listaValori[1]);
         setSlider(positivitySlider,listaValori[2]);
 
-        DescrizionePersonaleBean descrizione=new DescrizionePersonaleBean();
+        PersonalDescriptionBean descrizione=new PersonalDescriptionBean();
         String text=descrizione.exitValue();
         personalDescription.setText(text);
-        ObiettivoPersonaleBean obb=new ObiettivoPersonaleBean();
-        goal.setText(obb.exitObiettivo());
+        PersonalGoalBean obb=new PersonalGoalBean();
+        goal.setText(obb.exitGoal());
         tag.setText(obb.exitTag());
         listaValori=obb.exitData();
         //date.setText(data.toString());
@@ -67,15 +67,6 @@ public class HomepagecontrollerInterf1 {
         image.setImage(immagine);
     }
 
-    @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
-        controller.switchToChat(event);
-    }
-
-    @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
-        controller.switchToPersonalForm(event);
-    }
 
     @FXML
     protected void editProfile(ActionEvent event) throws IOException {
@@ -85,4 +76,16 @@ public class HomepagecontrollerInterf1 {
     protected void goToSettings(ActionEvent event) throws IOException {
         controller.switchToSettings(event);
     }
+    @FXML
+    protected void goBack() {
+        controller.backTo();
+    }
+    @FXML
+    protected  void goToISC(ActionEvent event){
+        controller.switchToISC(event);
+    }
+    @FXML
+    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+    @FXML
+    protected void goToPersonalForm (ActionEvent event ){controller.switchToPersonalForm(event);}
 }

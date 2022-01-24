@@ -1,6 +1,9 @@
 package progettoispw.letmeknow.controller;
 
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import progettoispw.letmeknow.PageMenu;
 import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
@@ -26,5 +29,10 @@ public class SettingsController {
     public boolean feed(String input){
         if(userU!=null)return userU.setFeed(input);
         else return userP.setFeed(input);
+    }
+    @FXML
+    public void backTo(ActionEvent event){
+        PageMenu controller=new PageMenu();
+        controller.backTo();
     }
 }

@@ -39,16 +39,32 @@ public class Messages {
         users.remove(userid);
         return users;
     }
+    public List<Message>orderByTime(List<Message>V){
+        Message temp;
+        int j;
+        for(int i =0;i<V.size();i++){
+            temp=V.get(i);
+            j=i;
+            while(j>0 &&   temp.getDate().isAfter(V.get(j-1).getDate()))
+            {
+                V.set(j,V.get(j-1));
+                j=j-1;
+            }
+            V.set(j,temp);
+        }
+        return V;
+    }
     public List<Message> getLast(){
-        ArrayList<Message> lastmessages;
+        List<Message> lastmessages;
         ArrayList<String>users= (ArrayList<String>) getUsers();
         lastmessages =new ArrayList<>();
         for(String user:users){
             System.err.println(user);
-           lastmessages.add(lstMsgWith(user));
+            lastmessages.add(lstMsgWith(user));
        }
+        lastmessages= orderByTime(lastmessages);
         System.err.println("_____________________________________________");
-       return lastmessages;
+        return lastmessages;
     }
     public Message lstMsgWith(String user) {
         ArrayList<Message>inner= (ArrayList<Message>) chat(user,true);
@@ -86,6 +102,7 @@ public class Messages {
         ArrayList <Message> founded=new ArrayList<>();
         getAllChat();
         for(Message msg:sendRecived)if(msg.getText().contains(word))founded.add(msg);
+        founded= (ArrayList<Message>) orderByTime(founded);
         return founded;
     }
 }

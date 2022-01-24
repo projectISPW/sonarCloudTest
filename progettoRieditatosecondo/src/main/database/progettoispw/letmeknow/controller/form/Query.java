@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Query implements FormMeta {
+public class Query {
     private String sql;
     public ResultSet queryResults(Statement stmt, String userid ,int formid) {
         try {
