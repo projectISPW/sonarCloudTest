@@ -39,8 +39,7 @@ public class HomepageEditControllerInterf2 extends HomepageEditControllerInterf1
     }
     public void outputValVisited(){
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=new String[3];
-        rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3,inner);
+        String [] inner=rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3);
         for(int i=0;i<3;i++)uids[i+3]=inner[i];
     }
     @FXML

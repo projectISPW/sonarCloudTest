@@ -1,45 +1,86 @@
 package progettoispw.letmeknow.bean;
+import progettoispw.letmeknow.controller.EditProfileController;
 
-import progettoispw.letmeknow.controller.ISCController;
+import java.util.Calendar;
 
-import java.util.ArrayList;
+public class UpdatePersonalGoalBean {
+    private String userid;
+    private String newObb;
+    private String newTag;
+    private String newDueDate;
+    private Integer [] data;
+    private Calendar cal;
+    private PersonalGoalBean padre;
+    private EditProfileController controller;
+    public String getUserid() {
+        return userid;
+    }
 
-public class ISCBean {
-    private int nval;
-    private ISCController controller;
-    public ISCBean (int val){
-        nval=val;
-        controller=new ISCController(nval);
+    public UpdatePersonalGoalBean() {
+        controller=new EditProfileController();
+        userid= controller.getUserID();
+        data=new Integer[]{0,0,0};
+        cal=Calendar.getInstance();
+        padre=new PersonalGoalBean();
+        controller=new EditProfileController();
     }
-    public ISCBean (){
-        nval=0;
-        controller=new ISCController();
-    }
-    public String getUserid(){
-        return controller.getUid();
-    }
-    public String[][] exitUid(){
-        int index;
-        ArrayList<lastMessage>  actual= (ArrayList<lastMessage>) controller.queryUsers();;
-        String [][] arrStr;
-        if(nval!=0) arrStr=new String[2][nval];
-        else arrStr=new String[2][actual.size()];
-        for(lastMessage usr : actual){
-            index =actual.indexOf(usr);
-            arrStr[0][index]=usr.getUserid();
-            arrStr[1][index]= usr.getLastmsg();
+    public void check(String ValueObb,String ValueTag, String ValueData) {
+        if(!ValueObb.equals(""))newObb=ValueObb;
+        else {
+            newObb =padre.exitGoal();
         }
-        return arrStr;
-    }
-    public void touched(String user){
-        controller.who(user);
-    }
-    public void search(String find){
-        if(!find.equals("")) {
-            controller.search(find);
+        if(!ValueTag.equals("")){
+            if(ValueTag.toCharArray()[0]!='#'){
+                newTag=padre.exitTag();
+            }else{
+                newTag=ValueTag;
+            }
+        }else{
+            newTag=padre.exitTag();
+        }
+        if(!ValueData.equals("") && ValueData.contains("-")){
+            newDueDate =ValueData;
+            //data=dateParser.parse(ValueData);
+            int end= newDueDate.indexOf("-");
+            data[0]=(Integer.parseInt(newDueDate.substring(0,end)));
+            int beg=end;
+            end= newDueDate.indexOf("-",end+1);
+            data[1]=(Integer.parseInt(newDueDate.substring(beg+1,end)));
+            beg=end;
+            end= newDueDate.length();
+            data[2]=(Integer.parseInt(newDueDate.substring(beg+1,end)));
+            data=checkData(data);
+
+        }
+        else{
+            data=padre.exitData();
         }
     }
-    public void reset(){
-        controller.reset();
+
+    public Integer[] checkData(Integer [] date){
+        if(cal.get(Calendar.YEAR)== date[2]  || data[2]==(cal.get(Calendar.YEAR)+1)){
+            if(data[1]>((cal.get(Calendar.MONTH)+6)%12)) {
+                return createData();
+            }
+            return date;
+        }
+        else{
+            return createData();
+        }
+
+
     }
+    public Integer[] createData(){
+        if(cal.get(Calendar.MONTH)<6){
+            return (new Integer[] {cal.get(Calendar.DAY_OF_MONTH),cal.get(Calendar.MONTH)+6,cal.get(Calendar.YEAR)});
+        }
+        else{
+            return (new Integer[] {cal.get(Calendar.DAY_OF_MONTH),(cal.get(Calendar.MONTH)+6)%12,cal.get(Calendar.YEAR)+1});
+        }
+    }
+    public void entryValue(String ValueObb,String ValueTag, String ValueData) {
+        check(ValueObb,ValueTag,ValueData);
+        controller.setGoal(newObb,newTag,data);
+    }
+
 }

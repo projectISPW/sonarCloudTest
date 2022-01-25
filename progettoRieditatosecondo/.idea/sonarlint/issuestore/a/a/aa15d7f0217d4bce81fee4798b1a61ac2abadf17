@@ -1,9 +1,6 @@
 
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÞ°•
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(å¬Ô•
-N	java:S106;"9Replace this use of System.out or System.err by a logger.(å¬Ô•
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(å¬Ô•
 @
-java:S3457D"%String contains no format specifiers.(Ñë„Ëþÿÿÿÿ
-N	java:S106E"9Replace this use of System.out or System.err by a logger.(å¬Ô•
+java:S3457B"%String contains no format specifiers.(Ñë„Ëþÿÿÿÿ
 z
-java:S13198"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(¸ó“H
+java:S13196"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(¸ó“H

@@ -1,14 +1,9 @@
 package progettoispw.letmeknow;
 
+import progettoispw.letmeknow.bean.FormResultBean;
 
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-
-public class TakeForm3ControllerInterf1 extends TakeFormControllerInterf1 {
-    public TakeForm3ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(3);
+public class Form2ResultInterf1 extends FormResultInterf1 {
+    public Form2ResultInterf1(){
+        bean=new FormResultBean(2);
     }
 }
-
-
-

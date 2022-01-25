@@ -1,1 +1,1 @@
-d 2javaXhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java
+d 2javaX[hr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java

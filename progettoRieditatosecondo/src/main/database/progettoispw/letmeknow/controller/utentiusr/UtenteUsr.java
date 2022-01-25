@@ -20,21 +20,25 @@ public class UtenteUsr extends SalvaUtente {
         queryResult();
     }
     public void  dataHomeUsr () {
-        String [] inner= userDataUSR.selectUser(userid);
-        if(inner[0]!=null && inner[1]!=null && inner[2]!=null){
-            emp= Integer.parseInt(inner[0]);
-            hum = Integer.parseInt(inner[1]);
-            pos = Integer.parseInt(inner[2]);
-        }else{
+        if(userid!=null){
+            String [] inner= userDataUSR.selectUser(userid);
+            if(inner[0]!=null && inner[1]!=null && inner[2]!=null) {
+                emp = Integer.parseInt(inner[0]);
+                hum = Integer.parseInt(inner[1]);
+                pos = Integer.parseInt(inner[2]);
+                des = inner[3];
+                goal = inner[4];
+                data = inner[5];
+                tag = inner[6];
+                personalObb.setObiettivo(goal);
+                personalObb.setTag(tag);
+                personalObb.setStrData(data);
+            }}
+       else{
             emp=hum=pos=1;
+            goal=tag="";
+            data="0-0-0";
         }
-        des =inner[3];
-        goal =inner[4];
-        data=inner[5];
-        tag=inner[6];
-        personalObb.setObiettivo(goal);
-        personalObb.setTag(tag);
-        personalObb.setStrData(data);
     }
     public int getEmp(){
         return emp;

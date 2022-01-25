@@ -1,1 +1,1 @@
-^ 2javaX4hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java
+^ 2javaX>hraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/MessageDAO.java

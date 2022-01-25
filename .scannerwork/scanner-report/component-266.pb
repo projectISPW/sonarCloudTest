@@ -1,1 +1,1 @@
-Š 2javaX(hr~progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java
+Š 2javaXhr~progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/controller/GoToFormController.java

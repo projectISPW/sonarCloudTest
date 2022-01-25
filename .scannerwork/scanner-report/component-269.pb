@@ -1,1 +1,1 @@
-ç 2javaXÑhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java
+ç 2javaXhrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/Interf1ButtonBar.java

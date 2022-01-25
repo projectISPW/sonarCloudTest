@@ -53,7 +53,7 @@ public class Search {
     public ArrayList<String> getArrayList(){
         ArrayList inner=new ArrayList();
         if(foundList.isEmpty()){
-            inner=searchData.getVisit(userid);
+            inner= (ArrayList) searchData.getVisit(userid);
         }
         for(String str:foundList){
             if(!inner.contains(str))inner.add(str);

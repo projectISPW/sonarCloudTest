@@ -1,20 +1,35 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-public class SignupController {
-    private SalvaUtente user;
-    public SignupController(){
-        user=new SalvaUtente();
+public class InnerUsers {
+    private final String userid;
+    private String description;
+    private String goal;
+    private int lenMax;
+    private WordCheck check=new WordCheck();
+    public InnerUsers(UtenteUsr elem){
+        lenMax=15;
+        userid=elem.getUserid();
+        description= elem.getDescript();
+        goal=elem.getTag();
     }
-    public boolean checkMail(String input){
-        System.out.println("mail check in controller"+user.checkEmail(input));
-        return !user.checkEmail(input);
+
+    public String getUserid() {
+        return userid;
     }
-    public boolean signup(String password,String type,String email,int [] val,String description,String goal){
-        return user.registrationUSR(password,email,type,val,description,goal);
+
+    public String getDescription() {
+        return description;
     }
-    public boolean signup(String password,String type,String email){
-        return user.registrationPSY(password,email,type);
+
+    public String getGoal() {
+        return goal;
     }
+
+    public void getStatus(){
+        System.out.println("userid"+userid +"description"+description+"tag"+goal);
+    }
+
 }

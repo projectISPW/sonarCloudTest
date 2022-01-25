@@ -1,84 +1,50 @@
-package progettoispw.letmeknow.controller.utentiusr;
+package progettoispw.letmeknow.controller.utenti;
+import java.util.Properties;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
-
-public class UtenteUsr extends SalvaUtente {
-    UserDAO userDataUSR;
-    private int pos;
-    private int hum;
-    private int emp;
-    private String des;
-    private String goal;
-    private String tag;
-    private String data;
-    private Goal personalObb;
-    public UtenteUsr(String who) {
-        super(who);
-        userDataUSR =new UserDAO();
-        personalObb=new Goal();
-        dataHomeUsr();
-        queryResult();
-    }
-    public void  dataHomeUsr () {
-        String [] inner= userDataUSR.selectUser(userid);
-        System.out.println(userid);
-        if(inner[0]!=null && inner[1]!=null && inner[2]!=null){
-            emp= Integer.parseInt(inner[0]);
-            hum = Integer.parseInt(inner[1]);
-            pos = Integer.parseInt(inner[2]);
-        }else{
-            emp=hum=pos=1;
+public class JavaMailUtil {
+    private String text;
+    public Boolean sendMail(String recipient){
+        try {
+        Properties properties=new Properties();
+        //configurazione server
+        properties.put("mail.smtp.host","smtp.gmail.com");
+        properties.put("mail.smtp.port", "465");
+        properties.put("mail.smtp.ssl.enable", "true");
+        properties.put("mail.smtp.auth", "true");
+        //configurazione log
+        String myAccount="progettoispw2021@gmail.com";
+        String password="Password2021";
+        Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
+               protected PasswordAuthentication getPasswordAuthentication() {
+                   return new PasswordAuthentication(myAccount, password);
+                }
+            });
+        Message message = prepareMessage(session,myAccount,recipient);
+        Transport .send(message);
+        System.out.println("MESSAGE CORRECTLY SENDED");
+        return true;
+        } catch (Exception e ){
+            return false;
         }
-        des =inner[3];
-        goal =inner[4];
-        data=inner[5];
-        tag=inner[6];
-        personalObb.setObiettivo(goal);
-        personalObb.setTag(tag);
-        personalObb.setStrData(data);
     }
-    public int getEmp(){
-        return emp;
+
+    public void setText(String input){
+        text=input;
     }
-    public int getHum(){
-        return hum;
-    }
-    public int getOpt(){
-        return pos;
-    }
-    public String getDescript(){
-        return des;
-    }
-    public String getTag(){
-        return personalObb.getTag();
-    }
-    public String getGoal(){
-        return personalObb.getObiettivo();
-    }
-    public Integer[] getDate(){
-        return personalObb.getData();
-    }
-    public void setPersonalDes(String newS)  {
-        des =newS;
-        userDataUSR.setDescription(userid,newS);
-    }
-    public void setPersonalGoal(String newS)  {
-        personalObb.setObiettivo(newS);
-        userDataUSR.setGoal(userid,newS);
-    }
-    public void setPersonalTag(String newS)  {
-        personalObb.setTag(newS);
-        userDataUSR.setTag(userid,newS);
-    }
-    public void setPersonalData(Integer [] value)  {
-        personalObb.setData(value);
-        userDataUSR.setData(userid,personalObb.getDataStr());
-    }
-    public void setParams(){
-        queryResult();
-        dataHomeUsr();
-    }
-    public boolean queryResult() {
-        return userDataUSR.getResult(userid,emp,hum,pos);
+    public Message prepareMessage (Session session,String myAccountEmail, String reciver){
+        try {
+            Message message =new MimeMessage(session);
+            message.setFrom(new InternetAddress(myAccountEmail));
+            message.addRecipient(Message.RecipientType.TO,new InternetAddress(reciver));
+            message.setSubject("recover password and userid");
+            message.setText(text);
+            return message;
+        } catch (Exception e) {
+           return null;
+        }
+
     }
 }

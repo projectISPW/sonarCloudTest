@@ -1,13 +1,4 @@
-î
-javaS1214CMove constants defined in this interfaces to another class or enum. 2  :
-a ":
-a #:
-a ':
-a $:
-a :
-a		 *:
-a
-
- #:
-a ":
-a !
+p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2"" 

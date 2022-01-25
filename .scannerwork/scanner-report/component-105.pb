@@ -1,1 +1,1 @@
-i 2javaXèhrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UserDAO.java
+i 2javaX*hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java

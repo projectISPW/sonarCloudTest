@@ -2,22 +2,17 @@ package progettoispw.letmeknow.bean;
 
 import progettoispw.letmeknow.controller.*;
 
-public class SearchBean {
-    private SearchController controller;
-    public SearchBean(){
-        controller=new SearchController();
+public class LoginBean {
+    private String userid;
+    private String password;
+    private LoginController controller;
+    public LoginBean (String user,String inputpassword){
+        this.userid=user;
+        this.password=inputpassword;
+        controller=new LoginController(userid,password);
     }
-    public void enterParamSearch(Integer [] input){
-        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
-            controller.enterParamSearch(input);
-        }
-    }
-    public void enterGoalSearch(String input){
-        controller.enterGoal(input);
-    }
-    public void enterDescrSearch(String input){controller.enterDes(input);}
-    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
-    public void toMe(){
-        controller.toMe();
+    public String exitValue(){
+        String output= controller.tornaLog();
+        return output;
     }
 }

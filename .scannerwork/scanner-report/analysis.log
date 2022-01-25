@@ -8,6 +8,7 @@ SonarCloud plugins:
   - HTML Code Quality and Security 3.5.0.3009 (web)
   - Flex Code Quality and Security 2.7.0.2865 (flex)
   - XML Code Quality and Security 2.5.0.3376 (xml)
+  - Text file Code Quality and Security 1.0.0.120 (text)
   - VB.NET Code Quality and Security 8.34.0.42011 (vbnet)
   - Swift Code Quality and Security 4.4.0.5185 (swift)
   - CFamily Code Quality and Security 6.29.0.41127 (cpp)
@@ -22,7 +23,7 @@ SonarCloud plugins:
   - Ruby Code Quality and Security 1.9.0.3429 (ruby)
   - Vulnerability Rules for C# 9.3.0-M1.14685 (securitycsharpfrontend)
   - Vulnerability Rules for Java 9.3.0-M1.14685 (securityjavafrontend)
-  - License for SonarLint 8.0.0.26204 (license)
+  - License for SonarLint 8.0.0.26268 (license)
   - Vulnerability Rules for JS 9.3.0-M1.14685 (securityjsfrontend)
   - COBOL Code Quality 4.6.2.4876 (cobol)
   - Vulnerability Rules for Python 9.3.0-M1.14685 (securitypythonfrontend)
@@ -40,7 +41,7 @@ Global server settings:
   - sonar.auth.microsoft.enabled=true
   - sonar.core.id=1BD809FA-AWHW8ct9-T_TB3XqouNu
   - sonar.core.serverBaseURL=https://sonarcloud.io
-  - sonar.core.startTime=2022-01-20T09:48:17+0100
+  - sonar.core.startTime=2022-01-24T10:47:26+0100
   - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=260
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth=4
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek=1
@@ -53,6 +54,7 @@ Global server settings:
   - sonar.plsql.file.suffixes=sql,tab,pkb
   - sonar.tsql.file.suffixes=.tsql
 Project server settings:
+  - sonar.autoscan.enabled=false
 Project scanner properties:
   - sonar.host.url=https://sonarcloud.io
   - sonar.java.binaries=.

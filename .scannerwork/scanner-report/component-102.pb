@@ -1,1 +1,1 @@
-f 2javaX&hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java
+f 2javaXIhr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java

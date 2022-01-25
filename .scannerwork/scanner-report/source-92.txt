@@ -1,122 +1,71 @@
-package progettoispw.letmeknow.controller.search;
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-import progettoispw.letmeknow.controller.ConnectionDBMS;
+    <groupId>progettoispw</groupId>
+    <artifactId>letmeknow</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>letmeknow</name>
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.7.1</junit.version>
+    </properties>
 
-public class SearchDAO {
-    ConnectionDBMS connDB;
-    Query query;
-    public static final String UID ="userid";
-    public SearchDAO() {
-        connDB = new ConnectionDBMS();
-        query = new Query();
-    }
-    public void attach(String input, List<String> list) {
-        boolean bool = true;
-        for (String elem : list) {
-            if (elem.equals(input)) bool = false;
-        }
-        if (bool) list.add(input);
-    }
-    public List<String> paramSearch(String uid, int emp, int hum, int pos) {
-        Statement stmt = null;
-        ResultSet rst = null;
-        List<String> ret = new ArrayList<>();
-        try {
-            stmt = connDB.connection(stmt);
-            rst = query.searchAll(stmt, uid, emp, hum, pos);
-            while (rst.next()) {
-                attach(rst.getString(UID), ret);
-            }
-            return ret;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return new ArrayList<>();
-        } finally {
-            connDB.closeRSTSTMT(rst, stmt);
-        }
-    }
-    public void attach(String input,String check,ArrayList list){
-        if(!list.contains(input) && !input.equals(check))list.add(input);
-    }
-    public boolean addVisited(String userid, String userid2) {
-        Statement stmt = null;
-        ResultSet rst = null;
-        boolean bool = false;
-        String [] out=new String[4];
-        ArrayList<String>prev=new ArrayList<>();
-        try {
-            stmt = connDB.connection(stmt);
-            rst = query.getVisited(stmt, userid);
-            while (rst.next()) {
-                bool=true;
-                attach(rst.getString(1),userid2,prev);
-                attach(rst.getString(2),userid2,prev);
-                attach(rst.getString(3),userid2,prev);
-            }
-            if(!bool){
-                  bool=query.newLine(stmt,userid);
-                  prev.add(null);
-                  prev.add(null);
-            }
-            prev.add(userid2);
-            if(bool)bool=query.setVisited(stmt, userid,prev);
-            if(bool)bool=query.incremVisit(stmt,userid2);
-            return bool;
-        } catch (SQLException throwables) {
-            return false;
-        } finally {
-            connDB.closeRSTSTMT(rst, stmt);
-        }
-    }
-    public int[] getnVisit(String userid) {
-        Statement stmt = null;
-        ResultSet rst = null;
-        int [] ret = new int [2];
-        try {
-            stmt = connDB.connection(stmt);
-            query.newLine(stmt,userid);
-            System.out.println(" i am survived");
-            rst = query.getnVisit(stmt, userid);
-            if(!rst.next()){
-                query.newLine(stmt,userid);
-                rst=query.getnVisit(stmt,userid);
-            }
-            if (rst.next()) ret[0]=Integer.parseInt(rst.getString(1));
-            System.err.println(ret[0]);
-            rst = query.getnRows(stmt);
-            if (rst.next()) ret [1]=Integer.parseInt(rst.getString(1));
-            System.err.println(ret[1]);
-            return ret;
-        } catch (Exception throwables) {
-            return new int [2];
-        } finally {
-            connDB.closeRSTSTMT(rst, stmt);
-        }
-    }
-    public ArrayList<String> getVisit(String userid) {
-        Statement stmt = null;
-        ResultSet rst = null;
-        int ind = 1;
-        ArrayList<String> users = new ArrayList<>();
-        try {
-            stmt = connDB.connection(stmt);
-            rst = query.getVisited(stmt, userid);
-            while (rst.next()) {
-                users.add(rst.getString(ind++));
-            }
-            return users;
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            return new ArrayList<>();
-        } finally {
-            connDB.closeRSTSTMT(rst, stmt);
-        }
-    }
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17.0.0.1</version>
+        </dependency>
 
-}
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <compilerArgs>--enable-preview</compilerArgs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.7</version>
+                <executions>
+                    <execution>
+                        <!-- Default configuration for running with: mvn clean javafx:run -->
+                        <id>default-cli</id>
+                        <configuration>
+                            <mainClass>progettoispw.letmeknow/progettoispw.letmeknow.MainApplication</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

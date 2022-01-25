@@ -1,2 +1,1 @@
-% 2xmlX
-hr4progettoRieditatosecondo/.idea/runConfigurations.xml
+% 2xmlXhr*progettoRieditatosecondo/.idea/modules.xml

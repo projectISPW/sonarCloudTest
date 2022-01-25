@@ -166,7 +166,7 @@
       <PieChart layoutX="1142.0" layoutY="218.0" prefHeight="222.0" prefWidth="231.0" />
       <Group fx:id="group4" layoutX="641.0" layoutY="496.416015625">
          <children>
-            <Button fx:id="home4" layoutY="10.583984375" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+            <Button fx:id="home4" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
                <graphic>
                   <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
                </graphic>
@@ -209,7 +209,7 @@
       <Label fx:id="tag" alignment="CENTER" layoutX="147.0" layoutY="497.0" minHeight="18.0" minWidth="-Infinity" prefHeight="19.0" prefWidth="231.0" styleClass="textHomePage" textAlignment="CENTER" />
       <Group fx:id="group5" layoutX="639.0" layoutY="590.416015625">
          <children>
-            <Button fx:id="home5" layoutY="10.583984375" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+            <Button fx:id="home5" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
                <graphic>
                   <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
                </graphic>
@@ -238,7 +238,7 @@
       </Group>
       <Group fx:id="group6" layoutX="638.0" layoutY="684.416015625">
          <children>
-            <Button fx:id="home6" layoutY="10.583984375" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
+            <Button fx:id="home6" layoutY="10.583984375" mnemonicParsing="false" onAction="#visit" prefHeight="60.0" prefWidth="60.0" styleClass="Back_Row">
                <graphic>
                   <FontAwesomeIcon fill="WHITE" glyphName="USER" size="40" strokeWidth="0.5" wrappingWidth="29.942844480276108" />
                </graphic>

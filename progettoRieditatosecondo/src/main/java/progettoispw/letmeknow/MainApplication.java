@@ -67,7 +67,7 @@ public class MainApplication extends Application {
         stage.show();
     }
     public static void main(String[] args) {
-        size=ScreenSize.SMARTPHONE;
+        size=ScreenSize.LAPTOP;
         launch();
     }
 }

@@ -1,1 +1,1 @@
-ú 2javaX†hr‰progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java
+ú 2javaXXhrprogettoRieditatosecondo/src/main/usecase/homepageEdit/controllerView/progettoispw/letmeknow/HomepageEditControllerInterf1.java

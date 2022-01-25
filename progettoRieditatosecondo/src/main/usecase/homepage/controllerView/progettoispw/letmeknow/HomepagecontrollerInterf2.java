@@ -56,8 +56,7 @@ public class HomepagecontrollerInterf2 extends HomepagecontrollerInterf1 {
     }
     public void outputValVisited(){
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=new String[3];
-        rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3,inner);
+        String [] inner=rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3);
         for(int i=0;i<3;i++)uids[i+3]=inner[i];
     }
     @FXML
@@ -65,7 +64,11 @@ public class HomepagecontrollerInterf2 extends HomepagecontrollerInterf1 {
         Button button=(Button) event.getTarget();
         if(button.getOpacity()<1)return ;
         switch(button.getId()){
-            case "chat1" :iscBean.touched(uids[0]);break;
+            case "chat1" :{
+                iscBean.touched(uids[0]);
+                System.out.println(uids[0]);
+                break;
+            }
             case "chat2" :iscBean.touched(uids[1]);break;
             case "chat3" :iscBean.touched(uids[2]);break;
             case "chat4" :iscBean.touched(uids[3]);break;
@@ -82,11 +85,7 @@ public class HomepagecontrollerInterf2 extends HomepagecontrollerInterf1 {
         Button button=(Button) event.getTarget();
         if(button.getOpacity()<1)return ;
         switch(button.getId()){
-            case "home1" :{
-                System.out.println("TOUCHED HOME "+uids[0]);
-                visitBean.touched(uids[0]);
-                break;
-            }
+            case "home1" :visitBean.touched(uids[0]);break;
             case "home2" :visitBean.touched(uids[1]);break;
             case "home3" :visitBean.touched(uids[2]);break;
             case "home4" :visitBean.touched(uids[3]);break;

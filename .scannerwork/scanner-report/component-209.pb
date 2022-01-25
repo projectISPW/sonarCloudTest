@@ -1,1 +1,1 @@
-Ñ 2javaXhrrprogettoRieditatosecondo/src/main/usecase/formResult/controllerView/progettoispw/letmeknow/Form1ResultInterf1.java
+Ñ 2javaX)hrnprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java

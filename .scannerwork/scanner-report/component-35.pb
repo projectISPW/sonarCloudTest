@@ -1,1 +1,1 @@
-# 2xmlXhr'progettoRieditatosecondo/.idea/misc.xml
+# 2xmlX	hrIprogettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_251.xml

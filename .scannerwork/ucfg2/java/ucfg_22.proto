@@ -1,6 +1,6 @@
 
 jprogettoispw.letmeknow.controller.utentipsy.Query#selectResult(Ljava/sql/Statement;II)Ljava/sql/ResultSet;ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java ($"1*ï
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java ($"1*›	
 1ƒ
 yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java	 	(Û
 Ø
@@ -16,35 +16,22 @@ yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java	 	(l
 sqljava.lang.String"__id*
 
-%0java.lang.String²
-¯
+%0java.lang.StringÇÄ
 ƒ
 yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java
- 
-(
-%1java.io.PrintStream"__id*
-""œ™
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java
- 
-(
-
-%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*
-
-sqljava.lang.String2println(Ljava/lang/String;)ÇÄ
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (%
-%3java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+ 
+(%
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
 
 stmtjava.sql.Statement*
 
 sqljava.lang.String2 executeQuery(Ljava/lang/String;)"¢
 ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (&
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java
+ 
+(&
 
-%3java.sql.ResultSet:
+%1java.sql.ResultSet:
 stmtjava.sql.Statement:
 "":
 ""B53

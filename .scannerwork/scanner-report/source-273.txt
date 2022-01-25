@@ -1,138 +1,98 @@
 package progettoispw.letmeknow;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.SearchBean;
+import progettoispw.letmeknow.bean.LoginBean;
 
-public class SearchControllerInterf1 {
-    //private AnchorPane pane;
-   PageMenu controller= new PageMenu();
-    //private String userid=getUserID();
+
+import java.io.IOException;
+
+public class LoginControllerInterf1 {
+    private Page controller= new Page();
     @FXML
-    protected Slider posSL;
+    private PasswordField labPassword;
     @FXML
-    protected Slider empSL;
+    private Label show;
     @FXML
-    protected Slider humSL;
+    private TextField labUser;
     @FXML
-    protected Slider carefulness;
+    private ScrollPane scroll;
+    private String userID;
+    private boolean clicked;
+    public LoginControllerInterf1(){
+        clicked=false;
+    }
     @FXML
-    protected Label lb1;
+    protected void switchToSignup(ActionEvent event) {
+        controller.switchTo("signup/interf1.fxml",event,"Signup");
+    }
     @FXML
-    protected Label lb2;
+    protected void switchToRecoverPswd(ActionEvent event) {
+        controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
+    }
     @FXML
-    protected Label lb3;
+    protected void switchToSignUpPsych(ActionEvent event) {
+        controller.switchTo("signupPsicologist/interf1.fxml",event,"Signup");
+    }
     @FXML
-    protected Label lb4;
-    @FXML
-    protected TextField inputTraits,inputGoal;
-    protected boolean [] clicked;
-    @FXML
-    protected ProgressBar progressBar;
-    @FXML
-    protected Button   buttonSearch;
-    protected Slider [] sl ;
-    protected Label[] labels;
-    protected void incremProgress(int index){
-        //System.out.println(progress);
-        if(clicked[index]==false){
-            progress=progress+0.17;
-            clicked[index]=true;
-            progressBar.setProgress(progress);
-            buttonSearch.setOpacity(progress);
+    protected void showPSWD(){
+        if(clicked==false){
+            scroll.setOpacity(0.8);
+            show.setOpacity(0.8);
+            show.setText(labPassword.getText());
+            clicked=true;
+        }
+        else{
+            show.setOpacity(0);
+            scroll.setOpacity(0);
+            clicked=false;
         }
     }
-    protected double progress;
-    public SearchControllerInterf1(){
-        progress=0;
-        clicked= new boolean[]{false, false, false, false, false, false, false};
+    private void color(boolean bool){
+        if(bool==false){
+            labUser.setStyle("-fx-border-color: red");
+            labPassword.setStyle("-fx-border-color: red");
+        }
+        else{
+            labUser.setStyle("-fx-background-color: #F2F2F2");
+            labPassword.setStyle("-fx-background-color: #F2F2F2");
+        }
     }
-    public void initialize(){
-        labels= new Label[]{lb1, lb2, lb3,lb4};
-        sl=new Slider[] {empSL,humSL,posSL, carefulness};
-        for(int i=0;i<4;i++){
-            int finalI = i;
-            sl[i].valueProperty().addListener(new ChangeListener<Number>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    incremProgress(finalI);
-                    progressBar.setProgress(progress);
-                    if(finalI< 4)labels[finalI].setText(""+(int)sl[finalI].getValue());
-                    }
-                });
+
+    @FXML
+    protected void switchToHome(ActionEvent event) throws IOException {
+        if(labUser.getText().equals("") || labPassword.getText().equals(""))
+        {
+            color(false);
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("Empty Fields!");
+            alert.setHeaderText("Empty Email / Password Field");
+            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
+            if(alert.showAndWait().get()==ButtonType.OK) {
+                System.out.println("Prompt: Empty Fields Alert");
+                event.consume();
             }
-        inputTraits.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(4);
-        });
-        inputGoal.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(5);
-        });
-    }
-    SearchBean bean= new SearchBean();
-    protected void researchByParameter(){
-        Integer [] paramS=new Integer[labels.length-1];
-        for(int i=0;i<4;i++){
-            switch(i) {
-                case 3: {
-                    if (clicked[3]) {
-                        bean.enterAffinity(2-(int)sl[i].getValue());
-                        break;
-                    }
-                    else{
-                        bean.enterAffinity(0);
-                        break;
-                    }
+        }else {
+            LoginBean bean=new LoginBean(labUser.getText(),labPassword.getText());
+            String log = bean.exitValue();
+            if(log==null){
+                color(false);
+                return ;
+            }
+            switch(log){
+                case "usr":{
+                    controller.switchTo("homepage/interf1.fxml",event,"Home");
+                    return;
+                }
+                case "psy":{
+                    controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
                 }
                 default:{
-                    if(clicked[i])paramS[i]=((int)sl[i].getValue());
-                    else paramS[i]=0;
+                    color(false);
                 }
+
             }
         }
-        bean.enterParamSearch(paramS);
-    }
-    protected void researchByGoal(){
-        if (clicked[5]){
-        String input=inputGoal.getText();
-        bean.enterGoalSearch(input);
-    }};
-    protected void researchByDescripription(){
-        if (clicked[4]){
-        String input=inputTraits.getText();
-        bean.enterDescrSearch(input);
     }}
-    @FXML
-    protected  void affinity(ActionEvent event ){
-        bean.toMe();
-        goResult(event);
-    }
-    @FXML
-    public void search(ActionEvent actionEvent) {
-        researchByParameter();
-        researchByDescripription();
-        researchByGoal();
-        goResult(actionEvent);
-    }
-    @FXML
-    protected void goToHome(ActionEvent event) {
-        controller.switchToHome(event);
-    }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event)  {
-        controller.switchToPersonalForm(event);
-    }
-    @FXML
-    protected void goResult(ActionEvent event) {
-        controller.switchTo("resultSearch/interf1.fxml",event,"your research result");
-    }
-    @FXML
-    protected void goBack()  {
-        controller.backTo();
-    }
-    @FXML
-    protected void goToSearch(ActionEvent event) {controller.switchToSearch(event);}
-
-}

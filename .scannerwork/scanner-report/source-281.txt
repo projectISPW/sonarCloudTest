@@ -1,58 +1,127 @@
 package progettoispw.letmeknow;
 
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.SignupBean;
+import javafx.scene.Group;
+import javafx.scene.Node;
+import javafx.scene.control.Button;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.ISCBean;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-public class SignupPsychologistControllerInterf1 {
-    SignupBean bean;
-    Page controller=new Page();
+public class ResultSearchControllerInterf1 {
     @FXML
-    TextField email;
+    protected Group group1;
     @FXML
-    PasswordField pswd;
+    protected Group group2;
     @FXML
-    PasswordField confirmpswd;
+    protected Group group3;
     @FXML
-    Label emailCheck;
-    @FXML
-    Label pswdCheck;
-    public SignupPsychologistControllerInterf1() {
-        bean=new SignupBean();
+    protected Group group4;
+    Group [] visitGroup;
+    String [] uids;
+    static final String UID_CONTENT ="Userid  : #";
+    static final String MSG_WORKON ="Working On :";
+    static final String DESCRIPTION ="About me :";
+    private PageMenu controller;
+    BeanResultSearch beanVisit;
+    ISCBean chatBean;
+    int nval;
+    public ResultSearchControllerInterf1(){
+        nval=4;
+        beanVisit=new BeanResultSearch(nval);
+        chatBean=new ISCBean();
+        controller=new PageMenu();
+        uids=new String[nval];
     }
     public void initialize(){
-
+        visitGroup=new Group[]{group1,group2,group3,group4};
+        outputVal();
     }
-    private boolean check(Boolean bool,Label lab){
-        if(bool==false)lab.setOpacity(1);
-        return bool;
+
+    public String[] ouputVal_prev(Group [] input, int inputnval, String[] output){
+        visitGroup=input;
+        nval=inputnval;
+        beanVisit=new BeanResultSearch(nval);
+        uids=new String[nval];
+
+        return outputVal();
     }
     @FXML
-    protected void backToLogin() {
-            Page controller=new Page();
-            controller.backTo();
+    public String [] outputVal(){
+        for(int i=0;i<nval;i++){
+            visitGroup[i].setOpacity(1);
         }
-    public void save (ActionEvent event) {
-        Boolean bool;
-        emailCheck.setOpacity(0);
-        pswdCheck.setOpacity(0);
-        bool = bean.checkEmail(email.getText(), true);
-        if (check(bool, emailCheck) == false) return;
-        bool = bean.checkPswd(pswd.getText(), confirmpswd.getText());
-        if (check(bool, pswdCheck) == false) return;
-        bool = bean.signupPSY(pswd.getText(), email.getText());
-        if (bool) backToLogin();
-        else {
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("Attention ");
-            alert.setHeaderText("We could'nt retrieve your data, please try again!");
-            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-            if (alert.showAndWait().get() == ButtonType.OK) {
-                System.out.println("Prompt: Empty Fields Alert");
+        String [] [] users= beanVisit.exitDes();
+        String[] strDes= users[2];
+        String[] strGoal=users[1];
+        String[] strUid=users[0];
+        for(int i=0;i<nval;i++){
+            ObservableList<Node> externList= visitGroup[i].getChildren();
+            Group group =(Group)externList.get(2);
+            ObservableList<Node>inner=group.getChildren();
+            if(strUid[i]!=null){
+                for(Node elem:inner){
+                    Text text=(Text)elem;
+                    if(text.getText().contains(UID_CONTENT)){
+                        text.setText(UID_CONTENT +strUid[i]);
+                        uids[i]=strUid[i];
+                    }
+                    else if(text.getText().contains(MSG_WORKON)){
+                        text.setText(MSG_WORKON+strGoal[i]);
+                    }
+                    else if(text.getText().contains(DESCRIPTION))text.setText(DESCRIPTION+strDes[i]);
+                }
+            }
+            else {
+                visitGroup[i].setOpacity(0);
+            }}
+        return uids;
+    }
+    @FXML
+    public void touchChat(ActionEvent event){
+        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1();
+        iscController.setUIDS(uids);
+        iscController.touchChat(event);
+    }
+    public void setUids(String [] input){
+        uids=input;
+    }
+    @FXML
+    public void visit(ActionEvent event) {
+        Button button = (Button) event.getTarget();
+        if (button.getOpacity() < 1) return;
+        switch (button.getId()) {
+            case "home1":
+                beanVisit.touched(uids[0]);
+                break;
+            case "home2":
+                beanVisit.touched(uids[1]);
+                break;
+            case "home3":
+                beanVisit.touched(uids[2]);
+                break;
+            case "home4":
+                beanVisit.touched(uids[3]);
+                break;
+            default: {
                 event.consume();
-                return;
             }
         }
+        controller.switchTo("homepageOthers/interf1.fxml",event,"visit");
     }
+    @FXML
+    protected void goBack()  {
+        controller.backTo();
+    }
+    @FXML
+    protected void goToHome(ActionEvent event) {
+        controller.switchToHome(event);
+    }
+    @FXML
+    protected void goToPersonalForm(ActionEvent event){
+        controller.switchToPersonalForm(event);
+    }
+
 }

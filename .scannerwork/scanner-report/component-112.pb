@@ -1,1 +1,1 @@
-p 2javaX,hriprogettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java
+p 2javaXhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java

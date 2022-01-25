@@ -46,6 +46,14 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
     }
     public void  initialize(){
         addUser();
+        if(userid==null){
+            /*chat vuota
+            listUtenti;
+            prendi il primo user che trovi
+
+
+            */
+        }
         super.initialize();
     }
     public String checkUsrId(String input){

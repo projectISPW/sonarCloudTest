@@ -1,51 +1,61 @@
-package progettoispw.letmeknow.controller.utenti;
-import java.util.Properties;
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+package progettoispw.letmeknow.controller.chat;
 
-public class JavaMailUtil {
-    private String text;
-    public Boolean sendMail(String recipient){
-        try {
-        System.out.println("Sending message");
-        Properties properties=new Properties();
-        //configurazione server
-        properties.put("mail.smtp.host","smtp.gmail.com");
-        properties.put("mail.smtp.port", "465");
-        properties.put("mail.smtp.ssl.enable", "true");
-        properties.put("mail.smtp.auth", "true");
-        //configurazione log
-        String myAccount="progettoispw2021@gmail.com";
-        String password="Password2021";
-        Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
-               protected PasswordAuthentication getPasswordAuthentication() {
-                   return new PasswordAuthentication(myAccount, password);
-                }
-            });
-        Message message = prepareMessage(session,myAccount,recipient);
-        Transport .send(message);
-        System.out.println("MESSAGE CORRECTLY SENDED");
-        return true;
-        } catch (Exception e ){
-            return false;
+import progettoispw.letmeknow.controller.ConnectionDBMS;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MessageDAO implements MessageMeta{
+    ConnectionDBMS connDB;
+    Query query;
+    public MessageDAO() {
+        connDB= new ConnectionDBMS();
+        query= new Query();
+    }
+    private void scanner(ResultSet rst, Statement stmt, ArrayList<Message>list) {
+        try{
+            while(rst.next()){
+                Message message=new Message();
+                message.setText(rst.getString(TEXT));
+                message.setSender(rst.getString(SENDER));
+                message.setReciver(rst.getString(RECIVER));
+                message.setDate(rst.getString(DATETIME));
+                list.add(message);
+            }
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }finally{
+            connDB.closeRSTSTMT(rst,stmt);
         }
     }
-
-    public void setText(String input){
-        text=input;
+    public List<Message> getRecivedSentMessage(String userid) {
+        Statement stmt = null;
+        ResultSet rst;
+        stmt= connDB.connection(stmt);
+        ArrayList<Message> ret = new ArrayList<>();
+        rst = query.selectUserRSALL(stmt, userid);
+        scanner(rst,stmt,ret);
+        return ret;
     }
-    public Message prepareMessage (Session session,String myAccountEmail, String reciver){
+    public List<Message> getRecivedSentMessage(String userid1,String userid2){
+        Statement stmt = null;
+        ResultSet rst;
+        stmt= connDB.connection(stmt);
+        ArrayList<Message> ret = new ArrayList<>();
+        rst = query.selectUserRS(stmt, userid1,userid2);
+        scanner(rst,stmt,ret);
+        return ret;
+    }
+    public boolean newMessage(String from,String to,String text) {
+        Statement stmt=null;
         try {
-            Message message =new MimeMessage(session);
-            message.setFrom(new InternetAddress(myAccountEmail));
-            message.addRecipient(Message.RecipientType.TO,new InternetAddress(reciver));
-            message.setSubject("recover password and userid");
-            message.setText(text);
-            return message;
-        } catch (Exception e) {
-           return null;
+            stmt=connDB.connection(stmt);
+            return query.newMSG(stmt,from,to,text);
+        } finally{
+            connDB.closeSTMT(stmt);
         }
-
     }
 }

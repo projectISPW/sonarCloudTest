@@ -62,6 +62,6 @@ public class ResultSearchControllerInterf2{
     public void outputVal() {
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
         String [] inner =new String [6];
-        uids=rscInterf1.ouputVal_prev(new Group[]{group1,group2,group3,group4,group5,group6},6,inner);
+        uids=rscInterf1.ouputVal_prev(new Group[]{group1,group2,group3,group4,group5,group6},6);
     }
 }

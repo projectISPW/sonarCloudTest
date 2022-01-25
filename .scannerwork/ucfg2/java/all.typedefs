@@ -29,84 +29,7 @@ getParam()>progettoispw.letmeknow.controller.form.ResultForm#getParam()[IM
 getRisposte()Aprogettoispw.letmeknow.controller.form.ResultForm#getRisposte()[IZ
 	getDate()Mprogettoispw.letmeknow.controller.form.ResultForm#getDate()Ljava/lang/String;U
 queryComplete()Bprogettoispw.letmeknow.controller.form.ResultForm#queryComplete()VQ
-getComplete()@progettoispw.letmeknow.controller.form.ResultForm#getComplete()I(
-java.lang.Appendablejava.lang.Object+
-java.lang.AutoCloseablejava.lang.Object>
-java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
-java.io.Flushablejava.lang.ObjectÉ
-java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
-nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
-	write([B)java.io.OutputStream#write([B)V*
-<init>()java.io.OutputStream#<init>()V(
-flush()java.io.OutputStream#flush()V0
-write([BII)!java.io.OutputStream#write([BII)V(
-close()java.io.OutputStream#close()Vé
-java.io.FilterOutputStreamjava.io.OutputStream2
-	write([B)%java.io.FilterOutputStream#write([B)V\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V6
-write([BII)'java.io.FilterOutputStream#write([BII)V.
-close()#java.io.FilterOutputStream#close()VÖ 
-java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
-	write([C)java.io.PrintStream#write([C)V)
-print(J)java.io.PrintStream#print(J)V-
-
-println(J)java.io.PrintStream#println(J)V)
-print(F)java.io.PrintStream#print(F)V-
-
-println(F)java.io.PrintStream#println(F)V/
-write([BII) java.io.PrintStream#write([BII)VÅ
-4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
-print(Z)java.io.PrintStream#print(Z)V1
-clearError()!java.io.PrintStream#clearError()V-
-
-println(Z)java.io.PrintStream#println(Z)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
-write(I)java.io.PrintStream#write(I)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)V-
-
-println(I)java.io.PrintStream#println(I)V'
-flush()java.io.PrintStream#flush()V´
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
-	print([C)java.io.PrintStream#print([C)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
-print(D)java.io.PrintStream#print(D)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
-
-println(D)java.io.PrintStream#println(D)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
-0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
-ensureOpen()!java.io.PrintStream#ensureOpen()Vã
-9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V´
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
-
-setError()java.io.PrintStream#setError()Vá
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V1
-checkError()!java.io.PrintStream#checkError()Z+
-	println()java.io.PrintStream#println()V'
-close()java.io.PrintStream#close()V-
-
-println(C)java.io.PrintStream#println(C)VK
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
-println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V∂
+getComplete()@progettoispw.letmeknow.controller.form.ResultForm#getComplete()I∂
 &progettoispw.letmeknow.bean.SignupBeanjava.lang.Objectt
 $checkDescription(Ljava/lang/String;)Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Zg
 checkVal([Ljava/lang/String;)Fprogettoispw.letmeknow.bean.SignupBean#checkVal([Ljava/lang/String;)[Ij
@@ -327,7 +250,8 @@ getHlist()8progettoispw.letmeknow.CSS#getHlist()Ljava/lang/Integer;Á
 EsuggestForm(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)xprogettoispw.letmeknow.controller.utentipsy.Query#suggestForm(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZG
 <init>();progettoispw.letmeknow.controller.utentipsy.Query#<init>()Ví
 $selectResult(Ljava/sql/Statement;II)jprogettoispw.letmeknow.controller.utentipsy.Query#selectResult(Ljava/sql/Statement;II)Ljava/sql/ResultSet;$
-java.sql.Wrapperjava.lang.Object⁄	
+java.sql.Wrapperjava.lang.Object+
+java.lang.AutoCloseablejava.lang.Object⁄	
 java.sql.Statementjava.sql.Wrapperjava.lang.Objectjava.lang.AutoCloseablef
 'executeLargeUpdate(Ljava/lang/String;I);java.sql.Statement#executeLargeUpdate(Ljava/lang/String;I)Jd
 &executeLargeUpdate(Ljava/lang/String;):java.sql.Statement#executeLargeUpdate(Ljava/lang/String;)Jh
@@ -418,7 +342,83 @@ iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;u
 2attach(I[ILjava/lang/String;Ljava/util/ArrayList;)xprogettoispw.letmeknow.controller.utentipsy.Form#attach(I[ILjava/lang/String;Ljava/util/ArrayList;)Ljava/util/ArrayList;v
  getStatus(Ljava/util/ArrayList;)Rprogettoispw.letmeknow.controller.utentipsy.Form#getStatus(Ljava/util/ArrayList;)V]
 getUserid()Nprogettoispw.letmeknow.controller.utentipsy.Form#getUserid()Ljava/lang/String;O
-getAnswers()?progettoispw.letmeknow.controller.utentipsy.Form#getAnswers()[Iå
+getAnswers()?progettoispw.letmeknow.controller.utentipsy.Form#getAnswers()[I(
+java.lang.Appendablejava.lang.Object>
+java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
+java.io.Flushablejava.lang.ObjectÉ
+java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
+nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
+	write([B)java.io.OutputStream#write([B)V*
+<init>()java.io.OutputStream#<init>()V(
+flush()java.io.OutputStream#flush()V0
+write([BII)!java.io.OutputStream#write([BII)V(
+close()java.io.OutputStream#close()Vé
+java.io.FilterOutputStreamjava.io.OutputStream2
+	write([B)%java.io.FilterOutputStream#write([B)V\
+<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
+flush()#java.io.FilterOutputStream#flush()V0
+write(I)$java.io.FilterOutputStream#write(I)V6
+write([BII)'java.io.FilterOutputStream#write([BII)V.
+close()#java.io.FilterOutputStream#close()VÖ 
+java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
+	write([C)java.io.PrintStream#write([C)V)
+print(J)java.io.PrintStream#print(J)V-
+
+println(J)java.io.PrintStream#println(J)V)
+print(F)java.io.PrintStream#print(F)V-
+
+println(F)java.io.PrintStream#println(F)V/
+write([BII) java.io.PrintStream#write([BII)VÅ
+4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
+print(Z)java.io.PrintStream#print(Z)V1
+clearError()!java.io.PrintStream#clearError()V-
+
+println(Z)java.io.PrintStream#println(Z)Vi
+(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
+write(I)java.io.PrintStream#write(I)VO
+println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
+print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
+4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
+print(I)java.io.PrintStream#print(I)V-
+
+println(I)java.io.PrintStream#println(I)V'
+flush()java.io.PrintStream#flush()V´
+?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
+ append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
+toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
+<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
+	print([C)java.io.PrintStream#print([C)Vq
+"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
+print(D)java.io.PrintStream#print(D)Vq
+,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
+
+println(D)java.io.PrintStream#println(D)VO
+println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
+<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
+<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
+0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
+ensureOpen()!java.io.PrintStream#ensureOpen()Vã
+9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V´
+?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
+
+setError()java.io.PrintStream#setError()Vá
+-printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
+	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
+<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
+-format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
+	newLine()java.io.PrintStream#newLine()V)
+print(C)java.io.PrintStream#print(C)V1
+checkError()!java.io.PrintStream#checkError()Z+
+	println()java.io.PrintStream#println()V'
+close()java.io.PrintStream#close()V-
+
+println(C)java.io.PrintStream#println(C)VK
+write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
+print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
+1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
+<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
+println([C) java.io.PrintStream#println([C)Vã
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Vå
 java.util.Collectionjava.lang.Objectjava.lang.IterableJ
 spliterator()9java.util.Collection#spliterator()Ljava/util/Spliterator;j
 (removeIf(Ljava/util/function/Predicate;)>java.util.Collection#removeIf(Ljava/util/function/Predicate;)ZR
@@ -692,7 +692,7 @@ GsetVisited(Ljava/sql/Statement;Ljava/lang/String;Ljava/util/ArrayList;)wproget
 initialize()<progettoispw.letmeknow.SearchControllerInterf1#initialize()VV
 incremProgress(I)Aprogettoispw.letmeknow.SearchControllerInterf1#incremProgress(I)V"
 ChangeListenerjava.lang.ObjectG
-5Lprogettoispw/letmeknow/SearchControllerInterf1$1727;ChangeListener¡
+5Lprogettoispw/letmeknow/SearchControllerInterf1$1686;ChangeListener¡
 2progettoispw.letmeknow.controller.SearchControllerjava.lang.Objectr
 enterGoal(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.SearchController#enterGoal(Ljava/lang/String;)VH
 <init>()<progettoispw.letmeknow.controller.SearchController#<init>()VD
@@ -715,7 +715,7 @@ $enterDescrSearch(Ljava/lang/String;)Lprogettoispw.letmeknow.bean.SearchBean#en
 <init>():progettoispw.letmeknow.TakeFormControllerInterf1#<init>()VN
 initialize()>progettoispw.letmeknow.TakeFormControllerInterf1#initialize()VE
 not([Z):progettoispw.letmeknow.TakeFormControllerInterf1#not([Z)[ZI
-7Lprogettoispw/letmeknow/TakeFormControllerInterf1$2391;ChangeListenerõ
+7Lprogettoispw/letmeknow/TakeFormControllerInterf1$2345;ChangeListenerõ
 9progettoispw.letmeknow.bean.UpdatePersonalDescriptionBeanjava.lang.ObjectO
 <init>()Cprogettoispw.letmeknow.bean.UpdatePersonalDescriptionBean#<init>()V{
 entryValue(Ljava/lang/String;)Yprogettoispw.letmeknow.bean.UpdatePersonalDescriptionBean#entryValue(Ljava/lang/String;)V
@@ -1471,7 +1471,7 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)tjava.time.
 sendMail(Ljava/lang/String;)eprogettoispw.letmeknow.controller.utenti.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;q
 setText(Ljava/lang/String;)Rprogettoispw.letmeknow.controller.utenti.JavaMailUtil#setText(Ljava/lang/String;)V,
 javax.mail.Authenticatorjava.lang.Object∞
-;Lprogettoispw/letmeknow/controller/utenti/JavaMailUtil$846;javax.mail.AuthenticatorW
+;Lprogettoispw/letmeknow/controller/utenti/JavaMailUtil$798;javax.mail.AuthenticatorW
 getPasswordAuthentication()8null#getPasswordAuthentication()LPasswordAuthentication;Œ1
 java.util.Mapjava.lang.ObjectÜ
 1putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;§
@@ -1668,7 +1668,7 @@ hashCode()java.lang.Enum#hashCode()I—
 values()nprogettoispw.letmeknow.MainApplication$ScreenSize#values()[Lprogettoispw/letmeknow/MainApplication$ScreenSize;m
 <init>(Ljava/lang/String;I)Nprogettoispw.letmeknow.MainApplication$ScreenSize#<init>(Ljava/lang/String;I)V 
 EventHandlerjava.lang.Object=
--Lprogettoispw/letmeknow/MainApplication$1735;EventHandler´
+-Lprogettoispw/letmeknow/MainApplication$1733;EventHandler´
 1progettoispw.letmeknow.controller.VisitControllerjava.lang.Objectb
 returnDate()Rprogettoispw.letmeknow.controller.VisitController#returnDate()[Ljava/lang/Integer;c
 returnOptimismValues()Iprogettoispw.letmeknow.controller.VisitController#returnOptimismValues()Ia

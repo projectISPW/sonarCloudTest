@@ -3,7 +3,8 @@ E
 java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
 E
 java:S37406"/Provide the parametrized type for this generic.(ÀÔÅ
-N	java:S106H"9Replace this use of System.out or System.err by a logger.(¥ÃÂ²
+I
+java:S19058",Remove this unnecessary cast to "ArrayList".(—Œ£ş8¾Â‰é/
 k
 java:S1128"URemove this unused import 'progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta'.(¾ª”
 D

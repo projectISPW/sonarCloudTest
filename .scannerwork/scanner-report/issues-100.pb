@@ -1,6 +1,7 @@
-S
-javaS1069Replace this use of System.out or System.err by a logger. 2
-
- S
-javaS1069Replace this use of System.out or System.err by a logger. 2 p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 
+Q
+javaS11176Rename "sql" which hides the field declared at line 8. 2(( Q
+javaS11176Rename "sql" which hides the field declared at line 8. 200 Q
+javaS11176Rename "sql" which hides the field declared at line 8. 288 Q
+javaS11176Rename "sql" which hides the field declared at line 8. 2@@ Q
+javaS11176Rename "sql" which hides the field declared at line 8. 2II Q
+javaS11176Rename "sql" which hides the field declared at line 8. 2SS 

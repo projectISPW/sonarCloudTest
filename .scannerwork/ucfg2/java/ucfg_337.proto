@@ -10,12 +10,12 @@ tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 4~
 tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
  
-(xº
+(vº
 π
 ~
 tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
  
-(x
+(v
 sqljava.lang.String"__id*
 
 %0java.lang.String¡æ
@@ -26,19 +26,19 @@ tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 stmtjava.sql.Statement*
 
 sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*ë
+3*è
 5~
 tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
  
-(Ü
-É
+(Ñ
+Å
 ~
 tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
  
-(w
+(u
 %0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*EC
-A SELECT * \n FROM messages where reciver = '%s' or sender = '%s' *
+java.lang.String*CA
+? SELECT *  FROM messages where reciver = '%s' or sender = '%s' *
 
 iduserjava.lang.String*
 

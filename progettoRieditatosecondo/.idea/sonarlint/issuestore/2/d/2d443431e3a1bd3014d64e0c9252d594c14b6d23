@@ -1,2 +1,6 @@
 
 l	java:S116"WRename this field "Result_Visit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿìêÄ
+[
+java:S1854@"9Remove this useless assignment to local variable "inner".(°ç»¦ùÿÿÿÿ8æõÑ‰é/
+L
+java:S1481@"*Remove this unused "inner" local variable.(°ç»¦ùÿÿÿÿ8æõÑ‰é/

@@ -40,12 +40,11 @@ public class ResultSearchControllerInterf1 {
         outputVal();
     }
 
-    public String[] ouputVal_prev(Group [] input, int inputnval, String[] output){
+    public String[] ouputVal_prev(Group [] input, int inputnval){
         visitGroup=input;
         nval=inputnval;
         beanVisit=new BeanResultSearch(nval);
         uids=new String[nval];
-
         return outputVal();
     }
     @FXML
@@ -66,6 +65,7 @@ public class ResultSearchControllerInterf1 {
                     Text text=(Text)elem;
                     if(text.getText().contains(UID_CONTENT)){
                         text.setText(UID_CONTENT +strUid[i]);
+
                         uids[i]=strUid[i];
                     }
                     else if(text.getText().contains(MSG_WORKON)){

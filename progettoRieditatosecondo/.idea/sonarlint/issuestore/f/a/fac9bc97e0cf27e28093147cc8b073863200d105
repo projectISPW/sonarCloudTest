@@ -1,0 +1,26 @@
+
+U
+java:S1161$":Add the "@Override" annotation above this method signature(˜¢Ú®üÿÿÿÿ
+U
+java:S1161+":Add the "@Override" annotation above this method signature(ÊÕ­şüÿÿÿÿ
+U
+java:S1161/":Add the "@Override" annotation above this method signature(·òşÿÿÿÿ
+V	java:S1253"<This block of commented-out lines of code should be removed.(·ì‰Íøÿÿÿÿ
+B
+java:S1125B"'Remove the unnecessary boolean literal.(Ù‚°†úÿÿÿÿ
+Y
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'javafx.scene.Group'.(Ÿ°ô–
+D
+java:S1128	".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï
+N
+java:S1128"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üşÿÿÿÿ
+W
+java:S1128"ARemove this unused import 'progettoispw.letmeknow.bean.ChatBean'.(µé‹İ
+d
+java:S1128"IRemove this unused import 'progettoispw.letmeknow.bean.BeanResultSearch'.(…·„òûÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü

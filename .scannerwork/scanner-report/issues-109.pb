@@ -1,4 +1,13 @@
-V
-javaS125<This block of commented-out lines of code should be removed. 2"" (S
-javaS1069Replace this use of System.out or System.err by a logger. 2:: S
-javaS1069Replace this use of System.out or System.err by a logger. 2>> 
+î
+javaS1214CMove constants defined in this interfaces to another class or enum. 2  :
+m ":
+m #:
+m ':
+m $:
+m :
+m		 *:
+m
+
+ #:
+m ":
+m !

@@ -1,1 +1,1 @@
-Å 2javaXhrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/Interf1ButtonBar.java
+Å 2javaX9hrçprogettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java

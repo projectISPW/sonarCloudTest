@@ -1,6 +1,4 @@
-p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2 %[
-javaS1066/Merge this if statement with the enclosing one. 2 :
-ë 
-k
-javaS117QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'. 2" '
+B
+javaS1125'Remove the unnecessary boolean literal. 2XX' +B
+javaS1125'Remove the unnecessary boolean literal. 2]]' +B
+javaS1125'Remove the unnecessary boolean literal. 2hh "

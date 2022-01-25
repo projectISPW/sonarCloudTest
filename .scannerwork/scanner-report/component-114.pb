@@ -1,1 +1,1 @@
-r 2javaX;hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+r 2javaX&hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java

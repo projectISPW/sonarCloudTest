@@ -1,6 +1,6 @@
 
 =progettoispw.letmeknow.controller.search.Search#getnVisit()[IÅ
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaE E("1*◊
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaE E("1*ˇ
 1Å
 wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaF F(Ê
 „
@@ -8,41 +8,8 @@ wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw
 wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaG# G()
 %0java.lang.String"__id*?*=1
 /progettoispw.letmeknow.controller.search.Search"
-userid∞
-≠
+userid"å
 Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(
-%1java.io.PrintStream"__id*
-""–
-Õ
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(?
-%2java.lang.String"__concat*
-numero di visite ricevute*
-""Â
-‚
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(^
-%3java.lang.String"__concat*
-
-%2java.lang.String* 
-numero di utenze nel sistemaÀ
-»
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(g
-%4java.lang.String"__concat*
-
-%3java.lang.String*
-""ôñ
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(h
-
-%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%1java.io.PrintStream*
-
-%4java.lang.String2println(Ljava/lang/String;)"å
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaI I(
+wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaH H(
 ""B31
 /progettoispw.letmeknow.controller.search.Search

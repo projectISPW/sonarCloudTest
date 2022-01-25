@@ -1,27 +1,24 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-public class lastMessage {
-    private String userid;
-    private String lastmsg;
-    private WordCheck check;
-    private int lenMax=40;
-    public lastMessage(String elem, Message message){
-        userid=elem;
-        check=new WordCheck();
-        lastmsg=message.getText();
-
+public class EditProfileController {
+    UtenteUsr user;
+    String newStr;
+    public EditProfileController(){
+        newStr=null;
+        user = ControllerClass.getUserUSR();
     }
-    public String getUserid() {
-        return userid;
+    public String getUserID(){
+        return user.getUserid();
     }
-    public String getLastmsg() {
-        lastmsg=check.checkLen(lastmsg,lenMax);
-        return lastmsg;
+    public void setNewStr(String input) {
+        this.newStr = input;
+        user.setPersonalDes(newStr);
     }
-    public void getStatus(){
-        System.out.println("ultimo messaggio nella chat con .:  " +userid+ "pari a .:  "+lastmsg);
+    public void setGoal(String obbInput , String tagInput, Integer [] dueDateInput){
+        user.setPersonalGoal(obbInput);
+        user.setPersonalTag(tagInput);
+        user.setPersonalData(dueDateInput);
     }
 }

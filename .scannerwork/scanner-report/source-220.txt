@@ -1,21 +1,40 @@
-package progettoispw.letmeknow;
+//utenteusr never used. should I cancel it with also library?
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
+package progettoispw.letmeknow.controller;
 
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.Slider;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
+import progettoispw.letmeknow.controller.form.ResultForm;
+import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-public class TakeForm1ControllerInterf1 extends TakeFormControllerInterf1 {
-
-    public TakeForm1ControllerInterf1(){
-        super.startStatus=new FormToTakeStatusBean(1);
+public class FormResultController {
+    String userid;
+    int formid;
+    ResultForm form;
+    UtenteUsr user;
+    int [] values;
+    public FormResultController(int inputform){
+        userid= ControllerClass.getUserUSR().getUserid();
+        formid=inputform;
+        form= new ResultForm(userid,formid);
     }
+    public int[] getValResponse(){
+        values=form.getRisposte();
+        return form.getRisposte();
+    }
+    public boolean[] getStatus() {
+        boolean [] bool=new boolean[values.length];
+        for(int i=0;i<values.length;i++){
+            if(values[i]>=1)bool[i]=true;
+            else{
+                bool[i]=false;
+            }
+        }
+        return bool;
+    }
+    public int [] getParam () {
+        return form.getParam();
+    }
+    public String getDate () {
+        return form.getDate();
+    }
+
 }

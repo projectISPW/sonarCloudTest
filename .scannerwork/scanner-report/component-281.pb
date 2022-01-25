@@ -1,1 +1,1 @@
-ô 2javaX;hräprogettoRieditatosecondo/src/main/usecase/signupPsycologist/controllerView/progettoispw/letmeknow/SignupPsychologistControllerInterf1.java
+ô 2javaXÄhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java

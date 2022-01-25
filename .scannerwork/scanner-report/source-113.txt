@@ -1,82 +1,50 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.controller.utentipsy;
 
+import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
 
-public class ConnectionDBMS {
-    private static String  user ;
-    private static String password;
-    private static String dburl ;
-    private static String driverclassname ;
-    private static java.sql.Connection conn;
-    private static int numConnection;
-    public ConnectionDBMS(){
-        user = "uf56pst70onxcz68";
-        password = "N5bkvOZY2AhFpYZYu3w7";
-        dburl = "jdbc:mysql://uf56pst70onxcz68:N5bkvOZY2AhFpYZYu3w7@b16kdsy1yce6nyrrldqg-mysql.services.clever-cloud.com:3306/b16kdsy1yce6nyrrldqg";
-        driverclassname = "com.mysql.cj.jdbc.Driver";
-        if(conn==null)conn=getConn();
+public class UserDAO implements SalvaUtenteMeta,FormMeta {
+    ConnectionDBMS connDB;
+    Query query;
+    public UserDAO() {
+        connDB= new ConnectionDBMS();
+        query=new Query();
     }
-    private static java.sql.Connection getConn(){
+    public ArrayList<Form> collectForms(int month, int year) {
+        Statement stmt=null;
+        ResultSet rst=null;
+        Form form=new Form();
         try {
-            Class.forName(driverclassname);//recupera dinamicamente il driver , prende la classe dal class path
-            return conn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    public Statement connection(Statement stmt){
-        if(numConnection<1) {
-            try {
-                stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-                increm();
-                return stmt;
-            } catch (Exception throwables) {
-                closeSTMT(stmt);
-                return null;
+            stmt=connDB.connection(stmt);
+            rst=query.selectResult(stmt,month,year);
+            int [] answers;
+            ArrayList<Form>list=new ArrayList<>();
+            while(rst.next()) {
+                answers = new int[6];
+                for (int i = 0; i < 6; i++) {
+                    answers[i] = Integer.parseInt(rst.getString(START + i));//3=inizio dei valori delle risposte
+                }
+                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(UID), list);
             }
-        }
-        return null;
-    }
-    private static void decrem(){
-        numConnection--;
-    }
-    private static void increm(){
-        numConnection++;
-    }
-    public void closeSTMT(Statement stmt) {
-        try {
-            if(stmt!=null)stmt.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        } finally {
-            decrem();
-            //"GESTIONE CONNESSIONE FALLITA "
+            return list;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return new ArrayList<>();
+        }finally{
+            connDB.closeRSTSTMT(rst,stmt);
         }
     }
-    public void closeRSTSTMT(ResultSet rst, Statement stmt) {
-        try {
-            if(rst!=null)rst.close();
-            closeSTMT(stmt);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
+    public boolean suggestForm(String from,String what){
+        Statement stmt=null;
+        try{
+            stmt=connDB.connection(stmt);
+            return query.suggestForm(stmt,from,what);
         } finally {
-            decrem();
-            //"GESTIONE CONNESSIONE FALLITA "
-        }
-    }
-    public void closeCONN(){
-        try {
-            if(conn!=null)conn.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        } finally {
-            decrem();
-            //"GESTIONE CONNESSIONE FALLITA "
+            connDB.closeSTMT(stmt);
         }
     }
 }
