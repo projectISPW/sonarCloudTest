@@ -90,8 +90,8 @@ public class Messages {
         messageData.newMessage(userid,to,text);
         getAllChat();
     }
-    public void setTouched(String touched) {
-        this.touched = touched;
+    public void setTouched(String input) {
+        touched = input;
     }
     public String getTouched() {
         return touched;

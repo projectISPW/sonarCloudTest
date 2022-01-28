@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.Form3ResultInterf1">
+<AnchorPane prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.FormResultInterf1">
    <children>
       <Group layoutX="-16.0" layoutY="681.0">
          <children>
@@ -22,7 +22,7 @@
                   <FontAwesomeIcon fill="#377dff" glyphName="TASKS" size="50" />
                </graphic>
             </Button>
-            <Button layoutX="147.0" layoutY="0.5" mnemonicParsing="false" onAction="#goHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
+            <Button layoutX="147.0" layoutY="0.5" mnemonicParsing="false" onAction="#goToHome" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
                <graphic>
                   <FontAwesomeIcon fill="#377dff" glyphName="HOME" opacity="0.5" size="20" />
                </graphic>

@@ -19,9 +19,7 @@ import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 import java.io.IOException;
 
 
-public class TakeFormControllerInterf1 implements Interf1ButtonBar{
-    @FXML
-    protected AnchorPane form;
+public class TakeFormControllerInterf1 {
     @FXML
     protected Text idForm;
     @FXML
@@ -50,15 +48,26 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
     protected Label lb6;
     @FXML
     protected ProgressBar progressBar;
-    protected PageMenu controller= new PageMenu();
+    protected PageMenu controller;
     protected Slider[] sl;
+    protected Label[] labels;
     protected boolean [] values;
     protected  boolean [] locked;
     protected int [] response;
-    protected double progress=0;
+    protected double progress;
+    protected FormToTakeStatusBean bean;
+    public TakeFormControllerInterf1() {
+        progress=0;
+        controller=new PageMenu();
+        bean=new FormToTakeStatusBean();
+    }
+    public TakeFormControllerInterf1(Slider[] slidersInput, Label[] labelsInput) {
+        sl=slidersInput;
+        labels=labelsInput;
+        bean=new FormToTakeStatusBean();
+    }
 
-    protected FormToTakeStatusBean startStatus;
-    protected boolean[] not(boolean []bool){
+    private boolean[] not(boolean []bool){
         boolean [] currbool=new boolean[6];
         for(int i=0;i< bool.length;i++){
             if(bool[i]) currbool[i]=false;
@@ -67,16 +76,20 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
         return currbool;
     }
     public void initialize(){
-        if(startStatus.getComplete()==6){
+       if(bean.getComplete()==6){
             goBack();
         }
-        response=startStatus.exitValStatus();
-        locked=startStatus.exitStatus();
-        values=not(locked);
-        progress= startStatus.getComplete()*0.17;
+        progress= bean.getComplete()*0.17;
         sl=new Slider[] {sl1,sl2,sl3,sl4,sl5,sl6};
-        Label[] labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
+        labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
         progressBar.setProgress(progress);
+        setValues();
+        progressBar.setProgress(progress);
+    }
+    public void setValues(){
+        response=bean.exitValStatus();
+        locked=bean.exitStatus();
+        values=not(locked);
         for(int i=0;i<6;i++){
             if(response[i]!=-1){
                 sl[i].setValue(response[i]);
@@ -87,7 +100,7 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
                 public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
                     if(values[finalI]==true){
                         progress+=0.17;
-                        progressBar.setProgress(progress);
+
                         values[finalI]=false;
                     }
                     if(locked[finalI]==true){
@@ -98,16 +111,22 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
             });
         }
     }
+    public int getComplete(){
+        return bean.getComplete();
+    }
     @FXML
-    protected void save(ActionEvent event) {
+    protected void save() {
+       save1();
+        initialize();
+    }
+    protected void save1(){
         for (int i=0;i<6;i++) {
             if (values[i] == false) {
                 locked[i]=true;
                 response[i]=(int)sl[i].getValue();
             }
         }
-        startStatus.inputValStatus(response);
-        initialize();
+        bean.inputValStatus(response);
     }
     @FXML
     protected void goBack() {
@@ -119,4 +138,5 @@ public class TakeFormControllerInterf1 implements Interf1ButtonBar{
     }
     @FXML
     protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+
 }

@@ -1,21 +1,19 @@
 
-N	java:S106:"9Replace this use of System.out or System.err by a logger.(ï¤Œ¯
-S	java:S106>"9Replace this use of System.out or System.err by a logger.(µ™¡Òÿÿÿÿÿ
 m
-java:S1128"KRemove this unused import 'progettoispw.letmeknow.controller.chat.Message'.(´Ûƒüÿÿÿÿ8Åâïˆé/
+java:S1128"KRemove this unused import 'progettoispw.letmeknow.controller.chat.Message'.(´Ûƒüÿÿÿÿ8„ó€ê/
 i
-java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.chat.Messages'.(×Ô§¯8Åâïˆé/
+java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.chat.Messages'.(×Ô§¯8„ó€ê/
 k
-java:S1128"NRemove this unused import 'progettoispw.letmeknow.controller.form.ResultForm'.(çıŞß8Åâïˆé/
+java:S1128"NRemove this unused import 'progettoispw.letmeknow.controller.form.ResultForm'.(çıŞß8…ó€ê/
 i
-java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.search.Search'.(»ÌŞë8Åâïˆé/
+java:S1128"LRemove this unused import 'progettoispw.letmeknow.controller.search.Search'.(»ÌŞë8…ó€ê/
 O
-java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8Åâïˆé/
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8†ó€ê/
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Åâïˆé/
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8†ó€ê/
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Åâïˆé/
-C
-java:S16040"(Make this anonymous inner class a lambda(ùë²¥şÿÿÿÿ
-k
-java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8†ó€ê/
+J
+java:S16040"(Make this anonymous inner class a lambda(ùë²¥şÿÿÿÿ8Æ³Íüé/
+r
+java:S36557"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8Æ³Íüé/

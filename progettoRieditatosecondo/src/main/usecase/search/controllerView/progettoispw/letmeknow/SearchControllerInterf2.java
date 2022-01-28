@@ -5,12 +5,15 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.bean.VisitBean;
 
 import java.io.IOException;
 
 public class SearchControllerInterf2 extends SearchControllerInterf1 {
     @FXML
     AnchorPane Result_Visit;
+    @FXML
+    AnchorPane buttonBar;
     String [] uids;
     public SearchControllerInterf2(){
         super();
@@ -18,7 +21,16 @@ public class SearchControllerInterf2 extends SearchControllerInterf1 {
     }
     public void initialize(){
         super.initialize();
-        visit();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
+        try {
+            buttonBar.getChildren().add((Node)loader.load());
+            ButtonBarInterf2 barController=loader.getController();
+            barController.setSearch();
+            VisitBean beanVisit =new VisitBean();
+            if(beanVisit.getUserId()!=null)visit();
+        } catch (IOException e) {
+            buttonBar.getChildren().removeAll(buttonBar.getChildren());
+        }
     }
     public void goResult(ActionEvent event){
         try {

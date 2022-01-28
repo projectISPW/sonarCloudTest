@@ -3,11 +3,9 @@ package progettoispw.letmeknow.bean;
 import progettoispw.letmeknow.controller.FormResultController;
 
 public class FormResultBean {
-    int formid;
     FormResultController controller;
-    public FormResultBean(int inputformid){
-        formid=inputformid;
-        controller=new FormResultController(formid);
+    public FormResultBean(){
+        controller=new FormResultController();
     }
     public int[] exitValStatus(){
         return controller.getValResponse();

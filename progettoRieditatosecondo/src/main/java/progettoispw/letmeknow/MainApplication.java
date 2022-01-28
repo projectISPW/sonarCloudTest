@@ -55,11 +55,9 @@ public class MainApplication extends Application {
                 if(alert.showAndWait().get() == ButtonType.OK){
                     ConnectionDBMS conn=new ConnectionDBMS();
                     conn.closeCONN();
-                    System.out.println("Prompt: On Log Out phase");
                     Platform.exit();
                     System.exit(0);
                 }else{
-                    System.out.println("Prompt: On Cancel Confirmation Alert. Consume Event");
                     windowEvent.consume();
                 }
             }

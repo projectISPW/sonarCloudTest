@@ -1,12 +1,0 @@
-
-S
-java:S1854"8Remove this useless assignment to local variable "goal".(¥ˆçÃøÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ú¢´ úÿÿÿÿ
-B
-java:S1125"'Remove the unnecessary boolean literal.(ÅëªÃøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(éåœãÿÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(øÀÚáùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÁüí
-N	java:S106"9Replace this use of System.out or System.err by a logger.(å¾ëü
-I
-java:S1121".Extract the assignment out of this expression.(¥ˆçÃøÿÿÿÿ

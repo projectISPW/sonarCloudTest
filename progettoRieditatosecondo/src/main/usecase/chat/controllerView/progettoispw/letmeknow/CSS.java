@@ -81,7 +81,7 @@ public class CSS {
     }
     public Button getButton(String usrid) {
         Button uid=new Button(usrid);
-        uid.setPrefWidth(100);
+        uid.setPrefWidth(125);
         uid.setPrefHeight(75);
         uid.setTranslateY(hlist);
         uid.setStyle("-fx-background-color: rgb(55, 125, 255, 0.69);-fx-text-fill: white; ");
@@ -90,8 +90,8 @@ public class CSS {
     public Label getLabel(String msg){
         Label lmsg;
         lmsg=new Label(msg);
-        lmsg.setTranslateX(100);
-        lmsg.setPrefWidth(330);
+        lmsg.setTranslateX(125);
+        lmsg.setPrefWidth(305);
         lmsg.setPrefHeight(75);
         lmsg.setTranslateY(hlist);
         lmsg.setStyle("-fx-opacity:  0.7; ");

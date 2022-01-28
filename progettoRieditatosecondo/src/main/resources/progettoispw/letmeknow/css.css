@@ -17,7 +17,7 @@
 .button_bar{
     -fx-min-height:52 ;
     -fx-min-width:146 ;
-    -fx-background-color: white;
+    -fx-background-color: transparent;
 }
 .comboBox{
     -fx-font-family:"Gill Sans MT";

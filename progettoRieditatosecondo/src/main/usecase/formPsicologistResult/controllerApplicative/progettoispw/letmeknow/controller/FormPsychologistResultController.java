@@ -8,7 +8,6 @@ public class FormPsychologistResultController {
         user=ControllerClass.getUserPsy();
     }
     public float [] getSelected(){
-        float [] inner=user.getSelected();
         return user.getSelected();
     }
 }

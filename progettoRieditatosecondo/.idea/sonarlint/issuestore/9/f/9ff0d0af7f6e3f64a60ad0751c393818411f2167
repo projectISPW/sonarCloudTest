@@ -1,9 +1,11 @@
 
-m
-java:S3776S"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(»Éºøùÿÿÿÿ
-N	java:S106f"9Replace this use of System.out or System.err by a logger.(Ì´¤«
-7	java:S131g""Add a default case to this switch.(›¾¦•
-S	java:S106j"9Replace this use of System.out or System.err by a logger.(Ùš šşÿÿÿÿ
-O	java:S106€"9Replace this use of System.out or System.err by a logger.(·Í»µ
-]
-java:S1126ƒ"AReplace this if-then-else statement by a single return statement.(À§ÃËşÿÿÿÿ
+Š
+AX5xs3DcmmaUIU5r3xNL
+java:S3776S"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(»Éºøùÿÿÿÿ8˜ÄÉç/
+T
+AX5xs3DcmmaUIU5r3xNN	java:S131f""Add a default case to this switch.(›¾¦•8˜ÄÉç/
+k
+AX5xs3DcmmaUIU5r3xNP	java:S106~"9Replace this use of System.out or System.err by a logger.(·Í»µ8˜ÄÉç/
+z
+AX5xs3DcmmaUIU5r3xNQ
+java:S1126"AReplace this if-then-else statement by a single return statement.(À§ÃËşÿÿÿÿ8˜ÄÉç/

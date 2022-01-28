@@ -1,25 +1,35 @@
 
+ˆ
+AX5otPbJa98W3gDnLusd
+java:S1450/"URemove the "indice" field and declare it as a local variable in the relevant methods.(êëø8À‹şÄæ/
+˜
+AX5otPbJa98W3gDnLuse
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ì8À‹şÄæ/
+Y
+AX5otPbJa98W3gDnLusf
+java:S1125H"'Remove the unnecessary boolean literal.(¼Â¸O8À‹şÄæ/
+N
+AX538jV8nYFqFi-Yp9km
+java:S3626l"Remove this redundant jump.(ûÁİ…8ğÇÁ¿ç/
+_
+AX5otPbJa98W3gDnLusg
+java:S1125V"'Remove the unnecessary boolean literal.(§Æ™ÿÿÿÿÿ8À‹şÄæ/
+_
+AX5otPbJa98W3gDnLush
+java:S1125X"'Remove the unnecessary boolean literal.(õæÉŒúÿÿÿÿ8À‹şÄæ/
+Z
+AX5otPbJa98W3gDnLusj
+java:S1125["'Remove the unnecessary boolean literal.(ÎÜ•ú8À‹şÄæ/
+_
+AX5otPbJa98W3gDnLusk
+java:S1125a"'Remove the unnecessary boolean literal.(Ã¿ÑÚùÿÿÿÿ8À‹şÄæ/
+k
+AX538jV8nYFqFi-Yp9kn	java:S106j"9Replace this use of System.out or System.err by a logger.(Ìµ‡˜8ğÇÁ¿ç/
+\
+AX5otPbJa98W3gDnLusl
+java:S5411H"*Use the primitive boolean expression here.(¼Â¸O8À‹şÄæ/
+b
+AX5otPbJa98W3gDnLusm
+java:S5411c"*Use the primitive boolean expression here.(ÏŒÆ¸ùÿÿÿÿ8À‹şÄæ/
 r
-java:S1450/"URemove the "indice" field and declare it as a local variable in the relevant methods.(êëø8œÖˆòç/
-‚
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(›ì8ŸÖˆòç/
-C
-java:S1125H"'Remove the unnecessary boolean literal.(¼Â¸O8«Öˆòç/
-8
-java:S3626m"Remove this redundant jump.(ûÁİ…8®Öˆòç/
-I
-java:S1125V"'Remove the unnecessary boolean literal.(§Æ™ÿÿÿÿÿ8±Öˆòç/
-I
-java:S1125X"'Remove the unnecessary boolean literal.(õæÉŒúÿÿÿÿ8³Öˆòç/
-U	java:S106["9Replace this use of System.out or System.err by a logger.(ˆËâá8µÖˆòç/
-D
-java:S1125\"'Remove the unnecessary boolean literal.(ÎÜ•ú8¶Öˆòç/
-I
-java:S1125b"'Remove the unnecessary boolean literal.(Ã¿ÑÚùÿÿÿÿ8¸Öˆòç/
-U	java:S106k"9Replace this use of System.out or System.err by a logger.(Ìµ‡˜8½Öˆòç/
-F
-java:S5411H"*Use the primitive boolean expression here.(¼Â¸O8ÁÖˆòç/
-L
-java:S5411d"*Use the primitive boolean expression here.(ÏŒÆ¸ùÿÿÿÿ8ÁÖˆòç/
-r
-java:S3655j"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8şÖˆòç/
+java:S3655i"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8ê™ëê/

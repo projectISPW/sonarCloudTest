@@ -1,26 +1,19 @@
 
+[
+java:S3252""EUse static access with "javafx.animation.Animation" for "INDEFINITE".(æİ…³
+l
+java:S2177$"WRename this method; there is a "private" method in the parent class with the same name.(İ‰_
+M	java:S106("9Replace this use of System.out or System.err by a logger.(Æ¾ìy
 U
-java:S1161$":Add the "@Override" annotation above this method signature(˜¢Ú®üÿÿÿÿ
+java:S1161,":Add the "@Override" annotation above this method signature(ÊÕ­şüÿÿÿÿ
+P
+java:S18542":Remove this useless assignment to local variable "loader".(¤àÍÎ
 U
-java:S1161+":Add the "@Override" annotation above this method signature(ÊÕ­şüÿÿÿÿ
-U
-java:S1161/":Add the "@Override" annotation above this method signature(·òşÿÿÿÿ
-V	java:S1253"<This block of commented-out lines of code should be removed.(·ì‰Íøÿÿÿÿ
-B
-java:S1125B"'Remove the unnecessary boolean literal.(Ù‚°†úÿÿÿÿ
-Y
-java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
-E
-java:S1128"/Remove this unused import 'javafx.scene.Group'.(Ÿ°ô–
-D
-java:S1128	".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï
-N
-java:S1128"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üşÿÿÿÿ
-W
-java:S1128"ARemove this unused import 'progettoispw.letmeknow.bean.ChatBean'.(µé‹İ
-d
-java:S1128"IRemove this unused import 'progettoispw.letmeknow.bean.BeanResultSearch'.(…·„òûÿÿÿÿ
-K
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+java:S11610":Add the "@Override" annotation above this method signature(·òşÿÿÿÿ
 A
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+java:S14812"+Remove this unused "loader" local variable.(¤àÍÎ
+B
+java:S1125F"'Remove the unnecessary boolean literal.(Ù‚°†úÿÿÿÿ
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(×È ´
+r
+java:S2177|"WRename this method; there is a "private" method in the parent class with the same name.(‹ÑÑÂøÿÿÿÿ

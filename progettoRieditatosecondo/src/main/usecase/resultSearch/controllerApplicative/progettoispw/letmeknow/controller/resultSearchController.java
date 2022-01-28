@@ -55,4 +55,7 @@ public class ResultSearchController {
     public int[] nVisit(){
         return search.getnVisit();
     }
+    public void reset(){
+        search.reset();
+    }
 }

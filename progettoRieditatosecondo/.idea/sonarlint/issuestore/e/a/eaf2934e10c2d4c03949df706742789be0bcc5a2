@@ -1,0 +1,13 @@
+
+
+AX5-WzQIMSf21YYFN2XV
+java:S1450#"URemove the "userid" field and declare it as a local variable in the relevant methods.(òÈÜÿÿÿÿÿ8›èòç/
+8
+java:S3626T"Remove this redundant jump.(ûÁİ…8Ùõìê/
+U	java:S106R"9Replace this use of System.out or System.err by a logger.(Ìµ‡˜8Üõìê/
+
+java:S1130Y"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜Ç€Öşÿÿÿÿ8²Ä”‘ê/
+
+java:S1130a"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‡°‚Ãşÿÿÿÿ8²Ä”‘ê/
+r
+java:S3655Q"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8ìõìê/

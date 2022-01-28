@@ -11,7 +11,8 @@ public class ChatController {
     private ArrayList<Message>lastChat;
     private String with;
     public ChatController(){
-        actChat= ControllerClass.getChat();
+        actChat=ControllerClass.getChat();
+        System.err.println("dall controller applicativo "+actChat.getTouched());
         with=actChat.getTouched();
     }
     public void  newMSG(String text){

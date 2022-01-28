@@ -25,10 +25,6 @@
          <graphic>
             <FontAwesomeIcon fill="#377dff" glyphName="SLIDERS" opacity="0.5" size="25" />
          </graphic></Button>
-      <Button layoutX="133.0" layoutY="683.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="142.0" styleClass="button_bar">
-         <graphic>
-            <FontAwesomeIcon fill="#377dff" glyphName="HOME" size="60" />
-         </graphic></Button>
       <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
       <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
 

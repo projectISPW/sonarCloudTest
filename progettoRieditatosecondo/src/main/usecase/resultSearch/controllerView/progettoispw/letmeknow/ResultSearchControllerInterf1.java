@@ -26,15 +26,19 @@ public class ResultSearchControllerInterf1 {
     static final String DESCRIPTION ="About me :";
     private PageMenu controller;
     BeanResultSearch beanVisit;
-    ISCBean chatBean;
     int nval;
     public ResultSearchControllerInterf1(){
         nval=4;
         beanVisit=new BeanResultSearch(nval);
-        chatBean=new ISCBean();
         controller=new PageMenu();
         uids=new String[nval];
     }
+
+    public ResultSearchControllerInterf1(String[] input) {
+        uids=input;
+        beanVisit=new BeanResultSearch();
+    }
+
     public void initialize(){
         visitGroup=new Group[]{group1,group2,group3,group4};
         outputVal();
@@ -81,8 +85,7 @@ public class ResultSearchControllerInterf1 {
     }
     @FXML
     public void touchChat(ActionEvent event){
-        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1();
-        iscController.setUIDS(uids);
+        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1(uids);
         iscController.touchChat(event);
     }
     public void setUids(String [] input){

@@ -50,6 +50,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signupPsycologist/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerApplicative" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formCollectionResults/controllerApplicative" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -77,6 +78,6 @@
     <orderEntry type="library" name="activation-1.11" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
-    <option name="sqPathPrefix" value="Francesco/progettoRieditatosecondo" />
+    <option name="sqPathPrefix" value="progettoRieditatosecondo" />
   </component>
 </module>

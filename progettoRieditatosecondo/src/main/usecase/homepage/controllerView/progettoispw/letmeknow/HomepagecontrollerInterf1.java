@@ -1,22 +1,19 @@
 package progettoispw.letmeknow;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.SliderBean;
 import progettoispw.letmeknow.bean.*;
 
 import java.io.IOException;
-/*
--cambiare foto clessidra se obiettivo scaduto
--possibilita di mettere slider che bloccano il proprio valore invece che lasciare l'image view
- */
 
-public class HomepagecontrollerInterf1 implements Interf1ButtonBar{
+public class HomepagecontrollerInterf1 {
     protected String userid;
-    protected PageMenu controller= new PageMenu();
+    protected PageMenu controller;
     @FXML
     protected ImageView empathySlider;
     @FXML
@@ -33,31 +30,32 @@ public class HomepagecontrollerInterf1 implements Interf1ButtonBar{
     protected Label date;
     @FXML
     protected Text userName;
-    protected UseridBean id;
+    @FXML
+    protected ImageView expired;
+    private HomepageBean bean;
     public HomepagecontrollerInterf1(){
-        id=new UseridBean();
-        userid= id.getUserId();
+        controller=new PageMenu();
+        bean=new HomepageBean();
+        userid= bean.getUserId();
     }
     public void initialize(){
         userName.setText("User : "+userid);
-        SliderBean sliderVal=new SliderBean();
-        Integer [] listaValori=sliderVal.exitValue();
 
-        setSlider(empathySlider,listaValori[0]);
-        setSlider(humorSlider,listaValori[1]);
-        setSlider(positivitySlider,listaValori[2]);
+        Integer[] arrayOut= bean.getParam();
+        setSlider(empathySlider,arrayOut[0]);
+        setSlider(humorSlider,arrayOut[1]);
+        setSlider(positivitySlider,arrayOut[2]);
 
-        PersonalDescriptionBean descrizione=new PersonalDescriptionBean();
-        String text=descrizione.exitValue();
-        personalDescription.setText(text);
-        PersonalGoalBean obb=new PersonalGoalBean();
-        goal.setText(obb.exitGoal());
-        tag.setText(obb.exitTag());
-        listaValori=obb.exitData();
-        //date.setText(data.toString());
-        date.setText(" "+listaValori[0]+"-"+listaValori[1]+"-"+listaValori[2]);
+        personalDescription.setText(bean.getDescription());
+        goal.setText(bean.getGoal());
+        tag.setText(bean.getTag());
+        arrayOut=bean.getData();
+        date.setText(" "+arrayOut[0]+"-"+arrayOut[1]+"-"+arrayOut[2]);
+        if(bean.getExpired() && expired!=null){
+            Image image= new Image(getClass().getResourceAsStream("photo/expired.png"));
+            expired.setImage(image);
+        }
     }
-
     public void  setSlider(ImageView image,int val){
         //ho fatto il controllo sintattico nel bean
         String url="photo/val";
@@ -66,8 +64,6 @@ public class HomepagecontrollerInterf1 implements Interf1ButtonBar{
         Image immagine=new Image(getClass().getResourceAsStream(url));
         image.setImage(immagine);
     }
-
-
     @FXML
     protected void editProfile(ActionEvent event) throws IOException {
         controller.switchTo("homepageEdit/interf1.fxml",event,"Edit Profile");

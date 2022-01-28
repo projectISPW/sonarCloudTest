@@ -1,25 +1,0 @@
-
-À
-java:S1845"¤Rename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(œãë­úÿÿÿÿ
-¸
-java:S1845"œRename field "type" to prevent any misunderstanding/clash with field "TYPE" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(–î†ûÿÿÿÿ
-º
-java:S1845"Rename field "email" to prevent any misunderstanding/clash with field "EMAIL" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(ª«Õìùÿÿÿÿ
-T
-java:S1117+"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
-T
-java:S11173"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
-B
-java:S1905@",Remove this unnecessary cast to "ArrayList".(¹ä£Ÿ
-À
-java:S1845"¤Rename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(œãë­úÿÿÿÿ
-¸
-java:S1845"œRename field "type" to prevent any misunderstanding/clash with field "TYPE" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(–î†ûÿÿÿÿ
-º
-java:S1845"Rename field "email" to prevent any misunderstanding/clash with field "EMAIL" defined in interface "progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta".(ª«Õìùÿÿÿÿ
-T
-java:S1117+"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
-T
-java:S11173"9Rename "email" which hides the field declared at line 14.(É¢Çûûÿÿÿÿ
-B
-java:S1905@",Remove this unnecessary cast to "ArrayList".(¹ä£Ÿ

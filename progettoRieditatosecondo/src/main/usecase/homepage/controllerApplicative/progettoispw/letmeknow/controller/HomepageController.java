@@ -3,6 +3,7 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import java.time.LocalDate;
 
 public class HomepageController {
     UtenteUsr user;
@@ -12,21 +13,25 @@ public class HomepageController {
     public String getUserID(){
         return user.getUserid();
     }
-    public int returnEmpathyValues(){
-        return user.getEmp();
+    public Integer[] getParam(){
+        Integer [] ret=new Integer[3];
+        ret[0]=user.getEmp();
+        ret[1]=user.getHum();
+        ret[2]=user.getOpt();
+        for(int i=0;i<3;i++)if(ret[i]>5 || ret[i]<1)ret[i]=1;
+        return ret;
     }
-    public int returnHumorValues(){
-        return user.getHum();
-    }
-    public int returnOptimismValues(){return user.getOpt();}
-    public String returnGoal(){return user.getGoal();}
-    public Integer[] returnDate(){
-        return user.getDate();
-    }
-    public String returnTag(){
-        return user.getTag();
-    }
-    public String returnDescription(){
+    public String getDescription(){
         return user.getDescript();
     }
+    public String getTag(){
+        return user.getTag();
+    }
+    public String getGoal(){return user.getGoal();}
+    public Integer[] getDate(){
+        return user.getDate();
+   }
+   public boolean getExpired(){
+        return user.getExpired();
+   }
 }

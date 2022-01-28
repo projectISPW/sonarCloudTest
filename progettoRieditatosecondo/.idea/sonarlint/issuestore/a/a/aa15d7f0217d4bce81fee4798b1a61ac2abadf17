@@ -1,6 +1,11 @@
 
-N	java:S1069"9Replace this use of System.out or System.err by a logger.(å¬Ô•
+C
+java:S1172"-Remove this unused method parameter "userid".(–Õ¶¬
+;
+java:S3457"%String contains no format specifiers.(íñæ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(å¬Ô•
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(å¬Ô•
 @
-java:S3457B"%String contains no format specifiers.(Ñë„Ëşÿÿÿÿ
+java:S3457D"%String contains no format specifiers.(Ñë„Ëşÿÿÿÿ
 z
-java:S13196"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(¸ó“H
+java:S13198"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(¸ó“H

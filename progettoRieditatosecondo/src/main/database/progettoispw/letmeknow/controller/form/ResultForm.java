@@ -17,7 +17,11 @@ public class ResultForm {
     private int complete;
     private int [] param;
     private String date;
-    public ResultForm(String useridinp,int formidinp){
+    public String getUserid() {
+        return userid;
+    }
+
+    public ResultForm(String useridinp, int formidinp){
         formData=new FormDAO();
         userid=useridinp;
         formid=formidinp;

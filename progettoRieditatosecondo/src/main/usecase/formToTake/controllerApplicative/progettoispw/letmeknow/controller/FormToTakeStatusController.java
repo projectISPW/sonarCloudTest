@@ -3,14 +3,13 @@ package progettoispw.letmeknow.controller;
 import progettoispw.letmeknow.controller.form.ResultForm;
 
 public class FormToTakeStatusController {
-    String userid;
-    int formid;
     ResultForm form;
     int [] values;
-    public FormToTakeStatusController(int inputform){
-        userid= ControllerClass.getUserUSR().getUserid();
-        formid=inputform;
-        form= new ResultForm(userid,formid);
+    public FormToTakeStatusController(){
+        form= ControllerClass.getResultForm();
+    }
+    public int getFormId(){
+        return form.getFormid();
     }
     public void setValResponse(int [] passaggio){
         form.setRisposte(passaggio);
@@ -20,12 +19,11 @@ public class FormToTakeStatusController {
         return form.getRisposte();
     }
     public String getUserid(){
-        return userid;
+        return form.getUserid();
     }
     public int getValComplete() {
         return form.getComplete();
     }
-
     public boolean[] getStatus() {
         boolean [] bool=new boolean[values.length];
         for(int i=0;i<values.length;i++){

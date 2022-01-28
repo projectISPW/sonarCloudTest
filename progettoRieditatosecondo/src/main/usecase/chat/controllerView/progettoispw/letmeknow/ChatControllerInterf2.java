@@ -2,27 +2,27 @@ package progettoispw.letmeknow;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Group;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.text.Text;
 import javafx.util.Duration;
-import progettoispw.letmeknow.bean.ChatBean;
-import progettoispw.letmeknow.bean.ISCBean;
 import progettoispw.letmeknow.bean.BeanResultSearch;
+import progettoispw.letmeknow.bean.ISCBean;
 
 import java.io.IOException;
-import java.util.Date;
 
 public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
     AnchorPane listUtenti;
     @FXML
     TextField searchBar;
+    @FXML
+    AnchorPane anchorChat;
+    @FXML
+    AnchorPane buttonBar;
     ISCBean iscBean;
     private String userid;
     public ChatControllerInterf2(){
@@ -30,13 +30,14 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
         iscBean=new ISCBean();
         graphic=new CSS(false);
         userid=bean.getUid();
-        timeline=new Timeline(new KeyFrame(Duration.millis(1000),this::recivemsgArr));
+        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
+        timeline.setCycleCount(Timeline.INDEFINITE);//never stop
     }
-
-    public void recivemsgArr(ActionEvent event){
+    private void recivemsgArr(ActionEvent event){
         if(initializated) {
-            recivemsgArr();
             addUser();
+            recivemsgArr();
+            System.out.println(" i am alive");
         }
     }
     @FXML
@@ -46,13 +47,16 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
     }
     public void  initialize(){
         addUser();
-        if(userid==null){
-            /*chat vuota
-            listUtenti;
-            prendi il primo user che trovi
-
-
-            */
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
+        try {
+            if(bean.getWith()==null){
+                anchorChat.getChildren().removeAll(anchorChat.getChildren());
+                anchorChat.getChildren().add((Node) FXMLLoader.load(getClass().getResource("chat/chatVoid.fxml")));
+                return ;
+            }
+        } catch (IOException e) {
+            buttonBar.getChildren().removeAll(buttonBar.getChildren());
+            anchorChat.getChildren().removeAll(anchorChat.getChildren());
         }
         super.initialize();
     }
@@ -90,11 +94,36 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
             listUtenti.getChildren().addAll(userButton,msgLabel);
             listUtenti.setPrefHeight(graphic.getHlist());
         }
+        searchBar.textProperty().addListener((observableValue, s, t1) -> {
+            if(searchBar.getText().equals("")){
+                iscBean.reset();
+                timeline.play();
+            }
+        });
     }
     @FXML
     public void searchMessage(){
         iscBean.search(searchBar.getText());
+        System.out.println("searching for new message");
+        timeline.stop();
         addUser();
     }
-
+    public void goToSettings(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSettings(actionEvent);
+    }
+    public void goToSearch(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSearch(actionEvent);
+    }
+    public void goToChat(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToChat(actionEvent);
+    }
+    @FXML
+    private void touchedHome(ActionEvent event){
+        BeanResultSearch visitBean=new BeanResultSearch();
+        visitBean.touched(bean.getWith());
+        goToSearch(event);
+    }
 }

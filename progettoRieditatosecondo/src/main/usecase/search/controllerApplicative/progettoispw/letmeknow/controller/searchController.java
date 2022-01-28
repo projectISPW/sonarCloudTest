@@ -6,7 +6,7 @@ import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
 public class SearchController {
     private Search find;
     public SearchController(){
-        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+        ControllerClass.setSearch();
         find=ControllerClass.getSearch();
     }
     public void enterAffinity(Integer input){

@@ -10,9 +10,7 @@ import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.FormResultBean;
 
 
-public class FormResultInterf1 implements Interf1ButtonBar{
-    @FXML
-    Text idForm;
+public class FormResultInterf1 {
     @FXML
     ImageView empathySlider;
     @FXML
@@ -38,6 +36,10 @@ public class FormResultInterf1 implements Interf1ButtonBar{
     FormResultBean bean ;
     PageMenu controller ;
     int [] values;
+    public FormResultInterf1(){
+        bean=new FormResultBean();
+        controller=new PageMenu();
+    }
     public void initialize(){
         HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
         controller=new PageMenu();

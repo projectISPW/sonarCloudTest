@@ -2,6 +2,8 @@ package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
@@ -13,7 +15,7 @@ import java.io.IOException;
 
 
 public class HomepageEditControllerInterf1 {
-    private PageMenu controller=new PageMenu();
+    protected  PageMenu controller;
     @FXML
     protected ImageView empathySlider;
     @FXML
@@ -32,40 +34,56 @@ public class HomepageEditControllerInterf1 {
     private Text userName;
     private String userid;
     private HomepagecontrollerInterf1 home;
-    private UpdatePersonalGoalBean obiettivo;
-    private UpdatePersonalDescriptionBean descrizione;
+    private HomepageEditBean bean;
+    private HomepageBean homepageBean;
     public HomepageEditControllerInterf1(){
-        obiettivo=new UpdatePersonalGoalBean();
-        descrizione = new UpdatePersonalDescriptionBean();
+        bean=new HomepageEditBean();
+        homepageBean=new HomepageBean();
         home =new HomepagecontrollerInterf1();
+        controller=new PageMenu();
     }
     public void initialize() {
-        userid= obiettivo.getUserid();
+        userid= bean.getUserid();
         userName.setText("User : "+userid);
-        SliderBean sliderVal=new SliderBean();
-        Integer [] listaValori=sliderVal.exitValue();
+        Integer [] listaValori=homepageBean.getParam();
         home.setSlider(empathySlider,listaValori[0]);
         home.setSlider(humorSlider,listaValori[1]);
         home.setSlider(positivitySlider,listaValori[2]);
-        PersonalDescriptionBean descrizione=new PersonalDescriptionBean();//della Homepage
-        String text=descrizione.exitValue();
-        personalDes.setPromptText(text);
-        PersonalGoalBean obb=new PersonalGoalBean();//della homepage
-        goal.setPromptText(obb.exitGoal());
-        tag.setPromptText(obb.exitTag());
-        listaValori=obb.exitData();
+        personalDes.setPromptText(homepageBean.getDescription());
+        goal.setPromptText(homepageBean.getGoal());
+        tag.setPromptText(homepageBean.getTag());
+        listaValori=homepageBean.getData();
         date.setPromptText(" "+listaValori[0]+"-"+listaValori[1]+"-"+listaValori[2]);
     }
 
     @FXML
-    public void saveChanges()  {
-        obiettivo.entryValue(goal.getText(), tag.getText(),date.getText());
-        descrizione.entryValue(personalDes.getText());
-        personalDes.setText("");
-        goal.setText("");
-        tag.setText("");
-        date.setText("");
-        initialize();
+    public void saveChanges(ActionEvent event)  {
+        boolean bool;
+        bool=bean.setGoal(goal.getText());
+        if(bool)bool=bean.setDescription(personalDes.getText());
+        if(bool)bool=bean.setTag(tag.getText());
+        if(bool)bool=bean.setGoal(tag.getText());
+        if(bool)bool=bean.setDate(date.getText());
+        if(bool){
+            goal.setText("");
+            tag.setText("");
+            date.setText("");
+            personalDes.setText("");
+            initialize();
+        }
+        else{
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("keep attention ");
+            alert.setHeaderText("We weren't be able edit your data, please try  again!");
+            alert.setContentText("Please,check if " +
+                    "tag and description begin in '#'," +
+                    "the data is in format 'day-month-year'");
+            if(alert.showAndWait().get()== ButtonType.OK) {
+                System.out.println("Prompt: Empty Fields Alert");
+                event.consume();
+                return;
+            }
+        }
     }
     @FXML
     protected void goToHome(ActionEvent event) throws IOException {
@@ -81,7 +99,7 @@ public class HomepageEditControllerInterf1 {
     }
     @FXML
     protected void takeForm(ActionEvent event){
-       FormToTakeInterf1 takeForm=new FormToTakeInterf1();
-       takeForm.takeForm(event);
+       FormCollectionResultsInterf1 formController=new FormCollectionResultsInterf1();
+       formController.takeForm(event);
     }
 }

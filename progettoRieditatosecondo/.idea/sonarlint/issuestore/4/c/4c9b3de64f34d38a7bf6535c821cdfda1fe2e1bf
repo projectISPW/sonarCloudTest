@@ -1,0 +1,20 @@
+
+r	java:S116"XRename this field "homepage_edit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™™ùöûÿÿÿÿ
+t	java:S116"ZRename this field "notice_settings" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Æ®”úÿÿÿÿ
+Y
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ýÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'javafx.scene.Group'.(Ÿ°ô–
+S
+java:S1128	"8Remove this unused import 'javafx.scene.control.Button'.(Ë Í‹øÿÿÿÿ
+N
+java:S1128"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üþÿÿÿÿ
+d
+java:S1128"IRemove this unused import 'progettoispw.letmeknow.bean.BeanResultSearch'.(…·„òûÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'progettoispw.letmeknow.bean.ISCBean'.(¯¡¦êÿÿÿÿÿ
+^
+java:S1128"CRemove this unused import 'progettoispw.letmeknow.bean.UseridBean'.(ê¸îæøÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÁËéÊøÿÿÿÿ

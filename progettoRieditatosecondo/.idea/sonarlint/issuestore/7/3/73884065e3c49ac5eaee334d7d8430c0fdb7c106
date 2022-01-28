@@ -1,13 +1,21 @@
 
-7
-java:S3010"!Remove this assignment of "user".(àØ›•
-;
-java:S3010"%Remove this assignment of "password".(Á½ ­
-8
-java:S3010""Remove this assignment of "dburl".(‰Ú…ô
-A
-java:S3010",Remove this assignment of "driverclassname".(åìË	
-<
-java:S3010"!Remove this assignment of "conn".(î…ıïúÿÿÿÿ
-D
-java:S1121".Extract the assignment out of this expression.(×›µÔ
+T
+AX538jlXnYFqFi-Yp9lU
+java:S3010"!Remove this assignment of "user".(àØ›•8ğÇÁ¿ç/
+X
+AX538jlXnYFqFi-Yp9lV
+java:S3010"%Remove this assignment of "password".(Á½ ­8ğÇÁ¿ç/
+U
+AX538jlXnYFqFi-Yp9lW
+java:S3010""Remove this assignment of "dburl".(‰Ú…ô8ğÇÁ¿ç/
+^
+AX538jlXnYFqFi-Yp9lX
+java:S3010",Remove this assignment of "driverclassname".(åìË	8ğÇÁ¿ç/
+Y
+AX538jlXnYFqFi-Yp9lY
+java:S3010"!Remove this assignment of "conn".(î…ıïúÿÿÿÿ8ğÇÁ¿ç/
+X
+java:S2696N"6Make the enclosing method "static" or remove this set.(€×³›ÿÿÿÿÿ8ëÏ‚€ê/
+a
+AX538jlXnYFqFi-Yp9la
+java:S1121".Extract the assignment out of this expression.(×›µÔ8ğÇÁ¿ç/

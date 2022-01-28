@@ -87,7 +87,7 @@ public class LoginControllerInterf1 {
                     return;
                 }
                 case "psy":{
-                    controller.switchTo("homepagePsicologist/interf1.fxml",event,"Home");
+                    controller.switchTo("homepagePsychologist/interf1.fxml",event,"Home");
                 }
                 default:{
                     color(false);

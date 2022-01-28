@@ -33,12 +33,14 @@ public class HomepagePsychologistController implements  FormMeta {
         for(Form elem:list){
             formid=elem.getFormid();
             counter=user.getCounter(formid);
+            System.err.println("form id"+formid+"completed by "+counter);
             innerList[formid-1][0]=counter;
             answers= elem.getAnswers();
             for(int i=1;i<7;i++){
                 innerList[formid-1][i]=(float)answers[i-1]/counter;
             }
         }
+
     }
     public void setSelected(int selectedInp){
         user.setSelected(innerList[selectedInp-1]);

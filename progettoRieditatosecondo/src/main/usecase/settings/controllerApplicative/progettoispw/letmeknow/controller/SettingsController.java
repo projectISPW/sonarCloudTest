@@ -14,6 +14,7 @@ public class SettingsController {
     public SettingsController(){
         userU= ControllerClass.getUserUSR();
         userP=ControllerClass.getUserPsy();
+        connection=new ConnectionDBMS();
     }
     public void closeConnection(){
         connection.closeCONN();

@@ -13,15 +13,15 @@ public class ISCController {
         private String find;
         public ISCController(Integer n){
             ControllerClass.controllerChat();
-            if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+            ControllerClass.setSearch();
             chat= ControllerClass.getChat();
             nVal=n;
             count=0;
             find=null;
         }
         public ISCController(){
-             ControllerClass.controllerChat();
-            if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
+            ControllerClass.controllerChat();
+            if(ControllerClass.getSearch()==null)ControllerClass.setSearch();
             chat= ControllerClass.getChat();
             nVal=0;
             count=0;

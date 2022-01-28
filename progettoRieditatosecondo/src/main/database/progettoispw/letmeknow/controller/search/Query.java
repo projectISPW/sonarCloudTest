@@ -28,10 +28,12 @@ public class Query {
     }
     public ResultSet getnVisit(Statement stmt,String userid){
         try{
-        String sql=String.format("SELECT `num_visit` FROM `recently_visited` WHERE `userid`=%s",userid);
+        String sql=String.format("SELECT * from recently_visited where userid='0000000' ");
+        System.err.println(sql);
         return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
-        return null;
+            throwables.printStackTrace();
+            return null;
         }
     }
     public boolean incremVisit(Statement stmt,String userid){

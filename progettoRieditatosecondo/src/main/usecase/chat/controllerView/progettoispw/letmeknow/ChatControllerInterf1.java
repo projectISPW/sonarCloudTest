@@ -11,48 +11,52 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
 import progettoispw.letmeknow.bean.ChatBean;
+import progettoispw.letmeknow.bean.CollectionFormBean;
 import progettoispw.letmeknow.bean.BeanResultSearch;
 
 import java.io.IOException;
 import java.util.Date;
 
 import javafx.animation.Timeline;
+import progettoispw.letmeknow.bean.VisitBean;
+
 import static java.lang.Thread.sleep;
 
 public class ChatControllerInterf1 {
     @FXML
-    protected AnchorPane messaggi;
+    private AnchorPane messaggi;
     @FXML
-    protected TextArea inputmsg;
+    private TextArea inputmsg;
     @FXML
-    protected ScrollPane scrollpane;
+    private ScrollPane scrollpane;
     @FXML
     protected Text withName;
     protected boolean initializated;
-    protected  PageMenu controller= new PageMenu();
+    protected  PageMenu controller;
     protected ChatBean bean;
-    protected BeanResultSearch visitBean;
     protected  String [] message;
     protected  CSS graphic;
     protected Label textmsg;
-    protected Timeline timeline;
+    public Timeline timeline;
     public ChatControllerInterf1() {
         bean=new ChatBean();
-        visitBean=new BeanResultSearch();
         graphic=new CSS(true);
         initializated=false;
+        controller=new PageMenu();
         timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
         timeline.setCycleCount(Timeline.INDEFINITE);//never stop
     }
-
     @FXML
     protected void sendMsg() {
         bean.newMsg(inputmsg.getText());
         recivemsgArr();
         inputmsg.setText("");
     }
-    public void recivemsgArr(ActionEvent event){
-        if(initializated) recivemsgArr();
+    private void recivemsgArr(ActionEvent event){
+        if(initializated) {
+            recivemsgArr();
+            System.out.println("i am alive");
+        }
     }
     public void  recivemsgArr() {
         bean.getChat();
@@ -95,6 +99,7 @@ public class ChatControllerInterf1 {
     }
     @FXML
     private void touchedHome(ActionEvent event){
+        BeanResultSearch visitBean=new BeanResultSearch();
         visitBean.touched(bean.getWith());
         timeline.stop();
         controller.switchTo("homepageOthers/interf1.fxml",event,"Visit");

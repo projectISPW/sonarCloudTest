@@ -37,17 +37,20 @@ public class InitialSearchAndChatControllerInterf1 {
     TextField searchBar;
     int nval;
     ISCBean bean;
-    BeanResultSearch beanVisit;
     String [] uids;
     Group [] chatExtGroup;
     Group []chatGroup;
     public InitialSearchAndChatControllerInterf1(){
         nval=4;
         bean=new ISCBean(nval);
-        beanVisit=new BeanResultSearch(4);
         uids=new String[4];
         controller=new PageMenu();
+    }
 
+    public InitialSearchAndChatControllerInterf1(String[] input) {
+        uids=input;
+        bean=new ISCBean(nval);
+        controller=new PageMenu();
     }
     public void initialize(){
         userid=bean.getUserid();
@@ -65,10 +68,12 @@ public class InitialSearchAndChatControllerInterf1 {
         chatGroup=group2;
         nval=input;
         bean=new ISCBean(nval);
-        return outputValChat();
+        String [] out=outputValChat();
+        return out;
     }
     @FXML
     public  String [] outputValChat(){
+
         for(int i=0;i<nval;i++){
             chatExtGroup[i].setOpacity(1);
         }
@@ -110,21 +115,17 @@ public class InitialSearchAndChatControllerInterf1 {
         }
         return uids;
     }
-    public void setUIDS(String [] input){
-        uids=input;
-    }
     public void touchChat(ActionEvent event){
         Button button=(Button) event.getTarget();
         if(button.getOpacity()<1)return ;
         uids=getUids(uids);
         switch(button.getId()){
-            case "chat1" :{
-                bean.touched(uids[0]);
-                break;
-            }
+            case "chat1" : bean.touched(uids[0]);break;
             case "chat2" :bean.touched(uids[1]);break;
             case "chat3" :bean.touched(uids[2]);break;
             case "chat4" :bean.touched(uids[3]);break;
+            case "chat5" :bean.touched(uids[4]);break;
+            case "chat6" :bean.touched(uids[5]);break;
             default :{
                 event.consume();
             }
@@ -132,8 +133,9 @@ public class InitialSearchAndChatControllerInterf1 {
         controller.switchTo("chat/interf1.fxml",event,"chat");
     }
     public void visit(ActionEvent event) {
-       ResultSearchControllerInterf1 resultSearch =new ResultSearchControllerInterf1();
-       uids=getUids(uids);
+        uids=getUids(uids);
+       ResultSearchControllerInterf1 resultSearch =new ResultSearchControllerInterf1(uids);
+
        resultSearch.setUids(uids);
        resultSearch.visit(event);
     }

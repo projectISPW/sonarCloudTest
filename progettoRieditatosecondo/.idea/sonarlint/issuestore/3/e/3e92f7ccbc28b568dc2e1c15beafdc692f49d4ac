@@ -1,10 +1,17 @@
 
 [
-java:S3252-"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Ê›Ö≥
-S	java:S106<"9Replace this use of System.out or System.err by a logger.(˚®—∆¯ˇˇˇˇ
-N	java:S106?"9Replace this use of System.out or System.err by a logger.(–¯≥Ò
-S	java:S106I"9Replace this use of System.out or System.err by a logger.(ìÖú›¸ˇˇˇˇ
+java:S3252/"EUse static access with "javafx.animation.Animation" for "INDEFINITE".(Ê›Ö≥
+M	java:S106:"9Replace this use of System.out or System.err by a logger.(∆æÏy
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(˚®—∆¯ˇˇˇˇ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(–¯≥Ò
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ìÖú›¸ˇˇˇˇ
 Ç
-java:S1130W"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˚È¯â
+java:S1130["lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˚È¯â
 á
-java:S1130\"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(á∞Ç√˛ˇˇˇˇ
+java:S1130`"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(á∞Ç√˛ˇˇˇˇ
+m
+java:S1128"KRemove this unused import 'progettoispw.letmeknow.bean.CollectionFormBean'.(©ÑËì˚ˇˇˇˇ8Ê±ÿÑÍ/
+d
+java:S1128"BRemove this unused import 'progettoispw.letmeknow.bean.VisitBean'.(Ï÷â¨˚ˇˇˇˇ8Á±ÿÑÍ/
+j
+java:S1104("TMake timeline a static final constant or non-public and provide accessors if needed.(„»ﬁ‡

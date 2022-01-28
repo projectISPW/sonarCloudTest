@@ -84,19 +84,26 @@ public class SearchDAO {
     public int[] getnVisit(String userid) {
         Statement stmt = null;
         ResultSet rst = null;
+        boolean bool=true;
         int [] ret = new int [2];
         try {
             stmt = connDB.connection(stmt);
             query.newLine(stmt,userid);
             
             rst = query.getnVisit(stmt, userid);
-            if(!rst.next()){
-                query.newLine(stmt,userid);
-                rst=query.getnVisit(stmt,userid);
+            if (rst.next()) {
+                System.out.println(rst.getString(5));
+                ret[0]=Integer.parseInt(rst.getString(5));
+                bool=false;
             }
-            if (rst.next()) ret[0]=Integer.parseInt(rst.getString(1));
+            if(bool){
+                bool=query.newLine(stmt,userid);
+                if(bool)ret[0]= Integer.parseInt(rst.getString(1));
+            }
+            System.out.println("get recived visit"+ret[0]);
             rst = query.getnRows(stmt);
             if (rst.next()) ret [1]=Integer.parseInt(rst.getString(1));
+            System.out.println("get n visit"+ret[1]);
             return ret;
         } catch (Exception throwables) {
             return new int [2];

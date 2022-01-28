@@ -36,4 +36,7 @@ public class BeanResultSearch {
     public int[] getnval(){
         return controller.nVisit();
     }
+    public void reset(){
+        controller.reset();
+    }
 }

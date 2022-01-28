@@ -1,0 +1,15 @@
+
+l
+AX5qdw4C7Nfw18hwhT-X
+java:S1854/"9Remove this useless assignment to local variable "count".(È•¿í8¨ûØÓæ/
+p
+AX6LGiBZ8jl3765X9D-W	java:S1064"9Replace this use of System.out or System.err by a logger.(Ğç÷’ûÿÿÿÿ8È“äØè/
+a
+AX5qdw4C7Nfw18hwhT-Y
+java:S1121/".Extract the assignment out of this expression.(È•¿í8¨ûØÓæ/
+œ
+AX5-WzRSMSf21YYFN2Xx
+java:S1319"iThe type of "formatted" should be an interface such as "List" rather than the implementation "ArrayList".(¾Êå€8›èòç/
+¨
+AX5qdw4C7Nfw18hwhT-Z
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(·¨ùÿÿÿÿ8¨ûØÓæ/

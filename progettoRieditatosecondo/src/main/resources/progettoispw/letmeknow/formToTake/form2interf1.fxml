@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.TakeForm2ControllerInterf1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.TakeFormControllerInterf1">
    <children>
 
       <ScrollPane fx:id="ScrollBar" layoutX="3.0" layoutY="116.0" prefHeight="565.0" prefWidth="410.0">
@@ -88,7 +88,7 @@
             </AnchorPane>
          </content>
       </ScrollPane>
-      <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToChat" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
+      <Button layoutX="267.0" layoutY="683.0" mnemonicParsing="false" onAction="#goToISC" prefHeight="52.0" prefWidth="146.0" styleClass="button_bar">
          <graphic>
             <FontAwesomeIcon fill="#377dff" glyphName="PAPER_PLANE" opacity="0.5" size="20" text="" />
          </graphic>

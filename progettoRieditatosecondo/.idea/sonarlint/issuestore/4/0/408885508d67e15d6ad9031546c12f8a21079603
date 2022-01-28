@@ -1,18 +1,12 @@
 
-l
-java:S3457	"Q%n should be used in place of \n to produce the platform-specific line separator.(‚®ÿ‰úÿÿÿÿ
-l
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(à“Ïàýÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Â–‘ö
-l
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÏÎÀ°úÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(€®”¬
-@
-java:S3457"%String contains no format specifiers.(Â÷Íþÿÿÿÿ
-1
-java:S3626("Remove this redundant jump.(ûÁÝ…
-N	java:S106&"9Replace this use of System.out or System.err by a logger.(Â–‘ö
-1
-java:S36260"Remove this redundant jump.(ûÁÝ…
-N	java:S106."9Replace this use of System.out or System.err by a logger.(Â–‘ö
-V	java:S107""<Method has 8 parameters, which is greater than 7 authorized.(É½ù©ûÿÿÿÿ
+]
+AX5otPfYa98W3gDnLuxB
+java:S3457"%String contains no format specifiers.(Â÷Íþÿÿÿÿ8À‹þÄæ/
+N
+AX5otPfYa98W3gDnLuxC
+java:S3626&"Remove this redundant jump.(ûÁÝ…8À‹þÄæ/
+N
+AX5otPfYa98W3gDnLuxE
+java:S3626."Remove this redundant jump.(ûÁÝ…8À‹þÄæ/
+s
+AX5otPfYa98W3gDnLuxJ	java:S107!"<Method has 8 parameters, which is greater than 7 authorized.(É½ù©ûÿÿÿÿ8À‹þÄæ/

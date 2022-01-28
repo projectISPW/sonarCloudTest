@@ -75,7 +75,7 @@ public class ConnectionDBMS {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         } finally {
-            decrem();
+            conn=null;
             //"GESTIONE CONNESSIONE FALLITA "
         }
     }

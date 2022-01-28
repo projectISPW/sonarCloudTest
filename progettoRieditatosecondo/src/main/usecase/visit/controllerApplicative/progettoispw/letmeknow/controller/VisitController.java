@@ -8,7 +8,8 @@ public class VisitController {
         user= ControllerClass.getSearch().getTouched();
     }
     public String getUserid() {
-        return user.getUserid();
+        if(user!=null)return user.getUserid();
+        return null;
     }
     public int returnEmpathyValues(){
         return user.getEmp();
