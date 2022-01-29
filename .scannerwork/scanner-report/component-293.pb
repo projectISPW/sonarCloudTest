@@ -1,1 +1,1 @@
-• 2javaX;hräprogettoRieditatosecondo/src/main/usecase/signupPsycologist/controllerView/progettoispw/letmeknow/SignupPsychologistControllerInterf1.java
+• 2javaXhrëprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsychologistResultBean.java

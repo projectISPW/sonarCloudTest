@@ -1,15 +1,37 @@
 
-Cprogettoispw.letmeknow.bean.LoginBean#exitValue()Ljava/lang/String;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java ("1*–
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (!Ã
-À
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (-
-outputjava.lang.String"__id*
-"""´
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java (
+xprogettoispw.letmeknow.controller.utentiusr.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (""1*¨	
+1†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(Ü
+Ù
+†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(W
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*0.
+, SELECT * FROM utenti  where userid = '%s' ;*
 
-outputjava.lang.StringB)'
-%progettoispw.letmeknow.bean.LoginBean
+iduserjava.lang.StringÅ
+Â
+†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java	 	(X
+sqljava.lang.String"__id*
+
+%0java.lang.StringÊÇ
+†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java
+ 
+(%
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"¥
+†
+|C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java
+ 
+(&
+
+%1java.sql.ResultSet:
+stmtjava.sql.Statement:
+iduserjava.lang.StringB53
+1progettoispw.letmeknow.controller.utentiusr.Query

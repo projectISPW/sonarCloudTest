@@ -1,26 +1,23 @@
+//took out unused libraries
+
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.SettingsController;
+import progettoispw.letmeknow.controller.CollectionFormController;
+import progettoispw.letmeknow.controller.chat.Message;
+import java.util.ArrayList;
 
-public class SettingsBean {
-    SettingsController controller;
-    SignupBean checkBean;
-    public SettingsBean(){
-        controller=new SettingsController();
-        checkBean=new SignupBean();
+public class CollectionFormBean {
+    private CollectionFormController controller;
+    public CollectionFormBean() {
+        controller=new CollectionFormController();
     }
-    public void closeConnection(){
-        controller.closeConnection();
+    public void setTouched(int formid){
+        if(formid>=1&& formid<=3){
+            controller.setTouched(formid);
+        }
+        else controller.setTouched(1);
     }
-    public boolean setPassword(String pswd,String confirmpswd){
-        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
-        else return false;
-    }
-    public boolean setEmail(String input){
-        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
-        else return false;
-    }
-    public boolean setFeed(String input){
-        return controller.feed(input);
+    public void takeForm(){
+        controller.takeForm();
     }
 }

@@ -1,23 +1,44 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.*;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
 
-public class SearchBean {
-    private SearchController controller;
-    public SearchBean(){
-        controller=new SearchController();
+import java.util.ArrayList;
+import java.util.List;
+
+public class ChatController {
+    private Messages actChat;
+    private ArrayList<Message>lastChat;
+    private String with;
+    public ChatController(){
+        actChat=ControllerClass.getChat();
+        System.err.println("dall controller applicativo "+actChat.getTouched());
+        with=actChat.getTouched();
     }
-    public void enterParamSearch(Integer [] input){
-        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
-            controller.enterParamSearch(input);
+    public void  newMSG(String text){
+        actChat.newMessage(text,with);
+    }
+    public String getUID(){
+        return actChat.getUserid();
+    }
+    public List<Message> getChat() {
+        ArrayList<Message> chat;
+        ArrayList<Message> newChat;
+        chat= (ArrayList<Message>) actChat.chat(with,false);
+        if(lastChat!=null){
+            newChat=new ArrayList<>();
+            for(int i= lastChat.size();i< chat.size();i++){
+                newChat.add(chat.get(i));
+            }
+            lastChat=chat;
         }
+        else {
+            lastChat=chat;
+            newChat=chat;
+        }
+        return newChat;
     }
-    public void enterGoalSearch(String input){
-        controller.enterGoal(input);
-    }
-    public void enterDescrSearch(String input){controller.enterDes(input);}
-    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
-    public void toMe(){
-        controller.toMe();
+    public String getWith() {
+        return with;
     }
 }

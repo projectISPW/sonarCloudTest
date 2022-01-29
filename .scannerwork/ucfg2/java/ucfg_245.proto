@@ -1,27 +1,66 @@
 
-`progettoispw.letmeknow.controller.utenti.UserDAO#setEmail(Ljava/lang/String;Ljava/lang/String;)ZÇ
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java2 2("5*ò
-2Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java6 6(8"ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java6 6(8
-""*¬
-3Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java5 5((≤
-Ø
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java5 5((
-stmtjava.sql.Statement"__id*
-""*
-2*¬
-5Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java3 3(≤
-Ø
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/UserDAO.java3 3(
-stmtjava.sql.Statement"__id*
-""*
-3:
-useridjava.lang.String:
-inputjava.lang.StringB42
-0progettoispw.letmeknow.controller.utenti.UserDAO
+Oprogettoispw.letmeknow.controller.ConnectionDBMS#getConn()Ljava/sql/Connection;ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java' (."5*Æ
+3ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (L˜
+Ù
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (L<2
+0progettoispw.letmeknow.controller.ConnectionDBMS"
+conn"__id*
+
+%5java.sql.Connection"õ
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (M
+""*ñ
+
+4ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java ('ı
+Ú
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java6 (;
+%2java.lang.String"__id*?*=2
+0progettoispw.letmeknow.controller.ConnectionDBMS"
+dburlÙ
+Ò
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java= (A
+%3java.lang.String"__id*>*<2
+0progettoispw.letmeknow.controller.ConnectionDBMS"
+user¯
+ı
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.javaC (K
+%4java.lang.String"__id*B*@2
+0progettoispw.letmeknow.controller.ConnectionDBMS"
+
+passwordé
+ã
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (L
+%5java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%2java.lang.String*
+
+%3java.lang.String*
+
+%4java.lang.String*
+3*∫
+5ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (ˇ
+¸
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java ()
+%0java.lang.String"__id*I*G2
+0progettoispw.letmeknow.controller.ConnectionDBMS"
+driverclassnameö
+ó
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java (*
+%1java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+
+%0java.lang.String*
+4B4"2
+0progettoispw.letmeknow.controller.ConnectionDBMS

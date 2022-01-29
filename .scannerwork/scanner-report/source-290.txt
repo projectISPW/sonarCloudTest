@@ -1,49 +1,57 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.SignupController;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
 
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
+import java.io.IOException;
 
-public class SignupBean {
-    SignupController controller;
-    public SignupBean(){
-        controller=new SignupController();
-    }
-    public boolean checkEmail(String email , boolean checkpresence){
+
+public class FormCollectionResultsInterf2 extends FormCollectionResultsInterf1 {
+    @FXML
+    AnchorPane anchorSelected;
+    @FXML
+    AnchorPane buttonBar;
+    @Override
+    public void initialize(){
         try {
-            InternetAddress emailAddr = new InternetAddress(email);
-            emailAddr.validate();
-            if(!checkpresence)return true;
-            return controller.checkMail(email);
-        } catch (AddressException e) {
-            // e.printStackTrace();
-            return false;
+            super.initialize();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
+            buttonBar.getChildren().add((Node)loader.load());
+            ButtonBarInterf2 barController=loader.getController();
+            barController.setPersonalForm();
+            takeForm();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
-
-
-    public boolean checkPswd(String str1,String str2){
-        if(str1.equals("")||str1.equals(" "))return false;
-        else if(str1.length()>20)return false;
-        return str1.equals(str2);
-    }
-    public boolean checkDescription(String description){
-        return description.contains("#");
-    }
-    public int[] checkVal(String [] val) {
-        int[] returnArr = new int[3];
-        int i;
-        for (i = 0; i < val.length; i++){
-            returnArr[i] = Integer.parseInt(val[i]);
-            if (returnArr[i] < 1 || returnArr[i] >5 ) return null;
+    @Override
+    protected  void which(int i,ActionEvent event){
+        try {
+            bean.setTouched(i);
+            anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+            anchorSelected.getChildren().add((Node) FXMLLoader.load(getClass().getResource("formCollectionResults/formSelected"+i+".fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        return returnArr;
     }
-    public boolean signupUSR(String password,String email,int [] val,String description,String goal){
-        return controller.signup(password,"usr",email,val,description,goal);
+    @FXML
+    public void takeForm(){
+        try {
+            bean.takeForm();
+            FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
+            int val= innerBean.getFormId();
+            anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+            anchorSelected.getChildren().add((Node) FXMLLoader.load(getClass().getResource("formCollectionResults/formSelected"+val+".fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public boolean signupPSY(String password,String email){
-        return controller.signup(password,"psy",email);
+    @Override
+    public void takeForm(ActionEvent event){
+        takeForm();
     }
 }

@@ -1,9 +1,16 @@
 
-Pprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#getTag()Ljava/lang/String;‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java3 3("1*¢
-1‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java4 4("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java4 4($
-""B97
-5progettoispw.letmeknow.controller.utentiusr.UtenteUsr
+Lprogettoispw.letmeknow.controller.chat.Message#getSender()Ljava/lang/String;ƒ
+yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java   ("1*–
+1ƒ
+yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(ç
+ä
+ƒ
+yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(
+%0java.lang.String"__id*>*<0
+.progettoispw.letmeknow.controller.chat.Message"
+sender" 
+ƒ
+yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java! !(
+
+%0java.lang.StringB20
+.progettoispw.letmeknow.controller.chat.Message

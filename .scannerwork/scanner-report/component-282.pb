@@ -1,1 +1,1 @@
-š 2javaXDhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf2.java
+š 2javaX*hrnprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java

@@ -1,10 +1,9 @@
 
-]progettoispw.letmeknow.controller.HomepagePsychologistController#setFeed(Ljava/lang/String;)Z¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java. .("1*Œ
-1¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java/ /("Ç
-¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java/ /(+
-"":
-inputjava.lang.StringBDB
-@progettoispw.letmeknow.controller.HomepagePsychologistController
+Wprogettoispw.letmeknow.controller.VisitController#returnDescription()Ljava/lang/String;¢
+—C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java   (#"1*Ø
+1¢
+—C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java! !("­
+¢
+—C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java! !("
+""B53
+1progettoispw.letmeknow.controller.VisitController

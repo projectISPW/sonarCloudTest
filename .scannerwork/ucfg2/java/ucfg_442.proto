@@ -1,19 +1,48 @@
 
-Bprogettoispw.letmeknow.bean.VisitBean#exitGoal()Ljava/lang/String;ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*¬
-1ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java+ (,¡
-æ
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (.
-goaljava.lang.String"__id*
-""¡
-æ
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ((
-goaljava.lang.String"__id*
-"""û
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ()
-""B)'
-%progettoispw.letmeknow.bean.VisitBean
+Rprogettoispw.letmeknow.controller.utenti.SalvaUtente#setEmail(Ljava/lang/String;)Zâ
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javap p("4*¶
+2â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javat t("î
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javat t(
+""*Ò
+3â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javar r(ı
+Ú
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javar r(A6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+email"__id*
+
+inputjava.lang.StringÚ
+Ô
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javas s( 
+%1java.lang.String"__id*C*A6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+emailÍÁ
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javas s(!
+%2boolean"Uprogettoispw.letmeknow.controller.utenti.SalvaUtente#composeMail(Ljava/lang/String;)Z*86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente*
+
+%1java.lang.String2composeMail(Ljava/lang/String;)*
+2
+1*ç
+4â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaq q(Û
+
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaq q(#
+%0java.lang.String"__id*D*B6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+userid*
+3
+1*¶
+1â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaw w("î
+â
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaw w(
+"":
+inputjava.lang.StringB86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente

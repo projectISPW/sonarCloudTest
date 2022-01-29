@@ -1,41 +1,9 @@
 
-rprogettoispw.letmeknow.controller.form.Query#takeDate(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java6 6("4*¢
-2~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java9 9(*"œ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java9 9(*
-
-%1java.sql.ResultSet*‹
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java8 8(m¼
-¹
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java8 8(m
-sqljava.lang.String"__id*
-
-%0java.lang.StringÁ¾
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java9 9()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*ð
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java8 8(å
-â
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java8 8(l
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*:8
-6SELECT `by` FROM forms where userid='%s'AND formid=%d;*
-
-useridjava.lang.String*
-""*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-""B0.
-,progettoispw.letmeknow.controller.form.Query
+Iprogettoispw.letmeknow.controller.FormToTakeStatusController#getFormId()I²
+§C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("1*ø
+1²
+§C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("½
+²
+§C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ( 
+""B@>
+<progettoispw.letmeknow.controller.FormToTakeStatusController

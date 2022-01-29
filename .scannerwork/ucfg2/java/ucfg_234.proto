@@ -1,50 +1,23 @@
 
-sprogettoispw.letmeknow.controller.form.Query#insertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)Z~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("4*é
-2~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("à
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (
-""*È
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (‹
-Ÿ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (7.
-,progettoispw.letmeknow.controller.form.Query"
-sql"__id*
-
-%0java.lang.String‹
-Ÿ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("
-%1java.lang.String"__id*9*7.
-,progettoispw.letmeknow.controller.form.Query"
-sql†ù
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (#	
-%2int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-%1java.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*°
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (ñ
-ì
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*NL
-JINSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');*
-""*
-
-useridjava.lang.String*
+Qprogettoispw.letmeknow.controller.SignupController#checkMail(Ljava/lang/String;)Z§
+ôC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java
+ 
+("1*π
+1§
+ôC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (”
+–
+§
+ôC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (
+%0java.io.PrintStream"__id*
+""ÑÅ
+§
+ôC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (M
+%1" java.io.PrintStream#println([C)V*
 
-aboutjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
+%0java.io.PrintStream*
+""2println([C)"Ø
+§
+ôC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ('
 "":
-aboutjava.lang.StringB0.
-,progettoispw.letmeknow.controller.form.Query
+inputjava.lang.StringB64
+2progettoispw.letmeknow.controller.SignupController

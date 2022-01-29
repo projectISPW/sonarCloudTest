@@ -1,11 +1,67 @@
 
-Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/bean/UseridBean.java
- 
-("1*º
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/bean/UseridBean.java ("ž
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/bean/UseridBean.java (&
-""B*(
-&progettoispw.letmeknow.bean.UseridBean
+fprogettoispw.letmeknow.controller.utenti.SalvaUtente#abscessType(Ljava/lang/String;)Ljava/lang/String;‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaV V("7*¦
+2‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java_ _("”
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java_ _(
+""*§
+3‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java\ \("•
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java\ \(
+psy*™
+4‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java[ [(ñ
+î
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java[ [(
+%3java.lang.String"__id*B*@6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+type‹ˆ
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.java[ [('
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%3java.lang.String*
+psy2equals(Ljava/lang/Object;)*
+2
+3*§
+5‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaY Y("•
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaY Y(
+usr*™
+6‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaX X(ñ
+î
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaX X(
+%1java.lang.String"__id*B*@6
+4progettoispw.letmeknow.controller.utenti.SalvaUtente"
+type‹ˆ
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaX X(!
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+usr2equals(Ljava/lang/Object;)*
+4
+5*‹
+7‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaW W(ñî
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javaW W("
+%0boolean"Uprogettoispw.letmeknow.controller.utenti.SalvaUtente#checkUtente(Ljava/lang/String;)Z*86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente*
+
+	pswdInputjava.lang.String2checkUtente(Ljava/lang/String;)*
+6
+1*¦
+1‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javab b("”
+‰
+C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javab b(
+"":
+	pswdInputjava.lang.StringB86
+4progettoispw.letmeknow.controller.utenti.SalvaUtente

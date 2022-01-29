@@ -1,41 +1,16 @@
 
-xprogettoispw.letmeknow.controller.utentipsy.Query#suggestForm(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)ZÉ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (!"5*ö
-3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java ("é
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (
-""*ˇ
-4Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ñ√
-¿
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ñ
-sqljava.lang.String"__id*
-
-%0java.lang.Stringß§
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*º
-5É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (´
-®
-Ñ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Query.java (ï
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ge
-c INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');*
-
-fromjava.lang.String*
-
-whatjava.lang.String*
-4:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whatjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentipsy.Query
+Gprogettoispw.letmeknow.bean.SignupBean#checkEmail(Ljava/lang/String;Z)Zò
+çC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ("2"4*ƒ
+2ò
+çC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (/"£
+ò
+çC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (/
+""*ƒ
+4ò
+çC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java% ()"£
+ò
+çC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (*
+"":
+emailjava.lang.String:
+""B*(
+&progettoispw.letmeknow.bean.SignupBean

@@ -1,1 +1,1 @@
-› 2javaXhrrprogettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/SearchBean.java
+› 2javaX-hrzprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java

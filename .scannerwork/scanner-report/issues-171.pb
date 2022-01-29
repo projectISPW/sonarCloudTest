@@ -1,0 +1,2 @@
+€
+javaS1598äThis file "UtentePsy.java" should be located in "progettoispw\letmeknow\controller\utentipsy" directory, not in "C:\progetto\sonarCloudTest\progettoRieditatosecondo\src\main\database\progettoispw\letmeknow\controller\utentiPsy". 2 3

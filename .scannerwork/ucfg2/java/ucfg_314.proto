@@ -1,16 +1,10 @@
 
-Nprogettoispw.letmeknow.controller.utentiusr.Goal#getData()[Ljava/lang/Integer;‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Goal.java! !("1*™
-1‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Goal.java!& !(*é
-æ
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Goal.java!& !(*
-%0java.lang.Integer[]"__id*>*<2
-0progettoispw.letmeknow.controller.utentiusr.Goal"
-data"¢
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Goal.java! !(+
-
-%0java.lang.Integer[]B42
-0progettoispw.letmeknow.controller.utentiusr.Goal
+Zprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#setPersonalGoal(Ljava/lang/String;)Z‹
+€C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaD D(""1*ª
+1‹
+€C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaE E("–
+‹
+€C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.javaF F(0
+"":
+newSjava.lang.StringB97
+5progettoispw.letmeknow.controller.utentiusr.UtenteUsr

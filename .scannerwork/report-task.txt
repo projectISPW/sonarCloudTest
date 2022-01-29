@@ -1,7 +1,7 @@
 organization=projectispw-1
 projectKey=projectISPW_sonarCloudTest
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.26268
+serverVersion=8.0.0.26379
 dashboardUrl=https://sonarcloud.io/dashboard?id=projectISPW_sonarCloudTest
-ceTaskId=AX6L__3bI-7PdvVlW3si
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX6L__3bI-7PdvVlW3si
+ceTaskId=AX6l7ZDhED5tLG6ZYnWS
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX6l7ZDhED5tLG6ZYnWS

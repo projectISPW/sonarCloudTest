@@ -1,9 +1,24 @@
 
-Uprogettoispw.letmeknow.controller.EditProfileController#getUserID()Ljava/lang/String;¨
-°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/EditProfileController.java ("1*Ï
-1¨
-°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/EditProfileController.java ("∑
-¨
-°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/EditProfileController.java ( 
-""B;9
-7progettoispw.letmeknow.controller.EditProfileController
+Aprogettoispw.letmeknow.WordCheck#checkString(Ljava/lang/String;)Zê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaK K("3*¥
+2ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaM M("õ
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaM M(
+""*â
+3ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaL L(ËÂ
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaL L(	
+%0int"java.lang.String#length()I*
+
+	inputTextjava.lang.String2length()*
+2
+1*¥
+1ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaN N("õ
+ê
+ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaN	 N(
+"":
+	inputTextjava.lang.StringB$"
+ progettoispw.letmeknow.WordCheck

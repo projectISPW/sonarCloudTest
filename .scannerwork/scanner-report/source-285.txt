@@ -1,137 +1,129 @@
 package progettoispw.letmeknow;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.SearchBean;
+import javafx.scene.layout.AnchorPane;
+import javafx.util.Duration;
+import progettoispw.letmeknow.bean.BeanResultSearch;
+import progettoispw.letmeknow.bean.ISCBean;
 
-public class SearchControllerInterf1 {
-    //private AnchorPane pane;
-   PageMenu controller= new PageMenu();
-    //private String userid=getUserID();
+import java.io.IOException;
+
+public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
-    protected Slider posSL;
+    AnchorPane listUtenti;
     @FXML
-    protected Slider empSL;
+    TextField searchBar;
     @FXML
-    protected Slider humSL;
+    AnchorPane anchorChat;
     @FXML
-    protected Slider carefulness;
-    @FXML
-    protected Label lb1;
-    @FXML
-    protected Label lb2;
-    @FXML
-    protected Label lb3;
-    @FXML
-    protected Label lb4;
-    @FXML
-    protected TextField inputTraits,inputGoal;
-    protected boolean [] clicked;
-    @FXML
-    protected ProgressBar progressBar;
-    @FXML
-    protected Button   buttonSearch;
-    protected Slider [] sl ;
-    protected Label[] labels;
-    protected void incremProgress(int index){
-        if(clicked[index]==false){
-            progress=progress+0.17;
-            clicked[index]=true;
-            progressBar.setProgress(progress);
-            buttonSearch.setOpacity(progress);
+    AnchorPane buttonBar;
+    ISCBean iscBean;
+    private String userid;
+    public ChatControllerInterf2(){
+        super();
+        iscBean=new ISCBean();
+        graphic=new CSS(false);
+        userid=bean.getUid();
+        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
+        timeline.setCycleCount(Timeline.INDEFINITE);//never stop
+    }
+    private void recivemsgArr(ActionEvent event){
+        if(initializated) {
+            addUser();
+            recivemsgArr();
+            System.out.println(" i am alive");
         }
     }
-    protected double progress;
-    public SearchControllerInterf1(){
-        progress=0;
-        clicked= new boolean[]{false, false, false, false, false, false, false};
+    @FXML
+    protected void sendMsg() {
+        super.sendMsg();
+        addUser();
     }
-    public void initialize(){
-        labels= new Label[]{lb1, lb2, lb3,lb4};
-        sl=new Slider[] {empSL,humSL,posSL, carefulness};
-        for(int i=0;i<4;i++){
-            int finalI = i;
-            sl[i].valueProperty().addListener(new ChangeListener<Number>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    incremProgress(finalI);
-                    progressBar.setProgress(progress);
-                    if(finalI< 4)labels[finalI].setText(""+(int)sl[finalI].getValue());
-                    }
-                });
+    public void  initialize(){
+        addUser();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
+        try {
+            if(bean.getWith()==null){
+                anchorChat.getChildren().removeAll(anchorChat.getChildren());
+                anchorChat.getChildren().add((Node) FXMLLoader.load(getClass().getResource("chat/chatVoid.fxml")));
+                return ;
             }
-        inputTraits.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(4);
-        });
-        inputGoal.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(5);
-        });
-    }
-    SearchBean bean= new SearchBean();
-    protected void researchByParameter(){
-        Integer [] paramS=new Integer[labels.length-1];
-        for(int i=0;i<4;i++){
-            switch(i) {
-                case 3: {
-                    if (clicked[3]) {
-                        bean.enterAffinity(2-(int)sl[i].getValue());
-                        break;
-                    }
-                    else{
-                        bean.enterAffinity(0);
-                        break;
-                    }
-                }
-                default:{
-                    if(clicked[i])paramS[i]=((int)sl[i].getValue());
-                    else paramS[i]=0;
-                }
-            }
+        } catch (IOException e) {
+            buttonBar.getChildren().removeAll(buttonBar.getChildren());
+            anchorChat.getChildren().removeAll(anchorChat.getChildren());
         }
-        bean.enterParamSearch(paramS);
+        super.initialize();
     }
-    protected void researchByGoal(){
-        if (clicked[5]){
-        String input=inputGoal.getText();
-        bean.enterGoalSearch(input);
-    }};
-    protected void researchByDescripription(){
-        if (clicked[4]){
-        String input=inputTraits.getText();
-        bean.enterDescrSearch(input);
-    }}
-    @FXML
-    protected  void affinity(ActionEvent event ){
-        bean.toMe();
-        goResult(event);
+    public String checkUsrId(String input){
+        if(input.length()<=8){
+            return input;
+        }
+        int indice=-1;
+        indice=input.indexOf("||");
+        String sub=input.substring(0,indice);
+        if(sub.equals(userid)==false) {
+            return sub;
+        }
+        return input.substring(indice+2);
+    }
+    private void goChat(ActionEvent event){
+        Button button=(Button)event.getTarget();
+        String who=button.getText();
+        who=checkUsrId(who);
+        iscBean.touched(who);
+        controller.switchToChat(event);
+    }
+    public  void addUser(){
+        listUtenti.getChildren().removeAll(listUtenti.getChildren());
+        graphic.setHList();
+        Button userButton;
+        Label msgLabel;
+        String [][] innerusers =iscBean.exitUid();
+        String [] uid=innerusers[0];
+        String [] msg=innerusers[1];
+        for(int i=0;i< uid.length;i++){
+            userButton=graphic.getButton(uid[i]);
+            msgLabel=graphic.getLabel(msg[i]);
+            userButton.setOnAction(this::goChat);
+            listUtenti.getChildren().addAll(userButton,msgLabel);
+            listUtenti.setPrefHeight(graphic.getHlist());
+        }
+        searchBar.textProperty().addListener((observableValue, s, t1) -> {
+            if(searchBar.getText().equals("")){
+                iscBean.reset();
+                timeline.play();
+            }
+        });
     }
     @FXML
-    public void search(ActionEvent actionEvent) {
-        researchByParameter();
-        researchByDescripription();
-        researchByGoal();
-        goResult(actionEvent);
+    public void searchMessage(){
+        iscBean.search(searchBar.getText());
+        System.out.println("searching for new message");
+        timeline.stop();
+        addUser();
+    }
+    public void goToSettings(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSettings(actionEvent);
+    }
+    public void goToSearch(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSearch(actionEvent);
+    }
+    public void goToChat(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToChat(actionEvent);
     }
     @FXML
-    protected void goToHome(ActionEvent event) {
-        controller.switchToHome(event);
+    private void touchedHome(ActionEvent event){
+        BeanResultSearch visitBean=new BeanResultSearch();
+        visitBean.touched(bean.getWith());
+        goToSearch(event);
     }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event)  {
-        controller.switchToPersonalForm(event);
-    }
-    @FXML
-    protected void goResult(ActionEvent event) {
-        controller.switchTo("resultSearch/interf1.fxml",event,"your research result");
-    }
-    @FXML
-    protected void goBack()  {
-        controller.backTo();
-    }
-    @FXML
-    protected void goToSearch(ActionEvent event) {controller.switchToSearch(event);}
-
 }

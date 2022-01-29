@@ -1,90 +1,9 @@
 
-Qprogettoispw.letmeknow.controller.form.FormDAO#queryResult(Ljava/lang/String;I)[I€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ("22*ì
-13€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (ÖÓ
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (!
-%1boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-
-13
-5
-9*Â
-14€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (8¯
-¬
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (8
-rstjava.sql.ResultSet"__id*
-""*
-13
-4*”
-4€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java' '("‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java( ((
-""*”
-5€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java% %("‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java% %(
-""*˜
-19€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (8¯
-¬
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (8
-rstjava.sql.ResultSet"__id*
-""ÖÓ
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
-%0boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-14*î
-8€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java"! "(IÜ
-Ù
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java"! "(I
-%3"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%2*
-13
-9*¢
-9€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java" "(”‘
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java"2 "(H
-%2"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(Ljava/lang/String;)*
-8*À
-20€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((°
-­
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((
-stmtjava.sql.Statement"__id*
-""*
-19*ò
-22€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (°
-­
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
-stmtjava.sql.Statement"__id*
-""¯
-¬
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
-rstjava.sql.ResultSet"__id*
-""*
-20:
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO
+8progettoispw.letmeknow.bean.BeanResultSearch#getnval()[I¤
+™C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java$ $("1*Ü
+1¤
+™C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java% %("¯
+¤
+™C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java% %(#
+""B0.
+,progettoispw.letmeknow.bean.BeanResultSearch

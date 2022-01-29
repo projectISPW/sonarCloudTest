@@ -1,15 +1,16 @@
 
-òprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Z°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("1*÷
-1°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¨
-°
-ñC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (N
-"":
-passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.String:
-"":
-descriptionjava.lang.String:
-goaljava.lang.StringB64
-2progettoispw.letmeknow.controller.SignupController
+Lprogettoispw.letmeknow.controller.search.Sliders#getPos()Ljava/lang/Integer;Ö
+{C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java" "("1*ù
+1Ö
+{C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(È
+Ê
+Ö
+{C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(
+%0java.lang.Integer"__id*=*;2
+0progettoispw.letmeknow.controller.search.Sliders"
+pos"£
+Ö
+{C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java# #(
+
+%0java.lang.IntegerB42
+0progettoispw.letmeknow.controller.search.Sliders

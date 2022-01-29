@@ -1,44 +1,25 @@
 
-Ñprogettoispw.letmeknow.controller.utentiusr.Query#setDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZÉ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("5*ö
-3É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java ("é
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (
-""*˝
-4É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (s¬
-ø
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (s
-sqljava.lang.String"__id*
+Qprogettoispw.letmeknow.bean.HomepagePsychologistBean#getMonth()Ljava/lang/String;≥
+®C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("1*∂
+1≥
+®C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (£
+†
+≥
+®C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (
+%0java.lang.String[]"__id*H*F6
+4progettoispw.letmeknow.bean.HomepagePsychologistBean"
+
+monthNamesÅ
+˛
+≥
+®C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("
+%1java.lang.String"
+__arrayGet*
+
+%0java.lang.String[]*
+"""–
+≥
+®C:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (#
 
-%0java.lang.Stringß§
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*Ø
-5É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (û
-õ
-É
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java (r
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*=;
-9 UPDATE  `utenti` set `%s`='%s' WHERE (`userid` = '%s') ;*
-
-whatjava.lang.String*
-
-editjava.lang.String*
-
-iduserjava.lang.String*
-4:
-stmtjava.sql.Statement:
-iduserjava.lang.String:
-whatjava.lang.String:
-editjava.lang.StringB53
-1progettoispw.letmeknow.controller.utentiusr.Query
+%1java.lang.StringB86
+4progettoispw.letmeknow.bean.HomepagePsychologistBean

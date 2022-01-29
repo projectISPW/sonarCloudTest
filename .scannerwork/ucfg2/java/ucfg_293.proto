@@ -1,16 +1,40 @@
 
-Dprogettoispw.letmeknow.bean.InnerUsers#getUserid()Ljava/lang/String;›
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("1*Ö
-1›
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (÷
-ô
-›
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-%0java.lang.String"__id*6*4(
-&progettoispw.letmeknow.bean.InnerUsers"
-userid"¸
-›
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
+lprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUids([Ljava/lang/String;)[Ljava/lang/String;µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javap p("3"1*ø
+3µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(…
+‚
+µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r("
+%0java.lang.String"
+__arrayGet*
+
+uidsjava.lang.String[]*
+""š
+—
+µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(#
+%1java.lang.String"iprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUid(Ljava/lang/String;)Ljava/lang/String;*@>
+<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1*
 
-%0java.lang.StringB*(
-&progettoispw.letmeknow.bean.InnerUsers
+%0java.lang.String
+Š
+µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(#
+%2"
+__arraySet*
+
+uidsjava.lang.String[]*
+""*
+
+%1java.lang.String*
+3
+1*”
+1µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javat t("Ö
+µ
+ªC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javat t(
+
+uidsjava.lang.String[]:
+uidsjava.lang.String[]B@>
+<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1

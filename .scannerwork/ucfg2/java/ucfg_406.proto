@@ -1,16 +1,25 @@
 
-Pprogettoispw.letmeknow.controller.utenti.SalvaUtente#getType()Ljava/lang/String;Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javad d("1*£
-1Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javae e(Ó
-Î
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javae e(
-%0java.lang.String"__id*B*@6
-4progettoispw.letmeknow.controller.utenti.SalvaUtente"
-type"£
-Ü
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/SalvaUtente.javae e(
-
-%0java.lang.StringB86
-4progettoispw.letmeknow.controller.utenti.SalvaUtente
+Oprogettoispw.letmeknow.controller.search.Search#setTouched(Ljava/lang/String;)ZÑ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java@ @("3*Á
+3Ñ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaA A(È
+Ê
+Ñ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaB# B()
+%0java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.search.Search"
+useridÈ
+Ê
+Ñ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaC C(
+%1java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.search.Search"
+userid*
+1*ú
+1Ñ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaF F("è
+Ñ
+zC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaF F(
+"":
+userid2java.lang.StringB31
+/progettoispw.letmeknow.controller.search.Search
