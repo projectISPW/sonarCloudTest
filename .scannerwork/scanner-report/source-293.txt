@@ -2,57 +2,66 @@ package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
-import progettoispw.letmeknow.bean.SignupBean;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.bean.HomepagePsychologistBean;
 
-public class SignupPsychologistControllerInterf1 {
-    SignupBean bean;
-    Page controller=new Page();
-    @FXML
-    TextField email;
-    @FXML
-    PasswordField pswd;
-    @FXML
-    PasswordField confirmpswd;
-    @FXML
-    Label emailCheck;
-    @FXML
-    Label pswdCheck;
-    public SignupPsychologistControllerInterf1() {
-        bean=new SignupBean();
-    }
-    public void initialize(){
+import java.io.IOException;
 
-    }
-    private boolean check(Boolean bool,Label lab){
-        if(bool==false)lab.setOpacity(1);
-        return bool;
-    }
+public class HomepagePsychologistInterf2 extends HomepagePsychologistInterf1{
     @FXML
-    protected void backToLogin() {
-            Page controller=new Page();
-            controller.backTo();
-        }
-    public void save (ActionEvent event) {
-        Boolean bool;
-        emailCheck.setOpacity(0);
-        pswdCheck.setOpacity(0);
-        bool = bean.checkEmail(email.getText(), true);
-        if (check(bool, emailCheck) == false) return;
-        bool = bean.checkPswd(pswd.getText(), confirmpswd.getText());
-        if (check(bool, pswdCheck) == false) return;
-        bool = bean.signupPSY(pswd.getText(), email.getText());
-        if (bool) backToLogin();
-        else {
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("Attention ");
-            alert.setHeaderText("We could'nt retrieve your data, please try again!");
-            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-            if (alert.showAndWait().get() == ButtonType.OK) {
-                System.out.println("Prompt: Empty Fields Alert");
-                event.consume();
-                return;
+    AnchorPane anchorSelected;
+    @FXML
+    public void select(ActionEvent event){
+        try {
+            Button button=(Button) event.getTarget();
+            int val=0;
+            switch(button.getId()){
+                case "form1" :{
+                    bean.setSelected(1);
+                    val=1;
+                    break;
+                }
+                case "form2" :{
+                    bean.setSelected(2);
+                    val=2;
+                    break;
+                }
+                case "form3" :{
+                    bean.setSelected(3);
+                    val=3;
+                    break;
+                }
+                default :{
+                    event.consume();
+                }
             }
+            anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+            anchorSelected.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepagePsychologist/formSelected"+val+".fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
+    public void goToSettings(ActionEvent event ){
+        try {
+            anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+            anchorSelected.getChildren().add((Node) FXMLLoader.load(getClass().getResource("settingsPsychologist/interf2.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void increm() {
+        anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+        bean.incremMonth();
+        initialize();
+    }
+    public void decrem() {
+        anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
+        bean.decremMonth();
+        initialize();
     }
 }

@@ -1,46 +1,45 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.VisitController;
+import progettoispw.letmeknow.controller.ISCController;
 
-public class VisitBean {
-    VisitController controller;
-    public String getUserId() {
-        controller=new VisitController();
-        return controller.getUserid();
-    }
+import java.util.ArrayList;
 
-    public String exitGoal() {
-        WordCheck checkStr = new WordCheck(3, 20);
-        String goal = controller.returnGoal();
-        return goal=checkStr.check(goal);
+public class ISCBean {
+    private int nval;
+    private ISCController controller;
+    public ISCBean (int val){
+        nval=val;
+        controller=new ISCController(nval);
     }
-    public Integer[] exitData(){
-        Integer [] data=controller.returnDate();
-        return data;
+    public ISCBean (){
+        nval=0;
+        controller=new ISCController();
     }
-
-    public Integer [] exitValue(){
-        Integer values []={0,0,0};
-        //values[0]=1;  values[1]=1; values[2]=1;
-        values[0]=controller.returnEmpathyValues();
-        values[1]=controller.returnHumorValues();
-        values[2]=controller.returnOptimismValues();
-        for(int i =0;i<2;i++){
-            if(values[i]>5 || values[i]<1){
-                System.err.println("error occurred");
-            }
+    public String getUserid(){
+        return controller.getUid();
+    }
+    public String[][] exitUid(){
+        int index;
+        ArrayList<lastMessage>  actual= (ArrayList<lastMessage>) controller.queryUsers();;
+        String [][] arrStr;
+        if(nval!=0) arrStr=new String[2][nval];
+        else arrStr=new String[2][actual.size()];
+        for(lastMessage usr : actual){
+            index =actual.indexOf(usr);
+            arrStr[0][index]=usr.getUserid();
+            arrStr[1][index]= usr.getLastmsg();
         }
-        return values;
+        return arrStr;
     }
-    public String exitTag(){
-        WordCheck checkStr=new WordCheck(3,20);
-        String tag=controller.returnTag();
-        return tag;
+    public void touched(String user){
+        controller.who(user);
     }
-
-    public String exitDes(){
-        String output= controller.returnDescription();
-        return output;
+    public void search(String find){
+        if(!find.equals("")) {
+            controller.search(find);
+        }
+    }
+    public void reset(){
+        controller.reset();
     }
 }

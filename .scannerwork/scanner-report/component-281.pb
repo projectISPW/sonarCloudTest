@@ -1,1 +1,1 @@
-™ 2javaX€hrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java
+™ 2javaX7hr~progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/HomepageEditBean.java

@@ -1,49 +1,56 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.SignupController;
+import progettoispw.letmeknow.controller.HomepagePsychologistController;
 
-import javax.mail.internet.AddressException;
-import javax.mail.internet.InternetAddress;
 
-public class SignupBean {
-    SignupController controller;
-    public SignupBean(){
-        controller=new SignupController();
+import java.time.LocalDate;
+
+public class HomepagePsychologistBean {
+    HomepagePsychologistController controller;
+    int month;
+    int year;
+    String [] monthNames;
+    public HomepagePsychologistBean(){
+        LocalDate currentdate = LocalDate.now();
+        month=currentdate.getMonthValue();
+        year=currentdate.getYear();
+        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        controller=new HomepagePsychologistController();
+        controller.getLists(month,year);
     }
-    public boolean checkEmail(String email , boolean checkpresence){
-        try {
-            InternetAddress emailAddr = new InternetAddress(email);
-            emailAddr.validate();
-            if(!checkpresence)return true;
-            return controller.checkMail(email);
-        } catch (AddressException e) {
-            // e.printStackTrace();
-            return false;
+    public String getMonth(){
+        return monthNames[month-1];
+    }
+    public void decremMonth(){
+        if(month==1){
+            month=12;
+            year--;
         }
-    }
-
-
-    public boolean checkPswd(String str1,String str2){
-        if(str1.equals("")||str1.equals(" "))return false;
-        else if(str1.length()>20)return false;
-        return str1.equals(str2);
-    }
-    public boolean checkDescription(String description){
-        return description.contains("#");
-    }
-    public int[] checkVal(String [] val) {
-        int[] returnArr = new int[3];
-        int i;
-        for (i = 0; i < val.length; i++){
-            returnArr[i] = Integer.parseInt(val[i]);
-            if (returnArr[i] < 1 || returnArr[i] >5 ) return null;
+        else{
+            month-=1;
         }
-        return returnArr;
+        controller.getLists(month,year);
     }
-    public boolean signupUSR(String password,String email,int [] val,String description,String goal){
-        return controller.signup(password,"usr",email,val,description,goal);
+    public void incremMonth(){
+        if(month==12){
+            month=1;
+            year++;
+        }else{
+            month+=1;
+        }
+        controller.getLists(month,year);
     }
-    public boolean signupPSY(String password,String email){
-        return controller.signup(password,"psy",email);
+    public float  getForms(){
+        System.out.println("current month "+month+"current year"+year);
+        float[] ret=controller.getList();
+        if(ret==null)return 0;
+        return ret[0];
+    }
+    public void setSelected(int selected) {
+        controller.setSelected(selected);
+    }
+    public boolean suggestForm(String input){
+        if(!input.equals(""))return controller.setFeed(input);
+        return false;
     }
 }

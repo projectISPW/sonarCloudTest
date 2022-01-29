@@ -1,34 +1,9 @@
 
-Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaZ Z("6"7*ë
-4ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `(Û
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `('
-%1char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
-1*ë
-6ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](Û
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](,
-%0char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-4
-1*Æ
-7ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\" \(&"ò
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\ \('
-""*«
-1ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c("±
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c(
-
-	inputTextjava.lang.String:
-	inputTextjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+?progettoispw.letmeknow.TakeFormControllerInterf1#getComplete()Iú
+ëC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.javar r("1*Ã
+1ú
+ëC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.javas s("ß
+ú
+ëC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.javas s("
+""B42
+0progettoispw.letmeknow.TakeFormControllerInterf1

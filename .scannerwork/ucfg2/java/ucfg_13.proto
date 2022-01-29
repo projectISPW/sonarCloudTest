@@ -1,35 +1,16 @@
 
-Fprogettoispw.letmeknow.bean.SignupBean#checkVal([Ljava/lang/String;)[I•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" "("5"1*¾
-3•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java'= '(A" 
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java'6 '(B
-""*˜
-5•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java& &(ä
-á
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java&, &(2
-%0java.lang.String"
-__arrayGet*
-
-valjava.lang.String[]*
-""ˆ
-…
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java& &(3	
-%1int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%0java.lang.String*	
-3
-5
-1*¾
+Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Z•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (#"1*ï
 1•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java) )(" 
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java   (®«
 •
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java) )(
-"":
-valjava.lang.String[]B*(
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java   ((
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*!
+
+descriptionjava.lang.String*
+#2"contains(Ljava/lang/CharSequence;)" 
+•
+ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java   ()
+"":
+descriptionjava.lang.StringB*(
 &progettoispw.letmeknow.bean.SignupBean

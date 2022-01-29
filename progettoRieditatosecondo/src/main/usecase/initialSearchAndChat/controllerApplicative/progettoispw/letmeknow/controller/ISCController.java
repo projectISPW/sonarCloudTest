@@ -60,6 +60,7 @@ public class ISCController {
         private List<lastMessage>getListV3(){
             //lista utenti con ultimo messaggio per la interfaccia 1
             ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+            if(lmsgs.isEmpty())return new ArrayList<>();
             lastMessage actual;
             ArrayList<Message>inner=new ArrayList<>();
             int index=0;
@@ -78,6 +79,7 @@ public class ISCController {
         }
         private List<lastMessage>getListV4(String find ){
             ArrayList <Message>msgs= chat.getLocalSearch(find);
+            if(msgs==null)return new ArrayList<>();
             lastMessage actual;
             ArrayList <lastMessage> formatted  = new ArrayList<>();
             ArrayList<Message>inner=new ArrayList<>();

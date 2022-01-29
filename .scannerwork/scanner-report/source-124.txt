@@ -1,43 +1,41 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.controller.search;
 
-import progettoispw.letmeknow.controller.chat.Messages;
-import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
-import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+public class Sliders {
+    private  Integer emp;
+    private  Integer pos;
+    private Integer hum;
+    private  Integer[] coll=new Integer[3];
+    private Integer affinity;
+    public Sliders (Integer val ){
+        affinity=val;
+    }
+    public int check(Integer val ){
+        if(val<=0)return 1;
+        return val;
+    }
+    public void setHum(Integer val){
+        hum=val-affinity;
+        coll[1]=check(hum);
+    }
+    public void setPos(Integer val){
+        pos=val-affinity;
+        coll[2]=check(pos);
+    }
+    public void setEmp(Integer val){
+        emp=val-affinity;
+        coll[0]=check(emp);
+    }
+    public Integer getEmp(){
+        return emp;
+    }
+    public Integer getHum(){
+        return hum;
+    }
+    public Integer getPos(){
+        return pos;
+    }
+    public Integer [] getAll(){
+        return coll;
+    }
 
-public class ControllerClass {
-    static   UtenteUsr userU;
-    static  UtentePsy userP;
-    static Search userRes;
-    static Messages  chat;
-    private ControllerClass(){
-
-    }
-    static void  controllerUser(String userid){//la istanzia il controller della login
-        userU=null;
-        userP=null;
-        SalvaUtente actual =new SalvaUtente(userid);
-        if(actual.getType().equals("usr")){
-            userU=new UtenteUsr(userid);
-        }else {
-            userP= new UtentePsy(userid);
-            }
-        }
-    public static UtenteUsr getUserUSR(){
-        return  userU;
-    }
-    public static UtentePsy getUserPsy(){return userP;}
-    public static void  controllerUsers(){//la istanzia il controller della login
-        userRes =new Search(userU.getUserid());
-    }
-    public static Search getSearch(){
-        return  userRes;
-    }
-    public static void controllerChat(){
-        chat=new Messages(userU.getUserid());
-    }
-    public static Messages getChat(){
-        return chat;
-    }
 }

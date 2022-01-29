@@ -1,7 +1,6 @@
 package progettoispw.letmeknow.controller.utenti;
 
 import progettoispw.letmeknow.controller.ConnectionDBMS;
-import progettoispw.letmeknow.controller.form.FormMeta;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,9 +8,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO implements SalvaUtenteMeta,FormMeta {
+public class UserDAO {
     ConnectionDBMS connDB;
     Query query;
+    public static final String UID ="userid";
+    public static final String TYPE="type";
+    public static final String PASSWORD="password";
+    public static final String EMAIL="email";
     public UserDAO() {
         connDB= new ConnectionDBMS();
         query=new Query();

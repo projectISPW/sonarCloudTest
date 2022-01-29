@@ -69,9 +69,8 @@ public class SearchDAO {
             if(!bool){
                 System.out.println("insert line");
                 bool=query.newLine(stmt,userid);
-                prev.add(null);
-                prev.add(null);
             }
+            while(prev.size()<3)prev.add(prev.size()-1,null);
             if(bool)bool=query.setVisited(stmt, userid,prev);
             if(bool)bool=query.incremVisit(stmt,userid2);
             return bool;

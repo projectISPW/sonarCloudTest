@@ -1,16 +1,40 @@
 
-Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java( (("1*ä
-1
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(
-þ
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(
-%0java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ChatController"
-with"º
-
-’C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(
+iprogettoispw.letmeknow.controller.utentiusr.Query#setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)Zƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java* *(#"5*š
+3ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java. .("Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java. .(
+""*ÿ
+4„
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java, ,(‰Ã
+À
+„
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java, ,(‰
+sqljava.lang.String"__id*
 
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.ChatController
+%0java.lang.String§¤
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java- -(#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*™
+5ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java, ,(ˆ
+…
+„
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java, ,(ˆ
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*YW
+U UPDATE `forms` SET `calculated` = '0' WHERE (`formid` = '%d') and (`userid` = '%s');*
+""*
+
+uidjava.lang.String*
+4:
+stmtjava.sql.Statement:
+uidjava.lang.String:
+""B53
+1progettoispw.letmeknow.controller.utentiusr.Query

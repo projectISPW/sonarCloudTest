@@ -85,6 +85,6 @@ public class UtenteUsr extends SalvaUtente {
         return personalObb.getExpired();
     }
     public boolean queryResult() {
-        return userDataUSR.getResult(userid,emp,hum,pos);
+        return userDataUSR.getResult(userid,new int [] {emp,hum,pos});
     }
 }

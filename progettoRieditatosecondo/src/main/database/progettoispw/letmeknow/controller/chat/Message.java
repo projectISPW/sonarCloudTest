@@ -35,7 +35,4 @@ public class Message {
     public LocalDateTime getDate(){
         return date;
     }
-    public void getStatus(){
-        System.out.printf("this message was sended at .: %s from .: %s to .: %s  this was the text .: %s ",date.toString(),sender,reciver,text);
-    }
 }

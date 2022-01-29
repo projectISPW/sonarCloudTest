@@ -1,8 +1,8 @@
 
 N	java:S106?"9Replace this use of System.out or System.err by a logger.(Š¥¤Þ
 S	java:S106F"9Replace this use of System.out or System.err by a logger.(Ë®”èøÿÿÿÿ
-N	java:S106_"9Replace this use of System.out or System.err by a logger.(ƒïÓ 
-N	java:S106g"9Replace this use of System.out or System.err by a logger.(ª–ª¾
-S	java:S106j"9Replace this use of System.out or System.err by a logger.(£óÉÔûÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(ƒïÓ 
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(ª–ª¾
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(£óÉÔûÿÿÿÿ
 >
-java:S1481u"(Remove this unused "ind" local variable.(ÙŒ£À
+java:S1481t"(Remove this unused "ind" local variable.(ÙŒ£À

@@ -1,11 +1,28 @@
 
-Rprogettoispw.letmeknow.controller.FormPsychologistResultController#getSelected()[FÀ
-µC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsychologistResultController.java
- 
-("1*”
-1À
-µC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsychologistResultController.java ("Ë
-À
-µC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsychologistResultController.java ("
-""BFD
-Bprogettoispw.letmeknow.controller.FormPsychologistResultController
+\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javad d("1*³
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javae e(°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javae e(
+stmtjava.sql.Statement"__id*
+""¶
+³
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javag g('
+%0int[]"Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I*20
+.progettoispw.letmeknow.controller.form.FormDAO*
+
+useridjava.lang.String°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javah h($
+stmtjava.sql.Statement"__id*
+"""‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(
+"":
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO

@@ -1,12 +1,11 @@
 package progettoispw.letmeknow.controller.utentipsy;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
 import progettoispw.letmeknow.controller.utenti.SalvaUtente;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class UtentePsy extends SalvaUtente implements FormMeta {
+public class UtentePsy extends SalvaUtente {
     UserDAO userDataPsy;
     Form form;
     ArrayList<Form> listForms;

@@ -1,1 +1,1 @@
-t 2javaX4hraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/Query.java
+t 2javaX(hr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java

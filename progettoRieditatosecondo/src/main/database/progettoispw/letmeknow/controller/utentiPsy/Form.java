@@ -1,13 +1,12 @@
 package progettoispw.letmeknow.controller.utentipsy;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
-
 import java.util.ArrayList;
 
-public class Form implements FormMeta {
+public class Form {
     int formid;
     String userid;
     int [] answers;
+    static final Integer [] FORMSID={1,2,3};
     public void setUserid(String userid) {
         this.userid = userid;
     }

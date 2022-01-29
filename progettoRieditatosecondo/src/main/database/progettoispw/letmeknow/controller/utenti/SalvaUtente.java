@@ -7,13 +7,14 @@ import java.util.Random;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class SalvaUtente implements SalvaUtenteMeta {
+public class SalvaUtente {
     protected String userid;
     private String password;
     private String type;
     private String email;
     private UserDAO userData;
     private Random randomno ;
+
     private static final  Lock mutex = new ReentrantLock(true);
     public SalvaUtente(String who)  {
         if(who !=null && who.length()==7 ){
@@ -40,18 +41,18 @@ public class SalvaUtente implements SalvaUtenteMeta {
         UserDAO userDataInner=new UserDAO();
         String []data = userDataInner.recover(to);
         if(data[0]!=null && data[1]!=null){
-            JavaMailUtil email=new JavaMailUtil();
-            String text="Your userid is .:     "+data[0]+"Your password is .:        "+data[1];
-            email.setText(text);
-            return email.sendMail(to);
+            JavaMailUtil host=new JavaMailUtil();
+            String text="Your userid is .:     \n"+data[0]+"Your password is .:        "+data[1];
+            host.setText(text);
+            return host.sendMail(to);
         }
         return false;
     }
     public boolean composeMail(String uid, String password, String mail) {
-        JavaMailUtil email=new JavaMailUtil();
-        String text="Your userid is .:     "+uid+"Your password is .:        "+password;
-        email.setText(text);
-        return email.sendMail(mail);
+        JavaMailUtil host=new JavaMailUtil();
+        String text="Your userid is .:     \n"+uid+"Your password is .:        "+password;
+        host.setText(text);
+        return host.sendMail(mail);
     }
     private String getUid(){
         int random;

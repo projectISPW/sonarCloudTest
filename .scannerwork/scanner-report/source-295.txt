@@ -1,35 +1,27 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.chat.Message;
 
-public class VisitController {
-    UtenteUsr user;
-    public VisitController(){
-        user= ControllerClass.getSearch().getTouched();
+public class lastMessage {
+    private String userid;
+    private String lastmsg;
+    private WordCheck check;
+    private int lenMax=40;
+    public lastMessage(String elem, Message message){
+        userid=elem;
+        check=new WordCheck();
+        lastmsg=message.getText();
+
     }
     public String getUserid() {
-        return user.getUserid();
+        return userid;
     }
-    public int returnEmpathyValues(){
-        return user.getEmp();
+    public String getLastmsg() {
+        lastmsg=check.checkLen(lastmsg,lenMax);
+        return lastmsg;
     }
-    public int returnHumorValues(){
-        return user.getHum();
+    public void getStatus(){
+        System.out.println("ultimo messaggio nella chat con .:  " +userid+ "pari a .:  "+lastmsg);
     }
-    public int returnOptimismValues(){
-        return user.getOpt();
-    }
-    public String returnGoal(){
-        return user.getGoal();
-    }
-    public Integer[] returnDate(){
-        return user.getDate();
-    }
-    public String returnTag(){
-        return user.getTag();
-    }
-    public String returnDescription(){
-        return user.getDescript();
-    }
-
 }

@@ -1,13 +1,7 @@
-package progettoispw.letmeknow.controller.utenti;
-
-public interface SalvaUtenteMeta {
-    public static final String UID ="userid";
-    public static final String TYPE="type";
-    public static final String PASSWORD="password";
-    public static final String EMAIL="email";
-    public static final int EMP=5;
-    public static final String DESCRIPTION="description";
-    public static final String GOAL="goal";
-    public static final String TAG="tag";
-    public static final String BY="by";
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+  </component>
+</project>

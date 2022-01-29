@@ -1,24 +1,23 @@
-package progettoispw.letmeknow.controller;
+//took out unused libraries
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+package progettoispw.letmeknow.bean;
 
-public class EditProfileController {
-    UtenteUsr user;
-    String newStr;
-    public EditProfileController(){
-        newStr=null;
-        user = ControllerClass.getUserUSR();
+import progettoispw.letmeknow.controller.CollectionFormController;
+import progettoispw.letmeknow.controller.chat.Message;
+import java.util.ArrayList;
+
+public class CollectionFormBean {
+    private CollectionFormController controller;
+    public CollectionFormBean() {
+        controller=new CollectionFormController();
     }
-    public String getUserID(){
-        return user.getUserid();
+    public void setTouched(int formid){
+        if(formid>=1&& formid<=3){
+            controller.setTouched(formid);
+        }
+        else controller.setTouched(1);
     }
-    public void setNewStr(String input) {
-        this.newStr = input;
-        user.setPersonalDes(newStr);
-    }
-    public void setGoal(String obbInput , String tagInput, Integer [] dueDateInput){
-        user.setPersonalGoal(obbInput);
-        user.setPersonalTag(tagInput);
-        user.setPersonalData(dueDateInput);
+    public void takeForm(){
+        controller.takeForm();
     }
 }

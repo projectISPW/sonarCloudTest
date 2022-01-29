@@ -1,1 +1,1 @@
-~ 2javaX:hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+~ 2javaX;hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java

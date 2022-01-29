@@ -1,0 +1,23 @@
+
+p
+AX5otPfFa98W3gDnLuwg	java:S106"9Replace this use of System.out or System.err by a logger.(†÷¾Úøÿÿÿÿ8À‹şÄæ/
+r
+AX5otPfFa98W3gDnLuwj
+java:S11177":Rename "answers" which hides the field declared at line 8.(Ş¦šıÿÿÿÿ8À‹şÄæ/
+‡
+java:S1319"eThe type of "forms" should be an interface such as "List" rather than the implementation "ArrayList".(ÆœÈŒøÿÿÿÿ8×ˆ¡—ê/
+
+java:S1319""pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(†îÀ×8×ˆ¡—ê/
+ƒ
+java:S1319""fThe type of "actual" should be an interface such as "List" rather than the implementation "ArrayList".(†îÀ×8×ˆ¡—ê/
+‚
+java:S1319+"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(Ô¾İ¼8×ˆ¡—ê/
+‚
+java:S13190"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(ëğ 8×ˆ¡—ê/
+
+java:S13195"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Àéè8×ˆ¡—ê/
+‚
+java:S13195"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(Àéè8×ˆ¡—ê/
+b
+AX5otPfFa98W3gDnLuwq
+java:S5411E"*Use the primitive boolean expression here.(²”õàùÿÿÿÿ8À‹şÄæ/

@@ -28,7 +28,7 @@ public class Query {
     }
     public ResultSet getnVisit(Statement stmt,String userid){
         try{
-        String sql=String.format("SELECT * from recently_visited where userid='0000000' ");
+        String sql=String.format("SELECT * from recently_visited where userid='%s'",userid);
         System.err.println(sql);
         return stmt.executeQuery(sql);
         } catch (SQLException throwables) {

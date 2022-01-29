@@ -1,1 +1,1 @@
- 2xmlX	hr>progettoRieditatosecondo/.idea/libraries/fontawesomefx_8_2.xml
+ 2xmlXhr2progettoRieditatosecondo/.idea/jarRepositories.xml

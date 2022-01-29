@@ -1,30 +1,28 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.HomepageEditControllerInterf1;
 
-public class SearchController {
-    private Search find;
-    public SearchController(){
-        if(ControllerClass.getSearch()==null)ControllerClass.controllerUsers();
-        find=ControllerClass.getSearch();
+import java.io.IOException;
+
+public class HomepageEditControllerInterf2 extends HomepageEditControllerInterf1 {
+    @FXML
+    AnchorPane homepage_edit;
+    @FXML
+    protected void goToHome(ActionEvent event) {
+        try {
+            homepage_edit.getChildren().removeAll(homepage_edit.getChildren());
+            homepage_edit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepage/homepage.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public void enterAffinity(Integer input){
-        find.setAffinity(input);
-    }
-    public void enterGoal(String input){
-        find.goalSearch(input);
-    }
-    public void enterDes(String input){
-        find.descrSearch(input);
-    }
-    public void enterParamSearch(Integer [] input ){
-        find.parametricSetSearch(input);
-    }
-    public void toMe(){
-        UtenteUsr me =ControllerClass.getUserUSR();
-        enterAffinity(0);
-        enterGoal(me.getTag());
-        enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getOpt()} );
+    @FXML
+    protected void takeForm(ActionEvent event){
+        controller.switchToPersonalForm(event);
     }
 }

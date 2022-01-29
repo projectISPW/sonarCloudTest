@@ -1,1 +1,1 @@
-j 2javaX3hreprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java
+j 2xmlXhr2progettoRieditatosecondo/.idea/sonarlint-state.xml

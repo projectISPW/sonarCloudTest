@@ -24,7 +24,6 @@ public class Page {
             index= name.indexOf("interf1");
             name=name.substring(0,index);
             name+="" + "interf2.fxml";
-            stage.setFullScreen(true);
         }
         else if(stage.getWidth()<500 && name.indexOf("interf2")>-1){
             index= name.indexOf("interf2");
@@ -38,13 +37,13 @@ public class Page {
     public void switchTo(String name, ActionEvent event, String title) {
         try {
             Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            if(stage.getWidth()>500)stage.setFullScreen(true);
             name=check(name,stage);
             prevBack(event);
             Parent root = FXMLLoader.load(getClass().getResource(name));
             Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.setTitle(title);
+            if(stage.getWidth()>500)stage.setFullScreen(true);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

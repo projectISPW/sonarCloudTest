@@ -1,1 +1,1 @@
- 2xmlX	hr;progettoRieditatosecondo/.idea/libraries/activation_1_1.xml
+ 2xmlXÔhr.progettoRieditatosecondo/.idea/dbnavigator.xml

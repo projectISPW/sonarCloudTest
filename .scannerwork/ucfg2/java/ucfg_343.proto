@@ -1,15 +1,9 @@
 
-Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)ZŸ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("2"1*Ò
-2Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("ª
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (.
-""*Ò
+Hprogettoispw.letmeknow.controller.VisitController#returnEmpathyValues()IŸ
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java (""1*Ò
 1Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("ª
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java ("ª
 Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (
-"":
-inputjava.lang.StringB/-
-+progettoispw.letmeknow.bean.RecoverPswdBean
+”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java (
+""B53
+1progettoispw.letmeknow.controller.VisitController
