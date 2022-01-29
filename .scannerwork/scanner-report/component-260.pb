@@ -1,1 +1,1 @@
-„ 2javaXGhrqprogettoRieditatosecondo/src/main/usecase/formResult/controllerView/progettoispw/letmeknow/FormResultInterf1.java
+„ 2javaX.hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

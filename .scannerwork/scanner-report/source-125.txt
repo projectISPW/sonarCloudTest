@@ -1,50 +1,82 @@
-package progettoispw.letmeknow.controller.utenti;
-import java.util.Properties;
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+package progettoispw.letmeknow.controller;
 
-public class JavaMailUtil {
-    private String text;
-    public Boolean sendMail(String recipient){
-        try {
-        Properties properties=new Properties();
-        //configurazione server
-        properties.put("mail.smtp.host","smtp.gmail.com");
-        properties.put("mail.smtp.port", "465");
-        properties.put("mail.smtp.ssl.enable", "true");
-        properties.put("mail.smtp.auth", "true");
-        //configurazione log
-        String myAccount="progettoispw2021@gmail.com";
-        String password="Password2021";
-        Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
-               protected PasswordAuthentication getPasswordAuthentication() {
-                   return new PasswordAuthentication(myAccount, password);
-                }
-            });
-        Message message = prepareMessage(session,myAccount,recipient);
-        Transport .send(message);
-        System.out.println("MESSAGE CORRECTLY SENDED");
-        return true;
-        } catch (Exception e ){
-            return false;
-        }
-    }
 
-    public void setText(String input){
-        text=input;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class ConnectionDBMS {
+    private static String  user ;
+    private static String password;
+    private static String dburl ;
+    private static String driverclassname ;
+    private static java.sql.Connection conn;
+    private static int numConnection;
+    public ConnectionDBMS(){
+        user = "uf56pst70onxcz68";
+        password = "N5bkvOZY2AhFpYZYu3w7";
+        dburl = "jdbc:mysql://uf56pst70onxcz68:N5bkvOZY2AhFpYZYu3w7@b16kdsy1yce6nyrrldqg-mysql.services.clever-cloud.com:3306/b16kdsy1yce6nyrrldqg";
+        driverclassname = "com.mysql.cj.jdbc.Driver";
+        if(conn==null)conn=getConn();
     }
-    public Message prepareMessage (Session session,String myAccountEmail, String reciver){
+    private static java.sql.Connection getConn(){
         try {
-            Message message =new MimeMessage(session);
-            message.setFrom(new InternetAddress(myAccountEmail));
-            message.addRecipient(Message.RecipientType.TO,new InternetAddress(reciver));
-            message.setSubject("recover password and userid");
-            message.setText(text);
-            return message;
+            Class.forName(driverclassname);//recupera dinamicamente il driver , prende la classe dal class path
+            return conn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
         } catch (Exception e) {
-           return null;
+            e.printStackTrace();
+            return null;
         }
-
+    }
+    public Statement connection(Statement stmt){
+        if(numConnection<1) {
+            try {
+                stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+                increm();
+                return stmt;
+            } catch (Exception throwables) {
+                closeSTMT(stmt);
+                return null;
+            }
+        }
+        return null;
+    }
+    private static void decrem(){
+        numConnection--;
+    }
+    private static void increm(){
+        numConnection++;
+    }
+    public void closeSTMT(Statement stmt) {
+        try {
+            if(stmt!=null)stmt.close();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            decrem();
+            //"GESTIONE CONNESSIONE FALLITA "
+        }
+    }
+    public void closeRSTSTMT(ResultSet rst, Statement stmt) {
+        try {
+            if(rst!=null)rst.close();
+            closeSTMT(stmt);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            decrem();
+            //"GESTIONE CONNESSIONE FALLITA "
+        }
+    }
+    public void closeCONN(){
+        try {
+            if(conn!=null)conn.close();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            decrem();
+            //"GESTIONE CONNESSIONE FALLITA "
+        }
     }
 }

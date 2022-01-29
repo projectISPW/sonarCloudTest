@@ -1,1 +1,1 @@
-$ 2xmlXhrSprogettoRieditatosecondo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+$ 2xmlXhr'progettoRieditatosecondo/.idea/misc.xml

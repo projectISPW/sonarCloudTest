@@ -1,71 +1,56 @@
-//spelling check + same line variables
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.Slider;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormPsychologistResultBean;
-
-public class FormPsychologistResultInterf1 {
-    @FXML
-    Text by;
-    @FXML
-    Slider sl1;
-    @FXML
-    Slider sl2;
-    @FXML
-    Slider sl3;
-    @FXML
-    Slider sl4;
-    @FXML
-    Slider sl5;
-    @FXML
-    Slider sl6;
-    @FXML
-    Label lb1;
-    @FXML
-    Label lb2;
-    @FXML
-    Label lb3;
-    @FXML
-    Label lb4;
-    @FXML
-    Label lb5;
-    @FXML
-    Label lb6;
+import progettoispw.letmeknow.controller.HomepagePsychologistController;
 
 
-    FormPsychologistResultBean bean;
-    Page controller;
-    public FormPsychologistResultInterf1(){
-        bean=new FormPsychologistResultBean();
-        controller=new Page();
+import java.time.LocalDate;
+
+public class HomepagePsychologistBean {
+    HomepagePsychologistController controller;
+    int month;
+    int year;
+    String [] monthNames;
+    public HomepagePsychologistBean(){
+        LocalDate currentdate = LocalDate.now();
+        month=currentdate.getMonthValue();
+        year=currentdate.getYear();
+        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        controller=new HomepagePsychologistController();
+        controller.getLists(month,year);
     }
-    public void initialize(){
-        Slider [] sliders;
-        Label [] labels;
-        sliders=new Slider[]{sl1,sl2,sl3,sl4,sl5,sl6};
-        labels=new Label[]{lb1,lb2,lb3,lb4,lb5,lb6};
-        float [] values= bean.getSelected();
-        for(int i=0;i<6;i++){
-            int index = i;
-            sliders[i].setValue(values[i+1]);
-            labels[i].setText(String.valueOf(values[i+1]));
-            sliders[i].valueProperty().addListener(new ChangeListener<>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    sliders[index].setValue(values[index+1]);
-                    labels[index].setText(String.valueOf(values[index+1]));
-                }
-            });
+    public String getMonth(){
+        return monthNames[month-1];
+    }
+    public void decremMonth(){
+        if(month==1){
+            month=12;
+            year--;
         }
-        by.setText((int)values[0]+"users");
+        else{
+            month-=1;
+        }
+        controller.getLists(month,year);
     }
-    @FXML
-    public void goBack(){
-        controller.backTo();
+    public void incremMonth(){
+        if(month==12){
+            month=1;
+            year++;
+        }else{
+            month+=1;
+        }
+        controller.getLists(month,year);
+    }
+    public float [] getForms(){
+        System.out.println("current month "+month+"current year"+year);
+        float[] ret=controller.getList();
+        if(ret==null)return new float[1];
+        return ret;
+    }
+    public void setSelected(int selected) {
+        controller.setSelected(selected);
+    }
+    public boolean suggestForm(String input){
+        if(!input.equals(""))return controller.setFeed(input);
+        return false;
     }
 }

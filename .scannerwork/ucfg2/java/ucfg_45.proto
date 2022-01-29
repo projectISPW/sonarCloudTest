@@ -1,58 +1,25 @@
 
-ªprogettoispw.letmeknow.controller.utenti.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)VÄ
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java! !("1*ú
-1Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java" "(¨
-©
-Å
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java"! #(∂
-%0java.lang.String"__concat*~|
-zINSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)*Ä~
-| VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )Ï
-È
-Å
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java" $(Ç
-%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-
-%0java.lang.String*
+Hprogettoispw.letmeknow.bean.PersonalGoalBean#exitTag()Ljava/lang/String;ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java ("1*»
+1ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java) (* 
+«
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (*
+tagjava.lang.String"__id*
+"" 
+«
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java (%
+tagjava.lang.String"__id*
+"" 
+«
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java   (
+tagjava.lang.String"__id*
+"""ª
+ù
+íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/PersonalGoalBean.java! !(
 
-uidjava.lang.String*
-
-passwordjava.lang.String*
-
-typejava.lang.String*
-
-emailjava.lang.String*
-""*
-""*
-""*!
-
-descriptionjava.lang.String*
-
-goaljava.lang.String¿
-Ω
-Å
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java" $(É
-sqljava.lang.String"__id*
-
-%1java.lang.String§°
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java% %(	
-%2int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)"ã
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java& &(
-"":
-stmtjava.sql.Statement:
-uidjava.lang.String:
-passwordjava.lang.String:
-typejava.lang.String:
-"":
-descriptionjava.lang.String:
-emailjava.lang.String:
-goaljava.lang.StringB20
-.progettoispw.letmeknow.controller.utenti.Query
+tagjava.lang.StringB0.
+,progettoispw.letmeknow.bean.PersonalGoalBean

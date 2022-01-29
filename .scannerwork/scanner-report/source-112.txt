@@ -1,41 +1,22 @@
-package progettoispw.letmeknow.controller.chat;
+package progettoispw.letmeknow.controller.utentipsy;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public class Message {
-    private String reciver;
-    private String sender;
-    private String text;
-    private LocalDateTime date;
-    //serve per distinguere ogni messaggio,
-    // per perettere messaggi dallo stesso reciver||sender con stesso testo
-    public String getText() {
-        return text;
+public class Query {
+    protected ResultSet selectResult(Statement stmt,int month,int year )throws SQLException {
+        String sql=String.format(" SELECT * FROM forms WHERE YEAR(`by`)=%d AND MONTH(`by`)=%d ",year,month);
+        return stmt.executeQuery(sql);
     }
-    public String getReciver() {
-        return reciver;
-    }
-    public void setReciver(String reciver) {
-        this.reciver = reciver;
-    }
-    public void setDate(String dateSTR) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        date = LocalDateTime.parse(dateSTR, formatter);
-    }
-    public void setSender(String sender) {
-        this.sender = sender;
-    }
-    public void setText(String text) {
-        this.text = text;
-    }
-    public String getSender() {
-        return sender;
-    }
-    public LocalDateTime getDate(){
-        return date;
-    }
-    public void getStatus(){
-        System.out.printf("this message was sended at .: %s from .: %s to .: %s  this was the text .: %s ",date.toString(),sender,reciver,text);
+    protected boolean suggestForm(Statement stmt,String from,String what)  {
+        try {
+            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');",from,what);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 }

@@ -1,30 +1,9 @@
 
-,progettoispw.letmeknow.WordCheck#highText()Iç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaD D("3*Æ
-2ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaG G("ò
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaG G(
-""*‚
-3ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaE E(·
-ﬁ
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaE E("
-%0java.lang.String"__id*.*,"
- progettoispw.letmeknow.WordCheck"
-text‡›
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaE E(#
-%1java.lang.Integer"Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;*$"
- progettoispw.letmeknow.WordCheck*
-
-%0java.lang.String2contaInvio(Ljava/lang/String;)*
-2
-1*Æ
-1ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaI I("ò
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaI I(
-""B$"
- progettoispw.letmeknow.WordCheck
+?progettoispw.letmeknow.bean.FormToTakeStatusBean#exitStatus()[Z£
+òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("1*⁄
+1£
+òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("Æ
+£
+òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (&
+""B42
+0progettoispw.letmeknow.bean.FormToTakeStatusBean

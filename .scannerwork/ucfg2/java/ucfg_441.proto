@@ -1,10 +1,11 @@
 
-Zprogettoispw.letmeknow.controller.utentipsy.UtentePsy#suggestQuestion(Ljava/lang/String;)Z‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java (""1*¢
-1‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java ("’
-‡
-}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/UtentePsy.java (9
-"":
-	textInputjava.lang.StringB97
-5progettoispw.letmeknow.controller.utentipsy.UtentePsy
+Cprogettoispw.letmeknow.bean.VisitBean#getUserId()Ljava/lang/String;“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*º
+1“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java	 	(("ž
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java
+ 
+(&
+""B)'
+%progettoispw.letmeknow.bean.VisitBean

@@ -24,8 +24,7 @@ public class SearchController {
     public void toMe(){
         UtenteUsr me =ControllerClass.getUserUSR();
         enterAffinity(0);
-        if(me.getTag()!=null)enterGoal(me.getTag());
-        enterDes(me.getDescript());
+        enterGoal(me.getTag());
         enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getOpt()} );
     }
 }

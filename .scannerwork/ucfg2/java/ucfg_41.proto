@@ -1,37 +1,173 @@
 
-uprogettoispw.letmeknow.controller.utenti.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java (""1*ä	
-1Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java	 	(÷
-”
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java	 	(W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*0.
-, SELECT * FROM utenti  where userid = '%s' ;*
-
-iduserjava.lang.Stringø
-º
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java	 	(X
-sqljava.lang.String"__id*
+cprogettoispw.letmeknow.controller.utentipsy.Form#getSum(Ljava/util/ArrayList;)Ljava/util/ArrayList;Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java6 6(!"16*›
+2Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java@ @(–
+Õ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java@ @(8
+elem0progettoispw.letmeknow.controller.utentipsy.Form"__id*
+""ˆ
+Û
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java@ @(8
+elem0progettoispw.letmeknow.controller.utentipsy.Form"
+__arrayGet*
+
+inputjava.util.ArrayList*
+""*
+14
+1*á
+14Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaA A(õò
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaA A("	
+%3int"=progettoispw.letmeknow.controller.utentipsy.Form#getFormid()I*:
+8
+elem0progettoispw.letmeknow.controller.utentipsy.Form2getFormid()π∂
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaB B(
+%4java.lang.String"Nprogettoispw.letmeknow.controller.utentipsy.Form#getUserid()Ljava/lang/String;*:
+8
+elem0progettoispw.letmeknow.controller.utentipsy.Form2getUserid()¿
+Ω
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaB B(
+idjava.lang.String"__id*
 
-%0java.lang.Stringƒ¡
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java
- 
-(%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+%4java.lang.String†ù
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaC C('
+%5int[]"?progettoispw.letmeknow.controller.utentipsy.Form#getAnswers()[I*:
+8
+elem0progettoispw.letmeknow.controller.utentipsy.Form2getAnswers()Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaD D(
+injava.lang.Boolean"__id*
+""*
+
+3
+8
+11*Ø
+3Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaO O(“œ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaO O(6
+%10java.util.ArrayList"xprogettoispw.letmeknow.controller.utentipsy.Form#attach(I[ILjava/lang/String;Ljava/util/ArrayList;)Ljava/util/ArrayList;*42
+0progettoispw.letmeknow.controller.utentipsy.Form*
+""*
+""*
+
+idjava.lang.String*
+
+innerjava.util.ArrayList22attach(I[ILjava/lang/String;Ljava/util/ArrayList;) 
+«
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaO O(6
+innerjava.util.ArrayList"__id*
 
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"ü
-Ä
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java
- 
-(&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB20
-.progettoispw.letmeknow.controller.utenti.Query
+%10java.util.ArrayList*
+2*∫
+4Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaM M(™ß
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaM M((
+
+%9void"@progettoispw.letmeknow.controller.utentipsy.Form#setAnswers([I)V*:
+8
+form0progettoispw.letmeknow.controller.utentipsy.Form*
+""2setAnswers([I)*
+2*˚
+16Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java7 7(#∏µ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java:$ :(/
+%0java.util.ArrayList"java.util.ArrayList 
+«
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java:  :(1
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList…
+∆
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java: :(2
+innerjava.util.ArrayList"__id*
+
+%0java.util.ArrayList–
+Õ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java; ;(8
+form0progettoispw.letmeknow.controller.utentipsy.Form"__id*
+""Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java< <(
+injava.lang.Boolean"__id*
+""Æ
+´
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java> >(
+idjava.lang.String"__id*
+""‡›
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.java? ?(
+
+%2void"Rprogettoispw.letmeknow.controller.utentipsy.Form#getStatus(Ljava/util/ArrayList;)V*42
+0progettoispw.letmeknow.controller.utentipsy.Form*
+
+inputjava.util.ArrayList2 getStatus(Ljava/util/ArrayList;)*
+2*õ
+8Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaG G(ƒ¡
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaG G()6
+%60progettoispw.letmeknow.controller.utentipsy.Form"Çprogettoispw.letmeknow.controller.utentipsy.Form#getElem(Ljava/util/ArrayList;I)Lprogettoispw/letmeknow/controller/utentipsy/Form;*42
+0progettoispw.letmeknow.controller.utentipsy.Form*
+
+innerjava.util.ArrayList*
+""2getElem(Ljava/util/ArrayList;I)Ç
+ˇ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaG G()8
+form0progettoispw.letmeknow.controller.utentipsy.Form"__id*8
+6
+%60progettoispw.letmeknow.controller.utentipsy.Formúô
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaH H( 
+
+%7void"=progettoispw.letmeknow.controller.utentipsy.Form#getStatus()V*:
+8
+form0progettoispw.letmeknow.controller.utentipsy.Form2getStatus()†ù
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaI! I(2
+%8int[]"?progettoispw.letmeknow.controller.utentipsy.Form#getAnswers()[I*:
+8
+form0progettoispw.letmeknow.controller.utentipsy.Form2getAnswers()*
+4*«
+11Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaE1 E(5Ø
+¨
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaE, E(5
+injava.lang.Boolean"__id*
+""*
+
+3
+8
+11*î
+1Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaS S(·ﬁ
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaS S(
+%11void"Rprogettoispw.letmeknow.controller.utentipsy.Form#getStatus(Ljava/util/ArrayList;)V*42
+0progettoispw.letmeknow.controller.utentipsy.Form*
+
+innerjava.util.ArrayList2 getStatus(Ljava/util/ArrayList;)"•
+Ç
+xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentipsy/Form.javaT T(
+
+innerjava.util.ArrayList:
+inputjava.util.ArrayListB42
+0progettoispw.letmeknow.controller.utentipsy.Form

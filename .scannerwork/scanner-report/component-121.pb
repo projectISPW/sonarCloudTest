@@ -1,1 +1,1 @@
-y 2javaXKhr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+y 2javaXIhrRprogettoRieditatosecondo/src/main/java/progettoispw/letmeknow/MainApplication.java

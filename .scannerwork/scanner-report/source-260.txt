@@ -1,70 +1,45 @@
-//var on same line
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
+import progettoispw.letmeknow.controller.ISCController;
 
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormResultBean;
+import java.util.ArrayList;
 
-
-public class FormResultInterf1 {
-    @FXML
-    ImageView empathySlider;
-    @FXML
-    ImageView humorSlider;
-    @FXML
-    ImageView optimismSlider;
-    ImageView [] param;
-    @FXML
-    ImageView ans1;
-    @FXML
-    ImageView ans2;
-    @FXML
-    ImageView ans3;
-    @FXML
-    ImageView ans4;
-    @FXML
-    ImageView ans5;
-    @FXML
-    ImageView ans6;
-    ImageView [] images;
-    @FXML
-    Text by;
-    FormResultBean bean ;
-    PageMenu controller ;
-    int [] values;
-    public FormResultInterf1(){
-        bean=new FormResultBean();
-        controller=new PageMenu();
+public class ISCBean {
+    private int nval;
+    private ISCController controller;
+    public ISCBean (int val){
+        nval=val;
+        controller=new ISCController(nval);
     }
-    public void initialize(){
-        HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
-        controller=new PageMenu();
-        values=bean.exitValStatus();
-        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
-        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
-        int indice=0;
-        for(ImageView image:images ){
-            homepage.setSlider(image,values[indice++]);
+    public ISCBean (){
+        nval=0;
+        controller=new ISCController();
+    }
+    public String getUserid(){
+        return controller.getUid();
+    }
+    public String[][] exitUid(){
+        int index;
+        ArrayList<lastMessage>  actual= (ArrayList<lastMessage>) controller.queryUsers();;
+        String [][] arrStr;
+        if(nval!=0) arrStr=new String[2][nval];
+        else arrStr=new String[2][actual.size()];
+        for(lastMessage usr : actual){
+            index =actual.indexOf(usr);
+            arrStr[0][index]=usr.getUserid();
+            arrStr[1][index]= usr.getLastmsg();
         }
-        values= bean.getParam();
-        indice=0;
-        for(ImageView image:param){
-            homepage.setSlider(image,values[indice++]);
+        return arrStr;
+    }
+    public void touched(String user){
+        controller.who(user);
+    }
+    public void search(String find){
+        if(!find.equals("")) {
+            controller.search(find);
         }
-        by.setText(bean.getData());
     }
-    @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
-    }
-    @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
-    @FXML
-    public void goBack(ActionEvent actionEvent) {
-        controller.switchToPersonalForm(actionEvent);
+    public void reset(){
+        controller.reset();
     }
 }

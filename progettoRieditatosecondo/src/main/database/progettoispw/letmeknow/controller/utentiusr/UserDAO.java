@@ -1,22 +1,17 @@
 package progettoispw.letmeknow.controller.utentiusr;
 
 import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class UserDAO{
+public class UserDAO implements SalvaUtenteMeta, FormMeta {
     ConnectionDBMS connDB;
     Query query;
-    public static final int EMP=5;
-    public static final String DESCRIPTION="description";
-    public static final String GOAL="goal";
-    public static final String TAG="tag";
-    public static final String BY="by";
-    public static final int ABOUT=14;
-    public static final int CALCULATED=15;
     public UserDAO() {
         connDB= new ConnectionDBMS();
         query=new Query();
@@ -85,14 +80,16 @@ public class UserDAO{
         else if(val <1 )return 1;
         else return val;
     }
-    public boolean getResult(String userid,int [] params){
+    public boolean getResult(String userid,int emp,int hum,int pos){
         Statement stmt=null;
         ResultSet rst=null;
         ArrayList<Integer> calculated=new ArrayList<>();
         char[] about;
         boolean edited=false;
         boolean check=true;
-        int []  currentVal=new int[3];
+        int empMed = 0;
+        int humMed = 0;
+        int posMed = 0;
         int size=-1;
         try {
             stmt=connDB.connection(stmt);
@@ -103,57 +100,41 @@ public class UserDAO{
                     about = rst.getString(ABOUT).toCharArray();
                     for (int i = 0; i < about.length; i++) {
                         switch (about[i]) {
-                            case '1':
-                                currentVal[0] += Integer.parseInt(rst.getString(3 + i));break;
+                            case '1': {
+                                empMed += Integer.parseInt(rst.getString(3 + i));
+                                break;
+                            }
                             case '2': {
-                                currentVal[1] += Integer.parseInt(rst.getString(3 + i));
+                                humMed += Integer.parseInt(rst.getString(3 + i));
                                 break;
                             }
                             case '3': {
-                                currentVal[2] += Integer.parseInt(rst.getString(3 + i));
+                                posMed += Integer.parseInt(rst.getString(3 + i));
                                 break;
-                            }
-                            default:{
-                                return false;
                             }
                         }
                     }
                     calculated.add(Integer.parseInt(rst.getString(1)));
                 }
             }
+            size=calculated.size()+1;
+            for(Integer id :calculated)if(check)check=query.setCalculated(stmt,userid,id);
+            if(edited && check){
+                emp=average(emp+empMed,size+1);
+                hum=average(hum+humMed,size+1);
+                pos=average(pos+posMed,size+1);
+                System.out.println("new emp"+emp+"new hum"+hum+"new pos"+pos+"form scansionati"+size);
+                check=query.setParams(stmt,userid,new int[]{emp,hum,pos});
+            }
+            if(!check)return false;
+            return true;
         }catch (SQLException e) {
                 e.printStackTrace();
                 return false;
         }finally{
                 connDB.closeRSTSTMT(rst,stmt);
         }
-        size=calculated.size()+1;
-        check=setCalculated(userid,calculated);
-        if(edited && check){
-            check=setParams(userid,params,currentVal,size);
-        }
-        return check;
-    }
-    private boolean setParams(String userid,int [] oldParam,int [] newParam,int size){
-        Statement stmt=null;
-        try{
-            for(int i=0;i<3;i++)oldParam[i]=average(oldParam[i]+newParam[i],size+1 );
-            stmt=connDB.connection(stmt);
-            return query.setParams(stmt,userid,oldParam);
-        }finally{
-            connDB.closeSTMT(stmt);
-        }
-    }
-    private boolean setCalculated(String userid,ArrayList<Integer> calculated){
-        Statement stmt=null;
-        boolean check=true;
-        try{
-            stmt=connDB.connection(stmt);
-            for(Integer id :calculated)if(check) check=query.setCalculated(stmt,userid,id);
-            return check;
-        }finally{
-            connDB.closeSTMT(stmt);
-        }
+
     }
 
 }

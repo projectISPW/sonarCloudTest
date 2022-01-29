@@ -1,16 +1,15 @@
 package progettoispw.letmeknow.controller.utentipsy;
 
 import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
 import java.sql.*;
 import java.util.ArrayList;
 
-public class UserDAO {
+public class UserDAO implements SalvaUtenteMeta,FormMeta {
     ConnectionDBMS connDB;
     Query query;
-    public static final String UID ="userid";
-    public static final int FORMID=1;
-    public static final int START=3;//dove iniziano le risposte
     public UserDAO() {
         connDB= new ConnectionDBMS();
         query=new Query();

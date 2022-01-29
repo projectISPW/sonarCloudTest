@@ -1,1 +1,1 @@
- 2xmlXhr]progettoRieditatosecondo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml
+ 2xmlXhrbprogettoRieditatosecondo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml

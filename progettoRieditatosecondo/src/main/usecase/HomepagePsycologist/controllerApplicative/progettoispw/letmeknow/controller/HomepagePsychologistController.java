@@ -1,16 +1,16 @@
 package progettoispw.letmeknow.controller;
 
+import progettoispw.letmeknow.controller.form.FormMeta;
 import progettoispw.letmeknow.controller.utentipsy.Form;
 import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
 
 import java.util.ArrayList;
 
-public class HomepagePsychologistController{
+public class HomepagePsychologistController implements  FormMeta {
     private UtentePsy user;
     private ArrayList<Form> list;
     private float [][] innerList;
     private int index;
-    static final Integer [] FORMSID={1,2,3};
     public HomepagePsychologistController(){
         user= ControllerClass.getUserPsy();
         innerList=null;

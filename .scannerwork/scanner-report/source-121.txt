@@ -1,74 +1,73 @@
-package progettoispw.letmeknow.controller.search;
+package progettoispw.letmeknow;
 
-import java.sql.ResultSet;
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
+import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
+import progettoispw.letmeknow.controller.form.ResultForm;
+import progettoispw.letmeknow.controller.search.Search;
+
+import java.io.IOException;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
 
-public class Query {
-    protected ResultSet searchAll(Statement stmt,String iduser,int emp, int hum,int pos)  {
-        try{String sql=String.format("SELECT userid " +
-                        "FROM utenti WHERE type='usr' and " +
-                        "empathy>=%d and humor>=%d and positivity >=%d and userid != '%s' ",
-                        emp,hum,pos,iduser);
-            return stmt.executeQuery(sql);
-        }catch (SQLException throwables) {
-            throwables.printStackTrace();
-            return null;
-        }
+public class MainApplication extends Application {
+    private enum ScreenSize{
+        LAPTOP,SMARTPHONE
     }
-    public boolean newLine(Statement stmt,String userid){
-        try{
-            String sql=String.format("INSERT INTO `recently_visited` SET userid ='%s' ",userid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
+    private static ScreenSize size;
+    @Override
+    public void start(Stage stage) throws IOException {
+        Parent root;
+        if(size==ScreenSize.LAPTOP){
+            stage.setFullScreen(true);
+            root=FXMLLoader.load(getClass().getResource("login/interf2.fxml"));
         }
+        else{
+            stage.setMaxWidth(414);
+            stage.setMinHeight(736);
+            root=FXMLLoader.load(getClass().getResource("login/interf1.fxml"));
+        }
+        stage.setScene(new Scene(root));
+        stage.setTitle("Login");
+        stage.setResizable(false);
+        Image icon= new Image(getClass().getResourceAsStream("photo/brain.jpg"));
+        stage.getIcons().add(icon);
+        //Alert in fase di uscita dall'applicazione
+        stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            @Override
+            public void handle(WindowEvent windowEvent) {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Exit Confirmation");
+                alert.setHeaderText("Are you sure to exit program?");
+                alert.setContentText("If you want to exit you'll be logged out from application.");
+                if(alert.showAndWait().get() == ButtonType.OK){
+                    ConnectionDBMS conn=new ConnectionDBMS();
+                    conn.closeCONN();
+                    System.out.println("Prompt: On Log Out phase");
+                    Platform.exit();
+                    System.exit(0);
+                }else{
+                    System.out.println("Prompt: On Cancel Confirmation Alert. Consume Event");
+                    windowEvent.consume();
+                }
+            }
+        });
+        stage.show();
     }
-    public ResultSet getnVisit(Statement stmt,String userid){
-        try{
-        String sql=String.format("SELECT * from recently_visited where userid='0000000' ");
-        System.err.println(sql);
-        return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            return null;
-        }
-    }
-    public boolean incremVisit(Statement stmt,String userid){
-        try{
-            String sql=String.format("UPDATE `recently_visited` SET num_visit = num_visit+1 WHERE (`userid`='%s')",userid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
-        }
-    }
-    public ResultSet getVisited(Statement stmt,String userid) {
-        try{
-            String sql=String.format("SELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'",userid);
-            return stmt.executeQuery(sql);
-            } catch (SQLException throwables) {
-            return null;
-        }
-    }
-    public boolean setVisited(Statement stmt, String userid, ArrayList<String> input) {
-        try{
-            String sql=String.format("UPDATE `recently_visited` SET `visit1` = '%s',`visit2` = '%s',`visit3` = '%s' WHERE `userid` = '%s' ",input.get(0),input.get(1),input.get(2),userid);
-            System.err.println(sql);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException throwables) {
-            return false;
-        }
-    }
-    public ResultSet getnRows(Statement stmt) {
-        try{
-            String sql=String.format("SELECT COUNT(*) FROM recently_visited");
-            return stmt.executeQuery(sql);
-        } catch (SQLException throwables) {
-            return null;
-        }
+    public static void main(String[] args) {
+        size=ScreenSize.SMARTPHONE;
+        launch();
     }
 }

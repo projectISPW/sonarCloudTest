@@ -1,60 +1,49 @@
-package progettoispw.letmeknow.controller.chat;
+package progettoispw.letmeknow.controller.utentipsy;
 
 import progettoispw.letmeknow.controller.ConnectionDBMS;
+import progettoispw.letmeknow.controller.form.FormMeta;
+import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
 
-public class MessageDAO implements MessageMeta{
+public class UserDAO implements SalvaUtenteMeta,FormMeta {
     ConnectionDBMS connDB;
     Query query;
-    public MessageDAO() {
+    public UserDAO() {
         connDB= new ConnectionDBMS();
-        query= new Query();
+        query=new Query();
     }
-    private void scanner(ResultSet rst, Statement stmt, ArrayList<Message>list) {
-        try{
-            while(rst.next()){
-                Message message=new Message();
-                message.setText(rst.getString(TEXT));
-                message.setSender(rst.getString(SENDER));
-                message.setReciver(rst.getString(RECIVER));
-                message.setDate(rst.getString(DATETIME));
-                list.add(message);
+    public ArrayList<Form> collectForms(int month, int year) {
+        Statement stmt=null;
+        ResultSet rst=null;
+        Form form=new Form();
+        try {
+            stmt=connDB.connection(stmt);
+            rst=query.selectResult(stmt,month,year);
+            int [] answers;
+            ArrayList<Form>list=new ArrayList<>();
+            while(rst.next()) {
+                answers = new int[6];
+                for (int i = 0; i < 6; i++) {
+                    answers[i] = Integer.parseInt(rst.getString(START + i));//3=inizio dei valori delle risposte
+                }
+                list= form.attach(Integer.parseInt(rst.getString(FORMID)), answers,rst.getString(UID), list);
             }
-        }catch (SQLException throwables) {
-            throwables.printStackTrace();
+            return list;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return new ArrayList<>();
         }finally{
             connDB.closeRSTSTMT(rst,stmt);
         }
     }
-    public List<Message> getRecivedSentMessage(String userid) {
-        Statement stmt = null;
-        ResultSet rst;
-        stmt= connDB.connection(stmt);
-        ArrayList<Message> ret = new ArrayList<>();
-        rst = query.selectUserRSALL(stmt, userid);
-        scanner(rst,stmt,ret);
-        return ret;
-    }
-    public List<Message> getRecivedSentMessage(String userid1,String userid2){
-        Statement stmt = null;
-        ResultSet rst;
-        stmt= connDB.connection(stmt);
-        ArrayList<Message> ret = new ArrayList<>();
-        rst = query.selectUserRS(stmt, userid1,userid2);
-        scanner(rst,stmt,ret);
-        return ret;
-    }
-    public boolean newMessage(String from,String to,String text) {
+    public boolean suggestForm(String from,String what){
         Statement stmt=null;
-        try {
+        try{
             stmt=connDB.connection(stmt);
-            return query.newMSG(stmt,from,to,text);
-        } finally{
+            return query.suggestForm(stmt,from,what);
+        } finally {
             connDB.closeSTMT(stmt);
         }
     }

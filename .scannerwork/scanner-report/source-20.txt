@@ -1,9 +1,13 @@
 <component name="libraryTable">
-  <library name="fontawesomefx-8.2">
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../fontawesomefx-8.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -1,40 +1,9 @@
 
-lprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUids([Ljava/lang/String;)[Ljava/lang/String;²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javap p("3"1*ì
-3²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(‚
-ÿ
-²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r("
-%0java.lang.String"
-__arrayGet*
-
-uidsjava.lang.String[]*
-""—
-”
-²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(#
-%1java.lang.String"iprogettoispw.letmeknow.InitialSearchAndChatControllerInterf1#getUid(Ljava/lang/String;)Ljava/lang/String;*@>
-<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1*
-
-%0java.lang.StringŠ
-‡
-²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javar r(#
-%2"
-__arraySet*
-
-uidsjava.lang.String[]*
-""*
-
-%1java.lang.String*
-3
-1*Ž
-1²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javat t("Ó
-²
-§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.javat t(
-
-uidsjava.lang.String[]:
-uidsjava.lang.String[]B@>
-<progettoispw.letmeknow.InitialSearchAndChatControllerInterf1
+Qprogettoispw.letmeknow.controller.utentiusr.UtenteUsr#getGoal()Ljava/lang/String;‡
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java6 6("1*¢
+1‡
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java7 7("’
+‡
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UtenteUsr.java7 7(*
+""B97
+5progettoispw.letmeknow.controller.utentiusr.UtenteUsr

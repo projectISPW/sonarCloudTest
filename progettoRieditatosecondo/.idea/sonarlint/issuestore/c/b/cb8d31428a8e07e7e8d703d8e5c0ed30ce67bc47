@@ -5,8 +5,7 @@ java:S1130*"lRemove the declaration of thrown exception 'java.io.IOException', 
 java:S11302"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(˜Ç€Öşÿÿÿÿ8Ñì¿’ê/
 
 java:S11306"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ôİ™Öıÿÿÿÿ8Ñì¿’ê/
-p
-AX6iinlxJEa6mvIdAxki	java:S106X"9Replace this use of System.out or System.err by a logger.(¦–£Ñùÿÿÿÿ8ğ˜”ê/
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(¦–£Ñùÿÿÿÿ8Ñì¿’ê/
 
 java:S1130a"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‡°‚Ãşÿÿÿÿ8Ñì¿’ê/
 ¡
