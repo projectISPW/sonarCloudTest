@@ -1,29 +1,29 @@
 
-eprogettoispw.letmeknow.controller.utenti.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java	 	("12*®
-2ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ("î
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (2*˝
-3ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (∫
-∑
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (
+eprogettoispw.letmeknow.controller.utenti.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java	 	("12*†
+2á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ("ê
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (2*Ò
+3á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (∂
+≥
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (
 %7java.io.PrintStream"__id*
-""ß§
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+""£†
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
 
 %8void"0java.io.PrintStream#println(Ljava/lang/String;)V*
 
 %7java.io.PrintStream*
 MESSAGE CORRECTLY SENDED2println(Ljava/lang/String;)*
-2*Ú
-5ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (Ÿ÷
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (E
+2*Í
+5á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (’“
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (E
 %6"|progettoispw.letmeknow.controller.utenti.JavaMailUtil#prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)LMessage;*97
 5progettoispw.letmeknow.controller.utenti.JavaMailUtil*
 ""*
@@ -31,83 +31,83 @@ eprogettoispw.letmeknow.controller.utenti.JavaMailUtil#sendMail(Ljava/lang/Strin
 	myAccountjava.lang.String*
 
 	recipientjava.lang.String2=prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)*
-3*π
-7ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (5÷
-”
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+3*≠
+7á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (5“
+œ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
 	myAccountjava.lang.String"__id*
-progettoispw2021@gmail.com«
-ƒ
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ('
+progettoispw2021@gmail.com√
+¿
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java ('
 passwordjava.lang.String"__id*
 Password2021*
-5*ê
-8ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (˜
-Ù
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (0
+5*à
+8á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (Û
+
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (0
 %5java.lang.Object"__mapSet*$
 "
 
 propertiesjava.util.Properties*
 mail.smtp.auth*
 true*
-7*ñ
-9ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (˝
-˙
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
+7*é
+9á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (˘
+ˆ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (6
 %4java.lang.Object"__mapSet*$
 "
 
 propertiesjava.util.Properties*
 mail.smtp.ssl.enable*
 true*
-8*ê
-10ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (ˆ
-Û
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/
+8*à
+10á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (Ú
+Ô
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/
 %3java.lang.Object"__mapSet*$
 "
 
 propertiesjava.util.Properties*
 mail.smtp.port*
 465*
-9*¯
-11ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/Ÿ
-÷
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/"
+9*Ï
+11á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/’
+“
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (/"
 
 propertiesjava.util.Properties"__id*
 
-%0java.util.PropertiesÅ
-˛
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (9
+%0java.util.Properties˝
+˙
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (9
 %2java.lang.Object"__mapSet*$
 "
 
 propertiesjava.util.Properties*
 mail.smtp.host*
 smtp.gmail.com*
-10*∂
-12ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.√¿
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java" (,
-%0java.util.Properties"java.util.Properties’
-“
-ã
-ÄC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.
+10*™
+12á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.øº
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java" (,
+%0java.util.Properties"java.util.Properties—
+Œ
+á
+}C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/JavaMailUtil.java (.
 %1"java.util.Properties#<init>()V*
 
 %0java.util.Properties*

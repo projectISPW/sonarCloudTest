@@ -1,82 +1,133 @@
-//ln 45-46 duplicated code, i put it out of the if/else
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.controller;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.CollectionFormBean;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-import progettoispw.letmeknow.bean.UseridBean;
+import progettoispw.letmeknow.bean.lastMessage;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
 
-public class FormCollectionResultsInterf1 {
-    PageMenu controller;
-    CollectionFormBean bean;
-    @FXML
-    protected Text idUser;
-    public FormCollectionResultsInterf1(){
-        bean=new CollectionFormBean();
-        controller=new PageMenu();
-    }
-    public void initialize(){
-        UseridBean useridBean=new UseridBean();
-        idUser.setText("User"+ useridBean.getUserId());
-    }
-    @FXML
-    protected void goToSettings(ActionEvent event) {
-        controller.switchToSettings(event);
-    }
-    protected  void which(int i,ActionEvent event){
-        bean.setTouched(i);
-        String name,title;
-        FormToTakeStatusBean formBean=new FormToTakeStatusBean();
-        if(formBean.getComplete()==6){
-            name="formResult/form"+i+"interf1.fxml";
+import java.util.ArrayList;
+import java.util.List;
+public class ISCController {
+        private Integer count;
+        private Integer nVal;
+        private Messages chat;
+        private String find;
+        public ISCController(Integer n){
+            ControllerClass.controllerChat();
+            ControllerClass.setSearch();
+            chat= ControllerClass.getChat();
+            nVal=n;
+            count=0;
+            find=null;
         }
-        else{
-            name="formToTake/form"+i+"interf1.fxml";
-        } title="form"+i;
-        controller.switchTo(name,event,title);
-    }
-    @FXML
-    protected void urResult(ActionEvent event) {
-        Button button=(Button) event.getTarget();
-        switch(button.getText()){
-            case "FORM 3":{
-                which(3,event);
-                break;
+        public ISCController(){
+            ControllerClass.controllerChat();
+            if(ControllerClass.getSearch()==null)ControllerClass.setSearch();
+            chat= ControllerClass.getChat();
+            nVal=0;
+            count=0;
+            find=null;
+        }
+        public String getUid(){
+            return chat.getUserid();
+        }
+        public String check(Message msg){
+            if(msg.getReciver().equals(getUid()))return msg.getSender();
+            return msg.getReciver();
+        }
+        private List<lastMessage> getListV1( ){
+            //lista utenti con ultimo messaggio per la interfaccia 2
+            ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+            lastMessage actual;
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            for (Message msg:lmsgs) {
+                actual = new lastMessage(check(msg),msg);
+                actual.getStatus();
+                formatted.add(actual);
             }
-            case "FORM 1":{
-                which(1,event);
-                break;
+            return formatted;
+        }
+        private List<lastMessage> getListV2(String find){
+        //ricerca messaggi sulla lista utenti 2
+            ArrayList <Message>msgs=(ArrayList<Message>) chat.getLocalSearch(find);
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            lastMessage actual;
+            for (Message msg : msgs) {
+                actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+                formatted.add(actual);
             }
-            case "FORM 2":{
-                which(2,event);
-                break;
+            return formatted;
+        }
+        private List<lastMessage>getListV3(){
+            //lista utenti con ultimo messaggio per la interfaccia 1
+            ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+            lastMessage actual;
+            ArrayList<Message>inner=new ArrayList<>();
+            int index=0;
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            while(index<nVal){
+                count = check(count, lmsgs);
+                Message msg=lmsgs.get(count);
+                if(inner.contains(msg))break;
+                count++;
+                actual = new lastMessage(check(msg),msg);
+                formatted.add(actual);
+                inner.add(msg);
+                index++;
+            }
+            return formatted;
+        }
+        private List<lastMessage>getListV4(String find ){
+            ArrayList <Message>msgs= chat.getLocalSearch(find);
+            lastMessage actual;
+            ArrayList <lastMessage> formatted  = new ArrayList<>();
+            ArrayList<Message>inner=new ArrayList<>();
+            int index=0;
+            while(index++<nVal){
+                count = check(count, msgs);
+                Message msg=msgs.get(count++);
+                if(inner.contains(msg))break;
+                actual = new lastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+                actual.getStatus();
+                formatted.add(actual);
+                inner.add(msg);
+            }
+            return formatted;
+        }
+        public List<lastMessage> queryUsers(){
+            if(find==null){
+                if(nVal==0){
+                    return getListV1();
+                }
+                else{//list users in interf1
+                    return getListV3();
+             }}else{
+                return queryUsers(find);
             }
         }
-
-    }
-    @FXML
-    public void takeForm(ActionEvent event){
-        bean.takeForm();
-        FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
-        int val = innerBean.getFormId();
-        if(innerBean.getComplete()<=6){
-            controller.switchTo("formToTake/form"+val+"interf1.fxml",event,"form"+val);
+        public List<lastMessage> queryUsers(String find){
+            if(nVal==0){
+                return getListV2(find);
+            }
+            else {//search activated in list users iterf1
+                return getListV4(find);
+            }
+         }
+        private Integer check(Integer count,ArrayList<Message> list) {
+            if(count>=list.size()){
+                count=0;
+            }
+            return count;
         }
-        else{
-            controller.switchTo("formResult/form"+val+"interf1.fxml",event,"form"+val);
+        public void who(String usr){
+            chat.setTouched(usr);
         }
-    }
-    @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
-    }
-    @FXML
-    protected  void goToPersonalForm(ActionEvent event){
-        controller.switchToHome(event);
-    }
-    @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+        public void search(String input){
+            count=0;
+            find=input;
+        }
+        public void reset(){
+            count=0;
+            find=null;
+        }
 }
+

@@ -1,129 +1,79 @@
 package progettoispw.letmeknow;
 
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.control.*;
-import javafx.scene.layout.AnchorPane;
-import javafx.util.Duration;
-import progettoispw.letmeknow.bean.BeanResultSearch;
-import progettoispw.letmeknow.bean.ISCBean;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import progettoispw.letmeknow.bean.HomepagePsychologistBean;
 
-import java.io.IOException;
-
-public class ChatControllerInterf2 extends ChatControllerInterf1{
+public class HomepagePsychologistInterf1 {
+    HomepagePsychologistBean bean;
+    Page controller=new Page();
     @FXML
-    AnchorPane listUtenti;
+    Label count1,count2,count3;
     @FXML
-    TextField searchBar;
+    Label month;
     @FXML
-    AnchorPane anchorChat;
-    @FXML
-    AnchorPane buttonBar;
-    ISCBean iscBean;
-    private String userid;
-    public ChatControllerInterf2(){
-        super();
-        iscBean=new ISCBean();
-        graphic=new CSS(false);
-        userid=bean.getUid();
-        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
-        timeline.setCycleCount(Timeline.INDEFINITE);//never stop
+    TextArea feedback;
+    public HomepagePsychologistInterf1(){
+        bean=new HomepagePsychologistBean();
     }
-    private void recivemsgArr(ActionEvent event){
-        if(initializated) {
-            addUser();
-            recivemsgArr();
-            System.out.println(" i am alive");
-        }
+    public void initialize(){
+        count1.setText((int)bean.getForms()+"users");
+        count2.setText((int)bean.getForms()+"users");
+        count3.setText((int)bean.getForms()+"users");
+        month.setText(bean.getMonth());
+    }
+    public void increm() {
+        bean.incremMonth();
+        initialize();
+    }
+    public void decrem() {
+        bean.decremMonth();
+        initialize();
     }
     @FXML
-    protected void sendMsg() {
-        super.sendMsg();
-        addUser();
-    }
-    public void  initialize(){
-        addUser();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
-        try {
-            if(bean.getWith()==null){
-                anchorChat.getChildren().removeAll(anchorChat.getChildren());
-                anchorChat.getChildren().add((Node) FXMLLoader.load(getClass().getResource("chat/chatVoid.fxml")));
-                return ;
+    public void select(ActionEvent event){
+        Button button=(Button) event.getTarget();
+        int val=0;
+        switch(button.getId()){
+            case "form1" :{
+                bean.setSelected(1);
+                val=1;
+                break;
             }
-        } catch (IOException e) {
-            buttonBar.getChildren().removeAll(buttonBar.getChildren());
-            anchorChat.getChildren().removeAll(anchorChat.getChildren());
-        }
-        super.initialize();
-    }
-    public String checkUsrId(String input){
-        if(input.length()<=8){
-            return input;
-        }
-        int indice=-1;
-        indice=input.indexOf("||");
-        String sub=input.substring(0,indice);
-        if(sub.equals(userid)==false) {
-            return sub;
-        }
-        return input.substring(indice+2);
-    }
-    private void goChat(ActionEvent event){
-        Button button=(Button)event.getTarget();
-        String who=button.getText();
-        who=checkUsrId(who);
-        iscBean.touched(who);
-        controller.switchToChat(event);
-    }
-    public  void addUser(){
-        listUtenti.getChildren().removeAll(listUtenti.getChildren());
-        graphic.setHList();
-        Button userButton;
-        Label msgLabel;
-        String [][] innerusers =iscBean.exitUid();
-        String [] uid=innerusers[0];
-        String [] msg=innerusers[1];
-        for(int i=0;i< uid.length;i++){
-            userButton=graphic.getButton(uid[i]);
-            msgLabel=graphic.getLabel(msg[i]);
-            userButton.setOnAction(this::goChat);
-            listUtenti.getChildren().addAll(userButton,msgLabel);
-            listUtenti.setPrefHeight(graphic.getHlist());
-        }
-        searchBar.textProperty().addListener((observableValue, s, t1) -> {
-            if(searchBar.getText().equals("")){
-                iscBean.reset();
-                timeline.play();
+            case "form2" :{
+                bean.setSelected(2);
+                val=2;
+                break;
             }
-        });
+            case "form3" :{
+                bean.setSelected(3);
+                val=3;
+                break;
+            }
+            default :{
+                event.consume();
+            }
+        }
+        System.out.println("formResultPsychologist/form"+val+"interf1.fxml");
+        controller.switchTo("formResultPsychologist/form"+val+"interf1.fxml",event,"users results");
+     }
+    public void suggestForm(){
+        feedback.setStyle("-fx-border-color: white;");
+        boolean bool =bean.suggestForm(feedback.getText());
+        if(bool){
+            feedback.setText("");
+        }
+        else{
+            feedback.setStyle("-fx-border-color: red;");
+        }
     }
-    @FXML
-    public void searchMessage(){
-        iscBean.search(searchBar.getText());
-        System.out.println("searching for new message");
-        timeline.stop();
-        addUser();
+    public void backTo(){
+        controller.backTo();
     }
-    public void goToSettings(ActionEvent actionEvent) {
-        timeline.stop();
-        controller.switchToSettings(actionEvent);
-    }
-    public void goToSearch(ActionEvent actionEvent) {
-        timeline.stop();
-        controller.switchToSearch(actionEvent);
-    }
-    public void goToChat(ActionEvent actionEvent) {
-        timeline.stop();
-        controller.switchToChat(actionEvent);
-    }
-    @FXML
-    private void touchedHome(ActionEvent event){
-        BeanResultSearch visitBean=new BeanResultSearch();
-        visitBean.touched(bean.getWith());
-        goToSearch(event);
+    public void goToSettings(ActionEvent event ){
+        controller.switchTo("settingsPsychologist/interf1.fxml",event,"Settings");
     }
 }

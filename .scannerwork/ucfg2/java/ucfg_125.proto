@@ -1,33 +1,33 @@
 
-Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaZ Z("6"7*ó
-4ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `(ˆÛ
-ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `('
+Qprogettoispw.letmeknow.WordCheck#checkAhead(Ljava/lang/String;)Ljava/lang/String;ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaZ Z("6"7*ë
+4ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `(Û
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java` `('
 %1char[]" java.lang.String#toCharArray()[C*
 
 	inputTextjava.lang.String2toCharArray()*
 4
-1*ó
-6ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](ˆÛ
-ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](,
+1*ë
+6ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](Û
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java] ](,
 %0char[]" java.lang.String#toCharArray()[C*
 
 	inputTextjava.lang.String2toCharArray()*
 4
-1*¥
-7ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\" \(&"õ
-ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\ \('
-""*Õ
-1ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c("¥
-ê
-ÖC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c(
+1*Æ
+7ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\" \(&"ò
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java\ \('
+""*«
+1ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c("±
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javac c(
 
 	inputTextjava.lang.String:
 	inputTextjava.lang.StringB$"

@@ -1,1 +1,1 @@
-† 2javaXhrïprogettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/controller/CollectionFormController.java
+† 2javaXhrÅprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/lastMessage.java

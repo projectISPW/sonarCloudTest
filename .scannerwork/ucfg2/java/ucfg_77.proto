@@ -1,52 +1,52 @@
 
-wprogettoispw.letmeknow.controller.search.Query#searchAll(Ljava/sql/Statement;Ljava/lang/String;III)Ljava/sql/ResultSet;ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java	 	(!"5*®
-3ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*"¢
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*
+wprogettoispw.letmeknow.controller.search.Query#searchAll(Ljava/sql/Statement;Ljava/lang/String;III)Ljava/sql/ResultSet;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java	 	(!"5*¨
+3€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*"Ÿ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (*
 
-%3java.sql.ResultSet*
-4ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
- (,Â
-¿
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+%3java.sql.ResultSet*”
+4€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+ (,¿
+¼
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
  (,
 sqljava.lang.String"__id*
 
-%2java.lang.StringÇÄ
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ()
+%2java.lang.StringÄÁ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ()
 %3java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
 
 stmtjava.sql.Statement*
 
 sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*â
-5ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+3*Ö
+5€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
  
-(æ
-ã
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+(ã
+à
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
 % (;
 %0java.lang.String"__concat*
 SELECT userid *%#
-!FROM utenti WHERE type='usr' and Œ
-‰
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+!FROM utenti WHERE type='usr' and ‰
+†
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
 % ([
 %1java.lang.String"__concat*
 
 %0java.lang.String*EC
-Aempathy>=%d and humor>=%d and positivity >=%d and userid != '%s' Ù
-Ö
-ƒ
-yC:/progetto/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
+Aempathy>=%d and humor>=%d and positivity >=%d and userid != '%s' Ö
+Ó
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java
  (+
 %2java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
 java.lang.String*

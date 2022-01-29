@@ -1,1 +1,1 @@
-¤ 2javaX3hr}progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerView/progettoispw/letmeknow/FormSectionInterf2.java
+¤ 2javaXfhrjprogettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java

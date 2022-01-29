@@ -1,79 +1,26 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.Group;
-import javafx.scene.chart.PieChart;
-import javafx.scene.control.Button;
-import progettoispw.letmeknow.bean.BeanResultSearch;
-import progettoispw.letmeknow.bean.ChatBean;
-import progettoispw.letmeknow.bean.ISCBean;
-import progettoispw.letmeknow.bean.SearchBean;
+import progettoispw.letmeknow.controller.SettingsController;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
-public class AdviseBoarcControllerInterf2 {
-    @FXML
-    PieChart graphVisit;
-    @FXML
-    Group group1;
-    @FXML
-    Group group2;
-    @FXML
-    Group group3;
-    @FXML
-    Group extGroup1;
-    @FXML
-    Group extGroup2;
-    @FXML
-    Group extGroup3;
-    @FXML
-    Group group4;
-    @FXML
-    Group group5;
-    @FXML
-    Group group6;
-    String [] uids;
-    public AdviseBoarcControllerInterf2(){
-        uids =new String[6];
+public class SettingsBean {
+    SettingsController controller;
+    SignupBean checkBean;
+    public SettingsBean(){
+        controller=new SettingsController();
+        checkBean=new SignupBean();
     }
-
-    public void initialize(){
-        outputValChat();
-        outputValVisited();
-        BeanResultSearch bean=new BeanResultSearch();
-        int [] val=bean.getnval();
-        System.out.println("num visit by me "+val[0]+"vs "+val[1]);
-        ObservableList<PieChart.Data>graphData=
-                FXCollections.observableArrayList(
-                        new PieChart.Data("global visit",val[0]),
-                        new PieChart.Data("recived visit",val[1])
-                );
-        graphVisit.setData(graphData);
+    public void closeConnection(){
+        controller.closeConnection();
     }
-    public  void outputValChat(){
-        InitialSearchAndChatControllerInterf1 iscInterf1=new InitialSearchAndChatControllerInterf1();
-        String [] inner=iscInterf1.prev_outputValChat(new Group[]{extGroup1,extGroup2,extGroup3},new Group[]{group1,group2,group3},3);
-        for(int i=0;i<3;i++)uids[i]=inner[i];
+    public boolean setPassword(String pswd,String confirmpswd){
+        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
+        else return false;
     }
-    public void outputValVisited(){
-        ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3);
-        for(int i=0;i<3;i++)uids[i+3]=inner[i];
+    public boolean setEmail(String input){
+        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
+        else return false;
     }
-    @FXML
-    public void touchChat(ActionEvent event){
-        InitialSearchAndChatControllerInterf1 isc=new InitialSearchAndChatControllerInterf1(uids);
-        isc.touchChat(event);
-    }
-    @FXML
-    public void visit(ActionEvent event){
-        PageMenu controller=new PageMenu();
-        ResultSearchControllerInterf2 rscIntf2=new ResultSearchControllerInterf2(uids);
-        rscIntf2.visit(event);
-        controller.switchToSearch(event);
+    public boolean setFeed(String input){
+        return controller.feed(input);
     }
 }

@@ -1,37 +1,51 @@
-//translated variables/classes
+package progettoispw.letmeknow;
 
-package progettoispw.letmeknow.controller;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.bean.VisitBean;
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
-import java.time.LocalDate;
+import java.io.IOException;
 
-public class HomepageController {
-    UtenteUsr user;
-    public HomepageController(){
-        user= ControllerClass.getUserUSR();
+public class SearchControllerInterf2 extends SearchControllerInterf1 {
+    @FXML
+    AnchorPane Result_Visit;
+    @FXML
+    AnchorPane buttonBar;
+    String [] uids;
+    public SearchControllerInterf2(){
+        super();
+        uids=new String[6];
     }
-    public String getUserID(){
-        return user.getUserid();
+    public void initialize(){
+        super.initialize();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
+        try {
+            buttonBar.getChildren().add((Node)loader.load());
+            ButtonBarInterf2 barController=loader.getController();
+            barController.setSearch();
+            VisitBean beanVisit =new VisitBean();
+            if(beanVisit.getUserId()!=null)visit();
+        } catch (IOException e) {
+            buttonBar.getChildren().removeAll(buttonBar.getChildren());
+        }
     }
-    public Integer[] getParam(){
-        Integer [] ret=new Integer[3];
-        ret[0]=user.getEmp();
-        ret[1]=user.getHum();
-        ret[2]=user.getOpt();
-        for(int i=0;i<3;i++)if(ret[i]>5 || ret[i]<1)ret[i]=1;
-        return ret;
+    public void goResult(ActionEvent event){
+        try {
+            Result_Visit.getChildren().removeAll(Result_Visit.getChildren());
+            Result_Visit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("ResultSearch/interf2.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public String getDescription(){
-        return user.getDescript();
+    public void visit (){
+        try {
+            Result_Visit.getChildren().removeAll(Result_Visit.getChildren());
+            Result_Visit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageOthers/interf2.fxml")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public String getTag(){
-        return user.getTag();
-    }
-    public String getGoal(){return user.getGoal();}
-    public Integer[] getDate(){
-        return user.getDate();
-   }
-   public boolean getExpired(){
-        return user.getExpired();
-   }
 }

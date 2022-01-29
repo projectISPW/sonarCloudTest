@@ -1,0 +1,1 @@
+ 2xmlX	hr?progettoRieditatosecondo/.idea/libraries/fontawesomefx_8_21.xml

@@ -1,44 +1,56 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.chat.Message;
-import progettoispw.letmeknow.controller.chat.Messages;
+import progettoispw.letmeknow.controller.HomepagePsychologistController;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public class ChatController {
-    private Messages actChat;
-    private ArrayList<Message>lastChat;
-    private String with;
-    public ChatController(){
-        actChat=ControllerClass.getChat();
-        System.err.println("dall controller applicativo "+actChat.getTouched());
-        with=actChat.getTouched();
+import java.time.LocalDate;
+
+public class HomepagePsychologistBean {
+    HomepagePsychologistController controller;
+    int month;
+    int year;
+    String [] monthNames;
+    public HomepagePsychologistBean(){
+        LocalDate currentdate = LocalDate.now();
+        month=currentdate.getMonthValue();
+        year=currentdate.getYear();
+        monthNames = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+        controller=new HomepagePsychologistController();
+        controller.getLists(month,year);
     }
-    public void  newMSG(String text){
-        actChat.newMessage(text,with);
+    public String getMonth(){
+        return monthNames[month-1];
     }
-    public String getUID(){
-        return actChat.getUserid();
-    }
-    public List<Message> getChat() {
-        ArrayList<Message> chat;
-        ArrayList<Message> newChat;
-        chat= (ArrayList<Message>) actChat.chat(with,false);
-        if(lastChat!=null){
-            newChat=new ArrayList<>();
-            for(int i= lastChat.size();i< chat.size();i++){
-                newChat.add(chat.get(i));
-            }
-            lastChat=chat;
+    public void decremMonth(){
+        if(month==1){
+            month=12;
+            year--;
         }
-        else {
-            lastChat=chat;
-            newChat=chat;
+        else{
+            month-=1;
         }
-        return newChat;
+        controller.getLists(month,year);
     }
-    public String getWith() {
-        return with;
+    public void incremMonth(){
+        if(month==12){
+            month=1;
+            year++;
+        }else{
+            month+=1;
+        }
+        controller.getLists(month,year);
+    }
+    public float  getForms(){
+        System.out.println("current month "+month+"current year"+year);
+        float[] ret=controller.getList();
+        if(ret==null)return 0;
+        return ret[0];
+    }
+    public void setSelected(int selected) {
+        controller.setSelected(selected);
+    }
+    public boolean suggestForm(String input){
+        if(!input.equals(""))return controller.setFeed(input);
+        return false;
     }
 }

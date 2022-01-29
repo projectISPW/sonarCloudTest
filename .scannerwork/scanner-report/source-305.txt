@@ -1,38 +1,23 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.form.ResultForm;
+import progettoispw.letmeknow.controller.*;
 
-public class FormToTakeStatusController {
-    ResultForm form;
-    int [] values;
-    public FormToTakeStatusController(){
-        form= ControllerClass.getResultForm();
+public class SearchBean {
+    private SearchController controller;
+    public SearchBean(){
+        controller=new SearchController();
     }
-    public int getFormId(){
-        return form.getFormid();
-    }
-    public void setValResponse(int [] passaggio){
-        form.setRisposte(passaggio);
-    }
-    public int[] getValResponse(){
-        values=form.getRisposte();
-        return form.getRisposte();
-    }
-    public String getUserid(){
-        return form.getUserid();
-    }
-    public int getValComplete() {
-        return form.getComplete();
-    }
-    public boolean[] getStatus() {
-        boolean [] bool=new boolean[values.length];
-        for(int i=0;i<values.length;i++){
-            if(values[i]>=1)bool[i]=true;
-            else{
-                bool[i]=false;
-            }
+    public void enterParamSearch(Integer [] input){
+        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
+            controller.enterParamSearch(input);
         }
-        return bool;
     }
-
+    public void enterGoalSearch(String input){
+        controller.enterGoal(input);
+    }
+    public void enterDescrSearch(String input){controller.enterDes(input);}
+    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
+    public void toMe(){
+        controller.toMe();
+    }
 }

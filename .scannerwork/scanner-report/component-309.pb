@@ -1,1 +1,1 @@
-µ 2javaXPhrzprogettoRieditatosecondo/src/main/usecase/homepage/controllerView/progettoispw/letmeknow/AdviseBoarcControllerInterf2.java
+µ 2javaXhrvprogettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java
