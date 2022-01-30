@@ -1,16 +1,15 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
-import progettoispw.letmeknow.controller.utentipsy.Form;
-import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
+import progettoispw.letmeknow.controller.psyuser.Form;
+import progettoispw.letmeknow.controller.psyuser.PsyUser;
 
-import java.util.ArrayList;
+import java.util.List;
 
-public class HomepagePsychologistController implements  FormMeta {
-    private UtentePsy user;
-    private ArrayList<Form> list;
+public class HomepagePsychologistController {
+    private PsyUser user;
     private float [][] innerList;
     private int index;
+    static final Integer [] FORMSID={1,2,3};
     public HomepagePsychologistController(){
         user= ControllerClass.getUserPsy();
         innerList=null;
@@ -20,20 +19,20 @@ public class HomepagePsychologistController implements  FormMeta {
             return innerList[index++];
         }else {
             index=0;
-            return null;
+            return new float[0];
         }
     }
     public void getLists(int month , int year){
         index=0;
         user.collectForms(month,year);
-        list=(ArrayList<Form>) user.getSum();
+        List<Form>list=user.getSum();
         int [] answers;
-        int formid,counter;
+        int formid;
+        int counter;
         innerList= new float[FORMSID.length][7];
         for(Form elem:list){
             formid=elem.getFormid();
             counter=user.getCounter(formid);
-            System.err.println("form id"+formid+"completed by "+counter);
             innerList[formid-1][0]=counter;
             answers= elem.getAnswers();
             for(int i=1;i<7;i++){

@@ -44,7 +44,7 @@ public class ResultSearchControllerInterf1 {
         outputVal();
     }
 
-    public String[] ouputVal_prev(Group [] input, int inputnval){
+    public String[] prevOutputVal(Group [] input, int inputnval){
         visitGroup=input;
         nval=inputnval;
         beanVisit=new BeanResultSearch(nval);

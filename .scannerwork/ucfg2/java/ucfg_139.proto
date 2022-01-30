@@ -1,9 +1,16 @@
 
-Vprogettoispw.letmeknow.controller.HomepageEditController#getUserID()Ljava/lang/String;­
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("1*î
-1­
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("¸
-­
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ( 
-""B<:
-8progettoispw.letmeknow.controller.HomepageEditController
+Nprogettoispw.letmeknow.controller.user.InitialUser#getType()Ljava/lang/String;„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javad d("1*›
+1„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javae e(ê
+ç
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javae e(
+%0java.lang.String"__id*@*>4
+2progettoispw.letmeknow.controller.user.InitialUser"
+type"¡
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javae e(
+
+%0java.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

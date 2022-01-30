@@ -9,20 +9,26 @@ import progettoispw.letmeknow.bean.HomepagePsychologistBean;
 
 public class HomepagePsychologistInterf1 {
     HomepagePsychologistBean bean;
-    Page controller=new Page();
+    Page controller;
     @FXML
-    Label count1,count2,count3;
+    Label count1;
+    @FXML
+    Label count2;
+    @FXML
+    Label count3;
     @FXML
     Label month;
     @FXML
     TextArea feedback;
+    public static final String  USERS="users";
     public HomepagePsychologistInterf1(){
+        controller=new PageMenu();
         bean=new HomepagePsychologistBean();
     }
     public void initialize(){
-        count1.setText((int)bean.getForms()+"users");
-        count2.setText((int)bean.getForms()+"users");
-        count3.setText((int)bean.getForms()+"users");
+        count1.setText((int)bean.getForms()+USERS);
+        count2.setText((int)bean.getForms()+USERS);
+        count3.setText((int)bean.getForms()+USERS);
         month.setText(bean.getMonth());
     }
     public void increm() {
@@ -34,7 +40,7 @@ public class HomepagePsychologistInterf1 {
         initialize();
     }
     @FXML
-    public void select(ActionEvent event){
+    public int  getSelected(ActionEvent event){
         Button button=(Button) event.getTarget();
         int val=0;
         switch(button.getId()){
@@ -57,8 +63,12 @@ public class HomepagePsychologistInterf1 {
                 event.consume();
             }
         }
-        System.out.println("formResultPsychologist/form"+val+"interf1.fxml");
-        controller.switchTo("formResultPsychologist/form"+val+"interf1.fxml",event,"users results");
+        return val;
+     }
+     @FXML
+     public void select(ActionEvent event){
+        int formid=getSelected(event);
+        controller.switchTo("formResultPsychologist/form"+formid+"interf1.fxml",event,"users results");
      }
     public void suggestForm(){
         feedback.setStyle("-fx-border-color: white;");

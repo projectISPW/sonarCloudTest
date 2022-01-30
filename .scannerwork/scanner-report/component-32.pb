@@ -1,1 +1,1 @@
-  2xmlX	hrIprogettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_251.xml
+  2xmlXhr\progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_17_0_0_1.xml

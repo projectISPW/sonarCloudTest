@@ -1,140 +1,72 @@
-package progettoispw.letmeknow.controller.utenti;
+package progettoispw.letmeknow.controller.search;
 
-
-import java.util.ArrayList;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
-import java.util.Random;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
-public class SalvaUtente implements SalvaUtenteMeta {
-    protected String userid;
-    private String password;
-    private String type;
-    private String email;
-    private UserDAO userData;
-    private Random randomno ;
-    private static final  Lock mutex = new ReentrantLock(true);
-    public SalvaUtente(String who)  {
-        if(who !=null && who.length()==7 ){
-        userData=new UserDAO();
-        String [] log=userData.selectUser(who);
-        if(log[0]!=null && log[1]!=null){
-            userid=log[0];
-            password=log[1];
-            type=log[2];
-            email=log[3];
+public class Query {
+    protected ResultSet searchAll(Statement stmt,String iduser,int emp, int hum,int pos)  {
+        try{String sql=String.format("SELECT userid " +
+                        "FROM utenti WHERE type='usr' and " +
+                        "empathy>=%d and humor>=%d and positivity >=%d and userid != '%s' ",
+                        emp,hum,pos,iduser);
+            return stmt.executeQuery(sql);
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return null;
         }
+    }
+    public boolean newLine(Statement stmt,String userid){
+        try{
+            String sql=String.format("INSERT INTO `recently_visited` SET userid ='%s' ",userid);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
         }
-
     }
-    public SalvaUtente(){
-        userid=password=type=null;
-        randomno = new Random();
-    }
-    public boolean  checkEmail(String input){
-        UserDAO userDataInner=new UserDAO();
-        return userDataInner.checkMail(input);
-    }
-    public boolean composeMail(String to) {
-        UserDAO userDataInner=new UserDAO();
-        String []data = userDataInner.recover(to);
-        if(data[0]!=null && data[1]!=null){
-            JavaMailUtil email=new JavaMailUtil();
-            String text="Your userid is .:     "+data[0]+"Your password is .:        "+data[1];
-            email.setText(text);
-            return email.sendMail(to);
+    public ResultSet getnVisit(Statement stmt,String userid){
+        try{
+        String sql=String.format("SELECT * from recently_visited where userid='%s' ",userid);
+        return stmt.executeQuery(sql);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return null;
         }
-        return false;
     }
-    public boolean composeMail(String uid, String password, String mail) {
-        JavaMailUtil email=new JavaMailUtil();
-        String text="Your userid is .:     "+uid+"Your password is .:        "+password;
-        email.setText(text);
-        return email.sendMail(mail);
-    }
-    private String getUid(){
-        int random;
-        int min=1000000;
-        int max=9999999;
-        String check=null;
-        boolean equal=true;
-        UserDAO userDataInner=new UserDAO();
-        mutex.lock();
-        List<String> uidList=(ArrayList<String> )userDataInner.getUID();
-        if(uidList==null)return "0000000";
-        while(equal){
-            random= (randomno.nextInt(max));
-            equal=false;
-            if(random<min-1)equal=true;
-            check=""+random;
-            if(!equal)for(String uid : uidList){
-                if(check.equals(uid)){
-                    equal=true;
-                }
-            }
+    public boolean incremVisit(Statement stmt,String userid){
+        try{
+            String sql=String.format("UPDATE `recently_visited` SET num_visit = num_visit+1 WHERE (`userid`='%s')",userid);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
         }
-        mutex.unlock();
-        return check;
     }
-    public boolean checkUtente (String pswdInput){
-        if(password!=null){
-            return password.equals(pswdInput);
+    public ResultSet getVisited(Statement stmt,String userid) {
+        try{
+            String sql=String.format("SELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'",userid);
+            return stmt.executeQuery(sql);
+            } catch (SQLException throwables) {
+            return null;
         }
-        return false;
     }
-    public String abscessType (String pswdInput) {
-        if (checkUtente(pswdInput)) {
-            if(type.equals("usr")) {
-                return "usr";
-            }
-            else if (type.equals("psy")){
-                return "psy";
-            }
-            else {
-                return null ;
-            }
+    public boolean setVisited(Statement stmt, String userid, List<String> input) {
+        try{
+            String sql=String.format("UPDATE `recently_visited` SET `visit1` = '%s',`visit2` = '%s',`visit3` = '%s' WHERE `userid` = '%s' ",input.get(0),input.get(1),input.get(2),userid);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
         }
-        return null;
     }
-    public String getType() {
-        return type;
-    }
-    public String getUserid(){
-        return userid;
-    }
-    public boolean setPassword(String input){
-        if(userData.setPswd(userid,input)){
-            return composeMail(email);
+    public ResultSet getnRows(Statement stmt) {
+        try{
+            String sql="SELECT COUNT(*) FROM recently_visited";
+            return stmt.executeQuery(sql);
+        } catch (SQLException throwables) {
+            return null;
         }
-        return false;
-    }
-    public boolean setEmail(String input){
-        if(userData.setEmail(userid,input)){
-            email=input;
-            if(composeMail(email)){
-                return true;
-            }
-        }
-        return false;
-    }
-    public boolean registrationUSR(String password,String email,String type,int [] val,String description,String goal)  {
-        UserDAO userDataInner=new UserDAO();
-        boolean bool;
-        String uid=getUid();
-        bool= userDataInner.registration(uid,password,type,val,description,email,goal);
-        if(bool)return composeMail(uid,password,email);
-        return bool;
-    }
-    public boolean registrationPSY(String password, String email, String type) {
-        UserDAO userDataInner=new UserDAO();
-        boolean bool;
-        String uid=getUid();
-        bool= userDataInner.registration(uid,password,type,email);
-        if(bool)return composeMail(uid,password,email);
-        return false;
-    }
-    public boolean setFeed(String feed){
-        return userData.feed(userid,feed);
     }
 }

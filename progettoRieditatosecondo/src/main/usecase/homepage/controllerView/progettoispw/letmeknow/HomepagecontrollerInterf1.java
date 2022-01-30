@@ -1,15 +1,11 @@
 package progettoispw.letmeknow;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.*;
-
-import java.io.IOException;
 
 public class HomepagecontrollerInterf1 {
     protected String userid;
@@ -32,14 +28,14 @@ public class HomepagecontrollerInterf1 {
     protected Text userName;
     @FXML
     protected ImageView expired;
-    private HomepageBean bean;
+    protected HomepageBean bean;
     public HomepagecontrollerInterf1(){
         controller=new PageMenu();
-        bean=new HomepageBean();
+        bean=new HomepageBean(false);
         userid= bean.getUserId();
     }
     public void initialize(){
-        userName.setText("User : "+userid);
+        userName.setText("User : #"+userid);
 
         Integer[] arrayOut= bean.getParam();
         setSlider(empathySlider,arrayOut[0]);
@@ -60,21 +56,16 @@ public class HomepagecontrollerInterf1 {
         //ho fatto il controllo sintattico nel bean
         String url="photo/val";
         url=url+val+".png";
-        System.out.println(url);
         Image immagine=new Image(getClass().getResourceAsStream(url));
         image.setImage(immagine);
     }
     @FXML
-    protected void editProfile(ActionEvent event) throws IOException {
+    protected void editProfile(ActionEvent event) {
         controller.switchTo("homepageEdit/interf1.fxml",event,"Edit Profile");
     }
     @FXML
-    protected void goToSettings(ActionEvent event) throws IOException {
+    protected void goToSettings(ActionEvent event) {
         controller.switchToSettings(event);
-    }
-    @FXML
-    protected void goBack() {
-        controller.backTo();
     }
     @FXML
     protected  void goToISC(ActionEvent event){

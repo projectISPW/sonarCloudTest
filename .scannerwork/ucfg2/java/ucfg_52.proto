@@ -1,16 +1,32 @@
 
-@progettoispw.letmeknow.bean.ChatBean#getWith()Ljava/lang/String;‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("1*´
-1‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (é
-æ
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
-%0java.lang.String"__id*2*0&
-$progettoispw.letmeknow.bean.ChatBean"
-with"®
-‘
-†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
-
-%0java.lang.StringB(&
-$progettoispw.letmeknow.bean.ChatBean
+jprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setDescription(Ljava/lang/String;Ljava/lang/String;)Z†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java+ +(!"5* 
+2†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/ /(>"‘
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/ /(>
+""*ÿ
+3†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java. .((¶
+³
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java. .((
+stmtjava.sql.Statement"__id*
+""²
+¯
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/+ /(6
+%0java.lang.String"__id*
+""*
+2*Ê
+5†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java, ,(¶
+³
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java, ,(
+stmtjava.sql.Statement"__id*
+""*
+3:
+useridjava.lang.String:
+inputjava.lang.StringB86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO

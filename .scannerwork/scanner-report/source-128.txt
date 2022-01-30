@@ -1,51 +1,63 @@
-package progettoispw.letmeknow.controller.utentiusr;
+package progettoispw.letmeknow.controller.usruser;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.time.LocalDate;
 
-public class Query {
-    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
-        return stmt.executeQuery(sql);
+public class Goal {
+    private  String obiettivo;
+    private   String tag;
+    private  Integer[] dataEuropean =new Integer[3];//EUROPEAN FORMAT DD-MM-YYYY
+
+    public void setObiettivo(String string){
+        obiettivo=string;
     }
-
-    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
-        try {
-            String sql=String.format(" UPDATE  `utenti` set `%s`='%s' WHERE (`userid` = '%s') ;",what,edit,iduser);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
+    public void setStrDataAmericanEurope(String input){
+        //CONVERTED FROM American to  INPUT DD-MM-YYYY
+        int end=input.indexOf("-");
+        dataEuropean[2]=(Integer.parseInt(input.substring(0,end)));
+        int beg=end;
+        end=input.indexOf("-",end+1);
+        dataEuropean[1]=(Integer.parseInt(input.substring(beg+1,end)));
+        beg=end;
+        end=input.length();
+        dataEuropean[0]=(Integer.parseInt(input.substring(beg+1,end)));
+    }
+    public void setStrDataEurope(String input){
+        //CONVERTED FROM  DD-MM-YYYY to American
+        int end=input.indexOf("-");
+        dataEuropean[0]=(Integer.parseInt(input.substring(0,end)));
+        int beg=end;
+        end=input.indexOf("-",end+1);
+        dataEuropean[1]=(Integer.parseInt(input.substring(beg+1,end)));
+        beg=end;
+        end=input.length();
+        dataEuropean[2]=(Integer.parseInt(input.substring(beg+1,end)));
+        checkData();
+    }
+    private void checkData(){
+        LocalDate inner=LocalDate.of(dataEuropean[2],dataEuropean[1],dataEuropean[0]);
+        LocalDate compare=LocalDate.now().plusMonths(6);
+        if(inner.isAfter(compare)){
+            dataEuropean[0]=compare.getDayOfMonth();
+            dataEuropean[1]= compare.getMonthValue();
+            dataEuropean[2]= compare.getYear();
         }
     }
-
-    protected Boolean setParams(Statement stmt,String uid,int [] param){
-        try {
-            String sql=String.format("UPDATE `utenti` SET `empathy` = '%d', `humor` = '%d', `positivity` = '%d' WHERE (`userid` = '%s'); ",param[0],param[1],param[2],uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
+    public String getAmericanDataStr(){
+        return String.format("%d-%d-%d", dataEuropean[2], dataEuropean[1], dataEuropean[0]);
     }
-    protected ResultSet queryResult(Statement stmt, String uid) {
-        try {
-            String sql=String.format(" SELECT * FROM forms where `userid`=%s ;",uid);
-            return stmt.executeQuery(sql);
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return null;
-        }
+    public void setTag(String string){
+        tag=string;
     }
-    protected boolean setCalculated(Statement stmt,String uid,int formid){
-        try {
-            String sql=String.format(" UPDATE `forms` SET `calculated` = '0' WHERE (`formid` = '%d') and (`userid` = '%s');",formid,uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
+    public String getObiettivo(){
+        return obiettivo;
+    }
+    public Integer[] getDataEuropean(){return dataEuropean;}
+    public String getTag(){
+        return tag;
+    }
+    public boolean getExpired(){
+        LocalDate inner=LocalDate.of(dataEuropean[2],dataEuropean[1],dataEuropean[0]);
+        LocalDate compare =LocalDate.now();
+        return compare.isAfter(inner);
     }
 }

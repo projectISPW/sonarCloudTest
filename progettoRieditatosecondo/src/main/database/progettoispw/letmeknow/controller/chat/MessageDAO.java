@@ -8,9 +8,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MessageDAO implements MessageMeta{
+public class MessageDAO {
     ConnectionDBMS connDB;
     Query query;
+    public static final String TEXT="text";
+    public static final String SENDER="sender";
+    public static final String RECIVER="reciver";
+    public static final String DATETIME="datetime";
     public MessageDAO() {
         connDB= new ConnectionDBMS();
         query= new Query();

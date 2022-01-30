@@ -5,10 +5,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Query {
-    private String sql;
     public ResultSet queryResults(Statement stmt, String userid ,int formid) {
         try {
-            sql = String.format(" SELECT *  FROM forms where userid = '%s' and formid='%d'", userid, formid);
+            String sql = String.format(" SELECT *  FROM forms where userid = '%s' and formid='%d'", userid, formid);
             return stmt.executeQuery(sql);
         } catch (SQLException e) {
             return null;
@@ -16,7 +15,7 @@ public class Query {
     }
     public boolean insertForm(Statement stmt,String userid,int formid,String about){
         try {
-            sql=String.format("INSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');",formid,userid,about);
+            String sql=String.format("INSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');",formid,userid,about);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException e) {
@@ -26,7 +25,7 @@ public class Query {
 
     public Boolean setResults(Statement stmt, String userid, int formid, int[] answer, int complete){
         try {
-            sql = String.format(" UPDATE `forms` " +
+            String sql = String.format(" UPDATE `forms` " +
                             "SET `q1` = '%d', `q2` = '%d', `q3` = '%d', `q4` = '%d', `q5` = '%d', `q6` = '%d',`completed`='%d' WHERE (`formid` = '%d') and (`userid` = '%s');",
                     answer[0], answer[1], answer[2], answer[3], answer[4], answer[5],complete, formid, userid);
             stmt.executeUpdate(sql);

@@ -7,8 +7,8 @@ import java.util.Calendar;
 
 public class HomepageBean {
     private HomepageController controller;
-    public HomepageBean(){
-        controller=new HomepageController();
+    public HomepageBean(boolean visit){
+        controller=new HomepageController(visit);
     }
     public String getUserId() {
         return controller.getUserID();
@@ -17,8 +17,7 @@ public class HomepageBean {
         return controller.getParam();
     }
     public String getDescription(){
-        String output= controller.getDescription();
-        return output;
+        return  controller.getDescription();
     }
     public String getTag(){
         WordCheck checkStr=new WordCheck(3,20);

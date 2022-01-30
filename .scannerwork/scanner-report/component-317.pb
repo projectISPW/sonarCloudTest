@@ -1,1 +1,1 @@
-½ 2javaX/hrpprogettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java
+½ 2javaX$hrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf2.java

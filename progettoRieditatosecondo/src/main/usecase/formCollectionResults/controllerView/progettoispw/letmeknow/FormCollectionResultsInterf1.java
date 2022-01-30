@@ -1,4 +1,4 @@
-//ln 45-46 duplicated code, i put it out of the if/else
+
 package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
@@ -7,11 +7,11 @@ import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.CollectionFormBean;
 import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-import progettoispw.letmeknow.bean.UseridBean;
 
 public class FormCollectionResultsInterf1 {
     PageMenu controller;
     CollectionFormBean bean;
+    public static final String INTERF="interf1.fxml";
     @FXML
     protected Text idUser;
     public FormCollectionResultsInterf1(){
@@ -19,8 +19,7 @@ public class FormCollectionResultsInterf1 {
         controller=new PageMenu();
     }
     public void initialize(){
-        UseridBean useridBean=new UseridBean();
-        idUser.setText("User"+ useridBean.getUserId());
+        idUser.setText("User"+ bean.getUid());
     }
     @FXML
     protected void goToSettings(ActionEvent event) {
@@ -28,13 +27,14 @@ public class FormCollectionResultsInterf1 {
     }
     protected  void which(int i,ActionEvent event){
         bean.setTouched(i);
-        String name,title;
+        String name;
+        String title;
         FormToTakeStatusBean formBean=new FormToTakeStatusBean();
         if(formBean.getComplete()==6){
-            name="formResult/form"+i+"interf1.fxml";
+            name="formResult/form"+i+INTERF;
         }
         else{
-            name="formToTake/form"+i+"interf1.fxml";
+            name="formToTake/form"+i+INTERF;
         } title="form"+i;
         controller.switchTo(name,event,title);
     }
@@ -54,6 +54,9 @@ public class FormCollectionResultsInterf1 {
                 which(2,event);
                 break;
             }
+            default:{
+                event.consume();
+            }
         }
 
     }
@@ -63,10 +66,10 @@ public class FormCollectionResultsInterf1 {
         FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
         int val = innerBean.getFormId();
         if(innerBean.getComplete()<=6){
-            controller.switchTo("formToTake/form"+val+"interf1.fxml",event,"form"+val);
+            controller.switchTo("formToTake/form"+val+INTERF,event,"form"+val);
         }
         else{
-            controller.switchTo("formResult/form"+val+"interf1.fxml",event,"form"+val);
+            controller.switchTo("formResult/form"+val+INTERF,event,"form"+val);
         }
     }
     @FXML

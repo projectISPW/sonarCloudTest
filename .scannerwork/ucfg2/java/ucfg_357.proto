@@ -1,25 +1,16 @@
 
-Qprogettoispw.letmeknow.bean.HomepagePsychologistBean#getMonth()Ljava/lang/String;∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("1*™
-1∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (†
-ù
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (
-%0java.lang.String[]"__id*H*F6
-4progettoispw.letmeknow.bean.HomepagePsychologistBean"
-
-monthNames˛
-˚
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("
-%1java.lang.String"
-__arrayGet*
-
-%0java.lang.String[]*
-"""Õ
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (#
+Dprogettoispw.letmeknow.bean.InnerUsers#getUserid()Ljava/lang/String;õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("1*÷
+1õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (˜
+Ù
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
+%0java.lang.String"__id*6*4(
+&progettoispw.letmeknow.bean.InnerUsers"
+userid"∏
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
 
-%1java.lang.StringB86
-4progettoispw.letmeknow.bean.HomepagePsychologistBean
+%0java.lang.StringB*(
+&progettoispw.letmeknow.bean.InnerUsers

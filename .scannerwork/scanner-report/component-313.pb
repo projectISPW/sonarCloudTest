@@ -1,1 +1,1 @@
-¹ 2javaX2hrrprogettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java
+¹ 2javaX6hrsprogettoRieditatosecondo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf2.java

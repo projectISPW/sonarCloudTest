@@ -1,15 +1,112 @@
 
-Dprogettoispw.letmeknow.bean.VisitBean#exitData()[Ljava/lang/Integer;ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*ò
-1ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("ƒ
-¡
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (0
-datajava.lang.Integer[]"__id*
-"""µ
-ì
-àC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java (
-
-datajava.lang.Integer[]B)'
-%progettoispw.letmeknow.bean.VisitBean
+Qprogettoispw.letmeknow.controller.form.FormDAO#queryResult(Ljava/lang/String;I)[IÄ
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ("22*Ï
+13Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java& &(÷”
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java& &(!
+%3boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+
+13
+5
+9*¬
+14Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java$ $(8Ø
+¨
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java$ $(8
+rstjava.sql.ResultSet"__id*
+""*
+13
+4*î
+4Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java- -("ã
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java. .(
+""*î
+5Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java+ +("ã
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java+ +(
+""*è
+17Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java" "(Æ
+´
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java": "(>
+%1java.lang.String[]"__id*
+""Œ
+À
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java": "(H
+%2java.lang.String"
+__arrayGet*
+
+%1java.lang.String[]*
+""*
+14*ú
+19Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (8Ø
+¨
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (8
+rstjava.sql.ResultSet"__id*
+""÷”
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java! !(
+%0boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+14
+17*Ö
+8Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(! ((IÛ
+
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(! ((I	
+%6int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%5java.lang.String*
+13
+9*¥
+9Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java( ((ü
+ú
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(B ((G	
+%4int"__id*
+""ÑÅ
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(2 ((H
+%5java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
+
+rstjava.sql.ResultSet*
+""2getString(I)*
+8*¿
+20Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((∞
+≠
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((
+stmtjava.sql.Statement"__id*
+""*
+19*Ú
+22Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (∞
+≠
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
+stmtjava.sql.Statement"__id*
+""Ø
+¨
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
+rstjava.sql.ResultSet"__id*
+""*
+20:
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO

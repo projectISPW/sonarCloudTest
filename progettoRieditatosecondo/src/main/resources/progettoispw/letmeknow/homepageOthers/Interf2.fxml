@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import java.lang.String?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.Group?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="currentPage" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.VisitControllerInterf1">
+<AnchorPane fx:id="currentPage" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.VisitControllerInterf1">
    <children>
       <Text layoutX="311.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubTitle" text="Profile " wrappingWidth="187.39027404785156">
          <font>
@@ -23,7 +19,7 @@
       <Text fx:id="userName" layoutX="284.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="User # " wrappingWidth="187.39027404785156" />
       <Text layoutX="228.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" styleClass="param" text="Empathy:" />
       <Text layoutX="228.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Humor:" />
-      <Text layoutX="228.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Potitivity:" />
+      <Text layoutX="228.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Optimism:" />
       <Text layoutX="185.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Personality Traits :" wrappingWidth="187.39027404785156" />
       <Text fill="#6a94b7" layoutX="238.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #6a94b7;" styleClass="textHomePage">
          <font>
@@ -31,7 +27,7 @@
          </font>
       </Text>
       <Text layoutX="403.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Work On :" wrappingWidth="211.39027404785156" />
-      <ImageView fitHeight="213.0" fitWidth="173.0" layoutX="158.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="expired" fitHeight="254.0" fitWidth="244.0" layoutX="103.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@photo/img3.png" />
          </image>

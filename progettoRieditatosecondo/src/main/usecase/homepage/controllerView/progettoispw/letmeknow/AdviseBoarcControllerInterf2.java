@@ -6,14 +6,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Group;
 import javafx.scene.chart.PieChart;
-import javafx.scene.control.Button;
 import progettoispw.letmeknow.bean.BeanResultSearch;
-import progettoispw.letmeknow.bean.ChatBean;
-import progettoispw.letmeknow.bean.ISCBean;
-import progettoispw.letmeknow.bean.SearchBean;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import java.util.Arrays;
 
 public class AdviseBoarcControllerInterf2 {
     @FXML
@@ -46,7 +41,6 @@ public class AdviseBoarcControllerInterf2 {
         outputValVisited();
         BeanResultSearch bean=new BeanResultSearch();
         int [] val=bean.getnval();
-        System.out.println("num visit by me "+val[0]+"vs "+val[1]);
         ObservableList<PieChart.Data>graphData=
                 FXCollections.observableArrayList(
                         new PieChart.Data("global visit",val[0]),
@@ -56,12 +50,12 @@ public class AdviseBoarcControllerInterf2 {
     }
     public  void outputValChat(){
         InitialSearchAndChatControllerInterf1 iscInterf1=new InitialSearchAndChatControllerInterf1();
-        String [] inner=iscInterf1.prev_outputValChat(new Group[]{extGroup1,extGroup2,extGroup3},new Group[]{group1,group2,group3},3);
-        for(int i=0;i<3;i++)uids[i]=inner[i];
+        String [] inner=iscInterf1.prevOutputValChat(new Group[]{extGroup1,extGroup2,extGroup3},new Group[]{group1,group2,group3},3);
+        uids = Arrays.copyOf(inner, 6);
     }
     public void outputValVisited(){
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=rscInterf1.ouputVal_prev(new Group[]{group4,group5,group6},3);
+        String [] inner=rscInterf1.prevOutputVal(new Group[]{group4,group5,group6},3);
         for(int i=0;i<3;i++)uids[i+3]=inner[i];
     }
     @FXML

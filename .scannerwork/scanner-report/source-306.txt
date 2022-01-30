@@ -1,30 +1,27 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
 
-public class SearchController {
-    private Search find;
-    public SearchController(){
-        ControllerClass.setSearch();
-        find=ControllerClass.getSearch();
+public class InnerUsers {
+    private final String userid;
+    private String description;
+    private String goal;
+    private int lenMax;
+    private WordCheck check=new WordCheck();
+    public InnerUsers(UsrUser elem){
+        lenMax=15;
+        userid=elem.getUserid();
+        description= elem.getDescript();
+        goal=elem.getTag();
     }
-    public void enterAffinity(Integer input){
-        find.setAffinity(input);
+    public String getUserid() {
+        return userid;
     }
-    public void enterGoal(String input){
-        find.goalSearch(input);
+    public String getDescription() {
+        return check.checkLen(description,lenMax);
     }
-    public void enterDes(String input){
-        find.descrSearch(input);
-    }
-    public void enterParamSearch(Integer [] input ){
-        find.parametricSetSearch(input);
-    }
-    public void toMe(){
-        UtenteUsr me =ControllerClass.getUserUSR();
-        enterAffinity(0);
-        enterGoal(me.getTag());
-        enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getOpt()} );
+    public String getGoal() {
+        return check.checkLen(goal,lenMax);
     }
 }

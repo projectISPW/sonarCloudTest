@@ -1,11 +1,10 @@
 
-Wprogettoispw.letmeknow.bean.SignupBean#signupPSY(Ljava/lang/String;Ljava/lang/String;)Z•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java. .("1*¾
-1•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java/ /(" 
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java/ /(7
-"":
-passwordjava.lang.String:
-emailjava.lang.StringB*(
-&progettoispw.letmeknow.bean.SignupBean
+Uprogettoispw.letmeknow.controller.usruser.UsrUser#setPersonalTag(Ljava/lang/String;)Zƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java< <(!"1*š
+1ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java= =("Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java> >(/
+"":
+newSjava.lang.StringB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

@@ -1,1 +1,1 @@
-­ 2javaX$hrxprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java
+­ 2javaX`hrqprogettoRieditatosecondo/src/main/usecase/login/controllerView/progettoispw/letmeknow/LoginControllerInterf1.java

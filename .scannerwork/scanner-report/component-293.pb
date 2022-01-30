@@ -1,1 +1,1 @@
-• 2javaX4hrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/ButtonBarInterf2.java
+• 2javaXhrÅprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java

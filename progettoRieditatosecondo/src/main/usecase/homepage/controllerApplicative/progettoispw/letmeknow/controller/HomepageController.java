@@ -2,13 +2,13 @@
 
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
-import java.time.LocalDate;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
 
 public class HomepageController {
-    UtenteUsr user;
-    public HomepageController(){
-        user= ControllerClass.getUserUSR();
+    UsrUser user;
+    public HomepageController(boolean visit){
+        if(!visit)user= ControllerClass.getUserUSR();
+        else user= ControllerClass.getSearch().getTouched();
     }
     public String getUserID(){
         return user.getUserid();

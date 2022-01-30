@@ -1,1 +1,1 @@
-Š 2javaX:hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+Š 2javaXIhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java

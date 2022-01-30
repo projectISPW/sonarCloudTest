@@ -35,7 +35,7 @@
         <Text fx:id="userName" layoutX="129.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textContent_signup" text="User #7853789" wrappingWidth="187.39027404785156" />
         <Text layoutY="-29.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100;" styleClass="param" text="Empathy:" translateX="80.0" translateY="150.0" />
         <Text layoutY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Humor:" translateX="80.0" translateY="150.0" />
-        <Text layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Positivity:" translateX="80.0" translateY="160.0" />
+        <Text layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="param" text="Optimism:" translateX="80.0" translateY="160.0" />
         <Text layoutX="30.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textSubSubTitle" text="Personality Traits :" wrappingWidth="187.39027404785156" />
         <Text fill="#6a94b7" layoutX="83.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #6a94b7;" styleClass="textHomePage">
             <font>

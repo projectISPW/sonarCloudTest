@@ -1,25 +1,58 @@
 package progettoispw.letmeknow;
+
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 import java.io.IOException;
-public  class PageMenu extends Page {
-    public void switchToChat(ActionEvent event)  {
-        this.switchTo("chat/interf1.fxml",event,"Chat");
+
+public class Page {
+    protected static Stage stage1;
+    protected static Scene scene1;
+    protected static String title1;
+    static void prevBack(ActionEvent event){
+        stage1 = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene1 = ((Node) event.getSource()).getScene();
+        title1= stage1.getTitle();
     }
-    public void switchToPersonalForm(ActionEvent event)  {
-        this.switchTo("formCollectionResults/interf1.fxml",event,"Your result");
+    static String check(String name,Stage stage){
+        int index;
+        if(stage.getWidth()>500 && name.indexOf("interf1")>-1){
+            index= name.indexOf("interf1");
+            name=name.substring(0,index);
+            name+="" + "interf2.fxml";
+            stage.setFullScreen(true);
+        }
+        else if(stage.getWidth()<500 && name.indexOf("interf2")>-1){
+            index= name.indexOf("interf2");
+            name=name.substring(0,index);
+            name+="interf1.fxml";
+            stage.setMaxWidth(414);
+            stage.setMinHeight(736);
+        }
+        return name;
     }
-    public void switchToHome(ActionEvent event){
-        this.switchTo("homepage/interf1.fxml",event,"Homepage");
+    public void switchTo(String name, ActionEvent event, String title) {
+        try {
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            if(stage.getWidth()>500)stage.setFullScreen(true);
+            name=check(name,stage);
+            prevBack(event);
+            Parent root = FXMLLoader.load(getClass().getResource(name));
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.setTitle(title);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    public void switchToHomepageOthers(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
+    public void backTo(){
+        stage1.setScene(scene1);
+        stage1.setTitle(title1);
+        stage1.show();
     }
-    public void switchToISC(ActionEvent event)  {
-        this.switchTo("initialSearchAndChat/interf1.fxml",event,"What do you need?  ");
-    }
-    public void switchToSettings(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
-    }
-    public void switchToSearch(ActionEvent event ){this.switchTo("search/interf1.fxml",event,"Search");}
 }

@@ -15,37 +15,19 @@ import java.io.IOException;
 public class HomepagePsychologistInterf2 extends HomepagePsychologistInterf1{
     @FXML
     AnchorPane anchorSelected;
+    @Override
     @FXML
     public void select(ActionEvent event){
-        try {
-            Button button=(Button) event.getTarget();
-            int val=0;
-            switch(button.getId()){
-                case "form1" :{
-                    bean.setSelected(1);
-                    val=1;
-                    break;
-                }
-                case "form2" :{
-                    bean.setSelected(2);
-                    val=2;
-                    break;
-                }
-                case "form3" :{
-                    bean.setSelected(3);
-                    val=3;
-                    break;
-                }
-                default :{
-                    event.consume();
-                }
-            }
+        try{
+            int val=getSelected(event);
             anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
             anchorSelected.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepagePsychologist/formSelected"+val+".fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+    @Override
+    @FXML
     public void goToSettings(ActionEvent event ){
         try {
             anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
@@ -54,11 +36,15 @@ public class HomepagePsychologistInterf2 extends HomepagePsychologistInterf1{
             e.printStackTrace();
         }
     }
+    @Override
+    @FXML
     public void increm() {
         anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
         bean.incremMonth();
         initialize();
     }
+    @Override
+    @FXML
     public void decrem() {
         anchorSelected.getChildren().removeAll(anchorSelected.getChildren());
         bean.decremMonth();

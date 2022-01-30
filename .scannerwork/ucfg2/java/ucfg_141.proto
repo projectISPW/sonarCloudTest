@@ -1,15 +1,37 @@
 
-Uprogettoispw.letmeknow.controller.HomepageEditController#setGoal(Ljava/lang/String;)Z≠
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("2"1*Ó
-2≠
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("∏
-≠
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java (/
-""*Ó
-1≠
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("∏
-≠
-¢C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java (
+Sprogettoispw.letmeknow.controller.user.InitialUser#setPassword(Ljava/lang/String;)ZÑ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaj j("3*Ó
+2Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(Î
+Ë
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l($
+%1java.lang.String"__id*A*?4
+2progettoispw.letmeknow.controller.user.InitialUser"
+email·ﬁ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(%
+%2boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;)Z*64
+2progettoispw.letmeknow.controller.user.InitialUser*
+
+%1java.lang.String2composeMail(Ljava/lang/String;)"è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(&
+""*Å
+3Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k(Ï
+È
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k("
+%0java.lang.String"__id*B*@4
+2progettoispw.letmeknow.controller.user.InitialUser"
+userid*
+2
+1*ú
+1Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n("è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n(
 "":
-inputjava.lang.StringB<:
-8progettoispw.letmeknow.controller.HomepageEditController
+inputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

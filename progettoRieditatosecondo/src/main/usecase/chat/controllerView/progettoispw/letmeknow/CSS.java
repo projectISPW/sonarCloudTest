@@ -46,7 +46,6 @@ public class CSS {
     public void general(){
         label =new Label(check.check(text));// prende il testo con gli invio
         label.setFont(Font.font("Gill Sans MT", FontWeight.BOLD,18));
-        //label.setMinWidth(200);
         label.setPrefWidth(350);
         if(!bool)label.setPrefWidth(600);
         label.setMinHeight(60);

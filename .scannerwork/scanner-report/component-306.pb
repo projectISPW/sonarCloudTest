@@ -1,1 +1,1 @@
-² 2javaXhr~progettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/controller/SearchController.java
+² 2javaXhrxprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java

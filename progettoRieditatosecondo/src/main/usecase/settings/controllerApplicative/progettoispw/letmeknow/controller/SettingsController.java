@@ -4,12 +4,12 @@ package progettoispw.letmeknow.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import progettoispw.letmeknow.PageMenu;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
-import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
+import progettoispw.letmeknow.controller.psyuser.PsyUser;
 
 public class SettingsController {
-    UtenteUsr userU;
-    UtentePsy userP;
+    UsrUser userU;
+    PsyUser userP;
     ConnectionDBMS connection;
     public SettingsController(){
         userU= ControllerClass.getUserUSR();

@@ -2,7 +2,6 @@ package progettoispw.letmeknow;
 
 public class WordCheck {
     private  int goAhead;
-    private int contAhead;
     private int delta;
     private String text;
     public WordCheck(int deltaInput, int goAheadInput){
@@ -16,7 +15,8 @@ public class WordCheck {
         if(inputText==null)return null;
         String add;
         String before;
-        for (int k = goAhead-delta,count =goAhead-delta; k < inputText.length(); k = k+1) {
+        int count=goAhead-delta;
+        for (int k = goAhead-delta; k < inputText.length(); k = k+1) {
             if(inputText.toCharArray()[k]=='\n'){
                 count=0;
             }
@@ -41,7 +41,6 @@ public class WordCheck {
         if(inputText==null)return null;
         String add;
         String before;
-        int count=-1;
         int start=inputText.indexOf('#');
         int k=0;
         for(char c : inputText.toCharArray()){
@@ -57,7 +56,7 @@ public class WordCheck {
         return inputText;
     }
     public Integer contaInvio(String inputText){
-        contAhead=1;
+        Integer contAhead=1;
         for(char c : inputText.toCharArray()){
             if(c=='\n'){
                 contAhead++;
@@ -72,16 +71,11 @@ public class WordCheck {
         }
         return 60;
     }
-    public  boolean checkString(String inputText){
-        if(inputText.length()>goAhead*3){
-            return false ;
-        }return true;
-    }
     public  String checkLen(String inputText,int lenMax){
         if(inputText==null)return " ";
-        inputText=inputText.replaceAll("\\n","");
-        inputText=inputText.replaceAll("\\r","");
-        inputText=inputText.replaceAll("\n","");
+        inputText=inputText.replace("\\n","");
+        inputText=inputText.replace("\\r","");
+        inputText=inputText.replace("\n","");
         if(inputText.length()<lenMax)return inputText;
         else {
             return inputText.substring(0,lenMax)+"...";

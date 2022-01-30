@@ -1,1 +1,1 @@
-¸ 2javaX$hrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf2.java
+¸ 2javaX|hrsprogettoRieditatosecondo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf1.java

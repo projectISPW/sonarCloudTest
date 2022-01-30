@@ -1,1 +1,1 @@
-m 2javaX(hr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+m 2javaX'hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java

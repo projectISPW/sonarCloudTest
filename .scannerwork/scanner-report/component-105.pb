@@ -1,1 +1,1 @@
-i 2javaX*hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java
+i 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml

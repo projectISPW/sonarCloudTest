@@ -1,11 +1,11 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
+import progettoispw.letmeknow.controller.user.InitialUser;
 
 public class RecoverPswdController {
-        SalvaUtente user;
+        InitialUser user;
         public RecoverPswdController(){
-            user=new SalvaUtente();
+            user=new InitialUser();
         }
         public boolean sendMail(String input){
             return user.composeMail(input);

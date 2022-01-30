@@ -1,5 +1,3 @@
-//same line variables, I put them on different lines
-
 package progettoispw.letmeknow;
 
 
@@ -11,14 +9,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.Slider;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 
 import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-
-import java.io.IOException;
-
-
 public class TakeFormControllerInterf1 {
     @FXML
     protected Text idForm;
@@ -80,8 +73,6 @@ public class TakeFormControllerInterf1 {
             goBack();
         }
         progress= bean.getComplete()*0.17;
-        sl=new Slider[] {sl1,sl2,sl3,sl4,sl5,sl6};
-        labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
         progressBar.setProgress(progress);
         setValues();
         progressBar.setProgress(progress);
@@ -89,6 +80,8 @@ public class TakeFormControllerInterf1 {
     public void setValues(){
         response=bean.exitValStatus();
         locked=bean.exitStatus();
+        sl=new Slider[] {sl1,sl2,sl3,sl4,sl5,sl6};
+        labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
         values=not(locked);
         for(int i=0;i<6;i++){
             if(response[i]!=-1){
@@ -98,12 +91,12 @@ public class TakeFormControllerInterf1 {
             sl[i].valueProperty().addListener(new ChangeListener<Number>() {
                 @Override
                 public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    if(values[finalI]==true){
+                    if(values[finalI]){
                         progress+=0.17;
 
                         values[finalI]=false;
                     }
-                    if(locked[finalI]==true){
+                    if(locked[finalI]){
                         sl[finalI].setValue(response[finalI]);
                     }
                     labels[finalI].setText(""+(int)sl[finalI].getValue());
@@ -111,22 +104,16 @@ public class TakeFormControllerInterf1 {
             });
         }
     }
-    public int getComplete(){
-        return bean.getComplete();
-    }
     @FXML
-    protected void save() {
-       save1();
-        initialize();
-    }
-    protected void save1(){
+    protected void save(){
         for (int i=0;i<6;i++) {
-            if (values[i] == false) {
+            if (!values[i]) {
                 locked[i]=true;
                 response[i]=(int)sl[i].getValue();
             }
         }
         bean.inputValStatus(response);
+        initialize();
     }
     @FXML
     protected void goBack() {

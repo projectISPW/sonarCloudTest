@@ -3,7 +3,7 @@ package progettoispw.letmeknow.controller.search;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
+import java.util.List;
 
 public class Query {
     protected ResultSet searchAll(Statement stmt,String iduser,int emp, int hum,int pos)  {
@@ -28,8 +28,7 @@ public class Query {
     }
     public ResultSet getnVisit(Statement stmt,String userid){
         try{
-        String sql=String.format("SELECT * from recently_visited where userid='0000000' ");
-        System.err.println(sql);
+        String sql=String.format("SELECT * from recently_visited where userid='%s' ",userid);
         return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -53,10 +52,9 @@ public class Query {
             return null;
         }
     }
-    public boolean setVisited(Statement stmt, String userid, ArrayList<String> input) {
+    public boolean setVisited(Statement stmt, String userid, List<String> input) {
         try{
             String sql=String.format("UPDATE `recently_visited` SET `visit1` = '%s',`visit2` = '%s',`visit3` = '%s' WHERE `userid` = '%s' ",input.get(0),input.get(1),input.get(2),userid);
-            System.err.println(sql);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException throwables) {
@@ -65,7 +63,7 @@ public class Query {
     }
     public ResultSet getnRows(Statement stmt) {
         try{
-            String sql=String.format("SELECT COUNT(*) FROM recently_visited");
+            String sql="SELECT COUNT(*) FROM recently_visited";
             return stmt.executeQuery(sql);
         } catch (SQLException throwables) {
             return null;

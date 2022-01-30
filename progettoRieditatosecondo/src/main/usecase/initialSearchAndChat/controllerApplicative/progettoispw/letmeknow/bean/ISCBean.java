@@ -20,11 +20,11 @@ public class ISCBean {
     }
     public String[][] exitUid(){
         int index;
-        ArrayList<lastMessage>  actual= (ArrayList<lastMessage>) controller.queryUsers();;
+        ArrayList<LastMessage>  actual= (ArrayList<LastMessage>) controller.queryUsers();
         String [][] arrStr;
         if(nval!=0) arrStr=new String[2][nval];
         else arrStr=new String[2][actual.size()];
-        for(lastMessage usr : actual){
+        for(LastMessage usr : actual){
             index =actual.indexOf(usr);
             arrStr[0][index]=usr.getUserid();
             arrStr[1][index]= usr.getLastmsg();

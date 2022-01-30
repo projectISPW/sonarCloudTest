@@ -168,6 +168,14 @@
     -fx-fill:#377DFF;
     -fx-opacity:0.8;
 }
+.textContent_signupInterf2{
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-style:normal;
+    -fx-font-weight: bold;
+    -fx-font-size:30px;
+    -fx-fill:#377DFF;
+    -fx-opacity:0.8;
+}
 .recived_message{
     -fx-background-color: rgba(207, 207, 207, 0.5);
     -fx-border-radius: 18px;
@@ -199,8 +207,6 @@
 
 }
 .square{
-    /*-fx-border-width: 1px;
-    -fx-border-radius: 18px;*/
     -fx-font-family: "Work Sans";
     -fx-border-color: rgba(177, 177, 187,1);//0.44
     -fx-font-size:16px;

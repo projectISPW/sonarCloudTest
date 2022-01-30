@@ -10,9 +10,6 @@ import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.*;
 
 
-import java.io.IOException;
-
-
 
 public class HomepageEditControllerInterf1 {
     protected  PageMenu controller;
@@ -32,19 +29,18 @@ public class HomepageEditControllerInterf1 {
     private TextField date;
     @FXML
     private Text userName;
-    private String userid;
     private HomepagecontrollerInterf1 home;
     private HomepageEditBean bean;
     private HomepageBean homepageBean;
     public HomepageEditControllerInterf1(){
         bean=new HomepageEditBean();
-        homepageBean=new HomepageBean();
+        homepageBean=new HomepageBean(false);
         home =new HomepagecontrollerInterf1();
         controller=new PageMenu();
     }
     public void initialize() {
-        userid= bean.getUserid();
-        userName.setText("User : "+userid);
+
+        userName.setText("User : "+bean.getUserid());
         Integer [] listaValori=homepageBean.getParam();
         home.setSlider(empathySlider,listaValori[0]);
         home.setSlider(humorSlider,listaValori[1]);
@@ -79,14 +75,12 @@ public class HomepageEditControllerInterf1 {
                     "tag and description begin in '#'," +
                     "the data is in format 'day-month-year'");
             if(alert.showAndWait().get()== ButtonType.OK) {
-                System.out.println("Prompt: Empty Fields Alert");
                 event.consume();
-                return;
             }
         }
     }
     @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
+    protected void goToHome(ActionEvent event) {
         controller.switchToHome(event);
     }
     @FXML
@@ -94,7 +88,7 @@ public class HomepageEditControllerInterf1 {
         controller.switchToISC(event);
     }
     @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
+    protected void goToPersonalForm(ActionEvent event){
         controller.switchToPersonalForm(event);
     }
     @FXML

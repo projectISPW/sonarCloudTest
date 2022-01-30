@@ -1,1 +1,1 @@
-Æ 2javaX>hräprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/controller/ResultSearchController.java
+Æ 2javaXhr|progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java

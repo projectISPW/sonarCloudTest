@@ -4,7 +4,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import progettoispw.letmeknow.bean.BeanResultSearch;
-import progettoispw.letmeknow.bean.SearchBean;
 
 public class ButtonBarInterf2 {
     PageMenu controller= new PageMenu();
@@ -39,13 +38,13 @@ public class ButtonBarInterf2 {
     public void goToSearch(ActionEvent actionEvent) {
         controller.switchToSearch(actionEvent);
     }
+    public void setOpacity(Button button ){button.setStyle("-fx-opacity: 1.0");}
     public void setHome() {
-        this.home.setStyle("-fx-opacity: 1.0");
+        setOpacity(home);
     }
     public void setSearch() {
-        this.search.setStyle("-fx-opacity: 1.0");
+        setOpacity(search);
     }
-    public void setChat(){this.chat.setStyle("-fx-opacity: 1.0");}
-    public void setSettings() {this.settings.setStyle("-fx-opacity: 1.0");}
-    public void setPersonalForm() {this.form.setStyle("-fx-opacity: 1.0");}
+    public void setSettings() {setOpacity(settings);}
+    public void setPersonalForm() {setOpacity(form);}
 }

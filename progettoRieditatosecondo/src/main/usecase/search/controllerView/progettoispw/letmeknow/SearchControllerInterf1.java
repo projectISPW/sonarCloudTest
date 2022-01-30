@@ -8,9 +8,7 @@ import javafx.scene.control.*;
 import progettoispw.letmeknow.bean.SearchBean;
 
 public class SearchControllerInterf1 {
-    //private AnchorPane pane;
    PageMenu controller= new PageMenu();
-    //private String userid=getUserID();
     @FXML
     protected Slider posSL;
     @FXML
@@ -28,7 +26,9 @@ public class SearchControllerInterf1 {
     @FXML
     protected Label lb4;
     @FXML
-    protected TextField inputTraits,inputGoal;
+    protected TextField inputTraits;
+    @FXML
+    protected TextField inputGoal;
     protected boolean [] clicked;
     @FXML
     protected ProgressBar progressBar;
@@ -37,7 +37,7 @@ public class SearchControllerInterf1 {
     protected Slider [] sl ;
     protected Label[] labels;
     protected void incremProgress(int index){
-        if(clicked[index]==false){
+        if(!clicked[index]){
             progress=progress+0.17;
             clicked[index]=true;
             progressBar.setProgress(progress);
@@ -63,46 +63,34 @@ public class SearchControllerInterf1 {
                     }
                 });
             }
-        inputTraits.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(4);
-        });
-        inputGoal.textProperty().addListener((observableValue, s, t1) -> {
-            incremProgress(5);
-        });
+        inputTraits.textProperty().addListener((observableValue, s, t1) ->incremProgress(4));
+        inputGoal.textProperty().addListener((observableValue, s, t1) -> incremProgress(5));
     }
     SearchBean bean= new SearchBean();
     protected void researchByParameter(){
         Integer [] paramS=new Integer[labels.length-1];
         for(int i=0;i<4;i++){
-            switch(i) {
-                case 3: {
+                if (i==3){
                     if (clicked[3]) {
                         bean.enterAffinity(2-(int)sl[i].getValue());
-                        break;
                     }
                     else{
                         bean.enterAffinity(0);
-                        break;
                     }
                 }
-                default:{
+                else{
                     if(clicked[i])paramS[i]=((int)sl[i].getValue());
                     else paramS[i]=0;
                 }
             }
-        }
         bean.enterParamSearch(paramS);
     }
     protected void researchByGoal(){
-        if (clicked[5]){
-        String input=inputGoal.getText();
-        bean.enterGoalSearch(input);
-    }};
+        if (clicked[5])bean.enterGoalSearch(inputGoal.getText());
+    }
     protected void researchByDescripription(){
-        if (clicked[4]){
-        String input=inputTraits.getText();
-        bean.enterDescrSearch(input);
-    }}
+        if (clicked[4]) bean.enterDescrSearch(inputTraits.getText());
+    }
     @FXML
     protected  void affinity(ActionEvent event ){
         bean.toMe();
@@ -131,7 +119,5 @@ public class SearchControllerInterf1 {
     protected void goBack()  {
         controller.backTo();
     }
-    @FXML
-    protected void goToSearch(ActionEvent event) {controller.switchToSearch(event);}
 
 }

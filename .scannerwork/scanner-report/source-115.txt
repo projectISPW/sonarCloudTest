@@ -1,84 +1,78 @@
-package progettoispw.letmeknow.controller.search;
+package progettoispw.letmeknow.controller.form;
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtenteMeta;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.controller.ControllerClass;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-
-public class Search {
+public class ResultForm {
     private String userid;
-    private SearchDAO searchData;
-    private Sliders slider;
-    private ArrayList<String> foundList;
-    private UtenteUsr touched;
-    public Search(String who) {
-        foundList= new ArrayList <String>();
-        searchData=new SearchDAO();
-        userid=who;
-        touched=null;
+    private int formid;
+    private FormDAO formData;
+    private int[] answers;
+    private int complete;
+    private int [] param;
+    private String date;
+    public String getUserid() {
+        return userid;
     }
-    public void setAffinity(Integer val) {
-        slider = new Sliders(val);
-    }
-    public void parametricSetSearch(Integer [] val) {
-        slider.setEmp(val[0]);
-        slider.setHum(val[1]);
-        slider.setPos(val[2]);
-        parametricSearch();
-    }
-    public void parametricSearch() {
-        Integer[] array = slider.getAll();
-        ArrayList<String> inner= (ArrayList<String>) searchData.paramSearch(userid, array[0], array[1], array[2]);
-        foundList.addAll(inner);
-    }
-    public void goalSearch(String goal) {
-        ArrayList<String>inner= (ArrayList<String>) searchData.paramSearch(userid, 1, 1, 1);
-        for(String elem:inner){
-            UtenteUsr user=new UtenteUsr(elem);
-            if(user.getTag().contains(goal)){
-                foundList.add(elem);
+
+    public ResultForm(String useridinp, int formidinp){
+        formData=new FormDAO();
+        userid=useridinp;
+        formid=formidinp;
+        answers= formData.queryResult(userid,formid);
+        for(int i:answers){
+            if (i>=1){
+                ++complete;
             }
         }
+        if(complete==6){
+            queryComplete();
+        }
     }
-    public void descrSearch(String descr) {
-        ArrayList<String> inner= (ArrayList<String>) searchData.paramSearch(userid, 1, 1, 1);
-        for(String elem:inner){
-            UtenteUsr user=new UtenteUsr(elem);
-            if(user.getDescript().contains(descr)){
-                foundList.add(elem);
+    public ResultForm(String useridinp){
+        formData=new FormDAO();
+        userid=useridinp;
+        formid=formData.takeAForm(userid);
+        answers= formData.queryResult(userid,formid);
+        for(int i:answers){
+            if (i>=1){
+                ++complete;
             }
         }
-    }
-    public ArrayList<String> getArrayList(){
-        ArrayList inner=new ArrayList();
-        if(foundList.isEmpty()){
-            inner= (ArrayList) searchData.getVisit(userid);
+        if(complete==6){
+            queryComplete();
         }
-        for(String str:foundList){
-            if(!inner.contains(str))inner.add(str);
+    }
+    public int getFormid() {
+        return formid;
+    }
+    private void queryComplete(){
+        UsrUser user= ControllerClass.getUserUSR();
+        date= formData.queryData(userid,formid);
+        if(date ==null){
+            formData.setCalculated(userid,formid);
+            user.setParams();
+            formData.close(userid,formid);
+            date= formData.queryData(userid,formid);
         }
-        return inner;
+        param= formData.queryParamForm(userid,formid);
     }
-    public boolean setTouched(String userid2) {
-        boolean bool;
-        bool=searchData.addVisited(userid,userid2);
-        if(userid!=null){
-            this.touched = new UtenteUsr(userid2);
-        }
-        return bool;
+    public void setRisposte(int[] input){
+        complete=0;
+        for(int i:input)if(i!=-1)++complete;
+        formData.setAnswer(userid,formid,input,complete);
+        if(complete==6)queryComplete();
     }
-    public int[] getnVisit(){
-        int [] inner;
-        inner=searchData.getnVisit(userid);
-        return inner;
+    public int[] getRisposte(){
+        return answers;
     }
-    public UtenteUsr getTouched() {
-        return touched;
+    public int getComplete() {
+        return complete;
     }
-    public void reset(){
-        foundList=new ArrayList<>();
+    public int[] getParam() {
+        return param;
+    }
+    public String getDate() {
+        return date;
     }
 }
-

@@ -1,11 +1,10 @@
 
-Cprogettoispw.letmeknow.bean.VisitBean#getUserId()Ljava/lang/String;“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java ("1*º
-1“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java	 	(("ž
-“
-ˆC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/bean/VisitBean.java
- 
-(&
-""B)'
-%progettoispw.letmeknow.bean.VisitBean
+Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Z™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("1*Æ
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (&
+"":
+inputjava.lang.StringB,*
+(progettoispw.letmeknow.bean.SettingsBean

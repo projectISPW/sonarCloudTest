@@ -8,9 +8,7 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import progettoispw.letmeknow.bean.BeanResultSearch;
-
 import java.io.IOException;
-
 public class ResultSearchControllerInterf2{
     @FXML
     private Group group1;
@@ -25,7 +23,7 @@ public class ResultSearchControllerInterf2{
     @FXML
     Group group6;
     @FXML
-    AnchorPane Result_Visit;
+    AnchorPane resultVisit;
     String [] uids;
     public ResultSearchControllerInterf2(){
         uids=new String[6];
@@ -51,14 +49,14 @@ public class ResultSearchControllerInterf2{
                 event.consume();
             }
         }
-        if(Result_Visit!=null)switchPane();
+        if(resultVisit !=null)switchPane();
     }
     public void switchPane(){
         try {
-            Result_Visit.getChildren().removeAll(Result_Visit.getChildren());
-            Result_Visit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageOthers/interf2.fxml")));
+            resultVisit.getChildren().removeAll(resultVisit.getChildren());
+            resultVisit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageOthers/interf2.fxml")));
         } catch (IOException e) {
-
+            resultVisit.getChildren().removeAll(resultVisit.getChildren());
         }
 
     }
@@ -68,7 +66,6 @@ public class ResultSearchControllerInterf2{
     }
     public void outputVal() {
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner =new String [6];
-        uids=rscInterf1.ouputVal_prev(new Group[]{group1,group2,group3,group4,group5,group6},6);
+        uids=rscInterf1.prevOutputVal(new Group[]{group1,group2,group3,group4,group5,group6},6);
     }
 }

@@ -41,9 +41,8 @@ public class HomepagePsychologistBean {
         controller.getLists(month,year);
     }
     public float  getForms(){
-        System.out.println("current month "+month+"current year"+year);
         float[] ret=controller.getList();
-        if(ret==null)return 0;
+        if(ret.length==0)return 0;
         return ret[0];
     }
     public void setSelected(int selected) {

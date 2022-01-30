@@ -1,106 +1,71 @@
-package progettoispw.letmeknow.controller.chat;
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
+    <groupId>progettoispw</groupId>
+    <artifactId>letmeknow</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>letmeknow</name>
 
-import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.7.1</junit.version>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17.0.0.1</version>
+        </dependency>
 
-public class Messages {
-    private String userid;
-    private MessageDAO messageData;
-    private ArrayList<Message> sendRecived;
-    private String touched;
-    public Messages(String who)  {
-            userid=who;
-            messageData=new MessageDAO();
-            getAllChat();
-    }
-    public String getUserid() {
-        return userid;
-    }
-    public List<Message> getAllChat(){
-        sendRecived= (ArrayList<Message>)
-        messageData.getRecivedSentMessage(userid);
-        return sendRecived;
-    }
-    public void attach(String usr,ArrayList<String>list){
-        if (list.contains(usr)==false) {
-            list.add(usr);
-        }
-    }
-    public List<String> getUsers(){
-        ArrayList<String> users=new ArrayList<String>();
-        ArrayList<Message>inner= (ArrayList<Message>)getAllChat();
-        for(Message msg:inner){
-            attach(msg.getSender(),users);
-            attach(msg.getReciver(),users);
-        }
-        users.remove(userid);
-        return users;
-    }
-    public List<Message>orderByTime(List<Message>V){
-        Message temp;
-        int j;
-        for(int i =0;i<V.size();i++){
-            temp=V.get(i);
-            j=i;
-            while(j>0 &&   temp.getDate().isAfter(V.get(j-1).getDate()))
-            {
-                V.set(j,V.get(j-1));
-                j=j-1;
-            }
-            V.set(j,temp);
-        }
-        return V;
-    }
-    public List<Message> getLast(){
-        List<Message> lastmessages;
-        ArrayList<String>users= (ArrayList<String>) getUsers();
-        lastmessages =new ArrayList<>();
-        for(String user:users){
-            lastmessages.add(lstMsgWith(user));
-       }
-        lastmessages= orderByTime(lastmessages);
-        return lastmessages;
-    }
-    public Message lstMsgWith(String user) {
-        ArrayList<Message>inner= (ArrayList<Message>) chat(user,true);
-        Message last = null;
-        for(Message msg:inner){
-            if(last==null)last=msg;
-            if(msg.getDate().isAfter(last.getDate()))last=msg;
-        }
-        return last;
-    }
-    public List<Message> chat(String user2,boolean speed){
-        ArrayList<Message>chat=new ArrayList<>();
-        if(!speed){
-            return messageData.getRecivedSentMessage(userid,user2);
-        }
-        if(sendRecived==null)getAllChat();
-        for(Message msg:sendRecived){
-            if(msg.getReciver().equals(user2)||msg.getSender().equals(user2)){
-                chat.add(msg);
-            }
-        }
-        return chat;
-    }
-    public void newMessage(String text,String to) {
-        messageData.newMessage(userid,to,text);
-        getAllChat();
-    }
-    public void setTouched(String input) {
-        touched = input;
-    }
-    public String getTouched() {
-        return touched;
-    }
-    public ArrayList<Message> getLocalSearch(String word) {
-        ArrayList <Message> founded=new ArrayList<>();
-        getAllChat();
-        for(Message msg:sendRecived)if(msg.getText().contains(word))founded.add(msg);
-        founded= (ArrayList<Message>) orderByTime(founded);
-        return founded;
-    }
-}
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                    <compilerArgs>--enable-preview</compilerArgs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.7</version>
+                <executions>
+                    <execution>
+                        <!-- Default configuration for running with: mvn clean javafx:run -->
+                        <id>default-cli</id>
+                        <configuration>
+                            <mainClass>progettoispw.letmeknow/progettoispw.letmeknow.MainApplication</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

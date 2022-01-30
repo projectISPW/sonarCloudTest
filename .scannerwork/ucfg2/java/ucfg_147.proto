@@ -1,9 +1,18 @@
 
-Rprogettoispw.letmeknow.controller.FormResultController#getDate()Ljava/lang/String;©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("1*Ê
-1©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("¥
-©
-ûC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java (
-""B:8
-6progettoispw.letmeknow.controller.FormResultController
+Vprogettoispw.letmeknow.controller.usruser.ParameterSliders#getOpt()Ljava/lang/Integer;ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
+ 
+("1*ø
+1ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (˚
+¯
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
+%0java.lang.Integer"__id*G*E<
+:progettoispw.letmeknow.controller.usruser.ParameterSliders"
+opt"´
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
+
+%0java.lang.IntegerB><
+:progettoispw.letmeknow.controller.usruser.ParameterSliders

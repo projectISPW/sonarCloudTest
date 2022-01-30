@@ -60,14 +60,12 @@ public class SearchDAO {
             rst = query.getVisited(stmt, userid);
             prev.add(userid2);
             if (rst.next()) {
-                System.out.println("scansione lista ");
                 bool=true;
                 attach(rst.getString(1),userid2,prev);
                 attach(rst.getString(2),userid2,prev);
                 attach(rst.getString(3),userid2,prev);
             }
             if(!bool){
-                System.out.println("insert line");
                 bool=query.newLine(stmt,userid);
                 prev.add(null);
                 prev.add(null);
@@ -92,7 +90,6 @@ public class SearchDAO {
             
             rst = query.getnVisit(stmt, userid);
             if (rst.next()) {
-                System.out.println(rst.getString(5));
                 ret[0]=Integer.parseInt(rst.getString(5));
                 bool=false;
             }
@@ -100,10 +97,8 @@ public class SearchDAO {
                 bool=query.newLine(stmt,userid);
                 if(bool)ret[0]= Integer.parseInt(rst.getString(1));
             }
-            System.out.println("get recived visit"+ret[0]);
             rst = query.getnRows(stmt);
             if (rst.next()) ret [1]=Integer.parseInt(rst.getString(1));
-            System.out.println("get n visit"+ret[1]);
             return ret;
         } catch (Exception throwables) {
             return new int [2];
@@ -114,7 +109,6 @@ public class SearchDAO {
     public List<String> getVisit(String userid) {
         Statement stmt = null;
         ResultSet rst = null;
-        int ind = 1;
         ArrayList<String> users = new ArrayList<>();
         try {
             stmt = connDB.connection(stmt);

@@ -1,1 +1,1 @@
-µ 2javaXhrvprogettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java
+µ 2javaXHhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf2.java

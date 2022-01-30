@@ -20,4 +20,5 @@ public class CollectionFormBean {
     public void takeForm(){
         controller.takeForm();
     }
+    public String getUid(){return controller.getUserid();}
 }

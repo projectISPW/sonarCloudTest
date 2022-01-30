@@ -1,17 +1,0 @@
-
-_
-AX538jjfnYFqFi-Yp9lJ
-java:S1125"'Remove the unnecessary boolean literal.(¸¨Àúÿÿÿÿ8ğÇÁ¿ç/
-K
-java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8¨°…ƒê/
-Œ
-AX538jjfnYFqFi-Yp9lM
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø Òø8ğÇÁ¿ç/
-—
-AX538jjfnYFqFi-Yp9lN
-java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(¦ëçè8ğÇÁ¿ç/
-¨
-AX538jjfnYFqFi-Yp9lO
-java:S1319c"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İŸäúøÿÿÿÿ8ğÇÁ¿ç/
-ƒ
-AX6LGiKY8jl3765X9D-k	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çõĞ°8È“äØè/

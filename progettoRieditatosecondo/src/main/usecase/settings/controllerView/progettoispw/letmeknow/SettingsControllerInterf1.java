@@ -11,13 +11,14 @@ import javafx.scene.control.TextField;
 import progettoispw.letmeknow.bean.SettingsBean;
 
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class SettingsControllerInterf1 implements Initializable {
     private PageMenu controller;
     private SettingsBean bean;
+    private static final String DEFAULTBORDER="-fx-border-color: rgba(55, 125, 255,0.7)";
+    private static final String REDBORDER="-fx-border-color:red";
     @FXML
     PasswordField pswd;
     @FXML
@@ -39,7 +40,7 @@ public class SettingsControllerInterf1 implements Initializable {
         comb.setItems(FXCollections.observableArrayList("Italiano", "Inglese"));
     }
     @FXML
-    protected void goBack() throws IOException {
+    protected void goBack() {
         controller.backTo();
     }
     @FXML
@@ -47,21 +48,21 @@ public class SettingsControllerInterf1 implements Initializable {
         controller.switchTo("homepageEdit/interf1.fxml", event,"Edit");
     }
     @FXML
-    protected void goToHome(ActionEvent event) throws IOException {
+    protected void goToHome(ActionEvent event)  {
         controller.switchToHome(event);
     }
     @FXML
-    protected void goToChat(ActionEvent event) throws IOException {
+    protected void goToChat(ActionEvent event) {
         controller.switchToISC(event);
     }
     @FXML
     protected void setPswd()  {
-        pswd.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
-        confirmpswd.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
+        pswd.setStyle(DEFAULTBORDER);
+        confirmpswd.setStyle(DEFAULTBORDER);
         bool=bean.setPassword(pswd.getText(),pswd.getText());
         if(!bool){
-            pswd.setStyle("-fx-border-color: red");
-            confirmpswd.setStyle("-fx-border-color: red");
+            pswd.setStyle(REDBORDER);
+            confirmpswd.setStyle(REDBORDER);
         }else{
             pswd.setText("");
             confirmpswd.setText("");
@@ -74,10 +75,10 @@ public class SettingsControllerInterf1 implements Initializable {
     }
     @FXML
     protected void setMail (){
-        email.setStyle("-fx-border-color: rgba(55, 125, 255,0.7)");
+        email.setStyle(DEFAULTBORDER);
         bool=bean.setEmail(email.getText());
         if(!bool){
-            email.setStyle("-fx-border-color: red");
+            email.setStyle(REDBORDER);
         }else{
             email.setText("");
         }
@@ -85,16 +86,15 @@ public class SettingsControllerInterf1 implements Initializable {
     @FXML
     protected void setFeed(){
         feedback.setStyle("-fx-border-color: white");
-        System.out.println(feedback.getText());
         bool=bean.setFeed(feedback.getText());
         if(!bool){
-            feedback.setStyle("-fx-border-color: red");
+            feedback.setStyle(REDBORDER);
         }else{
             feedback.setText("");
         }
     }
     @FXML
-    protected void goToPersonalForm(ActionEvent event) throws IOException {
+    protected void goToPersonalForm(ActionEvent event) {
         controller.switchToPersonalForm(event);
     }
 

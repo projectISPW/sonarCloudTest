@@ -1,40 +1,17 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
-import progettoispw.letmeknow.bean.RecoverPswdBean;
+import progettoispw.letmeknow.controller.*;
 
-import java.io.IOException;
-
-public class RecoverPswdControllerInterf1
-{
-    private Page controller;
-    @FXML
-    TextField email;
-    @FXML
-    Label show;
-    private  RecoverPswdBean bean;
-    public void initialize(){
-        controller= new PageMenu();
-        bean=new RecoverPswdBean();
-        show.setOpacity(0);
+public class LoginBean {
+    private String userid;
+    private String password;
+    private LoginController controller;
+    public LoginBean (String user,String inputpassword){
+        this.userid=user;
+        this.password=inputpassword;
+        controller=new LoginController(userid,password);
     }
-    @FXML
-    public void sendMail( ){
-        show.setOpacity(0);
-        String address=email.getText();
-        Boolean bool=bean.sendMail(address);
-        if(bool==false){
-            show.setOpacity(1);
-        }
-        else controller.backTo();
+    public String exitValue(){
+       return  controller.tornaLog();
     }
-    @FXML
-    protected void backToLogin(ActionEvent event)  {
-        controller.backTo();
-    }
-
 }

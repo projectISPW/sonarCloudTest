@@ -1,86 +1,41 @@
-package progettoispw.letmeknow.controller.utentipsy;
+package progettoispw.letmeknow.controller.search;
 
-import progettoispw.letmeknow.controller.form.FormMeta;
-
-import java.util.ArrayList;
-
-public class Form implements FormMeta {
-    int formid;
-    String userid;
-    int [] answers;
-    public void setUserid(String userid) {
-        this.userid = userid;
+public class Sliders {
+    private  Integer emp;
+    private  Integer pos;
+    private Integer hum;
+    private  Integer[] coll=new Integer[3];
+    private Integer affinity;
+    public Sliders (Integer val ){
+        affinity=val;
     }
-    public String getUserid() {
-        return userid;
+    public int check(Integer val ){
+        if(val<=0)return 1;
+        return val;
     }
-    public void setFormid(int formid) {
-        this.formid = formid;
+    public void setHum(Integer val){
+        hum=val-affinity;
+        coll[1]=check(hum);
     }
-    public void setAnswers(int[] answersInp) {
-        answers = answersInp;
+    public void setPos(Integer val){
+        pos=val-affinity;
+        coll[2]=check(pos);
     }
-    public int getFormid() {
-        return formid;
+    public void setEmp(Integer val){
+        emp=val-affinity;
+        coll[0]=check(emp);
     }
-    public int[] getAnswers() {
-        return answers;
+    public Integer getEmp(){
+        return emp;
     }
-    public void getStatus(){
-        for(int i=0;i<answers.length;i++){System.out.println(answers[i]);}
+    public Integer getHum(){
+        return hum;
     }
-    public void getStatus(ArrayList<Form>forms){
-        for(Form elem :forms)elem.getStatus();
+    public Integer getPos(){
+        return pos;
     }
-    public ArrayList<Form> attach(int formid, int [] answers, String userid, ArrayList<Form> actual){
-        if(actual==null)actual=new ArrayList<>();
-        Form elem=new Form();
-        elem.setFormid(formid);
-        elem.setAnswers(answers);
-        elem.setUserid(userid);
-        actual.add(elem);
-        return actual;
-    }
-    public int getCounter(ArrayList<Form> input, int id){
-        int counter=0;
-        for(Form elem: input)if (elem.getFormid()==id)counter++;
-        return counter;
-    }
-    public Form getElem(ArrayList<Form> input, int val){
-        for(Form elem:input)if(elem.getFormid()==val)return elem;
-        return null;
+    public Integer [] getAll(){
+        return coll;
     }
 
-    public ArrayList<Form> getSum(ArrayList<Form> input) {
-        int[] ids = new int[FORMSID.length];
-        int[] answers;
-        int[] answersCompare;
-        ArrayList<Form> inner = new ArrayList<>();
-        Form form;
-        Boolean in ;
-        int val;
-        String id;
-        getStatus(input);
-        for (Form elem : input) {
-            val = elem.getFormid();
-            id=elem.getUserid();
-            answers = elem.getAnswers();
-            in=false;
-            for (int i : ids) if (val == i) in = true;
-            if (in) {
-                form = getElem(inner,val);
-                form.getStatus();
-                answersCompare = form.getAnswers();
-                for (int i = 0; i < answers.length; i++) {
-                    answers[i] += answersCompare[i];
-                }
-                form.setAnswers(answers);
-            } else {
-                inner = attach(val, answers,id, inner);
-                ids[val-1]=val;
-            }
-        }
-        getStatus(inner);
-        return inner;
-    }
 }

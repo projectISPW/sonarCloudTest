@@ -1,1 +1,1 @@
-w 2javaX;hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utenti/Query.java
+w 2javaXhr_progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java

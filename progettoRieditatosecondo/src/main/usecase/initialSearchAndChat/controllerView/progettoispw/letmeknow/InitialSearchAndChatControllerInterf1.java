@@ -9,14 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.ISCBean;
-import progettoispw.letmeknow.bean.BeanResultSearch;
-
-import java.io.IOException;
 
 public class InitialSearchAndChatControllerInterf1 {
     private PageMenu controller ;
     private String userid;
-    private final static String UID="userid";
+    private static final String UID="userid";
     @FXML
     Group group1;
     @FXML
@@ -63,13 +60,12 @@ public class InitialSearchAndChatControllerInterf1 {
             }
         });
     }
-    public String [] prev_outputValChat(Group [] group1,Group [] group2,int input ){
+    public String [] prevOutputValChat(Group [] group1, Group [] group2, int input ){
         chatExtGroup=group1;
         chatGroup=group2;
         nval=input;
         bean=new ISCBean(nval);
-        String [] out=outputValChat();
-        return out;
+        return outputValChat();
     }
     @FXML
     public  String [] outputValChat(){
@@ -103,7 +99,7 @@ public class InitialSearchAndChatControllerInterf1 {
         else{
             indice=string.indexOf("||");
             sub=string.substring(0,indice);
-            if(sub.equals(userid)==false) {
+            if(!sub.equals(userid)) {
                 return sub;
             }
             return string.substring(indice+2);

@@ -1,1 +1,1 @@
-Å 2javaXçhrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/utentiusr/UserDAO.java
+Å 2javaX hrjprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java

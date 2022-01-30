@@ -14,4 +14,5 @@ public class CollectionFormController {
     public void  takeForm(){
        ControllerClass.setResultForm();
     }
+    public String getUserid(){return ControllerClass.getUserUSR().getUserid();}
 }

@@ -1,1 +1,1 @@
-û 2javaXhrzprogettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java
+û 2javaXShrvprogettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerView/progettoispw/letmeknow/FormInterf2.java

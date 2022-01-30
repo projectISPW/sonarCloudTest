@@ -1,94 +1,43 @@
 
-eprogettoispw.letmeknow.controller.search.SearchDAO#paramSearch(Ljava/lang/String;III)Ljava/util/List;Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (#"13*—
-13Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (¥
-±
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (
-stmtjava.sql.Statement"__id*
-""≥
-∞
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (
-rstjava.sql.ResultSet"__id*
-""∫∑
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*
-%0java.util.ArrayList"java.util.ArrayListÃ
+Nprogettoispw.letmeknow.controller.LoginController#tornaLog()Ljava/lang/String;ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("4*˘
+2ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (Ã
 …
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (,
-%1"java.util.ArrayList#<init>()V*
-
-%0java.util.ArrayListƒ
-¡
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (-
-retjava.util.List"__id*
-
-%0java.util.ArrayList*
-11*≠
-5Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java$ $("†
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java$ $(
-
-retjava.util.List*ü
-6Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java"+ "(.çä
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java" "(/
-
-%5void"^progettoispw.letmeknow.controller.search.SearchDAO#attach(Ljava/lang/String;Ljava/util/List;)V*64
-2progettoispw.letmeknow.controller.search.SearchDAO*
-
-%4java.lang.String*
-
-retjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)*
-9*Å
-7Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java" "(∞
-≠
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java"% "((
-%3java.lang.String"__id*
-""ºπ
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java" "()
-%4java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-
-%3java.lang.String2getString(Ljava/lang/String;)*
-6*Ô
-9Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java! !(⁄◊
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java! !(
-%2boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-5
-7*∆
-10Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java   (;≥
-∞
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java   (;
-rstjava.sql.ResultSet"__id*
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
+strjava.lang.String"__id*
 ""*
-9*»
-11Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*¥
-±
-Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java (*
-stmtjava.sql.Statement"__id*
-""*
-10:
-uidjava.lang.String:
-"":
-"":
-""B64
-2progettoispw.letmeknow.controller.search.SearchDAO
+1*≥
+3ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (Ü
+É
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java+ (1
+%1java.lang.String"__id*A*?3
+1progettoispw.letmeknow.controller.LoginController"
+userid*
+1*á
+4ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (à
+Ö
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java& (.
+%0java.lang.String"__id*C*A3
+1progettoispw.letmeknow.controller.LoginController"
+
+passwordÃ
+…
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (0
+strjava.lang.String"__id*
+""*
+2
+3*Â
+1ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("Ω
+ü
+îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
+
+strjava.lang.StringB53
+1progettoispw.letmeknow.controller.LoginController

@@ -1,7 +1,7 @@
 package progettoispw.letmeknow.controller;
 
 import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
 
 public class SearchController {
     private Search find;
@@ -22,7 +22,7 @@ public class SearchController {
         find.parametricSetSearch(input);
     }
     public void toMe(){
-        UtenteUsr me =ControllerClass.getUserUSR();
+        UsrUser me =ControllerClass.getUserUSR();
         enterAffinity(0);
         enterGoal(me.getTag());
         enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getOpt()} );

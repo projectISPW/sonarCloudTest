@@ -1,12 +1,0 @@
-
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¹‡ß©øÿÿÿÿ
-h	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Ø¢öúÿÿÿÿ
-B
-java:S1125j"'Remove the unnecessary boolean literal.(Ù‚°†úÿÿÿÿ
-k
-java:S1128"IRemove this unused import 'progettoispw.letmeknow.bean.BeanResultSearch'.(…·„òûÿÿÿÿ8àŽ¸„ê/
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8áŽ¸„ê/
-v
-java:S1488G"[Immediately return this expression instead of assigning it to the temporary variable "out".(²·Ú’úÿÿÿÿ

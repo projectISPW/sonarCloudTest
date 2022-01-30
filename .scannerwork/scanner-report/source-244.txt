@@ -1,82 +1,99 @@
-//ln 45-46 duplicated code, i put it out of the if/else
 package progettoispw.letmeknow;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
+
 import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.CollectionFormBean;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-import progettoispw.letmeknow.bean.UseridBean;
+import javafx.util.Duration;
+import progettoispw.letmeknow.bean.ChatBean;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-public class FormCollectionResultsInterf1 {
-    PageMenu controller;
-    CollectionFormBean bean;
+
+import javafx.animation.Timeline;
+
+
+public class ChatControllerInterf1 {
     @FXML
-    protected Text idUser;
-    public FormCollectionResultsInterf1(){
-        bean=new CollectionFormBean();
+    private AnchorPane messaggi;
+    @FXML
+    private TextArea inputmsg;
+    @FXML
+    private ScrollPane scrollpane;
+    @FXML
+    protected Text withName;
+    protected  boolean initializated;
+    protected  PageMenu controller;
+    protected ChatBean bean;
+    protected  String [] message;
+    protected  CSS graphic;
+    protected Timeline timeline;
+    public ChatControllerInterf1() {
+        bean=new ChatBean();
+        graphic=new CSS(true);
+        initializated=false;
         controller=new PageMenu();
-    }
-    public void initialize(){
-        UseridBean useridBean=new UseridBean();
-        idUser.setText("User"+ useridBean.getUserId());
+        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::action));
+        timeline.setCycleCount(Animation.INDEFINITE);//never stop
     }
     @FXML
-    protected void goToSettings(ActionEvent event) {
-        controller.switchToSettings(event);
+    protected void sendMsg() {
+        bean.newMsg(inputmsg.getText());
+        recivemsgArr();
+        inputmsg.setText("");
     }
-    protected  void which(int i,ActionEvent event){
-        bean.setTouched(i);
-        String name,title;
-        FormToTakeStatusBean formBean=new FormToTakeStatusBean();
-        if(formBean.getComplete()==6){
-            name="formResult/form"+i+"interf1.fxml";
+    private  void action(ActionEvent event ){
+        if(initializated) {
+            recivemsgArr();
         }
-        else{
-            name="formToTake/form"+i+"interf1.fxml";
-        } title="form"+i;
-        controller.switchTo(name,event,title);
     }
-    @FXML
-    protected void urResult(ActionEvent event) {
-        Button button=(Button) event.getTarget();
-        switch(button.getText()){
-            case "FORM 3":{
-                which(3,event);
-                break;
+    public void  recivemsgArr() {
+        bean.getChat();
+        message = bean.getMSG();
+        Label textmsg;
+        for (int i = 0; i < message.length; i += 2) {
+            graphic.setText(message[i]);
+            if (message[i + 1].equals("i am the sender")) {
+                textmsg = graphic.getMessageSended();
+            } else {
+                textmsg = graphic.getMessageRecived();
             }
-            case "FORM 1":{
-                which(1,event);
-                break;
-            }
-            case "FORM 2":{
-                which(2,event);
-                break;
-            }
+            messaggi.getChildren().add(textmsg);
+            messaggi.setPrefHeight(graphic.getAumenta());
+            scrollpane.setVvalue(1.0);
         }
-
+        initializated=true;
+    }
+    public void  initialize(){
+        withName.setText("User #"+bean.getWith());
+        recivemsgArr();
+        timeline.play();
     }
     @FXML
-    public void takeForm(ActionEvent event){
-        bean.takeForm();
-        FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
-        int val = innerBean.getFormId();
-        if(innerBean.getComplete()<=6){
-            controller.switchTo("formToTake/form"+val+"interf1.fxml",event,"form"+val);
-        }
-        else{
-            controller.switchTo("formResult/form"+val+"interf1.fxml",event,"form"+val);
-        }
-    }
-    @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
-    }
-    @FXML
-    protected  void goToPersonalForm(ActionEvent event){
+    protected void goToHome(ActionEvent event){
+        timeline.stop();
         controller.switchToHome(event);
     }
     @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+    protected void goBack(ActionEvent event) {
+        timeline.stop();
+        controller.switchToISC(event);
+    }
+    @FXML
+    protected void goToPersonalForm(ActionEvent event)  {
+        timeline.stop();
+        controller.switchToPersonalForm(event);
+    }
+    @FXML
+    protected void touchedHome(ActionEvent event){
+        BeanResultSearch visitBean=new BeanResultSearch();
+        visitBean.touched(bean.getWith());
+        timeline.stop();
+        controller.switchTo("homepageOthers/interf1.fxml",event,"Visit");
+    }
 }

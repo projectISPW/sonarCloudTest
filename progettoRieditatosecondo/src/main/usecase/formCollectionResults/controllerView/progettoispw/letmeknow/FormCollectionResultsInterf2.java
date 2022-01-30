@@ -38,7 +38,6 @@ public class FormCollectionResultsInterf2 extends FormCollectionResultsInterf1 {
             e.printStackTrace();
         }
     }
-    @FXML
     public void takeForm(){
         try {
             bean.takeForm();

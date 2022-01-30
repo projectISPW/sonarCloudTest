@@ -1,20 +1,26 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.utenti.SalvaUtente;
+import progettoispw.letmeknow.controller.SettingsController;
 
-public class SignupController {
-    private SalvaUtente user;
-    public SignupController(){
-        user=new SalvaUtente();
+public class SettingsBean {
+    SettingsController controller;
+    SignupBean checkBean;
+    public SettingsBean(){
+        controller=new SettingsController();
+        checkBean=new SignupBean();
     }
-    public boolean checkMail(String input){
-        System.out.println("mail check in controller"+user.checkEmail(input));
-        return !user.checkEmail(input);
+    public void closeConnection(){
+        controller.closeConnection();
     }
-    public boolean signup(String password,String type,String email,int [] val,String description,String goal){
-        return user.registrationUSR(password,email,type,val,description,goal);
+    public boolean setPassword(String pswd,String confirmpswd){
+        if(checkBean.checkPswd(pswd,confirmpswd))return controller.setPassword(pswd);
+        else return false;
     }
-    public boolean signup(String password,String type,String email){
-        return user.registrationPSY(password,email,type);
+    public boolean setEmail(String input){
+        if(checkBean.checkEmail(input,true))return controller.setEmail(input);
+        else return false;
+    }
+    public boolean setFeed(String input){
+        return controller.feed(input);
     }
 }

@@ -1,1 +1,1 @@
-¨ 2javaXchrqprogettoRieditatosecondo/src/main/usecase/login/controllerView/progettoispw/letmeknow/LoginControllerInterf1.java
+¨ 2javaXhrpprogettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/bean/UseridBean.java

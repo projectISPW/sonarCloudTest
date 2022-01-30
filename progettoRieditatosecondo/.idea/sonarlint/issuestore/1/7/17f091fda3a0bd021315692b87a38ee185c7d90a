@@ -1,16 +1,0 @@
-
-S	java:S1061"9Replace this use of System.out or System.err by a logger.(‘ıÊäÿÿÿÿÿ
-t
-java:S3012<"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ĞØ¶Öşÿÿÿÿ
-S
-java:S1128	"8Remove this unused import 'javafx.scene.control.Button'.(Ë Í‹øÿÿÿÿ
-W
-java:S1128"ARemove this unused import 'progettoispw.letmeknow.bean.ChatBean'.(µé‹İ
-[
-java:S1128"@Remove this unused import 'progettoispw.letmeknow.bean.ISCBean'.(¯¡¦êÿÿÿÿÿ
-Y
-java:S1128"CRemove this unused import 'progettoispw.letmeknow.bean.SearchBean'.(šóúè
-D
-java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
-P
-java:S1128"5Remove this unused import 'java.util.ResourceBundle'.(ıÆ£¯øÿÿÿÿ

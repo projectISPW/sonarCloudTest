@@ -1,14 +1,16 @@
 
-Dprogettoispw.letmeknow.bean.HomepageBean#getGoal()Ljava/lang/String;ô
-éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*ê
-1ô
-éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*«
-ƒ
-ô
-éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java   (*
-goaljava.lang.String"__id*
-"""§
-ô
-éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java! !($
-""B,*
-(progettoispw.letmeknow.bean.HomepageBean
+@progettoispw.letmeknow.bean.ChatBean#getWith()Ljava/lang/String;ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("1*¥
+1ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (È
+Ê
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
+%0java.lang.String"__id*2*0&
+$progettoispw.letmeknow.bean.ChatBean"
+with"Æ
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
+
+%0java.lang.StringB(&
+$progettoispw.letmeknow.bean.ChatBean

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="Result_Visit" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ResultSearchControllerInterf2">
+<AnchorPane fx:id="resultVisit" prefHeight="780.0" prefWidth="765.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.ResultSearchControllerInterf2">
    <children>
       <Text layoutX="284.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Results" wrappingWidth="187.39027404785156">
          <font>

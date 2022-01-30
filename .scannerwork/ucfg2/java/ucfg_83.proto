@@ -1,36 +1,9 @@
 
-aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaB B("4*¨
-2€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaE E(*"Ÿ
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaE E(*
-
-%1java.sql.ResultSet*”
-3€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaD D(N¿
-¼
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaD D(N
-sqljava.lang.String"__id*
-
-%0java.lang.StringÄÁ
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaE E()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*¿
-4€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaD D(±
-®
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaD D(M
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*)'
-%SELECT COUNT(*) FROM recently_visited*
-3:
-stmtjava.sql.StatementB20
-.progettoispw.letmeknow.controller.search.Query
+Fprogettoispw.letmeknow.bean.HomepageBean#getData()[Ljava/lang/Integer;™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java" "("1*Æ
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java# #("¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java# #($
+""B,*
+(progettoispw.letmeknow.bean.HomepageBean

@@ -1,5 +1,6 @@
 package progettoispw.letmeknow;
 
+import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
@@ -31,23 +32,22 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
         graphic=new CSS(false);
         userid=bean.getUid();
         timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
-        timeline.setCycleCount(Timeline.INDEFINITE);//never stop
+        timeline.setCycleCount(Animation.INDEFINITE);//never stop
     }
     private void recivemsgArr(ActionEvent event){
         if(initializated) {
             addUser();
             recivemsgArr();
-            System.out.println(" i am alive");
         }
     }
-    @FXML
+    @FXML@Override
     protected void sendMsg() {
         super.sendMsg();
         addUser();
     }
+    @FXML@Override
     public void  initialize(){
         addUser();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("buttonBarInterf2.fxml"));
         try {
             if(bean.getWith()==null){
                 anchorChat.getChildren().removeAll(anchorChat.getChildren());
@@ -64,10 +64,10 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
         if(input.length()<=8){
             return input;
         }
-        int indice=-1;
+        int indice;
         indice=input.indexOf("||");
         String sub=input.substring(0,indice);
-        if(sub.equals(userid)==false) {
+        if(!sub.equals(userid)) {
             return sub;
         }
         return input.substring(indice+2);
@@ -104,7 +104,6 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
     public void searchMessage(){
         iscBean.search(searchBar.getText());
-        System.out.println("searching for new message");
         timeline.stop();
         addUser();
     }
@@ -120,8 +119,8 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
         timeline.stop();
         controller.switchToChat(actionEvent);
     }
-    @FXML
-    private void touchedHome(ActionEvent event){
+    @FXML@Override
+    protected void touchedHome(ActionEvent event){
         BeanResultSearch visitBean=new BeanResultSearch();
         visitBean.touched(bean.getWith());
         goToSearch(event);

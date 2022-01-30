@@ -1,9 +1,41 @@
 
-Aprogettoispw.letmeknow.controller.form.ResultForm#getRisposte()[Iƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaH H("1*š
-1ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaI I("Ž
-ƒ
-yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaI I(
-""B53
-1progettoispw.letmeknow.controller.form.ResultForm
+lprogettoispw.letmeknow.controller.user.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Z~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java9 9("5*Ž
+3~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java= =("ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java= =(
+""*í
+4
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(‰½
+º
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(‰
+sqljava.lang.String"__id*
+
+%0java.lang.String¡ž
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java< <(#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*£
+5~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(˜
+•
+
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(ˆ
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*ZX
+V INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);*
+
+fromjava.lang.String*
+
+whatjava.lang.String*
+4:
+stmtjava.sql.Statement:
+fromjava.lang.String:
+whatjava.lang.StringB0.
+,progettoispw.letmeknow.controller.user.Query

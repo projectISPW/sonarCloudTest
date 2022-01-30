@@ -1,7 +1,6 @@
 package progettoispw.letmeknow.controller.chat;
 
 
-import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,13 +23,13 @@ public class Messages {
         messageData.getRecivedSentMessage(userid);
         return sendRecived;
     }
-    public void attach(String usr,ArrayList<String>list){
-        if (list.contains(usr)==false) {
+    public void attach(String usr,List<String>list){
+        if (list.contains(usr)) {
             list.add(usr);
         }
     }
     public List<String> getUsers(){
-        ArrayList<String> users=new ArrayList<String>();
+        ArrayList<String> users=new ArrayList<>();
         ArrayList<Message>inner= (ArrayList<Message>)getAllChat();
         for(Message msg:inner){
             attach(msg.getSender(),users);
@@ -39,20 +38,20 @@ public class Messages {
         users.remove(userid);
         return users;
     }
-    public List<Message>orderByTime(List<Message>V){
+    public List<Message>orderByTime(List<Message>list){
         Message temp;
         int j;
-        for(int i =0;i<V.size();i++){
-            temp=V.get(i);
+        for(int i =0;i<list.size();i++){
+            temp=list.get(i);
             j=i;
-            while(j>0 &&   temp.getDate().isAfter(V.get(j-1).getDate()))
+            while(j>0 &&   temp.getDate().isAfter(list.get(j-1).getDate()))
             {
-                V.set(j,V.get(j-1));
+                list.set(j,list.get(j-1));
                 j=j-1;
             }
-            V.set(j,temp);
+            list.set(j,temp);
         }
-        return V;
+        return list;
     }
     public List<Message> getLast(){
         List<Message> lastmessages;
@@ -96,7 +95,7 @@ public class Messages {
     public String getTouched() {
         return touched;
     }
-    public ArrayList<Message> getLocalSearch(String word) {
+    public List<Message> getLocalSearch(String word) {
         ArrayList <Message> founded=new ArrayList<>();
         getAllChat();
         for(Message msg:sendRecived)if(msg.getText().contains(word))founded.add(msg);

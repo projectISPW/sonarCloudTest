@@ -1,14 +1,40 @@
 
-=progettoispw.letmeknow.bean.FormToTakeStatusBean#getFormId()I£
-òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("2"1*⁄
-2£
-òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("Æ
-£
-òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (
-""*⁄
-1£
-òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("Æ
-£
-òC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (
-""B42
-0progettoispw.letmeknow.bean.FormToTakeStatusBean
+Sprogettoispw.letmeknow.controller.user.InitialUser#checkUtente(Ljava/lang/String;)ZÑ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaP P("3*Æ
+2Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaR R(Ó
+Î
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaR R(
+%1java.lang.String"__id*D*B4
+2progettoispw.letmeknow.controller.user.InitialUser"
+
+passwordûõ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaR R(-
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+
+	pswdInputjava.lang.String2equals(Ljava/lang/Object;)"è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaR R(.
+""*É
+3Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaQ Q(Ó
+Î
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaQ Q(
+%0java.lang.String"__id*D*B4
+2progettoispw.letmeknow.controller.user.InitialUser"
+
+password*
+2
+1*ú
+1Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaT T("è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaT T(
+"":
+	pswdInputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

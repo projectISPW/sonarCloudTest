@@ -12,7 +12,6 @@ public class LoginBean {
         controller=new LoginController(userid,password);
     }
     public String exitValue(){
-        String output= controller.tornaLog();
-        return output;
+       return  controller.tornaLog();
     }
 }

@@ -12,7 +12,6 @@ public class ChatController {
     private String with;
     public ChatController(){
         actChat=ControllerClass.getChat();
-        System.err.println("dall controller applicativo "+actChat.getTouched());
         with=actChat.getTouched();
     }
     public void  newMSG(String text){

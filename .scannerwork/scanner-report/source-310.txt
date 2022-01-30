@@ -1,39 +1,23 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
 
+import progettoispw.letmeknow.controller.*;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import progettoispw.letmeknow.PageMenu;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
-import progettoispw.letmeknow.controller.utentipsy.UtentePsy;
-
-public class SettingsController {
-    UtenteUsr userU;
-    UtentePsy userP;
-    ConnectionDBMS connection;
-    public SettingsController(){
-        userU= ControllerClass.getUserUSR();
-        userP=ControllerClass.getUserPsy();
-        connection=new ConnectionDBMS();
+public class SearchBean {
+    private SearchController controller;
+    public SearchBean(){
+        controller=new SearchController();
     }
-    public void closeConnection(){
-        connection.closeCONN();
+    public void enterParamSearch(Integer [] input){
+        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
+            controller.enterParamSearch(input);
+        }
     }
-    public boolean setPassword(String input){
-        if(userU!=null)return userU.setPassword(input);
-        else return userP.setPassword(input);
+    public void enterGoalSearch(String input){
+        controller.enterGoal(input);
     }
-    public boolean setEmail(String input){
-        if(userU!=null)return userU.setEmail(input);
-        else return userP.setEmail(input);
-    }
-    public boolean feed(String input){
-        if(userU!=null)return userU.setFeed(input);
-        else return userP.setFeed(input);
-    }
-    @FXML
-    public void backTo(ActionEvent event){
-        PageMenu controller=new PageMenu();
-        controller.backTo();
+    public void enterDescrSearch(String input){controller.enterDes(input);}
+    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
+    public void toMe(){
+        controller.toMe();
     }
 }

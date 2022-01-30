@@ -1,13 +1,7 @@
 package progettoispw.letmeknow.controller.form;
 
 import progettoispw.letmeknow.controller.ControllerClass;
-import progettoispw.letmeknow.controller.utentiusr.UtenteUsr;
-
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
 
 public class ResultForm {
     private String userid;
@@ -53,7 +47,7 @@ public class ResultForm {
         return formid;
     }
     private void queryComplete(){
-        UtenteUsr user= ControllerClass.getUserUSR();
+        UsrUser user= ControllerClass.getUserUSR();
         date= formData.queryData(userid,formid);
         if(date ==null){
             formData.setCalculated(userid,formid);

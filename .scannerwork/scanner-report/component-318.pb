@@ -1,1 +1,1 @@
-¾ 2javaX%hr|progettoRieditatosecondo/src/main/usecase/visit/controllerApplicative/progettoispw/letmeknow/controller/VisitController.java
+¾ 2javaX2hrrprogettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java
