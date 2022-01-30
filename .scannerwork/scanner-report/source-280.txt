@@ -1,37 +1,38 @@
-package progettoispw.letmeknow.controller;
+package progettoispw.letmeknow.bean;
+import progettoispw.letmeknow.WordCheck;
+import progettoispw.letmeknow.controller.HomepageController;
 
-import progettoispw.letmeknow.controller.usruser.UsrUser;
+import java.util.Calendar;
 
-public class HomepageEditController {
-    UsrUser user;
-    HomepageController compare;
-    public HomepageEditController(){
-        user = ControllerClass.getUserUSR();
-        compare=new HomepageController();
-    }
-    public String getUserID(){
-        return user.getUserid();
-    }
-    public boolean setDes(String input) {
-        if(!compare.getDescription().equals(input)){
-            return user.setPersonalDes(input);
-        }
-        return true;
-    }
-    public boolean setGoal(String input){
-        if(!compare.getGoal().equals(input)){
-            return user.setPersonalGoal(input);
-        }
-        return true;
-    }
-    public boolean setDate(String input){
-        return user.setPersonalData(input);
-    }
-    public boolean setTag(String input){
-        if(!compare.getTag().equals(input)){
-            return user.setPersonalTag(input);
-        }
-        return true;
-    }
 
+public class HomepageBean {
+    private HomepageController controller;
+    public HomepageBean(boolean visit){
+        controller=new HomepageController(visit);
+    }
+    public String getUserId() {
+        return controller.getUserID();
+    }
+    public Integer[] getParam(){
+        return controller.getParam();
+    }
+    public String getDescription(){
+        return  controller.getDescription();
+    }
+    public String getTag(){
+        WordCheck checkStr=new WordCheck(3,20);
+        String tag=controller.getTag();
+        tag=checkStr.check1(tag,"\n");
+        tag=checkStr.check(tag);
+        return tag;
+    }
+    public String getGoal(){
+        WordCheck checkStr=new WordCheck(3,20);
+        String goal= controller.getGoal();
+        return checkStr.check(goal);
+    }
+    public Integer[] getData(){
+        return controller.getDate();
+    }
+    public boolean getExpired(){return controller.getExpired();}
 }

@@ -1,1 +1,1 @@
-€ 2javaX@hr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Goal.java
+€ 2javaXZhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java

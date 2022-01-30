@@ -54,12 +54,10 @@ public class FormPsychologistResultInterf1 {
             int index = i;
             sliders[i].setValue(values[i+1]);
             labels[i].setText(String.valueOf(values[i+1]));
-            sliders[i].valueProperty().addListener(new ChangeListener<>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+            sliders[i].valueProperty().addListener(
+                    (ObservableValue<? extends Number> observableValue, Number number, Number t1) ->{
                     sliders[index].setValue(values[index+1]);
                     labels[index].setText(String.valueOf(values[index+1]));
-                }
             });
         }
         by.setText((int)values[0]+"users");

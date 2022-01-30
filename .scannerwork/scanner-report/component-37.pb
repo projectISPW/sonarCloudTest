@@ -1,1 +1,1 @@
-% 2xmlXhr'progettoRieditatosecondo/.idea/misc.xml
+% 2xmlXhr*progettoRieditatosecondo/.idea/modules.xml

@@ -35,7 +35,7 @@ public class Search {
         ArrayList<String>inner= (ArrayList<String>) searchData.paramSearch(userid, 1, 1, 1);
         for(String elem:inner){
             UsrUser user=new UsrUser(elem);
-            if(user.getTag().contains(goal)){
+            if((user.getTag()!=null) && user.getTag().contains(goal)){
                 foundList.add(elem);
             }
         }

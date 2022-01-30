@@ -1,1 +1,1 @@
-µ 2javaXHhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf2.java
+µ 2javaX`hrjprogettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java

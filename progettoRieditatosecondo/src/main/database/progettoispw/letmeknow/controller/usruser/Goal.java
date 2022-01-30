@@ -9,7 +9,7 @@ public class Goal {
     public Goal(){
         obiettivo= "";
         tag="#";
-        dataEuropean=new Integer[]{0,0,0};
+        dataEuropean=new Integer[]{1,1,1};
     }
     public void setObiettivo(String string){
         obiettivo=string;

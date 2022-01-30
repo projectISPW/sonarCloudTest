@@ -1,70 +1,128 @@
-//var on same line
 package progettoispw.letmeknow;
 
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
+import javafx.util.Duration;
+import progettoispw.letmeknow.bean.BeanResultSearch;
+import progettoispw.letmeknow.bean.ISCBean;
 
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormResultBean;
+import java.io.IOException;
 
-
-public class FormResultInterf1 {
+public class ChatControllerInterf2 extends ChatControllerInterf1{
     @FXML
-    ImageView empathySlider;
+    AnchorPane listUtenti;
     @FXML
-    ImageView humorSlider;
+    TextField searchBar;
     @FXML
-    ImageView optimismSlider;
-    ImageView [] param;
+    AnchorPane anchorChat;
     @FXML
-    ImageView ans1;
-    @FXML
-    ImageView ans2;
-    @FXML
-    ImageView ans3;
-    @FXML
-    ImageView ans4;
-    @FXML
-    ImageView ans5;
-    @FXML
-    ImageView ans6;
-    ImageView [] images;
-    @FXML
-    Text by;
-    FormResultBean bean ;
-    PageMenu controller ;
-    int [] values;
-    public FormResultInterf1(){
-        bean=new FormResultBean();
-        controller=new PageMenu();
+    AnchorPane buttonBar;
+    ISCBean iscBean;
+    private String userid;
+    public ChatControllerInterf2(){
+        super();
+        iscBean=new ISCBean();
+        graphic=new CSS(false);
+        userid=bean.getUid();
+        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
+        timeline.setCycleCount(Animation.INDEFINITE);//never stop
     }
-    public void initialize(){
-        HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
-        controller=new PageMenu();
-        values=bean.exitValStatus();
-        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
-        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
-        int indice=0;
-        for(ImageView image:images ){
-            homepage.setSlider(image,values[indice++]);
+    private void recivemsgArr(ActionEvent event){
+        if(initializated) {
+            addUser();
+            recivemsgArr();
         }
-        values= bean.getParam();
-        indice=0;
-        for(ImageView image:param){
-            homepage.setSlider(image,values[indice++]);
+    }
+    @FXML@Override
+    protected void sendMsg() {
+        super.sendMsg();
+        addUser();
+    }
+    @FXML@Override
+    public void  initialize(){
+        addUser();
+        try {
+            if(bean.getWith()==null){
+                anchorChat.getChildren().removeAll(anchorChat.getChildren());
+                anchorChat.getChildren().add((Node) FXMLLoader.load(getClass().getResource("chat/chatVoid.fxml")));
+                return ;
+            }
+        } catch (IOException e) {
+            buttonBar.getChildren().removeAll(buttonBar.getChildren());
+            anchorChat.getChildren().removeAll(anchorChat.getChildren());
         }
-        by.setText(bean.getData());
+        super.initialize();
+    }
+    public String checkUsrId(String input){
+        if(input.length()<=8){
+            return input;
+        }
+        int indice;
+        indice=input.indexOf("||");
+        String sub=input.substring(0,indice);
+        if(!sub.equals(userid)) {
+            return sub;
+        }
+        return input.substring(indice+2);
+    }
+    private void goChat(ActionEvent event){
+        Button button=(Button)event.getTarget();
+        String who=button.getText();
+        who=checkUsrId(who);
+        iscBean.touched(who);
+        controller.switchToChat(event);
+    }
+    public  void addUser(){
+        listUtenti.getChildren().removeAll(listUtenti.getChildren());
+        graphic.setHList();
+        Button userButton;
+        Label msgLabel;
+        String [][] innerusers =iscBean.exitUid();
+        String [] uid=innerusers[0];
+        String [] msg=innerusers[1];
+        for(int i=0;i< uid.length;i++){
+            userButton=graphic.getButton(uid[i]);
+            msgLabel=graphic.getLabel(msg[i]);
+            userButton.setOnAction(this::goChat);
+            listUtenti.getChildren().addAll(userButton,msgLabel);
+            listUtenti.setPrefHeight(graphic.getHlist());
+        }
+        searchBar.textProperty().addListener((observableValue, s, t1) -> {
+            if(searchBar.getText().equals("")){
+                iscBean.reset();
+                timeline.play();
+            }
+        });
     }
     @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
+    public void searchMessage(){
+        iscBean.search(searchBar.getText());
+        timeline.stop();
+        addUser();
     }
-    @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
-    @FXML
-    public void goBack(ActionEvent actionEvent) {
-        controller.switchToPersonalForm(actionEvent);
+    public void goToSettings(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSettings(actionEvent);
+    }
+    public void goToSearch(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToSearch(actionEvent);
+    }
+    public void goToChat(ActionEvent actionEvent) {
+        timeline.stop();
+        controller.switchToChat(actionEvent);
+    }
+    @FXML@Override
+    protected void touchedHome(ActionEvent event){
+        BeanResultSearch visitBean=new BeanResultSearch();
+        visitBean.touched(bean.getWith());
+        goToSearch(event);
     }
 }

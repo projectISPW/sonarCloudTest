@@ -1,71 +1,96 @@
 package progettoispw.letmeknow;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
-import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.layout.AnchorPane;
-import progettoispw.letmeknow.bean.BeanResultSearch;
-import java.io.IOException;
-public class ResultSearchControllerInterf2{
-    @FXML
-    private Group group1;
-    @FXML
-    private Group group2;
-    @FXML
-    private Group group3;
-    @FXML
-    private Group group4;
-    @FXML
-    Group group5;
-    @FXML
-    Group group6;
-    @FXML
-    AnchorPane resultVisit;
-    String [] uids;
-    public ResultSearchControllerInterf2(){
-        uids=new String[6];
+public class WordCheck {
+    private  int goAhead;
+    private int delta;
+    private String text;
+    public WordCheck(int deltaInput, int goAheadInput){
+        delta=deltaInput;
+        goAhead=goAheadInput;
     }
-    public ResultSearchControllerInterf2(String [] input){
-        uids=input;
+    public WordCheck(){
+        delta=goAhead=-1;
     }
-    public void initialize(){
-        outputVal();
-    }
-    public void visit(ActionEvent event) {
-        BeanResultSearch  visitBean=new BeanResultSearch();
-        Button button=(Button) event.getTarget();
-        if(button.getOpacity()<1)return ;
-        switch(button.getId()){
-            case "home1" :visitBean.touched(uids[0]);break;
-            case "home2" :visitBean.touched(uids[1]);break;
-            case "home3" :visitBean.touched(uids[2]);break;
-            case "home4" :visitBean.touched(uids[3]);break;
-            case "home5" :visitBean.touched(uids[4]);break;
-            case "home6" :visitBean.touched(uids[5]);break;
-            default:{
-                event.consume();
+    public  String check(String inputText) {
+        if(inputText==null)return null;
+        String add;
+        String before;
+        int count=goAhead-delta;
+        for (int k = goAhead-delta; k < inputText.length(); k = k+1) {
+            if(inputText.toCharArray()[k]=='\n'){
+                count=0;
+            }
+            if (count==goAhead){
+                add = inputText.substring(k);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count =0;
+            } else if(((count%goAhead)>(goAhead-delta)) && inputText.toCharArray()[k]== 32){
+                add = inputText.substring(k+1);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count=0;
+            }else{
+                count++;
             }
         }
-        if(resultVisit !=null)switchPane();
+        text=inputText;
+        return  inputText;
     }
-    public void switchPane(){
-        try {
-            resultVisit.getChildren().removeAll(resultVisit.getChildren());
-            resultVisit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageOthers/interf2.fxml")));
-        } catch (IOException e) {
-            resultVisit.getChildren().removeAll(resultVisit.getChildren());
-        }
+    public String check1(String inputText,String immetti){
+        if(inputText==null)return null;
+        String add;
+        String before;
+        int start=inputText.indexOf('#');
+        int k=0;
+        for(char c : inputText.toCharArray()){
+            if(c=='#' && k!=start)
+            {
+                    add = inputText.substring(k);
+                    before = inputText.substring(0, k);
+                    inputText = before + immetti + add;
+                    ++k;
 
+            }++k;
+        }
+        return inputText;
     }
-    public void touchChat(ActionEvent actionEvent) {
-        InitialSearchAndChatControllerInterf1 iscController=new InitialSearchAndChatControllerInterf1();
-        iscController.touchChat(actionEvent);
+    public Integer contaInvio(String inputText){
+        Integer contAhead=1;
+        for(char c : inputText.toCharArray()){
+            if(c=='\n'){
+                contAhead++;
+            }
+        }
+        return contAhead;
     }
-    public void outputVal() {
-        ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        uids=rscInterf1.prevOutputVal(new Group[]{group1,group2,group3,group4,group5,group6},6);
+    public int highText() {
+        int linee= contaInvio(text);
+        if(linee>4){
+            return linee* 21;
+        }
+        return 60;
+    }
+    public  String checkLen(String inputText,int lenMax){
+        if(inputText==null)return " ";
+        inputText=inputText.replace("\\n","");
+        inputText=inputText.replace("\\r","");
+        inputText=inputText.replace("\n","");
+        if(inputText.length()<lenMax)return inputText;
+        else {
+            return inputText.substring(0,lenMax)+"...";
+        }
+    }
+    public  String checkAhead(String inputText){
+        int k=0;
+        if(inputText==null)return null;
+        for(char c : inputText.toCharArray()){
+            if(c=='\n')
+            {
+                inputText.toCharArray()[k]=' ';
+            }++k;
+        }
+        return inputText;
     }
 }
+//abcdefghilmnopqrstuvz123456789

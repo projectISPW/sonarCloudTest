@@ -18,8 +18,6 @@ public class ConnectionInfo {
 
 
     private static void getElements(){
-
-        String id;
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
         try{
@@ -28,9 +26,6 @@ public class ConnectionInfo {
             Document doc = db.parse(new File(FILENAME));
 
             doc.getDocumentElement().normalize();
-
-            //Node Element <connection>
-            //get <parameters>
             NodeList list = doc.getElementsByTagName("parameters");
 
             for(int temp=0; temp < list.getLength(); temp++){
@@ -40,8 +35,6 @@ public class ConnectionInfo {
                     Element element = (Element) node;
 
                     //Get attributes
-                    id=element.getAttribute("id");
-
                     //Actual connection parameters from XML
                     user = element.getElementsByTagName("username").item(0).getTextContent();
                     pass = element.getElementsByTagName("password").item(0).getTextContent();

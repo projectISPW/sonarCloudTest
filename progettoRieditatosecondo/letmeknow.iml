@@ -57,10 +57,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="fontawesomefx-8.2" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.25" level="project" />
-    <orderEntry type="library" name="javax.mail" level="project" />
     <orderEntry type="library" name="activation-1.1" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.251" level="project" />
-    <orderEntry type="library" name="fontawesomefx-8.21" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.0.1" level="project" />
@@ -76,6 +74,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
     <orderEntry type="library" name="activation-1.11" level="project" />
+    <orderEntry type="library" name="javax.mail2" level="project" />
+    <orderEntry type="library" name="javax.mail (2)" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="sqPathPrefix" value="progettoRieditatosecondo" />

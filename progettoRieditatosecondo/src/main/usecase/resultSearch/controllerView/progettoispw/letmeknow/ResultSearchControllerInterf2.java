@@ -35,20 +35,8 @@ public class ResultSearchControllerInterf2{
         outputVal();
     }
     public void visit(ActionEvent event) {
-        BeanResultSearch  visitBean=new BeanResultSearch();
-        Button button=(Button) event.getTarget();
-        if(button.getOpacity()<1)return ;
-        switch(button.getId()){
-            case "home1" :visitBean.touched(uids[0]);break;
-            case "home2" :visitBean.touched(uids[1]);break;
-            case "home3" :visitBean.touched(uids[2]);break;
-            case "home4" :visitBean.touched(uids[3]);break;
-            case "home5" :visitBean.touched(uids[4]);break;
-            case "home6" :visitBean.touched(uids[5]);break;
-            default:{
-                event.consume();
-            }
-        }
+        ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1(uids);
+        rscInterf1.touchVisit(event);
         if(resultVisit !=null)switchPane();
     }
     public void switchPane(){

@@ -1,1 +1,1 @@
-À 2javaXqhrsprogettoRieditatosecondo/src/main/usecase/signup/controllerView/progettoispw/letmeknow/SignupControllerInterf1.java
+À 2javaXyhrprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java

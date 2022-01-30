@@ -1,0 +1,1 @@
+ž 2xmlX	hrfprogettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml

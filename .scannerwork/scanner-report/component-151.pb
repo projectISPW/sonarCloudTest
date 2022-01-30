@@ -1,0 +1,1 @@
+— 2javaXIhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java

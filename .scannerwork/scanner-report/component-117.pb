@@ -1,1 +1,1 @@
-u 2javaX$hraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java
+u 2xmlXhr2progettoRieditatosecondo/.idea/sonarlint-state.xml

@@ -15,12 +15,13 @@ public class BeanResultSearch {
         controller=new ResultSearchController();
     }
 
-    public String[][] exitDes(){
+    public String[][] getUsers(){
         int index;
         String [][] arrStr=new String[3][nval];
         List<InnerUsers> actual=controller.queryUsers();
         for(InnerUsers usr : actual){
             index=actual.indexOf(usr);
+
             arrStr[0][index]=usr.getUserid();
             arrStr[1][index]=usr.getGoal();
             arrStr[2][index]=usr.getDescription();

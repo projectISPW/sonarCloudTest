@@ -1,1 +1,0 @@
-j 2xmlXhr&progettoRieditatosecondo/.idea/vcs.xml

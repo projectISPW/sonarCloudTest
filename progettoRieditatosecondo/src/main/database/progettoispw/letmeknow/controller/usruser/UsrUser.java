@@ -17,7 +17,7 @@ public class UsrUser extends InitialUser {
     }
     public void  dataHomeUsr () {
         if(userid!=null){
-            String [] inner= userDataUSR.selectUser(userid);
+            String [] inner= userDataUSR.selectUsrUser(userid);
                 parameterSliders.setEmp(inner[0]);
                 parameterSliders.setHum(inner[1]);
                 parameterSliders.setOpt(inner[2]);

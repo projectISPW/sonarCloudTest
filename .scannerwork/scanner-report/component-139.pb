@@ -1,1 +1,1 @@
-‹ 2javaX:hrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+‹ 2javaX2hrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java

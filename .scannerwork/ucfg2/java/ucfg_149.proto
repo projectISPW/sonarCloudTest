@@ -1,15 +1,42 @@
 
-Dprogettoispw.letmeknow.controller.usruser.ParameterSliders#getEmp()I
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java ("1*¬
-1
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (û
-ø
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-%0java.lang.Integer"__id*G*E<
-:progettoispw.letmeknow.controller.usruser.ParameterSliders"
-emp"˜
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-""B><
-:progettoispw.letmeknow.controller.usruser.ParameterSliders
+{progettoispw.letmeknow.controller.user.InitialUser#registrationPSY(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java (""3*Œ
+2†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java† †("éæ
+†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java† †(6
+%1boolean"wprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z*64
+2progettoispw.letmeknow.controller.user.InitialUser*
+
+uidjava.lang.String*
+
+passwordjava.lang.String*
+
+emailjava.lang.String2CcomposeMail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"‘
+†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java† †(7
+""*Š
+3†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java‚ ‚(+«
+¨
+†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java„ „(
+%0java.lang.String"Mprogettoispw.letmeknow.controller.user.InitialUser#getUid()Ljava/lang/String;*64
+2progettoispw.letmeknow.controller.user.InitialUserÅ
+Â
+†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java„ „(
+uidjava.lang.String"__id*
+
+%0java.lang.String*
+2
+1* 
+1†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java‡ ‡("‘
+†
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java‡ ‡(
+"":
+passwordjava.lang.String:
+emailjava.lang.String:
+typejava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

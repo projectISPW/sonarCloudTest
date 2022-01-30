@@ -1,13 +1,10 @@
 package progettoispw.letmeknow;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import progettoispw.letmeknow.bean.RecoverPswdBean;
 
-import java.io.IOException;
 
 public class RecoverPswdControllerInterf1
 {
@@ -26,14 +23,14 @@ public class RecoverPswdControllerInterf1
     public void sendMail( ){
         show.setOpacity(0);
         String address=email.getText();
-        Boolean bool=bean.sendMail(address);
-        if(bool==false){
+        boolean bool=bean.sendMail(address);
+        if(!bool){
             show.setOpacity(1);
         }
         else controller.backTo();
     }
     @FXML
-    protected void backToLogin(ActionEvent event)  {
+    protected void backToLogin()  {
         controller.backTo();
     }
 

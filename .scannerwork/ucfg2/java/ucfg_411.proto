@@ -1,43 +1,23 @@
 
-Nprogettoispw.letmeknow.controller.LoginController#tornaLog()Ljava/lang/String;Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("4*ù
-2Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (Ì
-É
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
-strjava.lang.String"__id*
-""*
-1*³
-3Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (†
-ƒ
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java+ (1
-%1java.lang.String"__id*A*?3
-1progettoispw.letmeknow.controller.LoginController"
-userid*
-1*‡
-4Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (ˆ
-…
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java& (.
-%0java.lang.String"__id*C*A3
-1progettoispw.letmeknow.controller.LoginController"
-
-passwordÌ
-É
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (0
-strjava.lang.String"__id*
+Lprogettoispw.letmeknow.controller.HomepagePsychologistController#getList()[F¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("3*Œ
+2¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("Ç
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java (&
+""*¸
+3¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java (ë
+è
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java (
+%0java.lang.Integer[]"__id*
 ""*
 2
-3*å
-1Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("½
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
-
-strjava.lang.StringB53
-1progettoispw.letmeknow.controller.LoginController
+1*Œ
+1¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ("Ç
+¼
+±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java ( 
+""BDB
+@progettoispw.letmeknow.controller.HomepagePsychologistController

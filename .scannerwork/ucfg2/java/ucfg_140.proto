@@ -1,16 +1,40 @@
 
-Pprogettoispw.letmeknow.controller.user.InitialUser#getUserid()Ljava/lang/String;Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javag g("1*ù
+wprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ZÑ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java2 2("1*ú	
 1Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javah h(Ï
-È
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java3 3(,„
+‡
 Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javah h(
-%0java.lang.String"__id*B*@4
-2progettoispw.letmeknow.controller.user.InitialUser"
-userid"°
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java4 4(0
+%0java.lang.String"__concat*
+Your userid is .:     *
+
+uidjava.lang.StringÁ
+‰
 Ñ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javah h(
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java4 4(N
+%1java.lang.String"__concat*
 
-%0java.lang.StringB64
+%0java.lang.String*
+Your password is .:        Ê
+„
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java4 4(W
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+passwordjava.lang.Stringƒ
+¡
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java4 4(X
+textjava.lang.String"__id*
+
+%2java.lang.String"è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java6 6(#
+"":
+uidjava.lang.String:
+passwordjava.lang.String:
+mailjava.lang.StringB64
 2progettoispw.letmeknow.controller.user.InitialUser

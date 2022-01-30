@@ -1,135 +1,69 @@
+//spelling check + same line variables
 package progettoispw.letmeknow;
-
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-
 import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
 import javafx.scene.control.Slider;
 import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormPsychologistResultBean;
 
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-public class TakeFormControllerInterf1 {
+public class FormPsychologistResultInterf1 {
     @FXML
-    protected Text idForm;
+    Text by;
     @FXML
-    protected Slider sl1;
+    Slider sl1;
     @FXML
-    protected Slider sl2;
+    Slider sl2;
     @FXML
-    protected Slider sl3;
+    Slider sl3;
     @FXML
-    protected Slider sl4;
+    Slider sl4;
     @FXML
-    protected Slider sl5;
+    Slider sl5;
     @FXML
-    protected Slider sl6;
+    Slider sl6;
     @FXML
-    protected Label lb1;
+    Label lb1;
     @FXML
-    protected Label lb2;
+    Label lb2;
     @FXML
-    protected Label lb3;
+    Label lb3;
     @FXML
-    protected Label lb4;
+    Label lb4;
     @FXML
-    protected Label lb5;
+    Label lb5;
     @FXML
-    protected Label lb6;
-    @FXML
-    protected ProgressBar progressBar;
-    protected PageMenu controller;
-    protected Slider[] sl;
-    protected Label[] labels;
-    protected boolean [] values;
-    protected  boolean [] locked;
-    protected int [] response;
-    protected double progress;
-    protected FormToTakeStatusBean bean;
-    public TakeFormControllerInterf1() {
-        progress=0;
-        controller=new PageMenu();
-        bean=new FormToTakeStatusBean();
-    }
-    public TakeFormControllerInterf1(Slider[] slidersInput, Label[] labelsInput) {
-        sl=slidersInput;
-        labels=labelsInput;
-        bean=new FormToTakeStatusBean();
-    }
+    Label lb6;
 
-    private boolean[] not(boolean []bool){
-        boolean [] currbool=new boolean[6];
-        for(int i=0;i< bool.length;i++){
-            if(bool[i]) currbool[i]=false;
-            else currbool[i]=true;
-        }
-        return currbool;
+
+    FormPsychologistResultBean bean;
+    Page controller;
+    public FormPsychologistResultInterf1(){
+        bean=new FormPsychologistResultBean();
+        controller=new Page();
     }
     public void initialize(){
-       if(bean.getComplete()==6){
-            goBack();
-        }
-        progress= bean.getComplete()*0.17;
-        sl=new Slider[] {sl1,sl2,sl3,sl4,sl5,sl6};
-        labels= new Label[]{lb1, lb2, lb3, lb4, lb5, lb6};
-        progressBar.setProgress(progress);
-        setValues();
-        progressBar.setProgress(progress);
-    }
-    public void setValues(){
-        response=bean.exitValStatus();
-        locked=bean.exitStatus();
-        values=not(locked);
+        Slider [] sliders;
+        Label [] labels;
+        sliders=new Slider[]{sl1,sl2,sl3,sl4,sl5,sl6};
+        labels=new Label[]{lb1,lb2,lb3,lb4,lb5,lb6};
+        float [] values= bean.getSelected();
         for(int i=0;i<6;i++){
-            if(response[i]!=-1){
-                sl[i].setValue(response[i]);
-            }
-            int finalI = i;
-            sl[i].valueProperty().addListener(new ChangeListener<Number>() {
-                @Override
-                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                    if(values[finalI]){
-                        progress+=0.17;
-
-                        values[finalI]=false;
-                    }
-                    if(locked[finalI]){
-                        sl[finalI].setValue(response[finalI]);
-                    }
-                    labels[finalI].setText(""+(int)sl[finalI].getValue());
-                }
+            int index = i;
+            sliders[i].setValue(values[i+1]);
+            labels[i].setText(String.valueOf(values[i+1]));
+            sliders[i].valueProperty().addListener(
+                    (ObservableValue<? extends Number> observableValue, Number number, Number t1) ->{
+                    sliders[index].setValue(values[index+1]);
+                    labels[index].setText(String.valueOf(values[index+1]));
             });
         }
-    }
-    public int getComplete(){
-        return bean.getComplete();
+        by.setText((int)values[0]+"users");
     }
     @FXML
-    protected void save() {
-       save1();
-        initialize();
-    }
-    protected void save1(){
-        for (int i=0;i<6;i++) {
-            if (!values[i]) {
-                locked[i]=true;
-                response[i]=(int)sl[i].getValue();
-            }
-        }
-        bean.inputValStatus(response);
-    }
-    @FXML
-    protected void goBack() {
+    public void goBack(){
         controller.backTo();
     }
-    @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
-    }
-    @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
-
 }

@@ -338,7 +338,160 @@ setHList()&progettoispw.letmeknow.CSS#setHList()VJ
 getButton(Ljava/lang/String;)@progettoispw.letmeknow.CSS#getButton(Ljava/lang/String;)LButton;V
 setText(Ljava/lang/String;)7progettoispw.letmeknow.CSS#setText(Ljava/lang/String;)VF
 
-getHlist()8progettoispw.letmeknow.CSS#getHlist()Ljava/lang/Integer;ƒ
+getHlist()8progettoispw.letmeknow.CSS#getHlist()Ljava/lang/Integer;-
+TakeFormControllerInterf1java.lang.Objectµ
+0progettoispw.letmeknow.TakeFormControllerInterf2TakeFormControllerInterf1F
+<init>():progettoispw.letmeknow.TakeFormControllerInterf2#<init>()VN
+initialize()>progettoispw.letmeknow.TakeFormControllerInterf2#initialize()VN
+setSection()>progettoispw.letmeknow.TakeFormControllerInterf2#setSection()Vã
+"java.lang.reflect.AnnotatedElementjava.lang.Objectß
+/getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;t
+&isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AnnotatedElement#isAnnotationPresent(Ljava/lang/Class;)Zò
+(getDeclaredAnnotation(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;ó
+'getAnnotationsByType(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;\
+$java.lang.reflect.GenericDeclarationjava.lang.Object"java.lang.reflect.AnnotatedElements
+java.lang.reflect.Typejava.lang.ObjectG
+getTypeName()6java.lang.reflect.Type#getTypeName()Ljava/lang/String;§i
+java.lang.Class$java.lang.reflect.GenericDeclarationjava.lang.reflect.Typejava.lang.Objectjava.io.Serializable"java.lang.reflect.AnnotatedElementG
+getMethods()7java.lang.Class#getMethods()[Ljava/lang/reflect/Method;E
+hasEnclosingMethodInfo())java.lang.Class#hasEnclosingMethodInfo()Z 
+NsearchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)xjava.lang.Class#searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;T
+reflectionData()@java.lang.Class#reflectionData()Ljava/lang/Class$ReflectionData;[
+forName(Ljava/lang/String;)<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;I
+getComponentType()3java.lang.Class#getComponentType()Ljava/lang/Class;ñ
+@getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)Rjava.lang.Class#getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)[BQ
+getEnclosingMethod0()8java.lang.Class#getEnclosingMethod0()[Ljava/lang/Object;ã
+3forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Tjava.lang.Class#forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;>
+getClasses().java.lang.Class#getClasses()[Ljava/lang/Class;H
+getNestMembers0()3java.lang.Class#getNestMembers0()[Ljava/lang/Class;Ö
+8addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)Ijava.lang.Class#addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)Vw
+"getConstructor([Ljava/lang/Class;)Qjava.lang.Class#getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;1
+isAnnotation()java.lang.Class#isAnnotation()ZV
+cast(Ljava/lang/Object;):java.lang.Class#cast(Ljava/lang/Object;)Ljava/lang/Object;h
+getReflectionFactory()Njava.lang.Class#getReflectionFactory()Ljdk/internal/reflect/ReflectionFactory;h
+!cannotCastMsg(Ljava/lang/Object;)Cjava.lang.Class#cannotCastMsg(Ljava/lang/Object;)Ljava/lang/String;J
+getCanonicalName()4java.lang.Class#getCanonicalName()Ljava/lang/String;w
+'getResourceAsStream(Ljava/lang/String;)Ljava.lang.Class#getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;_
+asSubclass(Ljava/lang/Class;)>java.lang.Class#asSubclass(Ljava/lang/Class;)Ljava/lang/Class;á
+*getDeclaredConstructor([Ljava/lang/Class;)Yjava.lang.Class#getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;é
+4methodToString(Ljava/lang/String;[Ljava/lang/Class;)Vjava.lang.Class#methodToString(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;e
+getGenericInfo()Qjava.lang.Class#getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;j
+getDeclaredConstructors0(Z)Kjava.lang.Class#getDeclaredConstructors0(Z)[Ljava/lang/reflect/Constructor;G
+isLocalOrAnonymousClass()*java.lang.Class#isLocalOrAnonymousClass()Zú
+7getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)ajava.lang.Class#getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;/
+isSynthetic()java.lang.Class#isSynthetic()Zò
+2copyConstructors([Ljava/lang/reflect/Constructor;)bjava.lang.Class#copyConstructors([Ljava/lang/reflect/Constructor;)[Ljava/lang/reflect/Constructor;/
+isInterface()java.lang.Class#isInterface()Z9
+isAnonymousClass()#java.lang.Class#isAnonymousClass()ZP
+getSimpleBinaryName()7java.lang.Class#getSimpleBinaryName()Ljava/lang/String;?
+getSigners()/java.lang.Class#getSigners()[Ljava/lang/Object;<
+getModule()-java.lang.Class#getModule()Ljava/lang/Module;g
+getField0(Ljava/lang/String;)Fjava.lang.Class#getField0(Ljava/lang/String;)Ljava/lang/reflect/Field;'
+	isArray()java.lang.Class#isArray()Zi
+*desiredAssertionStatus0(Ljava/lang/Class;);java.lang.Class#desiredAssertionStatus0(Ljava/lang/Class;)ZÉ
+7arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Hjava.lang.Class#arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Zu
+0<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ajava.lang.Class#<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)V
+(copyMethods([Ljava/lang/reflect/Method;)Sjava.lang.Class#copyMethods([Ljava/lang/reflect/Method;)[Ljava/lang/reflect/Method;@
+getTypeName()/java.lang.Class#getTypeName()Ljava/lang/String;f
+getDeclaredAnnotations()Jjava.lang.Class#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;X
+getDeclaredFields0(Z)?java.lang.Class#getDeclaredFields0(Z)[Ljava/lang/reflect/Field;V
+getConstructors()Ajava.lang.Class#getConstructors()[Ljava/lang/reflect/Constructor;†
+>getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)^java.lang.Class#getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)Ljava/util/List;%
+isEnum()java.lang.Class#isEnum()ZX
+getGenericSuperclass()>java.lang.Class#getGenericSuperclass()Ljava/lang/reflect/Type;[
+getDeclaredMethods0(Z)Ajava.lang.Class#getDeclaredMethods0(Z)[Ljava/lang/reflect/Method;E
+desiredAssertionStatus())java.lang.Class#desiredAssertionStatus()Z@
+newInstance()/java.lang.Class#newInstance()Ljava/lang/Object;u
+ getAnnotation(Ljava/lang/Class;)Qjava.lang.Class#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;d
+privateGetDeclaredFields(Z)Ejava.lang.Class#privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field;A
+getNestHost0()/java.lang.Class#getNestHost0()Ljava/lang/Class;å
+/getMethod(Ljava/lang/String;[Ljava/lang/Class;)Yjava.lang.Class#getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;7
+isTopLevelClass()"java.lang.Class#isTopLevelClass()Z`
+getResource(Ljava/lang/String;)=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;Ñ
+'getAnnotationsByType(Ljava/lang/Class;)Yjava.lang.Class#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;S
+setSigners([Ljava/lang/Object;)0java.lang.Class#setSigners([Ljava/lang/Object;)V?
+getNestHost().java.lang.Class#getNestHost()Ljava/lang/Class;K
+getClassLoader()7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;é
+0getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Zjava.lang.Class#getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;T
+annotationData()@java.lang.Class#annotationData()Ljava/lang/Class$AnnotationData;W
+getEnumConstantsShared();java.lang.Class#getEnumConstantsShared()[Ljava/lang/Object;L
+getCanonicalName0()5java.lang.Class#getCanonicalName0()Ljava/lang/String;D
+getRawTypeAnnotations())java.lang.Class#getRawTypeAnnotations()[B£
+GcheckPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)Xjava.lang.Class#checkPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)Vf
+getAnnotatedInterfaces()Jjava.lang.Class#getAnnotatedInterfaces()[Ljava/lang/reflect/AnnotatedType;Z
+getFactory()Jjava.lang.Class#getFactory()Lsun/reflect/generics/factory/GenericsFactory;a
+getAnnotationType()Jjava.lang.Class#getAnnotationType()Lsun/reflect/annotation/AnnotationType;M
+getDeclaringClass0()5java.lang.Class#getDeclaringClass0()Ljava/lang/Class;u
+$getDeclaredField(Ljava/lang/String;)Mjava.lang.Class#getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;3
+isMemberClass() java.lang.Class#isMemberClass()ZD
+getFields()5java.lang.Class#getFields()[Ljava/lang/reflect/Field;i
+getEnclosingMethodInfo()Mjava.lang.Class#getEnclosingMethodInfo()Ljava/lang/Class$EnclosingMethodInfo;Y
+getConstantPool()Djava.lang.Class#getConstantPool()Ljdk/internal/reflect/ConstantPool;T
+getDeclaredFields()=java.lang.Class#getDeclaredFields()[Ljava/lang/reflect/Field;Y
+getGenericInterfaces()?java.lang.Class#getGenericInterfaces()[Ljava/lang/reflect/Type;z
+&copyFields([Ljava/lang/reflect/Field;)Pjava.lang.Class#copyFields([Ljava/lang/reflect/Field;)[Ljava/lang/reflect/Field;8
+	getName()+java.lang.Class#getName()Ljava/lang/String;F
+getNestMembers()2java.lang.Class#getNestMembers()[Ljava/lang/Class;1
+getModifiers()java.lang.Class#getModifiers()I/
+isPrimitive()java.lang.Class#isPrimitive()ZÖ
+(getDeclaredAnnotation(Ljava/lang/Class;)Yjava.lang.Class#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;K
+getDeclaringClass()4java.lang.Class#getDeclaringClass()Ljava/lang/Class;C
+getSuperclass()0java.lang.Class#getSuperclass()Ljava/lang/Class;d
+resolveName(Ljava/lang/String;)Ajava.lang.Class#resolveName(Ljava/lang/String;)Ljava/lang/String;v
+!privateGetDeclaredConstructors(Z)Qjava.lang.Class#privateGetDeclaredConstructors(Z)[Ljava/lang/reflect/Constructor;e
+getEnclosingConstructor()Hjava.lang.Class#getEnclosingConstructor()Ljava/lang/reflect/Constructor;î
+/getDeclaredAnnotationsByType(Ljava/lang/Class;)ajava.lang.Class#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;[
+getTypeParameters()Djava.lang.Class#getTypeParameters()[Ljava/lang/reflect/TypeVariable;o
+%getPrimitiveClass(Ljava/lang/String;)Fjava.lang.Class#getPrimitiveClass(Ljava/lang/String;)Ljava/lang/Class;{
+$getConstructor0([Ljava/lang/Class;I)Sjava.lang.Class#getConstructor0([Ljava/lang/Class;I)Ljava/lang/reflect/Constructor;:
+
+toString(),java.lang.Class#toString()Ljava/lang/String;f
+getDeclaredConstructors()Ijava.lang.Class#getDeclaredConstructors()[Ljava/lang/reflect/Constructor;S
+isNestmateOf(Ljava/lang/Class;)0java.lang.Class#isNestmateOf(Ljava/lang/Class;)Z[
+#isAssignableFrom(Ljava/lang/Class;)4java.lang.Class#isAssignableFrom(Ljava/lang/Class;)ZD
+getSimpleName()1java.lang.Class#getSimpleName()Ljava/lang/String;W
+getDeclaredAnnotationMap()9java.lang.Class#getDeclaredAnnotationMap()Ljava/util/Map;Ø
+EforName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)fjava.lang.Class#forName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Class;D
+initClassName()1java.lang.Class#initClassName()Ljava/lang/String;<
+getRawAnnotations()%java.lang.Class#getRawAnnotations()[B{
+3isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Djava.lang.Class#isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Z°
+:searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)cjava.lang.Class#searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field;K
+getEnumConstants()5java.lang.Class#getEnumConstants()[Ljava/lang/Object;V
+getEnclosingMethod()>java.lang.Class#getEnclosingMethod()Ljava/lang/reflect/Method;ñ
+1newReflectionData(Ljava/lang/ref/SoftReference;I)ajava.lang.Class#newReflectionData(Ljava/lang/ref/SoftReference;I)Ljava/lang/Class$ReflectionData;◊
+acasAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)rjava.lang.Class#casAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)Z^
+privateGetPublicFields()Bjava.lang.Class#privateGetPublicFields()[Ljava/lang/reflect/Field;e
+getAnnotatedSuperclass()Ijava.lang.Class#getAnnotatedSuperclass()Ljava/lang/reflect/AnnotatedType;ó
+AcheckMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)Rjava.lang.Class#checkMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)Vg
+privateGetDeclaredMethods(Z)Gjava.lang.Class#privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method;?
+getPackage()/java.lang.Class#getPackage()Ljava/lang/Package;
+-forName(Ljava/lang/Module;Ljava/lang/String;)Njava.lang.Class#forName(Ljava/lang/Module;Ljava/lang/String;)Ljava/lang/Class;F
+getInterfaces(Z)2java.lang.Class#getInterfaces(Z)[Ljava/lang/Class;`
+getProtectionDomain0()Fjava.lang.Class#getProtectionDomain0()Ljava/security/ProtectionDomain;7
+registerNatives()"java.lang.Class#registerNatives()VF
+getInterfaces0()2java.lang.Class#getInterfaces0()[Ljava/lang/Class;N
+getDeclaredClasses()6java.lang.Class#getDeclaredClasses()[Ljava/lang/Class;a
+privateGetPublicMethods()Djava.lang.Class#privateGetPublicMethods()[Ljava/lang/reflect/Method;F
+getSimpleName0()2java.lang.Class#getSimpleName0()Ljava/lang/String;D
+getInterfaces()1java.lang.Class#getInterfaces()[Ljava/lang/Class;a
+&isAnnotationPresent(Ljava/lang/Class;)7java.lang.Class#isAnnotationPresent(Ljava/lang/Class;)Ze
+getField(Ljava/lang/String;)Ejava.lang.Class#getField(Ljava/lang/String;)Ljava/lang/reflect/Field;Q
+isInstance(Ljava/lang/Object;)/java.lang.Class#isInstance(Ljava/lang/Object;)ZK
+getEnclosingClass()4java.lang.Class#getEnclosingClass()Ljava/lang/Class;W
+getDeclaredMethods()?java.lang.Class#getDeclaredMethods()[Ljava/lang/reflect/Method;^
+getProtectionDomain()Ejava.lang.Class#getProtectionDomain()Ljava/security/ProtectionDomain;Q
+enumConstantDirectory()6java.lang.Class#enumConstantDirectory()Ljava/util/Map;M
+getClassLoader0()8java.lang.Class#getClassLoader0()Ljava/lang/ClassLoader;F
+getPackageName()2java.lang.Class#getPackageName()Ljava/lang/String;P
+getDeclaredClasses0()7java.lang.Class#getDeclaredClasses0()[Ljava/lang/Class;b
+createAnnotationData(I)Gjava.lang.Class#createAnnotationData(I)Ljava/lang/Class$AnnotationData;R
+getGenericSignature0()8java.lang.Class#getGenericSignature0()Ljava/lang/String;g
+!toClass(Ljava/lang/reflect/Type;)Bjava.lang.Class#toClass(Ljava/lang/reflect/Type;)Ljava/lang/Class;V
+getAnnotations()Bjava.lang.Class#getAnnotations()[Ljava/lang/annotation/Annotation;H
+toGenericString()3java.lang.Class#toGenericString()Ljava/lang/String;¨
+:getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)njava.lang.Class#getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)Ljava/lang/PublicMethods$MethodList;R
+getSimpleBinaryName0()8java.lang.Class#getSimpleBinaryName0()Ljava/lang/String;1
+isLocalClass()java.lang.Class#isLocalClass()Zƒ
 (progettoispw.letmeknow.FormResultInterf1java.lang.Object>
 <init>()2progettoispw.letmeknow.FormResultInterf1#<init>()VF
 initialize()6progettoispw.letmeknow.FormResultInterf1#initialize()V/
@@ -346,7 +499,7 @@ getHlist()8progettoispw.letmeknow.CSS#getHlist()Ljava/lang/Integer;ƒ
 2progettoispw.letmeknow.HomepagePsychologistInterf2HomepagePsychologistInterf1H
 increm()<progettoispw.letmeknow.HomepagePsychologistInterf2#increm()VH
 <init>()<progettoispw.letmeknow.HomepagePsychologistInterf2#<init>()VH
-decrem()<progettoispw.letmeknow.HomepagePsychologistInterf2#decrem()V‡
+decrem()<progettoispw.letmeknow.HomepagePsychologistInterf2#decrem()VÊ
 4progettoispw.letmeknow.controller.usruser.UsrUserDAOjava.lang.Objectî
 -setGoal(Ljava/lang/String;Ljava/lang/String;)cprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setGoal(Ljava/lang/String;Ljava/lang/String;)Zí
 ,setTag(Ljava/lang/String;Ljava/lang/String;)bprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setTag(Ljava/lang/String;Ljava/lang/String;)Z¢
@@ -354,10 +507,10 @@ getHlist()8progettoispw.letmeknow.CSS#getHlist()Ljava/lang/Integer;ƒ
 1getResult(Ljava/lang/String;[Ljava/lang/Integer;)gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#getResult(Ljava/lang/String;[Ljava/lang/Integer;)ZJ
 <init>()>progettoispw.letmeknow.controller.usruser.UsrUserDAO#<init>()Vî
 -setData(Ljava/lang/String;Ljava/lang/String;)cprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setData(Ljava/lang/String;Ljava/lang/String;)ZP
-average(II)Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)Ià
-selectUser(Ljava/lang/String;)fprogettoispw.letmeknow.controller.usruser.UsrUserDAO#selectUser(Ljava/lang/String;)[Ljava/lang/String;∆
+average(II)Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)I∆
 FsetParams(Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;I)|progettoispw.letmeknow.controller.usruser.UsrUserDAO#setParams(Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;I)Zú
-1setCalculated(Ljava/lang/String;Ljava/util/List;)gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setCalculated(Ljava/lang/String;Ljava/util/List;)Zú
+1setCalculated(Ljava/lang/String;Ljava/util/List;)gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setCalculated(Ljava/lang/String;Ljava/util/List;)Zé
+!selectUsrUser(Ljava/lang/String;)iprogettoispw.letmeknow.controller.usruser.UsrUserDAO#selectUsrUser(Ljava/lang/String;)[Ljava/lang/String;ú
 java.sql.ResultSetjava.sql.Wrapperjava.lang.Objectjava.lang.AutoCloseable†
 DupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)Xjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)VÄ
 4updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Hjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V¢
@@ -965,20 +1118,21 @@ LbinarySearch0([Ljava/lang/Object;IILjava/lang/Object;Ljava/util/Comparator;)^j
 +fill([Ljava/lang/Object;Ljava/lang/Object;)=java.util.Arrays#fill([Ljava/lang/Object;Ljava/lang/Object;)V?
 toString([D)/java.util.Arrays#toString([D)Ljava/lang/String;*
 
-sort([JII)java.util.Arrays#sort([JII)VÃ
+sort([JII)java.util.Arrays#sort([JII)VŒ
 (progettoispw.letmeknow.bean.HomepageBeanjava.lang.Object_
-getDescription()Kprogettoispw.letmeknow.bean.HomepageBean#getDescription()Ljava/lang/String;>
-<init>()2progettoispw.letmeknow.bean.HomepageBean#<init>()VF
+getDescription()Kprogettoispw.letmeknow.bean.HomepageBean#getDescription()Ljava/lang/String;F
 getExpired()6progettoispw.letmeknow.bean.HomepageBean#getExpired()ZO
 getTag()Cprogettoispw.letmeknow.bean.HomepageBean#getTag()Ljava/lang/String;U
 
 getParam()Gprogettoispw.letmeknow.bean.HomepageBean#getParam()[Ljava/lang/Integer;S
-	getData()Fprogettoispw.letmeknow.bean.HomepageBean#getData()[Ljava/lang/Integer;Q
+	getData()Fprogettoispw.letmeknow.bean.HomepageBean#getData()[Ljava/lang/Integer;@
+	<init>(Z)3progettoispw.letmeknow.bean.HomepageBean#<init>(Z)VQ
 	getGoal()Dprogettoispw.letmeknow.bean.HomepageBean#getGoal()Ljava/lang/String;U
-getUserId()Fprogettoispw.letmeknow.bean.HomepageBean#getUserId()Ljava/lang/String;¢
+getUserId()Fprogettoispw.letmeknow.bean.HomepageBean#getUserId()Ljava/lang/String;˘
 .progettoispw.letmeknow.bean.CollectionFormBeanjava.lang.ObjectH
 
-takeForm():progettoispw.letmeknow.bean.CollectionFormBean#takeForm()VD
+takeForm():progettoispw.letmeknow.bean.CollectionFormBean#takeForm()VU
+getUid()Iprogettoispw.letmeknow.bean.CollectionFormBean#getUid()Ljava/lang/String;D
 <init>()8progettoispw.letmeknow.bean.CollectionFormBean#<init>()VN
 setTouched(I)=progettoispw.letmeknow.bean.CollectionFormBean#setTouched(I)VÄ
 4progettoispw.letmeknow.ResultSearchControllerInterf2java.lang.ObjectJ
@@ -986,155 +1140,7 @@ takeForm():progettoispw.letmeknow.bean.CollectionFormBean#takeForm()VD
 switchPane()Bprogettoispw.letmeknow.ResultSearchControllerInterf2#switchPane()VP
 outputVal()Aprogettoispw.letmeknow.ResultSearchControllerInterf2#outputVal()VR
 initialize()Bprogettoispw.letmeknow.ResultSearchControllerInterf2#initialize()Vp
-<init>([Ljava/lang/String;)Qprogettoispw.letmeknow.ResultSearchControllerInterf2#<init>([Ljava/lang/String;)Vã
-"java.lang.reflect.AnnotatedElementjava.lang.Objectß
-/getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;t
-&isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AnnotatedElement#isAnnotationPresent(Ljava/lang/Class;)Zò
-(getDeclaredAnnotation(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;ó
-'getAnnotationsByType(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;\
-$java.lang.reflect.GenericDeclarationjava.lang.Object"java.lang.reflect.AnnotatedElements
-java.lang.reflect.Typejava.lang.ObjectG
-getTypeName()6java.lang.reflect.Type#getTypeName()Ljava/lang/String;§i
-java.lang.Class$java.lang.reflect.GenericDeclarationjava.lang.reflect.Typejava.lang.Objectjava.io.Serializable"java.lang.reflect.AnnotatedElementG
-getMethods()7java.lang.Class#getMethods()[Ljava/lang/reflect/Method;E
-hasEnclosingMethodInfo())java.lang.Class#hasEnclosingMethodInfo()Z 
-NsearchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)xjava.lang.Class#searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;T
-reflectionData()@java.lang.Class#reflectionData()Ljava/lang/Class$ReflectionData;[
-forName(Ljava/lang/String;)<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;I
-getComponentType()3java.lang.Class#getComponentType()Ljava/lang/Class;ñ
-@getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)Rjava.lang.Class#getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)[BQ
-getEnclosingMethod0()8java.lang.Class#getEnclosingMethod0()[Ljava/lang/Object;ã
-3forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Tjava.lang.Class#forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;>
-getClasses().java.lang.Class#getClasses()[Ljava/lang/Class;H
-getNestMembers0()3java.lang.Class#getNestMembers0()[Ljava/lang/Class;Ö
-8addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)Ijava.lang.Class#addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)Vw
-"getConstructor([Ljava/lang/Class;)Qjava.lang.Class#getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;1
-isAnnotation()java.lang.Class#isAnnotation()ZV
-cast(Ljava/lang/Object;):java.lang.Class#cast(Ljava/lang/Object;)Ljava/lang/Object;h
-getReflectionFactory()Njava.lang.Class#getReflectionFactory()Ljdk/internal/reflect/ReflectionFactory;h
-!cannotCastMsg(Ljava/lang/Object;)Cjava.lang.Class#cannotCastMsg(Ljava/lang/Object;)Ljava/lang/String;J
-getCanonicalName()4java.lang.Class#getCanonicalName()Ljava/lang/String;w
-'getResourceAsStream(Ljava/lang/String;)Ljava.lang.Class#getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;_
-asSubclass(Ljava/lang/Class;)>java.lang.Class#asSubclass(Ljava/lang/Class;)Ljava/lang/Class;á
-*getDeclaredConstructor([Ljava/lang/Class;)Yjava.lang.Class#getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;é
-4methodToString(Ljava/lang/String;[Ljava/lang/Class;)Vjava.lang.Class#methodToString(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;e
-getGenericInfo()Qjava.lang.Class#getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;j
-getDeclaredConstructors0(Z)Kjava.lang.Class#getDeclaredConstructors0(Z)[Ljava/lang/reflect/Constructor;G
-isLocalOrAnonymousClass()*java.lang.Class#isLocalOrAnonymousClass()Zú
-7getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)ajava.lang.Class#getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;/
-isSynthetic()java.lang.Class#isSynthetic()Zò
-2copyConstructors([Ljava/lang/reflect/Constructor;)bjava.lang.Class#copyConstructors([Ljava/lang/reflect/Constructor;)[Ljava/lang/reflect/Constructor;/
-isInterface()java.lang.Class#isInterface()Z9
-isAnonymousClass()#java.lang.Class#isAnonymousClass()ZP
-getSimpleBinaryName()7java.lang.Class#getSimpleBinaryName()Ljava/lang/String;?
-getSigners()/java.lang.Class#getSigners()[Ljava/lang/Object;<
-getModule()-java.lang.Class#getModule()Ljava/lang/Module;g
-getField0(Ljava/lang/String;)Fjava.lang.Class#getField0(Ljava/lang/String;)Ljava/lang/reflect/Field;'
-	isArray()java.lang.Class#isArray()Zi
-*desiredAssertionStatus0(Ljava/lang/Class;);java.lang.Class#desiredAssertionStatus0(Ljava/lang/Class;)ZÉ
-7arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Hjava.lang.Class#arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Zu
-0<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ajava.lang.Class#<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)V
-(copyMethods([Ljava/lang/reflect/Method;)Sjava.lang.Class#copyMethods([Ljava/lang/reflect/Method;)[Ljava/lang/reflect/Method;@
-getTypeName()/java.lang.Class#getTypeName()Ljava/lang/String;f
-getDeclaredAnnotations()Jjava.lang.Class#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;X
-getDeclaredFields0(Z)?java.lang.Class#getDeclaredFields0(Z)[Ljava/lang/reflect/Field;V
-getConstructors()Ajava.lang.Class#getConstructors()[Ljava/lang/reflect/Constructor;†
->getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)^java.lang.Class#getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)Ljava/util/List;%
-isEnum()java.lang.Class#isEnum()ZX
-getGenericSuperclass()>java.lang.Class#getGenericSuperclass()Ljava/lang/reflect/Type;[
-getDeclaredMethods0(Z)Ajava.lang.Class#getDeclaredMethods0(Z)[Ljava/lang/reflect/Method;E
-desiredAssertionStatus())java.lang.Class#desiredAssertionStatus()Z@
-newInstance()/java.lang.Class#newInstance()Ljava/lang/Object;u
- getAnnotation(Ljava/lang/Class;)Qjava.lang.Class#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;d
-privateGetDeclaredFields(Z)Ejava.lang.Class#privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field;A
-getNestHost0()/java.lang.Class#getNestHost0()Ljava/lang/Class;å
-/getMethod(Ljava/lang/String;[Ljava/lang/Class;)Yjava.lang.Class#getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;7
-isTopLevelClass()"java.lang.Class#isTopLevelClass()Z`
-getResource(Ljava/lang/String;)=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;Ñ
-'getAnnotationsByType(Ljava/lang/Class;)Yjava.lang.Class#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;S
-setSigners([Ljava/lang/Object;)0java.lang.Class#setSigners([Ljava/lang/Object;)V?
-getNestHost().java.lang.Class#getNestHost()Ljava/lang/Class;K
-getClassLoader()7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;é
-0getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Zjava.lang.Class#getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;T
-annotationData()@java.lang.Class#annotationData()Ljava/lang/Class$AnnotationData;W
-getEnumConstantsShared();java.lang.Class#getEnumConstantsShared()[Ljava/lang/Object;L
-getCanonicalName0()5java.lang.Class#getCanonicalName0()Ljava/lang/String;D
-getRawTypeAnnotations())java.lang.Class#getRawTypeAnnotations()[B£
-GcheckPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)Xjava.lang.Class#checkPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)Vf
-getAnnotatedInterfaces()Jjava.lang.Class#getAnnotatedInterfaces()[Ljava/lang/reflect/AnnotatedType;Z
-getFactory()Jjava.lang.Class#getFactory()Lsun/reflect/generics/factory/GenericsFactory;a
-getAnnotationType()Jjava.lang.Class#getAnnotationType()Lsun/reflect/annotation/AnnotationType;M
-getDeclaringClass0()5java.lang.Class#getDeclaringClass0()Ljava/lang/Class;u
-$getDeclaredField(Ljava/lang/String;)Mjava.lang.Class#getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;3
-isMemberClass() java.lang.Class#isMemberClass()ZD
-getFields()5java.lang.Class#getFields()[Ljava/lang/reflect/Field;i
-getEnclosingMethodInfo()Mjava.lang.Class#getEnclosingMethodInfo()Ljava/lang/Class$EnclosingMethodInfo;Y
-getConstantPool()Djava.lang.Class#getConstantPool()Ljdk/internal/reflect/ConstantPool;T
-getDeclaredFields()=java.lang.Class#getDeclaredFields()[Ljava/lang/reflect/Field;Y
-getGenericInterfaces()?java.lang.Class#getGenericInterfaces()[Ljava/lang/reflect/Type;z
-&copyFields([Ljava/lang/reflect/Field;)Pjava.lang.Class#copyFields([Ljava/lang/reflect/Field;)[Ljava/lang/reflect/Field;8
-	getName()+java.lang.Class#getName()Ljava/lang/String;F
-getNestMembers()2java.lang.Class#getNestMembers()[Ljava/lang/Class;1
-getModifiers()java.lang.Class#getModifiers()I/
-isPrimitive()java.lang.Class#isPrimitive()ZÖ
-(getDeclaredAnnotation(Ljava/lang/Class;)Yjava.lang.Class#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;K
-getDeclaringClass()4java.lang.Class#getDeclaringClass()Ljava/lang/Class;C
-getSuperclass()0java.lang.Class#getSuperclass()Ljava/lang/Class;d
-resolveName(Ljava/lang/String;)Ajava.lang.Class#resolveName(Ljava/lang/String;)Ljava/lang/String;v
-!privateGetDeclaredConstructors(Z)Qjava.lang.Class#privateGetDeclaredConstructors(Z)[Ljava/lang/reflect/Constructor;e
-getEnclosingConstructor()Hjava.lang.Class#getEnclosingConstructor()Ljava/lang/reflect/Constructor;î
-/getDeclaredAnnotationsByType(Ljava/lang/Class;)ajava.lang.Class#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;[
-getTypeParameters()Djava.lang.Class#getTypeParameters()[Ljava/lang/reflect/TypeVariable;o
-%getPrimitiveClass(Ljava/lang/String;)Fjava.lang.Class#getPrimitiveClass(Ljava/lang/String;)Ljava/lang/Class;{
-$getConstructor0([Ljava/lang/Class;I)Sjava.lang.Class#getConstructor0([Ljava/lang/Class;I)Ljava/lang/reflect/Constructor;:
-
-toString(),java.lang.Class#toString()Ljava/lang/String;f
-getDeclaredConstructors()Ijava.lang.Class#getDeclaredConstructors()[Ljava/lang/reflect/Constructor;S
-isNestmateOf(Ljava/lang/Class;)0java.lang.Class#isNestmateOf(Ljava/lang/Class;)Z[
-#isAssignableFrom(Ljava/lang/Class;)4java.lang.Class#isAssignableFrom(Ljava/lang/Class;)ZD
-getSimpleName()1java.lang.Class#getSimpleName()Ljava/lang/String;W
-getDeclaredAnnotationMap()9java.lang.Class#getDeclaredAnnotationMap()Ljava/util/Map;Ø
-EforName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)fjava.lang.Class#forName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Class;D
-initClassName()1java.lang.Class#initClassName()Ljava/lang/String;<
-getRawAnnotations()%java.lang.Class#getRawAnnotations()[B{
-3isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Djava.lang.Class#isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Z°
-:searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)cjava.lang.Class#searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field;K
-getEnumConstants()5java.lang.Class#getEnumConstants()[Ljava/lang/Object;V
-getEnclosingMethod()>java.lang.Class#getEnclosingMethod()Ljava/lang/reflect/Method;ñ
-1newReflectionData(Ljava/lang/ref/SoftReference;I)ajava.lang.Class#newReflectionData(Ljava/lang/ref/SoftReference;I)Ljava/lang/Class$ReflectionData;◊
-acasAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)rjava.lang.Class#casAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)Z^
-privateGetPublicFields()Bjava.lang.Class#privateGetPublicFields()[Ljava/lang/reflect/Field;e
-getAnnotatedSuperclass()Ijava.lang.Class#getAnnotatedSuperclass()Ljava/lang/reflect/AnnotatedType;ó
-AcheckMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)Rjava.lang.Class#checkMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)Vg
-privateGetDeclaredMethods(Z)Gjava.lang.Class#privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method;?
-getPackage()/java.lang.Class#getPackage()Ljava/lang/Package;
--forName(Ljava/lang/Module;Ljava/lang/String;)Njava.lang.Class#forName(Ljava/lang/Module;Ljava/lang/String;)Ljava/lang/Class;F
-getInterfaces(Z)2java.lang.Class#getInterfaces(Z)[Ljava/lang/Class;`
-getProtectionDomain0()Fjava.lang.Class#getProtectionDomain0()Ljava/security/ProtectionDomain;7
-registerNatives()"java.lang.Class#registerNatives()VF
-getInterfaces0()2java.lang.Class#getInterfaces0()[Ljava/lang/Class;N
-getDeclaredClasses()6java.lang.Class#getDeclaredClasses()[Ljava/lang/Class;a
-privateGetPublicMethods()Djava.lang.Class#privateGetPublicMethods()[Ljava/lang/reflect/Method;F
-getSimpleName0()2java.lang.Class#getSimpleName0()Ljava/lang/String;D
-getInterfaces()1java.lang.Class#getInterfaces()[Ljava/lang/Class;a
-&isAnnotationPresent(Ljava/lang/Class;)7java.lang.Class#isAnnotationPresent(Ljava/lang/Class;)Ze
-getField(Ljava/lang/String;)Ejava.lang.Class#getField(Ljava/lang/String;)Ljava/lang/reflect/Field;Q
-isInstance(Ljava/lang/Object;)/java.lang.Class#isInstance(Ljava/lang/Object;)ZK
-getEnclosingClass()4java.lang.Class#getEnclosingClass()Ljava/lang/Class;W
-getDeclaredMethods()?java.lang.Class#getDeclaredMethods()[Ljava/lang/reflect/Method;^
-getProtectionDomain()Ejava.lang.Class#getProtectionDomain()Ljava/security/ProtectionDomain;Q
-enumConstantDirectory()6java.lang.Class#enumConstantDirectory()Ljava/util/Map;M
-getClassLoader0()8java.lang.Class#getClassLoader0()Ljava/lang/ClassLoader;F
-getPackageName()2java.lang.Class#getPackageName()Ljava/lang/String;P
-getDeclaredClasses0()7java.lang.Class#getDeclaredClasses0()[Ljava/lang/Class;b
-createAnnotationData(I)Gjava.lang.Class#createAnnotationData(I)Ljava/lang/Class$AnnotationData;R
-getGenericSignature0()8java.lang.Class#getGenericSignature0()Ljava/lang/String;g
-!toClass(Ljava/lang/reflect/Type;)Bjava.lang.Class#toClass(Ljava/lang/reflect/Type;)Ljava/lang/Class;V
-getAnnotations()Bjava.lang.Class#getAnnotations()[Ljava/lang/annotation/Annotation;H
-toGenericString()3java.lang.Class#toGenericString()Ljava/lang/String;¨
-:getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)njava.lang.Class#getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)Ljava/lang/PublicMethods$MethodList;R
-getSimpleBinaryName0()8java.lang.Class#getSimpleBinaryName0()Ljava/lang/String;1
-isLocalClass()java.lang.Class#isLocalClass()Zá
+<init>([Ljava/lang/String;)Qprogettoispw.letmeknow.ResultSearchControllerInterf2#<init>([Ljava/lang/String;)Vá
 
 .progettoispw.letmeknow.controller.search.Queryjava.lang.Objectö
 3incremVisit(Ljava/sql/Statement;Ljava/lang/String;)cprogettoispw.letmeknow.controller.search.Query#incremVisit(Ljava/sql/Statement;Ljava/lang/String;)ZØ
@@ -1152,9 +1158,7 @@ BsetVisited(Ljava/sql/Statement;Ljava/lang/String;Ljava/util/List;)rprogettoisp
 <init>()8progettoispw.letmeknow.SearchControllerInterf1#<init>()V^
 researchByParameter()Eprogettoispw.letmeknow.SearchControllerInterf1#researchByParameter()VL
 initialize()<progettoispw.letmeknow.SearchControllerInterf1#initialize()VV
-incremProgress(I)Aprogettoispw.letmeknow.SearchControllerInterf1#incremProgress(I)V"
-ChangeListenerjava.lang.ObjectG
-5Lprogettoispw/letmeknow/SearchControllerInterf1$1643;ChangeListener¡
+incremProgress(I)Aprogettoispw.letmeknow.SearchControllerInterf1#incremProgress(I)V¡
 2progettoispw.letmeknow.controller.SearchControllerjava.lang.Objectr
 enterGoal(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.SearchController#enterGoal(Ljava/lang/String;)VH
 <init>()<progettoispw.letmeknow.controller.SearchController#<init>()VD
@@ -1171,17 +1175,14 @@ BsetVisited(Ljava/sql/Statement;Ljava/lang/String;Ljava/util/List;)rprogettoisp
 #enterGoalSearch(Ljava/lang/String;)Kprogettoispw.letmeknow.bean.SearchBean#enterGoalSearch(Ljava/lang/String;)Vt
 $enterDescrSearch(Ljava/lang/String;)Lprogettoispw.letmeknow.bean.SearchBean#enterDescrSearch(Ljava/lang/String;)Vp
 "enterAffinity(Ljava/lang/Integer;)Jprogettoispw.letmeknow.bean.SearchBean#enterAffinity(Ljava/lang/Integer;)Vx
-&enterParamSearch([Ljava/lang/Integer;)Nprogettoispw.letmeknow.bean.SearchBean#enterParamSearch([Ljava/lang/Integer;)Vï
+&enterParamSearch([Ljava/lang/Integer;)Nprogettoispw.letmeknow.bean.SearchBean#enterParamSearch([Ljava/lang/Integer;)V˝
 0progettoispw.letmeknow.TakeFormControllerInterf1java.lang.ObjectL
 setValues()=progettoispw.letmeknow.TakeFormControllerInterf1#setValues()VF
 goBack():progettoispw.letmeknow.TakeFormControllerInterf1#goBack()VF
-<init>():progettoispw.letmeknow.TakeFormControllerInterf1#<init>()VD
-save1()9progettoispw.letmeknow.TakeFormControllerInterf1#save1()VB
+<init>():progettoispw.letmeknow.TakeFormControllerInterf1#<init>()VB
 save()8progettoispw.letmeknow.TakeFormControllerInterf1#save()VN
 initialize()>progettoispw.letmeknow.TakeFormControllerInterf1#initialize()VE
-not([Z):progettoispw.letmeknow.TakeFormControllerInterf1#not([Z)[ZP
-getComplete()?progettoispw.letmeknow.TakeFormControllerInterf1#getComplete()II
-7Lprogettoispw/letmeknow/TakeFormControllerInterf1$2550;ChangeListenerÅ
+not([Z):progettoispw.letmeknow.TakeFormControllerInterf1#not([Z)[ZÅ
 2progettoispw.letmeknow.controller.user.InitialUserjava.lang.Objectv
 setPassword(Ljava/lang/String;)Sprogettoispw.letmeknow.controller.user.InitialUser#setPassword(Ljava/lang/String;)Zn
 setFeed(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.user.InitialUser#setFeed(Ljava/lang/String;)Zt
@@ -1335,9 +1336,8 @@ Vregistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/S
 getUID()Gprogettoispw.letmeknow.controller.user.UserDAO#getUID()Ljava/util/List;ï
 progettoispw.letmeknow.Pagejava.lang.Object1
 <init>()%progettoispw.letmeknow.Page#<init>()V1
-backTo()%progettoispw.letmeknow.Page#backTo()V§
+backTo()%progettoispw.letmeknow.Page#backTo()V‹
 0progettoispw.letmeknow.HomepagecontrollerInterf1java.lang.ObjectF
-goBack():progettoispw.letmeknow.HomepagecontrollerInterf1#goBack()VF
 <init>():progettoispw.letmeknow.HomepagecontrollerInterf1#<init>()VN
 initialize()>progettoispw.letmeknow.HomepagecontrollerInterf1#initialize()V∑
 8progettoispw.letmeknow.controller.ResultSearchControllerjava.lang.ObjectO
@@ -1347,23 +1347,100 @@ Vregistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/S
 queryUsers()Uprogettoispw.letmeknow.controller.ResultSearchController#queryUsers()Ljava/util/List;t
 <init>(Ljava/lang/Integer;)Uprogettoispw.letmeknow.controller.ResultSearchController#<init>(Ljava/lang/Integer;)Vl
 who(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.ResultSearchController#who(Ljava/lang/String;)VÆ
-/check(Ljava/lang/Integer;Ljava/util/ArrayList;){progettoispw.letmeknow.controller.ResultSearchController#check(Ljava/lang/Integer;Ljava/util/ArrayList;)Ljava/lang/Integer;∏
+/check(Ljava/lang/Integer;Ljava/util/ArrayList;){progettoispw.letmeknow.controller.ResultSearchController#check(Ljava/lang/Integer;Ljava/util/ArrayList;)Ljava/lang/Integer;∫
 4progettoispw.letmeknow.controller.HomepageControllerjava.lang.Objectk
-getDescription()Wprogettoispw.letmeknow.controller.HomepageController#getDescription()Ljava/lang/String;J
-<init>()>progettoispw.letmeknow.controller.HomepageController#<init>()VR
+getDescription()Wprogettoispw.letmeknow.controller.HomepageController#getDescription()Ljava/lang/String;R
 getExpired()Bprogettoispw.letmeknow.controller.HomepageController#getExpired()Z[
 getTag()Oprogettoispw.letmeknow.controller.HomepageController#getTag()Ljava/lang/String;a
 
-getParam()Sprogettoispw.letmeknow.controller.HomepageController#getParam()[Ljava/lang/Integer;_
+getParam()Sprogettoispw.letmeknow.controller.HomepageController#getParam()[Ljava/lang/Integer;L
+	<init>(Z)?progettoispw.letmeknow.controller.HomepageController#<init>(Z)V_
 	getDate()Rprogettoispw.letmeknow.controller.HomepageController#getDate()[Ljava/lang/Integer;]
 	getGoal()Pprogettoispw.letmeknow.controller.HomepageController#getGoal()Ljava/lang/String;a
-getUserID()Rprogettoispw.letmeknow.controller.HomepageController#getUserID()Ljava/lang/String;1
+getUserID()Rprogettoispw.letmeknow.controller.HomepageController#getUserID()Ljava/lang/String;(
+java.lang.Appendablejava.lang.Object>
+java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
+java.io.Flushablejava.lang.ObjectÉ
+java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
+nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
+	write([B)java.io.OutputStream#write([B)V*
+<init>()java.io.OutputStream#<init>()V(
+flush()java.io.OutputStream#flush()V0
+write([BII)!java.io.OutputStream#write([BII)V(
+close()java.io.OutputStream#close()Vé
+java.io.FilterOutputStreamjava.io.OutputStream2
+	write([B)%java.io.FilterOutputStream#write([B)V\
+<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
+flush()#java.io.FilterOutputStream#flush()V0
+write(I)$java.io.FilterOutputStream#write(I)V6
+write([BII)'java.io.FilterOutputStream#write([BII)V.
+close()#java.io.FilterOutputStream#close()VÖ 
+java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
+	write([C)java.io.PrintStream#write([C)V)
+print(J)java.io.PrintStream#print(J)V-
+
+println(J)java.io.PrintStream#println(J)V)
+print(F)java.io.PrintStream#print(F)V-
+
+println(F)java.io.PrintStream#println(F)V/
+write([BII) java.io.PrintStream#write([BII)VÅ
+4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
+print(Z)java.io.PrintStream#print(Z)V1
+clearError()!java.io.PrintStream#clearError()V-
+
+println(Z)java.io.PrintStream#println(Z)Vi
+(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
+write(I)java.io.PrintStream#write(I)VO
+println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
+print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
+4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
+print(I)java.io.PrintStream#print(I)V-
+
+println(I)java.io.PrintStream#println(I)V'
+flush()java.io.PrintStream#flush()V´
+?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
+ append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
+toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
+<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
+	print([C)java.io.PrintStream#print([C)Vq
+"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
+print(D)java.io.PrintStream#print(D)Vq
+,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
+
+println(D)java.io.PrintStream#println(D)VO
+println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
+<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
+<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
+0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
+ensureOpen()!java.io.PrintStream#ensureOpen()Vã
+9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V´
+?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
+
+setError()java.io.PrintStream#setError()Vá
+-printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
+	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
+<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
+-format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
+	newLine()java.io.PrintStream#newLine()V)
+print(C)java.io.PrintStream#print(C)V1
+checkError()!java.io.PrintStream#checkError()Z+
+	println()java.io.PrintStream#println()V'
+close()java.io.PrintStream#close()V-
+
+println(C)java.io.PrintStream#println(C)VK
+write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
+print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
+1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
+<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
+println([C) java.io.PrintStream#println([C)Vã
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V1
 HomepageEditControllerInterf1java.lang.Object°
 4progettoispw.letmeknow.HomepageEditControllerInterf2HomepageEditControllerInterf1J
-<init>()>progettoispw.letmeknow.HomepageEditControllerInterf2#<init>()V¥
+<init>()>progettoispw.letmeknow.HomepageEditControllerInterf2#<init>()Vâ
 3progettoispw.letmeknow.RecoverPswdControllerInterf1java.lang.ObjectI
 <init>()=progettoispw.letmeknow.RecoverPswdControllerInterf1#<init>()VQ
-initialize()Aprogettoispw.letmeknow.RecoverPswdControllerInterf1#initialize()VM
+initialize()Aprogettoispw.letmeknow.RecoverPswdControllerInterf1#initialize()VS
+backToLogin()Bprogettoispw.letmeknow.RecoverPswdControllerInterf1#backToLogin()VM
 
 sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 4progettoispw.letmeknow.controller.SettingsControllerjava.lang.Objectx
@@ -1382,13 +1459,7 @@ sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 	exitUid()Aprogettoispw.letmeknow.bean.ISCBean#exitUid()[[Ljava/lang/String;Â
 3progettoispw.letmeknow.FormCollectionResultsInterf1java.lang.ObjectI
 <init>()=progettoispw.letmeknow.FormCollectionResultsInterf1#<init>()VQ
-initialize()Aprogettoispw.letmeknow.FormCollectionResultsInterf1#initialize()V€
-)progettoispw.letmeknow.FormSectionInterf2java.lang.ObjectI
-setProgress()8progettoispw.letmeknow.FormSectionInterf2#setProgress()VG
-setSliders()7progettoispw.letmeknow.FormSectionInterf2#setSliders()V?
-<init>()3progettoispw.letmeknow.FormSectionInterf2#<init>()VG
-initialize()7progettoispw.letmeknow.FormSectionInterf2#initialize()VB
-0Lprogettoispw/letmeknow/FormSectionInterf2$1132;ChangeListener—
+initialize()Aprogettoispw.letmeknow.FormCollectionResultsInterf1#initialize()V—
 0progettoispw.letmeknow.controller.search.Slidersjava.lang.Objectl
 setPos(Ljava/lang/Integer;)Mprogettoispw.letmeknow.controller.search.Sliders#setPos(Ljava/lang/Integer;)Vl
 setEmp(Ljava/lang/Integer;)Mprogettoispw.letmeknow.controller.search.Sliders#setEmp(Ljava/lang/Integer;)VX
@@ -1402,11 +1473,7 @@ sendMail()?progettoispw.letmeknow.RecoverPswdControllerInterf1#sendMail()VÃ
 2progettoispw.letmeknow.HomepageHomepageEditInterf2java.lang.ObjectD
 load():progettoispw.letmeknow.HomepageHomepageEditInterf2#load()VH
 <init>()<progettoispw.letmeknow.HomepageHomepageEditInterf2#<init>()VP
-initialize()@progettoispw.letmeknow.HomepageHomepageEditInterf2#initialize()VÙ
-"progettoispw.letmeknow.FormInterf2java.lang.Object8
-<init>(),progettoispw.letmeknow.FormInterf2#<init>()V@
-initialize()0progettoispw.letmeknow.FormInterf2#initialize()V@
-setSection()0progettoispw.letmeknow.FormInterf2#setSection()V˛
+initialize()@progettoispw.letmeknow.HomepageHomepageEditInterf2#initialize()V˛
 4progettoispw.letmeknow.ResultSearchControllerInterf1java.lang.ObjectJ
 goBack()>progettoispw.letmeknow.ResultSearchControllerInterf1#goBack()VJ
 <init>()>progettoispw.letmeknow.ResultSearchControllerInterf1#<init>()Vb
@@ -1556,83 +1623,7 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)ljava.time.
 dsignup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)òprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Zr
 checkMail(Ljava/lang/String;)Qprogettoispw.letmeknow.controller.SignupController#checkMail(Ljava/lang/String;)ZH
 <init>()<progettoispw.letmeknow.controller.SignupController#<init>()V¥
->signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z(
-java.lang.Appendablejava.lang.Object>
-java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
-java.io.Flushablejava.lang.ObjectÉ
-java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
-nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
-	write([B)java.io.OutputStream#write([B)V*
-<init>()java.io.OutputStream#<init>()V(
-flush()java.io.OutputStream#flush()V0
-write([BII)!java.io.OutputStream#write([BII)V(
-close()java.io.OutputStream#close()Vé
-java.io.FilterOutputStreamjava.io.OutputStream2
-	write([B)%java.io.FilterOutputStream#write([B)V\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V6
-write([BII)'java.io.FilterOutputStream#write([BII)V.
-close()#java.io.FilterOutputStream#close()VÖ 
-java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
-	write([C)java.io.PrintStream#write([C)V)
-print(J)java.io.PrintStream#print(J)V-
-
-println(J)java.io.PrintStream#println(J)V)
-print(F)java.io.PrintStream#print(F)V-
-
-println(F)java.io.PrintStream#println(F)V/
-write([BII) java.io.PrintStream#write([BII)VÅ
-4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
-print(Z)java.io.PrintStream#print(Z)V1
-clearError()!java.io.PrintStream#clearError()V-
-
-println(Z)java.io.PrintStream#println(Z)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
-write(I)java.io.PrintStream#write(I)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)V-
-
-println(I)java.io.PrintStream#println(I)V'
-flush()java.io.PrintStream#flush()V´
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
-	print([C)java.io.PrintStream#print([C)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
-print(D)java.io.PrintStream#print(D)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
-
-println(D)java.io.PrintStream#println(D)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
-0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
-ensureOpen()!java.io.PrintStream#ensureOpen()Vã
-9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V´
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
-
-setError()java.io.PrintStream#setError()Vá
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V1
-checkError()!java.io.PrintStream#checkError()Z+
-	println()java.io.PrintStream#println()V'
-close()java.io.PrintStream#close()V-
-
-println(C)java.io.PrintStream#println(C)VK
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
-println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Vı
+>signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Zı
 <progettoispw.letmeknow.controller.FormToTakeStatusControllerjava.lang.ObjectR
 <init>()Fprogettoispw.letmeknow.controller.FormToTakeStatusController#<init>()VX
 getFormId()Iprogettoispw.letmeknow.controller.FormToTakeStatusController#getFormId()If
@@ -1949,10 +1940,7 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)tjava.time.
 setResultForm()Bprogettoispw.letmeknow.controller.ControllerClass#setResultForm()VW
 getUserUSR()Gprogettoispw.letmeknow.controller.ControllerClass#getUserUSR()LUsrUser;`
 getResultForm()Mprogettoispw.letmeknow.controller.ControllerClass#getResultForm()LResultForm;T
-getSearch()Eprogettoispw.letmeknow.controller.ControllerClass#getSearch()LSearch;ı
-4progettoispw.letmeknow.HomepageEditcontrollerInterf2HomepageEditControllerInterf1J
-<init>()>progettoispw.letmeknow.HomepageEditcontrollerInterf2#<init>()VR
-initialize()Bprogettoispw.letmeknow.HomepageEditcontrollerInterf2#initialize()V
+getSearch()Eprogettoispw.letmeknow.controller.ControllerClass#getSearch()LSearch;
 Pagejava.lang.Object^
 progettoispw.letmeknow.PageMenuPage5
 <init>())progettoispw.letmeknow.PageMenu#<init>()V
@@ -1980,17 +1968,7 @@ hashCode()java.lang.Enum#hashCode()I—
 1progettoispw.letmeknow.MainApplication$ScreenSizejava.lang.Enum†
 valueOf(Ljava/lang/String;)Äprogettoispw.letmeknow.MainApplication$ScreenSize#valueOf(Ljava/lang/String;)Lprogettoispw/letmeknow/MainApplication$ScreenSize;z
 values()nprogettoispw.letmeknow.MainApplication$ScreenSize#values()[Lprogettoispw/letmeknow/MainApplication$ScreenSize;m
-<init>(Ljava/lang/String;I)Nprogettoispw.letmeknow.MainApplication$ScreenSize#<init>(Ljava/lang/String;I)V´
-1progettoispw.letmeknow.controller.VisitControllerjava.lang.Objectb
-returnDate()Rprogettoispw.letmeknow.controller.VisitController#returnDate()[Ljava/lang/Integer;c
-returnOptimismValues()Iprogettoispw.letmeknow.controller.VisitController#returnOptimismValues()Ia
-returnEmpathyValues()Hprogettoispw.letmeknow.controller.VisitController#returnEmpathyValues()IG
-<init>();progettoispw.letmeknow.controller.VisitController#<init>()Vn
-returnDescription()Wprogettoispw.letmeknow.controller.VisitController#returnDescription()Ljava/lang/String;^
-getUserid()Oprogettoispw.letmeknow.controller.VisitController#getUserid()Ljava/lang/String;]
-returnHumorValues()Fprogettoispw.letmeknow.controller.VisitController#returnHumorValues()I`
-returnGoal()Pprogettoispw.letmeknow.controller.VisitController#returnGoal()Ljava/lang/String;^
-returnTag()Oprogettoispw.letmeknow.controller.VisitController#returnTag()Ljava/lang/String;â
+<init>(Ljava/lang/String;I)Nprogettoispw.letmeknow.MainApplication$ScreenSize#<init>(Ljava/lang/String;I)Vâ
 3progettoispw.letmeknow.controller.user.JavaMailUtiljava.lang.ObjectI
 <init>()=progettoispw.letmeknow.controller.user.JavaMailUtil#<init>()VÉ
 sendMail(Ljava/lang/String;)cprogettoispw.letmeknow.controller.user.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;o
@@ -2127,7 +2105,14 @@ FstoreToXML(Ljava/io/OutputStream;Ljava/lang/String;Ljava/lang/String;)\java.ut
 getForms()@progettoispw.letmeknow.bean.HomepagePsychologistBean#getForms()F_
 
 getMonth()Qprogettoispw.letmeknow.bean.HomepagePsychologistBean#getMonth()Ljava/lang/String;x
-suggestForm(Ljava/lang/String;)Uprogettoispw.letmeknow.bean.HomepagePsychologistBean#suggestForm(Ljava/lang/String;)ZË
+suggestForm(Ljava/lang/String;)Uprogettoispw.letmeknow.bean.HomepagePsychologistBean#suggestForm(Ljava/lang/String;)Z€
+)progettoispw.letmeknow.FormSectionInterf2java.lang.ObjectI
+setProgress()8progettoispw.letmeknow.FormSectionInterf2#setProgress()VG
+setSliders()7progettoispw.letmeknow.FormSectionInterf2#setSliders()V?
+<init>()3progettoispw.letmeknow.FormSectionInterf2#<init>()VG
+initialize()7progettoispw.letmeknow.FormSectionInterf2#initialize()V"
+ChangeListenerjava.lang.ObjectB
+0Lprogettoispw/letmeknow/FormSectionInterf2$1132;ChangeListenerË
 4progettoispw.letmeknow.HomepageEditControllerInterf1java.lang.ObjectJ
 <init>()>progettoispw.letmeknow.HomepageEditControllerInterf1#<init>()VR
 initialize()Bprogettoispw.letmeknow.HomepageEditControllerInterf1#initialize()VÈ
@@ -2151,12 +2136,13 @@ BnewMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)uprogettoisp
 collectForms(II)Cprogettoispw.letmeknow.controller.psyuser.PsyUser#collectForms(II)VÌ
 +progettoispw.letmeknow.bean.RecoverPswdBeanjava.lang.ObjectA
 <init>()5progettoispw.letmeknow.bean.RecoverPswdBean#<init>()Vi
-sendMail(Ljava/lang/String;)Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)Z“
+sendMail(Ljava/lang/String;)Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)Zª
 :progettoispw.letmeknow.controller.CollectionFormControllerjava.lang.ObjectT
 
 takeForm()Fprogettoispw.letmeknow.controller.CollectionFormController#takeForm()VP
 <init>()Dprogettoispw.letmeknow.controller.CollectionFormController#<init>()VZ
-setTouched(I)Iprogettoispw.letmeknow.controller.CollectionFormController#setTouched(I)Væ
+setTouched(I)Iprogettoispw.letmeknow.controller.CollectionFormController#setTouched(I)Vg
+getUserid()Xprogettoispw.letmeknow.controller.CollectionFormController#getUserid()Ljava/lang/String;æ
 /progettoispw.letmeknow.controller.usruser.Queryjava.lang.ObjectE
 <init>()9progettoispw.letmeknow.controller.usruser.Query#<init>()V“
 EsetParams(Ljava/sql/Statement;Ljava/lang/String;[Ljava/lang/Integer;)àprogettoispw.letmeknow.controller.usruser.Query#setParams(Ljava/sql/Statement;Ljava/lang/String;[Ljava/lang/Integer;)Ljava/lang/Boolean;ÿ
@@ -2172,8 +2158,9 @@ tornaLog()Nprogettoispw.letmeknow.controller.LoginController#tornaLog()Ljava/la
 color(Z)7progettoispw.letmeknow.LoginControllerInterf1#color(Z)VC
 <init>()7progettoispw.letmeknow.LoginControllerInterf1#<init>()VG
 
-showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()V”
--progettoispw.letmeknow.VisitControllerInterf1java.lang.ObjectC
+showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()V-
+HomepagecontrollerInterf1java.lang.Object‹
+-progettoispw.letmeknow.VisitControllerInterf1HomepagecontrollerInterf1C
 <init>()7progettoispw.letmeknow.VisitControllerInterf1#<init>()VK
 initialize();progettoispw.letmeknow.VisitControllerInterf1#initialize()V…
 @progettoispw.letmeknow.controller.HomepagePsychologistControllerjava.lang.Object|
@@ -2223,20 +2210,19 @@ showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()V”
 newMSG(Ljava/lang/String;)Lprogettoispw.letmeknow.controller.ChatController#newMSG(Ljava/lang/String;)Vì
 %progettoispw.letmeknow.bean.LoginBeanjava.lang.ObjectR
 exitValue()Cprogettoispw.letmeknow.bean.LoginBean#exitValue()Ljava/lang/String;É
-,<init>(Ljava/lang/String;Ljava/lang/String;)Sprogettoispw.letmeknow.bean.LoginBean#<init>(Ljava/lang/String;Ljava/lang/String;)V¢
-:progettoispw.letmeknow.SignupPsychologistControllerInterf1java.lang.ObjectN
-reset()Cprogettoispw.letmeknow.SignupPsychologistControllerInterf1#reset()VV
+,<init>(Ljava/lang/String;Ljava/lang/String;)Sprogettoispw.letmeknow.bean.LoginBean#<init>(Ljava/lang/String;Ljava/lang/String;)V“
+:progettoispw.letmeknow.SignupPsychologistControllerInterf1java.lang.ObjectV
 goToLogin()Gprogettoispw.letmeknow.SignupPsychologistControllerInterf1#goToLogin()VP
 <init>()Dprogettoispw.letmeknow.SignupPsychologistControllerInterf1#<init>()VX
-initialize()Hprogettoispw.letmeknow.SignupPsychologistControllerInterf1#initialize()Vñ
+initialize()Hprogettoispw.letmeknow.SignupPsychologistControllerInterf1#initialize()Vò
 ,progettoispw.letmeknow.bean.BeanResultSearchjava.lang.Objecth
 touched(Ljava/lang/String;)Iprogettoispw.letmeknow.bean.BeanResultSearch#touched(Ljava/lang/String;)V@
 reset()5progettoispw.letmeknow.bean.BeanResultSearch#reset()VB
 <init>()6progettoispw.letmeknow.bean.BeanResultSearch#<init>()VE
 	getnval()8progettoispw.letmeknow.bean.BeanResultSearch#getnval()[ID
-	<init>(I)7progettoispw.letmeknow.bean.BeanResultSearch#<init>(I)VW
-	exitDes()Jprogettoispw.letmeknow.bean.BeanResultSearch#exitDes()[[Ljava/lang/String;-
-HomepagecontrollerInterf1java.lang.Objectï
+	<init>(I)7progettoispw.letmeknow.bean.BeanResultSearch#<init>(I)VY
+
+getUsers()Kprogettoispw.letmeknow.bean.BeanResultSearch#getUsers()[[Ljava/lang/String;ï
 0progettoispw.letmeknow.HomepageControllerInterf2HomepagecontrollerInterf1F
 <init>():progettoispw.letmeknow.HomepageControllerInterf2#<init>()V·
 'progettoispw.letmeknow.ButtonBarInterf2java.lang.ObjectO
@@ -2261,23 +2247,10 @@ showPSWD()9progettoispw.letmeknow.LoginControllerInterf1#showPSWD()V”
  queryResult(Ljava/lang/String;I)Qprogettoispw.letmeknow.controller.form.FormDAO#queryResult(Ljava/lang/String;I)[Iz
 close(Ljava/lang/String;I)\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;q
 queryParam(Ljava/lang/String;)Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[Ià
-!setAnswer(Ljava/lang/String;I[II)cprogettoispw.letmeknow.controller.form.FormDAO#setAnswer(Ljava/lang/String;I[II)Ljava/lang/Boolean;Õ
-&progettoispw.letmeknow.bean.UseridBeanjava.lang.Object<
-<init>()0progettoispw.letmeknow.bean.UseridBean#<init>()VS
-getUserId()Dprogettoispw.letmeknow.bean.UseridBean#getUserId()Ljava/lang/String;ë
+!setAnswer(Ljava/lang/String;I[II)cprogettoispw.letmeknow.controller.form.FormDAO#setAnswer(Ljava/lang/String;I[II)Ljava/lang/Boolean;ë
 7progettoispw.letmeknow.controller.RecoverPswdControllerjava.lang.ObjectM
 <init>()Aprogettoispw.letmeknow.controller.RecoverPswdController#<init>()Vu
-sendMail(Ljava/lang/String;)Uprogettoispw.letmeknow.controller.RecoverPswdController#sendMail(Ljava/lang/String;)ZÊ
-%progettoispw.letmeknow.bean.VisitBeanjava.lang.ObjectT
-exitValue()Eprogettoispw.letmeknow.bean.VisitBean#exitValue()[Ljava/lang/Integer;;
-<init>()/progettoispw.letmeknow.bean.VisitBean#<init>()VN
-	exitTag()Aprogettoispw.letmeknow.bean.VisitBean#exitTag()Ljava/lang/String;R
-
-exitData()Dprogettoispw.letmeknow.bean.VisitBean#exitData()[Ljava/lang/Integer;N
-	exitDes()Aprogettoispw.letmeknow.bean.VisitBean#exitDes()Ljava/lang/String;R
-getUserId()Cprogettoispw.letmeknow.bean.VisitBean#getUserId()Ljava/lang/String;P
-
-exitGoal()Bprogettoispw.letmeknow.bean.VisitBean#exitGoal()Ljava/lang/String;È
+sendMail(Ljava/lang/String;)Uprogettoispw.letmeknow.controller.RecoverPswdController#sendMail(Ljava/lang/String;)ZÈ
 'progettoispw.letmeknow.bean.LastMessagejava.lang.ObjectV
 getLastmsg()Fprogettoispw.letmeknow.bean.LastMessage#getLastmsg()Ljava/lang/String;T
 getUserid()Eprogettoispw.letmeknow.bean.LastMessage#getUserid()Ljava/lang/String;!

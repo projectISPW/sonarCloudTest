@@ -1,51 +1,78 @@
-package progettoispw.letmeknow.controller.usruser;
+package progettoispw.letmeknow.controller.psyuser;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 
-public class Query {
-    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
-        return stmt.executeQuery(sql);
+import java.util.ArrayList;
+import java.util.List;
+
+public class Form  {
+    int formid;
+    String userid;
+    int [] answers;
+    static final Integer [] FORMSID={1,2,3};
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+    public String getUserid() {
+        return userid;
+    }
+    public void setFormid(int formid) {
+        this.formid = formid;
+    }
+    public void setAnswers(int[] answersInp) {
+        answers = answersInp;
+    }
+    public int getFormid() {
+        return formid;
+    }
+    public int[] getAnswers() {
+        return answers;
+    }
+    public List<Form> attach(int formid, int [] answers, String userid, List<Form> actual){
+        if(actual==null)actual=new ArrayList<>();
+        Form elem=new Form();
+        elem.setFormid(formid);
+        elem.setAnswers(answers);
+        elem.setUserid(userid);
+        actual.add(elem);
+        return actual;
+    }
+    public int getCounter(List<Form> input, int id){
+        int counter=0;
+        for(Form elem: input)if (elem.getFormid()==id)counter++;
+        return counter;
+    }
+    public Form getElem(List<Form> input, int val){
+        for(Form elem:input)if(elem.getFormid()==val)return elem;
+        return null;
     }
 
-    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
-        try {
-            String sql=String.format(" UPDATE  `utenti` set `%s`='%s' WHERE (`userid` = '%s') ;",what,edit,iduser);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
+    public List<Form> getSum(List<Form> input) {
+        int[] ids = new int[FORMSID.length];
+        int[] innerAnswer;
+        int[] answersCompare;
+        ArrayList<Form> inner = new ArrayList<>();
+        Form form;
+        boolean in ;
+        int val;
+        String id;
+        for (Form elem : input) {
+            val = elem.getFormid();
+            id=elem.getUserid();
+            innerAnswer = elem.getAnswers();
+            in=false;
+            for (int i : ids) if (val == i) in = true;
+            if (in) {
+                form = getElem(inner,val);
+                answersCompare = form.getAnswers();
+                for (int i = 0; i < innerAnswer.length; i++) {
+                    innerAnswer[i] += answersCompare[i];
+                }
+                form.setAnswers(innerAnswer);
+            } else {
+                attach(val, innerAnswer,id, inner);
+                ids[val-1]=val;
+            }
         }
-    }
-
-    protected Boolean setParams(Statement stmt,String uid,Integer [] param){
-        try {
-            String sql=String.format("UPDATE `utenti` SET `empathy` = '%d', `humor` = '%d', `positivity` = '%d' WHERE (`userid` = '%s'); ",param[0],param[1],param[2],uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
-    }
-    protected ResultSet queryResult(Statement stmt, String uid) {
-        try {
-            String sql=String.format(" SELECT * FROM forms where `userid`=%s ;",uid);
-            return stmt.executeQuery(sql);
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-    protected boolean setCalculated(Statement stmt,String uid,int formid){
-        try {
-            String sql=String.format(" UPDATE `forms` SET `calculated` = '0' WHERE (`formid` = '%d') and (`userid` = '%s');",formid,uid);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }return false;
+        return inner;
     }
 }

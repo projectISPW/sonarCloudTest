@@ -1,29 +1,14 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.FormToTakeStatusController;
+import progettoispw.letmeknow.controller.FormPsychologistResultController;
 
-public class FormToTakeStatusBean {
-    FormToTakeStatusController controller;
-    public FormToTakeStatusBean(){
-        controller=new FormToTakeStatusController();
+
+public class FormPsychologistResultBean {
+    FormPsychologistResultController controller;
+    public FormPsychologistResultBean(){
+        controller=new FormPsychologistResultController();
     }
-    public int[] exitValStatus(){
-        return controller.getValResponse();
-    }
-    public void inputValStatus(int [] inputint){
-        controller.setValResponse(inputint);
-    }
-    public int getComplete(){
-        return controller.getValComplete();
-    }
-    public boolean[] exitStatus() {
-        return controller.getStatus();
-    }
-    public int getFormId(){
-        int val=controller.getFormId();
-        if(val>=1 && val <=3){
-            return val;
-        }
-        return 1;
+    public float [] getSelected(){
+        return controller.getSelected();
     }
 }

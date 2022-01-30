@@ -5,7 +5,6 @@ import java.util.Calendar;
 import java.util.stream.IntStream;
 
 public class HomepageEditBean {
-    private String userid;
     private HomepageEditController controller;
     public HomepageEditBean() {
         controller=new HomepageEditController();

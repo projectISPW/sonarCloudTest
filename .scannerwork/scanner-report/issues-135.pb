@@ -1,4 +1,3 @@
-X
-javaS1854=Remove this useless assignment to local variable "!unknown!". 200, AX
-javaS1854=Remove this useless assignment to local variable "!unknown!". 2,, EX
-javaS1854=Remove this useless assignment to local variable "!unknown!". 222' <
+S
+javaS1069Replace this use of System.out or System.err by a logger. 2&& S
+javaS1069Replace this use of System.out or System.err by a logger. 2BB 

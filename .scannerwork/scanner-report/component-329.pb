@@ -1,1 +1,1 @@
-É 2javaXNhrqprogettoRieditatosecondo/src/main/usecase/visit/controllerView/progettoispw/letmeknow/VisitControllerInterf1.java
+É 2javaX$hrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf2.java

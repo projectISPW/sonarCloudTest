@@ -1,1 +1,1 @@
-~ 2javaXDhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java
+~ 2javaX(hr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java

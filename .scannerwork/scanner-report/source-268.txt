@@ -1,36 +1,24 @@
-//translated variables/classes
+//utenteusr never used. should I cancel it with also library?
 
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.usruser.UsrUser;
+import progettoispw.letmeknow.controller.form.ResultForm;
 
-public class HomepageController {
-    UsrUser user;
-    public HomepageController(){
-        user= ControllerClass.getUserUSR();
+public class FormResultController {
+    ResultForm form;
+    int [] values;
+    public FormResultController(){
+        form= ControllerClass.getResultForm();
     }
-    public String getUserID(){
-        return user.getUserid();
+    public int[] getValResponse(){
+        values=form.getRisposte();
+        return form.getRisposte();
     }
-    public Integer[] getParam(){
-        Integer [] ret=new Integer[3];
-        ret[0]=user.getEmp();
-        ret[1]=user.getHum();
-        ret[2]=user.getOpt();
-        for(int i=0;i<3;i++)if(ret[i]>5 || ret[i]<1)ret[i]=1;
-        return ret;
+    public int [] getParam () {
+        return form.getParam();
     }
-    public String getDescription(){
-        return user.getDescript();
+    public String getDate () {
+        return form.getDate();
     }
-    public String getTag(){
-        return user.getTag();
-    }
-    public String getGoal(){return user.getGoal();}
-    public Integer[] getDate(){
-        return user.getDate();
-   }
-   public boolean getExpired(){
-        return user.getExpired();
-   }
+
 }

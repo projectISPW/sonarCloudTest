@@ -1,23 +1,50 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.*;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-public class SearchBean {
-    private SearchController controller;
-    public SearchBean(){
-        controller=new SearchController();
+public class ButtonBarInterf2 {
+    PageMenu controller= new PageMenu();
+    @FXML
+    Button home;
+    @FXML
+    Button chat;
+    @FXML
+    Button form;
+    @FXML
+    Button search;
+    @FXML
+    Button settings;
+    public void initialize(){
+        Button [] buttons=new Button[] {home,chat,form,search,settings};
+        for(Button button:buttons)button.setStyle("-fx-opacity: 0.5");
     }
-    public void enterParamSearch(Integer [] input){
-        if(input[0]>=1 || input[1]>=1 || input [2]>=1){
-            controller.enterParamSearch(input);
-        }
+    public void goToChat(ActionEvent actionEvent) {
+        controller.switchToChat(actionEvent);
     }
-    public void enterGoalSearch(String input){
-        controller.enterGoal(input);
+    public void goToHome(ActionEvent actionEvent) {
+        BeanResultSearch bean=new BeanResultSearch();
+        bean.reset();
+        controller.switchToHome(actionEvent);
     }
-    public void enterDescrSearch(String input){controller.enterDes(input);}
-    public void enterAffinity(Integer input) {controller.enterAffinity(input);}
-    public void toMe(){
-        controller.toMe();
+    public void goToForm(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
+    public void goToSettings(ActionEvent actionEvent) {
+        controller.switchToSettings(actionEvent);
+    }
+    public void goToSearch(ActionEvent actionEvent) {
+        controller.switchToSearch(actionEvent);
+    }
+    public void setOpacity(Button button ){button.setStyle("-fx-opacity: 1.0");}
+    public void setHome() {
+        setOpacity(home);
+    }
+    public void setSearch() {
+        setOpacity(search);
+    }
+    public void setSettings() {setOpacity(settings);}
+    public void setPersonalForm() {setOpacity(form);}
 }

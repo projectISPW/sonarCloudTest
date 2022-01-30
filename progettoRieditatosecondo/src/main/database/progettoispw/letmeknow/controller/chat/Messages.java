@@ -19,18 +19,17 @@ public class Messages {
         return userid;
     }
     public List<Message> getAllChat(){
-        sendRecived= (ArrayList<Message>)
-        messageData.getRecivedSentMessage(userid);
+        sendRecived= (ArrayList<Message>) messageData.getRecivedSentMessage(userid);
         return sendRecived;
     }
     public void attach(String usr,List<String>list){
-        if (list.contains(usr)) {
+        if (!list.contains(usr)) {
             list.add(usr);
         }
     }
     public List<String> getUsers(){
-        ArrayList<String> users=new ArrayList<>();
-        ArrayList<Message>inner= (ArrayList<Message>)getAllChat();
+        List<String> users=new ArrayList<>();
+        List<Message>inner= getAllChat();
         for(Message msg:inner){
             attach(msg.getSender(),users);
             attach(msg.getReciver(),users);

@@ -1,16 +1,28 @@
 
-[progettoispw.letmeknow.bean.SettingsBean#setPassword(Ljava/lang/String;Ljava/lang/String;)Z™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("2"1*Æ
-2™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java8 (B"¤
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java1 (U
-""*Æ
-1™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (
-"":
-pswdjava.lang.String:
-confirmpswdjava.lang.StringB,*
-(progettoispw.letmeknow.bean.SettingsBean
+\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaj j("1*³
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(
+stmtjava.sql.Statement"__id*
+""¶
+³
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javam m('
+%0int[]"Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I*20
+.progettoispw.letmeknow.controller.form.FormDAO*
+
+useridjava.lang.String°
+­
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javan n($
+stmtjava.sql.Statement"__id*
+"""‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaq q(
+"":
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO

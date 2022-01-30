@@ -1,131 +1,9 @@
 
-Wprogettoispw.letmeknow.controller.psyuser.Form#getSum(Ljava/util/List;)Ljava/util/List;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java1 1("16*Î
-2€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java: :(Ì
-É
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java: :(6
-elem.progettoispw.letmeknow.controller.psyuser.Form"__id*
-""í
-ê
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java: :(6
-elem.progettoispw.letmeknow.controller.psyuser.Form"
-__arrayGet*
-
-inputjava.util.List*
-""*
-14
-1*»	
-14€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java; ;(•’
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java; ;("	
-%3int";progettoispw.letmeknow.controller.psyuser.Form#getFormid()I*8
-6
-elem.progettoispw.letmeknow.controller.psyuser.Form2getFormid()³°
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java< <(
-%4java.lang.String"Lprogettoispw.letmeknow.controller.psyuser.Form#getUserid()Ljava/lang/String;*8
-6
-elem.progettoispw.letmeknow.controller.psyuser.Form2getUserid()¾
-»
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java< <(
-idjava.lang.String"__id*
-
-%4java.lang.Stringš—
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java= =(+
-%5int[]"=progettoispw.letmeknow.controller.psyuser.Form#getAnswers()[I*8
-6
-elem.progettoispw.letmeknow.controller.psyuser.Form2getAnswers()*
-3
-8*Å
-3€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaH H(·´
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaH H(2
-%9java.util.List"lprogettoispw.letmeknow.controller.psyuser.Form#attach(I[ILjava/lang/String;Ljava/util/List;)Ljava/util/List;*20
-.progettoispw.letmeknow.controller.psyuser.Form*
-""*
-""*
-
-idjava.lang.String*
-
-innerjava.util.ArrayList2-attach(I[ILjava/lang/String;Ljava/util/List;)*
-2*²
-4€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaF F(¤¡
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaF F(,
-
-%8void">progettoispw.letmeknow.controller.psyuser.Form#setAnswers([I)V*8
-6
-form.progettoispw.letmeknow.controller.psyuser.Form*
-""2setAnswers([I)*
-2*Š
-
-16€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java2 2(#¯
-¬
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java2 2(#
-%0java.lang.Integer[]"__id*
-""¶³
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java5$ 5(/
-%1java.util.ArrayList"java.util.ArrayListÈ
-Å
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java5  5(1
-%2"java.util.ArrayList#<init>()V*
-
-%1java.util.ArrayListÇ
-Ä
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java5 5(2
-innerjava.util.ArrayList"__id*
-
-%1java.util.ArrayListÌ
-É
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java6 6(6
-form.progettoispw.letmeknow.controller.psyuser.Form"__id*
-""¬
-©
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java9 9(
-idjava.lang.String"__id*
-""*
-2*Ù
-8€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaA A(¯¬
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaA A()4
-%6.progettoispw.letmeknow.controller.psyuser.Form"yprogettoispw.letmeknow.controller.psyuser.Form#getElem(Ljava/util/List;I)Lprogettoispw/letmeknow/controller/psyuser/Form;*20
-.progettoispw.letmeknow.controller.psyuser.Form*
-
-innerjava.util.ArrayList*
-""2getElem(Ljava/util/List;I)ü
-ù
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaA A()6
-form.progettoispw.letmeknow.controller.psyuser.Form"__id*6
-4
-%6.progettoispw.letmeknow.controller.psyuser.Formš—
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaB! B(2
-%7int[]"=progettoispw.letmeknow.controller.psyuser.Form#getAnswers()[I*8
-6
-form.progettoispw.letmeknow.controller.psyuser.Form2getAnswers()*
-4*¬
+;progettoispw.letmeknow.controller.psyuser.Form#getFormid()I€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java ("1*”
 1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaL L("£
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java ("‹
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.javaL L(
-
-innerjava.util.ArrayList:
-inputjava.util.ListB20
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java (
+""B20
 .progettoispw.letmeknow.controller.psyuser.Form

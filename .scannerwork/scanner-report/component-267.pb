@@ -1,1 +1,1 @@
-‹ 2javaX'hrvprogettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java
+‹ 2javaXhrzprogettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java

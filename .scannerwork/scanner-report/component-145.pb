@@ -1,1 +1,1 @@
-‘ 2xmlX	hrfprogettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+‘ 2javaXNhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java

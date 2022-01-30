@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
 
 public class SettingsControllerInterf2 extends SettingsControllerInterf1{
     @FXML
-    AnchorPane homepage_edit;
+    AnchorPane homepageEdit;
     @FXML
     AnchorPane buttonBar;
     @Override
@@ -26,8 +26,8 @@ public class SettingsControllerInterf2 extends SettingsControllerInterf1{
             buttonBar.getChildren().add((Node)loader.load());
             ButtonBarInterf2 barController=loader.getController();
             barController.setSettings();
-            homepage_edit.getChildren().removeAll(homepage_edit.getChildren());
-            homepage_edit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageEdit/homepageEdit.fxml")));
+            homepageEdit.getChildren().removeAll(homepageEdit.getChildren());
+            homepageEdit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageEdit/homepageEdit.fxml")));
         } catch (IOException e) {
             e.printStackTrace();
         }

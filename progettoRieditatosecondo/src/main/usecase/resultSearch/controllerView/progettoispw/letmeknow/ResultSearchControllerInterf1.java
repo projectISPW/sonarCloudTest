@@ -7,7 +7,6 @@ import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.ISCBean;
 import progettoispw.letmeknow.bean.BeanResultSearch;
 
 public class ResultSearchControllerInterf1 {
@@ -56,7 +55,7 @@ public class ResultSearchControllerInterf1 {
         for(int i=0;i<nval;i++){
             visitGroup[i].setOpacity(1);
         }
-        String [] [] users= beanVisit.exitDes();
+        String [] [] users= beanVisit.getUsers();
         String[] strDes= users[2];
         String[] strGoal=users[1];
         String[] strUid=users[0];
@@ -91,27 +90,17 @@ public class ResultSearchControllerInterf1 {
     public void setUids(String [] input){
         uids=input;
     }
-    @FXML
-    public void visit(ActionEvent event) {
+    public void touchVisit(ActionEvent event){
         Button button = (Button) event.getTarget();
         if (button.getOpacity() < 1) return;
-        switch (button.getId()) {
-            case "home1":
-                beanVisit.touched(uids[0]);
-                break;
-            case "home2":
-                beanVisit.touched(uids[1]);
-                break;
-            case "home3":
-                beanVisit.touched(uids[2]);
-                break;
-            case "home4":
-                beanVisit.touched(uids[3]);
-                break;
-            default: {
-                event.consume();
-            }
+        for(int i=1;i<7;i++){
+            String compare="home"+i;
+            if(compare.equals(button.getId()))beanVisit.touched(uids[i-1]);
         }
+    }
+    @FXML
+    public void visit(ActionEvent event) {
+        touchVisit(event);
         controller.switchTo("homepageOthers/interf1.fxml",event,"visit");
     }
     @FXML

@@ -1,73 +1,70 @@
+//var on same line
 package progettoispw.letmeknow;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Group;
-import javafx.scene.chart.PieChart;
-import progettoispw.letmeknow.bean.BeanResultSearch;
 
-import java.util.Arrays;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormResultBean;
 
-public class AdviseBoarcControllerInterf2 {
+
+public class FormResultInterf1 {
     @FXML
-    PieChart graphVisit;
+    ImageView empathySlider;
     @FXML
-    Group group1;
+    ImageView humorSlider;
     @FXML
-    Group group2;
+    ImageView optimismSlider;
+    ImageView [] param;
     @FXML
-    Group group3;
+    ImageView ans1;
     @FXML
-    Group extGroup1;
+    ImageView ans2;
     @FXML
-    Group extGroup2;
+    ImageView ans3;
     @FXML
-    Group extGroup3;
+    ImageView ans4;
     @FXML
-    Group group4;
+    ImageView ans5;
     @FXML
-    Group group5;
+    ImageView ans6;
+    ImageView [] images;
     @FXML
-    Group group6;
-    String [] uids;
-    public AdviseBoarcControllerInterf2(){
-        uids =new String[6];
+    Text by;
+    FormResultBean bean ;
+    PageMenu controller ;
+    int [] values;
+    public FormResultInterf1(){
+        bean=new FormResultBean();
+        controller=new PageMenu();
     }
-
     public void initialize(){
-        outputValChat();
-        outputValVisited();
-        BeanResultSearch bean=new BeanResultSearch();
-        int [] val=bean.getnval();
-        ObservableList<PieChart.Data>graphData=
-                FXCollections.observableArrayList(
-                        new PieChart.Data("global visit",val[0]),
-                        new PieChart.Data("recived visit",val[1])
-                );
-        graphVisit.setData(graphData);
-    }
-    public  void outputValChat(){
-        InitialSearchAndChatControllerInterf1 iscInterf1=new InitialSearchAndChatControllerInterf1();
-        String [] inner=iscInterf1.prevOutputValChat(new Group[]{extGroup1,extGroup2,extGroup3},new Group[]{group1,group2,group3},3);
-        uids = Arrays.copyOf(inner, 3);
-    }
-    public void outputValVisited(){
-        ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=rscInterf1.prevOutputVal(new Group[]{group4,group5,group6},3);
-        for(int i=0;i<3;i++)uids[i+3]=inner[i];
+        HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
+        controller=new PageMenu();
+        values=bean.exitValStatus();
+        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
+        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
+        int indice=0;
+        for(ImageView image:images ){
+            homepage.setSlider(image,values[indice++]);
+        }
+        values= bean.getParam();
+        indice=0;
+        for(ImageView image:param){
+            homepage.setSlider(image,values[indice++]);
+        }
+        by.setText(bean.getData());
     }
     @FXML
-    public void touchChat(ActionEvent event){
-        InitialSearchAndChatControllerInterf1 isc=new InitialSearchAndChatControllerInterf1(uids);
-        isc.touchChat(event);
+    protected  void goToISC(ActionEvent event){
+        controller.switchToISC(event);
     }
     @FXML
-    public void visit(ActionEvent event){
-        PageMenu controller=new PageMenu();
-        ResultSearchControllerInterf2 rscIntf2=new ResultSearchControllerInterf2(uids);
-        rscIntf2.visit(event);
-        controller.switchToSearch(event);
+    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+    @FXML
+    public void goBack(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
 }

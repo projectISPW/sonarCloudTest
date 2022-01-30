@@ -22,7 +22,7 @@ public class UsrUserDAO {
         connDB= new ConnectionDBMS();
         query=new Query();
     }
-    public String [] selectUser(String uid){
+    public String [] selectUsrUser(String uid){
         Statement stmt=null;
         ResultSet rst=null;
         String [] ret=new String [7];
@@ -92,9 +92,9 @@ public class UsrUserDAO {
         List<Integer> calculated=new ArrayList<>();
         char[] about;
         boolean edited=false;
-        boolean check=true;
-        Integer []  currentVal=new Integer[3];
-        int size=-1;
+        boolean check;
+        Integer []  currentVal=new Integer[]{0,0,0};
+        int size;
         try {
             stmt=connDB.connection(stmt);
             rst=query.queryResult(stmt,userid);
@@ -102,6 +102,7 @@ public class UsrUserDAO {
                 if (rst.getString(CALCULATED).equals("1")) {
                     edited = true;
                     about = rst.getString(ABOUT).toCharArray();
+
                     for (int i = 0; i < about.length; i++) {
                         switch (about[i]) {
                             case '1':

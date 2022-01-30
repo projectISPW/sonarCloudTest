@@ -1,100 +1,68 @@
 
-Sprogettoispw.letmeknow.controller.ConnectionInfo#getConnectionInfo()Ljava/util/Map;ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java< <(/"1*û
-1ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java> >(ñ
-ì
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java> >(
-
-%0void"?progettoispw.letmeknow.controller.ConnectionInfo#getElements()V*4"2
-0progettoispw.letmeknow.controller.ConnectionInfoøº
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java?- ?(6
-%1java.util.HashMap"java.util.HashMap—
-Œ
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java?) ?(8
-%2"java.util.HashMap#<init>()V*
-
-%1java.util.HashMap—
-Œ
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java? ?(9
-
-parametersjava.util.Map"__id*
-
-%1java.util.HashMapÒ
-Ó
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaA# A('
-%3java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ConnectionInfo"
-user¸
-˘
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaA A((
-%4java.lang.String"__mapSet*
-
-
-parametersjava.util.Map*
-
-username*
-
-%3java.lang.StringÒ
-Ó
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaB# B('
-%5java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ConnectionInfo"
-pass¸
-˘
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaB B((
-%6java.lang.String"__mapSet*
-
-
-parametersjava.util.Map*
-
-password*
-
-%5java.lang.StringÚ
-Ô
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaC C(#
-%7java.lang.String"__id*?*=2
-0progettoispw.letmeknow.controller.ConnectionInfo"
-dbUrl˜
-Ù
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaC C($
-%8java.lang.String"__mapSet*
-
-
-parametersjava.util.Map*
-url*
-
-%7java.lang.String¸
-˘
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaD% D(4
-%9java.lang.String"__id*I*G2
-0progettoispw.letmeknow.controller.ConnectionInfo"
-driverClassNameˇ
-¸
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaD D(5
-%10java.lang.String"__mapSet*
-
-
-parametersjava.util.Map*
-
-driverName*
-
-%9java.lang.String"Ø
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.javaF F(
-
-
-parametersjava.util.MapB42
-0progettoispw.letmeknow.controller.ConnectionInfo
+@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("7*ç
+3ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (Î
+Ë
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
+%4"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+i am the receiver*
+5
+1*ã
+4ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (6È
+Ê
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (Q
+%3"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+i am the sender*
+5
+1*Í
+5ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (‹
+Ÿ
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (-
+%1"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+""È
+Ê
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java' (+
+%2java.lang.String"__id*2*0&
+$progettoispw.letmeknow.bean.ChatBean"
+with*
+3
+4*ƒ
+7ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java( (,≈¬
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (6
+%0java.lang.String[]"java.lang.String[]⁄
+◊
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
+	returnStrjava.lang.String[]"__id*
+
+%0java.lang.String[]*
+5
+1*—
+1ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("∑
+ë
+ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (!
+
+	returnStrjava.lang.String[]B(&
+$progettoispw.letmeknow.bean.ChatBean

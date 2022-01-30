@@ -3,7 +3,6 @@
 package progettoispw.letmeknow.bean;
 
 import progettoispw.letmeknow.controller.ChatController;
-import progettoispw.letmeknow.controller.CollectionFormController;
 import progettoispw.letmeknow.controller.chat.Message;
 import java.util.ArrayList;
 

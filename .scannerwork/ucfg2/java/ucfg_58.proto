@@ -1,70 +1,32 @@
 
-|progettoispw.letmeknow.controller.usruser.UsrUserDAO#setParams(Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;I)Zà
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaä ä("10*§
-2à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è(9"ì
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è(9
-""*Œ
-3à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé é((∏
-µ
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé é((
+cprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setData(Ljava/lang/String;Ljava/lang/String;)ZÜ
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaI I("5*†
+2Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM M(5"ë
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM M(5
+""*ˇ
+3Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaL L((∂
+≥
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaL L((
+stmtjava.sql.Statement"__id*
+""≤
+Ø
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM+ M(-
+%0java.lang.String"__id*
+""*
+2* 
+5Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaJ J(∂
+≥
+Ü
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaJ J(
 stmtjava.sql.Statement"__id*
 ""*
-2*Ò
-6à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç  ç(Tÿ
-’
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç  ç(T
-%3"
-__arraySet*!
-
-oldParamjava.lang.Integer[]*
-""*
-	
-%2int*
-3
-7*˛
-7à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç  ç((ﬁ
-€
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç4 ç(?
-%0java.lang.Integer"
-__arrayGet*!
-
-oldParamjava.lang.Integer[]*
-""ﬁ
-€
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç@ ç(K
-%1java.lang.Integer"
-__arrayGet*!
-
-newParamjava.lang.Integer[]*
-""¶
-£
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaç, ç(T	
-%2int"Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)I*86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO*
-""*
-""*
-6*“
-10à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaã ã(∏
-µ
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaã ã(
-stmtjava.sql.Statement"__id*
-""*
-3
-7:
-useridjava.lang.String:
-oldParamjava.lang.Integer[]:
-newParamjava.lang.Integer[]:
-""B86
+3:
+useridjava.lang.String:
+inputjava.lang.StringB86
 4progettoispw.letmeknow.controller.usruser.UsrUserDAO

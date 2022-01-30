@@ -1,1 +1,1 @@
-ÿ 2javaXHhrˆprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerView/progettoispw/letmeknow/FormPsychologistResultInterf1.java
+ÿ 2javaX)hrnprogettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java

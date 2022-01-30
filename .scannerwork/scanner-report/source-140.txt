@@ -1,25 +1,67 @@
-package progettoispw.letmeknow;
-import javafx.event.ActionEvent;
+package progettoispw.letmeknow.controller.user;
 
-import java.io.IOException;
-public  class PageMenu extends Page {
-    public void switchToChat(ActionEvent event)  {
-        this.switchTo("chat/interf1.fxml",event,"Chat");
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Query {
+    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
+        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
+        return stmt.executeQuery(sql);
     }
-    public void switchToPersonalForm(ActionEvent event)  {
-        this.switchTo("formCollectionResults/interf1.fxml",event,"Your result");
+    protected ResultSet selectUser(Statement stmt,String what, String input )throws SQLException {
+        String sql=String.format(" SELECT * FROM utenti  WHERE %s = '%s' ;",what,input);
+    
+        return stmt.executeQuery(sql);
     }
-    public void switchToHome(ActionEvent event){
-        this.switchTo("homepage/interf1.fxml",event,"Homepage");
+    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
+        try {
+            String sql=String.format(" UPDATE  utenti set %s='%s' WHERE userid = '%s' ;",what,edit,iduser);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
-    public void switchToHomepageOthers(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
+
+    protected ResultSet queryUid(Statement stmt) throws SQLException {
+        String sql=" SELECT userid FROM utenti ";
+        return stmt.executeQuery(sql);
     }
-    public void switchToISC(ActionEvent event)  {
-        this.switchTo("initialSearchAndChat/interf1.fxml",event,"What do you need?  ");
+
+    protected boolean newLine(Statement stmt,String [] log ,int [] val,String description,String goal) {
+
+        try {
+            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)" +
+                            " VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )",
+                    log[0],log[1],log[2],log[3],val[0],val[1],val[2],description,goal);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+           return false;
+        }
     }
-    public void switchToSettings(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
+    protected boolean newLine(Statement stmt, String uid,String password, String type, String email) {
+        try {
+            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)" +
+                            " VALUES ('%s',         '%s',      '%s',       '%s')",
+                    uid,password,type,email);
+
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+           return false;
+        }
     }
-    public void switchToSearch(ActionEvent event ){this.switchTo("search/interf1.fxml",event,"Search");}
+    protected boolean feed(Statement stmt,String from,String what){
+        try {
+            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
 }

@@ -1,61 +1,135 @@
 package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.bean.InnerUsers;
-import progettoispw.letmeknow.controller.search.Search;
-import progettoispw.letmeknow.controller.usruser.UsrUser;
+import progettoispw.letmeknow.bean.LastMessage;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class ResultSearchController {
-    private int count;
-    private int nVal;
-    private Search search;
-    public ResultSearchController(Integer n){
+public class ISCController {
+    private Integer count;
+    private Integer nVal;
+    private Messages chat;
+    private String find;
+    public ISCController(Integer n){
+        ControllerClass.controllerChat();
+        ControllerClass.setSearch();
+        chat= ControllerClass.getChat();
         nVal=n;
         count=0;
-        search=ControllerClass.getSearch();
+        find=null;
     }
-    public ResultSearchController(){
-        search=ControllerClass.getSearch();
+    public ISCController(){
+        ControllerClass.controllerChat();
+        if(ControllerClass.getSearch()==null)ControllerClass.setSearch();
+        chat= ControllerClass.getChat();
+        nVal=0;
+        count=0;
+        find=null;
     }
-    public void attach(InnerUsers elem,List <InnerUsers>formatted ){
-        formatted.add(elem);
+    public String getUid(){
+        return chat.getUserid();
     }
-    InnerUsers actual;
-    public List<InnerUsers> queryUsers(){
-        int indice;
-        actual=null;
-        List<String> founded= search.getArrayList();
-        ArrayList<InnerUsers>formatted=new ArrayList<>();
-        count = check(count, (ArrayList<String>) founded);
-        UsrUser user;
-        for (String userid : founded) {
-            if(userid==null)return formatted;
-            user=new UsrUser(userid);
-            indice = founded.indexOf(userid);
-            if (indice >= count && indice < count + nVal) {
-                actual = new InnerUsers(user);
-                attach(actual,formatted);
-            }
+    public String check(Message msg){
+        if(msg.getReciver().equals(getUid()))return msg.getSender();
+        return msg.getReciver();
+    }
+    private List<LastMessage> getListV1( ){
+        //lista utenti con ultimo messaggio per la interfaccia 2
+        ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+        LastMessage actual;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        for (Message msg:lmsgs) {
+            actual = new LastMessage(check(msg),msg);
+            formatted.add(actual);
         }
-        count+=nVal;
         return formatted;
     }
+    private List<LastMessage> getListV2(String find){
+        //ricerca messaggi sulla lista utenti 2
+        List <Message>msgs= chat.getLocalSearch(find);
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        LastMessage actual;
+        for (Message msg : msgs) {
+            actual = new LastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+            formatted.add(actual);
+        }
+        return formatted;
+    }
+    private List<LastMessage>getListV3(){
+        //lista utenti con ultimo messaggio per la interfaccia 1
 
-    private Integer check(Integer count,ArrayList<String> founded) {
-        if(count>=founded.size()){
-            return 0;
+        ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+        if(lmsgs.isEmpty())return new ArrayList<>();
+        LastMessage actual;
+        ArrayList<Message>inner=new ArrayList<>();
+        int index=0;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        while(index<nVal){
+            count = check(count, lmsgs);
+            Message msg=lmsgs.get(count);
+            if(inner.contains(msg))break;
+            count++;
+            actual = new LastMessage(check(msg),msg);
+            formatted.add(actual);
+            inner.add(msg);
+            index++;
+        }
+        return formatted;
+    }
+    private List<LastMessage>getListV4(String find ){
+        List <Message>msgs= chat.getLocalSearch(find);
+        if(msgs.isEmpty())return new ArrayList<>();
+        LastMessage actual;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        ArrayList<Message>inner=new ArrayList<>();
+        int index=0;
+        while(index++<nVal){
+            count = check(count, (ArrayList<Message>) msgs);
+            Message msg=msgs.get(count++);
+            if(inner.contains(msg))break;
+            actual = new LastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+            formatted.add(actual);
+            inner.add(msg);
+        }
+
+        return formatted;
+    }
+    public List<LastMessage> queryUsers(){
+
+        if(find==null){
+            if(nVal==0){
+                return getListV1();
+            }
+            else{//list users in interf1
+                return getListV3();
+            }}else{
+            return queryUsers(find);
+        }
+    }
+    public List<LastMessage> queryUsers(String find){
+        if(nVal==0){
+            return getListV2(find);
+        }
+        else {//search activated in list users iterf1
+            return getListV4(find);
+        }
+    }
+    private Integer check(Integer count,ArrayList<Message> list) {
+        if(count>=list.size()){
+            count=0;
         }
         return count;
     }
     public void who(String usr){
-        search.setTouched(usr);
+        chat.setTouched(usr);
     }
-    public int[] nVisit(){
-        return search.getnVisit();
+    public void search(String input){
+        count=0;
+        find=input;
     }
     public void reset(){
-        search.reset();
+        count=0;
+        find=null;
     }
 }

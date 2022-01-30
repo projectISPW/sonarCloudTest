@@ -1,2 +1,2 @@
-projectISPW :ã~’‘'sƒj¾ö‚£!„wÿò	Š$‹÷lµx¸&æ·ı¶Š|©½ôˆ%˜h
-À€—t‹gi³Œš°»¤ùü{û´õ€¿‰‰orvm§¢¹²ˆ†Œ‡Ã}  ™pnu®”ø‚¬­É¡¦yzó«Á±"#ªºq¨¯Â¥¼şúB1-https://github.com/projectISPW/sonarCloudTestB40https://travis-ci.org/projectISPW/sonarCloudTestB84https://github.com/projectISPW/sonarCloudTest/issuesB1-https://github.com/projectISPW/sonarCloudTestRprojectISPW_sonarCloudTest
+projectISPW :èŒŸ&‘xÊƒ—° ’…Šÿ	—š#˜„zÁ†Ä%îÃˆÂ–ŠµÉ“$¥Œv
+Ì‹¤‚˜u›w¿™§¼Ç±†‰À‚Ë”–}€„{´¯Å¾•“™”‹­•¦~|ƒº›…¸¹Ó®³‡ˆ€·Í½œ!"¶Æ»²È‰‡B1-https://github.com/projectISPW/sonarCloudTestB40https://travis-ci.org/projectISPW/sonarCloudTestB84https://github.com/projectISPW/sonarCloudTest/issuesB1-https://github.com/projectISPW/sonarCloudTestRprojectISPW_sonarCloudTest

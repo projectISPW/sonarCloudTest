@@ -58,6 +58,7 @@ public class ISCController {
     }
     private List<LastMessage>getListV3(){
         //lista utenti con ultimo messaggio per la interfaccia 1
+
         ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
         if(lmsgs.isEmpty())return new ArrayList<>();
         LastMessage actual;
@@ -91,9 +92,11 @@ public class ISCController {
             formatted.add(actual);
             inner.add(msg);
         }
+
         return formatted;
     }
     public List<LastMessage> queryUsers(){
+
         if(find==null){
             if(nVal==0){
                 return getListV1();

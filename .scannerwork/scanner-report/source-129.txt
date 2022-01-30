@@ -1,31 +1,78 @@
-package progettoispw.letmeknow.controller.usruser;
+package progettoispw.letmeknow.controller.form;
 
-public class ParameterSliders {
-    private Integer  emp;
-    private Integer hum;
-    private Integer opt;
-    public ParameterSliders() {
-        emp=hum=opt=1;
+import progettoispw.letmeknow.controller.ControllerClass;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
+
+public class ResultForm {
+    private String userid;
+    private int formid;
+    private FormDAO formData;
+    private int[] answers;
+    private int complete;
+    private int [] param;
+    private String date;
+    public String getUserid() {
+        return userid;
     }
-    public Integer getOpt() {
-        return opt;
+
+    public ResultForm(String useridinp, int formidinp){
+        formData=new FormDAO();
+        userid=useridinp;
+        formid=formidinp;
+        answers= formData.queryResult(userid,formid);
+        for(int i:answers){
+            if (i>=1){
+                ++complete;
+            }
+        }
+        if(complete==6){
+            queryComplete();
+        }
     }
-    public Integer getHum() {
-        return hum;
+    public ResultForm(String useridinp){
+        formData=new FormDAO();
+        userid=useridinp;
+        formid=formData.takeAForm(userid);
+        answers= formData.queryResult(userid,formid);
+        for(int i:answers){
+            if (i>=1){
+                ++complete;
+            }
+        }
+        if(complete==6){
+            queryComplete();
+        }
     }
-    public int getEmp() {
-        return emp;
+    public int getFormid() {
+        return formid;
     }
-    public void setEmp(String  emp) {
-        if(emp!=null)this.emp=Integer.parseInt(emp);
+    private void queryComplete(){
+        UsrUser user= ControllerClass.getUserUSR();
+        date= formData.queryData(userid,formid);
+        if(date ==null){
+            formData.setCalculated(userid,formid);
+            user.setParams();
+            formData.close(userid,formid);
+            date= formData.queryData(userid,formid);
+        }
+        param= formData.queryParamForm(userid,formid);
     }
-    public void setHum(String  hum) {
-        if(hum!=null)this.emp=Integer.parseInt(hum);
+    public void setRisposte(int[] input){
+        complete=0;
+        for(int i:input)if(i!=-1)++complete;
+        formData.setAnswer(userid,formid,input,complete);
+        if(complete==6)queryComplete();
     }
-    public void setOpt(String opt) {
-        if(opt!=null)this.opt=Integer.parseInt(opt);
+    public int[] getRisposte(){
+        return answers;
     }
-    public Integer[] getAll(){
-        return new Integer[]{emp,hum,opt};
+    public int getComplete() {
+        return complete;
+    }
+    public int[] getParam() {
+        return param;
+    }
+    public String getDate() {
+        return date;
     }
 }

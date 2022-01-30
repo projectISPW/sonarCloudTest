@@ -1,1 +1,0 @@
-i 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml
