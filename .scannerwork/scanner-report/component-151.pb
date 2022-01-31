@@ -1,1 +1,1 @@
-— 2javaXIhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java
+— 2javaXNhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java

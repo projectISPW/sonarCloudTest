@@ -1,1 +1,1 @@
-’ 2javaX¡hrdprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java
+’ 2javaXDhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java

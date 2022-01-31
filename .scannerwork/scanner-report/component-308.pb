@@ -1,1 +1,1 @@
-¥ 2javaXûhrèprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.java
+¥ 2javaX3hrôprogettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java

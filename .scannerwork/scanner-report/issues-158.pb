@@ -1,2 +1,2 @@
-b
-xmlS2068H"password" detected here, make sure this is not a hard-coded credential. 2 1
+p
+javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 255 

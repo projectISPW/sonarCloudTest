@@ -1,1 +1,1 @@
-– 2javaXmhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java
+– 2javaX4hr_progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java

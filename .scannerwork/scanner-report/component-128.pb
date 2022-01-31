@@ -1,1 +1,1 @@
-€ 2javaXZhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
+€ 2xmlXGhr progettoRieditatosecondo/pom.xml

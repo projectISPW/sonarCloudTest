@@ -1,1 +1,1 @@
-™ 2javaXhrYprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/PageMenu.java
+™ 2javaXhr7progettoRieditatosecondo/src/main/java/module-info.java

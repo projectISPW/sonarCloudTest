@@ -1,1 +1,1 @@
-è 2javaX hrjprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
+è 2javaX*hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java

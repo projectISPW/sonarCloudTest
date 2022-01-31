@@ -1,1 +1,1 @@
-» 2javaXhrˆprogettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/controller/RecoverPswdController.java
+» 2javaX`hrjprogettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java

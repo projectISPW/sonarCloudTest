@@ -1,1 +1,1 @@
-ø 2javaX=hräprogettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/controller/ResultSearchController.java
+ø 2javaX`hrqprogettoRieditatosecondo/src/main/usecase/login/controllerView/progettoispw/letmeknow/LoginControllerInterf1.java

@@ -1,25 +1,16 @@
-package progettoispw.letmeknow;
-import javafx.event.ActionEvent;
+module progettoispw.letmeknow {
+    requires javafx.controls;
+    requires javafx.fxml;
+    requires java.desktop;
+    requires java.sql;
+    requires java.mail;
 
-import java.io.IOException;
-public  class PageMenu extends Page {
-    public void switchToChat(ActionEvent event)  {
-        this.switchTo("chat/interf1.fxml",event,"Chat");
-    }
-    public void switchToPersonalForm(ActionEvent event)  {
-        this.switchTo("formCollectionResults/interf1.fxml",event,"Your result");
-    }
-    public void switchToHome(ActionEvent event){
-        this.switchTo("homepage/interf1.fxml",event,"Homepage");
-    }
-    public void switchToHomepageOthers(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
-    }
-    public void switchToISC(ActionEvent event)  {
-        this.switchTo("initialSearchAndChat/interf1.fxml",event,"What do you need?  ");
-    }
-    public void switchToSettings(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
-    }
-    public void switchToSearch(ActionEvent event ){this.switchTo("search/interf1.fxml",event,"Search");}
+
+    opens progettoispw.letmeknow to javafx.fxml;
+    exports progettoispw.letmeknow;
+    opens progettoispw.letmeknow.photo to javafx.fxml;
+    exports progettoispw.letmeknow.bean;
+    opens progettoispw.letmeknow.bean to javafx.fxml;
+    exports progettoispw.letmeknow.controller;
+    opens progettoispw.letmeknow.controller to javafx.fxml;
 }

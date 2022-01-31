@@ -1,1 +1,1 @@
-È 2javaXghrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf1.java
+È 2javaXhrrprogettoRieditatosecondo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/SearchBean.java

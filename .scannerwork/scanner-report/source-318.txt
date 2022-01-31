@@ -1,27 +1,22 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.usruser.UsrUser;
-
-public class InnerUsers {
-    private final String userid;
-    private String description;
-    private String goal;
-    private int lenMax;
-    private WordCheck check=new WordCheck();
-    public InnerUsers(UsrUser elem){
-        lenMax=15;
-        userid=elem.getUserid();
-        description= elem.getDescript();
-        goal=elem.getTag();
+import progettoispw.letmeknow.controller.user.InitialUser;
+public class LoginController {
+    private String userid;
+    private InitialUser utente ;
+    private String password;
+    public LoginController(String user,String password){
+        this.userid=user;
+        this.password=password;
+        utente=new InitialUser(userid);
     }
-    public String getUserid() {
-        return userid;
-    }
-    public String getDescription() {
-        return check.checkLen(description,lenMax);
-    }
-    public String getGoal() {
-        return check.checkLen(goal,lenMax);
+    public String tornaLog(){
+        String str=utente.abscessType(password);
+        if(str!=null){
+            ControllerClass.controllerUser(userid);
+        }else{
+            str=null;
+        }
+        return str;
     }
 }

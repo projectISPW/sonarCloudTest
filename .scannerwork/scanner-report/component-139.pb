@@ -1,1 +1,1 @@
-‹ 2javaX2hrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java
+‹ 2javaXhr_progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java

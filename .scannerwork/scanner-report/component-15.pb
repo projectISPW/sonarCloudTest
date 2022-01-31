@@ -1,1 +1,1 @@
- 2xmlX	hr;progettoRieditatosecondo/.idea/libraries/javax_mail__2_.xml
+ 2xmlX	hr;progettoRieditatosecondo/.idea/libraries/javax_mail__2_.xml

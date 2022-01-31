@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="activation-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../fontawesomefx-8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../javax.mail (2).jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../mysql-connector-java-8.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../letMeKnow.zip!/letMeKnow/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

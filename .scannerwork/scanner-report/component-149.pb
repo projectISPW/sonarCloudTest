@@ -1,1 +1,1 @@
-• 2javaXHhriprogettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java
+• 2javaX hrjprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java

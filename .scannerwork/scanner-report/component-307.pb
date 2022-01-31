@@ -1,1 +1,1 @@
-≥ 2javaXàhrâprogettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java
+≥ 2javaX8hrçprogettoRieditatosecondo/src/main/usecase/HomepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java

@@ -1,1 +1,1 @@
-‘ 2javaXNhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java
+‘ 2javaX2hrcprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java

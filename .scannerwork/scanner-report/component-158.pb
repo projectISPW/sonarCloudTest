@@ -1,1 +1,1 @@
-ž 2xmlX	hrfprogettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+ž 2javaXIhrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
