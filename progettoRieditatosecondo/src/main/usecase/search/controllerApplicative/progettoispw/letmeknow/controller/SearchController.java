@@ -27,4 +27,7 @@ public class SearchController {
         enterGoal(me.getTag());
         enterParamSearch(new  Integer[] {me.getEmp(),me.getHum(),me.getOpt()} );
     }
+    public void reset(){
+        find.reset();
+    }
 }

@@ -59,7 +59,6 @@ public class ResultSearchControllerInterf1 {
         String[] strDes= users[2];
         String[] strGoal=users[1];
         String[] strUid=users[0];
-        for(String str:strUid)System.out.println("exit from bean "+str);
         for(int i=0;i<nval;i++){
             ObservableList<Node> externList= visitGroup[i].getChildren();
             Group group =(Group)externList.get(2);

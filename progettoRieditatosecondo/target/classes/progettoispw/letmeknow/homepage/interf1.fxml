@@ -98,5 +98,11 @@
       <ImageView fx:id="positivitySlider1" fitHeight="50.0" fitWidth="155.0" layoutX="223.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="humorSlider1" fitHeight="50.0" fitWidth="155.0" layoutX="221.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="empathySlider1" fitHeight="50.0" fitWidth="155.0" layoutX="219.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true" />
+      <Hyperlink layoutX="299.0" layoutY="24.0" onAction="#setSize" styleClass="hiperlink" text="switch to desktop" textFill="#0095c8" />
+      <Button layoutX="365.0" layoutY="46.0" mnemonicParsing="false" onAction="#setSize" prefWidth="35.0" style="-fx-background-color: transparent;" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon fill="#0095c8" glyphName="DESKTOP" size="20" />
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>

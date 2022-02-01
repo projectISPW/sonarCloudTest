@@ -44,7 +44,7 @@ public class AdviseBoarcControllerInterf2 {
         ObservableList<PieChart.Data>graphData=
                 FXCollections.observableArrayList(
                         new PieChart.Data("global visit",val[0]),
-                        new PieChart.Data("recived visit",val[1])
+                        new PieChart.Data("received visit",val[1])
                 );
         graphVisit.setData(graphData);
     }

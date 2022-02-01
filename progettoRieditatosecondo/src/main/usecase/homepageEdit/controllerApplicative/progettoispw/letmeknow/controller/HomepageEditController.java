@@ -28,10 +28,12 @@ public class HomepageEditController {
         return user.setPersonalData(input);
     }
     public boolean setTag(String input){
+        if(compare.getTag()==null){
+            return user.setPersonalTag(input);
+        }
         if(!compare.getTag().equals(input)){
             return user.setPersonalTag(input);
         }
         return true;
     }
-
 }

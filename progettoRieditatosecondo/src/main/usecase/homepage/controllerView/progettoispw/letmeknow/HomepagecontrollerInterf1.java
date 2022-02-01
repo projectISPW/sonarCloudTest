@@ -75,4 +75,8 @@ public class HomepagecontrollerInterf1 {
     protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
     @FXML
     protected void goToPersonalForm (ActionEvent event ){controller.switchToPersonalForm(event);}
+    @FXML
+    protected void setSize(ActionEvent event ){
+        controller.setSize("homepage/interf1.fxml",event);
+    }
 }

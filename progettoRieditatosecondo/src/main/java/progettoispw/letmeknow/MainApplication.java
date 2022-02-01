@@ -2,7 +2,6 @@ package progettoispw.letmeknow;
 
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -13,7 +12,6 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 import progettoispw.letmeknow.controller.ConnectionDBMS;
 
-import java.io.IOException;
 import java.util.Optional;
 
 public class MainApplication extends Application {
@@ -22,24 +20,23 @@ public class MainApplication extends Application {
     }
     private static ScreenSize size;
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
         Parent root;
-        if(size==ScreenSize.LAPTOP){
-            root=FXMLLoader.load(getClass().getResource("login/interf2.fxml"));
-        }
-        else{
-            stage.setMaxWidth(414);
-            stage.setMinHeight(736);
-            root=FXMLLoader.load(getClass().getResource("login/interf1.fxml"));
-        }
-        stage.setScene(new Scene(root));
-        stage.setTitle("Login");
-        stage.setResizable(false);
-        Image icon= new Image(getClass().getResourceAsStream("photo/brain.jpg"));
-        stage.getIcons().add(icon);
-        //Alert in fase di uscita dall'applicazione
-
-        stage.setOnCloseRequest((WindowEvent windowEvent) ->{
+        try {
+            if (size == ScreenSize.LAPTOP) {
+                root = FXMLLoader.load(getClass().getResource("login/interf2.fxml"));
+            } else {
+                stage.setMaxWidth(414);
+                stage.setMinHeight(736);
+                root = FXMLLoader.load(getClass().getResource("login/interf1.fxml"));
+            }
+            stage.setScene(new Scene(root));
+            stage.setTitle("Login");
+            stage.setResizable(false);
+            Image icon= new Image(getClass().getResourceAsStream("photo/brain.jpg"));
+            stage.getIcons().add(icon);
+            //Alert in fase di uscita dall'applicazione
+            stage.setOnCloseRequest((WindowEvent windowEvent) ->{
                 Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
                 alert.setTitle("Exit Confirmation");
                 alert.setHeaderText("Are you sure to exit program?");
@@ -54,8 +51,11 @@ public class MainApplication extends Application {
                 else{
                     windowEvent.consume();
                 }
-        });
-        stage.show();
+            });
+            stage.show();
+        } catch (Exception e) {
+            Page.exceptionOccurred();
+        }
     }
     public static void main(String[] args) {
         size=ScreenSize.LAPTOP;

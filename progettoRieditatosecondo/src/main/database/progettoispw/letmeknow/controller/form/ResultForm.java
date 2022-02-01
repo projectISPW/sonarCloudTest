@@ -57,13 +57,13 @@ public class ResultForm {
         }
         param= formData.queryParamForm(userid,formid);
     }
-    public void setRisposte(int[] input){
+    public void setAnswers(int[] input){
         complete=0;
         for(int i:input)if(i!=-1)++complete;
         formData.setAnswer(userid,formid,input,complete);
         if(complete==6)queryComplete();
     }
-    public int[] getRisposte(){
+    public int[] setAnswers(){
         return answers;
     }
     public int getComplete() {

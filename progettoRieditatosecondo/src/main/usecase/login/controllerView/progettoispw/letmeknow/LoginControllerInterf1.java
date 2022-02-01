@@ -34,6 +34,10 @@ public class LoginControllerInterf1 {
         controller.switchTo("signupPsychologist/interf1.fxml",event,"Signup");
     }
     @FXML
+    protected void setSize(ActionEvent event ){
+        controller.setSize("login/interf1.fxml",event);
+    }
+    @FXML
     protected void showPSWD(){
         if(!clicked){
             scroll.setOpacity(0.8);

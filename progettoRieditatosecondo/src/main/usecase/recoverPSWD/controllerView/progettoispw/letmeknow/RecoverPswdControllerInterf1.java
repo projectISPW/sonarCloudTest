@@ -31,6 +31,7 @@ public class RecoverPswdControllerInterf1
     }
     @FXML
     protected void backToLogin()  {
+
         controller.backTo();
     }
 

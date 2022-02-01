@@ -9,6 +9,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.*;
 
+import java.util.Optional;
 
 
 public class HomepageEditControllerInterf1 {
@@ -58,7 +59,7 @@ public class HomepageEditControllerInterf1 {
         bool=bean.setGoal(goal.getText());
         if(bool)bool=bean.setDescription(personalDes.getText());
         if(bool)bool=bean.setTag(tag.getText());
-        if(bool)bool=bean.setGoal(tag.getText());
+        if(bool)bool=bean.setGoal(goal.getText());
         if(bool)bool=bean.setDate(date.getText());
         if(bool){
             goal.setText("");
@@ -74,7 +75,8 @@ public class HomepageEditControllerInterf1 {
             alert.setContentText("Please,check if " +
                     "tag and description begin in '#'," +
                     "the data is in format 'day-month-year'");
-            if(alert.showAndWait().get()== ButtonType.OK) {
+            Optional<ButtonType> result = alert.showAndWait();
+            if(result.isPresent() && result.get() == ButtonType.OK){
                 event.consume();
             }
         }

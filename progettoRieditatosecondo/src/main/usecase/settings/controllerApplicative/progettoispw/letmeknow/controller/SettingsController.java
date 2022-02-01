@@ -10,14 +10,12 @@ import progettoispw.letmeknow.controller.psyuser.PsyUser;
 public class SettingsController {
     UsrUser userU;
     PsyUser userP;
-    ConnectionDBMS connection;
     public SettingsController(){
         userU= ControllerClass.getUserUSR();
         userP=ControllerClass.getUserPsy();
-        connection=new ConnectionDBMS();
     }
     public void closeConnection(){
-        connection.closeCONN();
+        ConnectionDBMS.closeCONN();
     }
     public boolean setPassword(String input){
         if(userU!=null)return userU.setPassword(input);
@@ -30,10 +28,5 @@ public class SettingsController {
     public boolean feed(String input){
         if(userU!=null)return userU.setFeed(input);
         else return userP.setFeed(input);
-    }
-    @FXML
-    public void backTo(ActionEvent event){
-        PageMenu controller=new PageMenu();
-        controller.backTo();
     }
 }

@@ -1,7 +1,5 @@
 package progettoispw.letmeknow;
 import javafx.event.ActionEvent;
-
-import java.io.IOException;
 public  class PageMenu extends Page {
     public void switchToChat(ActionEvent event)  {
         this.switchTo("chat/interf1.fxml",event,"Chat");
@@ -11,9 +9,6 @@ public  class PageMenu extends Page {
     }
     public void switchToHome(ActionEvent event){
         this.switchTo("homepage/interf1.fxml",event,"Homepage");
-    }
-    public void switchToHomepageOthers(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
     }
     public void switchToISC(ActionEvent event)  {
         this.switchTo("initialSearchAndChat/interf1.fxml",event,"What do you need?  ");

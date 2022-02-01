@@ -59,7 +59,7 @@
                   <FontAwesomeIcon glyphName="EDIT" size="50" />
                </graphic>
             </Button>
-            <Text layoutX="265.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 50;" styleClass="textSubTitle" text="Settings">
+            <Text layoutX="463.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 50;" styleClass="textSubTitle" text="Settings">
                <font>
                   <Font size="48.0" />
                </font>
@@ -69,9 +69,16 @@
             <Hyperlink layoutX="77.0" layoutY="100.0" onAction="#signOut" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Sign Out" />
             <Hyperlink layoutX="80.0" layoutY="184.0" onAction="#setMail" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Edit Mail" />
             <Hyperlink layoutX="79.0" layoutY="271.0" onAction="#setPswd" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Set Password" />
-            <Hyperlink layoutX="80.0" layoutY="351.0" onAction="#setFeed" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Leave a fedbeck" />
+            <Hyperlink layoutX="80.0" layoutY="351.0" onAction="#setFeed" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Leave a feedback" />
             <FontAwesomeIcon glyphName="STAR" layoutX="504.0" layoutY="643.0" opacity="0.37" size="20" />
             <Hyperlink layoutX="538.0" layoutY="611.0" opacity="0.37" style="-fx-text-fill: red; -fx-font-size: 30;" styleClass="hiperlink_signup" text="Leave a review" />
+            <Button layoutX="14.0" layoutY="7.0" mnemonicParsing="false" onAction="#setSize" prefWidth="35.0" style="-fx-background-color: transparent;" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIcon glyphName="MOBILE" size="80" />
+               </graphic>
+            </Button>
+            <Hyperlink layoutX="78.0" layoutY="33.0" onAction="#signOut" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Switch to mobile" />
+            <Line endX="350.0" endY="13.999992370605469" layoutX="85.0" layoutY="74.0" startX="-10.0" startY="13.999998092651367" styleClass="line" />
          </children>
       </AnchorPane>
     </children>

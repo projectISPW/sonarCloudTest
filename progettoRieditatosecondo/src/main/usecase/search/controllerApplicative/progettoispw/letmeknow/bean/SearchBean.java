@@ -20,4 +20,5 @@ public class SearchBean {
     public void toMe(){
         controller.toMe();
     }
+    public void reset(){controller.reset();}
 }

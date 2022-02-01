@@ -67,12 +67,12 @@
       </Button>
       <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="22.0" size="20" />
       <Slider fx:id="carefulness" blockIncrement="1.0" layoutX="140.0" layoutY="512.0" majorTickUnit="1.0" max="2.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="14.0" prefWidth="150.0" showTickLabels="true" value="1.0" />
-      <Text layoutX="145.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100; -fx-font-size: 15;" styleClass="param" text="Accurrency" />
+      <Text layoutX="183.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 100; -fx-font-size: 15;" styleClass="param" text="Accuracy:" />
       <Label fx:id="lb1" layoutX="275.0" layoutY="102.0" prefHeight="19.0" prefWidth="0.0" />
       <Label fx:id="lb2" layoutX="276.0" layoutY="148.0" />
       <Label fx:id="lb3" layoutX="275.0" layoutY="197.0" />
       <Hyperlink layoutX="222.0" layoutY="246.0" onAction="#affinity" text="In affinity with you" />
-      <Label fx:id="lb4" layoutX="234.0" layoutY="471.0" prefHeight="17.0" prefWidth="13.0" />
+      <Label fx:id="lb4" layoutX="260.0" layoutY="471.0" prefHeight="17.0" prefWidth="13.0" />
       <ProgressBar fx:id="progressBar" layoutX="-1.0" layoutY="673.0" prefHeight="10.0" prefWidth="415.0" progress="0.0" style="-fx-accent: #377DFF; -fx-opacity: 0.7;" />
 
     </children>

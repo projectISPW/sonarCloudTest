@@ -12,11 +12,11 @@ public class FormToTakeStatusController {
         return form.getFormid();
     }
     public void setValResponse(int [] passaggio){
-        form.setRisposte(passaggio);
+        form.setAnswers(passaggio);
     }
     public int[] getValResponse(){
-        values=form.getRisposte();
-        return form.getRisposte();
+        values=form.setAnswers();
+        return form.setAnswers();
     }
     public String getUserid(){
         return form.getUserid();
