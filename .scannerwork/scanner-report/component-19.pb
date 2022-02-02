@@ -1,1 +1,1 @@
- 2xmlXhrcprogettoRieditatosecondo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml
+ 2xmlXhrTprogettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml

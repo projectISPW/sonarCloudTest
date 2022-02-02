@@ -1,1 +1,1 @@
-œ 2javaXmhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java
+œ 2javaXWhr[progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Exceptions.java

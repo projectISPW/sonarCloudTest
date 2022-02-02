@@ -1,15 +1,16 @@
 
-Dprogettoispw.letmeknow.controller.usruser.ParameterSliders#getEmp()I
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java ("1*¬
-1
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (û
-ø
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-%0java.lang.Integer"__id*G*E<
-:progettoispw.letmeknow.controller.usruser.ParameterSliders"
-emp"˜
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-""B><
-:progettoispw.letmeknow.controller.usruser.ParameterSliders
+Pprogettoispw.letmeknow.controller.user.InitialUser#getUserid()Ljava/lang/String;„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k("1*
+1„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(ì
+é
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(
+%0java.lang.String"__id*B*@4
+2progettoispw.letmeknow.controller.user.InitialUser"
+userid"¡
+„
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(
+
+%0java.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

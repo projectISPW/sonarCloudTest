@@ -36,7 +36,6 @@ public class Search {
         UsrUser me=new UsrUser(userid);
         for(String elem:inner){
             UsrUser user=new UsrUser(elem);
-            System.out.println("locked in here with"+elem);
             if((user.getTag()!=null)  && me.getTag()!=null && user.getTag().contains(goal)){
                 foundList.add(elem);
             }

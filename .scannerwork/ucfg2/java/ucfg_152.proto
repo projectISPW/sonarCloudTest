@@ -1,18 +1,67 @@
 
-Vprogettoispw.letmeknow.controller.usruser.ParameterSliders#getOpt()Ljava/lang/Integer;ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
- 
-("1*ø
-1ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (˚
-¯
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-%0java.lang.Integer"__id*G*E<
-:progettoispw.letmeknow.controller.usruser.ParameterSliders"
-opt"´
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-
-%0java.lang.IntegerB><
-:progettoispw.letmeknow.controller.usruser.ParameterSliders
+dprogettoispw.letmeknow.controller.user.InitialUser#abscessType(Ljava/lang/String;)Ljava/lang/String;Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaZ Z("7*ú
+2Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javac c("è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javac c(
+""*ù
+3Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java` `("ê
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java` `(
+psy*à
+4Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java_ _(Í
+Á
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java_ _(
+%3java.lang.String"__id*@*>4
+2progettoispw.letmeknow.controller.user.InitialUser"
+typeÜÉ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java_ _('
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%3java.lang.String*
+psy2equals(Ljava/lang/Object;)*
+2
+3*ù
+5Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java] ]("ê
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java] ](
+usr*à
+6Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java\ \(Í
+Á
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java\ \(
+%1java.lang.String"__id*@*>4
+2progettoispw.letmeknow.controller.user.InitialUser"
+typeÜÉ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java\ \(!
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+usr2equals(Ljava/lang/Object;)*
+4
+5*˝
+7Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java[ [(ËÂ
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java[ [("
+%0boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#checkUtente(Ljava/lang/String;)Z*64
+2progettoispw.letmeknow.controller.user.InitialUser*
+
+	pswdInputjava.lang.String2checkUtente(Ljava/lang/String;)*
+6
+1*ú
+1Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaf f("è
+Ñ
+zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaf f(
+"":
+	pswdInputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

@@ -1,1 +1,1 @@
-’ 2javaXDhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java
+’ 2javaXEhr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Goal.java

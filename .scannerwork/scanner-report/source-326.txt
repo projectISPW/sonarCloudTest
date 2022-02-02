@@ -43,11 +43,11 @@ public class ResultSearchControllerInterf1 {
         outputVal();
     }
 
-    public String[] prevOutputVal(Group [] input, int inputnval){
+    public String[] prevOutputVal(Group [] input, int inputnval,BeanResultSearch bean){
         visitGroup=input;
         nval=inputnval;
-        beanVisit=new BeanResultSearch(nval);
         uids=new String[nval];
+        this.beanVisit=bean;
         return outputVal();
     }
     @FXML
@@ -68,7 +68,6 @@ public class ResultSearchControllerInterf1 {
                     Text text=(Text)elem;
                     if(text.getText().contains(UID_CONTENT)){
                         text.setText(UID_CONTENT +strUid[i]);
-
                         uids[i]=strUid[i];
                     }
                     else if(text.getText().contains(MSG_WORKON)){

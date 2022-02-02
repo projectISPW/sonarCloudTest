@@ -14,8 +14,8 @@ public class ChatController {
         actChat=ControllerClass.getChat();
         with=actChat.getTouched();
     }
-    public void  newMSG(String text){
-        actChat.newMessage(text,with);
+    public String  newMSG(String text){
+        return actChat.newMessage(text,with);
     }
     public String getUID(){
         return actChat.getUserid();

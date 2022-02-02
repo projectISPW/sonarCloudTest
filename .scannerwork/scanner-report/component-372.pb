@@ -1,1 +1,0 @@
-ô 2xmlX	hrbprogettoRieditatosecondo/target/classes/progettoispw/letmeknow/connection/ConnectionParameters.xml

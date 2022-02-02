@@ -1,1 +1,1 @@
- 2xmlX	hr8progettoRieditatosecondo/.idea/libraries/javax_mail2.xml
+ 2xmlXhrYprogettoRieditatosecondo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml

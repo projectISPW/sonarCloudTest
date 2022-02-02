@@ -38,6 +38,6 @@ public class SignupPsychologistControllerInterf1 {
     @FXML
     protected  void save (ActionEvent event) {
         signupController.reset();
-       signupController.checkMailPswd(event,true);
+        signupController.checkMailPswd(event,true);
     }
 }

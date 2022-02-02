@@ -1,38 +1,39 @@
 package progettoispw.letmeknow.controller.chat;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public class Message {
-    private String reciver;
-    private String sender;
-    private String text;
-    private LocalDateTime date;
-    //serve per distinguere ogni messaggio,
-    // per perettere messaggi dallo stesso reciver||sender con stesso testo
-    public String getText() {
-        return text;
+public class Query {
+    protected ResultSet selectUserRSALL(Statement stmt, String iduser ){
+        try {
+            String sql=String.format(" SELECT *  FROM messages where reciver = '%s' or sender = '%s' ",iduser,iduser);
+            return stmt.executeQuery(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
-    public String getReciver() {
-        return reciver;
+    protected ResultSet selectUserRS(Statement stmt, String user1 , String user2) {
+        try {
+            String sql=String.format(" SELECT *" +" FROM messages " +
+                    "where (reciver = '%s' and sender = '%s') or " +
+                    "(reciver = '%s' and sender = '%s');",user1,user2,user2,user1);
+            return stmt.executeQuery(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
-    public void setReciver(String reciver) {
-        this.reciver = reciver;
+    protected boolean newMSG(Statement stmt, String from , String who ,String text){
+        try {
+            String sql=String.format("INSERT INTO `messages` (`datetime`, `sender`, `reciver`, `text`) VALUES (CURRENT_TIMESTAMP, '%s', '%s',\"%s\")",from,who,text);
+            stmt.executeUpdate(sql);
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
-    public void setDate(String dateSTR) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        date = LocalDateTime.parse(dateSTR, formatter);
-    }
-    public void setSender(String sender) {
-        this.sender = sender;
-    }
-    public void setText(String text) {
-        this.text = text;
-    }
-    public String getSender() {
-        return sender;
-    }
-    public LocalDateTime getDate(){
-        return date;
-    }
+
 }

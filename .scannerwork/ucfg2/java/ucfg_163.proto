@@ -1,26 +1,15 @@
 
-Rprogettoispw.letmeknow.WordCheck#contaInvio(Ljava/lang/String;)Ljava/lang/Integer;ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java: :("6*é
-5ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java< <(Û
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java< <(,
-%0char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-1*⁄
-6ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java; ;(ø
-º
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.java; ;(
-	contAheadjava.lang.Integer"__id*2*
-5*»
+Dprogettoispw.letmeknow.controller.usruser.ParameterSliders#getEmp()Iç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java ("1*¨
 1ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaA A("≤
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (˚
+¯
 ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerApplicative/progettoispw/letmeknow/WordCheck.javaA A( 
-
-	contAheadjava.lang.Integer:
-	inputTextjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
+%0java.lang.Integer"__id*G*E<
+:progettoispw.letmeknow.controller.usruser.ParameterSliders"
+emp"ò
+ç
+ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
+""B><
+:progettoispw.letmeknow.controller.usruser.ParameterSliders

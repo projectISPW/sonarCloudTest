@@ -1,1 +1,0 @@
-# 2xmlX	hrIprogettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_251.xml

@@ -1,38 +1,9 @@
 
-_progettoispw.letmeknow.controller.search.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;)Z€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ("4*”
-2€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ("‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (
-""*ô
-3€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (`¿
-¼
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (`
-sqljava.lang.String"__id*
-
-%0java.lang.String¤¡
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*è
-4€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (Ú
-×
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (_
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*42
-0INSERT INTO `recently_visited` SET userid ='%s' *
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.StringB20
-.progettoispw.letmeknow.controller.search.Query
+Iprogettoispw.letmeknow.bean.CollectionFormBean#getUid()Ljava/lang/String;¬
+¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/bean/CollectionFormBean.java ("1*ì
+1¬
+¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/bean/CollectionFormBean.java" (,"·
+¬
+¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/bean/CollectionFormBean.java (9
+""B20
+.progettoispw.letmeknow.bean.CollectionFormBean

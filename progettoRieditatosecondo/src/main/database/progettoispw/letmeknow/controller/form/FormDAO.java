@@ -12,12 +12,12 @@ import java.util.List;
 public class FormDAO {
     ConnectionDBMS connDB;
     Query query;
-    public static final String FORM1="112233";
-    public static final String FORM2="123123";
-    public static final String FORM3="123321";
-    public static final int START=3;//dove iniziano le risposte
-    static final String [] FORM={FORM1,FORM2,FORM3};
-    static final Integer [] FORMSID={1,2,3};
+    private static final String FORM1="112233";
+    private static final String FORM2="123123";
+    private static final String FORM3="123321";
+    private static final int START=3;//dove iniziano le risposte
+    private static final  String [] FORM={FORM1,FORM2,FORM3};
+    private static final Integer [] FORMSID={1,2,3};
     public FormDAO() {
         connDB= new ConnectionDBMS();
         query=new Query();

@@ -43,9 +43,8 @@ public class ChatControllerInterf1 {
     }
     @FXML
     protected void sendMsg() {
-        bean.newMsg(inputmsg.getText());
+        inputmsg.setText(bean.newMsg(inputmsg.getText()));
         recivemsgArr();
-        inputmsg.setText("");
     }
     private  void action(ActionEvent event ){
         if(initializated) {

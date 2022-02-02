@@ -1,73 +1,9 @@
 
-Oprogettoispw.letmeknow.controller.ConnectionDBMS#getConn()Ljava/sql/Connection;ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java/' /(."5*±
-3ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2 2(EÙ
-Ò
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2 2(E<2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-conn"__id*
-
-%5java.sql.ConnectionÙ
-Ò
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java3 3(
-%6java.sql.Connection"__id*>*<2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-conn"≠
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java3 3(
-
-%6java.sql.Connection*á
-
-4ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2 2( Ú
-Ô
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2/ 2(4
-%2java.lang.String"__id*?*=2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-dburlÒ
-Ó
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java26 2(:
-%3java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-userı
-Ú
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2< 2(D
-%4java.lang.String"__id*B*@2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-
-passwordã
-à
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java2 2(E
-%5java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
-java.sql.DriverManager*
-
-%2java.lang.String*
-
-%3java.lang.String*
-
-%4java.lang.String*
-3*±
-5ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java1 1(¸
-˘
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java1 1()
-%0java.lang.String"__id*I*G2
-0progettoispw.letmeknow.controller.ConnectionDBMS"
-driverclassnameó
-î
-ç
-ÇC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java1 1(*
-%1java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
-java.lang.Class*
-
-%0java.lang.String*
-4B4"2
-0progettoispw.letmeknow.controller.ConnectionDBMS
+Nprogettoispw.letmeknow.controller.FormToTakeStatusController#getValComplete()IØ
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("1*Ú
+1Ø
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("∫
+Ø
+§C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("
+""B@>
+<progettoispw.letmeknow.controller.FormToTakeStatusController

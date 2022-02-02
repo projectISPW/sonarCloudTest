@@ -82,33 +82,22 @@ public class SignupControllerInterf1 {
         if(desCheck!=null)desCheck.setOpacity(0);
         if(slCheck!=null)slCheck.setOpacity(0);
     }
-    private void exceptionOccurred(ActionEvent event){
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("keep attention ");
-        alert.setHeaderText("We weren't be able to retrieve your data, please try  again!");
-        alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-        Optional<ButtonType> result = alert.showAndWait();
-        if(result.isPresent() && result.get() == ButtonType.OK){
-            event.consume();
-        }
-        else{
-            goToLogin();
-        }
-    }
-    public void checkMailPswd(ActionEvent event,boolean psyAcces ){
+
+    public boolean checkMailPswd(ActionEvent event,boolean psyAcces ){
         boolean bool;
         reset();
         bool = bean.checkEmail(email.getText(), true);
-        if (!check(bool, emailCheck)) return;
+        if (!check(bool, emailCheck)) return false;
         bool = bean.checkPswd(pswd.getText(), confirmpswd.getText());
-        if (!check(bool, pswdCheck)) return;
+        if (!check(bool, pswdCheck)) return false ;
         if(psyAcces){
             bool= bean.signupPSY(pswd.getText(), email.getText());
             if(bool)goToLogin();
              else {
-                 exceptionOccurred(event);
+                 Exceptions.exceptionSignupOccurred(event);
             }
         }
+        return bool;
     }
     @FXML
     protected void save(ActionEvent event) {
@@ -116,7 +105,7 @@ public class SignupControllerInterf1 {
         String[] arr;
         int [] val;
         reset();
-        checkMailPswd(event,false);
+        if(!checkMailPswd(event,false))return;
         bool=bean.checkDescription(description.getText());
         if(!check(bool,desCheck))return;
         arr= new String[]{lab1.getText(), lab2.getText(), lab3.getText()};
@@ -124,9 +113,11 @@ public class SignupControllerInterf1 {
         bool=(val.length!=0);
         if(!check(bool,slCheck))return;
         bool=bean.signupUSR(pswd.getText(),email.getText(),val, description.getText(), goal.getText());
-        if(bool) goToLogin();
+        if(!bool){
+            Exceptions.exceptionSignupOccurred(event);
+        }
         else{
-            exceptionOccurred(event);
+            goToLogin();
         }
     }
 }

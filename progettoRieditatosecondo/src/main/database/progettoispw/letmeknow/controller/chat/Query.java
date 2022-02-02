@@ -27,7 +27,7 @@ public class Query {
     }
     protected boolean newMSG(Statement stmt, String from , String who ,String text){
         try {
-            String sql=String.format("INSERT INTO `messages` (`datetime`, `sender`, `reciver`, `text`) VALUES (CURRENT_TIMESTAMP, '%s', '%s', '%s')",from,who,text);
+            String sql=String.format("INSERT INTO `messages` (`datetime`, `sender`, `reciver`, `text`) VALUES (CURRENT_TIMESTAMP, '%s', '%s',\"%s\")",from,who,text);
             stmt.executeUpdate(sql);
             return true;
         } catch (SQLException e) {

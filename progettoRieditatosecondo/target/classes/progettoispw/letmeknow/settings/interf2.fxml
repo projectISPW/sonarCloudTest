@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import java.lang.String?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Hyperlink?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Line?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SettingsControllerInterf2">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.SettingsControllerInterf2">
     <children>
         <Line endX="350.0" endY="-154.0" layoutX="-248.0" layoutY="153.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
         <Line endX="350.0" endY="-154.0" layoutX="294.0" layoutY="151.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
@@ -77,7 +71,7 @@
                   <FontAwesomeIcon glyphName="MOBILE" size="80" />
                </graphic>
             </Button>
-            <Hyperlink layoutX="78.0" layoutY="33.0" onAction="#signOut" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Switch to mobile" />
+            <Hyperlink layoutX="78.0" layoutY="33.0" onAction="#setSize" style="-fx-font-size: 30;" styleClass="hiperlink_signup" text="Switch to mobile" />
             <Line endX="350.0" endY="13.999992370605469" layoutX="85.0" layoutY="74.0" startX="-10.0" startY="13.999998092651367" styleClass="line" />
          </children>
       </AnchorPane>

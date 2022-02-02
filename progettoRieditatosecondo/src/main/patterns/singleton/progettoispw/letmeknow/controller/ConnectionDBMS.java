@@ -1,9 +1,6 @@
 package progettoispw.letmeknow.controller;
 
-
-import javafx.application.Platform;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
+import progettoispw.letmeknow.Exceptions;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -29,34 +26,21 @@ public class ConnectionDBMS {
     }
     public ConnectionDBMS()  {
        try {
-           if (conn == null || conn.isClosed()) conn = getConn();
+           if (conn == null || conn.isClosed())  getConn();
        }catch(SQLException throwables){
            closeCONN();
-           exceptionOccurred();
+           Exceptions.exceptionConnectionOccurred();
        }
     }
-    public static void exceptionOccurred(){
-        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Connection failed ");
-        alert.setHeaderText("we found found some trouble during the connection on the Database");
-        alert.setContentText("Please retry your access");
-        Optional<ButtonType> result = alert.showAndWait();
-        if(result.isPresent() && result.get() == ButtonType.OK){
-            closeCONN();
-            System.exit(0);
-            Platform.exit();
-        }
-        Platform.exit();
-    }
-    private static java.sql.Connection getConn(){
+
+    private static void getConn(){
         try {
             setValues();
             Class.forName(driverclassname);//recupera dinamicamente il driver , prende la classe dal class path
-            java.sql.Connection newConn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
-            return newConn;
+            conn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
         } catch (Exception e) {
             e.printStackTrace();
-            return null;
+            Exceptions.exceptionConnectionOccurred();
         }
     }
     public Statement connection(Statement stmt){
@@ -68,7 +52,7 @@ public class ConnectionDBMS {
                 return stmt;
             } catch (Exception throwables) {
                 closeSTMT(stmt);
-                exceptionOccurred();
+                Exceptions.exceptionConnectionOccurred();
             }
         }
         return null;
@@ -84,7 +68,7 @@ public class ConnectionDBMS {
             if(stmt!=null)stmt.close();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            exceptionOccurred();
+            Exceptions.exceptionConnectionOccurred();
         } finally {
             decrem();
         }
@@ -95,7 +79,7 @@ public class ConnectionDBMS {
             closeSTMT(stmt);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            exceptionOccurred();
+            Exceptions.exceptionConnectionOccurred();
         } finally {
             decrem();
         }
@@ -105,7 +89,7 @@ public class ConnectionDBMS {
             if(conn!=null)conn.close();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-            exceptionOccurred();
+            Exceptions.exceptionConnectionOccurred();
         } finally {
             decrem();
         }

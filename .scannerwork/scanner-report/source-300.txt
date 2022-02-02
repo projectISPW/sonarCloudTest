@@ -2,13 +2,13 @@ package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import progettoispw.letmeknow.bean.*;
 
+import java.util.Optional;
 
 
 public class HomepageEditControllerInterf1 {
@@ -58,7 +58,7 @@ public class HomepageEditControllerInterf1 {
         bool=bean.setGoal(goal.getText());
         if(bool)bool=bean.setDescription(personalDes.getText());
         if(bool)bool=bean.setTag(tag.getText());
-        if(bool)bool=bean.setGoal(tag.getText());
+        if(bool)bool=bean.setGoal(goal.getText());
         if(bool)bool=bean.setDate(date.getText());
         if(bool){
             goal.setText("");
@@ -68,15 +68,7 @@ public class HomepageEditControllerInterf1 {
             initialize();
         }
         else{
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("keep attention ");
-            alert.setHeaderText("We weren't be able edit your data, please try  again!");
-            alert.setContentText("Please,check if " +
-                    "tag and description begin in '#'," +
-                    "the data is in format 'day-month-year'");
-            if(alert.showAndWait().get()== ButtonType.OK) {
-                event.consume();
-            }
+            Exceptions.exceptionEditProfileOccurred(event);
         }
     }
     @FXML

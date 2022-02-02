@@ -1,1 +1,1 @@
-› 2javaXHhriprogettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java
+› 2javaXBhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java

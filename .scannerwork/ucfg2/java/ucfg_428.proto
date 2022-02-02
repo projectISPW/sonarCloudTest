@@ -1,36 +1,9 @@
 
-Oprogettoispw.letmeknow.controller.search.Search#setTouched(Ljava/lang/String;)ZÅ
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java> >("3*˚
-2Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaB B("Ï
-È
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaB B(">1
-/progettoispw.letmeknow.controller.search.Search"	
-touched"__id*
-
-userid2java.lang.String*
-1*·
-3Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java? ?(Ê
-„
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.java@# @()
-%0java.lang.String"__id*?*=1
-/progettoispw.letmeknow.controller.search.Search"
-useridÊ
-„
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaA A(
-%1java.lang.String"__id*?*=1
-/progettoispw.letmeknow.controller.search.Search"
-userid*
-2
-1*ñ
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaD D("å
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Search.javaD D(
-"":
-userid2java.lang.StringB31
-/progettoispw.letmeknow.controller.search.Search
+Jprogettoispw.letmeknow.controller.ISCController#getUid()Ljava/lang/String;¨
+°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("1*Ï
+1¨
+°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("∑
+¨
+°C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ( 
+""B31
+/progettoispw.letmeknow.controller.ISCController

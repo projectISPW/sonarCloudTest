@@ -22,10 +22,10 @@ public class CSS {
     private double hspacing;
     private double aumenta;
     public CSS(boolean inputbool){
-        if(bool){
-            check=new WordCheck(5,30);
+        if(inputbool){
+            check=new WordCheck(10,30);
         }else{
-            check=new WordCheck(5,40);
+            check=new WordCheck(10,56);
         }
         hmsg=0;
         hspacing=30;
@@ -55,7 +55,7 @@ public class CSS {
             ystart=lastmessage.getTranslateY()+hmsg+hspacing;
         }
         label.setTranslateY(ystart);
-        hmsg= check.highText();
+        hmsg= check.highText(label.getText());
         aumenta=ystart+hmsg+hspacing;
     }
     public Label getMessageRecived(){

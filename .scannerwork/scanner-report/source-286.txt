@@ -2,8 +2,6 @@ package progettoispw.letmeknow.bean;
 import progettoispw.letmeknow.WordCheck;
 import progettoispw.letmeknow.controller.HomepageController;
 
-import java.util.Calendar;
-
 
 public class HomepageBean {
     private HomepageController controller;
@@ -22,7 +20,7 @@ public class HomepageBean {
     public String getTag(){
         WordCheck checkStr=new WordCheck(3,20);
         String tag=controller.getTag();
-        tag=checkStr.check1(tag,"\n");
+        tag=checkStr.replace(tag,'#',"\n");
         tag=checkStr.check(tag);
         return tag;
     }

@@ -1,1 +1,1 @@
-ê 2javaXåhrbprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java
+ê 2javaXDhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java

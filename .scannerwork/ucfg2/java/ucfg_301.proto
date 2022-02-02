@@ -1,9 +1,12 @@
 
-Zprogettoispw.letmeknow.controller.FormToTakeStatusController#getUserid()Ljava/lang/String;¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("1*ò
-1¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("º
-¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ( 
-""B@>
-<progettoispw.letmeknow.controller.FormToTakeStatusController
+rprogettoispw.letmeknow.controller.SignupController#signup(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("1*Ö
+1¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¬
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java (9
+"":
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB64
+2progettoispw.letmeknow.controller.SignupController

@@ -26,16 +26,22 @@ public class LoginControllerInterf1 {
         controller.switchTo("signup/interf1.fxml",event,"Signup");
     }
     @FXML
-    protected void switchToRecoverPswd(ActionEvent event) {
-        controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");
-    }
+    protected void switchToSignUpPsych(ActionEvent event) {controller.switchTo("signupPsychologist/interf1.fxml",event,"Signup");}
     @FXML
-    protected void switchToSignUpPsych(ActionEvent event) {
-        controller.switchTo("signupPsychologist/interf1.fxml",event,"Signup");
-    }
+    protected void switchToRecoverPswd(ActionEvent event) {controller.switchTo("recoverpassword/interf1.fxml",event,"Recover password");}
     @FXML
-    protected void setSize(ActionEvent event ){
-        controller.setSize("login/interf1.fxml",event);
+    protected void setSize(ActionEvent event ){controller.setSize("login/interf1.fxml",event);}
+    public void initialize(){
+        labUser.textProperty().addListener((observableValue, s, t1) -> {
+            if(labUser.getText().equals("")){
+                color(true);
+            }
+        });
+        labPassword.textProperty().addListener((observableValue, s, t1) -> {
+            if(labPassword.getText().equals("")){
+                color(true);
+            }
+        });
     }
     @FXML
     protected void showPSWD(){
@@ -61,19 +67,12 @@ public class LoginControllerInterf1 {
             labPassword.setStyle("-fx-background-color: #F2F2F2");
         }
     }
-
     @FXML
     protected void switchToHome(ActionEvent event) {
+        color(true);
         if(labUser.getText().equals("") || labPassword.getText().equals(""))
         {
             color(false);
-            Alert alert = new Alert(Alert.AlertType.WARNING);
-            alert.setTitle("Empty Fields!");
-            alert.setHeaderText("Empty Email / Password Field");
-            alert.setContentText("Please, fill Email and Password Fields. They cannot be empty.");
-            if(alert.showAndWait().get()==ButtonType.OK) {
-                event.consume();
-            }
         }else {
             LoginBean bean=new LoginBean(labUser.getText());
             String log = bean.getLog(labPassword.getText());

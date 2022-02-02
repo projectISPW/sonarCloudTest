@@ -1,42 +1,35 @@
 
-yprogettoispw.letmeknow.controller.psyuser.Form#getElem(Ljava/util/List;I)Lprogettoispw/letmeknow/controller/psyuser/Form;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java, ,("2*Í
+Mprogettoispw.letmeknow.controller.psyuser.Form#getCounter(Ljava/util/List;I)I€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java' '("2*Í
 2€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java- -(Ì
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(Ì
 É
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java- -(6
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(6
 elem.progettoispw.letmeknow.controller.psyuser.Form"__id*
 ""í
 ê
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java- -(6
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(6
 elem.progettoispw.letmeknow.controller.psyuser.Form"
 __arrayGet*
 
 inputjava.util.List*
 ""*
 4
-1*Æ
-3€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java-< -(@"½
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java-5 -(A8
-6
-elem.progettoispw.letmeknow.controller.psyuser.Form*¦
+1*£
 4€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java- -(#•’
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java)! )(%•’
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java- -(/	
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java)! )(1	
 %0int";progettoispw.letmeknow.controller.psyuser.Form#getFormid()I*8
 6
-elem.progettoispw.letmeknow.controller.psyuser.Form2getFormid()*
-2
-3*”
+elem.progettoispw.letmeknow.controller.psyuser.Form2getFormid()*
+2*”
 1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java. .("‹
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java* *("‹
 €
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java. .(
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java* *(
 "":
 inputjava.util.List:
 ""B20

@@ -95,6 +95,7 @@ public class SearchControllerInterf1 {
     }
     @FXML
     public void search(ActionEvent actionEvent) {
+        bean.reset();
         researchByParameter();
         researchByDescripription();
         researchByGoal();

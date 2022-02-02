@@ -44,7 +44,7 @@ public class AdviseBoarcControllerInterf2 {
         ObservableList<PieChart.Data>graphData=
                 FXCollections.observableArrayList(
                         new PieChart.Data("global visit",val[0]),
-                        new PieChart.Data("recived visit",val[1])
+                        new PieChart.Data("received visit",val[1])
                 );
         graphVisit.setData(graphData);
     }
@@ -55,7 +55,7 @@ public class AdviseBoarcControllerInterf2 {
     }
     public void outputValVisited(){
         ResultSearchControllerInterf1 rscInterf1=new ResultSearchControllerInterf1();
-        String [] inner=rscInterf1.prevOutputVal(new Group[]{group4,group5,group6},3);
+        String [] inner=rscInterf1.prevOutputVal(new Group[]{group4,group5,group6},3,new BeanResultSearch(3));
         for(int i=0;i<3;i++)uids[i+3]=inner[i];
     }
     @FXML

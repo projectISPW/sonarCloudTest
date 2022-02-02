@@ -33,8 +33,7 @@ public class ChatBean{
     public String getUid(){
         return controller.getUID();
     }
-    public void newMsg(String input){
-
-        controller.newMSG(input);
+    public String newMsg(String input){
+        return controller.newMSG(input);
     }
 }

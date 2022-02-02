@@ -20,8 +20,6 @@ public class SignupBean {
             return false;
         }
     }
-
-
     public boolean checkPswd(String str1,String str2){
         if(str1.equals("")||str1.equals(" ") || str1.length()>20)return false;
         return str1.equals(str2);

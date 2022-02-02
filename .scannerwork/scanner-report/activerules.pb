@@ -275,7 +275,13 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 apexS101"
 format^[A-Z][a-zA-Z0-9_]*$(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
 apexS2757(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
-apexS1481(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-H
+apexS1481(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
+javaS1149(¸˜Ù±ñ(0ÑóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
+javaS2755(è‡ïŸ‰-0è‡ïŸ‰-:AX2EoJ1roTeAkeA2h1iZ3
+javaS6377(ˆÝŒüê/0ˆÝŒüê/:AX2EoJ1roTeAkeA2h1iZ3
+javaS6374(Ð°“üê/0Ð°“üê/:AX2EoJ1roTeAkeA2h1iZ3
+javaS6373(ðÒ’üê/0ðÒ’üê/:AX2EoJ1roTeAkeA2h1iZ3
+javaS6376(øü‘üê/0øü‘üê/:AX2EoJ1roTeAkeA2h1iZH
 javaS5843"
 maxComplexity20(øœ÷ã¶.0øœ÷ã¶.:AX2EoJ1roTeAkeA2h1iZ3
 javaS4544(À‚ñÙÎ,0À‚ñÙÎ,:AX2EoJ1roTeAkeA2h1iZ3
@@ -292,7 +298,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 format^[a-z][a-zA-Z0-9]*$(¸˜Ù±ñ(0¨Ôû Ì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS6002(°·å¬æ.0°·å¬æ.:AX2EoJ1roTeAkeA2h1iZ3
 javaS4502(€™ú³Ä,0€™ú³Ä,:AX2EoJ1roTeAkeA2h1iZ3
-javaS2755(è‡ïŸ‰-0è‡ïŸ‰-:AX2EoJ1roTeAkeA2h1iZ3
 javaS2204(ˆ¯ãå­)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2225(ˆ¯ãå­)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2589(øè¯Á½+0øè¯Á½+:AX2EoJ1roTeAkeA2h1iZ3
@@ -457,7 +462,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS2230(ˆ¯ãå­)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2110(àà©Ä)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS5868(€Êõã¶.0€Êõã¶.:AX2EoJ1roTeAkeA2h1iZ3
-javaS1149(¸˜Ù±ñ(0ÑóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2118(ÐÓ‹¨»)0øØóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS5831(ØûÇ€®.0ØûÇ€®.:AX2EoJ1roTeAkeA2h1iZ3
 javaS1598( ¬¡³„)0˜ý‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
@@ -837,6 +841,8 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 flexS1481(¸˜Ù±ñ(0À»Ê¢«,:AX2EoJ1roTeAkeA2h1h93
 flexS1952(è™¡®˜)0è™¡®˜):AX2EoJ1roTeAkeA2h1h9;
 flexWithStatement(èšáÜï(0¨ÙáÜï(:AX2EoJ1roTeAkeA2h1h9:
+csharpsquidS1155(ð–ñï)0 Þ»  +:AX2EoJ1roTeAkeA2h1ia:
+csharpsquidS2755(ÐÑ“Ý‡.0ÐÑ“Ý‡.:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS3925(˜‹¯Á½+0ø±òÌ+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS3442(€³í©+0€³í©+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS5753(Ðó¢©ò.0Ðó¢©ò.:AX2EoJ1roTeAkeA2h1ia:
@@ -871,7 +877,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 csharpsquidS4433(€¿åÄ¶,0€¿åÄ¶,:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4790(àÚ÷õ,0àÚ÷õ,:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4792(àÚ÷õ,0àÚ÷õ,:AX2EoJ1roTeAkeA2h1ia:
-csharpsquidS2755(ÐÑ“Ý‡.0ÐÑ“Ý‡.:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS2612(¸‰ ¹ÿ.0¸‰ ¹ÿ.:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS1104(À³›à¶+0À³›à¶+:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS3884(À³›à¶+0À³›à¶+:AX2EoJ1roTeAkeA2h1ia:
@@ -1019,7 +1024,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 csharpsquidS3444(ðì­Ä¹*0 Þ»  +:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4635(Èëµá-0Èëµá-:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4210(àšÒ—™,0àšÒ—™,:AX2EoJ1roTeAkeA2h1ia:
-csharpsquidS1155(ð–ñï)0 Þ»  +:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS1905( ‡ñï)0 ‡ñï):AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS1199(Ð… ùÚ-0Ð… ùÚ-:AX2EoJ1roTeAkeA2h1ia:
 csharpsquidS4220(ðÜÎÊû+0ðÜÎÊû+:AX2EoJ1roTeAkeA2h1ia:
@@ -1476,6 +1480,7 @@ typescriptS3863(ÈÊ±¨ú.0ÈÊ±¨ú.:AX2EoJ1roTeAkeA2h1iW9
 
 typescriptS4156(°Ò±¨ú.0°Ò±¨ú.:AX2EoJ1roTeAkeA2h1iW3
 textS6389( ùõÛè/0 ùõÛè/:AX6LfYgfEtnFPnYRcbaq4
+vbnetS1155( ¡ÈÏë/0 ¡ÈÏë/:AX2EoJ1roTeAkeA2h1iY4
 vbnetS5753(¨¹ž©ò.0¨¹ž©ò.:AX2EoJ1roTeAkeA2h1iY4
 vbnetS4275(È£‰Æî,0È£‰Æî,:AX2EoJ1roTeAkeA2h1iY4
 vbnetS1135(˜÷–åŽ-0˜÷–åŽ-:AX2EoJ1roTeAkeA2h1iY4

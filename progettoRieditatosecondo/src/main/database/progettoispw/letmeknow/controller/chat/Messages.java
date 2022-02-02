@@ -1,6 +1,8 @@
 package progettoispw.letmeknow.controller.chat;
 
 
+import progettoispw.letmeknow.Exceptions;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,9 +86,12 @@ public class Messages {
         }
         return chat;
     }
-    public void newMessage(String text,String to) {
-        messageData.newMessage(userid,to,text);
-        getAllChat();
+    public String newMessage(String text,String to) {
+        boolean bool;
+        bool=messageData.newMessage(userid,to,text);
+        if(!bool) text=Exceptions.exceptionInputChatOccurred(text);
+        else text="";
+        return text;
     }
     public void setTouched(String input) {
         touched = input;

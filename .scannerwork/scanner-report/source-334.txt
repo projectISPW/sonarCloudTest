@@ -97,6 +97,10 @@ public class SettingsControllerInterf1 implements Initializable {
     protected void goToPersonalForm(ActionEvent event) {
         controller.switchToPersonalForm(event);
     }
+    @FXML
+    protected void setSize(ActionEvent event ){
+        controller.setSize("settings/interf1.fxml",event);
+    }
 
 }
 

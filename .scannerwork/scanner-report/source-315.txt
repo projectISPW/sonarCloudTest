@@ -1,96 +1,50 @@
 package progettoispw.letmeknow;
 
-public class WordCheck {
-    private  int goAhead;
-    private int delta;
-    private String text;
-    public WordCheck(int deltaInput, int goAheadInput){
-        delta=deltaInput;
-        goAhead=goAheadInput;
-    }
-    public WordCheck(){
-        delta=goAhead=-1;
-    }
-    public  String check(String inputText) {
-        if(inputText==null)return null;
-        String add;
-        String before;
-        int count=goAhead-delta;
-        for (int k = goAhead-delta; k < inputText.length(); k = k+1) {
-            if(inputText.toCharArray()[k]=='\n'){
-                count=0;
-            }
-            if (count==goAhead){
-                add = inputText.substring(k);
-                before = inputText.substring(0, k);
-                inputText = before + "\n" + add;
-                count =0;
-            } else if(((count%goAhead)>(goAhead-delta)) && inputText.toCharArray()[k]== 32){
-                add = inputText.substring(k+1);
-                before = inputText.substring(0, k);
-                inputText = before + "\n" + add;
-                count=0;
-            }else{
-                count++;
-            }
-        }
-        text=inputText;
-        return  inputText;
-    }
-    public String check1(String inputText,String immetti){
-        if(inputText==null)return null;
-        String add;
-        String before;
-        int start=inputText.indexOf('#');
-        int k=0;
-        for(char c : inputText.toCharArray()){
-            if(c=='#' && k!=start)
-            {
-                    add = inputText.substring(k);
-                    before = inputText.substring(0, k);
-                    inputText = before + immetti + add;
-                    ++k;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-            }++k;
-        }
-        return inputText;
+public class ButtonBarInterf2 {
+    PageMenu controller= new PageMenu();
+    @FXML
+    Button home;
+    @FXML
+    Button chat;
+    @FXML
+    Button form;
+    @FXML
+    Button search;
+    @FXML
+    Button settings;
+    public void initialize(){
+        Button [] buttons=new Button[] {home,chat,form,search,settings};
+        for(Button button:buttons)button.setStyle("-fx-opacity: 0.5");
     }
-    public Integer contaInvio(String inputText){
-        Integer contAhead=1;
-        for(char c : inputText.toCharArray()){
-            if(c=='\n'){
-                contAhead++;
-            }
-        }
-        return contAhead;
+    public void goToChat(ActionEvent actionEvent) {
+        controller.switchToChat(actionEvent);
     }
-    public int highText() {
-        int linee= contaInvio(text);
-        if(linee>4){
-            return linee* 21;
-        }
-        return 60;
+    public void goToHome(ActionEvent actionEvent) {
+        BeanResultSearch bean=new BeanResultSearch();
+        bean.reset();
+        controller.switchToHome(actionEvent);
     }
-    public  String checkLen(String inputText,int lenMax){
-        if(inputText==null)return " ";
-        inputText=inputText.replace("\\n","");
-        inputText=inputText.replace("\\r","");
-        inputText=inputText.replace("\n","");
-        if(inputText.length()<lenMax)return inputText;
-        else {
-            return inputText.substring(0,lenMax)+"...";
-        }
+    public void goToForm(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
-    public  String checkAhead(String inputText){
-        int k=0;
-        if(inputText==null)return null;
-        for(char c : inputText.toCharArray()){
-            if(c=='\n')
-            {
-                inputText.toCharArray()[k]=' ';
-            }++k;
-        }
-        return inputText;
+    public void goToSettings(ActionEvent actionEvent) {
+        controller.switchToSettings(actionEvent);
     }
+    public void goToSearch(ActionEvent actionEvent) {
+        controller.switchToSearch(actionEvent);
+    }
+    public void setOpacity(Button button ){button.setStyle("-fx-opacity: 1.0");}
+    public void setHome() {
+        setOpacity(home);
+    }
+    public void setSearch() {
+        setOpacity(search);
+    }
+    public void setSettings() {setOpacity(settings);}
+    public void setPersonalForm() {setOpacity(form);}
 }
-//abcdefghilmnopqrstuvz123456789

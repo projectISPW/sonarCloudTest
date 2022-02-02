@@ -1,1 +1,1 @@
-• 2javaX hrjprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
+• 2javaXNhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java

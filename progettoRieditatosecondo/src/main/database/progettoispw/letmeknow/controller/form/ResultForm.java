@@ -63,7 +63,7 @@ public class ResultForm {
         formData.setAnswer(userid,formid,input,complete);
         if(complete==6)queryComplete();
     }
-    public int[] setAnswers(){
+    public int[] getAnswers(){
         return answers;
     }
     public int getComplete() {

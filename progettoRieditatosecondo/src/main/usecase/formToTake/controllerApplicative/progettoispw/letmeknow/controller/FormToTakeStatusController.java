@@ -4,7 +4,6 @@ import progettoispw.letmeknow.controller.form.ResultForm;
 
 public class FormToTakeStatusController {
     ResultForm form;
-    int [] values;
     public FormToTakeStatusController(){
         form= ControllerClass.getResultForm();
     }
@@ -15,8 +14,7 @@ public class FormToTakeStatusController {
         form.setAnswers(passaggio);
     }
     public int[] getValResponse(){
-        values=form.setAnswers();
-        return form.setAnswers();
+        return form.getAnswers();
     }
     public String getUserid(){
         return form.getUserid();
@@ -25,6 +23,7 @@ public class FormToTakeStatusController {
         return form.getComplete();
     }
     public boolean[] getStatus() {
+        int [] values=form.getAnswers();
         boolean [] bool=new boolean[values.length];
         for(int i=0;i<values.length;i++){
             if(values[i]>=1)bool[i]=true;
