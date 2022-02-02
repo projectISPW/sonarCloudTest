@@ -1,18 +1,16 @@
 
-Vprogettoispw.letmeknow.controller.usruser.ParameterSliders#getOpt()Ljava/lang/Integer;
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
- 
-("1*¿
-1
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (û
-ø
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-%0java.lang.Integer"__id*G*E<
-:progettoispw.letmeknow.controller.usruser.ParameterSliders"
-opt"«
-
-‚C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-
-%0java.lang.IntegerB><
-:progettoispw.letmeknow.controller.usruser.ParameterSliders
+Mprogettoispw.letmeknow.controller.form.ResultForm#getDate()Ljava/lang/String;{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaK K("1*ü
+1{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(ß
+Ü
+{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(
+%0java.lang.String"__id*?*=3
+1progettoispw.letmeknow.controller.form.ResultForm"
+date"—
+{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(
+
+%0java.lang.StringB53
+1progettoispw.letmeknow.controller.form.ResultForm

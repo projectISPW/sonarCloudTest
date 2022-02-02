@@ -1,0 +1,41 @@
+
+wprogettoispw.letmeknow.controller.form.Query#takeParamForm(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/sql/ResultSet;v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java- -(""4*’
+2v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java0 0(*"”
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java0 0(*
+
+%1java.sql.ResultSet*ó
+3v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java/ /(w´
+±
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java/ /(w
+sqljava.lang.String"__id*
+
+%0java.lang.String¹¶
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java0 0()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2*ê
+4v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java/ /(ç
+ä
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java/ /(v
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*DB
+@SELECT emp,hum,pos FROM forms where userid='%s' AND formid='%d';*
+
+useridjava.lang.String*
+""*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.String:
+""B0.
+,progettoispw.letmeknow.controller.form.Query

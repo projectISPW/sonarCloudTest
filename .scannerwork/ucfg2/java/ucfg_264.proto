@@ -1,15 +1,37 @@
 
-Lprogettoispw.letmeknow.controller.search.Sliders#check(Ljava/lang/Integer;)IÇ
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("2"1*ò
-2Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
-""*ò
-1Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("ç
-Ç
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java (
-"":
-valjava.lang.IntegerB42
-0progettoispw.letmeknow.controller.search.Sliders
+Sprogettoispw.letmeknow.controller.user.InitialUser#setPassword(Ljava/lang/String;)Z|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaj j("3* 
+2|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(‚
+ﬂ
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l($
+%1java.lang.String"__id*A*?4
+2progettoispw.letmeknow.controller.user.InitialUser"
+emailÿ’
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(%
+%2boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;)Z*64
+2progettoispw.letmeknow.controller.user.InitialUser*
+
+%1java.lang.String2composeMail(Ljava/lang/String;)"Ü
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(&
+""*Ô
+3|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k(„
+‡
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k("
+%0java.lang.String"__id*B*@4
+2progettoispw.letmeknow.controller.user.InitialUser"
+userid*
+2
+1*ä
+1|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n("Ü
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n(
+"":
+inputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

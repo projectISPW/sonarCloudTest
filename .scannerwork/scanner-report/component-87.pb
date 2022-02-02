@@ -1,0 +1,1 @@
+W 2javaXMhrMletmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/Page.java

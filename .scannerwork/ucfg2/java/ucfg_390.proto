@@ -1,49 +1,9 @@
 
-xprogettoispw.letmeknow.controller.chat.Query#selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ('"5*¢
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*"ú
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*
-
-%1java.sql.ResultSet*ã
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(vº
-π
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(v
-sqljava.lang.String"__id*
-
-%0java.lang.String¡æ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*è
-5~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(Ñ
-Å
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
- 
-(u
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*CA
-? SELECT *  FROM messages where reciver = '%s' or sender = '%s' *
-
-iduserjava.lang.String*
-
-iduserjava.lang.String*
-4:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB0.
-,progettoispw.letmeknow.controller.chat.Query
+Jprogettoispw.letmeknow.controller.ISCController#getUid()Ljava/lang/String;§
+ôC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("1*‹
+1§
+ôC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("Ø
+§
+ôC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ( 
+""B31
+/progettoispw.letmeknow.controller.ISCController

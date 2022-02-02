@@ -1,0 +1,39 @@
+
+rprogettoispw.letmeknow.controller.form.Query#takeParam(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java% %("4*’
+2v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((*"”
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java( ((*
+
+%1java.sql.ResultSet*ó
+3v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java' '(n´
+±
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java' '(n
+sqljava.lang.String"__id*
+
+%0java.lang.String¹¶
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java( (()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2*à
+4v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java' '(Ý
+Ú
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java' '(m
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*B@
+>SELECT empathy,humor,positivity FROM utenti where userid='%s';*
+
+useridjava.lang.String*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.StringB0.
+,progettoispw.letmeknow.controller.form.Query

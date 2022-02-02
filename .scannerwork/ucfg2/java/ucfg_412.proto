@@ -1,32 +1,27 @@
 
-`progettoispw.letmeknow.controller.LoginController#tornaLog(Ljava/lang/String;)Ljava/lang/String;Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java	 	("4*ù
-2Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (Ì
-É
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
-strjava.lang.String"__id*
+Zprogettoispw.letmeknow.controller.user.UserDAO#feed(Ljava/lang/String;Ljava/lang/String;)Zx
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javac c("5*‚
+2x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javag g(5"‚
+x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javag g(5
+""*¬
+3x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaf f(,§
+¤
+x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaf f(,
+stmtjava.sql.Statement"__id*
 ""*
-1*ü
-4Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java
- 
-(Ì
-É
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java
- 
-(0
-strjava.lang.String"__id*
-""*
-2
-1*å
-1Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("½
-Ÿ
-”C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java (
-
-strjava.lang.String:
-passwordjava.lang.StringB53
-1progettoispw.letmeknow.controller.LoginController
+2*¬
+5x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javad d(§
+¤
+x
+nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javad d( 
+stmtjava.sql.Statement"__id*
+""*
+3:
+useridjava.lang.String:
+inputjava.lang.StringB20
+.progettoispw.letmeknow.controller.user.UserDAO

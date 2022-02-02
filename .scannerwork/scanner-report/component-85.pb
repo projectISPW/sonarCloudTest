@@ -1,0 +1,1 @@
+U 2javaXChrbletmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java

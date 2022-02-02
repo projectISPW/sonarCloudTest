@@ -1,10 +1,9 @@
 
-Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Z™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("1*Æ
+>progettoispw.letmeknow.controller.form.ResultForm#getFormid()I™
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java. .("1*Æ
 1™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java/ /("¤
 ™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (&
-"":
-inputjava.lang.StringB,*
-(progettoispw.letmeknow.bean.SettingsBean
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java/ /(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm

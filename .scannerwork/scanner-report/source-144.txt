@@ -1,67 +1,50 @@
-package progettoispw.letmeknow.controller.user;
+package progettoispw.letmeknow;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import progettoispw.letmeknow.bean.BeanResultSearch;
 
-public class Query {
-    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
-        return stmt.executeQuery(sql);
+public class ButtonBarInterf2 {
+    PageMenu controller= new PageMenu();
+    @FXML
+    Button home;
+    @FXML
+    Button chat;
+    @FXML
+    Button form;
+    @FXML
+    Button search;
+    @FXML
+    Button settings;
+    public void initialize(){
+        Button [] buttons=new Button[] {home,chat,form,search,settings};
+        for(Button button:buttons)button.setStyle("-fx-opacity: 0.5");
     }
-    protected ResultSet selectUser(Statement stmt,String what, String input )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  WHERE %s = '%s' ;",what,input);
-    
-        return stmt.executeQuery(sql);
+    public void goToChat(ActionEvent actionEvent) {
+        controller.switchToChat(actionEvent);
     }
-    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
-        try {
-            String sql=String.format(" UPDATE  utenti set %s='%s' WHERE userid = '%s' ;",what,edit,iduser);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
+    public void goToHome(ActionEvent actionEvent) {
+        BeanResultSearch bean=new BeanResultSearch();
+        bean.reset();
+        controller.switchToHome(actionEvent);
     }
-
-    protected ResultSet queryUid(Statement stmt) throws SQLException {
-        String sql=" SELECT userid FROM utenti ";
-        return stmt.executeQuery(sql);
+    public void goToForm(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
-
-    protected boolean newLine(Statement stmt,String [] log ,int [] val,String description,String goal) {
-
-        try {
-            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)" +
-                            " VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )",
-                    log[0],log[1],log[2],log[3],val[0],val[1],val[2],description,goal);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-           return false;
-        }
+    public void goToSettings(ActionEvent actionEvent) {
+        controller.switchToSettings(actionEvent);
     }
-    protected boolean newLine(Statement stmt, String uid,String password, String type, String email) {
-        try {
-            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)" +
-                            " VALUES ('%s',         '%s',      '%s',       '%s')",
-                    uid,password,type,email);
-
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-           return false;
-        }
+    public void goToSearch(ActionEvent actionEvent) {
+        controller.switchToSearch(actionEvent);
     }
-    protected boolean feed(Statement stmt,String from,String what){
-        try {
-            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
+    public void setOpacity(Button button ){button.setStyle("-fx-opacity: 1.0");}
+    public void setHome() {
+        setOpacity(home);
     }
+    public void setSearch() {
+        setOpacity(search);
+    }
+    public void setSettings() {setOpacity(settings);}
+    public void setPersonalForm() {setOpacity(form);}
 }

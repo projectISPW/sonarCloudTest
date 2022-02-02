@@ -1,1 +1,1 @@
-ç 2javaX3hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java
+ç 2javaXhryletmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java

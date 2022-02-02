@@ -1,0 +1,23 @@
+
+_progettoispw.letmeknow.controller.user.Query#queryUid(Ljava/sql/Statement;)Ljava/sql/ResultSet;v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java ( "1*Œ
+1v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java (0»
+¸
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java (1
+sqljava.lang.String"__id*
+ SELECT userid FROM utenti ¹¶
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java (%
+%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"”
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java (&
+
+%0java.sql.ResultSet:
+stmtjava.sql.StatementB0.
+,progettoispw.letmeknow.controller.user.Query

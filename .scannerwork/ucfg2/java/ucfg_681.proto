@@ -1,0 +1,55 @@
+
+vprogettoispw.letmeknow.controller.form.Query#setResults(Ljava/sql/Statement;Ljava/lang/String;I[II)Ljava/lang/Boolean;î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("4*∫
+2î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java   ("ù
+î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java   (2*∞
+3î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (o”
+–
+î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (o
+sqljava.lang.String"__id*
+
+%1java.lang.String∏µ
+î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (#	
+%2int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+2*£
+4î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (Ï
+È
+ï
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java' (Æ
+%0java.lang.String"__concat*
+ UPDATE `forms` *ñì
+êSET `q1` = '%d', `q2` = '%d', `q3` = '%d', `q4` = '%d', `q5` = '%d', `q6` = '%d',`completed`='%d' WHERE (`formid` = '%d') and (`userid` = '%s');í
+è
+î
+âC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (n
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%0java.lang.String*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+
+useridjava.lang.String*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.String:
+"":
+"":
+""B0.
+,progettoispw.letmeknow.controller.form.Query

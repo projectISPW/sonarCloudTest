@@ -1,1 +1,1 @@
-› 2javaXBhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java
+› 2javaXwhrwletmeknowTesting/src/main/usecase/resultSearch/controllerView/progettoispw/letmeknow/ResultSearchControllerInterf1.java

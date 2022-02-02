@@ -1,0 +1,96 @@
+
+iprogettoispw.letmeknow.controller.ParsingXMLFile#setEnvironment(Ljava/lang/String;)Lorg/w3c/dom/NodeList;¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (""10*Ó
+3¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (;"√
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (;
+
+%7org.w3c.dom.NodeList*¢
+4¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (ÚÔ
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (:
+%7org.w3c.dom.NodeList"Sorg.w3c.dom.Document#getElementsByTagName(Ljava/lang/String;)Lorg/w3c/dom/NodeList;*
+
+docorg.w3c.dom.Document*
+
+parameters2(getElementsByTagName(Ljava/lang/String;)*
+3*≠
+5¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (0˝˙
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (0
+
+%6void"org.w3c.dom.Node#normalize()V*
+
+%5org.w3c.dom.Element2normalize()*
+4*‘
+6¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (8È
+Ê
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (8
+docorg.w3c.dom.Document"__id*
+
+%4org.w3c.dom.Document∏µ
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java ($
+%5org.w3c.dom.Element">org.w3c.dom.Document#getDocumentElement()Lorg/w3c/dom/Element;*
+
+docorg.w3c.dom.Document2getDocumentElement()*
+5*õ
+7¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (7ÎË
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (7
+%4org.w3c.dom.Document"Mjavax.xml.parsers.DocumentBuilder#parse(Ljava/io/File;)Lorg/w3c/dom/Document;*)
+'
+db!javax.xml.parsers.DocumentBuilder*
+
+%2java.io.File2parse(Ljava/io/File;)*
+6*ê
+8¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (:Ç
+ˇ
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (:'
+db!javax.xml.parsers.DocumentBuilder"__id*)
+'
+%1!javax.xml.parsers.DocumentBuilder «
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java( (,
+%2java.io.File"java.io.Fileé
+ã
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java$ (6
+%3"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%2java.io.File*
+
+filenamejava.lang.String*
+7*¨
+9¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java! ($¸˘
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java! (9'
+%1!javax.xml.parsers.DocumentBuilder"`javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder()Ljavax/xml/parsers/DocumentBuilder;*1
+/
+dbf(javax.xml.parsers.DocumentBuilderFactory2newDocumentBuilder()*
+8*≠
+10¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java% (;Ë
+Â
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java% (I.
+%0(javax.xml.parsers.DocumentBuilderFactory"`javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;*,"*
+(javax.xml.parsers.DocumentBuilderFactoryë
+é
+¢
+óC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java (J/
+dbf(javax.xml.parsers.DocumentBuilderFactory"__id*0
+.
+%0(javax.xml.parsers.DocumentBuilderFactory*
+9:
+filenamejava.lang.StringB42
+0progettoispw.letmeknow.controller.ParsingXMLFile

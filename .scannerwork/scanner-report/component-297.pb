@@ -1,0 +1,1 @@
+© 2xmlX	hrSMainApplication.java/progettoRieditatosecondo/.idea/libraries/fontawesomefx_8_2.xml

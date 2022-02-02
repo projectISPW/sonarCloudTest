@@ -1,49 +1,9 @@
 
-vprogettoispw.letmeknow.controller.form.Query#queryResults(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (!"4*¢
-2~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (*"ú
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (*
-
-%1java.sql.ResultSet*ã
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
- 
-(tº
-π
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
- 
-(t
-sqljava.lang.String"__id*
-
-%0java.lang.String¡æ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*Û
-4~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
- 
-(Ë
-Â
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java
- 
-(s
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*=;
-9 SELECT *  FROM forms where userid = '%s' and formid='%d'*
-
-useridjava.lang.String*
-""*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-""B0.
-,progettoispw.letmeknow.controller.form.Query
+Pprogettoispw.letmeknow.controller.HomepageController#getGoal()Ljava/lang/String;ù
+íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java ("1*Œ
+1ù
+íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java# ('"®
+ù
+íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java (2
+""B86
+4progettoispw.letmeknow.controller.HomepageController

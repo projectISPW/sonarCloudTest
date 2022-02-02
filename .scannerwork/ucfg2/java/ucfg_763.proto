@@ -1,0 +1,64 @@
+
+Jprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util/List;ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java   ( "5*≥
+3ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java$ $(ÑÅ
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java$ $()
+%3"[progettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;Ljava/util/List;)V*31
+/progettoispw.letmeknow.controller.chat.Messages*
+""*
+
+usersjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)ÑÅ
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java% %(*
+%4"[progettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;Ljava/util/List;)V*31
+/progettoispw.letmeknow.controller.chat.Messages*
+""*
+
+usersjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)*
+3
+1*Í
+5ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java! !(,Õ 
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java! !(*
+%0java.util.ArrayList"java.util.ArrayListﬂ
+‹
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java! !(,
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayListŸ
+÷
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java! !(-
+usersjava.util.List"__id*
+
+%0java.util.ArrayList¥±
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java" "((
+%2"Lprogettoispw.letmeknow.controller.chat.Messages#getAllChat()Ljava/util/List;*31
+/progettoispw.letmeknow.controller.chat.Messages2getAllChat()*
+3
+1*Ä
+1ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java' '(¸
+˘
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java' '(
+%5java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.chat.Messages"
+userid©¶
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java' '(
+%6boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+usersjava.util.List*
+
+%5java.lang.String2remove(Ljava/lang/Object;)"µ
+ó
+åC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Messages.java( ((
+
+usersjava.util.ListB31
+/progettoispw.letmeknow.controller.chat.Messages

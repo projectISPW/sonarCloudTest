@@ -1,1 +1,1 @@
-˜ 2javaX?hrRprogettoRieditatosecondo/src/main/java/progettoispw/letmeknow/MainApplication.java
+˜ 2javaX*hrvletmeknowTesting/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java

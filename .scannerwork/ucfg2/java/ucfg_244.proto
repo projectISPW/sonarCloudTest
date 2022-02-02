@@ -1,17 +1,9 @@
 
-Pprogettoispw.letmeknow.controller.user.EmailInfo#getPassword()Ljava/lang/String;‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java- -("1*—
-1‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java. .(ê
-ç
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java. .(
-%0java.lang.String"__id*B*@2
-0progettoispw.letmeknow.controller.user.EmailInfo"
-
-password"Ÿ
-‚
-xC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java. .(
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.user.EmailInfo
+Fprogettoispw.letmeknow.bean.HomepageBean#getData()[Ljava/lang/Integer;®
+£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java   ("1*ð
+1®
+£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java! !("¹
+®
+£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java! !($
+""B,*
+(progettoispw.letmeknow.bean.HomepageBean

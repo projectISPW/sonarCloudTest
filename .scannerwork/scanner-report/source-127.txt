@@ -1,67 +1,53 @@
-package progettoispw.letmeknow.controller.chat;
+package progettoispw.letmeknow.bean;
+import progettoispw.letmeknow.controller.HomepageEditController;
 
-import progettoispw.letmeknow.controller.ConnectionDBMS;
+import java.util.Calendar;
+import java.util.stream.IntStream;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
-
-public class MessageDAO {
-    ConnectionDBMS connDB;
-    Query query;
-    public static final String TEXT="text";
-    public static final String SENDER="sender";
-    public static final String RECIVER="reciver";
-    public static final String DATETIME="datetime";
-    public MessageDAO() {
-        connDB= new ConnectionDBMS();
-        query= new Query();
+public class HomepageEditBean {
+    private HomepageEditController controller;
+    public HomepageEditBean() {
+        controller=new HomepageEditController();
     }
-    private void scanner(ResultSet rst, Statement stmt, ArrayList<Message>list) {
-        try{
-            while(rst.next()){
-                Message message=new Message();
-                message.setText(rst.getString(TEXT));
-                message.setSender(rst.getString(SENDER));
-                message.setReciver(rst.getString(RECIVER));
-                message.setDate(rst.getString(DATETIME));
-                list.add(message);
+    public String getUserid() {
+        return controller.getUserID();
+    }
+    public boolean setDescription(String input){
+        if(!input.equals("")){
+            if(input.toCharArray()[0]=='#'){
+                return controller.setDes(input);
             }
-        }catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }finally{
-            connDB.closeRSTSTMT(rst,stmt);
+            return false;
         }
+        return true;
     }
-    public List<Message> getRecivedSentMessage(String userid) {
-        Statement stmt = null;
-        ResultSet rst;
-        stmt= connDB.connection(stmt);
-        ArrayList<Message> ret = new ArrayList<>();
-        rst = query.selectUserRSALL(stmt, userid);
-        scanner(rst,stmt,ret);
-        return ret;
-    }
-    public List<Message> getRecivedSentMessage(String userid1,String userid2){
-        Statement stmt = null;
-        ResultSet rst;
-        stmt= connDB.connection(stmt);
-        ArrayList<Message> ret = new ArrayList<>();
-        rst = query.selectUserRS(stmt, userid1,userid2);
-        scanner(rst,stmt,ret);
-        return ret;
-    }
-    public boolean newMessage(String from,String to,String text) {
-        Statement stmt=null;
-        try {
-            stmt=connDB.connection(stmt);
-            String replace= "\\"+"\"";
-            text=text.replace("\"",replace);
-            return query.newMSG(stmt,from,to,text);
-        } finally{
-            connDB.closeSTMT(stmt);
+    public boolean setTag(String input){
+        if(!input.equals("")){
+            if(input.toCharArray()[0]=='#'){
+                return controller.setTag(input);
+            }
+            return false;
         }
+        return true;
     }
+    public boolean setGoal(String input){
+        if(!input.equals("")){
+           return controller.setGoal(input);
+        }
+        return true;
+    }
+    public boolean setDate(String input){
+        if(!input.equals("") ){
+            int count=0;
+            for(char elem:input.toCharArray())if(elem=='-')++count;
+
+            if(count!=2){
+                return false;
+            }
+            return controller.setDate(input);
+        }
+        return true;
+    }
+
+
 }

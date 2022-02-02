@@ -1,0 +1,68 @@
+
+‡progettoispw.letmeknow.controller.chat.Query#selectUserRS(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ($"5*Ð
+3”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*"³
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*
+
+%4java.sql.ResultSet*Ð
+4”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (SÓ
+Ð
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (S
+sqljava.lang.String"__id*
+
+%3java.lang.StringØÕ
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ()
+%4java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+3*º
+
+5”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (à
+Ý
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java% (C
+%0java.lang.String"__concat*
+	 SELECT **
+ FROM messages ˆ
+…
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java% (B
+%1java.lang.String"__concat*
+
+%0java.lang.String*0.
+,where (reciver = '%s' and sender = '%s') or ÿ
+ü
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java% (9
+%2java.lang.String"__concat*
+
+%1java.lang.String*'%
+#(reciver = '%s' and sender = '%s');¨
+¥
+”
+‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (R
+%3java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%2java.lang.String*
+
+user1java.lang.String*
+
+user2java.lang.String*
+
+user2java.lang.String*
+
+user1java.lang.String*
+4:
+stmtjava.sql.Statement:
+user1java.lang.String:
+user2java.lang.StringB0.
+,progettoispw.letmeknow.controller.chat.Query

@@ -1,0 +1,41 @@
+
+lprogettoispw.letmeknow.controller.user.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Zv
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java9 9("5*þ
+3v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java= =("€
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java= =(
+""*Õ
+4w
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(‰µ
+²
+w
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(‰
+sqljava.lang.String"__id*
+
+%0java.lang.String™–
+v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java< <(#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*“
+5v
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(
+
+w
+lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/Query.java; ;(ˆ
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*ZX
+V INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);*
+
+fromjava.lang.String*
+
+whatjava.lang.String*
+4:
+stmtjava.sql.Statement:
+fromjava.lang.String:
+whatjava.lang.StringB0.
+,progettoispw.letmeknow.controller.user.Query

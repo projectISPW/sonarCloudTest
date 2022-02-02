@@ -1,0 +1,1 @@
+§ 2xmlXhrGMainApplication.java/progettoRieditatosecondo/.idea/jarRepositories.xml

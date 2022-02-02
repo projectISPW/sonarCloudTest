@@ -1,0 +1,49 @@
+
+Mprogettoispw.letmeknow.controller.user.UserDAO#checkMail(Ljava/lang/String;)Z–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java> >("8*À
+4–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D("¡
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D(
+""*Ø
+5–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC C(3Å
+Â
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC C(3
+rstjava.sql.ResultSet"__id*
+""ìé
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D(
+%1boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+4*¯
+6–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaB B((Æ
+Ã
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaB B((
+stmtjava.sql.Statement"__id*
+""Â
+¿
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC' C(,
+%0java.lang.String"__id*
+""*
+5*²
+8–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java? ?(Æ
+Ã
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java? ?(
+stmtjava.sql.Statement"__id*
+""Å
+Â
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java@ @(
+rstjava.sql.ResultSet"__id*
+""*
+6:
+inputjava.lang.StringB20
+.progettoispw.letmeknow.controller.user.UserDAO

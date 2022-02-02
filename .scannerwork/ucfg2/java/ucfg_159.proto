@@ -1,16 +1,9 @@
 
-Oprogettoispw.letmeknow.controller.user.InitialUser#setFeed(Ljava/lang/String;)ZÜ
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaç ç("1*ë
-1Ü
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaé é(Ó
-Î
-Ü
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaé é(#
-%0java.lang.String"__id*B*@4
-2progettoispw.letmeknow.controller.user.InitialUser"
-userid"ë
-Ü
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaé é(*
-"":
-feedjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+@progettoispw.letmeknow.controller.form.ResultForm#getComplete()I{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaE E("1*à
+1{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaF F("Ö
+{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaF F(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm

@@ -1,1 +1,1 @@
-¥ 2xmlXhr`progettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/emailMeta/EmailParameters.xml
+¥ 2javaX.hrjletmeknowTesting/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java

@@ -1,9 +1,10 @@
-<component name="libraryTable">
-  <library name="activation-1.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/activation-1.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunConfigurationProducerService">
+    <option name="ignoredProducers">
+      <set>
+        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+      </set>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+
+Kprogettoispw.letmeknow.controller.Form#getCounterFrom(Ljava/lang/String;I)Il
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java! !("1*“
+1l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java"! "('Õ
+Ò
+l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java# #('
+%0java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*"
+java.time.LocalDate±
+®
+l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java# #((
+datejava.time.LocalDate"__id*
+
+%0java.time.LocalDateÒÏ
+l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java$ $(.	
+%1int"$java.time.LocalDate#getMonthValue()I*
+
+datejava.time.LocalDate2getMonthValue()ÆÃ
+l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java$0 $(>	
+%2int"java.time.LocalDate#getYear()I*
+
+datejava.time.LocalDate2	getYear()"v
+l
+bC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/controller/Form.java% %('
+"":
+useridjava.lang.String:
+""B*(
+&progettoispw.letmeknow.controller.Form

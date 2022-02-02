@@ -1,46 +1,70 @@
 
-gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setCalculated(Ljava/lang/String;Ljava/util/List;)Zà
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaï ï(!"10*§
-2à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaõ õ("ì
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaõ õ(
-""*¨
-3à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaö ö(µ
-≤
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaö ö(
-idjava.lang.Integer"__id*
-""€
-ÿ
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaö ö(
-idjava.lang.Integer"
-__arrayGet*
-
-
-calculatedjava.util.List*
+|progettoispw.letmeknow.controller.usruser.UsrUserDAO#setParams(Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;I)ZÄ
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaã ã("10*î
+2Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaê ê(9"ã
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaê ê(9
+""*æ
+3Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è((∞
+≠
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è((
+stmtjava.sql.Statement"__id*
+""*
+2*·
+6Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é(T–
+Õ
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é(T
+%3"
+__arraySet*!
+
+oldParamjava.lang.Integer[]*
+""*
+	
+%2int*
+3
+7*ﬁ
+7Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é((÷
+”
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé4 é(?
+%0java.lang.Integer"
+__arrayGet*!
+
+oldParamjava.lang.Integer[]*
+""÷
+”
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé@ é(K
+%1java.lang.Integer"
+__arrayGet*!
+
+newParamjava.lang.Integer[]*
+""û
+õ
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé, é(T	
+%2int"Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)I*86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO*
+""*
+""*
+6*¬
+10Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaå å(∞
+≠
+Ä
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaå å(
+stmtjava.sql.Statement"__id*
 ""*
-2
-3*Œ
-8à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaô ô((∏
-µ
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaô ô((
-stmtjava.sql.Statement"__id*
-""*
-3*œ
-10à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javañ ñ(∏
-µ
-à
-|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javañ ñ(
-stmtjava.sql.Statement"__id*
-""*
-8:
-useridjava.lang.String:
-
-calculatedjava.util.ListB86
+3
+7:
+useridjava.lang.String:
+oldParamjava.lang.Integer[]:
+newParamjava.lang.Integer[]:
+""B86
 4progettoispw.letmeknow.controller.usruser.UsrUserDAO

@@ -1,25 +1,14 @@
 
-Cprogettoispw.letmeknow.bean.HomepageBean#getTag()Ljava/lang/String;™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*´
-1™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*Æ
-Ã
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ('
-tagjava.lang.String"__id*
-""Æ
-Ã
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (*
-tagjava.lang.String"__id*
-""Æ
-Ã
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
-tagjava.lang.String"__id*
-"""·
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
-
-tagjava.lang.StringB,*
-(progettoispw.letmeknow.bean.HomepageBean
+}progettoispw.letmeknow.bean.SignupBean#signupUSR(Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Zª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java' '("1*è
+1ª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( (("µ
+ª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( ((L
+"":
+passwordjava.lang.String:
+emailjava.lang.String:
+"":
+descriptionjava.lang.String:
+goaljava.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

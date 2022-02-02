@@ -1,1 +1,1 @@
-’ 2javaXEhr^progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Goal.java
+’ 2javaXhrhletmeknowTesting/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java

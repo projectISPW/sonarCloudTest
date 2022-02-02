@@ -1,9 +1,16 @@
 
-Gprogettoispw.letmeknow.bean.HomepageBean#getParam()[Ljava/lang/Integer;™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*Æ
-1™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("¤
-™
-ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (%
-""B,*
-(progettoispw.letmeknow.bean.HomepageBean
+Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Zª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (#"1*®
+1ª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (ÃÀ
+ª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ((
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*!
+
+descriptionjava.lang.String*
+#2"contains(Ljava/lang/CharSequence;)"µ
+ª
+ŸC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ()
+"":
+descriptionjava.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

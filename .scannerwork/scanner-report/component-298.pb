@@ -1,1 +1,1 @@
-ª 2javaX6hr~progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/HomepageEditBean.java
+ª 2xmlX	hrLMainApplication.java/progettoRieditatosecondo/.idea/libraries/javax_mail.xml

@@ -1,16 +1,16 @@
 
-Qprogettoispw.letmeknow.controller.chat.Message#getDate()Ljava/time/LocalDateTime;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java# #( "1*™
-1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java$ $(é
-æ
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java$ $(
-%0java.time.LocalDateTime"__id*<*:0
-.progettoispw.letmeknow.controller.chat.Message"
-date"¤
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Message.java$ $(
-
-%0java.time.LocalDateTimeB20
-.progettoispw.letmeknow.controller.chat.Message
+]progettoispw.letmeknow.controller.ChatController#newMSG(Ljava/lang/String;)Ljava/lang/String;•
+ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java ("1*º
+1•
+ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java (ù
+ö
+•
+ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java' (+
+%0java.lang.String"__id*>*<2
+0progettoispw.letmeknow.controller.ChatController"
+with" 
+•
+ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java (-
+"":
+textjava.lang.StringB42
+0progettoispw.letmeknow.controller.ChatController

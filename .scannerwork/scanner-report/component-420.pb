@@ -1,1 +1,1 @@
-¤ 2xmlXhr\progettoRieditatosecondo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml
+¤ 2javaXIhrsMainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java

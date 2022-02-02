@@ -1,37 +1,9 @@
 
-Sprogettoispw.letmeknow.controller.user.InitialUser#setPassword(Ljava/lang/String;)Z„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n("3*î
-2„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javap p(ë
-è
-„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javap p($
-%1java.lang.String"__id*A*?4
-2progettoispw.letmeknow.controller.user.InitialUser"
-emailáÞ
-„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javap p(%
-%2boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;)Z*64
-2progettoispw.letmeknow.controller.user.InitialUser*
-
-%1java.lang.String2composeMail(Ljava/lang/String;)"
-„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javap p(&
-""*
-3„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javao o(ì
-é
-„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javao o("
-%0java.lang.String"__id*B*@4
-2progettoispw.letmeknow.controller.user.InitialUser"
-userid*
-2
-1*œ
-1„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javar r("
-„
-zC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javar r(
-"":
-inputjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+>progettoispw.letmeknow.controller.form.ResultForm#getFormid()I{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java. .("1*ˆ
+1{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java/ /("…
+{
+qC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java/ /(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm

@@ -1,0 +1,1 @@
+¿ 2xmlX	hr{MainApplication.java/progettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml

@@ -1,28 +1,16 @@
 
-\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaj j("1*³
-1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(°
-­
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(
-stmtjava.sql.Statement"__id*
-""¶
-³
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javam m('
-%0int[]"Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I*20
-.progettoispw.letmeknow.controller.form.FormDAO*
-
-useridjava.lang.String°
-­
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javan n($
-stmtjava.sql.Statement"__id*
-"""‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaq q(
-"":
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO
+Mprogettoispw.letmeknow.controller.form.ResultForm#getDate()Ljava/lang/String;™
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaK K("1*Ù
+1™
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(þ
+û
+™
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(
+%0java.lang.String"__id*?*=3
+1progettoispw.letmeknow.controller.form.ResultForm"
+date"¶
+™
+ŽC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaL L(
+
+%0java.lang.StringB53
+1progettoispw.letmeknow.controller.form.ResultForm

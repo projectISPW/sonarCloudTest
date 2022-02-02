@@ -1,16 +1,9 @@
 
-Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Z•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (#"1*ï
-1•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (®«
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ((
-%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*!
-
-descriptionjava.lang.String*
-#2"contains(Ljava/lang/CharSequence;)" 
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ()
-"":
-descriptionjava.lang.StringB*(
-&progettoispw.letmeknow.bean.SignupBean
+Vprogettoispw.letmeknow.controller.HomepageEditController#getUserID()Ljava/lang/String;Â
+·C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("1*˜
+1Â
+·C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("Í
+Â
+·C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ( 
+""B<:
+8progettoispw.letmeknow.controller.HomepageEditController

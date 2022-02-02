@@ -1,1 +1,1 @@
-· 2javaX.hr}progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java
+· 2xmlXhrqMainApplication.java/progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml

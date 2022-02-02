@@ -1,1 +1,1 @@
-ê 2javaXDhr\progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java
+ê 2javaX3hrbletmeknowTesting/src/main/usecase/java/controllerView/progettoispw/letmeknow/ButtonBarInterf2.java

@@ -1,41 +1,45 @@
-package progettoispw.letmeknow.controller.search;
+package progettoispw.letmeknow.bean;
 
-public class Sliders {
-    private  Integer emp;
-    private  Integer pos;
-    private Integer hum;
-    private  Integer[] coll=new Integer[3];
-    private Integer affinity;
-    public Sliders (Integer val ){
-        affinity=val;
-    }
-    public int check(Integer val ){
-        if(val<=0)return 1;
-        return val;
-    }
-    public void setHum(Integer val){
-        hum=val-affinity;
-        coll[1]=check(hum);
-    }
-    public void setPos(Integer val){
-        pos=val-affinity;
-        coll[2]=check(pos);
-    }
-    public void setEmp(Integer val){
-        emp=val-affinity;
-        coll[0]=check(emp);
-    }
-    public Integer getEmp(){
-        return emp;
-    }
-    public Integer getHum(){
-        return hum;
-    }
-    public Integer getPos(){
-        return pos;
-    }
-    public Integer [] getAll(){
-        return coll;
-    }
+import progettoispw.letmeknow.controller.ISCController;
 
+import java.util.ArrayList;
+
+public class ISCBean {
+    private int nval;
+    private ISCController controller;
+    public ISCBean (int val){
+        nval=val;
+        controller=new ISCController(nval);
+    }
+    public ISCBean (){
+        nval=0;
+        controller=new ISCController();
+    }
+    public String getUserid(){
+        return controller.getUid();
+    }
+    public String[][] exitUid(){
+        int index;
+        ArrayList<LastMessage>  actual= (ArrayList<LastMessage>) controller.queryUsers();
+        String [][] arrStr;
+        if(nval!=0) arrStr=new String[2][nval];
+        else arrStr=new String[2][actual.size()];
+        for(LastMessage usr : actual){
+            index =actual.indexOf(usr);
+            arrStr[0][index]=usr.getUserid();
+            arrStr[1][index]= usr.getLastmsg();
+        }
+        return arrStr;
+    }
+    public void touched(String user){
+        controller.who(user);
+    }
+    public void search(String find){
+        if(!find.equals("")) {
+            controller.search(find);
+        }
+    }
+    public void reset(){
+        controller.reset();
+    }
 }

@@ -1,2 +1,2 @@
 
- 2xmlXhr2progettoRieditatosecondo/.idea/jarRepositories.xml
+ 2xmlXhrletmeknowTesting/.idea/misc.xml

@@ -1,1 +1,1 @@
-ù 2javaXQhrUprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+ù 2javaXhrjletmeknowTesting/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/SearchBean.java

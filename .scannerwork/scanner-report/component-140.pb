@@ -1,1 +1,1 @@
-Œ 2javaX*hr`progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java
+Œ 2javaX.hruletmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

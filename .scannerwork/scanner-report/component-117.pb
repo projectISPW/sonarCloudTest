@@ -1,1 +1,1 @@
-u 2xmlXhr2progettoRieditatosecondo/.idea/sonarlint-state.xml
+u 2javaXJhrrletmeknowTesting/src/main/usecase/homepage/controllerView/progettoispw/letmeknow/AdviseBoarcControllerInterf2.java

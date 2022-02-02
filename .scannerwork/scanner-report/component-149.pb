@@ -1,1 +1,1 @@
-• 2javaXNhraprogettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java
+• 2javaXhrtletmeknowTesting/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java

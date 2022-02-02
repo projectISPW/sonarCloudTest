@@ -1,36 +1,38 @@
 
-…progettoispw.letmeknow.controller.user.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (""1*’	
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (ê
-ç
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*,*
-( SELECT * FROM utenti  WHERE %s = '%s' ;*
-
-whatjava.lang.String*
-
-inputjava.lang.String¼
-¹
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (X
+_progettoispw.letmeknow.controller.search.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;)Z–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ("4*À
+2–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java ("¡
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (
+""*¶
+3–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (`Õ
+Ò
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (`
 sqljava.lang.String"__id*
 
-%0java.lang.StringÁ¾
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+%0java.lang.Stringº·
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"œ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-whatjava.lang.String:
-inputjava.lang.StringB0.
-,progettoispw.letmeknow.controller.user.Query
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+2*”
+4–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (ð
+í
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java (_
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*42
+0INSERT INTO `recently_visited` SET userid ='%s' *
+
+useridjava.lang.String*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.StringB20
+.progettoispw.letmeknow.controller.search.Query

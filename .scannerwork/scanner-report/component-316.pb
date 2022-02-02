@@ -1,1 +1,2 @@
-¼ 2javaXXhrcprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java
+¼ 2xmlX
+hrIMainApplication.java/progettoRieditatosecondo/.idea/runConfigurations.xml

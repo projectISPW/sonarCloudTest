@@ -1,1 +1,1 @@
-£ 2xmlX	hrfprogettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+£ 2javaXkhroletmeknowTesting/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf1.java

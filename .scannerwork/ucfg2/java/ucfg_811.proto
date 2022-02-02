@@ -1,0 +1,100 @@
+
+Sprogettoispw.letmeknow.controller.ConnectionInfo#getConnectionInfo()Ljava/util/Map;Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java6 6(/"1*†
+1Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java8 8(ç
+ä
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java8 8(
+
+%0void"?progettoispw.letmeknow.controller.ConnectionInfo#getElements()V*4"2
+0progettoispw.letmeknow.controller.ConnectionInfo∂≥
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java9- 9(6
+%1java.util.HashMap"java.util.HashMap»
+≈
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java9) 9(8
+%2"java.util.HashMap#<init>()V*
+
+%1java.util.HashMap»
+≈
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java9 9(9
+
+parametersjava.util.Map"__id*
+
+%1java.util.HashMapË
+Â
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java;# ;('
+%3java.lang.String"__id*>*<2
+0progettoispw.letmeknow.controller.ConnectionInfo"
+userÛ
+
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java; ;((
+%4java.lang.String"__mapSet*
+
+
+parametersjava.util.Map*
+
+username*
+
+%3java.lang.StringË
+Â
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java<# <('
+%5java.lang.String"__id*>*<2
+0progettoispw.letmeknow.controller.ConnectionInfo"
+passÛ
+
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java< <((
+%6java.lang.String"__mapSet*
+
+
+parametersjava.util.Map*
+
+password*
+
+%5java.lang.StringÈ
+Ê
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java= =(#
+%7java.lang.String"__id*?*=2
+0progettoispw.letmeknow.controller.ConnectionInfo"
+dbUrlÓ
+Î
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java= =($
+%8java.lang.String"__mapSet*
+
+
+parametersjava.util.Map*
+url*
+
+%7java.lang.StringÛ
+
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java>% >(4
+%9java.lang.String"__id*I*G2
+0progettoispw.letmeknow.controller.ConnectionInfo"
+driverClassNameˆ
+Û
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java> >(5
+%10java.lang.String"__mapSet*
+
+
+parametersjava.util.Map*
+
+driverName*
+
+%9java.lang.String"¶
+Ñ
+zC:/sonar/sonarCloudTest/letmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java@ @(
+
+
+parametersjava.util.MapB42
+0progettoispw.letmeknow.controller.ConnectionInfo

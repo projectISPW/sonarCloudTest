@@ -1,38 +1,46 @@
 
-hprogettoispw.letmeknow.controller.psyuser.Query#selectResult(Ljava/sql/Statement;II)Ljava/sql/ResultSet;
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java ($"1*‘	
-1
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java	 	(Ù
-Ö
-
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java	 	(k
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*@>
-< SELECT * FROM forms WHERE YEAR(`by`)=%d AND MONTH(`by`)=%d *
-""*
-""À
-½
-
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java	 	(l
-sqljava.lang.String"__id*
-
-%0java.lang.StringÅÂ
-
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java
- 
-(%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)" 
-
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java
- 
-(&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-"":
-""B31
-/progettoispw.letmeknow.controller.psyuser.Query
+gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setCalculated(Ljava/lang/String;Ljava/util/List;)Z€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java• •(!"10*”
+2€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java› ›("‹
+€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java› ›(
+""*”
+3€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(­
+ª
+€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(
+idjava.lang.Integer"__id*
+""Ó
+Ð
+€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(
+idjava.lang.Integer"
+__arrayGet*
+
+
+calculatedjava.util.List*
+""*
+2
+3*¾
+8€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java™ ™((°
+­
+€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java™ ™((
+stmtjava.sql.Statement"__id*
+""*
+3*¿
+10€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java– –(°
+­
+€
+tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java– –(
+stmtjava.sql.Statement"__id*
+""*
+8:
+useridjava.lang.String:
+
+calculatedjava.util.ListB86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO

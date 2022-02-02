@@ -1,1 +1,1 @@
-ù 2javaX7hryprogettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf2.java
+ù 2xmlX	hrZletmeknowTesting/target/classes/progettoispw.letmeknow/connection/ConnectionParameters.xml

@@ -1,24 +1,13 @@
-package progettoispw.letmeknow.bean;
-
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.chat.Message;
-
-public class LastMessage {
-    private String userid;
-    private String lastmsg;
-    private WordCheck check;
-    private int lenMax=40;
-    public LastMessage(String elem, Message message){
-        userid=elem;
-        check=new WordCheck();
-        lastmsg=message.getText();
-
-    }
-    public String getUserid() {
-        return userid;
-    }
-    public String getLastmsg() {
-        lastmsg=check.checkLen(lastmsg,lenMax);
-        return lastmsg;
-    }
-}
+<component name="libraryTable">
+  <library name="Maven: org.opentest4j:opentest4j:1.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

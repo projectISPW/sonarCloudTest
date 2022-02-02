@@ -1,68 +1,15 @@
 
-@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("7*ç
-3ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (Î
-Ë
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
-%4"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-i am the receiver*
-5
-1*ã
-4ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (6È
-Ê
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (Q
-%3"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-i am the sender*
-5
-1*Í
-5ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (‹
-Ÿ
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (-
-%1"
-__arraySet*!
-
-	returnStrjava.lang.String[]*
-""*
-""È
-Ê
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java' (+
-%2java.lang.String"__id*2*0&
-$progettoispw.letmeknow.bean.ChatBean"
-with*
-3
-4*ƒ
-7ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java( (,≈¬
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (6
-%0java.lang.String[]"java.lang.String[]⁄
-◊
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
-	returnStrjava.lang.String[]"__id*
-
-%0java.lang.String[]*
-5
-1*—
-1ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("∑
-ë
-ÜC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (!
-
-	returnStrjava.lang.String[]B(&
-$progettoispw.letmeknow.bean.ChatBean
+Iprogettoispw.letmeknow.bean.InnerUsers#getDescription()Ljava/lang/String;∞
+•C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ( "1*à
+1∞
+•C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (ë
+é
+∞
+•C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ()
+%0java.lang.String"__id*;*9(
+&progettoispw.letmeknow.bean.InnerUsers"
+description"ª
+∞
+•C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (2
+""B*(
+&progettoispw.letmeknow.bean.InnerUsers

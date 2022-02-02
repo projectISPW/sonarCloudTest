@@ -1,0 +1,29 @@
+
+†progettoispw.letmeknow.controller.user.UserDAO#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaL L("5*À
+2–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaP P(?"¡
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaP P(?
+""*ê
+3–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaO O((Æ
+Ã
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaO O((
+stmtjava.sql.Statement"__id*
+""*
+2*ê
+5–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaM M(Æ
+Ã
+–
+‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaM M(
+stmtjava.sql.Statement"__id*
+""*
+3:
+uidjava.lang.String:
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB20
+.progettoispw.letmeknow.controller.user.UserDAO

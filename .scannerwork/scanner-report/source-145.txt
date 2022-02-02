@@ -1,146 +1,88 @@
-package progettoispw.letmeknow.controller.user;
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.controller.ConnectionDBMS;
-
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
-
-public class UserDAO {
-    ConnectionDBMS connDB;
-    Query query;
-    public static final String UID ="userid";
-    public static final String TYPE="type";
-    public static final String PASSWORD="password";
-    public static final String EMAIL="email";
-    public UserDAO() {
-        connDB= new ConnectionDBMS();
-        query=new Query();
+public class WordCheck {
+    private  int goAhead;
+    private int delta;
+    public WordCheck(int deltaInput, int goAheadInput){
+        delta=deltaInput;
+        goAhead=goAheadInput;
     }
-    public String [] selectUser(String uid){
-        Statement stmt=null;
-        ResultSet rst=null;
-        String [] ret=new String [4];
-        try {
-            stmt=connDB.connection(stmt);
-            rst=query.selectUser(stmt,uid);
-            while(rst.next()) {
-                ret[0]=rst.getString(UID);
-                ret[1]=rst.getString(PASSWORD);
-                ret[2]=rst.getString(TYPE);
-                ret[3]=rst.getString(EMAIL);
+    public WordCheck(){
+        delta=goAhead=-1;
+    }
+    public  String check(String inputText) {
+        if(inputText==null)return null;
+        String add;
+        String before;
+        int count=goAhead-delta;
+        System.err.println(inputText);
+        for (int k = goAhead-delta; k < inputText.length(); k = k+1) {
+            if(inputText.toCharArray()[k]=='\n'){
+                count=0;
+                System.out.println("i find go ahead");
             }
-            return ret;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return new String[4];
-        }finally{
-            connDB.closeRSTSTMT(rst,stmt);
-        }
-    }
-    public boolean setPswd(String userid,String input){
-        Statement stmt=null;
-        try {
-            stmt=connDB.connection(stmt);
-            return query.setDB(stmt,userid,PASSWORD,input);
-        }finally{
-            connDB.closeSTMT(stmt);
-        }
-
-    }
-    public boolean setEmail(String userid,String input){
-        Statement stmt=null;
-        try {
-            stmt=connDB.connection(stmt);
-            return query.setDB(stmt,userid,EMAIL,input);
-        }finally{
-            connDB.closeSTMT(stmt);
-        }
-    }
-    public boolean checkMail(String input){
-        Statement stmt=null;
-        ResultSet rst=null;
-        try {
-            stmt=connDB.connection(stmt);
-            rst= query.selectUser(stmt,EMAIL,input);
-            return rst.next();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            return false;
-        } finally{
-            connDB.closeRSTSTMT(rst,stmt);
-        }
-    }
-    public boolean registration(String uid,String password, String type, String email) {
-        Statement stmt=null;
-        try {
-            stmt=connDB.connection(stmt);
-            return query.newLine(stmt,uid,password,type,email);
-        } finally{
-            connDB.closeRSTSTMT(null,stmt);
-        }
-    }
-    public boolean registration(String uid,String password, String type ,int[] val,String description,String email,String goal ){
-        Statement stmt=null;
-        try {
-            String []log=new String[4];
-            log[0]=uid;
-            log[1]=password;
-            log[2]=type;
-            log[3]=email;
-            stmt=connDB.connection(stmt);
-            return  query.newLine(stmt,log,val,description,goal);
-        } finally{
-            connDB.closeSTMT(stmt);
-        }
-    }
-    public boolean feed(String userid,String input){
-            Statement stmt=null;
-            try {
-                stmt=connDB.connection(stmt);
-                return query.feed(stmt,userid,input);
-            } finally{
-                connDB.closeSTMT(stmt);
+            if (count==goAhead){
+                add = inputText.substring(k);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count =0;
+                System.out.println("i have to go ahead");
+            } else if(((count)>(goAhead-delta)) && inputText.toCharArray()[k]== 32){
+                add = inputText.substring(k+1);
+                before = inputText.substring(0, k);
+                inputText = before + "\n" + add;
+                count=0;
+                System.out.println("i can go ahead");
+            }else{
+                count++;
             }
-
         }
-    public List<String> getUID() {
-        Statement stmt=null;
-        ResultSet rst=null;
-        try {
-            stmt=connDB.connection(stmt);
-            ArrayList<String> uid = new ArrayList<>();
-            rst = query.queryUid(stmt);
-            while (rst.next()) {
-                uid.add(rst.getString(UID));
+        System.err.println(inputText);
+        return  inputText;
+    }
+    public String replace(String inputText, char old,String immetti){
+        if(inputText==null)return null;
+        String add;
+        String before;
+        int start=inputText.indexOf('#');
+        int k=0;
+        for(char c : inputText.toCharArray()){
+            if(c=='#' && k!=start)
+            {
+                    add = inputText.substring(k);
+                    before = inputText.substring(0, k);
+                    inputText = before + immetti + add;
+                    ++k;
+
+            }++k;
+        }
+        return inputText;
+    }
+    public Integer goAheadCounter(String inputText){
+        Integer contAhead=1;
+        for(char c : inputText.toCharArray()){
+            if(c=='\n'){
+                contAhead++;
             }
-            return uid;
-        } catch (SQLException e) {
-            return new ArrayList<>();
-        }finally{
-            connDB.closeRSTSTMT(rst,stmt);
+        }
+        return contAhead;
+    }
+    public int highText(String text) {
+        int linee= goAheadCounter(text);
+        if(linee>4){
+            return linee* 21;
+        }
+        return 60;
+    }
+    public  String checkLen(String inputText,int lenMax){
+        if(inputText==null)return " ";
+        inputText=inputText.replace("\\n","");
+        inputText=inputText.replace("\\r","");
+        inputText=inputText.replace("\n","");
+        if(inputText.length()<lenMax)return inputText;
+        else {
+            return inputText.substring(0,lenMax)+"...";
         }
     }
-    public String[] recover (String email){
-        Statement stmt=null;
-        ResultSet rst=null;
-        String [] ret=new String[2];
-        try{
-            stmt=connDB.connection(stmt);
-            rst=query.selectUser(stmt,EMAIL,email);
-            while(rst.next()){
-                ret [0]=rst.getString(UID);
-                ret [1]=rst.getString(PASSWORD);
-                break;
-            }
-            return ret;
-        } catch (Exception throwables) {
-            return new String[2];
-        }finally{
-            connDB.closeSTMT(stmt);
-        }
-    }
-
 }
+//abcdefghilmnopqrstuvz123456789

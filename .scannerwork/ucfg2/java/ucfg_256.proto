@@ -1,9 +1,10 @@
 
-Aprogettoispw.letmeknow.bean.ISCBean#getUserid()Ljava/lang/String; 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("1*Ô
-1 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java ("«
- 
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java (#
-""B'%
-#progettoispw.letmeknow.bean.ISCBean
+Rprogettoispw.letmeknow.controller.user.InitialUser#checkEmail(Ljava/lang/String;)Z|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java# #("1*Š
+1|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java$ $(+"†
+|
+rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java% %(.
+"":
+inputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

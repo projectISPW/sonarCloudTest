@@ -1,144 +1,139 @@
-package progettoispw.letmeknow.controller.user;
+package progettoispw.letmeknow.controller;
 
+import progettoispw.letmeknow.bean.LastMessage;
+import progettoispw.letmeknow.controller.chat.Message;
+import progettoispw.letmeknow.controller.chat.Messages;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+public class ISCController {
+    private Integer count;
+    private Integer nVal;
+    private Messages chat;
+    private String find;
+    public ISCController(Integer n){
+        ControllerClass.controllerChat();
+        ControllerClass.setSearch();
+        chat= ControllerClass.getChat();
+        nVal=n;
+        count=0;
+        find=null;
+    }
+    public ISCController(){
+        ControllerClass.controllerChat();
+        if(ControllerClass.getSearch()==null)ControllerClass.setSearch();
+        chat= ControllerClass.getChat();
+        nVal=0;
+        count=0;
+        find=null;
+    }
+    public String getUid(){
+        return chat.getUserid();
+    }
+    public String check(Message msg){
+        if(msg.getReciver().equals(getUid()))return msg.getSender();
+        return msg.getReciver();
+    }
+    private List<LastMessage> getListV1( ){
+        //lista utenti con ultimo messaggio per la interfaccia 2
+        ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+        if(lmsgs.isEmpty())return new ArrayList<>();
+        LastMessage actual;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        for (Message msg:lmsgs) {
+            actual = new LastMessage(check(msg),msg);
+            formatted.add(actual);
+        }
+        return formatted;
+    }
+    private List<LastMessage> getListV2(String find){
+        //ricerca messaggi sulla lista utenti 2
+        List <Message>msgs= chat.getLocalSearch(find);
+        if(msgs.isEmpty())return new ArrayList<>();
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        LastMessage actual;
+        for (Message msg : msgs) {
+            actual = new LastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+            formatted.add(actual);
+        }
+        return formatted;
+    }
+    private List<LastMessage>getListV3(){
+        //lista utenti con ultimo messaggio per la interfaccia 1
 
-public class InitialUser {
-    protected String userid;
-    private String password;
-    private String type;
-    private String email;
-    private UserDAO userData;
-    private Random randomno ;
-    private static final  Lock mutex = new ReentrantLock(true);
-    public InitialUser(String who)  {
-        if(who !=null && who.length()==7 ){
-        userData=new UserDAO();
-        String [] log=userData.selectUser(who);
-        if(log[0]!=null && log[1]!=null){
-            userid=log[0];
-            password=log[1];
-            type=log[2];
-            email=log[3];
+        ArrayList <Message> lmsgs=(ArrayList<Message>) chat.getLast();
+        if(lmsgs.isEmpty())return new ArrayList<>();
+        LastMessage actual;
+        Message msg;
+        ArrayList<Message>inner=new ArrayList<>();
+
+        int index=0;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        while(index<nVal){
+            count = check(count, lmsgs);
+            msg=lmsgs.get(count);
+            if(inner.contains(msg))break;
+            count++;
+            actual = new LastMessage(check(msg),msg);
+            formatted.add(actual);
+            inner.add(msg);
+            index++;
         }
+        return formatted;
+    }
+    private List<LastMessage>getListV4(String find ){
+        List <Message>msgs= chat.getLocalSearch(find);
+        if(msgs.isEmpty())return new ArrayList<>();
+        LastMessage actual;
+        ArrayList <LastMessage> formatted  = new ArrayList<>();
+        ArrayList<Message>inner=new ArrayList<>();
+        int index=0;
+        while(index++<nVal){
+            count = check(count, (ArrayList<Message>) msgs);
+            Message msg=msgs.get(count++);
+            if(inner.contains(msg))break;
+            actual = new LastMessage(msg.getSender()+"||"+msg.getReciver(), msg);
+            formatted.add(actual);
+            inner.add(msg);
         }
 
+        return formatted;
     }
-    public InitialUser(){
-        userid=password=type=null;
-        randomno = new Random();
-    }
-    public boolean  checkEmail(String input){
-        boolean bool;
-        UserDAO userDataInner=new UserDAO();
-        bool=userDataInner.checkMail(input);
-        if(bool)System.err.println("message correctly sended");
-        return bool;
-    }
-    public boolean composeMail(String to) {
-        UserDAO userDataInner=new UserDAO();
-        String []data = userDataInner.recover(to);
-        System.out.printf("uid  %s,password %s",data[0],data[1]);
-        if(data[0]!=null && data[1]!=null){
-            JavaMailUtil host=new JavaMailUtil();
-            String text="Your userid is .:     "+data[0]+"Your password is .:        "+data[1];
-            host.setText(text);
-            return host.sendMail(to);
-        }
-        return false;
-    }
-    public boolean composeMail(String uid, String password, String mail) {
-        JavaMailUtil host=new JavaMailUtil();
-        String text="Your userid is .:     "+uid+"Your password is .:        "+password;
-        host.setText(text);
-        return host.sendMail(mail);
-    }
-    private String getUid(){
-        int random;
-        int min=1000000;
-        int max=9999999;
-        String check=null;
-        boolean equal=true;
-        UserDAO userDataInner=new UserDAO();
-        mutex.lock();
-        List<String> uidList=(ArrayList<String> )userDataInner.getUID();
-        if(uidList==null)return "0000000";
-        while(equal){
-            random= (randomno.nextInt(max));
-            equal=false;
-            if(random<min-1)equal=true;
-            check=""+random;
-            if(!equal)for(String uid : uidList){
-                if(check.equals(uid)){
-                    equal=true;
-                }
+    public List<LastMessage> queryUsers(){
+
+        if(find==null){
+            if(nVal==0){
+                return getListV1();
             }
+            else{//list users in interf1
+                return getListV3();
+            }}else{
+            return queryUsers(find);
         }
-        mutex.unlock();
-        return check;
     }
-    public boolean checkUtente (String pswdInput){
-        if(password!=null){
-            return password.equals(pswdInput);
+    public List<LastMessage> queryUsers(String find){
+        if(nVal==0){
+            return getListV2(find);
         }
-        return false;
-    }
-    public String abscessType (String pswdInput) {
-        if (checkUtente(pswdInput)) {
-            if(type.equals("usr")) {
-                return "usr";
-            }
-            else if (type.equals("psy")){
-                return "psy";
-            }
-            else {
-                return null ;
-            }
+        else {//search activated in list users iterf1
+            return getListV4(find);
         }
-        return null;
     }
-    public String getType() {
-        return type;
-    }
-    public String getUserid(){
-        return userid;
-    }
-    public boolean setPassword(String input){
-        if(userData.setPswd(userid,input)){
-            return composeMail(email);
+    private Integer check(Integer count,ArrayList<Message> list) {
+        if(count>=list.size()){
+            count=0;
         }
-        return false;
+        return count;
     }
-    public boolean setEmail(String input){
-        if(userData.setEmail(userid,input)){
-            email=input;
-            if(composeMail(email)){
-                return true;
-            }
-        }
-        return false;
+    public void who(String usr){
+        chat.setTouched(usr);
     }
-    public boolean registrationUSR(String password,String email,String type,int [] val,String description,String goal)  {
-        UserDAO userDataInner=new UserDAO();
-        boolean bool;
-        String uid=getUid();
-        bool= userDataInner.registration(uid,password,type,val,description,email,goal);
-        if(bool)return composeMail(uid,password,email);
-        return bool;
+    public void search(String input){
+        count=0;
+        find=input;
     }
-    public boolean registrationPSY(String password, String email, String type) {
-        UserDAO userDataInner=new UserDAO();
-        boolean bool;
-        String uid=getUid();
-        bool= userDataInner.registration(uid,password,type,email);
-        if(bool)return composeMail(uid,password,email);
-        return false;
-    }
-    public boolean setFeed(String feed){
-        return userData.feed(userid,feed);
+    public void reset(){
+        count=0;
+        find=null;
     }
 }

@@ -1,1 +1,1 @@
- 2xmlXhr.progettoRieditatosecondo/.idea/dataSources.xml
+ 2xmlXÔhr&letmeknowTesting/.idea/dbnavigator.xml

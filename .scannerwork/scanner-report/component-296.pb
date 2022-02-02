@@ -1,0 +1,1 @@
+¨ 2xmlX	hrPMainApplication.java/progettoRieditatosecondo/.idea/libraries/activation_1_1.xml

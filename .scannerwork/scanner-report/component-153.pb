@@ -1,1 +1,1 @@
-™ 2javaXHhriprogettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java
+™ 2javaXhrpletmeknowTesting/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java

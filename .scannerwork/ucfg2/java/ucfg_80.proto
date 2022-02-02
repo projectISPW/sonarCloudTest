@@ -1,25 +1,68 @@
 
->progettoispw.letmeknow.WordCheck#highText(Ljava/lang/String;)IÖ
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaF F("3*û
-2Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaI I("ê
-Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaI I(
-""*¯
-3Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaG G(!‚ﬂ
-Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaG G('
-%0java.lang.Integer"Vprogettoispw.letmeknow.WordCheck#goAheadCounter(Ljava/lang/String;)Ljava/lang/Integer;*$"
- progettoispw.letmeknow.WordCheck*
+@progettoispw.letmeknow.bean.ChatBean#getMSG()[Ljava/lang/String;¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("7*∑
+3¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (Ä
+˝
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
+%4"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+i am the receiver*
+5
+1*µ
+4¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (6˛
+˚
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java- (Q
+%3"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+i am the sender*
+5
+1*©
+5¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (Ò
+Ó
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (-
+%1"
+__arraySet*!
+
+	returnStrjava.lang.String[]*
+""*
+""˛
+˚
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java' (+
+%2java.lang.String"__id*2*0&
+$progettoispw.letmeknow.bean.ChatBean"
+with*
+3
+4*É
+7¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java( (,⁄◊
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (6
+%0java.lang.String[]"java.lang.String[]Ô
+Ï
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (7
+	returnStrjava.lang.String[]"__id*
 
-textjava.lang.String2"goAheadCounter(Ljava/lang/String;)*
-2
-1*û
-1Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaK K("ê
-Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaK K(
-"":
-textjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+%0java.lang.String[]*
+5
+1*˚
+1¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("Ã
+¶
+õC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (!
+
+	returnStrjava.lang.String[]B(&
+$progettoispw.letmeknow.bean.ChatBean
