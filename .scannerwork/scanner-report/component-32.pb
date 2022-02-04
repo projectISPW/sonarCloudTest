@@ -1,0 +1,1 @@
+  2xmlXhrsDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_0_3.xml

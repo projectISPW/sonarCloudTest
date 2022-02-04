@@ -1,115 +1,9 @@
 
-Rprogettoispw.letmeknow.controller.search.SearchDAO#getnVisit(Ljava/lang/String;)[Iö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaR R("24*¿
-24ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS S( 
-«
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaS S(
-stmtjava.sql.Statement"__id*
-""…
-∆
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaT T(
-rstjava.sql.ResultSet"__id*
-""*
-22*»
-3ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaf f("•
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaf f(
-""*µ
-5ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javae$ e(Fç
-ä
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javae$ e(F	
-%7int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%6java.lang.String*
-3*∫
-17ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java] ](9ç
-ä
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java] ](9	
-%2int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%1java.lang.String*
-8
-12*ƒ
-6ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javae e(úô
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javae5 e(E
-%6java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*22getString(I)*
-5*∆
-18ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java] ](úô
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java]( ](8
-%1java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*22getString(I)*
-17*Á
-8ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javad d(&…
-∆
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javad d(&
-rstjava.sql.ResultSet"__id*
-""Ì
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javae e(
-%5boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-3
-6*Ì
-20ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java[ [(/…
-∆
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java[ [(/
-rstjava.sql.ResultSet"__id*
-""Ì
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.java\ \(
-%0boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-18
-8
-12*Ù
-22ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaX X(* 
-«
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javaX X(*
-stmtjava.sql.Statement"__id*
-""*
-20*∂
-11ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javab  b(Bç
-ä
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javab  b(B	
-%4int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%3java.lang.String*
-8*∆
-12ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javab b(úô
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/SearchDAO.javab1 b(A
-%3java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*22getString(I)*
-11:
-useridjava.lang.StringB64
-2progettoispw.letmeknow.controller.search.SearchDAO
+;progettoispw.letmeknow.controller.usruser.UsrUser#getHum()Ié
+ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java" "("1*∞
+1é
+ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java# #("ô
+é
+ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java# #()
+""B53
+1progettoispw.letmeknow.controller.usruser.UsrUser

@@ -1,21 +1,13 @@
-//utenteusr never used. should I cancel it with also library?
-
-package progettoispw.letmeknow.controller;
-
-import progettoispw.letmeknow.controller.form.ResultForm;
-
-public class FormResultController {
-    ResultForm form;
-    public FormResultController(){
-        form= ControllerClass.getResultForm();
-    }
-    public int[] getValResponse(){
-        return form.getAnswers();
-    }
-    public int [] getParam () {
-        return form.getParam();
-    }
-    public String getDate () {
-        return form.getDate();
-    }
-}
+<component name="libraryTable">
+  <library name="Maven: org.seleniumhq.selenium:selenium-opera-driver:4.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

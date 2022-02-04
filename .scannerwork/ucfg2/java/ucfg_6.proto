@@ -1,26 +1,9 @@
 
-aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java@ @("3*‘
-2ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C(*"µ
-ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C(*
-
-%0java.sql.ResultSet*Á
-3ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaB B(>Ê
-„
-ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaB B(?
-sqljava.lang.String"__id*)'
-%SELECT COUNT(*) FROM recently_visited⁄◊
-ñ
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C()
-%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2:
-stmtjava.sql.StatementB20
-.progettoispw.letmeknow.controller.search.Query
+Fprogettoispw.letmeknow.bean.FormPsychologistResultBean#getSelected()[Fæ
+≥C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsychologistResultBean.java ("1*ê
+1æ
+≥C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsychologistResultBean.java ("…
+æ
+≥C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/bean/FormPsychologistResultBean.java ((
+""B:8
+6progettoispw.letmeknow.bean.FormPsychologistResultBean

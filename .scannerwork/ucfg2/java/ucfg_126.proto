@@ -1,28 +1,15 @@
 
-Fprogettoispw.letmeknow.bean.LastMessage#getLastmsg()Ljava/lang/String;¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java ("1*Ô	
-1¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (—
-”
-¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (&
-%0java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg…
-‚
-¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (.6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg"__id*
-""—
-”
-¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
-%1java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg"Ö
-¹
-®C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
-
-%1java.lang.StringB+)
-'progettoispw.letmeknow.bean.LastMessage
+Uprogettoispw.letmeknow.controller.HomepageEditController#setGoal(Ljava/lang/String;)Z·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("2"1*‚
+2·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("Â
+·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java (/
+""*‚
+1·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("Â
+·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java (
+"":
+inputjava.lang.StringB<:
+8progettoispw.letmeknow.controller.HomepageEditController

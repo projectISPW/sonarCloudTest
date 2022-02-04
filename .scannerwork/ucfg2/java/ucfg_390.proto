@@ -1,9 +1,16 @@
 
-Jprogettoispw.letmeknow.controller.ISCController#getUid()Ljava/lang/String;¤
-™C:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("1*Ü
-1¤
-™C:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("¯
-¤
-™C:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ( 
-""B31
-/progettoispw.letmeknow.controller.ISCController
+Oprogettoispw.letmeknow.controller.user.InitialUser#setFeed(Ljava/lang/String;)Z‘
+„C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java‰ ‰("1*²
+1‘
+„C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaŠ Š(ù
+ö
+‘
+„C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaŠ Š(#
+%0java.lang.String"__id*B*@4
+2progettoispw.letmeknow.controller.user.InitialUser"
+userid"œ
+‘
+„C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaŠ Š(*
+"":
+feedjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

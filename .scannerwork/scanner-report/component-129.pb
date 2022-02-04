@@ -1,1 +1,1 @@
-Å 2javaX\hrwletmeknowTesting/src/main/usecase/homepageEdit/controllerView/progettoispw/letmeknow/HomepageEditControllerInterf1.java
+Å 2jsonXhrlDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/4feb24dd-28ea-4d4a-9daa-02d89962c9db-result.json

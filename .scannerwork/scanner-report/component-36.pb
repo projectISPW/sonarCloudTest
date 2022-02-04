@@ -1,0 +1,1 @@
+$ 2xmlXhroDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml

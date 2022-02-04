@@ -1,0 +1,1 @@
+- 2xmlXhr†Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml

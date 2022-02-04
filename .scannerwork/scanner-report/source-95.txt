@@ -1,24 +1,13 @@
-//took out unused libraries
-
-package progettoispw.letmeknow.bean;
-
-import progettoispw.letmeknow.controller.CollectionFormController;
-import progettoispw.letmeknow.controller.chat.Message;
-import java.util.ArrayList;
-
-public class CollectionFormBean {
-    private CollectionFormController controller;
-    public CollectionFormBean() {
-        controller=new CollectionFormController();
-    }
-    public void setTouched(int formid){
-        if(formid>=1&& formid<=3){
-            controller.setTouched(formid);
-        }
-        else controller.setTouched(1);
-    }
-    public void takeForm(){
-        controller.takeForm();
-    }
-    public String getUid(){return controller.getUserid();}
-}
+<component name="libraryTable">
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v96:4.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

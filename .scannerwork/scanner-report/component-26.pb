@@ -1,0 +1,1 @@
+ 2xmlXhrlDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml

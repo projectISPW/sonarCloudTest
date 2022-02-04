@@ -1,1 +1,1 @@
-¥ 2javaX.hrjletmeknowTesting/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java
+¥ 2xmlXhr5LetMeKnow/progettoRieditatosecondo/.idea/compiler.xml

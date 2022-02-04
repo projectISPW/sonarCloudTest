@@ -1,1 +1,0 @@
-ù 2xmlX	hrZletmeknowTesting/target/classes/progettoispw.letmeknow/connection/ConnectionParameters.xml

@@ -1,0 +1,1 @@
+ 2xmlXhrdDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_codeborne_selenide_6_2_1.xml

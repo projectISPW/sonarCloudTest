@@ -1,1 +1,1 @@
-ª 2javaX5hrxMainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java
+ª 2javaXhryLetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/ChatControllerInterf2.java

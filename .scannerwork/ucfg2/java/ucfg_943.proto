@@ -1,117 +1,0 @@
-
-Pprogettoispw.letmeknow.TestLog#testSignup(Ljava/lang/String;Ljava/lang/String;)Zd
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java ("4*˘	
-2d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (í
-è
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (0
-booljava.lang.Boolean"__id*
-""í
-è
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (
-%7java.io.PrintStream"__id*
-""∫
-∑
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (2
-%8java.lang.String"__concat*
-Mail input .:*
-
-mailjava.lang.String€
-ÿ
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (e
-%9java.lang.String"__concat*
-
-%8java.lang.String*42
-0    signup as normal user   status of signup    √
-¿
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (j
-%10java.lang.String"__concat*
-
-%9java.lang.String*
-
-booljava.lang.Boolean˝˙
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (k
-%11void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%7java.io.PrintStream*
-
-%10java.lang.String2println(Ljava/lang/String;)*
-1*ˆ	
-3d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (í
-è
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (0
-booljava.lang.Boolean"__id*
-""í
-è
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (
-%2java.io.PrintStream"__id*
-""∫
-∑
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (2
-%3java.lang.String"__concat*
-Mail input .:*
-
-mailjava.lang.String€
-ÿ
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (e
-%4java.lang.String"__concat*
-
-%3java.lang.String*42
-0    signup as psychologist  status of signup    ¬
-ø
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (j
-%5java.lang.String"__concat*
-
-%4java.lang.String*
-
-booljava.lang.Boolean˚¯
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (k
-
-%6void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%2java.io.PrintStream*
-
-%5java.lang.String2println(Ljava/lang/String;)*
-1*ˇ
-4d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (µ
-≤
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (
-%0java.util.Random"__id*,** 
-progettoispw.letmeknow.TestLog"
-randæª
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java ( 	
-%1int"java.util.Random#nextInt(I)I*
-
-%0java.util.Random*2d2
-nextInt(I)í
-è
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (
-booljava.lang.Boolean"__id*
-""*
-2
-3*Ÿ
-1d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java ("n
-d
-ZC:/sonar/sonarCloudTest/letmeknowTesting/src/test/java/progettoispw/letmeknow/TestLog.java (
-"":
-mailjava.lang.String:
-passwordjava.lang.StringB" 
-progettoispw.letmeknow.TestLog

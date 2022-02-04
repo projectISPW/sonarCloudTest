@@ -1,0 +1,1 @@
+7 2xmlXhr{Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_9_1_alpha.xml

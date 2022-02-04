@@ -1,15 +1,15 @@
 
-Nprogettoispw.letmeknow.controller.SettingsController#feed(Ljava/lang/String;)Zº
-¯C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("2"1*ˆ
-2º
-¯C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (#"Å
-º
-¯C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (3
-""*ˆ
-1º
-¯C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("Å
-º
-¯C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ()
+Iprogettoispw.letmeknow.bean.RecoverPswdBean#sendMail(Ljava/lang/String;)Z©
+žC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("2"1*æ
+2©
+žC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("´
+©
+žC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (.
+""*æ
+1©
+žC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java ("´
+©
+žC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java (
 "":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.SettingsController
+inputjava.lang.StringB/-
++progettoispw.letmeknow.bean.RecoverPswdBean

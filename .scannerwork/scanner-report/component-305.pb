@@ -1,1 +1,1 @@
-± 2xmlXhrmMainApplication.java/progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_0_1.xml
+± 2javaXDhrfLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java

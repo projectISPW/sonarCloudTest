@@ -1,48 +1,20 @@
 
-aprogettoispw.letmeknow.Log#testSignupUsr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.java ( "1*™
-
-1`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.java ((­
-ª
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.java9 (=
-%0java.util.Random"__id*(*&
-progettoispw.letmeknow.Log"
-randº·
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.java9 (H	
-%1int"java.util.Random#nextInt(I)I*
-
-%0java.util.Random*22
-nextInt(I)­
-ª
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.javaM (Q
-%2java.util.Random"__id*(*&
-progettoispw.letmeknow.Log"
-randº·
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.javaM (\	
-%3int"java.util.Random#nextInt(I)I*
-
-%2java.util.Random*22
-nextInt(I)­
-ª
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.javaa (e
-%4java.util.Random"__id*(*&
-progettoispw.letmeknow.Log"
-randº·
-`
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.javaa (p	
-%5int"java.util.Random#nextInt(I)I*
-
-%4java.util.Random*22
-nextInt(I)"k
-a
-VC:/sonar/sonarCloudTest/letmeknowTesting/src/main/java/progettoispw/letmeknow/Log.java (–
-"":
-passwordjava.lang.String:
-emailjava.lang.StringB
-progettoispw.letmeknow.Log
+Tprogettoispw.letmeknow.controller.HomepageEditController#setTag(Ljava/lang/String;)Z·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java ("2"4"1*‚
+2·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java# #("Â
+·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java# #(.
+""*‚
+4·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java   ("Â
+·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java   (.
+""*‚
+1·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java% %("Â
+·
+¬C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java% %(
+"":
+inputjava.lang.StringB<:
+8progettoispw.letmeknow.controller.HomepageEditController

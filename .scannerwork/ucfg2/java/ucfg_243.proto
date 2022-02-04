@@ -1,14 +1,9 @@
 
-Dprogettoispw.letmeknow.bean.HomepageBean#getGoal()Ljava/lang/String;®
-£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*Ï
-1®
-£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*Ü
-Ù
-®
-£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (*
-goaljava.lang.String"__id*
-"""¹
-®
-£C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ($
-""B,*
-(progettoispw.letmeknow.bean.HomepageBean
+Rprogettoispw.letmeknow.controller.HomepageController#getDate()[Ljava/lang/Integer;¯
+¤C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java ("1*ò
+1¯
+¤C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java   ("º
+¯
+¤C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java   (
+""B86
+4progettoispw.letmeknow.controller.HomepageController

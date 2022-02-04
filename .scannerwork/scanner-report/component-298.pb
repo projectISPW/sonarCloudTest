@@ -1,1 +1,1 @@
-ª 2xmlX	hrLMainApplication.java/progettoRieditatosecondo/.idea/libraries/javax_mail.xml
+ª 2javaXIhrhLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java

@@ -1,1 +1,1 @@
-­ 2xmlXhruMainApplication.java/progettoRieditatosecondo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml
+­ 2javaX*hrjLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java

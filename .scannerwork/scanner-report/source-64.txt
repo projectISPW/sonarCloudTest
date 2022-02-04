@@ -1,35 +1,13 @@
-package progettoispw.letmeknow.controller.psyuser;
-
-import progettoispw.letmeknow.controller.user.InitialUser;
-
-import java.util.List;
-
-public class PsyUser extends InitialUser {
-    PsyUserDAO userDataPsy;
-    Form form;
-    List<Form> listForms;
-    float [] selected;
-    public PsyUser(String who) {
-        super(who);
-        form=new Form();
-        userDataPsy=new PsyUserDAO();
-    }
-    public boolean suggestQuestion(String textInput) {
-        return userDataPsy.suggestForm(userid,textInput);
-    }
-    public List<Form> getSum(){
-        return form.getSum(listForms);
-    }
-    public int getCounter(int formid){
-        return form.getCounter(listForms,formid);
-    }
-    public void  collectForms(int month,int year) {
-        listForms=userDataPsy.collectForms(month,year);
-    }
-    public void setSelected(float [] input){
-        selected=input;
-    }
-    public float[] getSelected() {
-        return selected;
-    }
-}
+<component name="libraryTable">
+  <library name="Maven: io.qameta.allure:allure-selenide:2.17.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-selenide/2.17.2/allure-selenide-2.17.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-selenide/2.17.2/allure-selenide-2.17.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-selenide/2.17.2/allure-selenide-2.17.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

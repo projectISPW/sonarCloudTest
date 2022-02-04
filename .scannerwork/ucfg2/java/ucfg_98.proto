@@ -1,39 +1,9 @@
 
-uprogettoispw.letmeknow.controller.search.Query#getVisited(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java/ /("4*–
-2x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2(*"–
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2(*
-
-%1java.sql.ResultSet*ù
-3x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(}¶
-³
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(}
-sqljava.lang.String"__id*
-
-%0java.lang.String»¸
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*ó
-4x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(î
-ë
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(|
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*QO
-MSELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.StringB20
-.progettoispw.letmeknow.controller.search.Query
+@progettoispw.letmeknow.controller.form.ResultForm#getAnswers()[IŽ
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaB B("1*°
+1Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaC C("™
+Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaC C(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm

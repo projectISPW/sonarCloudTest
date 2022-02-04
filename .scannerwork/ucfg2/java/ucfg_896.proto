@@ -1,67 +1,0 @@
-
-dprogettoispw.letmeknow.controller.user.InitialUser#abscessType(Ljava/lang/String;)Ljava/lang/String;ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaV V("7*»
-2ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java_ _("•
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java_ _(
-""*…
-3ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java\ \("¶
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java\ \(
-psy* 
-4ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java[ [(Ä
-˝
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java[ [(
-%3java.lang.String"__id*@*>4
-2progettoispw.letmeknow.controller.user.InitialUser"
-typeúô
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java[ [('
-%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
-
-%3java.lang.String*
-psy2equals(Ljava/lang/Object;)*
-2
-3*…
-5ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaY Y("¶
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaY Y(
-usr* 
-6ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaX X(Ä
-˝
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaX X(
-%1java.lang.String"__id*@*>4
-2progettoispw.letmeknow.controller.user.InitialUser"
-typeúô
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaX X(!
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
-
-%1java.lang.String*
-usr2equals(Ljava/lang/Object;)*
-4
-5*©
-7ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaW W(˛˚
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaW W("
-%0boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#checkUtente(Ljava/lang/String;)Z*64
-2progettoispw.letmeknow.controller.user.InitialUser*
-
-	pswdInputjava.lang.String2checkUtente(Ljava/lang/String;)*
-6
-1*»
-1ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javab b("•
-ö
-èC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javab b(
-"":
-	pswdInputjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser

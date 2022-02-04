@@ -1,70 +1,9 @@
 
-|progettoispw.letmeknow.controller.usruser.UsrUserDAO#setParams(Ljava/lang/String;[Ljava/lang/Integer;[Ljava/lang/Integer;I)Zû
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaã ã("10*–
-2û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaê ê(9"©
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaê ê(9
-""*˙
-3û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è((Œ
-À
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaè è((
-stmtjava.sql.Statement"__id*
-""*
-2*ù
-6û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é(TÓ
-Î
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é(T
-%3"
-__arraySet*!
-
-oldParamjava.lang.Integer[]*
-""*
-	
-%2int*
-3
-7*÷
-7û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé  é((Ù
-Ò
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé4 é(?
-%0java.lang.Integer"
-__arrayGet*!
-
-oldParamjava.lang.Integer[]*
-""Ù
-Ò
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé@ é(K
-%1java.lang.Integer"
-__arrayGet*!
-
-newParamjava.lang.Integer[]*
-""º
-π
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaé, é(T	
-%2int"Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)I*86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO*
-""*
-""*
-6*˛
-10û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaå å(Œ
-À
-û
-ëC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaå å(
-stmtjava.sql.Statement"__id*
-""*
-3
-7:
-useridjava.lang.String:
-oldParamjava.lang.Integer[]:
-newParamjava.lang.Integer[]:
-""B86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO
+7progettoispw.letmeknow.bean.FormResultBean#getParam()[Iß
+úC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1*‚
+1ß
+úC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("≤
+ß
+úC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java (%
+""B.,
+*progettoispw.letmeknow.bean.FormResultBean

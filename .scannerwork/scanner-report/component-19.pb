@@ -1,0 +1,1 @@
+ 2xmlXhrzDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_0.xml

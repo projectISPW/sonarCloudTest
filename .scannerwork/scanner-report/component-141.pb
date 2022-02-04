@@ -1,1 +1,1 @@
-ç 2javaXhryletmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java
+ç 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/bb34a1ee-7683-4f74-8aa8-7977f3ba8347-container.json

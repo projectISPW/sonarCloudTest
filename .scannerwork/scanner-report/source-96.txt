@@ -1,18 +1,13 @@
-package progettoispw.letmeknow.controller;
-
-import progettoispw.letmeknow.controller.chat.Message;
-import progettoispw.letmeknow.controller.chat.Messages;
-import progettoispw.letmeknow.controller.form.ResultForm;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class CollectionFormController {
-   public void setTouched(int formid){
-       ControllerClass.setResultForm(formid);
-   }
-    public void  takeForm(){
-       ControllerClass.setResultForm();
-    }
-    public String getUserid(){return ControllerClass.getUserUSR().getUserid();}
-}
+<component name="libraryTable">
+  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

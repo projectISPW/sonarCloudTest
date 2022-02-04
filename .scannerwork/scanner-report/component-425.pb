@@ -1,1 +1,1 @@
-© 2javaXŒhrwMainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java
+© 2javaXchryLetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/ChatControllerInterf1.java

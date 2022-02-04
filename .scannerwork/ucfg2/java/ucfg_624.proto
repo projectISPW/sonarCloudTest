@@ -1,39 +1,0 @@
-
-vprogettoispw.letmeknow.controller.form.Query#setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/lang/Boolean;v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java= =( "4*û
-2v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaA A("~
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaA A(2*Õ
-3w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java? ?(ˆµ
-²
-w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java? ?(ˆ
-sqljava.lang.String"__id*
-
-%0java.lang.String™–
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java@ @(#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*û
-4v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java? ?(ø
-õ
-w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.java? ?(‡
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*TR
-P UPDATE  forms  set `calculated`=1  WHERE (`formid` = %d) and (`userid` = '%s');*
-""*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-""B0.
-,progettoispw.letmeknow.controller.form.Query

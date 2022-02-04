@@ -1,28 +1,9 @@
 
-\progettoispw.letmeknow.controller.form.FormDAO#close(Ljava/lang/String;I)Ljava/lang/Boolean;–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaj j("1*¡
-1–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(Æ
-Ã
-–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javak k(
-stmtjava.sql.Statement"__id*
-""Ì
-É
-–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javam m('
-%0int[]"Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I*20
-.progettoispw.letmeknow.controller.form.FormDAO*
-
-useridjava.lang.StringÆ
-Ã
-–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javan n($
-stmtjava.sql.Statement"__id*
-"""¡
-–
-‹C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaq q(
-"":
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO
+Iprogettoispw.letmeknow.controller.FormResultController#getValResponse()[I³
+¨C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("1*ú
+1³
+¨C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("¾
+³
+¨C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java (!
+""B:8
+6progettoispw.letmeknow.controller.FormResultController

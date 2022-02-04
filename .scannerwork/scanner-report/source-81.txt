@@ -1,25 +1,13 @@
-package progettoispw.letmeknow.controller;
-
-import progettoispw.letmeknow.bean.ISCBean;
-import progettoispw.letmeknow.controller.chat.Messages;
-
-public class Message{
-    private enum ScreenSize{
-        LAPTOP,SMARTPHONE
-    }
-    private static ScreenSize size;
-    public void newMsg(String from,String to , String text){
-        Messages chat=new Messages(from);
-        chat.newMessage(text,to);
-    }
-    public String getRecived(String userid1,String userid2){
-        size=ScreenSize.LAPTOP;
-        ISCBean bean;
-        ControllerClass.controllerUser(userid1);
-        ControllerClass.getChat().setTouched(userid2);
-        if(size==ScreenSize.LAPTOP) bean=new ISCBean();
-        //it could be also equals to one it depends if the new user could send and recive message not by test
-        else bean=new ISCBean(1);
-        return bean.exitUid()[0][0];
-    }
-}
+<component name="libraryTable">
+  <library name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

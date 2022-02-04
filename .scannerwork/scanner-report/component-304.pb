@@ -1,1 +1,1 @@
-° 2xmlXhriMainApplication.java/progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml
+° 2javaX5hrmLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java

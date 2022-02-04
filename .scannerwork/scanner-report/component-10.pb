@@ -1,2 +1,2 @@
 
- 2xmlXhrletmeknowTesting/.idea/misc.xml
+ 2xmlXhrFDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/jarRepositories.xml

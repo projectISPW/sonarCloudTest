@@ -1,46 +1,9 @@
 
-gprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setCalculated(Ljava/lang/String;Ljava/util/List;)Zž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java• •(!"10*Ð
-2ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java› ›("©
-ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java› ›(
-""*î
-3ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(Ë
-È
-ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(
-idjava.lang.Integer"__id*
-""ñ
-î
-ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaš š(
-idjava.lang.Integer"
-__arrayGet*
-
-
-calculatedjava.util.List*
-""*
-2
-3*ú
-8ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java™ ™((Î
-Ë
-ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java™ ™((
-stmtjava.sql.Statement"__id*
-""*
-3*û
-10ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java– –(Î
-Ë
-ž
-‘C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java– –(
-stmtjava.sql.Statement"__id*
-""*
-8:
-useridjava.lang.String:
-
-calculatedjava.util.ListB86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO
+Fprogettoispw.letmeknow.bean.FormResultBean#getData()Ljava/lang/String;§
+œC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1*â
+1§
+œC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("²
+§
+œC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ($
+""B.,
+*progettoispw.letmeknow.bean.FormResultBean

@@ -1,103 +1,0 @@
-
-cprogettoispw.letmeknow.controller.user.JavaMailUtil#sendMail(Ljava/lang/String;)Ljava/lang/Boolean;}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java
- 
-("11*Š
-2}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java ("…
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (2*Ð
-4}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (ÆÃ
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (E
-%6"zprogettoispw.letmeknow.controller.user.JavaMailUtil#prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)LMessage;*75
-3progettoispw.letmeknow.controller.user.JavaMailUtil*
-""*
-
-	myAccountjava.lang.String*
-
-	recipientjava.lang.String2=prepareMessage(LSession;Ljava/lang/String;Ljava/lang/String;)*
-2*Œ
-6}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (5Ç
-Ä
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (6
-	myAccountjava.lang.String"__id*
-progettoispw2021@gmail.com¸
-µ
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java ('
-passwordjava.lang.String"__id*
-Password2021*
-4*ò
-7}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (è
-å
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (0
-%5java.lang.Object"__mapSet*$
-"
-
-propertiesjava.util.Properties*
-mail.smtp.auth*
-true*
-6*ø
-8}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (î
-ë
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (6
-%4java.lang.Object"__mapSet*$
-"
-
-propertiesjava.util.Properties*
-mail.smtp.ssl.enable*
-true*
-7*ñ
-9}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (ç
-ä
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (/
-%3java.lang.Object"__mapSet*$
-"
-
-propertiesjava.util.Properties*
-mail.smtp.port*
-465*
-8*Ê
-10}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (/Ê
-Ç
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (/"
-
-propertiesjava.util.Properties"__id*
-
-%0java.util.Propertiesò
-ï
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (9
-%2java.lang.Object"__mapSet*$
-"
-
-propertiesjava.util.Properties*
-mail.smtp.host*
-smtp.gmail.com*
-9*‰
-11}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (.´±
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java" (,
-%0java.util.Properties"java.util.PropertiesÆ
-Ã
-}
-sC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/JavaMailUtil.java (.
-%1"java.util.Properties#<init>()V*
-
-%0java.util.Properties*
-10:
-	recipientjava.lang.StringB75
-3progettoispw.letmeknow.controller.user.JavaMailUtil

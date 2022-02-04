@@ -1,0 +1,1 @@
+% 2xmlXhrjDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_common_4_1_70_Final.xml

@@ -1,27 +1,28 @@
-package progettoispw.letmeknow.bean;
+package seleniumtest.seleniumtest;
 
-import progettoispw.letmeknow.WordCheck;
-import progettoispw.letmeknow.controller.usruser.UsrUser;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class InnerUsers {
-    private final String userid;
-    private String description;
-    private String goal;
-    private int lenMax;
-    private WordCheck check=new WordCheck();
-    public InnerUsers(UsrUser elem){
-        lenMax=15;
-        userid=elem.getUserid();
-        description= elem.getDescript();
-        goal=elem.getTag();
-    }
-    public String getUserid() {
-        return userid;
-    }
-    public String getDescription() {
-        return check.checkLen(description,lenMax);
-    }
-    public String getGoal() {
-        return check.checkLen(goal,lenMax);
+import static org.junit.Assert.assertTrue;
+
+//CRISTINA MIRABELLI
+public class BinaryConverter {
+    Integer input;
+    String binary;
+    @Test
+    public void  testBinary() {
+        input=555;
+        binary=Integer.toBinaryString(input);
+        String local;
+        System.setProperty("webdriver.chrome.driver","src/chromedriver.exe");
+        WebDriver driver=new ChromeDriver();
+        driver.get("https://www.rapidtables.com/convert/number/decimal-to-binary.html");
+        driver.findElement(By.xpath("//*[@id=\"x\"]")).sendKeys(""+input);
+        driver.findElement(By.xpath("//*[@id=\"calcform\"]/div[3]/button[1]")).click();
+        local=driver.findElement(By.xpath("//*[@id=\"y\"]")).getAttribute("value");
+        System.out.println("comparing .:    "+binary+"  ,   "+local);
+        assertTrue(binary.equals(local));
     }
 }

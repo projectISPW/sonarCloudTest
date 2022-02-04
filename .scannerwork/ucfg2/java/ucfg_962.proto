@@ -1,44 +1,0 @@
-
-€progettoispw.letmeknow.controller.chat.Query#newMSG(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Zv
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ("5*þ
-3v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java   ("€
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java   (
-""*Õ
-4w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (¥µ
-²
-w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (¥
-sqljava.lang.String"__id*
-
-%0java.lang.String™–
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*Æ
-5v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (Ã
-À
-w
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (¤
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*rp
-nINSERT INTO `messages` (`datetime`, `sender`, `reciver`, `text`) VALUES (CURRENT_TIMESTAMP, '%s', '%s',\"%s\")*
-
-fromjava.lang.String*
-
-whojava.lang.String*
-
-textjava.lang.String*
-4:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whojava.lang.String:
-textjava.lang.StringB0.
-,progettoispw.letmeknow.controller.chat.Query

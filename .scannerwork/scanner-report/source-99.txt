@@ -1,14 +1,13 @@
-package progettoispw.letmeknow.bean;
-
-import progettoispw.letmeknow.controller.FormPsychologistResultController;
-
-
-public class FormPsychologistResultBean {
-    FormPsychologistResultController controller;
-    public FormPsychologistResultBean(){
-        controller=new FormPsychologistResultController();
-    }
-    public float [] getSelected(){
-        return controller.getSelected();
-    }
-}
+<component name="libraryTable">
+  <library name="Maven: org.seleniumhq.selenium:selenium-http:4.1.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

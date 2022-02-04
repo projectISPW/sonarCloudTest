@@ -1,32 +1,9 @@
 
-cprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setData(Ljava/lang/String;Ljava/lang/String;)Z~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaI I("5*Ž
-2~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM M(5"ˆ
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM M(5
-""*ä
-3~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaL L((­
-ª
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaL L((
-stmtjava.sql.Statement"__id*
-""©
-¦
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaM+ M(-
-%0java.lang.String"__id*
-""*
-2*¸
-5~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaJ J(­
-ª
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaJ J(
-stmtjava.sql.Statement"__id*
-""*
-3:
-useridjava.lang.String:
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO
+Aprogettoispw.letmeknow.controller.psyuser.PsyUser#getSelected()[FŽ
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java   ("1*°
+1Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java! !("™
+Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java! !(
+""B53
+1progettoispw.letmeknow.controller.psyuser.PsyUser

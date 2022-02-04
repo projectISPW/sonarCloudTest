@@ -1,1 +1,1 @@
-’ 2javaXhrhletmeknowTesting/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LoginBean.java
+’ 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/d9e50968-d317-4d83-bee0-281d7fd05adf-container.json

@@ -1,97 +1,70 @@
-package progettoispw.letmeknow.controller;
+//var on same line
+package progettoispw.letmeknow;
 
-import progettoispw.letmeknow.Exceptions;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Map;
-import java.util.Optional;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormResultBean;
 
-public class ConnectionDBMS {
-    private static String  user ;
-    private static String password;
-    private static String dburl ;
-    private static String driverclassname ;
-    private static java.sql.Connection conn;
-    private static int numConnection;
-    public static void setValues(){
-        ConnectionInfo connectionInfo = new ConnectionInfo();
-        Map<String, String> parameters = connectionInfo.getConnectionInfo();
-        user=parameters.get("username");
-        password=parameters.get("password");
-        dburl=parameters.get("url");
-        driverclassname=parameters.get("driverName");
-    }
-    public ConnectionDBMS()  {
-       try {
-           if (conn == null || conn.isClosed())  getConn();
-       }catch(SQLException throwables){
-           closeCONN();
-           Exceptions.exceptionConnectionOccurred();
-       }
-    }
 
-    private static void getConn(){
-        try {
-            setValues();
-            Class.forName(driverclassname);//recupera dinamicamente il driver , prende la classe dal class path
-            conn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
-        } catch (Exception e) {
-            e.printStackTrace();
-            Exceptions.exceptionConnectionOccurred();
+public class FormResultInterf1 {
+    @FXML
+    ImageView empathySlider;
+    @FXML
+    ImageView humorSlider;
+    @FXML
+    ImageView optimismSlider;
+    ImageView [] param;
+    @FXML
+    ImageView ans1;
+    @FXML
+    ImageView ans2;
+    @FXML
+    ImageView ans3;
+    @FXML
+    ImageView ans4;
+    @FXML
+    ImageView ans5;
+    @FXML
+    ImageView ans6;
+    ImageView [] images;
+    @FXML
+    Text by;
+    FormResultBean bean ;
+    PageMenu controller ;
+    int [] values;
+    public FormResultInterf1(){
+        bean=new FormResultBean();
+        controller=new PageMenu();
+    }
+    public void initialize(){
+        HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
+        controller=new PageMenu();
+        values=bean.exitValStatus();
+        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
+        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
+        int indice=0;
+        for(ImageView image:images ){
+            homepage.setSlider(image,values[indice++]);
         }
-    }
-    public Statement connection(Statement stmt){
-        if(numConnection<1) {
-            try {
-                if(conn==null)getConn();
-                stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-                increm();
-                return stmt;
-            } catch (Exception throwables) {
-                closeSTMT(stmt);
-                Exceptions.exceptionConnectionOccurred();
-            }
+        values= bean.getParam();
+        indice=0;
+        for(ImageView image:param){
+            homepage.setSlider(image,values[indice++]);
         }
-        return null;
+        by.setText(bean.getData());
     }
-    private static void decrem(){
-        numConnection--;
+    @FXML
+    protected  void goToISC(ActionEvent event){
+        controller.switchToISC(event);
     }
-    private static void increm(){
-        numConnection++;
-    }
-    public void closeSTMT(Statement stmt) {
-        try {
-            if(stmt!=null)stmt.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            Exceptions.exceptionConnectionOccurred();
-        } finally {
-            decrem();
-        }
-    }
-    public void closeRSTSTMT(ResultSet rst, Statement stmt) {
-        try {
-            if(rst!=null)rst.close();
-            closeSTMT(stmt);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            Exceptions.exceptionConnectionOccurred();
-        } finally {
-            decrem();
-        }
-    }
-    public static void closeCONN(){
-        try {
-            if(conn!=null)conn.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-            Exceptions.exceptionConnectionOccurred();
-        } finally {
-            decrem();
-        }
+    @FXML
+    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
+    @FXML
+    public void goBack(ActionEvent actionEvent) {
+        controller.switchToPersonalForm(actionEvent);
     }
 }

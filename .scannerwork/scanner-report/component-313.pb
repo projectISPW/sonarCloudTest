@@ -1,1 +1,1 @@
-¹ 2xmlX	hr]MainApplication.java/progettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_25.xml
+¹ 2javaX?hr\LetMeKnow/progettoRieditatosecondo/src/main/java/progettoispw/letmeknow/MainApplication.java

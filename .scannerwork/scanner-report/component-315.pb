@@ -1,1 +1,1 @@
-» 2xmlXhr?MainApplication.java/progettoRieditatosecondo/.idea/modules.xml
+» 2javaXahrtLetMeKnow/progettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java

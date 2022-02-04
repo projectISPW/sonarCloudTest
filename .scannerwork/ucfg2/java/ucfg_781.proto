@@ -1,54 +1,0 @@
-
-“progettoispw.letmeknow.controller.user.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java- -("4*¼
-2”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java4 4("Ÿ
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java4 4(
-""*°
-3”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java/ 1(-Ó
-Ð
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java/ 1(-
-sqljava.lang.String"__id*
-
-%1java.lang.String¸µ
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java3 3(#	
-%2int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*„
-4”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java/ /(·
-´
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java/% 0(Q
-%0java.lang.String"__concat*@>
-<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*75
-3 VALUES ('%s',         '%s',      '%s',       '%s')¨
-¥
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java/ 1(,
-%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-
-%0java.lang.String*
-
-uidjava.lang.String*
-
-passwordjava.lang.String*
-
-typejava.lang.String*
-
-emailjava.lang.String*
-3:
-stmtjava.sql.Statement:
-uidjava.lang.String:
-passwordjava.lang.String:
-typejava.lang.String:
-emailjava.lang.StringB0.
-,progettoispw.letmeknow.controller.user.Query

@@ -1,1 +1,1 @@
-é 2javaXåhrÅletmeknowTesting/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java
+é 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/c5ec4fd5-a8ad-485f-ae03-71a91a0d60fe-container.json

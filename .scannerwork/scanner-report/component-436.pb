@@ -1,1 +1,1 @@
-¥ 2javaXHhr~MainApplication.java/progettoRieditatosecondo/src/main/patterns/Factory/progettoispw/letmeknow/controller/ControllerClass.java
+¥ 2javaXhrêLetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java

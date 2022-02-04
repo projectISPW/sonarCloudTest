@@ -1,1 +1,1 @@
- 2javaX6hrvletmeknowTesting/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/HomepageEditBean.java
+ 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/2d49e920-a43f-493d-be3a-7c5245b3c419-container.json

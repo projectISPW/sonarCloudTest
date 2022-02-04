@@ -1,15 +1,49 @@
 
-Uprogettoispw.letmeknow.controller.SettingsController#setPassword(Ljava/lang/String;)Zù
-íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("2"1*Œ
-2ù
-íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (#"®
-ù
-íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (7
-""*Œ
-1ù
-íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("®
-ù
-íC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (-
-"":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.SettingsController
+xprogettoispw.letmeknow.controller.chat.Query#selectUserRSALL(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ('"5*∏
+3à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*"ß
+à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java (*
+
+%1java.sql.ResultSet*¨
+4à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+ 
+(v«
+ƒ
+à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+ 
+(v
+sqljava.lang.String"__id*
+
+%0java.lang.StringÃ…
+à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java ()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+3*•
+5à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+ 
+(è
+å
+à
+~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+ 
+(u
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*CA
+? SELECT *  FROM messages where reciver = '%s' or sender = '%s' *
+
+iduserjava.lang.String*
+
+iduserjava.lang.String*
+4:
+stmtjava.sql.Statement:
+iduserjava.lang.StringB0.
+,progettoispw.letmeknow.controller.chat.Query

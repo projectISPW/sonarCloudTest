@@ -1,20 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="RemoteRepositoriesConfiguration">
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="jboss.community" />
-      <option name="name" value="JBoss Community repository" />
-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
-    </remote-repository>
-  </component>
-</project>
+package progettoispw.letmeknow.controller.psyuser;
+
+import progettoispw.letmeknow.controller.user.InitialUser;
+
+import java.util.List;
+
+public class PsyUser extends InitialUser {
+    PsyUserDAO userDataPsy;
+    Form form;
+    List<Form> listForms;
+    float [] selected;
+    public PsyUser(String who) {
+        super(who);
+        form=new Form();
+        userDataPsy=new PsyUserDAO();
+    }
+    public boolean suggestQuestion(String textInput) {
+        return userDataPsy.suggestForm(userid,textInput);
+    }
+    public List<Form> getSum(){
+        return form.getSum(listForms);
+    }
+    public int getCounter(int formid){
+        return form.getCounter(listForms,formid);
+    }
+    public void  collectForms(int month,int year) {
+        listForms=userDataPsy.collectForms(month,year);
+    }
+    public void setSelected(float [] input){
+        selected=input;
+    }
+    public float[] getSelected() {
+        return selected;
+    }
+}

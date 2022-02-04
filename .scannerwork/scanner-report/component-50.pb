@@ -1,1 +1,1 @@
-2 2xmlX|hr%letmeknowTesting/.idea/uiDesigner.xml
+2 2xmlXhr}Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_9_1.xml

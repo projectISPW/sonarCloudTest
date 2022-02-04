@@ -1,16 +1,14 @@
 
-Lprogettoispw.letmeknow.controller.ChatController#getWith()Ljava/lang/String;•
-ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java( (("1*Ì
-1•
-ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(ù
-ö
-•
-ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(
-%0java.lang.String"__id*>*<2
-0progettoispw.letmeknow.controller.ChatController"
-with"²
-•
-ŠC:/sonar/sonarCloudTest/letmeknowTesting/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/controller/ChatController.java) )(
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.ChatController
+=progettoispw.letmeknow.bean.FormToTakeStatusBean#getFormId()I­
+¢C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("2"1*î
+2­
+¢C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("¸
+­
+¢C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (
+""*î
+1­
+¢C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("¸
+­
+¢C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (
+""B42
+0progettoispw.letmeknow.bean.FormToTakeStatusBean

@@ -1,45 +1,16 @@
 
-°progettoispw.letmeknow.controller.user.InitialUser#registrationUSR(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Z|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javay y(""3*Î
-2|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java~ ~("ﬁ€
-|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java~ ~(6
-%1boolean"wprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z*64
-2progettoispw.letmeknow.controller.user.InitialUser*
-
-uidjava.lang.String*
-
-passwordjava.lang.String*
-
-emailjava.lang.String2CcomposeMail(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"Ü
-|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java~ ~(7
-""*È
-3|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaz z(+†
-ù
-|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java| |(
-%0java.lang.String"Mprogettoispw.letmeknow.controller.user.InitialUser#getUid()Ljava/lang/String;*64
-2progettoispw.letmeknow.controller.user.InitialUser∫
-∑
-|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java| |(
-uidjava.lang.String"__id*
-
-%0java.lang.String*
-2
-1*ä
-1|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java ("Ü
-|
-rC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.java (
-"":
-passwordjava.lang.String:
-emailjava.lang.String:
-typejava.lang.String:
+Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Zü
+îC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (#"1*ç
+1ü
+îC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (∏µ
+ü
+îC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ((
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*!
+
+descriptionjava.lang.String*
+#2"contains(Ljava/lang/CharSequence;)"™
+ü
+îC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ()
 "":
-descriptionjava.lang.String:
-goaljava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+descriptionjava.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

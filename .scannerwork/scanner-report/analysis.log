@@ -23,7 +23,7 @@ SonarCloud plugins:
   - Ruby Code Quality and Security 1.9.0.3429 (ruby)
   - Vulnerability Rules for C# 9.3.0.14923 (securitycsharpfrontend)
   - Vulnerability Rules for Java 9.3.0.14923 (securityjavafrontend)
-  - License for SonarLint 8.0.0.26500 (license)
+  - License for SonarLint 8.0.0.26521 (license)
   - Vulnerability Rules for JS 9.3.0.14923 (securityjsfrontend)
   - COBOL Code Quality 4.6.2.4876 (cobol)
   - Vulnerability Rules for Python 9.3.0.14923 (securitypythonfrontend)
@@ -41,7 +41,7 @@ Global server settings:
   - sonar.auth.microsoft.enabled=true
   - sonar.core.id=1BD809FA-AWHW8ct9-T_TB3XqouNu
   - sonar.core.serverBaseURL=https://sonarcloud.io
-  - sonar.core.startTime=2022-02-02T11:17:09+0100
+  - sonar.core.startTime=2022-02-03T10:12:21+0100
   - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=260
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth=4
   - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek=1

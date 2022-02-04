@@ -1,0 +1,1 @@
+ 2xmlXhrgDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml

@@ -1,1 +1,1 @@
-¨ 2javaX,hr‚letmeknowTesting/src/main/usecase/signupPsycologist/controllerView/progettoispw/letmeknow/SignupPsychologistControllerInterf1.java
+¨ 2xmlXhr6LetMeKnow/progettoRieditatosecondo/.idea/encodings.xml

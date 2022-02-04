@@ -1,1 +1,0 @@
- 2xmlXÔhr&letmeknowTesting/.idea/dbnavigator.xml

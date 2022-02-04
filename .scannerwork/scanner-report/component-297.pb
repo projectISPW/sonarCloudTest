@@ -1,1 +1,1 @@
-© 2xmlX	hrSMainApplication.java/progettoRieditatosecondo/.idea/libraries/fontawesomefx_8_2.xml
+© 2javaXhriLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java

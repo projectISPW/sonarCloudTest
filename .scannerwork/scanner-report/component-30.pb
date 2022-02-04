@@ -1,0 +1,1 @@
+ 2xmlXhrsDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml

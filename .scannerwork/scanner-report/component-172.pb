@@ -1,0 +1,1 @@
+¬ 2xmlX	hrALetMeKnow/progettoRieditatosecondo/.idea/libraries/javax_mail.xml

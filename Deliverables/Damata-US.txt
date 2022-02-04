@@ -1,0 +1,6 @@
+DELIVERABLES 
+1.As a user, I want anonimity, so that i am free to express my self.
+2.As a user with Psychologist access, I want to access the forms filled by the users, 
+  so that I can do my own analyses.
+3.As a user, I want to get to know the people working on the same personal goal as me, 
+  so that I can compare my progress with them.

@@ -1,112 +1,0 @@
-
-Qprogettoispw.letmeknow.controller.form.FormDAO#queryResult(Ljava/lang/String;I)[Ix
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ("22*⁄
-13x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java& &(Õ 
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java& &(!
-%3boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-
-13
-5
-9*∞
-14x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java$ $(8¶
-£
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java$ $(8
-rstjava.sql.ResultSet"__id*
-""*
-13
-4*Ç
-4x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java- -("Ç
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java. .(
-""*Ç
-5x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java+ +("Ç
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java+ +(
-""*Ù
-17x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java" "(•
-¢
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java": "(>
-%1java.lang.String[]"__id*
-""≈
-¬
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java": "(H
-%2java.lang.String"
-__arrayGet*
-
-%1java.lang.String[]*
-""*
-14*Å
-19x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (8¶
-£
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java   (8
-rstjava.sql.ResultSet"__id*
-""Õ 
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java! !(
-%0boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-14
-17*Û
-8x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(! ((IÍ
-Á
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(! ((I	
-%6int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%5java.lang.String*
-13
-9*ô
-9x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java( ((ñ
-ì
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(B ((G	
-%4int"__id*
-""˚¯
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java(2 ((H
-%5java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(I)*
-8*Æ
-20x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((ß
-§
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java ((
-stmtjava.sql.Statement"__id*
-""*
-19*◊
-22x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (ß
-§
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
-stmtjava.sql.Statement"__id*
-""¶
-£
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.java (
-rstjava.sql.ResultSet"__id*
-""*
-20:
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO

@@ -1,43 +1,0 @@
-
-sprogettoispw.letmeknow.controller.form.Query#insertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)Z”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("4*¼
-2”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java ("Ÿ
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (
-""*²
-3•
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (‡Ô
-Ñ
-•
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (‡
-sqljava.lang.String"__id*
-
-%0java.lang.String¸µ
-”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*Ð
-4”
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (®
-«
-•
-‰C:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/Query.java (†
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*NL
-JINSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');*
-""*
-
-useridjava.lang.String*
-
-aboutjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-"":
-aboutjava.lang.StringB0.
-,progettoispw.letmeknow.controller.form.Query

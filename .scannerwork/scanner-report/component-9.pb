@@ -1,1 +1,1 @@
-	 2xmlXhr*letmeknowTesting/.idea/libraries/added.xml
+	 2xmlXÔhrBDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/dbnavigator.xml

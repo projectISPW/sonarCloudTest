@@ -1,1 +1,1 @@
-W 2javaXMhrMletmeknowTesting/src/main/patterns/singleton/progettoispw/letmeknow/Page.java
+W 2xmlXhrgDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml

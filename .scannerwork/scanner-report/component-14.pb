@@ -1,0 +1,1 @@
+ 2xmlXhraDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_beust_jcommander_1_81.xml

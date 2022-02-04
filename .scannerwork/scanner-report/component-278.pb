@@ -1,0 +1,1 @@
+– 2xmlXhr<LetMeKnow/progettoRieditatosecondo/.idea/sonarlint-state.xml

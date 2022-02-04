@@ -1,1 +1,0 @@
-ê 2xmlXhrGMainApplication.java/progettoRieditatosecondo/.idea/sonarlint-state.xml

@@ -1,1 +1,1 @@
-• 2javaXhrtletmeknowTesting/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/RecoverPswdBean.java
+• 2jsonXhr:Deliverables/TestSeleniumApi/seleniumTestAPI/browsers.json

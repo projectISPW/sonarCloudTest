@@ -1,1 +1,1 @@
-« 2javaX(hrüMainApplication.java/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/controller/HomepageEditController.java
+« 2xmlXhrfLetMeKnow/progettoRieditatosecondo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml

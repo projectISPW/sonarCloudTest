@@ -1,1 +1,1 @@
-§ 2javaXyhrkletmeknowTesting/src/main/usecase/signup/controllerView/progettoispw/letmeknow/SignupControllerInterf1.java
+§ 2xmlXÔhr8LetMeKnow/progettoRieditatosecondo/.idea/dbnavigator.xml

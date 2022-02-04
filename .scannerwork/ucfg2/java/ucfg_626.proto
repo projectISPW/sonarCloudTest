@@ -1,39 +1,0 @@
-
-pprogettoispw.letmeknow.controller.form.Query#newForm(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaP P("4*’
-2v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaS S(*"”
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaS S(*
-
-%1java.sql.ResultSet*ó
-3v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaR R(i´
-±
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaR R(i
-sqljava.lang.String"__id*
-
-%0java.lang.String¹¶
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaS S()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*Û
-4v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaR R(Ø
-Õ
-v
-lC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/form/Query.javaR R(h
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*=;
-9SELECT `formid`,`completed` FROM forms where userid='%s';*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.StringB0.
-,progettoispw.letmeknow.controller.form.Query

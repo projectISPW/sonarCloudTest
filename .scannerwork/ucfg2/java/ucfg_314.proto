@@ -1,27 +1,9 @@
 
-dprogettoispw.letmeknow.controller.form.FormDAO#setCalculated(Ljava/lang/String;I)Ljava/lang/Boolean;ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaê ê( "5*ƒ
-2ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaî î(;"£
-ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaî î(;
-""*Ó
-3ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaì ì((»
-≈
-ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaì ì((
-stmtjava.sql.Statement"__id*
-""*
-2*Ó
-5ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaë ë(»
-≈
-ò
-ãC:/sonar/sonarCloudTest/MainApplication.java/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaë ë(
-stmtjava.sql.Statement"__id*
-""*
-3:
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO
+Rprogettoispw.letmeknow.controller.FormResultController#getDate()Ljava/lang/String;≥
+®C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("1*˙
+1≥
+®C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java ("æ
+≥
+®C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/controller/FormResultController.java (
+""B:8
+6progettoispw.letmeknow.controller.FormResultController

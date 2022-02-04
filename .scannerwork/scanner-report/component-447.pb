@@ -1,1 +1,1 @@
-¿ 2xmlX	hr{MainApplication.java/progettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+¿ 2javaX7hrƒLetMeKnow/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf2.java

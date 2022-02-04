@@ -1,1 +1,1 @@
- 2xmlXhr*letmeknowTesting/.idea/jarRepositories.xml
+ 2xmlXhr?Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/compiler.xml

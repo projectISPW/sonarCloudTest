@@ -1,1 +1,1 @@
-; 2javaX(hrTletmeknowTesting/src/main/database/progettoispw/letmeknow/controller/chat/Query.java
+; 2xmlXhrZDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml

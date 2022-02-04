@@ -1,0 +1,1 @@
+l 2xmlXhreDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_33.xml

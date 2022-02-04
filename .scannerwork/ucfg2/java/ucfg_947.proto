@@ -1,41 +1,0 @@
-
-vprogettoispw.letmeknow.controller.psyuser.Query#suggestForm(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Zy
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (!"5*Ñ
-3y
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java ("É
-y
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (
-""*ﬁ
-4z
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (ñ∏
-µ
-z
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (ñ
-sqljava.lang.String"__id*
-
-%0java.lang.Stringúô
-y
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-3*¶
-5y
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (†
-ù
-z
-oC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java (ï
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*ge
-c INSERT INTO suggest (`from`, `content`,`when`,`type`) VALUES ('%s', '%s',CURRENT_TIMESTAMP,'psy');*
-
-fromjava.lang.String*
-
-whatjava.lang.String*
-4:
-stmtjava.sql.Statement:
-fromjava.lang.String:
-whatjava.lang.StringB31
-/progettoispw.letmeknow.controller.psyuser.Query

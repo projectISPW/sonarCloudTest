@@ -1,32 +1,10 @@
 
-jprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setDescription(Ljava/lang/String;Ljava/lang/String;)Z~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java+ +(!"5*Ž
-2~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/ /(>"ˆ
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/ /(>
-""*ä
-3~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java. .((­
-ª
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java. .((
-stmtjava.sql.Statement"__id*
-""©
-¦
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java/+ /(6
-%0java.lang.String"__id*
-""*
-2*¸
-5~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java, ,(­
-ª
-~
-tC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java, ,(
-stmtjava.sql.Statement"__id*
-""*
-3:
-useridjava.lang.String:
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO
+@progettoispw.letmeknow.controller.psyuser.PsyUser#getCounter(I)IŽ
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java ("1*°
+1Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java ("™
+Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUser.java (1
+"":
+""B53
+1progettoispw.letmeknow.controller.psyuser.PsyUser

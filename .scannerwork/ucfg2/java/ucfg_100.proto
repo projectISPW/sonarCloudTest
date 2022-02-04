@@ -1,26 +1,9 @@
 
-aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.java@ @("3*–
-2x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C(*"–
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C(*
-
-%0java.sql.ResultSet*Š
-3x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.javaB B(>Ç
-Ä
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.javaB B(?
-sqljava.lang.String"__id*)'
-%SELECT COUNT(*) FROM recently_visited»¸
-x
-nC:/sonar/sonarCloudTest/letmeknowTesting/src/main/database/progettoispw/letmeknow/controller/search/Query.javaC C()
-%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2:
-stmtjava.sql.StatementB20
-.progettoispw.letmeknow.controller.search.Query
+>progettoispw.letmeknow.controller.form.ResultForm#getParam()[IŽ
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaH H("1*°
+1Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaI I("™
+Ž
+ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.javaI I(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm
