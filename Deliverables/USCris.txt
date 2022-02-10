@@ -1,0 +1,3 @@
+1)As a user, I want to search for new people through specific key words, so that I can find users that best fit my research.
+2)As a psychologist, I want to collect form results, So that I can analyze the data they provide.
+3)As a user, I want to take new forms weekly, So that I can always keep my traits updated.
