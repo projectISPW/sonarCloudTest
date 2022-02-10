@@ -1,1 +1,0 @@
-P 2xmlXhrmDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml

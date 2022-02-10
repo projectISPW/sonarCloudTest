@@ -1,16 +1,9 @@
 
-Eprogettoispw.letmeknow.bean.LastMessage#getUserid()Ljava/lang/String;Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java ("1*ê
-1Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (ã
-à
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
-%0java.lang.String"__id*7*5)
-'progettoispw.letmeknow.bean.LastMessage"
-userid"À
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
-
-%0java.lang.StringB+)
-'progettoispw.letmeknow.bean.LastMessage
+Bprogettoispw.letmeknow.controller.usruser.Goal#getDataEuropean()[I}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java; ;( "1*å
+1}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java;* ;(6"á
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java;# ;(7
+""B20
+.progettoispw.letmeknow.controller.usruser.Goal

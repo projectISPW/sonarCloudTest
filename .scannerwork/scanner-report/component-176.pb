@@ -1,1 +1,1 @@
-° 2xmlXhrmLetMeKnow/progettoRieditatosecondo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml
+° 2javaX5hr`progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/JavaMailUtil.java

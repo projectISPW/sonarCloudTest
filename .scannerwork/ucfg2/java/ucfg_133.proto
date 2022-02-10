@@ -1,10 +1,11 @@
 
-Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Z£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("1*Ú
-1£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("®
-£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (&
-"":
-inputjava.lang.StringB,*
-(progettoispw.letmeknow.bean.SettingsBean
+Wprogettoispw.letmeknow.controller.Factory#tryLog(Ljava/lang/String;Ljava/lang/String;)Zƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java ( "1*š
+1ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java ("Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java (
+"":
+useridjava.lang.String:
+passwordjava.lang.StringB-"+
+)progettoispw.letmeknow.controller.Factory

@@ -1,1 +1,1 @@
-≠ 2javaX*hrjLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java
+≠ 2javaXÅhroprogettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/ChatControllerInterf2.java

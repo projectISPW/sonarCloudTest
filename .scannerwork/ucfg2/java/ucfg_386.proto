@@ -1,37 +1,15 @@
 
-Sprogettoispw.letmeknow.controller.user.InitialUser#setPassword(Ljava/lang/String;)Zè
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaj j("3*ö
-2è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(ˆ
-Û
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l($
-%1java.lang.String"__id*A*?4
-2progettoispw.letmeknow.controller.user.InitialUser"
-emailÏÈ
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(%
-%2boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;)Z*64
-2progettoispw.letmeknow.controller.user.InitialUser*
-
-%1java.lang.String2composeMail(Ljava/lang/String;)"ö
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javal l(&
-""*ó
-3è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k(˜
-Ù
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javak k("
-%0java.lang.String"__id*B*@4
-2progettoispw.letmeknow.controller.user.InitialUser"
-userid*
-2
-1*≤
-1è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n("ö
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javan n(
-"":
-inputjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+=progettoispw.letmeknow.controller.search.Search#getnVisit()[I~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaG G("1*Û
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaH H(‚
+ﬂ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaI# I()
+%0java.lang.String"__id*?*=1
+/progettoispw.letmeknow.controller.search.Search"
+userid"à
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaJ J(
+""B31
+/progettoispw.letmeknow.controller.search.Search

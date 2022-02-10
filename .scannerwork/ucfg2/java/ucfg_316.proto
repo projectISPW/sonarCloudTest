@@ -1,12 +1,9 @@
 
-Qprogettoispw.letmeknow.controller.SignupController#checkMail(Ljava/lang/String;)Z«
- C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java
- 
-("1*ê
-1«
- C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ("¶
-«
- C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/controller/SignupController.java ('
-"":
-inputjava.lang.StringB64
-2progettoispw.letmeknow.controller.SignupController
+@progettoispw.letmeknow.controller.form.ResultForm#getComplete()I€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaD D("1*”
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaE E("‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaE E(
+""B53
+1progettoispw.letmeknow.controller.form.ResultForm

@@ -1,27 +1,16 @@
 
-gprogettoispw.letmeknow.controller.psyuser.PsyUserDAO#suggestForm(Ljava/lang/String;Ljava/lang/String;)Z‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java+ +("5*¶
-2‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java/ /(5"œ
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java/ /(5
-""*à
-3‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java. .((Á
-¾
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java. .((
-stmtjava.sql.Statement"__id*
-""*
-2*à
-5‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java, ,(Á
-¾
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/PsyUserDAO.java, ,(
-stmtjava.sql.Statement"__id*
-""*
-3:
-fromjava.lang.String:
-whatjava.lang.StringB86
-4progettoispw.letmeknow.controller.psyuser.PsyUserDAO
+[progettoispw.letmeknow.bean.SettingsBean#setPassword(Ljava/lang/String;Ljava/lang/String;)Z™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("2"1*Æ
+2™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java8 (B"¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java1 (U
+""*Æ
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (
+"":
+pswdjava.lang.String:
+confirmpswdjava.lang.StringB,*
+(progettoispw.letmeknow.bean.SettingsBean

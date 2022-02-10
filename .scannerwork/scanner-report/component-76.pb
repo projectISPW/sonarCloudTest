@@ -1,1 +1,0 @@
-L 2xmlXhr\Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml

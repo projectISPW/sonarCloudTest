@@ -7,7 +7,7 @@ import progettoispw.letmeknow.controller.form.ResultForm;
 public class FormResultController {
     ResultForm form;
     public FormResultController(){
-        form= ControllerClass.getResultForm();
+        form= ConcreteUsrUser.getResultForm();
     }
     public int[] getValResponse(){
         return form.getAnswers();

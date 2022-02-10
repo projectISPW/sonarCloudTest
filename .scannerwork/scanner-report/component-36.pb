@@ -1,1 +1,1 @@
-$ 2xmlXhroDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml
+$ 2xmlXhrbprogettoRieditatosecondo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml

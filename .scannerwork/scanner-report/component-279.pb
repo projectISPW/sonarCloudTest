@@ -1,1 +1,0 @@
-— 2xmlXhr6LetMeKnow/progettoRieditatosecondo/.idea/sonarlint.xml

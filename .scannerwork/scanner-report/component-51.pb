@@ -1,1 +1,0 @@
-3 2xmlXhrpDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_9_1.xml

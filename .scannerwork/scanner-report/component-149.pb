@@ -1,1 +1,1 @@
-• 2jsonXhr:Deliverables/TestSeleniumApi/seleniumTestAPI/browsers.json
+• 2xmlX|hr-progettoRieditatosecondo/.idea/uiDesigner.xml

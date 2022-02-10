@@ -1,9 +1,41 @@
 
-;progettoispw.letmeknow.controller.usruser.UsrUser#getOpt()Ié
-ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java% %("1*∞
-1é
-ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java& &("ô
-é
-ÉC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUser.java& &()
-""B53
-1progettoispw.letmeknow.controller.usruser.UsrUser
+iprogettoispw.letmeknow.controller.ConcreteUsrUser#checkCredentials(Ljava/lang/String;Ljava/lang/String;)Zå
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (*"6*´
+2å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java" "(ë
+é
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java" "(
+
+%2void":progettoispw.letmeknow.controller.ConcreteUsrUser#reset()V*5"3
+1progettoispw.letmeknow.controller.ConcreteUsrUser*
+1*‹
+3å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java   (¬
+ø
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java   (
+
+%1void"Mprogettoispw.letmeknow.controller.ConcreteUsrUser#setAll(Ljava/lang/String;)V*5"3
+1progettoispw.letmeknow.controller.ConcreteUsrUser*
+
+useridjava.lang.String*
+1*Æ
+6å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (ë
+é
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (
+
+%0void":progettoispw.letmeknow.controller.ConcreteUsrUser#reset()V*5"3
+1progettoispw.letmeknow.controller.ConcreteUsrUser*
+2
+3*¨
+1å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java$ $("ó
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java$ $(
+"":
+useridjava.lang.String:
+passwordjava.lang.StringB5"3
+1progettoispw.letmeknow.controller.ConcreteUsrUser

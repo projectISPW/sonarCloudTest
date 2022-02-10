@@ -1,1 +1,0 @@
-š 2javaX(hrgDeliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java

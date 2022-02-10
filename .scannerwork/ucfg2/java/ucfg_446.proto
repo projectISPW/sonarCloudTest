@@ -1,36 +1,21 @@
 
-…progettoispw.letmeknow.controller.user.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/ResultSet;ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (""1*É	
-1ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (õ
-ò
-ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*,*
-( SELECT * FROM utenti  WHERE %s = '%s' ;*
-
-whatjava.lang.String*
-
-inputjava.lang.StringÇ
-Ä
-ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (X
-sqljava.lang.String"__id*
-
-%0java.lang.StringÌÉ
-ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"§
-ˆ
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-whatjava.lang.String:
-inputjava.lang.StringB0.
-,progettoispw.letmeknow.controller.user.Query
+Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)Iƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java^ ^("2"4"1*š
+2ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javae e( "Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javae e(!
+""*š
+4ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javad d("Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javad d(
+""*š
+1ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaf f("Ž
+ƒ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaf f(
+"":
+"":
+""B86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO

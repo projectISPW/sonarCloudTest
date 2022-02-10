@@ -1,16 +1,26 @@
 
-@progettoispw.letmeknow.bean.ChatBean#getWith()Ljava/lang/String;›
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java ("1*Ò
-1›
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (ó
-ð
-›
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
-%0java.lang.String"__id*2*0&
-$progettoispw.letmeknow.bean.ChatBean"
-with"¸
-›
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java (
-
-%0java.lang.StringB(&
-$progettoispw.letmeknow.bean.ChatBean
+aprogettoispw.letmeknow.controller.search.Query#getnRows(Ljava/sql/Statement;)Ljava/sql/ResultSet;}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.java> >("3* 
+2}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.javaA A(*"›
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.javaA A(*
+
+%0java.sql.ResultSet*™
+3}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.java@ @(>Ì
+É
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.java@ @(?
+sqljava.lang.String"__id*)'
+%SELECT COUNT(*) FROM recently_visitedÀ½
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.javaA A()
+%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2:
+stmtjava.sql.StatementB20
+.progettoispw.letmeknow.controller.search.Query

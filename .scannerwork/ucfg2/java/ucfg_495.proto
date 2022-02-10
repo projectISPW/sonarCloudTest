@@ -1,88 +1,10 @@
 
-iprogettoispw.letmeknow.controller.usruser.UsrUserDAO#selectUsrUser(Ljava/lang/String;)[Ljava/lang/String;‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (""15*â
-13‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java ((Á
-¾
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java ((
-stmtjava.sql.Statement"__id*
-""*
-12*Ä
-15‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (Á
-¾
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (
-stmtjava.sql.Statement"__id*
-""À
-½
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (
-rstjava.sql.ResultSet"__id*
-""ÅÂ
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java ($
-%0java.lang.String[]"java.lang.String[]Ô
-Ñ
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (%
-retjava.lang.String[]"__id*
-
-%0java.lang.String[]*
-13*Ë
-4‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java# #("±
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java# #(
-
-retjava.lang.String[]*‹
-6‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java!$ !(@è
-å
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java!$ !(@
-%4"
-__arraySet*
-
-retjava.lang.String[]*
-""*
-
-%3java.lang.String*
-7
-11*ç
-7‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java!$ !('°
-­
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java!: !(=	
-%2int"__id*
-""•’
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java!, !(@
-%3java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(I)*
-6*Ž
-11‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java   (çä
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java   (
-%1boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-
-4
-7
-11*á
-12‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (*À
-½
-‘
-†C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/UsrUserDAO.java (*
-rstjava.sql.ResultSet"__id*
-""*
-11:
-uidjava.lang.StringB86
-4progettoispw.letmeknow.controller.usruser.UsrUserDAO
+Eprogettoispw.letmeknow.bean.SettingsBean#setFeed(Ljava/lang/String;)Z™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("1*Æ
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java ("¤
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java (&
+"":
+inputjava.lang.StringB,*
+(progettoispw.letmeknow.bean.SettingsBean

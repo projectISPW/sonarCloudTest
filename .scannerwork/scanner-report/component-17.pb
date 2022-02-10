@@ -1,1 +1,0 @@
- 2xmlXhr}Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_0.xml

@@ -1,16 +1,23 @@
 
-Lprogettoispw.letmeknow.controller.search.Sliders#getHum()Ljava/lang/Integer;ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java ("1*µ
-1ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java   (Ò
-Ó
-ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java   (
-%0java.lang.Integer"__id*=*;2
-0progettoispw.letmeknow.controller.search.Sliders"
-hum"´
-ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java   (
+_progettoispw.letmeknow.controller.user.Query#queryUid(Ljava/sql/Statement;)Ljava/sql/ResultSet;{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java ( "1*†
+1{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java (0¿
+Ω
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java (1
+sqljava.lang.String"__id*
+ SELECT userid FROM utenti æª
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java (%
+%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
 
-%0java.lang.IntegerB42
-0progettoispw.letmeknow.controller.search.Sliders
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)"ô
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java (&
+
+%0java.sql.ResultSet:
+stmtjava.sql.StatementB0.
+,progettoispw.letmeknow.controller.user.Query

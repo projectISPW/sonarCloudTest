@@ -1,1 +1,1 @@
-  2xmlXhrsDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_0_3.xml
+  2xmlXhrYprogettoRieditatosecondo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml

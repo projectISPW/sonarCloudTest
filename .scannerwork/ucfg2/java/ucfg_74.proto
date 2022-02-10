@@ -1,18 +1,10 @@
 
-Vprogettoispw.letmeknow.controller.usruser.ParameterSliders#getOpt()Ljava/lang/Integer;—
-ŒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
- 
-("1*Ý
-1—
-ŒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (…
-‚
-—
-ŒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-%0java.lang.Integer"__id*G*E<
-:progettoispw.letmeknow.controller.usruser.ParameterSliders"
-opt"µ
-—
-ŒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java (
-
-%0java.lang.IntegerB><
-:progettoispw.letmeknow.controller.usruser.ParameterSliders
+Qprogettoispw.letmeknow.bean.ChatBean#newMsg(Ljava/lang/String;)Ljava/lang/String;‘
+†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java! !("1*¶
+1‘
+†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java" "("œ
+‘
+†C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java" "((
+"":
+inputjava.lang.StringB(&
+$progettoispw.letmeknow.bean.ChatBean

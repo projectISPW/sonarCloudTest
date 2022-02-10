@@ -42,15 +42,15 @@ public class FormCollectionResultsInterf1 {
     protected void urResult(ActionEvent event) {
         Button button=(Button) event.getTarget();
         switch(button.getText()){
-            case "FORM 3":{
+            case "FORMSCODE 3":{
                 which(3,event);
                 break;
             }
-            case "FORM 1":{
+            case "FORMSCODE 1":{
                 which(1,event);
                 break;
             }
-            case "FORM 2":{
+            case "FORMSCODE 2":{
                 which(2,event);
                 break;
             }

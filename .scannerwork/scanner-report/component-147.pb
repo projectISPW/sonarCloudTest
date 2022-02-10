@@ -1,1 +1,1 @@
-“ 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/e94d70a8-26b5-4c2a-bd74-7a5872a49b17-container.json
+“ 2xmlXhr2progettoRieditatosecondo/.idea/sonarlint-state.xml

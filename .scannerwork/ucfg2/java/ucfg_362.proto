@@ -1,39 +1,44 @@
 
-uprogettoispw.letmeknow.controller.search.Query#getVisited(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java/ /("4*¾
-2‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2(*"ª
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2(*
-
-%1java.sql.ResultSet*µ
-3‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(}Ê
-Ç
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(}
+‚progettoispw.letmeknow.controller.usruser.Query#setDB(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java ("5*Ž
+3~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java ("ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (
+""*ë
+4~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (s¼
+¹
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (s
 sqljava.lang.String"__id*
 
-%0java.lang.StringÏÌ
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java2 2()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+%0java.lang.String¡ž
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
 stmtjava.sql.Statement*
 
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-2*›
-4‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(‚
-ÿ
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Query.java1 1(|
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*£
+5~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (˜
+•
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (r
 %0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*QO
-MSELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'*
+java.lang.String*=;
+9 UPDATE  `utenti` set `%s`='%s' WHERE (`userid` = '%s') ;*
+
+whatjava.lang.String*
+
+editjava.lang.String*
 
-useridjava.lang.String*
-3:
+iduserjava.lang.String*
+4:
 stmtjava.sql.Statement:
-useridjava.lang.StringB20
-.progettoispw.letmeknow.controller.search.Query
+iduserjava.lang.String:
+whatjava.lang.String:
+editjava.lang.StringB31
+/progettoispw.letmeknow.controller.usruser.Query

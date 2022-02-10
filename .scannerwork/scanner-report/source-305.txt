@@ -1,67 +1,85 @@
-package progettoispw.letmeknow.controller.user;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+package progettoispw.letmeknow;
 
-public class Query {
-    protected ResultSet selectUser(Statement stmt, String iduser )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  where userid = '%s' ;",iduser);
-        return stmt.executeQuery(sql);
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.CollectionFormBean;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
+
+public class FormCollectionResultsInterf1 {
+    PageMenu controller;
+    CollectionFormBean bean;
+    public static final String INTERF="interf1.fxml";
+    @FXML
+    protected Text idUser;
+    public FormCollectionResultsInterf1(){
+        bean=new CollectionFormBean();
+        controller=new PageMenu();
     }
-    protected ResultSet selectUser(Statement stmt,String what, String input )throws SQLException {
-        String sql=String.format(" SELECT * FROM utenti  WHERE %s = '%s' ;",what,input);
-    
-        return stmt.executeQuery(sql);
+    public void initialize(){
+        idUser.setText("User"+ bean.getUid());
     }
-    protected boolean setDB(Statement stmt, String iduser ,String what,String edit){
-        try {
-            String sql=String.format(" UPDATE  utenti set %s='%s' WHERE userid = '%s' ;",what,edit,iduser);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
+    @FXML
+    protected void goToSettings(ActionEvent event) {
+        controller.switchToSettings(event);
+    }
+    protected  void which(int i,ActionEvent event){
+        bean.setTouched(i);
+        String name;
+        String title;
+        FormToTakeStatusBean formBean=new FormToTakeStatusBean();
+        if(formBean.getComplete()==6){
+            name="formResult/form"+i+INTERF;
+        }
+        else{
+            name="formToTake/form"+i+INTERF;
+        } title="form"+i;
+        controller.switchTo(name,event,title);
+    }
+    @FXML
+    protected void urResult(ActionEvent event) {
+        Button button=(Button) event.getTarget();
+        switch(button.getText()){
+            case "FORMSCODE 3":{
+                which(3,event);
+                break;
+            }
+            case "FORMSCODE 1":{
+                which(1,event);
+                break;
+            }
+            case "FORMSCODE 2":{
+                which(2,event);
+                break;
+            }
+            default:{
+                event.consume();
+            }
+        }
+
+    }
+    @FXML
+    public void takeForm(ActionEvent event){
+        bean.takeForm();
+        FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
+        int val = innerBean.getFormId();
+        if(innerBean.getComplete()<=6){
+            controller.switchTo("formToTake/form"+val+INTERF,event,"form"+val);
+        }
+        else{
+            controller.switchTo("formResult/form"+val+INTERF,event,"form"+val);
         }
     }
-
-    protected ResultSet queryUid(Statement stmt) throws SQLException {
-        String sql=" SELECT userid FROM utenti ";
-        return stmt.executeQuery(sql);
+    @FXML
+    protected  void goToISC(ActionEvent event){
+        controller.switchToISC(event);
     }
-
-    protected boolean newLine(Statement stmt,String [] log ,int [] val,String description,String goal) {
-
-        try {
-            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`, `empathy`, `humor`, `positivity`, `description`, `goal`,`by`)" +
-                            " VALUES ('%s',         '%s',      '%s',       '%s',    '%d',       '%d',      '%d','%s','%s',current_date+INTERVAL 6 month )",
-                    log[0],log[1],log[2],log[3],val[0],val[1],val[2],description,goal);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-           return false;
-        }
+    @FXML
+    protected  void goToPersonalForm(ActionEvent event){
+        controller.switchToHome(event);
     }
-    protected boolean newLine(Statement stmt, String uid,String password, String type, String email) {
-        try {
-            String sql=String.format("INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)" +
-                            " VALUES ('%s',         '%s',      '%s',       '%s')",
-                    uid,password,type,email);
-
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-           return false;
-        }
-    }
-    protected boolean feed(Statement stmt,String from,String what){
-        try {
-            String sql=String.format(" INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);",from,what);
-            stmt.executeUpdate(sql);
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
-    }
+    @FXML
+    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
 }

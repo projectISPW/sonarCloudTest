@@ -1,16 +1,54 @@
 
-Mprogettoispw.letmeknow.controller.search.Sliders#getAll()[Ljava/lang/Integer;
-‚C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java% %("1*º
-1
-‚C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java& &(ô
-ñ
-
-‚C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java& &(
-%0java.lang.Integer[]"__id*>*<2
-0progettoispw.letmeknow.controller.search.Sliders"
-coll"­
-
-‚C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/search/Sliders.java& &(
+“progettoispw.letmeknow.controller.user.Query#newLine(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java- -("4*ˆ
+2{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java4 4("…
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java4 4(
+""*â
+3{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java/ 1(-¹
+¶
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java/ 1(-
+sqljava.lang.String"__id*
+
+%1java.lang.Stringž›
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java3 3(#	
+%2int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+2*¶
+4{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java/ /(
+š
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java/% 0(Q
+%0java.lang.String"__concat*@>
+<INSERT INTO `utenti` (`userid`, `password`, `type`, `email`)*75
+3 VALUES ('%s',         '%s',      '%s',       '%s')Ž
+‹
+{
+qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java/ 1(,
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*
+
+%0java.lang.String*
+
+uidjava.lang.String*
+
+passwordjava.lang.String*
+
+typejava.lang.String*
 
-%0java.lang.Integer[]B42
-0progettoispw.letmeknow.controller.search.Sliders
+emailjava.lang.String*
+3:
+stmtjava.sql.Statement:
+uidjava.lang.String:
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB0.
+,progettoispw.letmeknow.controller.user.Query

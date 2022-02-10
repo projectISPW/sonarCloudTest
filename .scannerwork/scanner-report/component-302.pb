@@ -1,1 +1,1 @@
-® 2javaX'hrjLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java
+® 2javaXrhrcprogettoRieditatosecondo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/Decorator.java

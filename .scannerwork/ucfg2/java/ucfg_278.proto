@@ -1,16 +1,23 @@
 
-Dprogettoispw.letmeknow.bean.InnerUsers#getUserid()Ljava/lang/String;•
-öC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("1*Ù
-1•
-öC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (Å
-˛
-•
-öC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-%0java.lang.String"__id*6*4(
-&progettoispw.letmeknow.bean.InnerUsers"
-userid"¬
-•
-öC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (
-
-%0java.lang.StringB*(
-&progettoispw.letmeknow.bean.InnerUsers
+Uprogettoispw.letmeknow.controller.usruser.UsrUser#setPersonalDes(Ljava/lang/String;)ZÄ
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaB B(!"1*‰
+1Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaC C(Ê
+„
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaC C(<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+des"__id*
+
+newSjava.lang.String‰
+·
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaD* D(-
+%0java.lang.String"__id*>*<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+uid"ã
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaD D(4
+"":
+newSjava.lang.StringB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

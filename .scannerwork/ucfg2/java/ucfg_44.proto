@@ -1,17 +1,49 @@
 
-Pprogettoispw.letmeknow.controller.user.EmailInfo#getPassword()Ljava/lang/String;ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java! !("1*∏
-1ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java" "(ı
-Ú
-ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java" "(
-%0java.lang.String"__id*B*@2
-0progettoispw.letmeknow.controller.user.EmailInfo"
-
-password"™
-ç
-ÇC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/EmailInfo.java" "(
-
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.user.EmailInfo
+Mprogettoispw.letmeknow.controller.user.UserDAO#checkMail(Ljava/lang/String;)Z}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javaY Y("8*å
+4}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java_ _("á
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java_ _(
+""*ä
+5}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java^ ^(3´
+®
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java^ ^(3
+rstjava.sql.ResultSet"__id*
+""“œ
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java_ _(
+%1boolean"java.sql.ResultSet#next()Z*
+
+rstjava.sql.ResultSet2next()*
+4*·
+6}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java] ](%¨
+©
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java] ](%
+stmtjava.sql.Statement"__id*
+""®
+•
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java^' ^(,
+%0java.lang.String"__id*
+""*
+5*‰
+8}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javaZ Z(¨
+©
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javaZ Z(
+stmtjava.sql.Statement"__id*
+""´
+®
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.java[ [(
+rstjava.sql.ResultSet"__id*
+""*
+6:
+inputjava.lang.StringB20
+.progettoispw.letmeknow.controller.user.UserDAO

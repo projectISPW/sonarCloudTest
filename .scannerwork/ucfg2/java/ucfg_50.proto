@@ -1,25 +1,16 @@
 
-Cprogettoispw.letmeknow.bean.HomepageBean#getTag()Ljava/lang/String;£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*æ
-1£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*Ð
-Í
-£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ('
-tagjava.lang.String"__id*
-""Ð
-Í
-£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (*
-tagjava.lang.String"__id*
-""Ð
-Í
-£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
-tagjava.lang.String"__id*
-"""Á
-£
-˜C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
-
-tagjava.lang.StringB,*
-(progettoispw.letmeknow.bean.HomepageBean
+Jprogettoispw.letmeknow.controller.InnerUsers#getUserid()Ljava/lang/String;…
+{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java ("1*š
+1…
+{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (ç
+ä
+…
+{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (
+%0java.lang.String"__id*<*:.
+,progettoispw.letmeknow.controller.InnerUsers"
+userid"¢
+…
+{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (
+
+%0java.lang.StringB0.
+,progettoispw.letmeknow.controller.InnerUsers

@@ -1,20 +1,50 @@
 package progettoispw.letmeknow;
-import javafx.event.ActionEvent;
-public  class PageMenu extends Page {
-    public void switchToChat(ActionEvent event)  {
-        this.switchTo("chat/interf1.fxml",event,"Chat");
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.fxml.FXML;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.Slider;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+import progettoispw.letmeknow.bean.FormResultBean;
+import progettoispw.letmeknow.bean.FormToTakeStatusBean;
+
+public class FormSectionInterf2 {
+    @FXML
+    AnchorPane section;
+    @FXML
+    ProgressBar progressBar;
+    @FXML
+    Slider empathySlider;
+    @FXML
+    Slider humorSlider;
+    @FXML
+    Slider optimismSlider;
+    @FXML
+    Text  by;
+    public void initialize() {
+        if(progressBar==null)setSliders();
+        else setProgress();
     }
-    public void switchToPersonalForm(ActionEvent event)  {
-        this.switchTo("formCollectionResults/interf1.fxml",event,"Your result");
+    public void setSliders(){
+        FormResultBean bean=new FormResultBean();
+        Slider[] sliders=new Slider[]{empathySlider,humorSlider,optimismSlider};
+        int [] val=bean.getParam();
+        for(int i=0;i<3;i++){
+            int finalI = i;
+            sliders[i].setValue(val[i]);
+            sliders[i].valueProperty().addListener(new ChangeListener<Number>() {
+                @Override
+                public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                   sliders[finalI].setValue(val[finalI]);
+                }
+            });
+        }
+        by.setText(bean.getData());
     }
-    public void switchToHome(ActionEvent event){
-        this.switchTo("homepage/interf1.fxml",event,"Homepage");
+    public void setProgress(){
+        FormToTakeStatusBean bean= new FormToTakeStatusBean();
+        progressBar.setProgress(bean.getComplete()*0.17);
     }
-    public void switchToISC(ActionEvent event)  {
-        this.switchTo("initialSearchAndChat/interf1.fxml",event,"What do you need?  ");
-    }
-    public void switchToSettings(ActionEvent event)  {
-        this.switchTo("settings/interf1.fxml",event,"Settings");
-    }
-    public void switchToSearch(ActionEvent event ){this.switchTo("search/interf1.fxml",event,"Search");}
 }

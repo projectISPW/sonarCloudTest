@@ -1,1 +1,0 @@
-Ú 2javaXhr‹LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java

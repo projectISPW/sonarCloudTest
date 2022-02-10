@@ -1,26 +1,16 @@
 
-Vprogettoispw.letmeknow.WordCheck#goAheadCounter(Ljava/lang/String;)Ljava/lang/Integer;ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java8 8(!"6*î
-5ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java: :(ˆÛ
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java: :(,
-%0char[]" java.lang.String#toCharArray()[C*
-
-	inputTextjava.lang.String2toCharArray()*
-1*‡
-6ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java9 9(¬
-ø
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java9 9(
-	contAheadjava.lang.Integer"__id*2*
-5*Œ
-1ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java? ?("µ
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java? ?( 
-
-	contAheadjava.lang.Integer:
-	inputTextjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+Lprogettoispw.letmeknow.bean.SignupBean#checkDescription(Ljava/lang/String;)Zï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (#"1*Ô
+1ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (Æ´
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ((
+%0boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*!
+
+descriptionjava.lang.String*
+#2"contains(Ljava/lang/CharSequence;)"†
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ()
+"":
+descriptionjava.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

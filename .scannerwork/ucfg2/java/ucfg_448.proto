@@ -1,23 +1,41 @@
 
-_progettoispw.letmeknow.controller.user.Query#queryUid(Ljava/sql/Statement;)Ljava/sql/ResultSet;à
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java ( "1*ÿ
-1à
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (0Œ
-À
-à
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (1
-sqljava.lang.String"__id*
- SELECT userid FROM utenti Ã…
-à
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (%
-%0java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"ß
-à
-~C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/Query.java (&
-
-%0java.sql.ResultSet:
-stmtjava.sql.StatementB0.
-,progettoispw.letmeknow.controller.user.Query
+Xprogettoispw.letmeknow.controller.usruser.UsrUserDAO#setParams(Ljava/lang/String;[I[II)ZÖ
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaö ö("10*û
+2Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaü ü(9"ê
+Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaü ü(9
+""*»
+3Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaû û(%µ
+≤
+Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaû û(%
+stmtjava.sql.Statement"__id*
+""*
+2*π
+7Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaù  ù((£
+†
+Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaù, ù(T	
+%0int"Aprogettoispw.letmeknow.controller.usruser.UsrUserDAO#average(II)I*86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO*
+""*
+""*
+3
+7*Ã
+10Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaõ õ(µ
+≤
+Ö
+yC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUserDAO.javaõ õ(
+stmtjava.sql.Statement"__id*
+""*
+3
+7:
+useridjava.lang.String:
+"":
+"":
+""B86
+4progettoispw.letmeknow.controller.usruser.UsrUserDAO

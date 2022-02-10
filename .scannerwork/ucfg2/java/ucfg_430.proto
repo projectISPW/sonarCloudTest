@@ -1,10 +1,16 @@
 
-Qprogettoispw.letmeknow.bean.ChatBean#newMsg(Ljava/lang/String;)Ljava/lang/String;õ
-êC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java$ $("1* 
-1õ
-êC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java% %("¶
-õ
-êC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/ChatBean.java% %((
-"":
-inputjava.lang.StringB(&
-$progettoispw.letmeknow.bean.ChatBean
+Lprogettoispw.letmeknow.controller.psyuser.PsyUser#getUid()Ljava/lang/String;Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/PsyUser.java ("1*ê
+1Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/PsyUser.java (Á
+‰
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/PsyUser.java (
+%0java.lang.String"__id*A*?3
+1progettoispw.letmeknow.controller.psyuser.PsyUser"
+userid"ù
+Ä
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/PsyUser.java (
+
+%0java.lang.StringB53
+1progettoispw.letmeknow.controller.psyuser.PsyUser

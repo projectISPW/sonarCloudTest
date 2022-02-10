@@ -1,16 +1,25 @@
 
-Oprogettoispw.letmeknow.controller.form.ResultForm#getUserid()Ljava/lang/String;Ž
-ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java ("1*º
-1Ž
-ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java (õ
-ò
-Ž
-ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java (
-%0java.lang.String"__id*A*?3
-1progettoispw.letmeknow.controller.form.ResultForm"
-userid"«
-Ž
-ƒC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/ResultForm.java (
-
-%0java.lang.StringB53
-1progettoispw.letmeknow.controller.form.ResultForm
+Cprogettoispw.letmeknow.bean.HomepageBean#getTag()Ljava/lang/String;™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*´
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*Æ
+Ã
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ('
+tagjava.lang.String"__id*
+""Æ
+Ã
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (*
+tagjava.lang.String"__id*
+""Æ
+Ã
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
+tagjava.lang.String"__id*
+"""·
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (
+
+tagjava.lang.StringB,*
+(progettoispw.letmeknow.bean.HomepageBean

@@ -276,6 +276,8 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 format^[A-Z][a-zA-Z0-9_]*$(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
 apexS2757(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
 apexS1481(Ð¸¾Âø,0Ð¸¾Âø,:AX2EoJ1roTeAkeA2h1h-3
+javaS5808(¨î¡™Ð.0¨î¡™Ð.:AX2EoJ1roTeAkeA2h1iZ2
+javaS128(¸˜Ù±ñ(0á¯Á½+:AX2EoJ1roTeAkeA2h1iZ3
 javaS3751(è‡ïŸ‰-0ðõå¬æ.:AX2EoJ1roTeAkeA2h1iZ3
 javaS1149(¸˜Ù±ñ(0ÑóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS2755(è‡ïŸ‰-0è‡ïŸ‰-:AX2EoJ1roTeAkeA2h1iZ3
@@ -359,7 +361,6 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS2647(¡¬Ï-0¡¬Ï-:AX2EoJ1roTeAkeA2h1iZ3
 javaS1444(¸˜Ù±ñ(0˜ý‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
 javaS4830( ‹ó•….0 ‹ó•….:AX2EoJ1roTeAkeA2h1iZ3
-javaS5808(¨î¡™Ð.0¨î¡™Ð.:AX2EoJ1roTeAkeA2h1iZ3
 javaS1206(¸˜Ù±ñ(0ÑóÅæ*:AX2EoJ1roTeAkeA2h1iZ3
 javaS5804(ˆÆ¤™Ð.0ˆÆ¤™Ð.:AX2EoJ1roTeAkeA2h1iZ3
 javaS1948(ÈÓÏ)0¸¢ü Ì*:AX2EoJ1roTeAkeA2h1iZ3
@@ -368,8 +369,7 @@ PlSql.Goto(èšáÜï(0ðÁáÜï(:AX2EoJ1roTeAkeA2h1iA<
 javaS1854(€×¥Õ…*0€×¥Õ…*:AX2EoJ1roTeAkeA2h1iZ3
 javaS1989(èÙò´ƒ*0ÑóÅæ*:AX2EoJ1roTeAkeA2h1iZ2
 javaS131(¸˜Ù±ñ(0Èí‰ºì*:AX2EoJ1roTeAkeA2h1iZ3
-javaS6288(€Ëò‘Ê/0€Ëò‘Ê/:AX2EoJ1roTeAkeA2h1iZ2
-javaS128(¸˜Ù±ñ(0á¯Á½+:AX2EoJ1roTeAkeA2h1iZ3
+javaS6288(€Ëò‘Ê/0€Ëò‘Ê/:AX2EoJ1roTeAkeA2h1iZ3
 javaS6291(Ð×ó‘Ê/0Ð×ó‘Ê/:AX2EoJ1roTeAkeA2h1iZ3
 javaS6293(¨‘ó‘Ê/0¨‘ó‘Ê/:AX2EoJ1roTeAkeA2h1iZ3
 javaS6301(ðüñ‘Ê/0ðüñ‘Ê/:AX2EoJ1roTeAkeA2h1iZ‡
@@ -2157,7 +2157,8 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 cppS897(˜ßù¼à*0˜ßù¼à*:AX2EoJ1roTeAkeA2h1iU2
 cppS5485(ˆ‘üêñ-0ˆ‘üêñ-:AX2EoJ1roTeAkeA2h1iU2
 cppS5000(àœÇ’-0àœÇ’-:AX2EoJ1roTeAkeA2h1iU2
-cppS2095(¨øî–‡+0¨øî–‡+:AX2EoJ1roTeAkeA2h1iUJ
+cppS2095(¨øî–‡+0¨øî–‡+:AX2EoJ1roTeAkeA2h1iU5
+pythonS2755(È¾á§°.0È¾á§°.:AX2EoJ1roTeAkeA2h1iJJ
 pythonS5843"
 maxComplexity20(ð¯ŸÐ/0ð¯ŸÐ/:AX2EoJ1roTeAkeA2h1iJ5
 pythonS2737(Ð¼“ìç-0Ð¼“ìç-:AX2EoJ1roTeAkeA2h1iJ5
@@ -2178,7 +2179,6 @@ common-phpDuplicatedBlocks(˜¦°Â„+0˜¦°Â„+:AX2EoJ1roTeAkeA2h1iT=
 pythonS3329(ÀÅ™¹ÿ.0ÀÅ™¹ÿ.:AX2EoJ1roTeAkeA2h1iJ5
 pythonS5869(Ò€ŸÐ/0Ò€ŸÐ/:AX2EoJ1roTeAkeA2h1iJ5
 pythonS5868(Øº€ŸÐ/0Øº€ŸÐ/:AX2EoJ1roTeAkeA2h1iJ5
-pythonS2755(È¾á§°.0È¾á§°.:AX2EoJ1roTeAkeA2h1iJ5
 pythonS6035(ˆ«€ŸÐ/0ˆ«€ŸÐ/:AX2EoJ1roTeAkeA2h1iJ5
 pythonS2201(ø¼Ô¯¥.0ø¼Ô¯¥.:AX2EoJ1roTeAkeA2h1iJ5
 pythonS4502(À¢˜ .0À¢˜ .:AX2EoJ1roTeAkeA2h1iJ5

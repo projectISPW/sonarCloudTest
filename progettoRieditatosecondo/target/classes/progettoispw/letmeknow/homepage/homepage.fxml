@@ -82,7 +82,7 @@
             <Label fx:id="tag" alignment="CENTER" minHeight="18.0" minWidth="-Infinity" prefWidth="187.0" styleClass="textHomePage" textAlignment="CENTER" />
          </content>
       </ScrollPane>
-      <Button layoutX="178.0" layoutY="691.0" mnemonicParsing="false" onAction="#editProfile" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Edit Profile" textFill="#f2f2f2" />
+      <Button layoutX="178.0" layoutY="691.0" mnemonicParsing="false" onAction="#goToEditProfile" prefHeight="70.0" prefWidth="164.0" style="-fx-font-size: 18px;" styleClass="Button" text="Edit Profile" textFill="#f2f2f2" />
       <Text fx:id="userName" layoutX="121.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" styleClass="textContent_signup" text="User #7853789" wrappingWidth="247.39027404785156" />
       <ImageView fx:id="expired" fitHeight="213.0" fitWidth="173.0" layoutX="16.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
          <image>

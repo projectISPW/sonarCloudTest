@@ -1,1 +1,0 @@
-e 2xmlXhrsDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_1_1.xml

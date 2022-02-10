@@ -1,39 +1,15 @@
 
-wprogettoispw.letmeknow.controller.usruser.Query#queryResult(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java! !(#"5*À
-3Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java$ $(*"«
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java$ $(*
-
-%1java.sql.ResultSet*¸
-4Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java# #(UË
-È
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java# #(U
-sqljava.lang.String"__id*
-
-%0java.lang.StringÐÍ
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java$ $()
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
-3*õ
-5Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java# #(Û
-Ø
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java# #(T
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*,*
-( SELECT * FROM forms where `userid`=%s ;*
-
-uidjava.lang.String*
-4:
-stmtjava.sql.Statement:
-uidjava.lang.StringB31
-/progettoispw.letmeknow.controller.usruser.Query
+@progettoispw.letmeknow.controller.usruser.UsrUser#queryResult()Z€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaY Y("1*û
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaZ Z(ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaZ% Z((
+%0java.lang.String"__id*>*<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+uid"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaZ Z(D
+""B53
+1progettoispw.letmeknow.controller.usruser.UsrUser

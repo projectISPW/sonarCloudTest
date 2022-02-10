@@ -12,7 +12,7 @@ public class HomepageControllerInterf2 extends HomepagecontrollerInterf1{
     @FXML
     AnchorPane homepageEdit;
     @FXML
-    protected void editProfile(ActionEvent event){
+    protected void goToEditProfile(ActionEvent event){
         try {
             homepageEdit.getChildren().removeAll(homepageEdit.getChildren());
             homepageEdit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageEdit/homepageEdit.fxml")));

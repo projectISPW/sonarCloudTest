@@ -1,1 +1,1 @@
-, 2xmlXhr‡Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml
+, 2xmlXhr\progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml

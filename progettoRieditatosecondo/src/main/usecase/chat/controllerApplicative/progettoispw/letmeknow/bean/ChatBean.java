@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class ChatBean{
     private ChatController controller;
-    private ArrayList<Message> chat;
     private String with;
     public ChatBean() {
         controller=new ChatController();
@@ -18,7 +17,7 @@ public class ChatBean{
         return with;
     }
     public String[]getMSG(){
-        chat= (ArrayList<Message>) controller.getChat();
+        ArrayList<Message> chat= (ArrayList<Message>) controller.getChat();
         String [] returnStr =new String[chat.size()*2];
         int index=0;
         for(Message msg:chat){

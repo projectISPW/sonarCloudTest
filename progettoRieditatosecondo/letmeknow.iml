@@ -18,8 +18,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/singleton" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerApplicative" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerView" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/database" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/database/user1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/search/controllerApplicative" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/search/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/Factory" isTestSource="false" />
@@ -45,12 +43,17 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formPsicologistResult/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/settings/controllerApplicative" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/settings/controllerView" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/HomepagePsycologist/controllerApplicative" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/HomepagePsycologist/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signupPsycologist/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerApplicative" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formCollectionResults/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepagePsycologist/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepagePsycologist/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model/user1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/decorator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/facade" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/factory" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

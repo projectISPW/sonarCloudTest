@@ -1,1 +1,1 @@
-© 2xmlXhr<LetMeKnow/progettoRieditatosecondo/.idea/jarRepositories.xml
+© 2javaXhr\progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/Query.java

@@ -29,7 +29,7 @@ public class ChatControllerInterf2 extends ChatControllerInterf1{
     public ChatControllerInterf2(){
         super();
         iscBean=new ISCBean();
-        graphic=new CSS(false);
+        graphic=new Decorator(false);
         userid=bean.getUid();
         timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::recivemsgArr));
         timeline.setCycleCount(Animation.INDEFINITE);//never stop

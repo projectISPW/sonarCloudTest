@@ -1,2 +1,1 @@
-¾ 2xmlX
-hr>LetMeKnow/progettoRieditatosecondo/.idea/runConfigurations.xml
+¾ 2javaXahrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java

@@ -1,4 +1,4 @@
-//spelling check + same line variables
+//spelling checkActive + same line variables
 package progettoispw.letmeknow;
 
 import javafx.beans.value.ChangeListener;

@@ -1,64 +1,16 @@
 
-Dseleniumtest.seleniumtest.ScholarQuotes#extract(Ljava/lang/String;)Zâ
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java ("3*Ù
-2â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (∏
-µ
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (
-%2java.io.PrintStream"__id*
-""êç
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java ([
-%3java.io.PrintStream"Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
-
-%2java.io.PrintStream*0.
-,Number of quotes greater than %d , value: %d*
-""*
-""2-printf(Ljava/lang/String;[Ljava/lang/Object;)"î
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (
-""*¯
-3â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (ãà
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (-
-%0java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*
-
-inputjava.lang.String*
-""2substring(I)Ã
-…
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (.
-convertjava.lang.String"__id*
-
-%0java.lang.StringÅ
-˛
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (/	
-%1int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-convertjava.lang.String*
-2
-1*Ù
-1â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (∏
-µ
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (
-%4java.io.PrintStream"__id*
-""êç
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java ([
-%5java.io.PrintStream"Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;*
-
-%4java.io.PrintStream*0.
-,Number of quotes smaller than %d , value: %d*
-""*
-""2-printf(Ljava/lang/String;[Ljava/lang/Object;)"î
-â
-C:/sonar/sonarCloudTest/Deliverables/TestSeleniumApi/seleniumTestAPI/src/test/java/seleniumtest/seleniumtest/ScholarQuotes.java (
-"":
-inputjava.lang.StringB+)
-'seleniumtest.seleniumtest.ScholarQuotes
+Lprogettoispw.letmeknow.controller.search.Sliders#getHum()Ljava/lang/Integer;
+uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java ("1*à
+1
+uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java   (‚
+ﬂ
+
+uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java   (
+%0java.lang.Integer"__id*=*;2
+0progettoispw.letmeknow.controller.search.Sliders"
+hum"ú
+
+uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java   (
+
+%0java.lang.IntegerB42
+0progettoispw.letmeknow.controller.search.Sliders

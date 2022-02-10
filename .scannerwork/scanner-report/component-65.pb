@@ -1,1 +1,0 @@
-A 2xmlXhrrDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_qameta_allure_allure_test_filter_2_17_2.xml

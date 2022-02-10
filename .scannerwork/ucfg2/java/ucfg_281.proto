@@ -1,37 +1,16 @@
 
-vprogettoispw.letmeknow.controller.usruser.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java (""1*Æ	
-1Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java	 	(â
-ß
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java	 	(W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*0.
-, SELECT * FROM utenti  where userid = '%s' ;*
-
-iduserjava.lang.StringË
-È
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java	 	(X
-sqljava.lang.String"__id*
-
-%0java.lang.StringÐÍ
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java
- 
-(%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"«
-Œ
-C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/Query.java
- 
-(&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB31
-/progettoispw.letmeknow.controller.usruser.Query
+Vprogettoispw.letmeknow.controller.usruser.UsrUser#setPersonalData(Ljava/lang/String;)Z€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaN N(""1*û
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaO O(ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaP# P(&
+%0java.lang.String"__id*>*<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+uid"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaP P(I
+"":
+newDatajava.lang.StringB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

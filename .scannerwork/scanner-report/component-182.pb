@@ -1,1 +1,1 @@
-¶ 2xmlXhr^LetMeKnow/progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml
+¶ 2javaX2hr\progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java

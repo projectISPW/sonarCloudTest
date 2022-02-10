@@ -1,48 +1,16 @@
 
-Pprogettoispw.letmeknow.controller.user.InitialUser#setEmail(Ljava/lang/String;)Zè
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javap p("4*≤
-2è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javat t("ö
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javat t(
-""*Å
-3è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javar r(˘
-ˆ
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javar r(?4
-2progettoispw.letmeknow.controller.user.InitialUser"
-email"__id*
-
-inputjava.lang.Stringˆ
-Û
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javas s( 
-%1java.lang.String"__id*A*?4
-2progettoispw.letmeknow.controller.user.InitialUser"
-emailÏÈ
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javas s(!
-%2boolean"Sprogettoispw.letmeknow.controller.user.InitialUser#composeMail(Ljava/lang/String;)Z*64
-2progettoispw.letmeknow.controller.user.InitialUser*
+Nprogettoispw.letmeknow.controller.search.Search#getTouched()Ljava/lang/String;~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaL L("1*Ü
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaM M(„
+‡
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaM M(
+%0java.lang.String"__id*@*>1
+/progettoispw.letmeknow.controller.search.Search"	
+touched"ö
+~
+tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Search.javaM M(
 
-%1java.lang.String2composeMail(Ljava/lang/String;)*
-2
-1*ó
-4è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaq q(˜
-Ù
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaq q(#
-%0java.lang.String"__id*B*@4
-2progettoispw.letmeknow.controller.user.InitialUser"
-userid*
-3
-1*≤
-1è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaw w("ö
-è
-ÑC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/InitialUser.javaw w(
-"":
-inputjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+%0java.lang.StringB31
+/progettoispw.letmeknow.controller.search.Search

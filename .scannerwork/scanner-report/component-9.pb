@@ -1,1 +1,0 @@
-	 2xmlXÔhrBDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/dbnavigator.xml

@@ -1,1 +1,1 @@
-ª 2xmlX	hrELetMeKnow/progettoRieditatosecondo/.idea/libraries/activation_1_1.xml
+ª 2javaXGhr[progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.java

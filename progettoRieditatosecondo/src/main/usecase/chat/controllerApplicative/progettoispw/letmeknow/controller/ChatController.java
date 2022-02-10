@@ -13,7 +13,7 @@ public class ChatController {
     //controller return only new messages
     private String with;
     public ChatController(){
-        actChat=ControllerClass.getChat();
+        actChat= ConcreteUsrUser.getChat();
         with=actChat.getTouched();
     }
     public String  newMSG(String text){

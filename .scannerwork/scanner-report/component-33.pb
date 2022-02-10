@@ -1,1 +1,1 @@
-! 2xmlXhrjDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_buffer_4_1_70_Final.xml
+! 2xmlXhr]progettoRieditatosecondo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml

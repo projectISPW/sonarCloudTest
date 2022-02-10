@@ -1,15 +1,16 @@
 
-Bprogettoispw.letmeknow.bean.InnerUsers#getGoal()Ljava/lang/String;¥
-šC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("1*à
-1¥
-šC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (ÿ
-ü
-¥
-šC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java ("
-%0java.lang.String"__id*4*2(
-&progettoispw.letmeknow.bean.InnerUsers"
-goal"°
-¥
-šC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/InnerUsers.java (+
-""B*(
-&progettoispw.letmeknow.bean.InnerUsers
+Uprogettoispw.letmeknow.controller.usruser.UsrUser#setPersonalTag(Ljava/lang/String;)Z€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaJ J(!"1*û
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaK K(ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaL" L(%
+%0java.lang.String"__id*>*<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+uid"‹
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaL L(,
+"":
+newSjava.lang.StringB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

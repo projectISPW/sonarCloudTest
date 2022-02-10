@@ -1,25 +1,35 @@
 
->progettoispw.letmeknow.WordCheck#highText(Ljava/lang/String;)Iê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaA A("3*¥
-2ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaD D("õ
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaD D(
-""*é
-3ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaB B(!ÌÍ
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaB B('
-%0java.lang.Integer"Vprogettoispw.letmeknow.WordCheck#goAheadCounter(Ljava/lang/String;)Ljava/lang/Integer;*$"
- progettoispw.letmeknow.WordCheck*
-
-textjava.lang.String2"goAheadCounter(Ljava/lang/String;)*
-2
-1*¥
-1ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaF F("õ
-ê
-ÖC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.javaF F(
-"":
-textjava.lang.StringB$"
- progettoispw.letmeknow.WordCheck
+Fprogettoispw.letmeknow.bean.SignupBean#checkVal([Ljava/lang/String;)[Iï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ("5"1*æ
+3ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java#E #(F"†
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java#6 #(H
+""*ò
+5ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" "(‰
+·
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java", "(2
+%0java.lang.String"
+__arrayGet*
+
+valjava.lang.String[]*
+""à
+Ö
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" "(3	
+%1int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%0java.lang.String*	
+3
+5
+1*æ
+1ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java% %("†
+ï
+äC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java% %(
+"":
+valjava.lang.String[]B*(
+&progettoispw.letmeknow.bean.SignupBean

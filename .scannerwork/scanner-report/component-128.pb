@@ -1,1 +1,0 @@
-€ 2jsonXhroDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/2e78f1c7-1d2b-40a1-ae35-475cd917ff47-container.json

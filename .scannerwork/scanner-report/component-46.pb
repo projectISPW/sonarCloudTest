@@ -1,1 +1,1 @@
-. 2xmlXhr€Deliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_70_Final.xml
+. 2xmlX	hrHprogettoRieditatosecondo/.idea/libraries/mysql_connector_java_8_0_25.xml

@@ -1,1 +1,2 @@
-1 2xmlXhrtDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_9_1.xml
+1 2xmlX
+hr4progettoRieditatosecondo/.idea/runConfigurations.xml

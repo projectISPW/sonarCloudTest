@@ -1,49 +1,10 @@
 
-Mprogettoispw.letmeknow.controller.user.UserDAO#checkMail(Ljava/lang/String;)Z‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java> >("8*ª
-4‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D("–
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D(
-""*·
-5‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC C(3º
-·
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC C(3
-rstjava.sql.ResultSet"__id*
-""áÞ
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaD D(
-%1boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-4*Ž
-6‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaB B((»
-¸
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaB B((
-stmtjava.sql.Statement"__id*
-""·
-´
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.javaC' C(,
-%0java.lang.String"__id*
-""*
-5*‘
-8‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java? ?(»
-¸
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java? ?(
-stmtjava.sql.Statement"__id*
-""º
-·
-‹
-€C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/user/UserDAO.java@ @(
-rstjava.sql.ResultSet"__id*
-""*
-6:
-inputjava.lang.StringB20
-.progettoispw.letmeknow.controller.user.UserDAO
+:progettoispw.letmeknow.TakeFormControllerInterf1#not([Z)[Zœ
+‘C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.java9 9("1*Ì
+1œ
+‘C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.java? ?("§
+œ
+‘C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.java? ?(
+"":
+""B42
+0progettoispw.letmeknow.TakeFormControllerInterf1

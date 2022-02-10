@@ -5,7 +5,7 @@ import progettoispw.letmeknow.controller.form.ResultForm;
 public class FormToTakeStatusController {
     ResultForm form;
     public FormToTakeStatusController(){
-        form= ControllerClass.getResultForm();
+        form= ConcreteUsrUser.getResultForm();
     }
     public int getFormId(){
         return form.getFormid();

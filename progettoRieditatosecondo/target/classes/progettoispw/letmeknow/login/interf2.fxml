@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="1200.0" maxWidth="1300.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.LoginControllerInterf1">
+<AnchorPane maxHeight="1200.0" maxWidth="1300.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.LoginControllerInterf1">
     <children>
-        <Button layoutX="570.0" layoutY="528.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="35.0" prefWidth="300.0" style="-fx-font-size: 18px;" styleClass="Button" text="Login " textFill="#f2f2f2" />
+        <Button fx:id="loginButton" layoutX="570.0" layoutY="528.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="35.0" prefWidth="300.0" style="-fx-font-size: 18px;" styleClass="Button" text="Login " textFill="#f2f2f2" />
         <Circle fill="#8290f1" layoutX="703.0" layoutY="235.0" radius="72.0" stroke="WHITE" strokeType="INSIDE" />
         <FontAwesomeIcon fill="#fffefe" glyphName="USERS" layoutX="661.0" layoutY="265.0" size="80" wrappingWidth="87.48567962646484" />
         <TextField fx:id="labUser" layoutX="530.0" layoutY="335.0" prefHeight="50.0" prefWidth="370.0" promptText="User" styleClass="textField" />

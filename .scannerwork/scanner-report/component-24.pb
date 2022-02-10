@@ -1,1 +1,1 @@
- 2xmlXhrgDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_google_code_gson_gson_2_8_8.xml
+ 2xmlXhr+progettoRieditatosecondo/.idea/compiler.xml

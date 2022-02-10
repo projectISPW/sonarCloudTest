@@ -1,1 +1,0 @@
-© 2javaXhriLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Query.java

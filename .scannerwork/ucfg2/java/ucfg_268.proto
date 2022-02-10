@@ -1,14 +1,9 @@
 
-}progettoispw.letmeknow.bean.SignupBean#signupUSR(Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)ZŸ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java' '("1*Ò
-1Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( (("ª
-Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( ((L
-"":
-passwordjava.lang.String:
-emailjava.lang.String:
-"":
-descriptionjava.lang.String:
-goaljava.lang.StringB*(
-&progettoispw.letmeknow.bean.SignupBean
+Mprogettoispw.letmeknow.controller.usruser.UsrUser#getType()Ljava/lang/String;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java ("1*•
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java ("Œ
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java (
+usrB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

@@ -1,1 +1,1 @@
-( 2xmlXhrlDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_resolver_4_1_70_Final.xml
+( 2xmlXhr\progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_0_1.xml

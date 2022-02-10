@@ -1,1 +1,0 @@
-~ 2jsonXhrlDeliverables/TestSeleniumApi/seleniumTestAPI/allure-results/18f68c64-49a7-40ae-a74f-38c5e78c34d5-result.json

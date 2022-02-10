@@ -1,1 +1,0 @@
-B 2xmlXhrZDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__junit_junit_4_13_2.xml

@@ -1,1 +1,1 @@
-¥ 2javaX hrtLetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/usruser/ParameterSliders.java
+¥ 2javaXhrùprogettoRieditatosecondo/src/main/usecase/formPsicologistResult/controllerApplicative/progettoispw/letmeknow/controller/FormPsychologistResultController.java

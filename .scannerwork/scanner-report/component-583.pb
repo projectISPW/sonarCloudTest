@@ -1,1 +1,0 @@
-Ç 2xmlXhrfLetMeKnow/progettoRieditatosecondo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml

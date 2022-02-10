@@ -7,7 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Map;
-import java.util.Optional;
 
 public class ConnectionDBMS {
     private static String  user ;
@@ -28,7 +27,7 @@ public class ConnectionDBMS {
        try {
            if (conn == null || conn.isClosed())  getConn();
        }catch(SQLException throwables){
-           closeCONN();
+           closeConn();
            Exceptions.exceptionConnectionOccurred();
        }
     }
@@ -37,20 +36,21 @@ public class ConnectionDBMS {
         try {
             setValues();
             Class.forName(driverclassname);//recupera dinamicamente il driver , prende la classe dal class path
-            conn = DriverManager.getConnection(dburl, user ,password);//quando ho get connection ho il driver caricato
+            conn = DriverManager.getConnection(dburl, user ,password);//quando ho get getSTMT ho il driver caricato
         } catch (Exception e) {
             e.printStackTrace();
             Exceptions.exceptionConnectionOccurred();
         }
     }
-    public Statement connection(Statement stmt){
+    public Statement getSTMT(Statement stmt){
         if(numConnection<1) {
             try {
                 if(conn==null)getConn();
                 stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
                 increm();
                 return stmt;
-            } catch (Exception throwables) {
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
                 closeSTMT(stmt);
                 Exceptions.exceptionConnectionOccurred();
             }
@@ -84,7 +84,7 @@ public class ConnectionDBMS {
             decrem();
         }
     }
-    public static void closeCONN(){
+    public static void closeConn(){
         try {
             if(conn!=null)conn.close();
         } catch (SQLException throwables) {

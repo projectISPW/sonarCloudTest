@@ -1,1 +1,1 @@
-Ì 2javaX6hrˆLetMeKnow/progettoRieditatosecondo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/HomepageEditBean.java
+Ì 2xmlXhr\progettoRieditatosecondo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml

@@ -1,1 +1,1 @@
-' 2xmlXhrqDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml
+' 2xmlXhrXprogettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml

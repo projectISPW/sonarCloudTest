@@ -37,7 +37,7 @@ public class HomepagecontrollerInterf1 {
     public void initialize(){
         userName.setText("User : #"+userid);
 
-        Integer[] arrayOut= bean.getParam();
+        int[] arrayOut= bean.getParam();
         setSlider(empathySlider,arrayOut[0]);
         setSlider(humorSlider,arrayOut[1]);
         setSlider(positivitySlider,arrayOut[2]);
@@ -60,9 +60,7 @@ public class HomepagecontrollerInterf1 {
         image.setImage(immagine);
     }
     @FXML
-    protected void editProfile(ActionEvent event) {
-        controller.switchTo("homepageEdit/interf1.fxml",event,"Edit Profile");
-    }
+    protected void goToEditProfile(ActionEvent event) {controller.switchTo("homepageEdit/interf1.fxml",event,"Edit Profile");}
     @FXML
     protected void goToSettings(ActionEvent event) {
         controller.switchToSettings(event);

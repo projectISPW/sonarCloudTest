@@ -1,1 +1,1 @@
-® 2xmlXhrgLetMeKnow/progettoRieditatosecondo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml
+® 2javaX'hr]progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java

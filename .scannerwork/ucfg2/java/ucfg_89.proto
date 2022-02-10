@@ -1,36 +1,9 @@
 
-Mprogettoispw.letmeknow.controller.psyuser.Form#getCounter(Ljava/util/List;I)Iã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java' '("2*Ó
-2ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(◊
-‘
-ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(6
-elem.progettoispw.letmeknow.controller.psyuser.Form"__id*
-""¯
-ı
-ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java) )(6
-elem.progettoispw.letmeknow.controller.psyuser.Form"
-__arrayGet*
-
-inputjava.util.List*
-""*
-4
-1*π
-4ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java)! )(%†ù
-ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java)! )(1	
-%0int";progettoispw.letmeknow.controller.psyuser.Form#getFormid()I*8
-6
-elem.progettoispw.letmeknow.controller.psyuser.Form2getFormid()*
-2*™
-1ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java* *("ñ
-ã
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/psyuser/Form.java* *(
-"":
-inputjava.util.List:
-""B20
-.progettoispw.letmeknow.controller.psyuser.Form
+Fprogettoispw.letmeknow.bean.HomepageBean#getUserId()Ljava/lang/String;ô
+éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*∆
+1ô
+éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("§
+ô
+éC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (&
+""B,*
+(progettoispw.letmeknow.bean.HomepageBean

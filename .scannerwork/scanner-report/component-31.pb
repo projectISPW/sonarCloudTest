@@ -1,1 +1,1 @@
- 2xmlXhrwDeliverables/TestSeleniumApi/seleniumTestAPI/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml
+ 2xmlX	hr7progettoRieditatosecondo/.idea/libraries/javax_mail.xml

@@ -1,27 +1,41 @@
 
-dprogettoispw.letmeknow.controller.form.FormDAO#setCalculated(Ljava/lang/String;I)Ljava/lang/Boolean;ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaê ê( "5*Æ
-2ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaî î(;"ò
-ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaî î(;
-""*ÿ
-3ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaì ì((Ω
-∫
-ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaì ì((
-stmtjava.sql.Statement"__id*
-""*
-2*ÿ
-5ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaë ë(Ω
-∫
-ç
-ÄC:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/database/progettoispw/letmeknow/controller/form/FormDAO.javaë ë(
-stmtjava.sql.Statement"__id*
-""*
-3:
-useridjava.lang.String:
-""B20
-.progettoispw.letmeknow.controller.form.FormDAO
+iprogettoispw.letmeknow.controller.ConcretePsyUser#checkCredentials(Ljava/lang/String;Ljava/lang/String;)Zå
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (*"6*´
+2å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (ë
+é
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (
+
+%2void":progettoispw.letmeknow.controller.ConcretePsyUser#reset()V*5"3
+1progettoispw.letmeknow.controller.ConcretePsyUser*
+1*‹
+3å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (¬
+ø
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (
+
+%1void"Mprogettoispw.letmeknow.controller.ConcretePsyUser#setAll(Ljava/lang/String;)V*5"3
+1progettoispw.letmeknow.controller.ConcretePsyUser*
+
+useridjava.lang.String*
+1*Æ
+6å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (ë
+é
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (
+
+%0void":progettoispw.letmeknow.controller.ConcretePsyUser#reset()V*5"3
+1progettoispw.letmeknow.controller.ConcretePsyUser*
+2
+3*¨
+1å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java ("ó
+å
+ÅC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcretePsyUser.java (
+"":
+useridjava.lang.String:
+passwordjava.lang.StringB5"3
+1progettoispw.letmeknow.controller.ConcretePsyUser

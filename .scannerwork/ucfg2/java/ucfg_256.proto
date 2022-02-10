@@ -1,9 +1,28 @@
 
-Xprogettoispw.letmeknow.controller.CollectionFormController#getUserid()Ljava/lang/String;Â
-·C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/controller/CollectionFormController.java ("1*˜
-1Â
-·C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/controller/CollectionFormController.java% (4"Í
-Â
-·C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/controller/CollectionFormController.java (N
-""B><
-:progettoispw.letmeknow.controller.CollectionFormController
+Iprogettoispw.letmeknow.controller.LastMessage#getText()Ljava/lang/String;†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java ("1*ç
+1†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java (ê
+ç
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java (&
+%0java.lang.String"__id*>*</
+-progettoispw.letmeknow.controller.LastMessage"	
+lastmsgØ
+Õ
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java (.</
+-progettoispw.letmeknow.controller.LastMessage"	
+lastmsg"__id*
+""ê
+ç
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java (
+%1java.lang.String"__id*>*</
+-progettoispw.letmeknow.controller.LastMessage"	
+lastmsg"£
+†
+|C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/LastMessage.java (
+
+%1java.lang.StringB1/
+-progettoispw.letmeknow.controller.LastMessage

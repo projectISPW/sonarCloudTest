@@ -1,35 +1,16 @@
 
-Fprogettoispw.letmeknow.bean.SignupBean#checkVal([Ljava/lang/String;)[IŸ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ("5"1*Ò
-3Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java#E #(F"ª
-Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java#6 #(H
-""*¶
-5Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" "(î
-ë
-Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java", "(2
-%0java.lang.String"
-__arrayGet*
-
-valjava.lang.String[]*
-""’
-
-Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java" "(3	
-%1int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
+Oprogettoispw.letmeknow.controller.usruser.UsrUser#getUserid()Ljava/lang/String;€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java ("1*
+1€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java (ä
+á
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java (
+%0java.lang.String"__id*>*<3
+1progettoispw.letmeknow.controller.usruser.UsrUser"
+uid"
+€
+vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.java (
 
-%0java.lang.String*	
-3
-5
-1*Ò
-1Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java% %("ª
-Ÿ
-”C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java% %(
-"":
-valjava.lang.String[]B*(
-&progettoispw.letmeknow.bean.SignupBean
+%0java.lang.StringB53
+1progettoispw.letmeknow.controller.usruser.UsrUser

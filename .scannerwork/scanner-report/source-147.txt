@@ -1,1 +1,6 @@
-{"uuid":"e94d70a8-26b5-4c2a-bd74-7a5872a49b17","name":"testUiniversities()","children":["16cdcbdd-792f-46e0-bc4f-67611c783c9b"],"befores":[],"afters":[],"start":1643880459666,"stop":1643880463391}
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectState">
+    <lastEventPolling>1643354665224</lastEventPolling>
+  </component>
+</project>

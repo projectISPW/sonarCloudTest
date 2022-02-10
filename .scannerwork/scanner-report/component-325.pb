@@ -1,1 +1,1 @@
-Å 2xmlX	hrpLetMeKnow/progettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+Å 2javaXJhrzprogettoRieditatosecondo/src/main/usecase/homepage/controllerView/progettoispw/letmeknow/AdviseBoarcControllerInterf2.java

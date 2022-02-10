@@ -1,28 +1,16 @@
 
-Fprogettoispw.letmeknow.bean.LastMessage#getLastmsg()Ljava/lang/String;Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java ("1*ù	
-1Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (å
-â
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (&
-%0java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg˙
-˜
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (.6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg"__id*
-""å
-â
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
-%1java.lang.String"__id*8*6)
-'progettoispw.letmeknow.bean.LastMessage"	
-lastmsg"À
-Æ
-£C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/LastMessage.java (
+Iprogettoispw.letmeknow.controller.usruser.Goal#getTag()Ljava/lang/String;}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java< <("1*˛
+1}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java= =(›
+⁄
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java= =(
+%0java.lang.String"__id*;*90
+.progettoispw.letmeknow.controller.usruser.Goal"
+tag"ô
+}
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java= =(
 
-%1java.lang.StringB+)
-'progettoispw.letmeknow.bean.LastMessage
+%0java.lang.StringB20
+.progettoispw.letmeknow.controller.usruser.Goal

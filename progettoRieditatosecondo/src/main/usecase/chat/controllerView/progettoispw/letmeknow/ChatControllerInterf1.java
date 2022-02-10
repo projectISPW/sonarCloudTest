@@ -31,11 +31,11 @@ public class ChatControllerInterf1 {
     protected  PageMenu controller;
     protected ChatBean bean;
     protected  String [] message;
-    protected  CSS graphic;
+    protected Decorator graphic;
     protected Timeline timeline;
     public ChatControllerInterf1() {
         bean=new ChatBean();
-        graphic=new CSS(true);
+        graphic=new Decorator(true);
         initializated=false;
         controller=new PageMenu();
         timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::action));

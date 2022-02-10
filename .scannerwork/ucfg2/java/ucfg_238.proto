@@ -1,9 +1,27 @@
 
-Rprogettoispw.letmeknow.controller.HomepageController#getUserID()Ljava/lang/String;Ø
-§C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java ("1*Ú
-1Ø
-§C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java ("∫
-Ø
-§C:/sonar/sonarCloudTest/LetMeKnow/progettoRieditatosecondo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/controller/HomepageController.java ( 
-""B86
-4progettoispw.letmeknow.controller.HomepageController
+dprogettoispw.letmeknow.controller.form.FormDAO#setCalculated(Ljava/lang/String;I)Ljava/lang/Boolean;
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaô ô( "5*ê
+2
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaù ù(;"â
+
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaù ù(;
+""*∫
+3
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaú ú(%Æ
+´
+
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaú ú(%
+stmtjava.sql.Statement"__id*
+""*
+2*∫
+5
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaö ö(Æ
+´
+
+sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaö ö(
+stmtjava.sql.Statement"__id*
+""*
+3:
+useridjava.lang.String:
+""B20
+.progettoispw.letmeknow.controller.form.FormDAO
