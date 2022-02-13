@@ -1,64 +1,39 @@
 
-Jprogettoispw.letmeknow.controller.chat.Messages#getUsers()Ljava/util/List;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java   ( "5*Â
-3~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java$ $(ÍÁ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java$ $()
-%3"[progettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;Ljava/util/List;)V*31
-/progettoispw.letmeknow.controller.chat.Messages*
-""*
-
-usersjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)ÍÁ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java% %(*
-%4"[progettoispw.letmeknow.controller.chat.Messages#attach(Ljava/lang/String;Ljava/util/List;)V*31
-/progettoispw.letmeknow.controller.chat.Messages*
-""*
-
-usersjava.util.List2*attach(Ljava/lang/String;Ljava/util/List;)*
-3
-1*Ë
-5~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java! !(,≥∞
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java! !(*
-%0java.util.ArrayList"java.util.ArrayList≈
-¬
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java! !(,
-%1"java.util.ArrayList#<init>()V*
-
-%0java.util.ArrayListø
-º
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java! !(-
-usersjava.util.List"__id*
-
-%0java.util.ArrayListöó
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java" "((
-%2"Lprogettoispw.letmeknow.controller.chat.Messages#getAllChat()Ljava/util/List;*31
-/progettoispw.letmeknow.controller.chat.Messages2getAllChat()*
-3
-1*ò
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java' '(‚
-ﬂ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java' '(
-%5java.lang.String"__id*?*=1
-/progettoispw.letmeknow.controller.chat.Messages"
-useridèå
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java' '(
-%6boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
-
-usersjava.util.List*
+uprogettoispw.letmeknow.controller.search.Query#getVisited(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java- -("4*ú
+2{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java0 0(*"ô
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java0 0(*
+
+%1java.sql.ResultSet*Ç
+3{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java/ /(}π
+∂
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java/ /(}
+sqljava.lang.String"__id*
 
-%5java.lang.String2remove(Ljava/lang/Object;)"õ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java( ((
+%0java.lang.Stringæª
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java0 0()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
 
-usersjava.util.ListB31
-/progettoispw.letmeknow.controller.chat.Messages
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2*˘
+4{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java/ /(Ò
+Ó
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java/ /(|
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*QO
+MSELECT `visit1`,`visit2`,`visit3` FROM `recently_visited` WHERE `userid`='%s'*
+
+useridjava.lang.String*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.StringB20
+.progettoispw.letmeknow.controller.search.Query

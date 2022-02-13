@@ -1,41 +1,25 @@
 
-<progettoispw.letmeknow.controller.usruser.Goal#getExpired()Z}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java? ?("1*Ë
-1}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java@ @(!€
-ý
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java@ @(U
-%0java.time.LocalDate"0java.time.LocalDate#of(III)Ljava/time/LocalDate;*"
-java.time.LocalDate*
-""*
-""*
-""Ã
-À
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java@ @(V
-innerjava.time.LocalDate"__id*
-
-%0java.time.LocalDateæ
-ã
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.javaA A(*
-%1java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*"
-java.time.LocalDateÅ
-Â
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.javaA A(+
-comparejava.time.LocalDate"__id*
-
-%1java.time.LocalDateÂ¿
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.javaB B(%
-%2boolean"@java.time.LocalDate#isAfter(Ljava/time/chrono/ChronoLocalDate;)Z* 
-
-comparejava.time.LocalDate*
-
-innerjava.time.LocalDate2+isAfter(Ljava/time/chrono/ChronoLocalDate;)"‡
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.javaB B(&
-""B20
-.progettoispw.letmeknow.controller.usruser.Goal
+Cprogettoispw.letmeknow.bean.HomepageBean#getTag()Ljava/lang/String;—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java ("1*ª
+1—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java) (*Ä
+Á
+—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java (!
+tagjava.lang.String"__id*
+""Ä
+Á
+—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java   (*
+tagjava.lang.String"__id*
+""Ä
+Á
+—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java! !(
+tagjava.lang.String"__id*
+"""µ
+—
+ŒC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java" "(
+
+tagjava.lang.StringB,*
+(progettoispw.letmeknow.bean.HomepageBean

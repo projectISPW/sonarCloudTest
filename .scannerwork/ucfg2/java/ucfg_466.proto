@@ -1,9 +1,16 @@
 
-Jprogettoispw.letmeknow.controller.ISCController#getUid()Ljava/lang/String;¬
-¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("1*ì
-1¬
-¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ("·
-¬
-¡C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/controller/ISCController.java ( 
-""B31
-/progettoispw.letmeknow.controller.ISCController
+Bprogettoispw.letmeknow.bean.StringBean#getPass()Ljava/lang/String;™
+ŽC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/StringBean.java ("1*Î
+1™
+ŽC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/StringBean.java (ó
+ð
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/StringBean.java (
+%0java.lang.String"__id*4*2(
+&progettoispw.letmeknow.bean.StringBean"
+pass"¶
+™
+ŽC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/StringBean.java (
+
+%0java.lang.StringB*(
+&progettoispw.letmeknow.bean.StringBean

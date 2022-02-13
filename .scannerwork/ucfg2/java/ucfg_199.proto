@@ -1,9 +1,16 @@
 
-Fprogettoispw.letmeknow.bean.FormResultBean#getData()Ljava/lang/String;ù
-íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1*Œ
-1ù
-íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("®
-ù
-íC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ($
-""B.,
-*progettoispw.letmeknow.bean.FormResultBean
+Cprogettoispw.letmeknow.bean.MessageBean#getText()Ljava/lang/String;í
+áC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/MessageBean.java ("1*∫
+1í
+áC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/MessageBean.java (Ì
+Í
+í
+áC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/MessageBean.java (
+%0java.lang.String"__id*5*3)
+'progettoispw.letmeknow.bean.MessageBean"
+text"Ø
+í
+áC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/MessageBean.java (
+
+%0java.lang.StringB+)
+'progettoispw.letmeknow.bean.MessageBean

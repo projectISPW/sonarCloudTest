@@ -1,15 +1,9 @@
 
-Hprogettoispw.letmeknow.controller.InnerUsers#getGoal()Ljava/lang/String;Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java ("1*Ü
-1Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (Â
-‚
-Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java ("
-%0java.lang.String"__id*:*8.
-,progettoispw.letmeknow.controller.InnerUsers"
-goal"ê
-Ö
-{C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (+
-""B0.
-,progettoispw.letmeknow.controller.InnerUsers
+Nprogettoispw.letmeknow.bean.FormToTakeStatusBean#getUserid()Ljava/lang/String;°
+ñC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("1*÷
+1°
+ñC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("¨
+°
+ñC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ( 
+""B42
+0progettoispw.letmeknow.bean.FormToTakeStatusBean

@@ -1,37 +1,17 @@
 
-sprogettoispw.letmeknow.controller.user.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java (""1*ì
-1{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java	 	(Ð
-Í
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java	 	(W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*0.
-, SELECT * FROM utenti  where userid = '%s' ;*
-
-iduserjava.lang.String¹
-¶
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java	 	(X
-sqljava.lang.String"__id*
+Fprogettoispw.letmeknow.bean.SignupBean#getPassword()Ljava/lang/String;“
+ˆC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java ("1*À
+1“
+ˆC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (ñ
+î
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (
+%0java.lang.String"__id*8*6(
+&progettoispw.letmeknow.bean.SignupBean"
+
+password"°
+“
+ˆC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java (
 
-%0java.lang.String¾»
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java
- 
-(%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"™
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/Query.java
- 
-(&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB0.
-,progettoispw.letmeknow.controller.user.Query
+%0java.lang.StringB*(
+&progettoispw.letmeknow.bean.SignupBean

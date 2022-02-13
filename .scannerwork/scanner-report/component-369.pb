@@ -1,1 +1,1 @@
-ñ 2javaXkhrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf1.java
+ñ 2javaXRhraprogettoRieditatoTerzo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java

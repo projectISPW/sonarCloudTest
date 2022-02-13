@@ -1,2 +1,1 @@
-1 2xmlX
-hr4progettoRieditatosecondo/.idea/runConfigurations.xml
+1 2xmlXhrRprogettoRieditatoTerzo/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_0_1.xml

@@ -1,1 +1,1 @@
-ò 2javaX$hrwprogettoRieditatosecondo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf2.java
+ò 2javaXhrpprogettoRieditatoTerzo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/FactoryBean.java

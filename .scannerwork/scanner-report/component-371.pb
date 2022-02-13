@@ -1,1 +1,1 @@
-ó 2javaX.hrrprogettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java
+ó 2javaXhrlprogettoRieditatoTerzo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LogBean.java

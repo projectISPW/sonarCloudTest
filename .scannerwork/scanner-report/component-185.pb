@@ -1,1 +1,1 @@
-¹ 2javaXhrcprogettoRieditatosecondo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java
+¹ 2javaXGhrYprogettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java

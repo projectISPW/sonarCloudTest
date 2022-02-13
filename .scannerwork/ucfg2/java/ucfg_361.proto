@@ -1,37 +1,12 @@
 
-vprogettoispw.letmeknow.controller.usruser.Query#selectUser(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java (""1*û
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java	 	(Ó
-Ð
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java	 	(W
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*0.
-, SELECT * FROM utenti  where userid = '%s' ;*
-
-iduserjava.lang.String¼
-¹
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java	 	(X
-sqljava.lang.String"__id*
-
-%0java.lang.StringÁ¾
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java
- 
-(%
-%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2 executeQuery(Ljava/lang/String;)"œ
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/Query.java
- 
-(&
-
-%1java.sql.ResultSet:
-stmtjava.sql.Statement:
-iduserjava.lang.StringB31
-/progettoispw.letmeknow.controller.usruser.Query
+?__sonar_lambda_5$progettoispw.letmeknow.SearchControllerInterf1”
+‰C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf1.javaE/ E(["1*¼
+1”
+‰C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf1.javaEJ E(X"Ÿ
+”
+‰C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf1.javaEJ E([
+"":
+"":
+"":
+""B
+	!Unknown!

@@ -1,10 +1,24 @@
 
-]progettoispw.letmeknow.controller.HomepagePsychologistController#setFeed(Ljava/lang/String;)Z¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java/ /("1*Œ
-1¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java0 0("Ç
-¼
-±C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/controller/HomepagePsychologistController.java0 0(+
-"":
-inputjava.lang.StringBDB
-@progettoispw.letmeknow.controller.HomepagePsychologistController
+;progettoispw.letmeknow.controller.search.Sliders#getAll()[I}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java# #("1*È
+1}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java$ $( ‘Ž
+}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java$ $(.	
+%0int":progettoispw.letmeknow.controller.search.Sliders#check(I)I*42
+0progettoispw.letmeknow.controller.search.Sliders*
+""2check(I)‘Ž
+}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java$/ $(B	
+%1int":progettoispw.letmeknow.controller.search.Sliders#check(I)I*42
+0progettoispw.letmeknow.controller.search.Sliders*
+""2check(I)‘Ž
+}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java$C $(V	
+%2int":progettoispw.letmeknow.controller.search.Sliders#check(I)I*42
+0progettoispw.letmeknow.controller.search.Sliders*
+""2check(I)"‡
+}
+sC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Sliders.java$ $(X
+""B42
+0progettoispw.letmeknow.controller.search.Sliders

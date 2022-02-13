@@ -1,1 +1,1 @@
-Ô 2javaXhrvprogettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java
+Ô 2javaXßhrçprogettoRieditatoTerzo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.java

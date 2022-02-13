@@ -1,1 +1,0 @@
-Ì 2xmlXhr\progettoRieditatosecondo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml

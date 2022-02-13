@@ -1,1 +1,1 @@
-À 2javaXhrjprogettoRieditatosecondo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java
+À 2javaXEhrWprogettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java

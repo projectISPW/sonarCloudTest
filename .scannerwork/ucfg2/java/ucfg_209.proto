@@ -1,41 +1,41 @@
 
-iprogettoispw.letmeknow.controller.ConcreteUsrUser#checkCredentials(Ljava/lang/String;Ljava/lang/String;)ZŒ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (*"6*«
-2Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java" "(‘
-Ž
-Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java" "(
-
-%2void":progettoispw.letmeknow.controller.ConcreteUsrUser#reset()V*5"3
-1progettoispw.letmeknow.controller.ConcreteUsrUser*
-1*Ü
-3Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java   (Â
-¿
-Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java   (
-
-%1void"Mprogettoispw.letmeknow.controller.ConcreteUsrUser#setAll(Ljava/lang/String;)V*5"3
-1progettoispw.letmeknow.controller.ConcreteUsrUser*
+lprogettoispw.letmeknow.controller.user.Query#feed(Ljava/sql/Statement;Ljava/lang/String;Ljava/lang/String;)Zy
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java: :("5*„
+3y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java> >("ƒ
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java> >(
+""*Þ
+4z
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java< <(‰¸
+µ
+z
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java< <(‰
+sqljava.lang.String"__id*
+
+%0java.lang.Stringœ™
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java= =(#	
+%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
 
-useridjava.lang.String*
-1*®
-6Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (‘
-Ž
-Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java (
-
-%0void":progettoispw.letmeknow.controller.ConcreteUsrUser#reset()V*5"3
-1progettoispw.letmeknow.controller.ConcreteUsrUser*
-2
-3*¬
-1Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java$ $("—
-Œ
-C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/ConcreteUsrUser.java$ $(
-"":
-useridjava.lang.String:
-passwordjava.lang.StringB5"3
-1progettoispw.letmeknow.controller.ConcreteUsrUser
+stmtjava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+3*™
+5y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java< <(“
+
+z
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/Query.java< <(ˆ
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*ZX
+V INSERT INTO suggest (`from`, `content`,`when`) VALUES ('%s', '%s',CURRENT_TIMESTAMP);*
+
+fromjava.lang.String*
+
+whatjava.lang.String*
+4:
+stmtjava.sql.Statement:
+fromjava.lang.String:
+whatjava.lang.StringB0.
+,progettoispw.letmeknow.controller.user.Query

@@ -1,43 +1,9 @@
 
-sprogettoispw.letmeknow.controller.form.Query#insertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)Z{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java ("4*ˆ
-2{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java ("…
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (
-""*ä
-3|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (‡º
-·
-|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (‡
-sqljava.lang.String"__id*
-
-%0java.lang.Stringž›
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*œ
-4{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (”
-‘
-|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (†
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*NL
-JINSERT INTO `forms` (`formid`, `userid`,`about`) VALUES ('%d', '%s','%s');*
-""*
-
-useridjava.lang.String*
-
-aboutjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-"":
-aboutjava.lang.StringB0.
-,progettoispw.letmeknow.controller.form.Query
+>progettoispw.letmeknow.bean.FormToTakeStatusBean#getStatus()[Z¡
+–C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("1*Ö
+1¡
+–C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("¬
+¡
+–C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ( 
+""B42
+0progettoispw.letmeknow.bean.FormToTakeStatusBean

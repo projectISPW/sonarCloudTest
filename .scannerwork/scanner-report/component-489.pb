@@ -1,0 +1,1 @@
+é 2xmlXhrZprogettoRieditatoTerzo/target/classes/progettoispw/letmeknow/emailMeta/EmailParameters.xml

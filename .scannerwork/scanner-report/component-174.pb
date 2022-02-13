@@ -1,1 +1,1 @@
-® 2javaX'hr]progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java
+® 2javaX(hrWprogettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/Query.java

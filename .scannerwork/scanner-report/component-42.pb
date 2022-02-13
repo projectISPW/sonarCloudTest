@@ -1,1 +1,1 @@
-* 2xmlXhrXprogettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_0_1.xml
+* 2xmlXhr^progettoRieditatoTerzo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml

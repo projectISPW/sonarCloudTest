@@ -1,0 +1,1 @@
+» 2javaXhroprogettoRieditatoTerzo/src/main/usecase/chat/controllerApplicative/progettoispw/letmeknow/bean/MessageBean.java

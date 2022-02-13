@@ -1,1 +1,1 @@
-- 2xmlXhrSprogettoRieditatosecondo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml
+- 2xmlXhrRprogettoRieditatoTerzo/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_0_1.xml

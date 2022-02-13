@@ -1,9 +1,29 @@
 
-Oprogettoispw.letmeknow.controller.FormToTakeStatusController#getValResponse()[I¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("1*ò
-1¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java ("º
-¯
-¤C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/controller/FormToTakeStatusController.java (!
-""B@>
-<progettoispw.letmeknow.controller.FormToTakeStatusController
+†progettoispw.letmeknow.controller.user.UserDAO#registration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javag g("5*ˆ
+2{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javak k(?"…
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javak k(?
+""*²
+3{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javaj j(%ª
+§
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javaj j(%
+stmtjava.sql.Statement"__id*
+""*
+2*²
+5{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javah h(ª
+§
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/UserDAO.javah h(
+stmtjava.sql.Statement"__id*
+""*
+3:
+uidjava.lang.String:
+passwordjava.lang.String:
+typejava.lang.String:
+emailjava.lang.StringB20
+.progettoispw.letmeknow.controller.user.UserDAO

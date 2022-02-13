@@ -1,9 +1,57 @@
 
-?progettoispw.letmeknow.bean.FormToTakeStatusBean#exitStatus()[Z£
-˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("1*Ú
-1£
-˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java ("®
-£
-˜C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/formToTake/controllerApplicative/progettoispw/letmeknow/bean/FormToTakeStatusBean.java (&
-""B42
-0progettoispw.letmeknow.bean.FormToTakeStatusBean
+uprogettoispw.letmeknow.controller.chat.MessageDAO#newMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaA A("6*Ž
+2~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaG G(3"ˆ
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaG G(3
+""*È
+3~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaF F(+½
+º
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaF F(+
+textjava.lang.String"__id*
+
+%1java.lang.String*
+2*­
+4~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaD D(%­
+ª
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaD D(%
+stmtjava.sql.Statement"__id*
+""µ
+²
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaE E(%
+%0java.lang.String"__concat*
+\\*
+\"À
+½
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaE E(&
+replacejava.lang.String"__id*
+
+%0java.lang.String÷ô
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaF F(+
+%1java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*
+
+textjava.lang.String*
+\"*
+
+replacejava.lang.String29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)*
+3*¸
+6~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaB B(­
+ª
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/MessageDAO.javaB B(
+stmtjava.sql.Statement"__id*
+""*
+4:
+fromjava.lang.String:
+tojava.lang.String:
+textjava.lang.StringB53
+1progettoispw.letmeknow.controller.chat.MessageDAO

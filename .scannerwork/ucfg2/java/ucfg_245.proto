@@ -1,10 +1,33 @@
 
-Uprogettoispw.letmeknow.controller.SettingsController#setPassword(Ljava/lang/String;)Z•
-öC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("1*ﬁ
-1•
-öC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java ("∞
-•
-öC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/controller/SettingsController.java (&
-"":
-inputjava.lang.StringB86
-4progettoispw.letmeknow.controller.SettingsController
+Wprogettoispw.letmeknow.controller.Factory#tryLog(Ljava/lang/String;Ljava/lang/String;)ZÅ
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java
+ 
+("2"4"1*Ï
+2Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java (›⁄
+Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java ('
+
+%1void"Rprogettoispw.letmeknow.controller.Factory#concreteInitialUser(Ljava/lang/String;)V*-+
+)progettoispw.letmeknow.controller.Factory*
+
+useridjava.lang.String2'concreteInitialUser(Ljava/lang/String;)*
+1*Ï
+4Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java (›⁄
+Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java ('
+
+%0void"Rprogettoispw.letmeknow.controller.Factory#concreteInitialUser(Ljava/lang/String;)V*-+
+)progettoispw.letmeknow.controller.Factory*
+
+useridjava.lang.String2'concreteInitialUser(Ljava/lang/String;)*
+1*ñ
+1Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java ("å
+Å
+wC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java (
+"":
+useridjava.lang.String:
+passwordjava.lang.StringB-+
+)progettoispw.letmeknow.controller.Factory

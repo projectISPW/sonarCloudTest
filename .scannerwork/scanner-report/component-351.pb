@@ -1,1 +1,1 @@
-ß 2javaX3hrjprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/ButtonBarInterf2.java
+ß 2javaXhrvprogettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/StringBean.java

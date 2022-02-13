@@ -1,1 +1,1 @@
-/ 2xmlXhr'progettoRieditatosecondo/.idea/misc.xml
+/ 2xmlXhrVprogettoRieditatoTerzo/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_0_1.xml

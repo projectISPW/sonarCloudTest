@@ -1,102 +1,49 @@
 
-Oprogettoispw.letmeknow.controller.form.FormDAO#queryParam(Ljava/lang/String;)[I}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.java] ]("16*á
-13}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javae e(ÒÏ
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javae e(
-%0boolean"java.sql.ResultSet#next()Z*
-
-rstjava.sql.ResultSet2next()*
-4
-11*·
-14}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javad d(,«
-¨
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javad d(,
-rstjava.sql.ResultSet"__id*
-""*
-13*Œ
-4}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaj j("‡
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaj j(
-""*•
-16}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.java^ ^(¬
-©
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.java^ ^(
-stmtjava.sql.Statement"__id*
-""«
-¨
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.java_ _(
-rstjava.sql.ResultSet"__id*
-""¬
-©
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.java` `(!
-stmtjava.sql.Statement"__id*
-""*
-14*ú
-6}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javah  h(Gï
-ì
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javah  h(G	
-%6int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
+vprogettoispw.letmeknow.controller.form.Query#queryResults(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/sql/ResultSet;y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (!"4*˜
+2y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (*"—
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java (*
+
+%1java.sql.ResultSet*ü
+3y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java
+ 
+(t·
+´
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java
+ 
+(t
+sqljava.lang.String"__id*
 
-%5java.lang.String*
-13*Š
-7}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javag g(G€ý
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javah1 h(F
-%5java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(I)*
-6*ù
-8}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javag  g(Gï
-ì
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javag  g(G	
-%4int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%3java.lang.String*
-7*Š
-9}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaf f(G€ý
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javag1 g(F
-%3java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(I)*
-8*ú
-10}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaf  f(Gï
-ì
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaf  f(G	
-%2int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-%1java.lang.String*
-9*Œ
-11}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaf f(€ý
-}
-sC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/FormDAO.javaf1 f(F
-%1java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*
-
-rstjava.sql.ResultSet*
-""2getString(I)*
-10:
-useridjava.lang.StringB20
-.progettoispw.letmeknow.controller.form.FormDAO
+%0java.lang.String¼¹
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java ()
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+2*é
+4y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java
+ 
+(ã
+à
+y
+oC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/Query.java
+ 
+(s
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*=;
+9 SELECT *  FROM forms where userid = '%s' and formid='%d'*
+
+useridjava.lang.String*
+""*
+3:
+stmtjava.sql.Statement:
+useridjava.lang.String:
+""B0.
+,progettoispw.letmeknow.controller.form.Query

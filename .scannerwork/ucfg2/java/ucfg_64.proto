@@ -1,17 +1,47 @@
 
-Pprogettoispw.letmeknow.controller.user.EmailInfo#getPassword()Ljava/lang/String;
-uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java! !("1*ã
-1
-uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java" "(Ê
-„
+Zprogettoispw.letmeknow.controller.user.InitialUser#confirmCredentials(Ljava/lang/String;)Z
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java] ](%"startingBlock*ï
+2
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java_ _(Ë
+Â
 
-uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java" "(
-%0java.lang.String"__id*B*@2
-0progettoispw.letmeknow.controller.user.EmailInfo"
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java_ _( 
+%0java.lang.String"__id*D*B4
+2progettoispw.letmeknow.controller.user.InitialUser"
 
-password"õ
+passwordóî
 
-uC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java" "(
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java_ _(1
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
 
-%0java.lang.StringB42
-0progettoispw.letmeknow.controller.user.EmailInfo
+%0java.lang.String*
+
+passwordjava.lang.String2equals(Ljava/lang/Object;)"â
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java_ _(2
+""*§
+startingBlock
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java]% ](6Œ
+À
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java\ \(
+%2"
+__annotate*
+java.lang.Override*
+
+passwordjava.lang.String∏
+µ
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java]- ](5
+passwordjava.lang.String"__annotation*
+
+%2*
+2
+1*ê
+1
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaa a("â
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaa a(
+"":
+passwordjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

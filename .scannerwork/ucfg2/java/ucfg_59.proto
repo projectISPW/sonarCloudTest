@@ -1,39 +1,10 @@
 
-vprogettoispw.letmeknow.controller.form.Query#setCalculated(Ljava/sql/Statement;Ljava/lang/String;I)Ljava/lang/Boolean;{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java= =( "4*Ü
-2{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.javaA A("É
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.javaA A(2*‰
-3|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java? ?(à∫
-∑
-|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java? ?(à
-sqljava.lang.String"__id*
-
-%0java.lang.Stringûõ
-{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java@ @(#	
-%1int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*
-
-stmtjava.sql.Statement*
-
-sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
-2*Ö
-4{
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java? ?(˝
-˙
-|
-qC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/form/Query.java? ?(á
-%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*TR
-P UPDATE  forms  set `calculated`=1  WHERE (`formid` = %d) and (`userid` = '%s');*
-""*
-
-useridjava.lang.String*
-3:
-stmtjava.sql.Statement:
-useridjava.lang.String:
-""B0.
-,progettoispw.letmeknow.controller.form.Query
+Rprogettoispw.letmeknow.controller.user.InitialUser#checkEmail(Ljava/lang/String;)Z
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java( (("1*ê
+1
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java) )(+"â
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.java+ +(
+"":
+inputjava.lang.StringB64
+2progettoispw.letmeknow.controller.user.InitialUser

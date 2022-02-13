@@ -1,1 +1,1 @@
-  2javaXnhr\progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java
+  2xmlXhr0progettoRieditatoTerzo/.idea/sonarlint-state.xml

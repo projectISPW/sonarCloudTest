@@ -1,1 +1,1 @@
-à 2javaXRhrcprogettoRieditatosecondo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java
+à 2javaXhrwprogettoRieditatoTerzo/src/main/usecase/homepageEdit/controllerApplicative/progettoispw/letmeknow/bean/UsrUserBean.java

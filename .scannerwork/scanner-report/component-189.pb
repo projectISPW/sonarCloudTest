@@ -1,1 +1,1 @@
-½ 2javaXhraprogettoRieditatosecondo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java
+½ 2javaX'hr[progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/user/EmailInfo.java

@@ -1,25 +1,15 @@
 
-Qprogettoispw.letmeknow.bean.HomepagePsychologistBean#getMonth()Ljava/lang/String;∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("1*™
-1∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (†
-ù
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (
-%0java.lang.String[]"__id*H*F6
-4progettoispw.letmeknow.bean.HomepagePsychologistBean"
-
-monthNames˛
-˚
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java ("
-%1java.lang.String"
-__arrayGet*
-
-%0java.lang.String[]*
-"""Õ
-∞
-•C:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/homepagePsycologist/controllerApplicative/progettoispw/letmeknow/bean/HomepagePsychologistBean.java (#
-
-%1java.lang.StringB86
-4progettoispw.letmeknow.bean.HomepagePsychologistBean
+Oprogettoispw.letmeknow.controller.InnerUsers#getDescription()Ljava/lang/String;É
+yC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java ( "1*á
+1É
+yC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (Í
+Á
+É
+yC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java ()
+%0java.lang.String"__id*A*?.
+,progettoispw.letmeknow.controller.InnerUsers"
+description"é
+É
+yC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java (2
+""B0.
+,progettoispw.letmeknow.controller.InnerUsers

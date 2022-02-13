@@ -1,1 +1,1 @@
-ª 2javaXGhr[progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/search/Query.java
+ª 2javaX?hrPprogettoRieditatoTerzo/src/main/java/progettoispw/letmeknow/MainApplication.java

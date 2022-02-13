@@ -1,16 +1,9 @@
 
-Nprogettoispw.letmeknow.controller.user.InitialUser#getType()Ljava/lang/String;Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaS S("1*í
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaT T(Á
-‰
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaT T(
-%0java.lang.String"__id*@*>4
-2progettoispw.letmeknow.controller.user.InitialUser"
-type"û
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaT T(
-
-%0java.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+Fprogettoispw.letmeknow.bean.FormResultBean#getDate()Ljava/lang/String;õ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1* 
+1õ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("¶
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java (
+""B.,
+*progettoispw.letmeknow.bean.FormResultBean

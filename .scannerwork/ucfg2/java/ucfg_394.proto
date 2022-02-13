@@ -1,16 +1,39 @@
 
-Mprogettoispw.letmeknow.controller.chat.Messages#getUserid()Ljava/lang/String;~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java ("1*…
-1~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java (â
-ß
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java (
-%0java.lang.String"__id*?*=1
-/progettoispw.letmeknow.controller.chat.Messages"
-userid"š
-~
-tC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java (
+tprogettoispw.letmeknow.controller.search.Query#getnVisit(Ljava/sql/Statement;Ljava/lang/String;)Ljava/sql/ResultSet;{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java ("5*œ
+3{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (&"™
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (&
+
+%1java.sql.ResultSet*‚
+4{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (]¹
+¶
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (]
+sqljava.lang.String"__id*
 
-%0java.lang.StringB31
-/progettoispw.letmeknow.controller.chat.Messages
+%0java.lang.String¾»
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (%
+%1java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*
+
+stmtjava.sql.Statement*
+
+sqljava.lang.String2 executeQuery(Ljava/lang/String;)*
+3*Ý
+5{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (Õ
+Ò
+{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/search/Query.java (\
+%0java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*53
+1SELECT * from recently_visited where userid='%s' *
+
+useridjava.lang.String*
+4:
+stmtjava.sql.Statement:
+useridjava.lang.StringB20
+.progettoispw.letmeknow.controller.search.Query

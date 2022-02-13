@@ -1,1 +1,1 @@
-, 2xmlXhr\progettoRieditatosecondo/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_0_1.xml
+, 2xmlXhr`progettoRieditatoTerzo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml

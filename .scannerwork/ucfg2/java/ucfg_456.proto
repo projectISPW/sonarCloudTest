@@ -1,17 +1,9 @@
 
-`progettoispw.letmeknow.controller.user.InitialUser#getType(Ljava/lang/String;)Ljava/lang/String;Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaP P("1*í
-1Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaQ Q(Á
-‰
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaQ Q(
-%0java.lang.String"__id*@*>4
-2progettoispw.letmeknow.controller.user.InitialUser"
-type"û
-Å
-wC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/user/InitialUser.javaQ Q(
-
-%0java.lang.String:
-	pswdInputjava.lang.StringB64
-2progettoispw.letmeknow.controller.user.InitialUser
+7progettoispw.letmeknow.bean.FormResultBean#getParam()[Iõ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("1* 
+1õ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java ("¶
+õ
+êC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java (
+""B.,
+*progettoispw.letmeknow.bean.FormResultBean

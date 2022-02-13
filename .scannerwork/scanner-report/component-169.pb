@@ -1,1 +1,1 @@
-© 2javaXhr\progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/psyuser/Query.java
+© 2javaXhr5progettoRieditatoTerzo/src/main/java/module-info.java

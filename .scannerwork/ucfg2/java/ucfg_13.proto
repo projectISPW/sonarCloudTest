@@ -1,14 +1,16 @@
 
-}progettoispw.letmeknow.bean.SignupBean#signupUSR(Ljava/lang/String;Ljava/lang/String;[ILjava/lang/String;Ljava/lang/String;)Z•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java' '("1*¾
-1•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( ((" 
-•
-ŠC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/signup/controllerApplicative/progettoispw/letmeknow/bean/SignupBean.java( ((L
-"":
-passwordjava.lang.String:
-emailjava.lang.String:
-"":
-descriptionjava.lang.String:
-goaljava.lang.StringB*(
-&progettoispw.letmeknow.bean.SignupBean
+Mprogettoispw.letmeknow.controller.form.ResultForm#getDate()Ljava/lang/String;~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaJ J("1*…
+1~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaK K(â
+ß
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaK K(
+%0java.lang.String"__id*?*=3
+1progettoispw.letmeknow.controller.form.ResultForm"
+date"š
+~
+tC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/form/ResultForm.javaK K(
+
+%0java.lang.StringB53
+1progettoispw.letmeknow.controller.form.ResultForm

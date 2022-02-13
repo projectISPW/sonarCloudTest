@@ -1,1 +1,1 @@
-í 2javaXzhrsprogettoRieditatosecondo/src/main/usecase/search/controllerView/progettoispw/letmeknow/SearchControllerInterf1.java
+í 2javaX'hr{progettoRieditatoTerzo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

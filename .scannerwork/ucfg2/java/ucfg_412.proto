@@ -1,11 +1,9 @@
 
-_progettoispw.letmeknow.controller.LoginController#getLog(Ljava/lang/String;Ljava/lang/String;)Zü
-îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java ("1*“
-1ü
-îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java	 	("™
-ü
-îC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java	 	(/
-"":
-useridjava.lang.String:
-passwordjava.lang.StringB53
-1progettoispw.letmeknow.controller.LoginController
+=progettoispw.letmeknow.controller.psyuser.Calendar#getYear()I
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/psyuser/Calendar.java ("1*ê
+1
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/psyuser/Calendar.java ("â
+
+uC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/psyuser/Calendar.java (
+""B64
+2progettoispw.letmeknow.controller.psyuser.Calendar

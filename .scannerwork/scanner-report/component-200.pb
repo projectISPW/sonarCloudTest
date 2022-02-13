@@ -1,1 +1,1 @@
-È 2xmlX	hrfprogettoRieditatosecondo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
+È 2javaXhraprogettoRieditatoTerzo/src/main/patterns/facade/progettoispw/letmeknow/controller/InnerUsers.java

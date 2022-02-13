@@ -1,23 +1,19 @@
 
-Uprogettoispw.letmeknow.controller.usruser.UsrUser#setPersonalDes(Ljava/lang/String;)Z€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaB B(!"1*ä
-1€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaC C(æ
-ã
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaC C(<3
-1progettoispw.letmeknow.controller.usruser.UsrUser"
-des"__id*
-
-newSjava.lang.Stringä
-á
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaD* D(-
-%0java.lang.String"__id*>*<3
-1progettoispw.letmeknow.controller.usruser.UsrUser"
-uid"‹
-€
-vC:/sonar/sonarCloudTest/progettoRieditatosecondo/src/main/model/progettoispw/letmeknow/controller/usruser/UsrUser.javaD D(4
-"":
-newSjava.lang.StringB53
-1progettoispw.letmeknow.controller.usruser.UsrUser
+Dprogettoispw.letmeknow.bean.EmailCheck#setEmail(Ljava/lang/String;)Z˜
+C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/EmailCheck.java
+ 
+("2*½
+2˜
+C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/EmailCheck.java (ö
+ó
+˜
+C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/EmailCheck.java (3(
+&progettoispw.letmeknow.bean.EmailCheck"
+email"__id*
+
+emailjava.lang.String"£
+˜
+C:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/usecase/recoverPSWD/controllerApplicative/progettoispw/letmeknow/bean/EmailCheck.java (
+"":
+emailjava.lang.StringB*(
+&progettoispw.letmeknow.bean.EmailCheck

@@ -1,6 +1,3 @@
-p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2)) p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 255 *p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2FF &p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2QQ &p
-javaS4507UMake sure this debug feature is deactivated before delivering the code in production. 2[[ &
+`
+javaS2245EMake sure that using this pseudorandom number generator is safe here. 2&& `
+javaS2245EMake sure that using this pseudorandom number generator is safe here. 2JJ+ 1
