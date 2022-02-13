@@ -1,1 +1,1 @@
-Ñ 2javaX‚hrwprogettoRieditatoTerzo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf1.java
+Ñ 2javaXhrmprogettoRieditatoTerzo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/IntBean.java

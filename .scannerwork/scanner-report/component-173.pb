@@ -1,1 +1,1 @@
-­ 2javaXuhrZprogettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/Messages.java
+­ 2xmlXhr^progettoRieditatoTerzo/src/main/resources/progettoispw/letmeknow/emailMeta/EmailParameters.xml

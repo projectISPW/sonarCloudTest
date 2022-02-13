@@ -1,1 +1,1 @@
-¢ 2xmlX|hr+progettoRieditatoTerzo/.idea/uiDesigner.xml
+¢ 2javaX1hrhprogettoRieditatoTerzo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionInfo.java

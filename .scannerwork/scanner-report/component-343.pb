@@ -1,1 +1,1 @@
-× 2javaX%hrwprogettoRieditatoTerzo/src/main/usecase/homepage/controllerView/progettoispw/letmeknow/HomepageHomepageEditInterf2.java
+× 2javaXhrvprogettoRieditatoTerzo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/TwoStringsBean.java

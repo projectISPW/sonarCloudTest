@@ -1,1 +1,1 @@
-¡ 2xmlXhr*progettoRieditatoTerzo/.idea/sonarlint.xml
+¡ 2javaXahrhprogettoRieditatoTerzo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ConnectionDBMS.java

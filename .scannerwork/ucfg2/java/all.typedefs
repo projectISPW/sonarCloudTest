@@ -1449,7 +1449,7 @@ EinsertForm(Ljava/sql/Statement;Ljava/lang/String;ILjava/lang/String;)sprogetto
 	getUser()9progettoispw.letmeknow.controller.Factory#getUser()LUser;[
 getInitialUser()Gprogettoispw.letmeknow.controller.Factory#getInitialUser()LInitialUser;?
 <init>()3progettoispw.letmeknow.controller.Factory#<init>()V‡
-,tryLog(Ljava/lang/String;Ljava/lang/String;)Wprogettoispw.letmeknow.controller.Factory#tryLog(Ljava/lang/String;Ljava/lang/String;)Z}
+,tryLog(Ljava/lang/String;Ljava/lang/String;)Wprogettoispw.letmeknow.controller.Factory#tryLog(Ljava/lang/String;Ljava/lang/String;)V}
 'concreteInitialUser(Ljava/lang/String;)Rprogettoispw.letmeknow.controller.Factory#concreteInitialUser(Ljava/lang/String;)VÌ
 &progettoispw.letmeknow.bean.SignupBeanjava.lang.Objectj
 setPassword(Ljava/lang/String;)Gprogettoispw.letmeknow.bean.SignupBean#setPassword(Ljava/lang/String;)Vd
@@ -1946,14 +1946,14 @@ Cparse(Ljava/lang/CharSequence;Ljava/time/format/DateTimeFormatter;)ljava.time.
 .progettoispw.letmeknow.SearchControllerInterf2SearchControllerInterf1D
 <init>()8progettoispw.letmeknow.SearchControllerInterf2#<init>()VL
 initialize()<progettoispw.letmeknow.SearchControllerInterf2#initialize()VB
-visit()7progettoispw.letmeknow.SearchControllerInterf2#visit()V‘	
+visit()7progettoispw.letmeknow.SearchControllerInterf2#visit()V	
 .progettoispw.letmeknow.controller.usruser.Goaljava.lang.Objecth
-setTag(Ljava/lang/String;)Jprogettoispw.letmeknow.controller.usruser.Goal#setTag(Ljava/lang/String;)Vt
- setObiettivo(Ljava/lang/String;)Pprogettoispw.letmeknow.controller.usruser.Goal#setObiettivo(Ljava/lang/String;)VD
+setTag(Ljava/lang/String;)Jprogettoispw.letmeknow.controller.usruser.Goal#setTag(Ljava/lang/String;)Vg
+getPersonalGoal()Rprogettoispw.letmeknow.controller.usruser.Goal#getPersonalGoal()Ljava/lang/String;D
 <init>()8progettoispw.letmeknow.controller.usruser.Goal#<init>()V|
-$setStrDataEurope(Ljava/lang/String;)Tprogettoispw.letmeknow.controller.usruser.Goal#setStrDataEurope(Ljava/lang/String;)VL
-getExpired()<progettoispw.letmeknow.controller.usruser.Goal#getExpired()Za
-getObiettivo()Oprogettoispw.letmeknow.controller.usruser.Goal#getObiettivo()Ljava/lang/String;Œ
+$setStrDataEurope(Ljava/lang/String;)Tprogettoispw.letmeknow.controller.usruser.Goal#setStrDataEurope(Ljava/lang/String;)Vz
+#setPersonalGoal(Ljava/lang/String;)Sprogettoispw.letmeknow.controller.usruser.Goal#setPersonalGoal(Ljava/lang/String;)VL
+getExpired()<progettoispw.letmeknow.controller.usruser.Goal#getExpired()ZŒ
 ,setStrDataAmericanEurope(Ljava/lang/String;)\progettoispw.letmeknow.controller.usruser.Goal#setStrDataAmericanEurope(Ljava/lang/String;)VU
 getTag()Iprogettoispw.letmeknow.controller.usruser.Goal#getTag()Ljava/lang/String;m
 getAmericanDataStr()Uprogettoispw.letmeknow.controller.usruser.Goal#getAmericanDataStr()Ljava/lang/String;W

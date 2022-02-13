@@ -1,26 +1,62 @@
-package progettoispw.letmeknow.bean;
+package progettoispw.letmeknow.controller;
 
-import progettoispw.letmeknow.controller.ConcreteUsrUser;
-import progettoispw.letmeknow.controller.form.ResultForm;
 
-public class FormToTakeStatusBean {
-    ResultForm form;
-    public FormToTakeStatusBean(){
-        form= ConcreteUsrUser.getResultForm();
+import progettoispw.letmeknow.bean.StringBean;
+import progettoispw.letmeknow.controller.search.Search;
+import progettoispw.letmeknow.controller.usruser.UsrUser;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ResultSearchController {
+    private int count;
+    private int nVal;
+    private Search search;
+    public ResultSearchController(Integer n){
+        nVal=n;
+        count=0;
+        search= ConcreteUsrUser.getSearch();
     }
-    public int getFormId(){
-        return form.getFormid();
+    public ResultSearchController(){
+        search= ConcreteUsrUser.getSearch();
     }
-    public int[] getValResponse(){
-        return form.getAnswers();
+    public void attach(InnerUsers elem,List <InnerUsers>formatted ){
+        formatted.add(elem);
     }
-    public String getUserid(){
-        return form.getUserid();
+    InnerUsers actual;
+    public List<InnerUsers> queryUsers(){
+        int indice;
+        actual=null;
+        List<String> founded= search.getArrayList();
+        ArrayList<InnerUsers>formatted=new ArrayList<>();
+        count = check(count, (ArrayList<String>) founded);
+        UsrUser user;
+        for (String userid : founded) {
+            if(userid==null)return formatted;
+            user=new UsrUser(userid);
+            indice = founded.indexOf(userid);
+            if (indice >= count && indice < count + nVal) {
+                actual = new InnerUsers(user);
+                attach(actual,formatted);
+            }
+        }
+        count+=nVal;
+        return formatted;
     }
-    public int getValComplete() {
-        return form.getComplete();
+
+    private Integer check(Integer count,ArrayList<String> founded) {
+        if(count>=founded.size()){
+            return 0;
+        }
+        return count;
     }
-    public boolean[] getStatus() {
-        return form.getStatus();
+    public void touched(StringBean bean){
+        search.setTouched(bean.getPass());
+    }
+    public int[] nVisit(){
+        return search.getnVisit();
+    }
+    public void reset(){
+        search.reset();
     }
 }

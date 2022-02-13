@@ -126,6 +126,7 @@ public class InitialSearchAndChatControllerInterf1 {
 
     }
     public void touchChat(String userid,ActionEvent event){
+        if(controller==null)controller=new ISCController();
         StringBean stringBean =new StringBean();
         stringBean.setPass(userid);
         controller.setTouched(stringBean);

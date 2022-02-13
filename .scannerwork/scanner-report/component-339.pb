@@ -1,1 +1,1 @@
-Ó 2javaX0hrtprogettoRieditatoTerzo/src/main/usecase/homepage/controllerApplicative/progettoispw/letmeknow/bean/HomepageBean.java
+Ó 2javaX8hr|progettoRieditatoTerzo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/controller/SearchController.java

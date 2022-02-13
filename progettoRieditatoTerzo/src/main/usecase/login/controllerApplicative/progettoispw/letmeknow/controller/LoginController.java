@@ -7,7 +7,7 @@ public class LoginController {
     public LoginController(){
         factory=new Factory();
     }
-    public boolean getLog(LogBean bean){
-        return factory.tryLog(bean.getUserid(),bean.getPassword());
+    public void getLog(LogBean bean){
+        factory.tryLog(bean.getUserid(),bean.getPassword());
     }
 }

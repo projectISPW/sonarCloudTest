@@ -28,7 +28,6 @@ public class TestLog {
        }
        return bool;
     }
-    @Test
     public List<String> testGlobalLog(){
         //it test the return of a signup and his log
         List<String>emails=new ArrayList<>();
@@ -56,6 +55,10 @@ public class TestLog {
             }
         }
         return listUids;
+    }
+    @Test
+    public void start(){
+        testGlobalLog();
     }
     public List<String> getUsrUids(){
         List<String>inner=new ArrayList<>();

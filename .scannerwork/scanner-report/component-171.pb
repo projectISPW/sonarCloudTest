@@ -1,1 +1,1 @@
-« 2javaX'hrYprogettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/chat/Message.java
+« 2xmlX	hrdprogettoRieditatoTerzo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml

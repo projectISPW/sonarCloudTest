@@ -1,1 +1,1 @@
-Ò 2javaX6hrwprogettoRieditatoTerzo/src/main/usecase/formToTake/controllerView/progettoispw/letmeknow/TakeFormControllerInterf2.java
+Ò 2javaXhroprogettoRieditatoTerzo/src/main/usecase/search/controllerApplicative/progettoispw/letmeknow/bean/ParamBean.java

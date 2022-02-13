@@ -1,1 +1,1 @@
-† 2javaXyhruprogettoRieditatoTerzo/src/main/usecase/settings/controllerView/progettoispw/letmeknow/SettingsControllerInterf1.java
+† 2xmlX	hr`progettoRieditatoTerzo/target/classes/progettoispw/letmeknow/connection/ConnectionParameters.xml

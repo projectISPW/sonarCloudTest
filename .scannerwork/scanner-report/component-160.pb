@@ -1,1 +1,1 @@
-  2xmlXhr0progettoRieditatoTerzo/.idea/sonarlint-state.xml
+  2javaX"hr_progettoRieditatoTerzo/src/main/patterns/factory/progettoispw/letmeknow/controller/Factory.java

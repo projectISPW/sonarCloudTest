@@ -1,1 +1,1 @@
-Æ 2javaXEhr†progettoRieditatoTerzo/src/main/usecase/formPsicologistResult/controllerView/progettoispw/letmeknow/FormPsychologistResultInterf1.java
+Æ 2javaXhrlprogettoRieditatoTerzo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/bean/LogBean.java

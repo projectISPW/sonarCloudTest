@@ -1,1 +1,0 @@
-í 2javaX'hr{progettoRieditatoTerzo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

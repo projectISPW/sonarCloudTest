@@ -1,22 +1,13 @@
-//utenteusr never used. should I cancel it with also library?
+package progettoispw.letmeknow.controller;
 
-package progettoispw.letmeknow.bean;
+import progettoispw.letmeknow.bean.LogBean;
 
-import progettoispw.letmeknow.controller.ConcreteUsrUser;
-import progettoispw.letmeknow.controller.form.ResultForm;
-
-public class FormResultBean {
-    ResultForm form;
-    public FormResultBean(){
-        form= ConcreteUsrUser.getResultForm();
+public class LoginController {
+    Factory factory;
+    public LoginController(){
+        factory=new Factory();
     }
-    public int[] getValResponse(){
-        return form.getAnswers();
-    }
-    public int [] getParam () {
-        return form.getParam();
-    }
-    public String getDate () {
-        return form.getDate();
+    public void getLog(LogBean bean){
+        factory.tryLog(bean.getUserid(),bean.getPassword());
     }
 }

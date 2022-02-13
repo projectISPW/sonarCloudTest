@@ -1,14 +1,17 @@
 package progettoispw.letmeknow.bean;
 
-import progettoispw.letmeknow.controller.ConcretePsyUser;
-import progettoispw.letmeknow.controller.psyuser.PsyUser;
+import progettoispw.letmeknow.controller.Factory;
 
-public class FormPsychologistResultBean {
-    PsyUser user;
-    public FormPsychologistResultBean(){
-        user= ConcretePsyUser.getPsyUser();
+public class FactoryBean {
+    Factory factory;
+    public FactoryBean(){
+        factory=new Factory();
     }
-    public float [] getSelected(){
-        return user.getSelected();
+    public String getType(){
+        try {
+            return factory.getUser().getType();
+        }catch(NullPointerException e ){
+            return null;
+        }
     }
 }

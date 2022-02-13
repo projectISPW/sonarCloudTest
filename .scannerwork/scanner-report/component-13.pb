@@ -1,0 +1,1 @@
+ 2xmlX	hr5progettoRieditatoTerzo/.idea/libraries/javax_mail.xml

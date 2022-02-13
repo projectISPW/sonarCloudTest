@@ -1,23 +1,16 @@
-package progettoispw.letmeknow;
+package progettoispw.letmeknow.bean;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.controller.Factory;
+import progettoispw.letmeknow.controller.user.InitialUser;
 
-import java.io.IOException;
-
-public class HomepageControllerInterf2 extends HomepagecontrollerInterf1{
-    @FXML
-    AnchorPane homepageEdit;
-    @FXML
-    protected void goToEditProfile(ActionEvent event){
-        try {
-            homepageEdit.getChildren().removeAll(homepageEdit.getChildren());
-            homepageEdit.getChildren().add((Node) FXMLLoader.load(getClass().getResource("homepageEdit/homepageEdit.fxml")));
-        } catch (IOException e) {
-            homepageEdit.getChildren().removeAll(homepageEdit.getChildren());
-        }
+public class SettingsBean {
+    InitialUser user;
+    public SettingsBean(){
+        Factory factory=new Factory();
+        factory.getInitialUser();
+        user= factory.getInitialUser();
+    }
+    public boolean getInfo(){
+        return user.isErrorOccurred();
     }
 }

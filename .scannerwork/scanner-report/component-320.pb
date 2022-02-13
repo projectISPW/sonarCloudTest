@@ -1,1 +1,1 @@
-À 2javaXrhraprogettoRieditatoTerzo/src/main/usecase/chat/controllerView/progettoispw/letmeknow/Decorator.java
+À 2javaX'hr{progettoRieditatoTerzo/src/main/usecase/initialSearchAndChat/controllerApplicative/progettoispw/letmeknow/bean/ISCBean.java

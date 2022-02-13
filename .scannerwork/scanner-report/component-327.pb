@@ -1,1 +1,1 @@
-Ç 2javaXhrxprogettoRieditatoTerzo/src/main/usecase/formResult/controllerApplicative/progettoispw/letmeknow/bean/FormResultBean.java
+Ç 2javaXhrzprogettoRieditatoTerzo/src/main/usecase/login/controllerApplicative/progettoispw/letmeknow/controller/LoginController.java

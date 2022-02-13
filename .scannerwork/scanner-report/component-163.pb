@@ -1,1 +1,1 @@
-£ 2xmlXhr$progettoRieditatoTerzo/.idea/vcs.xml
+£ 2javaXhrhprogettoRieditatoTerzo/src/main/patterns/singleton/progettoispw/letmeknow/controller/ParsingXMLFile.java

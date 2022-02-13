@@ -1,91 +1,54 @@
-
 package progettoispw.letmeknow;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormToTakeStatusBean;
-import progettoispw.letmeknow.bean.FormTouchedBean;
-import progettoispw.letmeknow.bean.HomepageBean;
-import progettoispw.letmeknow.controller.CollectionFormController;
+import progettoispw.letmeknow.bean.BeanResultSearch;
+import progettoispw.letmeknow.controller.SearchController;
 
-public class FormCollectionResultsInterf1 {
+public class ButtonBarInterf2 {
     PageMenu pageSwitch;
-    public static final String INTERF="interf1.fxml";
     @FXML
-    protected Text idUser;
-    public FormCollectionResultsInterf1(){
-        pageSwitch =new PageMenu();
+    Button home;
+    @FXML
+    Button chat;
+    @FXML
+    Button form;
+    @FXML
+    Button search;
+    @FXML
+    Button settings;
+    public ButtonBarInterf2(){
+        pageSwitch=new PageMenu();
     }
     public void initialize(){
-        HomepageBean bean=new HomepageBean(false);
-        idUser.setText("User"+ bean.getUserID());
+        Button [] buttons=new Button[] {home,chat,form,search,settings};
+        for(Button button:buttons)button.setStyle("-fx-opacity: 0.5");
     }
-    @FXML
-    protected void goToSettings(ActionEvent event) {
-        pageSwitch.switchToSettings(event);
+    public void goToChat(ActionEvent actionEvent) {
+        pageSwitch.switchToChat(actionEvent);
     }
-    protected  void which(int i,ActionEvent event){
-        FormTouchedBean bean=new FormTouchedBean();
-        bean.setFormTouched(i);
-        CollectionFormController controller=new CollectionFormController();
-        controller.setTouched(bean);
-        String name;
-        String title;
-        FormToTakeStatusBean formBean=new FormToTakeStatusBean();
-        if(formBean.getValComplete()==6){
-            name="formResult/form"+i+INTERF;
-        }
-        else{
-            name="formToTake/form"+i+INTERF;
-        } title="form"+i;
-        pageSwitch.switchTo(name,event,title);
+    public void goToHome(ActionEvent actionEvent) {
+        SearchController controller=new SearchController();
+       controller.reset();
+        pageSwitch.switchToHome(actionEvent);
     }
-    @FXML
-    protected void urResult(ActionEvent event) {
-        Button button=(Button) event.getTarget();
-        switch(button.getText()){
-            case "FORM 3":{
-                which(3,event);
-                break;
-            }
-            case "FORM 1":{
-                which(1,event);
-                break;
-            }
-            case "FORM 2":{
-                which(2,event);
-                break;
-            }
-            default:{
-                event.consume();
-            }
-        }
-
+    public void goToForm(ActionEvent actionEvent) {
+        pageSwitch.switchToPersonalForm(actionEvent);
     }
-    @FXML
-    public void takeForm(ActionEvent event){
-        CollectionFormController controller=new CollectionFormController();
-        controller.takeForm();
-        FormToTakeStatusBean innerBean=new FormToTakeStatusBean();
-        int val = innerBean.getFormId();
-        if(innerBean.getValComplete()<=6){
-            pageSwitch.switchTo("formToTake/form"+val+INTERF,event,"form"+val);
-        }
-        else{
-            pageSwitch.switchTo("formResult/form"+val+INTERF,event,"form"+val);
-        }
+    public void goToSettings(ActionEvent actionEvent) {
+        pageSwitch.switchToSettings(actionEvent);
     }
-    @FXML
-    protected  void goToISC(ActionEvent event){
-        pageSwitch.switchToISC(event);
+    public void goToSearch(ActionEvent actionEvent) {
+        pageSwitch.switchToSearch(actionEvent);
     }
-    @FXML
-    protected  void goToPersonalForm(ActionEvent event){
-        pageSwitch.switchToHome(event);
+    public void setOpacity(Button button ){button.setStyle("-fx-opacity: 1.0");}
+    public void setHome() {
+        setOpacity(home);
     }
-    @FXML
-    protected  void goToHome(ActionEvent event){
-        pageSwitch.switchToHome(event);}
+    public void setSearch() {
+        setOpacity(search);
+    }
+    public void setSettings() {setOpacity(settings);}
+    public void setPersonalForm() {setOpacity(form);}
 }

@@ -1,1 +1,1 @@
-Ö 2javaXhruprogettoRieditatoTerzo/src/main/usecase/homepage/controllerView/progettoispw/letmeknow/HomepageControllerInterf2.java
+Ö 2javaXhrtprogettoRieditatoTerzo/src/main/usecase/settings/controllerApplicative/progettoispw/letmeknow/bean/SettingsBean.java

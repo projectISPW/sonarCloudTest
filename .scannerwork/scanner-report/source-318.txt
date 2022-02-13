@@ -1,106 +1,98 @@
 package progettoispw.letmeknow;
 
-import javafx.animation.Animation;
-import javafx.animation.KeyFrame;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
-import javafx.scene.layout.AnchorPane;
+import progettoispw.letmeknow.bean.UsrUserBean;
+import progettoispw.letmeknow.bean.FormTouchedBean;
+import progettoispw.letmeknow.bean.HomepagePsychologistBean;
+import progettoispw.letmeknow.bean.StringBean;
+import progettoispw.letmeknow.controller.HomepagePsychologistController;
 
-import javafx.scene.text.Text;
-import javafx.util.Duration;
-import progettoispw.letmeknow.bean.BeanResultSearch;
-
-
-import javafx.animation.Timeline;
-import progettoispw.letmeknow.bean.ChatBean;
-import progettoispw.letmeknow.bean.MessageBean;
-import progettoispw.letmeknow.bean.MessageTextModel;
-import progettoispw.letmeknow.controller.ChatController;
-
-
-public class ChatControllerInterf1 {
+public class HomepagePsychologistInterf1 {
+    Page pageSwitch;
     @FXML
-    private AnchorPane messaggi;
+    Label count1;
     @FXML
-    private TextArea inputmsg;
+    Label count2;
     @FXML
-    private ScrollPane scrollpane;
+    Label count3;
     @FXML
-    protected Text withName;
-    protected  boolean initializated;
-    protected  PageMenu pageSwitch;
-    protected ChatBean bean;
-    protected  String [] message;
-    protected Decorator graphic;
-    protected Timeline timeline;
-    public ChatControllerInterf1() {
-        bean=new ChatBean();
-        graphic=new Decorator(true);
-        initializated=false;
-        pageSwitch =new PageMenu();
-        timeline=new Timeline(new KeyFrame(Duration.millis(5000),this::action));
-        timeline.setCycleCount(Animation.INDEFINITE);//never stop
+    Label month;
+    @FXML
+    TextArea feedback;
+    public static final String  USERS="users";
+    protected HomepagePsychologistController controller;
+    public HomepagePsychologistInterf1(){
+        pageSwitch =new Page();
+        controller=new HomepagePsychologistController();
+    }
+    public void initialize(){
+        HomepagePsychologistBean bean=new HomepagePsychologistBean();
+        int[] current=bean.getForms();
+        count1.setText(current[0]+USERS);
+        count2.setText(current[1]+USERS);
+        count3.setText(current[2]+USERS);
+        month.setText(bean.getMonth());
+    }
+    public void increm() {
+        controller.increm();
+        initialize();
+    }
+    public void decrem() {
+        controller.decrem();
+        initialize();
     }
     @FXML
-    protected void sendMsg() {
-        MessageTextModel beanMsg=new MessageTextModel();
-        MessageBean messageBean=new MessageBean();
-        messageBean.setText(inputmsg.getText());
-        messageBean.setReciver(bean.getWith());
-        ChatController controller=new ChatController();
-        controller.newMSG(messageBean);
-        inputmsg.setText(beanMsg.getTextMsg());
-        recivemsgArr();
-    }
-    private  void action(ActionEvent event ){
-        if(initializated) {
-            recivemsgArr();
-        }
-    }
-    public void  recivemsgArr() {
-        message = bean.getMSG();
-        Label textmsg;
-        for (int i = 0; i < message.length; i += 2) {
-            graphic.setText(message[i]);
-            if (message[i + 1].equals("i am the sender")) {
-                textmsg = graphic.getMessageSended();
-            } else {
-                textmsg = graphic.getMessageRecived();
+    public int  getSelected(ActionEvent event){
+        Button button=(Button) event.getTarget();
+        int val=0;
+        FormTouchedBean bean=new FormTouchedBean();
+        switch(button.getId()){
+            case "form1" :{
+                val=1;
+                break;
             }
-            messaggi.getChildren().add(textmsg);
-            messaggi.setPrefHeight(graphic.getAumenta());
-            scrollpane.setVvalue(1.0);
+            case "form2" :{
+                val=2;
+                break;
+            }
+            case "form3" :{
+                val=3;
+                break;
+            }
+            default :{
+                event.consume();
+            }
         }
-        initializated=true;
+        bean.setFormTouched(val);
+        controller.setSelected(bean);
+        return val;
+     }
+     @FXML
+     public void select(ActionEvent event){
+        int formid=getSelected(event);
+        pageSwitch.switchTo("formResultPsychologist/form"+formid+"interf1.fxml",event,"users results");
+     }
+    public void suggestForm(){
+        feedback.setStyle("-fx-border-color: white;");
+        StringBean bean=new StringBean();
+        UsrUserBean beanError=new UsrUserBean();
+        bean.setPass(feedback.getText());
+        controller.setFeed(bean);
+        if(beanError.getInfo()){
+            feedback.setText("");
+        }
+        else{
+            feedback.setStyle("-fx-border-color: red;");
+        }
     }
-    public void  initialize(){
-        withName.setText("User #"+bean.getWith());
-        recivemsgArr();
-        timeline.play();
+    public void backTo(){
+        pageSwitch.backTo();
     }
-    @FXML
-    protected void goToHome(ActionEvent event){
-        timeline.stop();
-        pageSwitch.switchToHome(event);
-    }
-    @FXML
-    protected void goBack(ActionEvent event) {
-        timeline.stop();
-        pageSwitch.switchToISC(event);
-    }
-    @FXML
-    protected void goToPersonalForm(ActionEvent event)  {
-        timeline.stop();
-        pageSwitch.switchToPersonalForm(event);
-    }
-    @FXML
-    protected void touchedHome(ActionEvent event){
-        ResultSearchControllerInterf1 rscView=new ResultSearchControllerInterf1();
-        rscView.setTouchedHome(bean.getWith());
-        timeline.stop();
-        pageSwitch.switchTo("homepageOthers/interf1.fxml",event,"Visit");
+    public void goToSettings(ActionEvent event ){
+        pageSwitch.switchTo("settingsPsychologist/interf1.fxml",event,"Settings");
     }
 }

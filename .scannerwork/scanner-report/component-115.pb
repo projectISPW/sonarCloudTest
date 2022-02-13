@@ -1,0 +1,1 @@
+s 2xmlXhr0progettoRieditatoTerzo/.idea/sonarlint-state.xml

@@ -1,70 +1,108 @@
-//var on same line
 package progettoispw.letmeknow;
+
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.*;
+import progettoispw.letmeknow.bean.FactoryBean;
+import progettoispw.letmeknow.bean.LogBean;
+import progettoispw.letmeknow.controller.LoginController;
 
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.text.Text;
-import progettoispw.letmeknow.bean.FormResultBean;
 
-
-public class FormResultInterf1 {
+public class LoginControllerInterf1 {
+    private Page pageSwitch;
     @FXML
-    ImageView empathySlider;
+    private PasswordField labPassword;
     @FXML
-    ImageView humorSlider;
+    private Label show;
     @FXML
-    ImageView optimismSlider;
-    ImageView [] param;
+    private TextField labUser;
     @FXML
-    ImageView ans1;
-    @FXML
-    ImageView ans2;
-    @FXML
-    ImageView ans3;
-    @FXML
-    ImageView ans4;
-    @FXML
-    ImageView ans5;
-    @FXML
-    ImageView ans6;
-    ImageView [] images;
-    @FXML
-    Text by;
-    FormResultBean bean ;
-    PageMenu controller ;
-    int [] values;
-    public FormResultInterf1(){
-        bean=new FormResultBean();
-        controller=new PageMenu();
+    private ScrollPane scroll;
+    private boolean clicked;
+    public LoginControllerInterf1(){
+        pageSwitch =new Page();
+        clicked=false;
     }
+    @FXML
+    protected void switchToSignup(ActionEvent event) {
+        pageSwitch.switchTo("signup/interf1.fxml",event,"Signup");
+    }
+    @FXML
+    protected void switchToSignUpPsych(ActionEvent event) {
+        pageSwitch.switchTo("signupPsychologist/interf1.fxml",event,"Signup");}
+    @FXML
+    protected void switchToRecoverPswd(ActionEvent event) {
+        pageSwitch.switchTo("recoverpassword/interf1.fxml",event,"Recover password");}
+    @FXML
+    protected void setSize(ActionEvent event ){
+        pageSwitch.setSize("login/interf1.fxml",event);}
     public void initialize(){
-        HomepagecontrollerInterf1 homepage=new HomepagecontrollerInterf1();
-        controller=new PageMenu();
-        values=bean.getValResponse();
-        images= new ImageView[]{ans1,ans2,ans3,ans4,ans5,ans6};
-        param=new ImageView[]{empathySlider,humorSlider, optimismSlider};
-        int indice=0;
-        for(ImageView image:images ){
-            homepage.setSlider(image,values[indice++]);
+        labUser.textProperty().addListener((observableValue, s, t1) -> {
+            if(labUser.getText().equals("")){
+                color(true);
+            }
+        });
+        labPassword.textProperty().addListener((observableValue, s, t1) -> {
+            if(labPassword.getText().equals("")){
+                color(true);
+            }
+        });
+    }
+    @FXML
+    protected void showPSWD(){
+        if(!clicked){
+            scroll.setOpacity(0.8);
+            show.setOpacity(0.8);
+            show.setText(labPassword.getText());
+            clicked=true;
         }
-        values= bean.getParam();
-        indice=0;
-        for(ImageView image:param){
-            homepage.setSlider(image,values[indice++]);
+        else{
+            show.setOpacity(0);
+            scroll.setOpacity(0);
+            clicked=false;
         }
-        by.setText(bean.getDate());
+    }
+    private void color(boolean bool){
+        if(!bool){
+            labUser.setStyle("-fx-border-color: red");
+            labPassword.setStyle("-fx-border-color: red");
+        }
+        else{
+            labUser.setStyle("-fx-background-color: #F2F2F2");
+            labPassword.setStyle("-fx-background-color: #F2F2F2");
+        }
     }
     @FXML
-    protected  void goToISC(ActionEvent event){
-        controller.switchToISC(event);
+    protected void switchToHome(ActionEvent event) {
+        color(true);
+        if(labUser.getText().equals("") || labPassword.getText().equals(""))
+        {
+            color(false);
+        }else {
+            LogBean bean=new LogBean();
+            bean.setUserid(labUser.getText());
+            bean.setPassword(labPassword.getText());
+            LoginController controller=new LoginController();
+            controller.getLog(bean);
+            FactoryBean factoryBean=new FactoryBean();
+            switch(factoryBean.getType()){
+                    case null:{
+                        color(false);
+                        break;
+                    }
+                    case "usr":{
+                        pageSwitch.switchTo("homepage/interf1.fxml",event,"Home");
+                        break;
+                    }
+                    case "psy":{
+                        pageSwitch.switchTo("homepagePsychologist/interf1.fxml",event,"Home");
+                        break;
+                    }
+                    default:{
+                        color(false);
+                    }
+                }
+            }
+        }
     }
-    @FXML
-    protected  void goToHome(ActionEvent event){controller.switchToHome(event);}
-    @FXML
-    public void goBack(ActionEvent actionEvent) {
-        controller.switchToPersonalForm(actionEvent);
-    }
-}

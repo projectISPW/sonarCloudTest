@@ -1,1 +1,1 @@
-¥ 2xmlXLhrprogettoRieditatoTerzo/pom.xml
+¥ 2javaXMhrSprogettoRieditatoTerzo/src/main/patterns/singleton/progettoispw/letmeknow/Page.java

@@ -1,0 +1,1 @@
+Í 2javaX#hr|progettoRieditatoTerzo/src/main/usecase/resultSearch/controllerApplicative/progettoispw/letmeknow/bean/BeanResultSearch.java

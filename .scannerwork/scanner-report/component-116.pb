@@ -1,0 +1,1 @@
+t 2xmlXhr*progettoRieditatoTerzo/.idea/sonarlint.xml

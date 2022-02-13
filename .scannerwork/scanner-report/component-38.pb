@@ -1,1 +1,0 @@
-& 2xmlX	hr<progettoRieditatoTerzo/.idea/libraries/fontawesomefx_8_2.xml

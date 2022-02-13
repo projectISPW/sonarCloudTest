@@ -1,16 +1,16 @@
 
-Oprogettoispw.letmeknow.controller.usruser.Goal#getObiettivo()Ljava/lang/String;{
-qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java8 8("1*˛
+Rprogettoispw.letmeknow.controller.usruser.Goal#getPersonalGoal()Ljava/lang/String;{
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java8 8(!"1*Å
 1{
-qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(·
-ﬁ
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(‰
+·
 {
-qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(
-%0java.lang.String"__id*A*?0
-.progettoispw.letmeknow.controller.usruser.Goal"
-	obiettivo"ó
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(
+%0java.lang.String"__id*D*B0
+.progettoispw.letmeknow.controller.usruser.Goal"
+personalGoal"ó
 {
-qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(
+qC:/sonar/sonarCloudTest/progettoRieditatoTerzo/src/main/model/progettoispw/letmeknow/controller/usruser/Goal.java9 9(
 
 %0java.lang.StringB20
 .progettoispw.letmeknow.controller.usruser.Goal

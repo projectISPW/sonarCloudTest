@@ -1,1 +1,1 @@
-¬ 2javaXhrìprogettoRieditatoTerzo/src/main/usecase/formCollectionResults/controllerApplicative/progettoispw/letmeknow/controller/CollectionFormController.java
+¬ 2javaX®hrçprogettoRieditatoTerzo/src/main/usecase/initialSearchAndChat/controllerView/progettoispw/letmeknow/InitialSearchAndChatControllerInterf1.java

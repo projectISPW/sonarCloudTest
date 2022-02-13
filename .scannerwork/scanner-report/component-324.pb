@@ -1,1 +1,1 @@
-Ä 2javaX?hr…progettoRieditatoTerzo/src/main/usecase/formCollectionResults/controllerView/progettoispw/letmeknow/FormCollectionResultsInterf2.java
+Ä 2javaXRhraprogettoRieditatoTerzo/src/main/usecase/java/controllerView/progettoispw/letmeknow/WordCheck.java

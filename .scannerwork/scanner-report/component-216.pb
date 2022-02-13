@@ -1,1 +1,0 @@
-Ø 2xmlX	hrdprogettoRieditatoTerzo/src/main/resources/progettoispw/letmeknow/connection/ConnectionParameters.xml
